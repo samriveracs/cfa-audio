@@ -1,0 +1,169 @@
+## The big picture
+
+This episode is about putting numbers on uncertainty. The first two modules take a set of past returns and summarize it. Where is the center, how widely do the returns scatter, is the shape lopsided, and are the tails fatter than a normal curve would suggest? Then the question widens to two return series and whether they move together.
+
+The third module turns the direction around. Instead of summarizing history, you build a model of what might happen next, attach a probability to each outcome, and compute an expected value and a standard deviation. Then you learn to update those probabilities when new information arrives, which is exactly what Bayes' formula does.
+
+Why does this matter on the exam? Standard deviation is the default risk measure in portfolio management, correlation drives diversification, and skewness and kurtosis explain why a normal curve can understate risk. Expected values and probability trees come back in equity, fixed income and derivatives. The questions here tend to be short and mechanical, so they are reliable points if you know the formulas cold and recognize the traps.
+
+Keep one contrast in mind all episode. With sample data, as in Modules 3.1 and 3.2, sample variance and covariance divide by n minus 1. With a probability model, as in Module 4.1, you weight each outcome by its probability and there is no n minus 1 anywhere.
+
+## Module 3.1, Central Tendency and Dispersion
+
+Start with why. Sixty monthly returns are impossible to hold in your head, so you want one number for where they cluster, called central tendency, and one for how widely they scatter, called dispersion. Return is the reward, and dispersion is the most common stand in for risk.
+
+The arithmetic mean equals the sum of all the observations divided by the number of observations. One property matters later. If you subtract the mean from each observation and add up those deviations, the total is always exactly zero, because the positives and negatives cancel.
+
+The weakness is that one extreme value can drag the mean a long way. Take five annual returns: 2, 4, 6, 8 and 10 percent. They add to 30, so the mean is 6 percent. Change the last return to 50 percent and the sum becomes 70, so the mean jumps to 14 percent, even though four of the five years were nowhere near 14.
+
+The median fixes that. The median is the middle observation after sorting, or the average of the two middle values when the count is even. In both versions of our example the median is 6 percent. The outlier moved the mean by 8 percentage points and the median not at all, which is why the median is called robust.
+
+The mode is the value that occurs most often, and a dataset can be unimodal, bimodal or have more modes. Returns rarely repeat exactly, so in practice you group them into intervals, and the interval holding the most observations is the modal interval.
+
+Two compromise measures sit between the mean and the median. A trimmed mean throws away a stated percentage of the most extreme observations, split evenly between the two tails, and averages what is left. A 5 percent trimmed mean drops the lowest 2.5 percent and the highest 2.5 percent of the observations. A winsorized mean keeps every observation but pulls the extremes in. A 95 percent winsorized mean takes the lowest 2.5 percent of values and sets them equal to the value right at that cutoff, and does the same thing to the highest 2.5 percent.
+
+Keep the mechanics straight. Trimming deletes observations, while winsorizing replaces them. With the 50 percent year included, trim one observation from each end and you average 4, 6 and 8, which gives 6 percent. Winsorize one at each end instead, so the 2 becomes a 4 and the 50 becomes an 8, and the average of 4, 4, 6, 8 and 8 is again 6 percent.
+
+Next come measures of location, called quantiles. A quantile is a value at or below which a stated fraction of the data lies. Quartiles split sorted data into four equal parts, quintiles into five, deciles into ten and percentiles into one hundred. The median is the second quartile, the fifth decile and the 50th percentile, all at once.
+
+To find a percentile in a sorted sample, first find its position. The position equals n plus 1, multiplied by y, divided by 100. Here n is the number of observations and y is the percentile you are looking for, such as 25 for the first quartile. Say you have 10 sorted returns and want that first quartile. The position is 11 times 25 divided by 100, which is 2.75.
+
+Position 2.75 is not a whole number, so you interpolate. Start at the second observation and move 75 percent of the way toward the third. If the second observation is 4 percent and the third is 8 percent, the gap is 4, three quarters of the gap is 3, and the first quartile is 7 percent. The traps are forgetting the plus 1, and grabbing the nearest observation instead of interpolating.
+
+The interquartile range equals the third quartile minus the first quartile. It is the spread of the middle half of the data, so a few outliers cannot distort it. A box and whisker plot draws exactly this. The box runs from the first quartile to the third quartile, a line inside the box marks the median, and the whiskers reach out toward the extreme values. If the median line sits near the bottom of the box and the upper whisker is long, the data stretch to the right, which hints at positive skew.
+
+Now dispersion. The simplest measure is the range, which equals the maximum minus the minimum. It is easy, but it uses only two observations and ignores everything in between.
+
+Better measures use every deviation from the mean, but raw deviations always sum to zero, so you need a fix. The mean absolute deviation takes absolute values. It equals the sum of the absolute values of each observation minus the mean, divided by n. The other fix squares the deviations, which leads to variance.
+
+The sample variance equals the sum of the squared deviations from the sample mean, divided by n minus 1. The sample standard deviation is the positive square root of the sample variance, which puts risk back into the same units as the returns. Why n minus 1? Estimating the mean from the same data uses up one degree of freedom, and dividing by n minus 1 corrects the downward bias you would get from dividing by n. If you truly have the whole population, you divide by the population size instead, but exam questions usually hand you a sample.
+
+Now the numbers, using the clean five returns: 2, 4, 6, 8 and 10 percent, with a mean of 6. The deviations are negative 4, negative 2, zero, positive 2 and positive 4. The range is 10 minus 2, which is 8 percent. For the mean absolute deviation, drop the signs: 4, 2, 0, 2 and 4 add to 12, and 12 divided by 5 is 2.4 percent.
+
+For the variance, square the deviations: 16, 4, 0, 4 and 16, which add to 40. Divide by n minus 1, which is 4, and the sample variance is 10, measured in percent squared. The sample standard deviation is the square root of 10, about 3.16 percent. Notice the mean absolute deviation of 2.4 is smaller, because squaring gives extra weight to the larger deviations.
+
+The B A two plus does all of this in its statistics worksheets. Press second, then 7, to open the data worksheet. Clear any old data by pressing second, then the C E C key, which is clear work. The display shows X zero one. Type 2 and press enter, then press the down arrow twice. The first press shows Y zero one, which defaults to 1 and acts as a frequency, and the second press takes you to X zero two.
+
+Enter the other four returns the same way. Then press second, then 8, to open the stat worksheet, where the first screen shows the calculation method. Press second, then enter, which is the set function, until the display reads 1 V, for one variable, and then scroll down.
+
+You will see n equal to 5, then x bar, the mean, at 6, then S x, the sample standard deviation, at about 3.162, then sigma x, the population standard deviation, at about 2.828. Use S x for a sample, and square it for the sample variance. The most common error is skipping the clear step, so old data quietly ends up in your answer.
+
+Standard deviation has a scale problem, since 10 percent of volatility means more for an asset averaging 2 percent than for one averaging 20 percent. The coefficient of variation fixes that. It equals the standard deviation divided by the mean. It measures risk per unit of return, so lower is better, and in our example it is 3.16 divided by 6, about 0.53.
+
+Here is the trap. The Sharpe ratio runs the other way, excess return per unit of risk, so higher is better there. For the least risk per unit of return, pick the lowest coefficient of variation. Also be wary when the mean is near zero or negative, because the ratio then blows up or flips sign.
+
+Last, downside risk. Standard deviation penalizes upside surprises as much as downside ones, so target semideviation looks only below a target return you choose. The target semideviation equals the square root of the following: take only the observations at or below the target, square each one's shortfall from the target, add those squares, and divide by n minus 1, where n is the total number of observations in the whole sample.
+
+Example. Use the same five returns with a target of 5 percent. Only 2 and 4 fall below the target, with shortfalls of 3 and 1. Squared, those are 9 and 1, which add to 10. Divide by n minus 1, which is 4 because there are five observations in total, and you get 2.5. The square root of 2.5 is about 1.58 percent.
+
+Here is the trap. Candidates divide by the count of observations below the target, or by that count minus 1. With two observations below target, dividing by 1 gives the square root of 10, about 3.16, which is double the right answer. Count the whole sample, and measure shortfalls from the target, not from the mean.
+
+If you carry one formula out of this module, make it this one. The sample variance equals the sum of the squared deviations from the sample mean, divided by n minus 1, and the sample standard deviation is its square root.
+
+## Module 3.2, Skewness, Kurtosis, and Correlation
+
+A normal distribution is fully described by its mean and standard deviation. Real return distributions often are not normal, so you need two more descriptions of shape. Skewness measures lopsidedness. Kurtosis measures how much probability sits in the tails.
+
+A symmetric distribution has skewness of zero, and if it has a single peak, its mean, median and mode are equal. A positively skewed distribution has a long tail to the right. Think of frequent small losses and a few very large gains. A negatively skewed distribution has a long tail to the left, which means frequent small gains and a few very large losses.
+
+Now the ordering, which is tested constantly. The mean chases the long tail, because it gives every value full weight, including the extreme ones. The mode stays at the peak and the median sits between them. So with positive skew, the mean is greater than the median, which is greater than the mode. With negative skew the order reverses, and the mean is the smallest of the three.
+
+Why does the measure behave this way? The sample skewness is roughly the average of the cubed deviations from the mean, divided by the standard deviation cubed. Cubing keeps the sign of each deviation and magnifies big deviations far more than small ones. If the big deviations are on the upside, the large positive cubes dominate and skewness comes out positive. Dividing by the standard deviation cubed makes the measure unit free.
+
+Quick example. A fund has a mean return of 9 percent and a median return of 6 percent. The mean is above the median, so the distribution is most likely positively skewed, with a long right tail.
+
+Other things equal, investors favor positive skew and dislike negative skew, because negative skew means the rare surprises are large losses. Here is the trap. A negatively skewed strategy can show a good mean and a low standard deviation for years, then give much of it back in one bad period, and those two statistics alone will not warn you.
+
+Kurtosis measures how much weight sits in the tails compared with a normal distribution. The sample kurtosis is roughly the average of the deviations raised to the fourth power, divided by the standard deviation raised to the fourth power. The fourth power makes extreme deviations dominate even more, and because the power is even, kurtosis describes both tails together without saying which side the extremes come from.
+
+A normal distribution has kurtosis of 3. Because 3 is the benchmark, analysts usually report excess kurtosis, which equals kurtosis minus 3. A normal distribution has excess kurtosis of zero and is called mesokurtic. A distribution with positive excess kurtosis is leptokurtic, and a distribution with negative excess kurtosis is platykurtic.
+
+Picture the shapes. Compared with a normal distribution with the same mean and variance, a leptokurtic distribution has a taller, thinner peak and fatter tails, so extreme outcomes happen more often than the normal curve predicts. Lepto means slender, which describes that tall peak. A platykurtic distribution has thinner tails and a flatter top. Platy means flat, as in a plateau.
+
+Two traps. First, read whether a question gives you kurtosis or excess kurtosis. A kurtosis of 4 is an excess kurtosis of 1, which is leptokurtic. Second, fat tails are not the same thing as a high standard deviation. Two distributions can share the same mean and standard deviation and still have very different tails.
+
+Many asset classes show leptokurtic returns, often with negative skew, so a model that assumes normality understates the chance of a severe loss. That is one reason capital planning at banks and credit unions leans on stress scenarios rather than a normal curve for the bad tail.
+
+Now two variables at once. Covariance measures whether two variables tend to move in the same direction. The sample covariance equals the sum, across all periods, of the deviation of X from its mean times the deviation of Y from its mean, divided by n minus 1. When both sit on the same side of their means, the product is positive, and when they sit on opposite sides it is negative. The sign of the total tells you which pattern dominates.
+
+Covariance has two problems. Its units are awkward, such as percent squared, and its size has no natural scale, because it depends on how volatile the two variables are. Correlation fixes both problems. The correlation equals the covariance of X and Y divided by the product of the standard deviation of X and the standard deviation of Y. Correlation has no units and always falls between negative 1 and positive 1.
+
+Worked example over three periods. Asset X returns 2, 4 and 6 percent. Asset Y returns 1, 5 and 3 percent. The mean of X is 4 and the mean of Y is 3. In period one, X is 2 below its mean and Y is 2 below its mean, so the product is positive 4. In periods two and three, one of the two assets sits exactly at its mean, so both products are zero.
+
+The sum of the products is 4. Divide by n minus 1, which is 2, and the covariance is 2. Each standard deviation also works out to 2. So the correlation equals 2 divided by 2 times 2, which is 2 divided by 4, or 0.5.
+
+The B A two plus can confirm it. Clear the data worksheet, then enter the X values in the X slots and the Y values in the Y slots, this time filling in every Y. Open the stat worksheet and press second, then enter, until the display reads L I N, for linear. Scroll down past the means, the standard deviations and the regression values a and b, until you reach r, the correlation coefficient, which should read 0.5. The calculator does not display covariance, but you can recover it as r times S x times S y.
+
+A correlation of positive 1 means the points on a scatter plot fall exactly on an upward sloping straight line. Negative 1 means they fall exactly on a downward sloping line, and zero means no linear relationship.
+
+Three limitations are tested. First, correlation only captures linear relationships, so two variables can be tightly linked along a curve and still show a correlation near zero. Second, a single outlier can create or hide an apparent relationship. Third, correlation can be spurious, arising from pure chance or from a third variable that drives both series. And correlation never proves causation.
+
+Here is the trap. Zero correlation means no linear relationship. It does not mean the variables are independent. Independence implies zero correlation, but zero correlation does not imply independence, so an answer choice saying the variables are unrelated is too strong.
+
+The rules to carry out of this module are short. Correlation equals covariance divided by the product of the two standard deviations. In a positively skewed distribution, the mean is above the median, which is above the mode.
+
+## Module 4.1, Probability Models, Expected Values, and Bayes’ Formula
+
+This module models outcomes you have not seen yet, so start with the language. An unconditional probability is the chance of an event with no extra information, such as the probability of a recession next year. A conditional probability is the chance of an event given that something else is true, such as the probability a company beats its earnings forecast given that the economy is expanding. You read it as the probability of A given B. The joint probability of A and B equals the probability of A given B times the probability of B, and that multiplication rule is how you move along the branches of a tree.
+
+The expected value of a random variable equals the sum, across all possible outcomes, of each outcome times its probability. It is a probability weighted average. The variance equals the sum, across all outcomes, of each probability times the squared difference between that outcome and the expected value. The standard deviation is the square root of the variance.
+
+Example. A stock's return next year has three scenarios: a 20 percent chance of a 20 percent return, a 50 percent chance of a 10 percent return, and a 30 percent chance of a zero return. For the expected return, 0.2 times 20 is 4, 0.5 times 10 is 5, and 0.3 times zero is zero. Add them and the expected return is 9 percent.
+
+For the variance, take each outcome's deviation from 9: positive 11, positive 1 and negative 9. Square them to get 121, 1 and 81. Weight by probability: 0.2 times 121 is 24.2, 0.5 times 1 is 0.5, and 0.3 times 81 is 24.3. Those add to 49, so the variance is 49 percent squared and the standard deviation is 7 percent.
+
+Here is the trap. With a probability model you weight by probabilities and you do not divide by n minus 1. The n minus 1 belongs to sample data from Module 3.1, and mixing the two methods is a classic error. Also check that the probabilities add to 1, because a question may expect you to infer a missing one.
+
+A probability tree lays out scenarios in stages. The first set of branches might be the state of the economy. From each of those, a second set of branches shows outcomes conditional on that state. Multiply the probabilities along a path to get the joint probability of ending up at that endpoint, and all the endpoint probabilities must add to 1.
+
+Example. The economy is good with probability 0.6 and poor with probability 0.4. If it is good, earnings per share will be 3 dollars or 2 dollars, each with probability one half. If it is poor, earnings per share will be 1.50 dollars or 50 cents, each with probability one half. So expected earnings given a good economy is 2.50 dollars, and expected earnings given a poor economy is 1 dollar. Those two numbers are conditional expectations.
+
+Now combine them. Overall expected earnings equal 0.6 times 2.50 dollars, plus 0.4 times 1 dollar, which is 1.50 plus 0.40, or 1.90 dollars. Check the endpoints too. Each good path has a joint probability of 0.6 times one half, which is 0.3, and each poor path has 0.4 times one half, which is 0.2. Then 0.3, 0.3, 0.2 and 0.2 add to 1, so the tree is complete.
+
+What you just used is the total probability rule for expected value. The expected value equals the sum, across scenarios, of the expected value given each scenario times the probability of that scenario. The scenarios must be mutually exclusive, meaning only one can happen, and exhaustive, meaning one of them must happen. Balance sheet scenario analysis works the same way, because you project net interest income under each rate path and then weight each path by its probability.
+
+Now Bayes' formula, which is about updating. You start with a prior probability for an event, new information arrives, and Bayes' formula turns the prior into an updated probability, often called the posterior.
+
+Here is the formula, slowly. The probability of the event given the new information equals the probability of the information given the event, times the prior probability of the event, all divided by the unconditional probability of the information. You usually have to build that denominator with the total probability rule. It equals the probability of the information given the event times the probability of the event, plus the probability of the information given no event times the probability of no event.
+
+Worked example. Your prior probability of a recession next year is 20 percent. A leading indicator flashes a warning 80 percent of the time when a recession is coming. It also flashes a false warning 10 percent of the time when no recession is coming. The indicator just flashed, so what is the probability of a recession now?
+
+Build the denominator first. The chance of a true warning is 0.8 times 0.2, which is 0.16. The chance of a false warning is 0.1 times 0.8, which is 0.08. So the total probability of a warning is 0.24. The recession share of that is 0.16, and 0.16 divided by 0.24 is two thirds, about 67 percent.
+
+If fractions are hard to hold while you are moving, think in counts. Picture 100 years. In 20 of them a recession follows, and the indicator warns in 16 of those. In the other 80, it falsely warns in 8. That is 24 warnings, 16 of them real, and 16 out of 24 is two thirds.
+
+Three traps. First, do not confuse the probability of the information given the event, 80 percent, with the probability of the event given the information, 67 percent. Questions are built so the 80 percent looks like the answer. Second, do not forget the false warnings, because leaving out the 0.08 gives a probability of 1, which is obviously wrong. Third, check the direction. The warning raised the probability from 20 percent to 67 percent, because information that is more likely when the event is true than when it is false always pushes the probability up.
+
+The formula to carry out of this module is Bayes' formula. The updated probability of the event equals the probability of the information given the event, times the prior probability of the event, divided by the total probability of the information.
+
+## Recall check
+
+Q: A return distribution has a mean of 9 percent, a median of 6 percent and a mode of 4 percent. What kind of skew does it most likely have?
+
+Answer: Positive skew. The mean is pulled toward the long tail, so a mean above the median, and a median above the mode, point to a long right tail. Expect frequent small losses and a few large gains.
+
+Q: You compute target semideviation from 12 monthly returns, and 4 of them fall below the target. What number do you divide the sum of squared shortfalls by?
+
+Answer: 11. The denominator is n minus 1, where n is the full sample of 12 returns, not the 4 that fell below the target. Dividing by 4 or by 3 is the tempting mistake, and it makes downside risk look larger than it is.
+
+Q: Two assets have a covariance of 0.006, and their standard deviations are 0.10 and 0.30. What is their correlation?
+
+Answer: 0.2. Multiply the standard deviations to get 0.03, then divide the covariance of 0.006 by 0.03. A correlation must sit between negative 1 and positive 1, which is a quick sanity check.
+
+Q: A fund's return distribution has excess kurtosis of 2. Compared with a normal distribution with the same mean and variance, what is most likely true?
+
+Answer: It is leptokurtic, with fatter tails, so extreme outcomes happen more often than a normal curve predicts. A risk measure that assumes normality would understate the chance of a large loss. Kurtosis alone does not tell you which tail the extremes come from.
+
+Q: The prior probability of an event is 50 percent. A signal appears 60 percent of the time when the event is true and 20 percent of the time when it is false. If the signal appears, what is the updated probability?
+
+Answer: 75 percent. The probability of the signal is 0.6 times 0.5 plus 0.2 times 0.5, which is 0.3 plus 0.1, or 0.4. The updated probability is 0.3 divided by 0.4, which is 0.75.
+
+Q: Two variables have a sample correlation very close to zero. Which conclusion is most accurate: they are unrelated, they have little or no linear relationship, or neither causes the other?
+
+Answer: They have little or no linear relationship. Correlation only measures straight line association, so a strong curved relationship can still produce a correlation near zero. Saying they are unrelated is too strong, and correlation says nothing about causation either way.
+
+## Recap
+
+The median is robust to outliers and the mean is not, while a trimmed mean deletes the extremes and a winsorized mean replaces them. Sample variance and target semideviation both divide by n minus 1 using the whole sample, and on the B A two plus the sample standard deviation is S x in the one variable stat worksheet. The coefficient of variation is standard deviation divided by mean, which is risk per unit of return, so lower is better. In a positively skewed distribution the mean is above the median, which is above the mode, because the mean chases the tail.
+
+Excess kurtosis equals kurtosis minus 3, and a positive value means fat tails and more extreme outcomes than a normal distribution. Correlation equals covariance divided by the product of the two standard deviations, runs from negative 1 to positive 1, and captures only linear relationships. In a probability model, expected value and variance weight each outcome by its probability, with no n minus 1 anywhere. Bayes' formula updates a prior, and the updated probability equals the probability of the information given the event, times the prior, divided by the total probability of the information.

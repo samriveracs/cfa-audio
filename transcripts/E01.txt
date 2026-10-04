@@ -1,0 +1,187 @@
+## The big picture
+
+This episode covers the first two readings of Quantitative Methods, and they share one idea. Money has a time stamp. A dollar today and a dollar in five years are different goods, and an interest rate is the exchange rate between them.
+
+Reading 1 is about measuring what an investment earned. You will meet the holding period return, three kinds of averages, the time weighted and money weighted returns, and returns adjusted for time, fees, taxes, inflation and leverage.
+
+Reading 2 runs the machine the other way. You use a required return to value the future cash flows of bonds, loans and stocks. Then you flip it and back out the return implied by a market price. The reading closes with cash flow additivity, the rule behind forward rates and no arbitrage pricing.
+
+These tools reappear in fixed income, equity, derivatives and portfolio management. Exam questions here are often quick calculations with a twist, usually the wrong mean, the wrong dividend, the wrong sign or the wrong calculator mode. So listen for the traps as closely as the formulas.
+
+## Module 1.1, Interest Rates and Return Measurement
+
+An interest rate can be read three ways. First, as a required rate of return, the minimum an investor needs before agreeing to lend or invest. Second, as a discount rate, the rate that converts a future amount into its value today. Third, as an opportunity cost, what you give up by spending now instead of investing.
+
+Next, what is inside an interest rate. The base is the real risk free rate, the pure reward for waiting, with no inflation and no risk. Add an inflation premium for the expected loss of purchasing power, and you have the nominal risk free rate, roughly what a short term government bill pays.
+
+Then come three risk premiums. The default risk premium pays for the chance the borrower does not pay as promised. The liquidity premium pays for the loss you might take selling quickly, below fair value. The maturity premium pays for the greater price sensitivity of longer term bonds when rates change.
+
+So the required rate on a security equals the real risk free rate, plus the inflation premium, plus the default risk, liquidity and maturity premiums. Try it. A real rate of 2 percent and expected inflation of 3 percent give a nominal risk free rate of about 5 percent. Add 1.5 percent for default risk, half a percent for liquidity and 1 percent for maturity, and a corporate bond needs to yield about 8 percent.
+
+One precision point. Adding the real rate and inflation is an approximation. Exactly, one plus the nominal rate equals one plus the real rate, times one plus inflation. With 2 and 3 percent, that gives 5.06 percent.
+
+Now returns. The holding period return, over any single period you choose, equals the ending price minus the beginning price, plus any income received, all divided by the beginning price. Say you buy a share at 50 dollars, collect a 1 dollar dividend and sell at 54 dollars. The price gain is 4 and the income is 1, so the total is 5, and 5 divided by 50 is 10 percent.
+
+To link returns across several periods, compound them. Add one to each period's return, multiply, then subtract one. Up 10 percent and then down 10 percent is not zero. It is 1.1 times 0.9, which is 0.99, a loss of 1 percent.
+
+Now averages, where the exam tests which mean fits which job. The arithmetic mean is the simple average of the returns. It is the better estimate of the return for one future period.
+
+The geometric mean is the compound growth rate. Multiply together one plus each return, raise the product to the power one over n, where n is the number of periods, then subtract one. It is the constant rate that would have turned the starting value into the ending value.
+
+Here is the example that sticks. A stock doubles in year one and halves in year two, so the returns are positive 100 percent and negative 50 percent. The arithmetic mean is 25 percent a year. But you are back where you started, so the geometric mean is zero. The rule is that the geometric mean is always less than or equal to the arithmetic mean, equal only when every return is the same. The gap grows as returns become more volatile.
+
+The harmonic mean is the third. It equals the number of observations divided by the sum of the reciprocals of the observations. Its main use is cost averaging. Put 1,000 dollars in at a price of 10 and another 1,000 dollars at a price of 20. You buy 100 shares, then 50, so 2,000 dollars buys 150 shares, about 13.33 dollars each. That is the harmonic mean of the two prices, below their arithmetic mean of 15, because fixed dollars buy more shares when the price is low.
+
+For positive values that are not all equal, the harmonic mean is below the geometric mean, which is below the arithmetic mean. Two more tools handle outliers. A trimmed mean drops a small percentage of the most extreme observations at both ends and averages the rest. A winsorized mean keeps the count but replaces those extremes with the most extreme values that remain.
+
+Here is the trap. A question gives a return history and asks for the expected return next year. The geometric mean tempts because it sounds more sophisticated. But for a single future period, the arithmetic mean is the better estimate. Ask instead for the average compound annual return over the past five years, and the geometric mean is right.
+
+The rule to carry. The holding period return is the price change plus income, over the beginning price. And the geometric mean, which measures compound growth, is never above the arithmetic mean.
+
+## Module 1.2, Time-Weighted and Money-Weighted Returns
+
+This module answers a fairness question. When clients add or withdraw money, whose return are you measuring, the manager's or the investor's?
+
+The money weighted return is the internal rate of return, or IRR, of the portfolio's cash flows. The IRR is the single discount rate that makes the present value of all inflows equal the present value of all outflows, which sets the net present value, or NPV, to zero. Every deposit, withdrawal, income payment and the ending value go in at their actual dates and sizes. So the money weighted return reflects both the manager's results and the investor's timing.
+
+The time weighted return strips out those external cash flows. It measures the compound growth of 1 dollar left in for the whole period. First, break the period into subperiods every time money comes in or goes out. Second, compute the holding period return for each subperiod. Third, multiply one plus each subperiod return and subtract one, and take the geometric mean if you need an annual figure.
+
+Let us work one example both ways. You buy one share at 100 dollars. A year later the price is 120 dollars and you buy a second share. After year two the price is 110 dollars, so you hold two shares worth 220 dollars. There are no dividends.
+
+Time weighted first. Year one returns 20 percent. Year two goes from 120 to 110, a loss of about 8.3 percent. Link them. 1.2 times 110 over 120 is exactly 1.10, so 10 percent over two years, or about 4.9 percent a year after taking the square root.
+
+Money weighted next. You paid 100 dollars at time zero and 120 dollars at time one, and you hold 220 dollars at time two. You put in 220 dollars and ended with 220 dollars, so the money weighted return is zero. Same prices, yet the measures differ by about 5 percent a year, because more of your money was invested during the bad year.
+
+On the B A two plus, use the cash flow worksheet, with money you put in as negative and money you take out or still hold as positive. Press C F, then clear it with the second key and C E C, which is clear work. Enter negative 100 as C F zero and press enter. Arrow down, enter negative 120 as C zero one, press enter, and arrow down past its frequency of 1. At C zero two, enter 220 and press enter. Press I R R, then C P T, and the display shows zero.
+
+Which measure should you use? The time weighted return is the standard for judging a manager, because the manager usually does not control when clients add or pull money. The money weighted return fits when the manager does control timing, for example a private fund manager who decides when to call capital, or when you want the investor's own experience.
+
+Here is the trap. When new money arrives just before a strong period, the money weighted return is higher than the time weighted return. When it arrives before a weak period, as in our example, the money weighted return is lower. Candidates often reverse this. Ask one question. When was the most money at work, and was that a good stretch or a bad one?
+
+A second trap is subperiod boundaries. Each subperiod must break at an external cash flow, and its beginning value includes the new money. In our example, year two started at 240 dollars, two shares at 120 dollars each.
+
+The rule to carry. The money weighted return is the IRR of the investor's cash flows, so it depends on timing. The time weighted return links subperiod returns, so client timing drops out.
+
+## Module 1.3, Common Measures of Return
+
+Raw returns need adjusting before you can compare them. This module covers annualizing, continuous compounding, fees, taxes, inflation and leverage.
+
+Start with annualizing. The annualized return equals one plus the period return, raised to the power of the number of those periods in a year, minus one. A 2 percent quarterly return annualizes to 1.02 raised to the fourth power, minus one, about 8.24 percent, not 8 percent. For daily data, the exponent is 365 divided by the number of days. For periods longer than a year, the exponent is below one. A 21 percent return over two years annualizes to the square root of 1.21, minus one, exactly 10 percent.
+
+The trap is that annualizing a short period assumes you could repeat that return all year. For one hot week, that is unrealistic.
+
+Next, continuously compounded returns. The continuously compounded return equals the natural log of one plus the holding period return, which is the natural log of ending price over beginning price. If a price moves from 100 to 110, the holding period return is 10 percent, but the continuously compounded return is the natural log of 1.1, about 9.53 percent. It is always a bit lower than the holding period return, except at zero. To go back, raise e to that return and subtract one.
+
+The big advantage is that continuously compounded returns add across time. If three months have continuously compounded returns of 1 percent, 2 percent and negative 1 percent, the quarter's continuously compounded return is simply 2 percent. Holding period returns must be multiplied, but log returns add.
+
+Gross and net returns. A gross return is measured before management, custodial and other administrative fees, but after trading costs, because trading costs are part of producing the return. A net return subtracts all fees and expenses. Gross is better for comparing managers' skill. Net is what the investor keeps.
+
+Before tax and after tax. Taxes can hit dividends, interest and realized gains, often at different rates. In the simplest case, with one rate on the whole return, the after tax return equals the before tax return times one minus the tax rate. A 10 percent return taxed at 30 percent leaves 7 percent.
+
+Real returns remove inflation and measure the gain in purchasing power. One plus the real return equals one plus the nominal return, divided by one plus the inflation rate. With 8 percent nominal and 3 percent inflation, that is 1.08 divided by 1.03, minus one, about 4.85 percent. The shortcut, 8 minus 3, gives 5 percent and overstates it, so when answer choices are close, use the exact division.
+
+Leveraged returns. Leverage means funding part of the portfolio with borrowed money. The leveraged return equals the portfolio return, plus the ratio of borrowed funds to your own equity, times the spread between the portfolio return and the borrowing rate. Say you put in 100 dollars and borrow 100 dollars at 5 percent. The 200 dollar portfolio earns 10 percent, which is 20 dollars. You pay 5 dollars of interest and keep 15 dollars, a 15 percent return on your equity.
+
+Now say the portfolio earns only 2 percent. You make 4 dollars, pay 5, and lose 1 percent on your equity. Leverage helps only when the portfolio return beats the borrowing rate, and it magnifies losses as surely as gains. A bank or credit union faces the same arithmetic, with its return on equity driven by the spread between asset yields and funding costs, times leverage.
+
+The rule to carry. To annualize, take one plus the period return, raise it to the number of periods in a year, and subtract one.
+
+## Module 2.1, Discounted Cash Flow Valuation
+
+Reading 2 runs on the calculator, so start with a warm up on the time value of money keys of the B A two plus. N is the number of periods. I Y is the interest rate per period, entered as a percent, so 6 percent is entered as 6. P V is present value, P M T is the level payment each period, and F V is future value. Enter any four, then press C P T and the fifth key.
+
+Three habits matter, starting with payments per year. Out of the box, the calculator assumes 12 payments per year, which quietly divides your rate by 12. Press the second key, then I Y, to reach P Y, type 1 and press enter. C Y, the compounding periods per year, follows to 1 automatically, and the second key then C P T quits. Now N and I Y are per period, so for a monthly loan, N is months and I Y is the annual rate divided by 12.
+
+The next setting is begin or end mode. End is the default. For payments at the start of each period, press the second key, then P M T, then the second key and enter, and a small B G N appears on the display. The last habit is clearing. Before every problem, press the second key, then F V, which is clear T V M, because stored values survive even when the calculator is off.
+
+Now the sign convention. Cash you pay is negative and cash you receive is positive, so a present value and a future value in the same problem need opposite signs. If you ask for a rate with both entered as positive, the calculator returns an error. Quick test. Enter N 5, I Y 8, P M T 0 and F V 1,000, then compute P V. The display shows negative 680.58, the price today of 1,000 dollars in five years at 8 percent.
+
+Now the valuation core. Every asset here is valued the same way. Its value equals the sum of its expected cash flows, each divided by one plus the required rate, raised to the power of the number of periods until that cash flow arrives. Only the pattern of cash flows changes.
+
+Fixed income comes in four shapes. A zero coupon bond, also called a discount bond, pays one amount at maturity. Its price equals the face value divided by one plus the market rate, raised to the power N. At 10 percent, 1,000 dollars due in two years is worth 1,000 divided by 1.21, about 826.45 dollars.
+
+A coupon bond pays a fixed coupon each period plus face value at maturity. Take a three year bond with a 1,000 dollar face value and a 5 percent annual coupon, so 50 dollars a year. If the market rate is also 5 percent, the price is exactly 1,000 dollars, par. If the market rate is 6 percent, enter N 3, I Y 6, P M T 50 and F V 1,000, then compute P V. The display shows negative 973.27.
+
+When the market rate is above the coupon rate, the bond trades below par, at a discount. When the market rate is below the coupon rate, it trades above par, at a premium.
+
+A perpetual bond pays a fixed coupon forever. Its value equals the payment divided by the rate, so 50 dollars a year at 5 percent is worth 1,000 dollars. This values the stream one period before the first payment.
+
+An amortizing loan, like a mortgage, pays a level amount covering interest and part of the principal, so the balance reaches zero at maturity. Take a 100,000 dollar loan over five years at 6 percent, paid annually. Enter N 5, I Y 6, P V 100,000 and F V 0, then compute P M T. The display shows negative 23,739.64.
+
+If payments come at the start of each period, that is an annuity due. Its value is the ordinary annuity value times one plus the rate, and on the calculator you switch to begin mode.
+
+Now equity, where the cash flows are dividends, less certain than coupons and with no maturity. Preferred stock with a fixed dividend is a perpetuity, so its value equals the dividend divided by the required return. A 5 dollar dividend at an 8 percent required return is worth 62.50 dollars.
+
+Common stock with constant growth uses the Gordon growth model, which only works when the required return is above the growth rate. Value today equals next year's dividend, divided by the required return minus the growth rate. Next year's dividend equals the dividend just paid, times one plus the growth rate. Say a company just paid 2 dollars, dividends grow at 5 percent, and you require 10 percent. Next year's dividend is 2.10 dollars. Divide by 10 percent minus 5 percent, which is 5 percent, and the value is 42 dollars.
+
+Here is the trap. The question says the company just paid 2 dollars. The tempting move is 2 divided by 5 percent, which gives 40 dollars, a classic wrong answer. Words like just paid, current or last describe today's dividend. Words like expected or next describe next year's.
+
+Some companies grow fast for a few years and then settle down. In a two stage model, you discount each high growth dividend on its own. At the end of the high growth stage, you compute a terminal value with the Gordon model, using the first dividend of the stable stage. Then you discount that terminal value back the same number of periods as the last high growth dividend, not one more.
+
+The rule to carry. In the Gordon model, value equals next year's dividend divided by the required return minus growth.
+
+## Module 2.2, Implied Returns and Cash Flow Additivity
+
+Module 2.1 took a rate and found a price. This module takes a price and finds the rate, then ties instruments together with one principle.
+
+Start with fixed income. For a zero coupon bond, the implied return equals face value divided by price, raised to the power one over N, minus one. Pay 1,000 dollars today for 1,210 dollars in two years. The ratio is 1.21, its square root is 1.1, so the implied return is 10 percent a year.
+
+For a coupon bond, the implied return is the yield to maturity, or YTM. It is the single discount rate that sets the present value of all promised cash flows equal to the price, so it is an IRR. Take the bond from the last module priced at 973.27 dollars. Enter N 3, P V negative 973.27, P M T 50 and F V 1,000, then compute I Y. The display shows 6.
+
+The YTM is the return you actually earn only if three things hold. You hold to maturity, every payment arrives in full and on time, and you reinvest every coupon at the YTM itself.
+
+Now equity. Rearrange the Gordon model. The required return equals next year's dividend divided by price, plus the growth rate. In words, return equals dividend yield plus growth. A stock at 40 dollars expected to pay 2 dollars next year, growing at 5 percent, implies a 5 percent yield plus 5 percent growth, which is 10 percent.
+
+Rearrange again for implied growth. The growth rate equals the required return minus next year's dividend divided by price. With a price of 50 dollars, a next year dividend of 2 dollars and a required return of 9 percent, the yield is 4 percent, so the market is pricing in 5 percent growth forever.
+
+Now cash flow additivity. The present value of a set of cash flows equals the sum of the present values of each one. Cash flows on the same date, in the same currency, can be added or subtracted directly.
+
+The consequence is powerful. If two portfolios produce identical cash flows on every date, they must have the same price today. If not, you could buy the cheap one, sell the expensive one, and lock in a riskless profit with no money of your own. That is arbitrage, and in well functioning markets it does not last.
+
+Application one is forward interest rates. You can invest for two years at the two year spot rate. Or you can invest for one year at the one year spot rate and agree today to reinvest for the second year at a forward rate, the one year rate starting one year from now. Both paths are riskless over the same horizon, so they must end with the same amount.
+
+One plus the two year spot rate, squared, equals one plus the one year spot rate, times one plus the forward rate. Say the one year spot rate is 4 percent and the two year spot rate is 5 percent. 1.05 squared is 1.1025, divide by 1.04 and you get about 1.0601, so the forward rate is about 6.01 percent.
+
+A quick check helps. The two year rate is roughly the average of the one year rate and the forward, so the forward is about 2 times 5, minus 4, which is 6. Here is the trap. When the spot curve slopes upward, the forward rate is above both spot rates, not between them.
+
+Application two is forward exchange rates. Take a spot rate quoted in dollars per euro. The dollar is the price currency, and the euro is the base currency. You can hold dollars and earn the dollar rate. Or you can convert to euros, earn the euro rate, and lock in a forward rate today to convert back. Both paths must end in the same place.
+
+The forward rate equals the spot rate, times one plus the price currency interest rate, divided by one plus the base currency interest rate. Say the spot rate is 1.10 dollars per euro, the dollar rate is 5 percent and the euro rate is 3 percent. The forward is 1.10 times 1.05, divided by 1.03, about 1.1214 dollars per euro. The euro, the lower rate currency, trades at a forward premium, and the dollar trades at a forward discount.
+
+That forward rate is not a forecast. It just offsets the interest rate difference so neither path wins. The trap is flipping the ratio. In dollars per euro, the dollar rate goes on top.
+
+Application three is options. If you can combine the underlying asset with riskless borrowing or lending so the combination pays exactly what an option pays in every outcome, the option must cost the same as that combination. You will build that replication in the derivatives readings.
+
+The rule to carry. One plus the two year spot rate, squared, equals one plus the one year spot rate, times one plus the forward rate. Identical cash flows must have identical prices.
+
+## Recall check
+
+Q: You buy a share at 40 dollars, receive 2 dollars in dividends during the year, and sell it for 42 dollars. What is your holding period return?
+
+Answer: 10 percent. The price gain is 2 dollars and the income is 2 dollars, so the total gain is 4 dollars. Divide 4 by the beginning price of 40, and you get 10 percent.
+
+Q: Which mean best describes a portfolio's compound annual performance over the past five years, and how does it compare with the arithmetic mean?
+
+Answer: The geometric mean, the constant annual rate that turns the starting value into the ending value. It is never above the arithmetic mean, and the gap widens as returns become more volatile.
+
+Q: A client makes a large deposit just before the portfolio's strongest year. Which is most likely higher, the money weighted return or the time weighted return?
+
+Answer: The money weighted return. It weights each period by the money invested, and more money was at work during the best year. The time weighted return removes the effect of client cash flows, so the deposit does not change it.
+
+Q: A stock's continuously compounded returns for three consecutive months are 1 percent, 2 percent and negative 1 percent. What is its continuously compounded return for the quarter?
+
+Answer: 2 percent. Continuously compounded returns add across periods, so 1 plus 2 minus 1 gives 2. Holding period returns, by contrast, must be compounded by multiplying one plus each return.
+
+Q: A company just paid a 2 dollar dividend, and an analyst plugs that 2 dollars straight into the Gordon growth model. With positive growth, is the value most likely too high, too low or correct?
+
+Answer: Too low. The model needs next year's dividend, which is the dividend just paid times one plus the growth rate. Using the smaller current dividend understates the value by exactly that growth factor.
+
+Q: The two year spot rate is higher than the one year spot rate. Is the one year forward rate starting one year from now above, below or equal to the two year spot rate?
+
+Answer: Above. The two year spot rate is roughly the average of the one year spot rate and the forward rate. If the average sits above the first piece, the second piece must be higher still.
+
+## Recap
+
+The required return on a security is the real risk free rate plus premiums for inflation, default risk, liquidity and maturity. The holding period return is the price change plus income, divided by the beginning price. The arithmetic mean estimates a single period's return, the geometric mean measures compound growth and is never higher, and the harmonic mean gives your average cost when you invest equal dollar amounts. The money weighted return is the IRR of the investor's cash flows and reflects timing, while the time weighted return links subperiod returns and is the standard for judging a manager.
+
+Annualize with compounding, use natural logs for continuously compounded returns because they add, and find real returns by dividing one plus the nominal return by one plus inflation. Leverage helps only when the portfolio return beats the borrowing rate. Value any asset as the sum of its discounted cash flows, set P Y to 1 and clear the registers on the B A two plus, and in the Gordon model always use next year's dividend. Finally, cash flow additivity means identical cash flows must have identical prices, which pins down forward interest rates, forward exchange rates and, later, option values.

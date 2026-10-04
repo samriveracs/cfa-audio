@@ -1,0 +1,181 @@
+## The big picture
+
+This episode closes out Quantitative Methods. Simple linear regression takes tools you already have, means, variances, covariance, correlation, and hypothesis tests, and points them at one practical question. If I know X, what is my best estimate of Y, and how much should I trust that estimate? Then we finish with a short tour of fintech and Big Data, which is mostly vocabulary and easy points.
+
+Here is how the pieces connect. Module 10.1 builds the line. You will see how ordinary least squares picks the intercept and the slope, what each one means, and the four assumptions the model rests on.
+
+Module 10.2 asks how good the line is. It splits the variation in Y into an explained part and an unexplained part, and that split gives you the analysis of variance table, r squared, the F test, and the standard error of estimate. We will also cover t tests on the individual coefficients there. Module 10.3 uses the line to forecast, wraps a prediction interval around the forecast, and shows how logarithms let a straight line describe a curved relationship. Module 11.1 steps back to Big Data, artificial intelligence, and machine learning.
+
+Regression questions often hand you output and ask you to fill in a missing number, interpret a coefficient, or reach a conclusion. The arithmetic is light. The points are won or lost on interpretation, on degrees of freedom, and on knowing which number answers which question.
+
+## Module 10.1, Linear Regression Basics
+
+Start with why regression exists. Correlation tells you whether two variables move together and how tightly. Regression goes one step further. It gives you an equation, so you can say how much Y tends to change when X changes, and what Y should be for a given value of X.
+
+First, the vocabulary. The variable you are trying to explain is the dependent variable. You will also see it called the explained variable, the endogenous variable, or the predicted variable. The variable doing the explaining is the independent variable, also called the explanatory variable, the exogenous variable, or the predictor.
+
+The model says that each observation of Y equals an intercept, called b zero, plus a slope, called b one, times that observation of X, plus an error term. The intercept and slope are unknown population parameters, so we estimate them from a sample. The error term captures everything that moves Y other than X. Estimates carry a small hat on top, so a predicted value of Y is called Y hat.
+
+So how is the line chosen? For any candidate line, each observation has a residual, which is the actual Y minus the Y that the line predicts. Ordinary least squares chooses the intercept and slope that make the sum of the squared residuals as small as possible. That sum is called the sum of squared errors.
+
+Why square the residuals? Two reasons. If you simply added them, positive and negative misses would cancel out. And squaring penalizes big misses much more than small ones.
+
+Minimizing that sum produces two clean formulas. First, the slope. The estimated slope equals the covariance of X and Y divided by the variance of X. Second, the intercept. The estimated intercept equals the mean of Y minus the estimated slope times the mean of X. That second formula tells you the fitted line always passes through the point where X is at its mean and Y is at its mean.
+
+Let us make it concrete, with Y as a company's sales growth and X as growth in gross domestic product, or GDP, both in percent. In your sample, average GDP growth is 2 percent and average sales growth is 7 percent. The covariance between the two is 3, and the variance of GDP growth is 1.5. The slope is 3 divided by 1.5, which is 2. The intercept is 7 minus 2 times 2, which is 3. So the fitted line says that predicted sales growth equals 3 percent plus 2 times GDP growth.
+
+Now interpret those numbers. The slope of 2 means that for each 1 percentage point increase in GDP growth, sales growth is expected to rise by 2 percentage points. The intercept of 3 means that if GDP growth were zero, the model predicts sales growth of 3 percent. Zero may sit far outside the data, so the intercept may have no sensible economic meaning. For exam purposes, still read it as the predicted value of Y when X is zero.
+
+You can run a small regression on the B A two plus. Press second, then DATA, above the 7 key, and clear old entries with second, then clear work, above the C E C key. Type the first X value, press enter, arrow down, type the first Y value, press enter, and arrow down to the next pair.
+
+Try four pairs. X of 1 with Y of 4. X of 1 with Y of 6. X of 3 with Y of 8. X of 3 with Y of 10.
+
+Now press second, then STAT, above the 8 key. If the display does not read L I N, press second, then SET, above the enter key, until it does. Arrow down past n, the means, and the standard deviations.
+
+Then a, the intercept, shows 3. Next, b, the slope, shows 2. Next, r, the correlation, shows about 0.89. That is the same line as our example. Right after r, type an X value at X prime, press enter, arrow down to Y prime, and press compute for the predicted Y. No sign convention applies, and the order of the pairs does not matter.
+
+Here is a common confusion. The slope is not the correlation. Correlation is the covariance divided by the product of the two standard deviations, so it has no units and always sits between minus 1 and plus 1. The slope is the covariance divided by the variance of X, so it is measured in units of Y per unit of X, and it can be any size. They always share the same sign, because both take their sign from the covariance. If you need to link them, the slope equals the correlation times the standard deviation of Y divided by the standard deviation of X.
+
+A second trap. A significant slope shows association, not causation. Regression does not prove that X drives Y. In bank balance sheet work, analysts often regress changes in deposit rates on changes in market rates and read the slope as a rough pass through rate, but that slope describes past behavior, not a law.
+
+Now the four assumptions. The estimates, and especially the hypothesis tests coming up next, rely on them, and you need to recognize violations from residual plots. A residual plot puts the residuals on the vertical axis against X, against the predicted Y, or against time. A well specified model gives a random cloud centered on zero with an even spread. Any shape is a clue.
+
+First, linearity. The relationship between X and Y is linear. If the true relationship curves, a straight line misses in a systematic pattern. The residual plot shows runs, for example positive residuals at both ends and negative residuals in the middle, a U shape. The usual fix is a transformation, which comes up in Module 10.3.
+
+Second, homoskedasticity. The variance of the residuals is the same for every observation. The violation is called heteroskedasticity. In a plot it looks like a fan or a funnel, with residuals spreading wider as X grows.
+
+Third, independence. The pairs of observations are independent of one another, which means the residuals are uncorrelated across observations. This is most often violated in time series data, where one period's error spills into the next. That is called autocorrelation or serial correlation. A plot of residuals over time shows long streaks above zero followed by long streaks below, or a repeating seasonal pattern.
+
+Fourth, normality. The residuals are normally distributed. This matters most for the t tests and F tests. Outliers are the usual warning sign. With a large sample, the central limit theorem helps, and the tests are approximately valid even if the residuals are not quite normal.
+
+Here are the traps on assumptions. Normality is about the residuals, not about X or Y. Neither variable itself needs to be normally distributed. Homoskedasticity is about the spread of the residuals, not their average. A residual plot can be centered perfectly on zero and still violate homoskedasticity if the spread changes.
+
+The rule to keep from this module. Least squares minimizes the sum of squared residuals. The slope equals the covariance of X and Y divided by the variance of X, and the intercept equals the mean of Y minus the slope times the mean of X, so the line passes through both means.
+
+## Module 10.2, Analysis of Variance (ANOVA) and Goodness of Fit
+
+Once you have a line, the next question is how well it fits. The answer comes from splitting the variation in Y into two pieces, the part the line explains and the part it does not.
+
+Start with total variation. The total sum of squares, written S S T, adds up the squared differences between each actual Y and the mean of Y. It measures how much Y moves around before you use X at all.
+
+Next, the regression sum of squares, written S S R, adds up the squared differences between each predicted Y and the mean of Y. That is the variation the line explains. Last, the sum of squared errors, written S S E, adds up the squared differences between each actual Y and its predicted Y. That is what is left unexplained.
+
+The identity to know is that the total sum of squares equals the regression sum of squares plus the sum of squared errors. Total equals explained plus unexplained.
+
+From that split comes the coefficient of determination, r squared. R squared equals the regression sum of squares divided by the total sum of squares. Equivalently, it equals 1 minus the sum of squared errors divided by the total sum of squares. It is the fraction of the variation in Y that X explains.
+
+In simple regression, with one independent variable, r squared is exactly the square of the correlation between X and Y. So a correlation of 0.6 gives r squared of 0.36. Going the other way, take the square root of r squared and give it the sign of the slope.
+
+These pieces are laid out in an analysis of variance table, or ANOVA table. It has a row for the regression, a row for the error, and a total row. Each row shows degrees of freedom and a sum of squares, and the first two rows also show a mean square. Degrees of freedom are where candidates slip.
+
+The regression row has 1 degree of freedom, because there is one independent variable. The error row has n minus 2, because you estimated two parameters, the intercept and the slope. The total row has n minus 1. A mean square is a sum of squares divided by its degrees of freedom. So the mean square regression, M S R, equals the regression sum of squares divided by 1, and the mean squared error, M S E, equals the sum of squared errors divided by n minus 2.
+
+The F statistic equals the mean square regression divided by the mean squared error. It tests whether the independent variable explains a significant share of the variation in Y. The null hypothesis is that the slope equals zero. The F test is one tailed. You reject the null when F exceeds the critical value with 1 degree of freedom in the numerator and n minus 2 in the denominator.
+
+The standard error of estimate is the square root of the mean squared error. In words, take the sum of squared errors, divide by n minus 2, and take the square root. It measures the typical distance between an actual Y and the line, in the units of Y. Watch the direction here. A higher r squared means a better fit, but a lower standard error of estimate means a better fit.
+
+Let us fill a full table with round numbers. You have 27 observations. The total sum of squares is 400. The regression sum of squares is 300, so the sum of squared errors is 100. R squared is 300 divided by 400, which is 0.75, so 75 percent of the variation in Y is explained.
+
+Error degrees of freedom are 27 minus 2, which is 25. The mean squared error is 100 divided by 25, which is 4. The standard error of estimate is the square root of 4, which is 2.
+
+The mean square regression is 300 divided by 1, which is 300. And F is 300 divided by 4, which is 75. That is far above the 5 percent critical value of about 4.2, so the slope is significant. The correlation is the square root of 0.75, about 0.87, with the same sign as the slope.
+
+Now the tests on individual coefficients. The t statistic for the slope equals the estimated slope minus the hypothesized slope, divided by the standard error of the slope. It has n minus 2 degrees of freedom. The standard error of the slope equals the standard error of estimate divided by the square root of the sum of the squared deviations of X from its mean. So the slope is pinned down more precisely when the line fits tightly and when the X values are widely spread.
+
+Here is an example. The estimated slope is 1.2 and its standard error is 0.3. To test whether the slope equals zero, t equals 1.2 divided by 0.3, which is 4. With 25 degrees of freedom, the two tailed critical value at 5 percent is about 2.06, so you reject the null. The slope is significantly different from zero.
+
+Now the trap. Suppose that slope is a stock's beta, and the question asks whether beta is different from 1. Now t equals 1.2 minus 1, which is 0.2, divided by 0.3, which is about 0.67. You fail to reject. The same slope is significant against zero and not significant against 1. Always subtract the hypothesized value the question actually names.
+
+The intercept is tested the same way, with its own standard error and n minus 2 degrees of freedom. One special case. If X is an indicator variable that equals 1 when some condition holds and zero otherwise, the intercept is the average Y when the condition does not hold, and the slope is the average Y when the condition holds minus the average Y when it does not.
+
+In simple regression, three tests always agree. The t test that the slope equals zero, the t test that the correlation equals zero, and the F test all reach the same conclusion. In fact, F equals the square of the slope's t statistic. In our ANOVA example, F was 75, so the t statistic on the slope has a magnitude equal to the square root of 75, about 8.7.
+
+The rule to keep from this module. Total variation equals explained plus unexplained. R squared is the regression sum of squares divided by the total sum of squares. F is the mean square regression divided by the mean squared error, with 1 and n minus 2 degrees of freedom. And the standard error of estimate is the square root of the mean squared error.
+
+## Module 10.3, Predicted Values and Functional Forms of Regression
+
+Once the line is estimated, a point forecast is simple. The predicted value of Y equals the estimated intercept plus the estimated slope times the forecast value of X. Using our sales line, with an intercept of 3 and a slope of 2, if you expect GDP growth of 4 percent, predicted sales growth is 3 plus 2 times 4, which is 11 percent.
+
+A point forecast alone hides the uncertainty, so you wrap a prediction interval around it. The interval equals the predicted value, plus or minus the critical t value times the standard error of the forecast. The critical t uses n minus 2 degrees of freedom.
+
+The standard error of the forecast is larger than the standard error of estimate, because it reflects two sources of uncertainty. One is the normal scatter of actual values around the line. The other is that the line itself is estimated with error.
+
+Here is the formula, slowly. The variance of the forecast error equals the standard error of estimate squared, times the sum of three terms. The first term is 1. The second is 1 divided by n. The third is the squared distance between the forecast X and the mean of X, divided by the product of n minus 1 and the sample variance of X. The standard error of the forecast is the square root of that variance.
+
+What matters most is how it behaves. The 1 represents scatter around the line and never goes away. The 1 over n term shrinks as the sample grows. The last term grows as the forecast X moves away from the mean of X. So prediction intervals are narrowest at the mean of X and widen as you move away from it in either direction.
+
+Now an interval example. The point forecast is 11 percent. Suppose the standard error of the forecast is 1.5 and you have 60 degrees of freedom, so the two tailed 5 percent critical t is about 2.0. The interval is 11 plus or minus 2 times 1.5, which is 11 plus or minus 3. The 95 percent prediction interval runs from 8 percent to 14 percent.
+
+Two traps here. The first is building the interval with the standard error of estimate instead of the standard error of the forecast. That makes the interval too narrow. The second is trusting forecasts far outside the range of the data. The interval is wider out there, and the linear relationship itself may not hold.
+
+Now functional forms. Sometimes the raw relationship is curved, and a straight line leaves a pattern in the residuals. Taking natural logs of one or both variables can straighten it out. Three forms matter, and the naming rule is simple. The first word describes the dependent variable, and the second word describes the independent variable.
+
+The log lin model regresses the natural log of Y on X. The slope is the relative change in Y for an absolute change in X. A slope of 0.05 means Y rises by about 5 percent for each one unit increase in X. This is the natural fit when Y grows at a roughly constant rate over time, with time as the independent variable. When you forecast, the model gives you the natural log of Y, so you must raise e, the base of natural logs, to that power to get back to Y itself.
+
+The lin log model regresses Y on the natural log of X. The slope is the absolute change in Y for a relative change in X. With a slope of 10, a 1 percent increase in X raises Y by about 10 times 0.01, which is 0.1 units.
+
+The log log model regresses the natural log of Y on the natural log of X. The slope is an elasticity, the percent change in Y for a 1 percent change in X. A slope of 0.8 means a 1 percent increase in X goes with about a 0.8 percent increase in Y.
+
+How do you choose among forms? Compare the goodness of fit measures from Module 10.2, and above all look at the residuals. The right form leaves residuals with no visible pattern.
+
+The trap is mixing up log lin and lin log. Remember that the first word is the dependent variable. Log lin logs Y. Lin log logs X.
+
+The rule to keep from this module. The predicted value equals the intercept plus the slope times X. The prediction interval is the predicted value plus or minus the critical t times the standard error of the forecast, and it is narrowest at the mean of X.
+
+## Module 11.1, Introduction to Fintech
+
+The last module shifts from statistics to data and technology. Fintech is short for financial technology, meaning the use of new technology to create and provide financial products and services.
+
+Big Data refers to data sets that are very large and complex. They are described by three V words. Volume is the sheer quantity of data. Velocity is the speed at which data arrive, all the way up to real time. Variety is the range of forms the data take. When you use Big Data to draw conclusions, a fourth V word matters, veracity, meaning how accurate and reliable the data and their sources are.
+
+Data also come in different structures. Structured data are organized in rows and columns, like price histories and financial statements. Unstructured data have no predefined format, such as text, social media posts, images, and audio. Semi structured data sit in between, with some organization but not a full table, such as web page code.
+
+Sources split into traditional and alternative. Traditional sources include markets, company filings, and government statistics. Alternative data come from three places. Individuals create it through social media, product reviews, and web searches. Businesses create it as a byproduct of their operations, sometimes called corporate exhaust, such as credit card transactions and store scanner data. And sensors create it, such as satellite images, smartphone location data, and the internet of things, which means everyday devices connected to the internet.
+
+Data science combines computer science, statistics, and subject knowledge to pull insight out of data. Processing involves several steps. Capture is collecting the data. Curation is cleaning it, fixing errors, and handling missing values. Then come storage, search, and transfer.
+
+Visualization helps people see the result. For text, a tag cloud shows the most frequent words in larger type, and a mind map shows how ideas connect. For numbers, a heat map uses color to show values.
+
+Artificial intelligence means computer systems that perform tasks that traditionally required human intelligence, such as recognizing patterns or understanding language. Machine learning is a branch of artificial intelligence in which algorithms learn patterns from data instead of following rules a programmer writes in advance. The data are typically split. The model learns on a training data set and is then judged on a separate validation or test set that it has never seen.
+
+There are three flavors to know. In supervised learning, the training data are labeled with the correct answer, for example past loans tagged as defaulted or repaid, and the model learns to predict the label for new cases. In unsupervised learning, there are no labels, and the algorithm finds structure on its own, such as grouping companies into clusters with similar traits. Deep learning uses neural networks with many layers to capture very complex patterns, and it powers tasks like image and speech recognition.
+
+Two failure modes are worth knowing cold. Overfitting means the model is too complex and learns the noise in the training data along with the signal. It looks excellent on the training data and performs poorly on new data. Underfitting means the model is too simple and misses real relationships, so it performs poorly even on the training data. The tempting wrong answer is that a near perfect fit to the training data is good news. More often it is a warning sign.
+
+In investment management, text analytics turns documents into usable data, and natural language processing lets computers interpret human language. Analysts use these tools to read earnings call transcripts, filings, and news at scale and to score sentiment. Other uses include fraud detection, risk monitoring, and algorithmic trading.
+
+One more trap. Big Data does not guarantee better answers. Alternative data can be messy, incomplete, or biased toward the people and businesses that generated it, so cleaning and judgment still matter.
+
+The rule to keep from this module. Big Data is volume, velocity, and variety, plus veracity when you draw conclusions. Supervised learning uses labeled data and unsupervised learning does not. An overfit model shines on training data and fails on new data.
+
+## Recall check
+
+Q: You plot the residuals against the independent variable and see the spread widen steadily as X increases. Which regression assumption is most likely violated?
+
+Answer: Homoskedasticity. A fan shape means the variance of the residuals changes with X, which is heteroskedasticity. The residuals can still average zero, so a plot centered on zero does not rule it out.
+
+Q: A regression has a total sum of squares of 500 and a sum of squared errors of 100. What is r squared?
+
+Answer: 0.8, or 80 percent. The regression sum of squares is 500 minus 100, which is 400, and r squared is 400 divided by 500.
+
+Q: An estimated beta is 1.4 with a standard error of 0.5, and the sample is large. At the 5 percent level, is beta significantly different from 1?
+
+Answer: No. The t statistic is 1.4 minus 1, which is 0.4, divided by 0.5, which gives 0.8, well below a critical value near 2. Testing the same beta against zero gives a t of 2.8, which is significant, and that is the tempting wrong answer.
+
+Q: Which forecast value of X produces the widest prediction interval: X equal to its sample mean, X slightly above its mean, or X far below its mean?
+
+Answer: X far below its mean. The standard error of the forecast contains the squared distance between the forecast X and the mean of X, so the interval widens in either direction as you move away from the center. It is narrowest exactly at the mean.
+
+Q: A variable grows at a roughly constant percentage rate over time. Which functional form is most appropriate for regressing it on time: lin log, log lin, or log log?
+
+Answer: Log lin. Taking the natural log of the dependent variable turns constant percentage growth into a straight line against time, and the slope reads as the approximate growth rate per period. Lin log would log the independent variable instead, which is the common mix up.
+
+Q: A machine learning model classifies past loans almost perfectly in its training data but does poorly on a new sample. What is the most likely problem, and what type of learning is this?
+
+Answer: Overfitting, in a supervised learning setting. The model learned noise specific to the training data, so it does not generalize to new cases. It is supervised because the training loans carried labels, defaulted or repaid.
+
+## Recap
+
+Ordinary least squares minimizes the sum of squared residuals, and the slope equals the covariance of X and Y divided by the variance of X, with the line passing through both means. The four assumptions are linearity, homoskedasticity, independence, and normality of the residuals, and residual plots expose violations as curves, fans, and streaks. Total variation equals explained plus unexplained, and r squared is the regression sum of squares divided by the total sum of squares, which in simple regression equals the correlation squared. The F statistic is the mean square regression divided by the mean squared error, with 1 and n minus 2 degrees of freedom, and the standard error of estimate is the square root of the mean squared error.
+
+Test the slope against the value the question names, not automatically against zero. Prediction intervals use the standard error of the forecast and widen as X moves away from its mean. Log lin logs the dependent variable, lin log logs the independent variable, and the log log slope is an elasticity. Big Data means volume, velocity, and variety, supervised learning uses labeled data, and an overfit model shines on training data but fails on new data.

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+<channel>
+  <title>CFA Level I Audio Review</title>
+  <link>https://samriveracs.github.io/cfa-audio/</link>
+  <atom:link href="https://samriveracs.github.io/cfa-audio/feed.xml" rel="self" type="application/rss+xml"/>
+  <language>en-us</language>
+  <description>Original 30 minute review episodes for the November 2026 CFA Level I exam, in Kaplan Schweser module order. Each episode teaches the core ideas, traps and formulas for a group of modules and ends with a spoken recall check. Not produced by or affiliated with Kaplan or CFA Institute.</description>
+  <itunes:summary>Original 30 minute review episodes for the November 2026 CFA Level I exam, in Kaplan Schweser module order.</itunes:summary>
+  <itunes:author>CFA Level I Audio Review</itunes:author>
+  <itunes:image href="https://samriveracs.github.io/cfa-audio/cover.jpg"/>
+  <image><url>https://samriveracs.github.io/cfa-audio/cover.jpg</url><title>CFA Level I Audio Review</title><link>https://samriveracs.github.io/cfa-audio/</link></image>
+  <itunes:category text="Education"/>
+  <itunes:explicit>false</itunes:explicit>
+  <itunes:type>serial</itunes:type>
+  <itunes:block>Yes</itunes:block>
+  <podcast:locked>yes</podcast:locked>
+  <lastBuildDate>Sat, 03 Oct 2026 20:15:20 -0500</lastBuildDate>
+  <item>
+    <title>E01 Rates, Returns and the Time Value of Money</title>
+    <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
+    <itunes:episode>1</itunes:episode>
+    <itunes:season>1</itunes:season>
+    <podcast:season name="Quantitative Methods">1</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Quantitative Methods, Kaplan Modules 1.1 to 2.2. 1.1 Interest Rates and Return Measurement, 1.2 Time-Weighted and Money-Weighted Returns, 1.3 Common Measures of Return, 2.1 Discounted Cash Flow Valuation, 2.2 Implied Returns and Cash Flow Additivity</description>
+    <itunes:summary>Quantitative Methods, Kaplan Modules 1.1 to 2.2. 1.1 Interest Rates and Return Measurement, 1.2 Time-Weighted and Money-Weighted Returns, 1.3 Common Measures of Return, 2.1 Discounted Cash Flow Valuation, 2.2 Implied Returns and Cash Flow Additivity</itunes:summary>
+    <content:encoded><![CDATA[<p>Quantitative Methods, Kaplan Modules 1.1 to 2.2.</p><ul><li>Module 1.1, Interest Rates and Return Measurement</li><li>Module 1.2, Time-Weighted and Money-Weighted Returns</li><li>Module 1.3, Common Measures of Return</li><li>Module 2.1, Discounted Cash Flow Valuation</li><li>Module 2.2, Implied Returns and Cash Flow Additivity</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:27 The big picture</li><li>1:40 Module 1.1, Interest Rates and Return Measurement</li><li>6:49 Module 1.2, Time-Weighted and Money-Weighted Returns</li><li>10:57 Module 1.3, Common Measures of Return</li><li>15:18 Module 2.1, Discounted Cash Flow Valuation</li><li>21:26 Module 2.2, Implied Returns and Cash Flow Additivity</li><li>26:55 Recall check</li><li>29:58 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E01.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E01.mp3" length="9446665" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e01</guid>
+    <pubDate>Sat, 03 Oct 2026 12:01:00 -0500</pubDate>
+    <itunes:duration>1889</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E01.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E02 Return Statistics and Probability Trees</title>
+    <itunes:title>Return Statistics and Probability Trees</itunes:title>
+    <itunes:episode>2</itunes:episode>
+    <itunes:season>1</itunes:season>
+    <podcast:season name="Quantitative Methods">1</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Quantitative Methods, Kaplan Modules 3.1 to 4.1. 3.1 Central Tendency and Dispersion, 3.2 Skewness, Kurtosis, and Correlation, 4.1 Probability Models, Expected Values, and Bayes’ Formula</description>
+    <itunes:summary>Quantitative Methods, Kaplan Modules 3.1 to 4.1. 3.1 Central Tendency and Dispersion, 3.2 Skewness, Kurtosis, and Correlation, 4.1 Probability Models, Expected Values, and Bayes’ Formula</itunes:summary>
+    <content:encoded><![CDATA[<p>Quantitative Methods, Kaplan Modules 3.1 to 4.1.</p><ul><li>Module 3.1, Central Tendency and Dispersion</li><li>Module 3.2, Skewness, Kurtosis, and Correlation</li><li>Module 4.1, Probability Models, Expected Values, and Bayes’ Formula</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>1:45 Module 3.1, Central Tendency and Dispersion</li><li>11:40 Module 3.2, Skewness, Kurtosis, and Correlation</li><li>19:19 Module 4.1, Probability Models, Expected Values, and Bayes’ Formula</li><li>26:48 Recall check</li><li>30:22 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E02.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E02.mp3" length="9562245" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e02</guid>
+    <pubDate>Sat, 03 Oct 2026 12:02:00 -0500</pubDate>
+    <itunes:duration>1912</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E02.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E03 Portfolio Math, Simulation and Sampling</title>
+    <itunes:title>Portfolio Math, Simulation and Sampling</itunes:title>
+    <itunes:episode>3</itunes:episode>
+    <itunes:season>1</itunes:season>
+    <podcast:season name="Quantitative Methods">1</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Quantitative Methods, Kaplan Modules 5.1 to 7.1. 5.1 Probability Models for Portfolio Return and Risk, 6.1 Lognormal Distributions and Simulation Techniques, 7.1 Sampling Techniques and the Central Limit Theorem</description>
+    <itunes:summary>Quantitative Methods, Kaplan Modules 5.1 to 7.1. 5.1 Probability Models for Portfolio Return and Risk, 6.1 Lognormal Distributions and Simulation Techniques, 7.1 Sampling Techniques and the Central Limit Theorem</itunes:summary>
+    <content:encoded><![CDATA[<p>Quantitative Methods, Kaplan Modules 5.1 to 7.1.</p><ul><li>Module 5.1, Probability Models for Portfolio Return and Risk</li><li>Module 6.1, Lognormal Distributions and Simulation Techniques</li><li>Module 7.1, Sampling Techniques and the Central Limit Theorem</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>2:03 Module 5.1, Probability Models for Portfolio Return and Risk</li><li>12:17 Module 6.1, Lognormal Distributions and Simulation Techniques</li><li>19:40 Module 7.1, Sampling Techniques and the Central Limit Theorem</li><li>27:11 Recall check</li><li>30:51 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E03.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E03.mp3" length="9719640" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e03</guid>
+    <pubDate>Sat, 03 Oct 2026 12:03:00 -0500</pubDate>
+    <itunes:duration>1944</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E03.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E04 Hypothesis Testing and Tests of Independence</title>
+    <itunes:title>Hypothesis Testing and Tests of Independence</itunes:title>
+    <itunes:episode>4</itunes:episode>
+    <itunes:season>1</itunes:season>
+    <podcast:season name="Quantitative Methods">1</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Quantitative Methods, Kaplan Modules 8.1 to 9.1. 8.1 Hypothesis Testing Basics, 8.2 Types of Hypothesis Tests, 9.1 Tests for Independence</description>
+    <itunes:summary>Quantitative Methods, Kaplan Modules 8.1 to 9.1. 8.1 Hypothesis Testing Basics, 8.2 Types of Hypothesis Tests, 9.1 Tests for Independence</itunes:summary>
+    <content:encoded><![CDATA[<p>Quantitative Methods, Kaplan Modules 8.1 to 9.1.</p><ul><li>Module 8.1, Hypothesis Testing Basics</li><li>Module 8.2, Types of Hypothesis Tests</li><li>Module 9.1, Tests for Independence</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>1:36 Module 8.1, Hypothesis Testing Basics</li><li>9:06 Module 8.2, Types of Hypothesis Tests</li><li>19:28 Module 9.1, Tests for Independence</li><li>26:00 Recall check</li><li>29:18 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E04.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E04.mp3" length="9215211" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e04</guid>
+    <pubDate>Sat, 03 Oct 2026 12:04:00 -0500</pubDate>
+    <itunes:duration>1843</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E04.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E05 Simple Linear Regression and Big Data</title>
+    <itunes:title>Simple Linear Regression and Big Data</itunes:title>
+    <itunes:episode>5</itunes:episode>
+    <itunes:season>1</itunes:season>
+    <podcast:season name="Quantitative Methods">1</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Quantitative Methods, Kaplan Modules 10.1 to 11.1. 10.1 Linear Regression Basics, 10.2 Analysis of Variance (ANOVA) and Goodness of Fit, 10.3 Predicted Values and Functional Forms of Regression, 11.1 Introduction to Fintech</description>
+    <itunes:summary>Quantitative Methods, Kaplan Modules 10.1 to 11.1. 10.1 Linear Regression Basics, 10.2 Analysis of Variance (ANOVA) and Goodness of Fit, 10.3 Predicted Values and Functional Forms of Regression, 11.1 Introduction to Fintech</itunes:summary>
+    <content:encoded><![CDATA[<p>Quantitative Methods, Kaplan Modules 10.1 to 11.1.</p><ul><li>Module 10.1, Linear Regression Basics</li><li>Module 10.2, Analysis of Variance (ANOVA) and Goodness of Fit</li><li>Module 10.3, Predicted Values and Functional Forms of Regression</li><li>Module 11.1, Introduction to Fintech</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>1:49 Module 10.1, Linear Regression Basics</li><li>9:46 Module 10.2, Analysis of Variance (ANOVA) and Goodness of Fit</li><li>16:49 Module 10.3, Predicted Values and Functional Forms of Regression</li><li>21:40 Module 11.1, Introduction to Fintech</li><li>26:23 Recall check</li><li>29:42 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E05.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E05.mp3" length="9353220" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e05</guid>
+    <pubDate>Sat, 03 Oct 2026 12:05:00 -0500</pubDate>
+    <itunes:duration>1870</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E05.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E06 Firms and Market Structures</title>
+    <itunes:title>Firms and Market Structures</itunes:title>
+    <itunes:episode>6</itunes:episode>
+    <itunes:season>2</itunes:season>
+    <podcast:season name="Economics">2</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Economics, Kaplan Modules 12.1 to 12.3. 12.1 Breakeven, Shutdown, and Scale, 12.2 Characteristics of Market Structures, 12.3 Identifying Market Structures</description>
+    <itunes:summary>Economics, Kaplan Modules 12.1 to 12.3. 12.1 Breakeven, Shutdown, and Scale, 12.2 Characteristics of Market Structures, 12.3 Identifying Market Structures</itunes:summary>
+    <content:encoded><![CDATA[<p>Economics, Kaplan Modules 12.1 to 12.3.</p><ul><li>Module 12.1, Breakeven, Shutdown, and Scale</li><li>Module 12.2, Characteristics of Market Structures</li><li>Module 12.3, Identifying Market Structures</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:10 The big picture</li><li>1:54 Module 12.1, Breakeven, Shutdown, and Scale</li><li>10:08 Module 12.2, Characteristics of Market Structures</li><li>21:39 Module 12.3, Identifying Market Structures</li><li>26:28 Recall check</li><li>30:07 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E06.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E06.mp3" length="9521940" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e06</guid>
+    <pubDate>Sat, 03 Oct 2026 12:06:00 -0500</pubDate>
+    <itunes:duration>1904</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E06.txt" type="text/plain"/>
+  </item>
+</channel>
+</rss>

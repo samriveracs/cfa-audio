@@ -1,0 +1,163 @@
+## The big picture
+
+This episode covers three Kaplan modules that share one theme. Each one is about handling uncertainty when there is more than one moving part. Module 5.1 asks what happens to return and risk when you combine assets into a portfolio. Module 6.1 asks how to model the path of an asset price, and what to do when a problem is too messy for a neat formula. Module 7.1 asks how you can learn about a whole population when all you ever see is a sample.
+
+Here is how they connect. In Module 5.1 you will see that expected return combines simply, as a weighted average, but risk does not. Risk depends on how assets move together, which is measured by covariance and correlation. That module also gives you a rule for choosing a portfolio when a client has a minimum return they cannot fall below.
+
+Module 6.1 moves from single period returns to prices over time. It explains why prices are modeled as lognormal and introduces two simulation tools, Monte Carlo simulation and bootstrap resampling. Module 7.1 closes the loop. Every mean, variance and correlation you use has to be estimated from a sample, so you need to know how samples are drawn and how precise a sample mean is. The central limit theorem answers that.
+
+On the exam, expect calculation questions on portfolio variance and the safety first ratio. Expect concept questions on lognormal distributions, simulation methods, sampling methods and the central limit theorem. Many wrong answers on these topics come from one small slip, like dropping a 2 or confusing a standard deviation with a standard error. This episode points out those slips as we go.
+
+## Module 5.1, Probability Models for Portfolio Return and Risk
+
+Start with the question this module answers. If you know the expected return and risk of each asset, what are the expected return and risk of a portfolio of them? The answer has two very different halves. Return is easy. Risk takes more work, and that extra work is the whole reason diversification exists.
+
+First, expected return. The expected return of a portfolio equals the sum of each asset's weight times that asset's expected return. A weight is the fraction of the portfolio's value held in that asset, and the weights add up to 1. Say you put 60 percent in stocks with an expected return of 10 percent, and 40 percent in bonds with an expected return of 5 percent. Sixty percent of 10 is 6, and forty percent of 5 is 2, so the portfolio's expected return is 8 percent. How the assets move together does not matter here.
+
+Second, risk, measured by variance or its square root, standard deviation. Portfolio variance is not a weighted average, because it depends on whether one asset's bad years line up with the other asset's bad years. The tool that measures that is covariance.
+
+For each possible outcome, take asset A's deviation from its expected return and multiply it by asset B's deviation from its expected return. If both are above their means, or both below, the product is positive. If one is above while the other is below, the product is negative. Covariance is the probability weighted average of those products. Positive covariance means the returns tend to move together, and negative means they tend to move in opposite directions.
+
+The exam may give you a joint probability function, which is a table of scenarios with a probability and a pair of returns for each. Find each asset's expected return, multiply the two deviations in each scenario, weight each product by its probability, and add them up.
+
+Here is one you can follow without paper. There are three scenarios. A boom with probability 25 percent, a normal year with probability 50 percent, and a bust with probability 25 percent. Asset A returns 20 percent in the boom, 10 percent in the normal year, and zero in the bust, so its expected return is 10 percent. Asset B returns 14 percent in the boom and 6 percent in both the normal year and the bust. Its expected return is a quarter of 14 plus three quarters of 6, which is 3.5 plus 4.5, or 8 percent.
+
+Now the deviations. In the boom, A is 10 above its mean and B is 6 above its mean. The product is 60, and a 25 percent weight gives 15. In the normal year, A sits exactly on its mean, so the product is zero no matter what B does. In the bust, A is 10 below its mean and B is 2 below its mean. Two negatives give a positive 20, and a 25 percent weight gives 5.
+
+Add 15, zero and 5. The covariance is 20, measured in percent squared. The positive sign says these assets tend to move together, but the size is hard to interpret because covariance carries squared units. That is why we standardize it.
+
+Correlation equals the covariance divided by the product of the two standard deviations. That strips out the units, so correlation always falls between minus 1 and plus 1, with zero meaning no linear relationship. If the covariance is 30 in percent squared and the standard deviations are 10 percent and 5 percent, the correlation is 30 divided by 50, or 0.6. The exam often gives you correlation and expects you to rebuild covariance. Covariance equals correlation times the first standard deviation times the second standard deviation.
+
+One trap here. Independent variables have zero covariance, but zero covariance does not prove independence. It only rules out a linear relationship.
+
+Now the main event, portfolio variance for two assets. Say it slowly. Portfolio variance equals the weight of A squared times the variance of A, plus the weight of B squared times the variance of B, plus 2 times the weight of A times the weight of B times the covariance of A and B. If you are given correlation instead of covariance, that last term becomes 2 times the weight of A times the weight of B times the correlation times the standard deviation of A times the standard deviation of B. The first two terms are each asset's own risk, scaled by the square of its weight. The third term is the interaction, and it is the only place correlation enters.
+
+Worked example. Half your money is in asset A with a standard deviation of 20 percent. Half is in asset B with a standard deviation of 10 percent. The correlation is 0.5. Work in whole percent to keep the numbers simple.
+
+The variance of A is 20 squared, which is 400, and a quarter of 400 is 100. The variance of B is 10 squared, which is 100, and a quarter of that is 25. The covariance is 0.5 times 20 times 10, which is 100. The cross term is 2 times one half times one half times 100, which is 50. Add 100, 25 and 50 and you get 175 in percent squared, which is 0.0175 in decimals. The square root is about 13.2 percent.
+
+Compare that with the weighted average of the two standard deviations, which is 15 percent. The portfolio is less risky than the average of its parts, and that gap is diversification. Now change only the correlation. At plus 1, the cross term grows to 100, the variance becomes 225, and the standard deviation is exactly 15 percent, the weighted average. There is no diversification benefit at all.
+
+At zero correlation, the cross term disappears, the variance is 125, and the standard deviation is about 11.2 percent. At minus 1, the cross term is minus 100, the variance is 25, and the standard deviation drops to 5 percent. So the lower the correlation, the lower the portfolio risk, holding the weights and the individual risks fixed. Any correlation below plus 1 gives a portfolio standard deviation below the weighted average.
+
+With more than two assets, portfolio variance is the sum, over every pair of assets, of the two weights times their covariance. An asset paired with itself gives its variance, and each pair of different assets shows up twice, which is where the 2 comes from. On a bank or credit union balance sheet, the same logic explains why total interest rate risk is not simply the sum of each book's standalone risk, because the pieces partly offset.
+
+Here are the traps. First, forgetting the 2 in the cross term, a classic wrong answer. Second, plugging in correlation where the formula needs covariance. Third, averaging the standard deviations, which is only right when correlation is exactly plus 1. Fourth, mixing units, because 175 in percent squared means 0.0175. Fifth, forgetting the square root when the question asks for standard deviation.
+
+The last idea in this module is a decision rule. Many investors care most about one bad outcome, earning less than some minimum return, called the threshold return. Shortfall risk is the probability that the portfolio's return falls below that threshold.
+
+Roy's safety first criterion says to choose the portfolio that minimizes the probability of a shortfall. If returns are normally distributed, you pick the portfolio with the highest safety first ratio. The safety first ratio equals the portfolio's expected return minus the threshold return, all divided by the portfolio's standard deviation. It counts how many standard deviations of cushion sit between where you expect to land and where you cannot afford to land.
+
+Worked example. The client needs at least 3 percent. Portfolio X has an expected return of 9 percent and a standard deviation of 12 percent, so its ratio is 6 divided by 12, or 0.5. Portfolio Y has an expected return of 7 percent and a standard deviation of 5 percent, so its ratio is 4 divided by 5, or 0.8. Choose Y, even though X has the higher expected return. Under normality, the shortfall probability is the area of the standard normal curve below the negative of the ratio, about 21 percent for Y and about 31 percent for X.
+
+The traps here are predictable. The tempting answer is the highest expected return or the lowest standard deviation, but only the ratio decides. Another trap is subtracting the risk free rate when the question gives a different threshold. When the threshold equals the risk free rate, the safety first ratio becomes the Sharpe ratio. And watch for thresholds in dollars. A client who must withdraw 30,000 dollars from a 1,000,000 dollar portfolio without touching principal has a threshold return of 3 percent.
+
+The one rule to carry from this module is the portfolio variance formula. Portfolio variance equals each weight squared times that asset's variance, summed, plus 2 times the two weights times the covariance. Only the covariance term depends on how the assets move together, and that is where diversification lives.
+
+## Module 6.1, Lognormal Distributions and Simulation Techniques
+
+This module answers two questions. What distribution fits an asset's price over time, and how do you get answers when no clean formula exists? The answers are the lognormal distribution and simulation.
+
+Start with prices. A normal distribution has two problems as a model for prices. It is symmetric, and it stretches all the way to minus infinity, which would allow negative prices. Real prices cannot fall below zero, and over long horizons their distribution has a long tail to the right.
+
+The lognormal distribution has both of those features. A variable is lognormal if its natural logarithm is normally distributed. A lognormal variable is bounded below by zero and skewed to the right, so its mean sits above its median.
+
+Why does the lognormal fit prices so naturally? The bridge is the continuously compounded return. The continuously compounded return over a period equals the natural log of the ending price divided by the beginning price. Equivalently, it is the natural log of one plus the holding period return. On the B A two plus, for a 10 percent gain, type 1.1 and press the L N key, and the display shows about 0.0953 once it is set to four or more decimal places. To reverse it, press second, then L N, which raises e to the displayed number.
+
+Here is the property that matters. Continuously compounded returns add up over time. Suppose a stock goes from 100 to 110 and then back to 100. The holding period returns are plus 10 percent and then about minus 9.1 percent, and they do not add to zero even though you ended where you started. The continuously compounded returns are about plus 9.53 percent and then about minus 9.53 percent, and they add to exactly zero. In general, the continuously compounded return over many periods is the sum of the single period continuously compounded returns.
+
+Now connect the pieces. If each period's continuously compounded return is normally distributed, and the periods are independent and identically distributed, then their sum is also normal. Even if single period returns are not quite normal, a sum of many independent returns tends toward normal, which is the central limit theorem you will meet in Module 7.1. So the log of the ending price divided by the beginning price is normal. The ending price equals the beginning price times e raised to that normal return, which makes the price lognormal.
+
+Keep the roles straight. Continuously compounded returns are modeled as normal. Prices, and price relatives, are modeled as lognormal.
+
+The same assumption tells you how risk scales with time. Under independent and identically distributed returns, the mean of the multi period continuously compounded return equals the number of periods times the single period mean. The variance equals the number of periods times the single period variance. So the standard deviation grows with the square root of the number of periods.
+
+In this setting, volatility means the annualized standard deviation of continuously compounded returns. For example, if the standard deviation of quarterly continuously compounded returns is 5 percent, the annual figure is 5 times the square root of 4, which is 10 percent. With daily data, analysts commonly scale by the square root of about 250 trading days. The trap is scaling the standard deviation by the number of periods instead of its square root. Variance scales with time, and standard deviation scales with the square root of time.
+
+Now simulation. Some problems have no tidy formula, such as a security whose payoff depends on the whole path of prices, or a pension plan's funding status thirty years out. Monte Carlo simulation handles these by brute force. A computer generates thousands of possible futures from assumed distributions, computes the outcome in each one, and you study the spread of results.
+
+The steps follow a clear logic. First, define the quantity you want in terms of the underlying risk factors. Second, choose how many time steps each path will have. Third, specify a probability distribution and parameters for each risk factor, including how the factors are correlated.
+
+Fourth, use a random number generator to draw values from those distributions. Fifth, compute the outcome for that path, discounting to a present value if you are valuing a security. Sixth, repeat thousands of times and summarize, for example with the average value or the fifth percentile of outcomes.
+
+Uses include valuing complex or path dependent securities, estimating value at risk, and testing how a strategy or a retirement plan holds up under different assumptions. Balance sheet teams use the same machinery to simulate many interest rate paths and see the range of possible net interest income. The key strength is flexibility, because you can change any assumption and rerun.
+
+The limitations are just as testable. A simulation is only as good as its assumptions, so the wrong distribution gives a precise looking answer to the wrong question. The result is a statistical estimate, not an exact value, although more trials make it more precise. And unlike an analytical formula, a simulation offers little insight into cause and effect.
+
+The second technique is bootstrap resampling. Instead of assuming a distribution, you treat the observed history as if it were the whole population, and you draw from it randomly, with replacement, to build many simulated samples or paths. With replacement means each drawn return goes back into the pool, so it can be picked again. If you have 20 years of monthly returns, you can build a new 20 year path by drawing 240 months at random from that history, then repeat that thousands of times.
+
+The strength of bootstrapping is that it makes no assumption about the shape of the distribution. Whatever skew or fat tails exist in the data carry straight into the simulation. The weakness is the flip side. It assumes the past is a fair picture of the future, and because every single draw is a historical value, it can never produce a monthly return worse than the worst one in the sample.
+
+Here is the trap that separates the two. Monte Carlo draws from a distribution you assume. Bootstrapping draws, with replacement, from data you observed. If a question describes sampling actual past returns with replacement, the answer is bootstrapping, not Monte Carlo.
+
+The rule to keep from this module is short. Continuously compounded returns are normal and add over time, so prices are lognormal, bounded below by zero and skewed to the right.
+
+## Module 7.1, Sampling Techniques and the Central Limit Theorem
+
+Every statistic in the last two modules has to be estimated, whether it is an expected return, a standard deviation or a correlation. You almost never observe a whole population. You observe a sample and use a sample statistic to estimate a population parameter. This module covers how samples should be drawn and how close a sample mean is likely to be to the truth.
+
+First, a definition. Sampling error is the difference between a sample statistic and the population parameter it estimates. If the true average return of all the stocks in an index is 8 percent and your sample of 50 stocks averages 9 percent, the sampling error is 1 percentage point. Sampling error is not a mistake. It is simply what happens when you look at part of a population instead of all of it.
+
+A related idea is the sampling distribution. Imagine drawing every possible sample of the same size and computing the mean of each one. The distribution of all those means is the sampling distribution of the sample mean.
+
+Sampling methods fall into two families. In probability sampling, chance decides who is in the sample, and every member has a known probability of being chosen, so the sample can be expected to represent the population. In non probability sampling, a person's judgment or convenience decides, so representativeness is not assured.
+
+Within probability sampling, start with simple random sampling, where every member of the population has an equal chance of being picked. A practical version is systematic sampling, where you take every tenth or every hundredth name from a list. As long as the list has no hidden pattern, that behaves like a random sample.
+
+Next is stratified random sampling. You first split the population into subgroups, called strata, using characteristics that matter, such as sector, maturity or credit quality for bonds. Every member falls into exactly one stratum. Then you draw a random sample from every stratum, usually in proportion to that stratum's share of the population. Because every important subgroup is guaranteed to show up, the estimate is usually more precise than a simple random sample of the same size. Bond index funds use this idea to track an index without buying every bond in it.
+
+Then cluster sampling. Here the population is split into clusters, often by something convenient like geography, and each cluster is assumed to be a small version of the whole population. You randomly pick some clusters and ignore the rest. In one stage cluster sampling, you include every member of the chosen clusters. In two stage cluster sampling, you draw a random sample from within each chosen cluster. Cluster sampling saves time and money, but if the chosen clusters are not truly representative, sampling error tends to be larger than with stratified sampling.
+
+Here is the trap that matters most in this module. Stratified and cluster sampling both start by dividing the population into groups, so they sound alike. The difference is which groups you sample. Stratified sampling draws from every group, while cluster sampling draws from only some groups. Another way to hold it is this. Strata are built so that members within a stratum are similar to each other and different from other strata, while clusters are each meant to look like the whole population.
+
+Now non probability sampling. Convenience sampling uses whatever data is easiest to get. It is fast and cheap, which makes it useful for a quick first look or a pilot study, but it may not represent the population. Judgmental sampling uses the researcher's expertise to hand pick the sample. For example, a portfolio manager might hand pick the stocks she believes best represent a sector. Expertise can make that effective, but the result depends on one person's judgment and can carry that person's biases.
+
+Now the most important idea in this module, the central limit theorem. Take simple random samples of size n from any population with mean mu and a finite variance, sigma squared. As n gets large, the sampling distribution of the sample mean approaches a normal distribution. The mean of that sampling distribution equals the population mean, mu. Its variance equals the population variance, sigma squared, divided by n. A common rule of thumb is that a sample of 30 or more is large enough.
+
+Listen carefully to what becomes normal. It is not the population. It is not the individual observations in your sample. It is the distribution of the sample mean across repeated samples. The population could be skewed, lumpy or fat tailed, and the sample mean will still be approximately normal for a large enough sample, as long as the population variance is finite.
+
+That is why this theorem matters so much. It lets you make probability statements about a sample mean without knowing the shape of the population, and it underpins the hypothesis tests in the next episode.
+
+The standard deviation of that sampling distribution has its own name, the standard error of the sample mean. The standard error equals the population standard deviation divided by the square root of the sample size. In practice you rarely know the population standard deviation, so you use the sample standard deviation divided by the square root of the sample size instead.
+
+Worked example. Monthly returns on a group of funds have a standard deviation of 12 percent. With a sample of 36 funds, the standard error of the sample mean is 12 divided by the square root of 36, which is 12 divided by 6, or 2 percent. Now quadruple the sample to 144. The square root of 144 is 12, so the standard error falls to 1 percent. Notice the cost of precision, because four times the sample size only halves the standard error.
+
+The same logic explains why more Monte Carlo trials give a more precise answer. The simulated average is a sample mean, so its standard error shrinks with the square root of the number of trials.
+
+The traps. First, confusing standard deviation with standard error. Standard deviation describes how spread out individual observations are, while standard error describes how spread out sample means are, and it shrinks as the sample grows. Second, thinking the standard error falls in proportion to sample size, when it actually falls with the square root.
+
+Third, believing the central limit theorem makes the population normal, which it does not. Fourth, assuming a bigger sample removes sampling error. It shrinks it, but it never disappears unless you measure the whole population.
+
+The rule to keep from this module is the central limit theorem with its standard error. For a large sample, the sample mean is approximately normal, centered on the population mean, with a standard error equal to the standard deviation divided by the square root of the sample size.
+
+## Recall check
+
+Q: Two assets have a correlation of exactly plus 1. Is the portfolio standard deviation above, below, or equal to the weighted average of their standard deviations?
+
+Answer: Equal. With a correlation of plus 1, the portfolio variance becomes a perfect square, and its square root is the weighted average of the two standard deviations. Any correlation below plus 1 pulls the portfolio standard deviation below that average, which is the diversification benefit.
+
+Q: A portfolio has an expected return of 9 percent and a standard deviation of 10 percent, and the client's minimum acceptable return is 4 percent. What is the safety first ratio?
+
+Answer: The ratio is 0.5. Subtract the threshold from the expected return to get 5, then divide by the standard deviation of 10. Under normality, that implies roughly a 31 percent chance of falling below the threshold, and the best portfolio is the one with the highest ratio.
+
+Q: Which is most likely to be modeled as lognormal, a stock's continuously compounded return, its holding period return, or its price?
+
+Answer: Its price. Continuously compounded returns are modeled as normal, and because the price equals the starting price times e raised to that return, the price is lognormal. That fits prices well, because a lognormal variable cannot go below zero and is skewed to the right.
+
+Q: An analyst builds thousands of return paths by drawing, with replacement, from 15 years of actual monthly returns. What technique is this, and what is its main limitation?
+
+Answer: This is bootstrap resampling. It needs no assumption about the shape of the distribution, but it assumes the past represents the future, and it can never generate a monthly return more extreme than the ones in the historical sample. Monte Carlo simulation, by contrast, draws from a distribution the analyst specifies.
+
+Q: An analyst sorts corporate bonds into groups by sector and credit rating, then randomly selects bonds from every group in proportion to its size. Which sampling method is most likely being used?
+
+Answer: This is stratified random sampling. The key clue is that every group is sampled. In cluster sampling, only some groups are chosen, and each group is meant to resemble the whole population.
+
+Q: A population has a standard deviation of 15 percent. What is the standard error of the sample mean for a sample of 25, and what sample size would cut it in half?
+
+Answer: The standard error is 15 divided by the square root of 25, which is 15 divided by 5, or 3 percent. To halve it to 1.5 percent you need four times the sample, so 100 observations. That is because the standard error falls with the square root of the sample size.
+
+## Recap
+
+The expected return of a portfolio is the weighted average of the assets' expected returns, but portfolio variance is not a weighted average. Portfolio variance equals each weight squared times its variance, plus 2 times the two weights times the covariance, and covariance equals correlation times the two standard deviations. Any correlation below plus 1 gives a portfolio standard deviation below the weighted average of the parts. Roy's safety first criterion picks the portfolio with the highest ratio of expected return minus the threshold, divided by standard deviation, and under normality that portfolio has the lowest chance of a shortfall.
+
+Continuously compounded returns add over time and are modeled as normal, which makes prices lognormal, bounded below by zero and skewed to the right. Monte Carlo simulation draws from distributions you assume, while bootstrapping draws with replacement from data you observed. Stratified sampling draws from every subgroup, while cluster sampling draws from only some. The central limit theorem says the sample mean is approximately normal for large samples, whatever the population looks like, with a standard error equal to the standard deviation divided by the square root of the sample size.
