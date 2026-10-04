@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 08:36:50 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 08:56:07 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -661,6 +661,23 @@
     <itunes:duration>1982</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E38.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E39 Portfolio Risk and Return</title>
+    <itunes:title>Portfolio Risk and Return</itunes:title>
+    <itunes:episode>39</itunes:episode>
+    <itunes:season>9</itunes:season>
+    <podcast:season name="Portfolio Management">9</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Portfolio Management, Kaplan Modules 83.1 to 83.4. 83.1 Historical Risk and Return, 83.2 Risk Aversion, 83.3 Portfolio Standard Deviation, 83.4 The Efficient Frontier</description>
+    <itunes:summary>Portfolio Management, Kaplan Modules 83.1 to 83.4. 83.1 Historical Risk and Return, 83.2 Risk Aversion, 83.3 Portfolio Standard Deviation, 83.4 The Efficient Frontier</itunes:summary>
+    <content:encoded><![CDATA[<p>Portfolio Management, Kaplan Modules 83.1 to 83.4.</p><ul><li>Module 83.1, Historical Risk and Return</li><li>Module 83.2, Risk Aversion</li><li>Module 83.3, Portfolio Standard Deviation</li><li>Module 83.4, The Efficient Frontier</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>1:57 Module 83.1, Historical Risk and Return</li><li>6:35 Module 83.2, Risk Aversion</li><li>13:54 Module 83.3, Portfolio Standard Deviation</li><li>21:11 Module 83.4, The Efficient Frontier</li><li>27:13 Recall check</li><li>31:04 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E39.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E39_v2.mp3" length="9766792" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e39</guid>
+    <pubDate>Sat, 03 Oct 2026 12:39:00 -0500</pubDate>
+    <itunes:duration>1953</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E39.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>
