@@ -1,0 +1,169 @@
+## The big picture
+
+This episode closes out the ethics topic with two modules. Module 92.1 introduces the Global Investment Performance Standards, known as G I P S and usually pronounced gips. These are the rules investment firms follow when they calculate and present their track records to prospective clients. Module 93.1, Ethics Application, adds no new rules. It takes the Code of Ethics and the Standards of Professional Conduct and applies them to short cases, which is exactly how the exam tests them.
+
+The two modules share one idea. An investment professional owes clients a fair and complete picture, not a flattering slice of it. Standard three D, Performance Presentation, says that about any performance a member or candidate presents. GIPS turns the same idea into a detailed, voluntary rulebook for whole firms. The ethics cases then ask whether a particular person, in a particular situation, met the duties the Code and Standards impose.
+
+Ethical and Professional Standards carries a topic weight of 15 to 20 percent at Level I, among the largest on the exam. GIPS questions are usually short fact checks on who can claim compliance, what a composite is, and what verification does. Ethics application questions are scenarios with several plausible answers, where one detail decides everything. So you will get the GIPS facts first, then a method for reading ethics cases, then a run of original vignettes with a clear verdict on each one.
+
+One note before we start. The Standards were revised effective January 2024. The revision added Standard one E, Competence. It renamed Standard six A as Avoid or Disclose Conflicts. And it expanded Standard five B to cover the nature and cost of the services you provide. The vignettes in this episode follow that current version.
+
+## Module 92.1, Introduction to GIPS
+
+Start with what GIPS is. The Global Investment Performance Standards are a voluntary, global set of ethical standards for calculating and presenting investment performance. They are not a law. A firm chooses to comply, and once it claims compliance, it must meet every applicable requirement.
+
+The whole structure rests on two principles, fair representation and full disclosure. The current edition is the 2020 edition, which has separate standards for firms, for asset owners, and for verifiers. Level I focuses mainly on the standards for firms.
+
+Why were they created? Before common standards existed, each firm decided for itself how to show its results, and three misleading habits were common. First, representative accounts. A firm would show its single best portfolio and call it typical of the strategy.
+
+Second, survivorship bias. A firm would drop accounts that had closed or fired the manager, which were often the worst performers, so the remaining record looked better than what clients actually experienced. Third, varying time periods. A firm would choose the start and end dates that made its record look best. On top of that, results from different firms and countries could not be compared, because everyone used different methods.
+
+Here is a tiny example of survivorship bias. Suppose a strategy had 10 accounts last year. Seven stayed with the firm and earned 10 percent each. Three left after earning negative 10 percent each. If the firm reports only the survivors, it shows 10 percent.
+
+The honest average of all 10 accounts is 7 times 10, which is 70, plus 3 times negative 10, which is negative 30. That totals 40, and 40 divided by 10 accounts is 4 percent. Dropping the departed accounts overstates the result by 6 percentage points. Real GIPS composites weight accounts by size rather than equally, but the distortion works the same way.
+
+Who can claim compliance? Investment management firms can, and so can asset owners, such as pension plans and endowments, for the performance they report to their oversight bodies. Individuals cannot. A portfolio manager cannot say her personal track record is GIPS compliant. Consultants and software vendors cannot claim compliance either, because they do not manage the assets, although they can support the standards and ask the managers they evaluate to comply.
+
+Compliance is all or nothing, and it applies to the whole firm. A firm cannot claim compliance for one composite, one product or one office. It cannot say it complies except for a particular requirement. If any applicable requirement is not met, the firm cannot claim compliance at all. Make this the first GIPS fact you remember.
+
+Who benefits? Firms benefit in three ways. A compliance claim adds credibility with prospects. It works like a passport, so a firm can compete for business across many countries using one recognized standard. And the work of complying forces a firm to tighten its data, controls and documentation, which often exposes weaknesses.
+
+Prospective clients benefit because they get performance that is complete, consistent and comparable across firms, which makes due diligence easier. Here is the trap. GIPS compliance tells you a record is presented fairly. It does not tell you the manager is skilled, and it does not replace the client's own due diligence.
+
+Now the key concepts of the standards for firms. Five are worth holding. First, a compliant firm must meet every applicable requirement, including the official interpretations and guidance issued for the standards, not just the main text. Second, the firm must follow applicable laws, and if a law conflicts with GIPS, the firm follows the law and discloses the conflict.
+
+Third, the firm must write down its policies and procedures for complying and apply them consistently. Fourth, the firm must not present performance or related information that is false or misleading. Fifth, the firm must make every reasonable effort to give a GIPS report to each prospective client for the strategy that client is considering.
+
+There is also a history requirement. Each composite report must first present at least five years of compliant performance, or every year since the composite began if the composite is younger than five years. After that, the firm adds one year each year until it shows at least ten years.
+
+The standards also govern how returns are calculated. The general rule is time weighted returns. A time weighted return removes the effect of client deposits and withdrawals, which the manager usually does not control, so it fairly measures the manager's own decisions. Money weighted returns are allowed only in narrow cases, where the firm controls the timing of external cash flows and the strategy has features such as a closed end or fixed life structure, as with many private equity funds.
+
+Now the heart of the module, composites. A composite is a group of one or more portfolios managed to a similar mandate, objective or strategy. A firm might have a large company growth composite and a high yield bond composite. The composite's return is what a prospect sees for that strategy.
+
+The purpose is simple. Composites stop cherry picking. Instead of showing its best account, the firm must show the combined record of every account it runs that way.
+
+The rules that make composites work are very testable. All actual, fee paying, discretionary portfolios must be included in at least one composite. Strictly, that rule applies to segregated accounts, meaning portfolios run for a single client. A pooled fund must also be included in a composite when it meets a composite's definition. Composites are defined by strategy, in advance, never by results.
+
+New portfolios join on a timely and consistent basis. Portfolios that leave stay in the composite's history through the last full period they were managed, which is how survivorship bias is blocked. And a portfolio cannot be moved from one composite to another unless the client's mandate changes or the composite is redefined, and the change is documented. Its past results stay with the original composite.
+
+Two definitions sit underneath composites. The first is the definition of the firm. The firm is the entity held out to the public as a distinct business. The standards recommend the broadest, most meaningful definition, such as including every office that operates under the same brand. A narrow definition would let a manager leave weaker units outside the firm and present a cleaner record. Total firm assets must include every portfolio the firm manages, discretionary and nondiscretionary alike.
+
+The second is the definition of discretion. A portfolio is discretionary when the manager is able to carry out the intended strategy. If client restrictions are severe enough to prevent that, the firm may classify the portfolio as nondiscretionary and leave it out of composites.
+
+Picture a growth stock account where the client forbids selling an inherited stock that makes up 40 percent of the portfolio. The manager cannot run the strategy as designed, so the firm may treat that account as nondiscretionary. The firm must document its definition of discretion and apply it consistently. Here is the trap. A firm cannot call an account nondiscretionary because it performed badly. The test is the client's restrictions under a written policy, never the result.
+
+Finally, verification. Verification is a review of the whole firm by an independent outside party. The verifier asks two questions. Are the firm's procedures for building composites and pooled funds, and for calculating, presenting and sending out performance, designed to meet GIPS? And are those procedures actually being followed everywhere in the firm?
+
+Four facts get tested. First, verification is optional, though strongly recommended. Second, it covers the whole firm, not one composite. Third, it does not certify that any single composite's returns are accurate, and the firm itself stays responsible for its compliance. Fourth, a firm that has not been verified must say so in its GIPS reports.
+
+GIPS also connects back to the Standards. Standard three D, Performance Presentation, requires fair, accurate and complete performance information. Following GIPS is a strong way to meet that duty, but Standard three D does not require GIPS compliance. The same instinct carries into balance sheet work at a bank or credit union, where a board deserves the full range of interest rate scenarios, not just the comfortable ones.
+
+So hold on to the core rule of this module. GIPS compliance is firm wide and all or nothing. Every actual, fee paying, discretionary portfolio belongs in at least one composite, defined by strategy in advance. And verification is optional, independent and firm wide.
+
+## Module 93.1, Ethics Application
+
+This module is practice in judgment. It adds no rules. It gives you cases and asks whether the conduct complies with the Code and Standards, and if not, which Standard was violated and why. That is the shape of most ethics questions at Level I. Because the answer choices often all sound reasonable, you need a repeatable method, and then you need repetitions.
+
+Here is a four step method. First, identify the actor and the role. Is the person a member or candidate, a supervisor, someone acting for clients or for an employer? Second, identify whose interests are at stake and their order of priority. Clients come first, then the employer, then the individual.
+
+Third, find the trigger fact. Ask whether information is material and nonpublic, whether consent was in writing, whether a conflict was disclosed prominently and in plain language, and whether a recommendation had a reasonable basis. Fourth, choose the Standard that fits the act most precisely, and check for a stricter rule. Members and candidates must follow the stricter of applicable law and the Code and Standards.
+
+Three habits will save you points. One, disclosure resolves many conflicts, but it never makes it acceptable to trade on material nonpublic information, to manipulate a market, or to make a false statement. Two, being offered something or pressured to do something is not a violation. Accepting or acting is. Three, fair dealing does not mean equal treatment. It means no client is disadvantaged.
+
+Now let us run the cases. Each one is original, uses no real people or firms, and ends with a verdict.
+
+Case one tests Standard one A, Knowledge of the Law. An analyst works in a country with no law against trading on inside information. A friend at a listed company tells her, before any announcement, that the company is about to lose its largest customer, and she sells her shares. Verdict: violation. Standard one A requires her to follow the stricter of local law and the Code, and Standard two A, Material Nonpublic Information, forbids acting on that news. The lack of a local law is no defense.
+
+Case two stays with Standard one A. An operations associate sees his team changing timestamps on trade tickets to push losing trades into client accounts. He says nothing and keeps processing tickets. Verdict: violation. Knowingly participating in or assisting a violation counts, even when someone else designed the scheme. He should raise it with his supervisor or compliance, and if it continues, dissociate, which can mean refusing the work and, in serious cases, leaving the firm.
+
+Case three tests Standard one B, Independence and Objectivity. An analyst covering a hotel company accepts a free weekend for two at its newest luxury resort. Her buy rating does not change. Verdict: violation.
+
+The test is whether a gift could reasonably be expected to compromise independence, not whether it actually changed the rating. A modest business lunch is fine. Best practice is for the analyst's own firm to pay for travel to visit a company. Gifts from clients are treated differently, because a client's interests line up with good work, and they are generally acceptable when disclosed to the employer.
+
+Case four tests Standard one C, Misrepresentation. A portfolio manager pastes two paragraphs and a chart from another firm's research into his own report without credit. He also tells a prospect that a corporate bond fund is guaranteed to earn 5 percent.
+
+Verdict: two violations. Using someone else's work without acknowledgment is plagiarism, which is a form of misrepresentation. And calling a return guaranteed when nothing guarantees it is a false statement. Factual data from recognized financial and statistical reporting services can be used without that kind of credit.
+
+Case five tests Standard one D, Misconduct. A wealth manager files for personal bankruptcy after large medical bills. A colleague pads his expense reports with client dinners that never happened. Verdict: the bankruptcy alone is not a violation, because it involves no fraud or deceit. The padded expenses are a violation, because Standard one D covers professional conduct involving dishonesty, fraud or deceit, and any act that reflects badly on professional reputation, integrity or competence. Here is the trap. Dishonesty in a purely personal matter, with no link to professional activities, generally falls outside this Standard.
+
+Case six tests the newer Standard one E, Competence. A manager who has only run large company stock portfolios agrees to take over a leveraged loan fund. He makes no effort to learn how the loans, their covenants or their liquidity work, and he brings in no one who knows.
+
+Verdict: most likely a violation. Standard one E requires acting with, and maintaining, the competence your professional responsibilities demand. It does not require a fixed number of training hours. He could have built the knowledge, added qualified help, or declined the mandate.
+
+Case seven tests Standard two A, Material Nonpublic Information. Information is material if a reasonable investor would want it or its release would likely move the price. It is nonpublic until it has been broadly released to the market.
+
+An analyst talks to a retailer's suppliers, counts delivery trucks at its warehouses, and combines that with public filings. She concludes sales will beat expectations and upgrades the stock. Verdict: no violation. This is the mosaic theory. Combining public information with nonmaterial nonpublic information to reach a material conclusion is legitimate analysis.
+
+Now change one fact. The company's treasurer privately tells her a merger will be announced next week. If she trades or causes anyone else to trade, that is a violation. Her best move is to tell compliance and encourage the company to make the news public.
+
+Case eight tests Standard two B, Market Manipulation. A trader holds a large position in a thinly traded stock. He posts invented takeover rumors on investor message boards, then sells into the price jump. Verdict: violation. Spreading false information to distort prices is manipulation. By contrast, buying a large block gradually over several days to limit price impact is a legitimate strategy, because nothing about it is meant to mislead.
+
+Case nine tests Standard three A, Loyalty, Prudence, and Care. A manager uses client brokerage commissions to pay for new office furniture. Verdict: violation. Brokerage commissions belong to the clients, so they may only pay for research and services that help manage those clients' money. Using commissions for research that directly supports the investment process is acceptable. Also remember that for a pension plan, the duty runs to the plan's participants and beneficiaries, not to the sponsoring company's management.
+
+Case ten is a worked example on Standard three B, Fair Dealing. A firm receives 10,000 shares of a heavily oversubscribed new stock offering. Only two client accounts placed orders, both suitable, for 30,000 and 20,000 shares, a total of 50,000. Fair allocation is pro rata. 10,000 divided by 50,000 is 20 percent. So the first client gets 20 percent of 30,000, which is 6,000 shares, and the second gets 20 percent of 20,000, which is 4,000 shares.
+
+Suppose instead the manager filled his own household account first. Verdict: violation of Standard three B, and of Standard six B, Priority of Transactions, because clients come before the manager. A related case: an analyst phones a downgrade to three favorite clients an hour before releasing it to everyone else. Violation of Standard three B. Firms may offer premium service levels, but only if they are disclosed and available to every client willing to pay, and no client may be disadvantaged.
+
+Case eleven tests Standard three C, Suitability. A retired client's investment policy statement calls for capital preservation and steady income. Her manager adds a speculative options strategy to chase higher returns. Verdict: violation. Recommendations and actions must fit the client's objectives and constraints and the portfolio as a whole.
+
+Now a different client insists on buying a small speculative stock that you judge unsuitable. If the position is small relative to the portfolio, you explain the mismatch, and you may then execute it as an unsolicited trade. If it would change the portfolio materially, you discuss updating the investment policy statement first. Handled that way, there is no violation.
+
+Case twelve tests Standard three D, Performance Presentation. A marketing deck shows the best account in a strategy, up 18 percent, as typical. The strategy's composite earned 9 percent. Verdict: violation. Presenting one account as representative is exactly the misleading habit GIPS was built to stop. Simulated or model results may be shown only when clearly labeled as such.
+
+Case thirteen tests Standard three E, Preservation of Confidentiality. At a dinner party, an adviser mentions that a client just inherited 20 million dollars. Verdict: violation. Client information stays confidential unless it concerns illegal activity by the client, disclosure is required by law, or the client permits it. Sharing information with CFA Institute's Professional Conduct Program during an investigation is not a violation.
+
+Case fourteen covers duties to employers. A portfolio manager plans to start his own firm. On his own time he rents office space and registers the business. On his last day he copies the client list to a personal drive.
+
+Verdict: the preparations are fine, but copying the list violates Standard four A, Loyalty. So would soliciting current clients before he leaves. After leaving, and absent an agreement that bars it, he may contact former clients using public sources, but not his old firm's records.
+
+Next, a client tells his manager he will give her a vacation package if his account beats its benchmark this year. Under Standard four B, Additional Compensation Arrangements, she may accept only with written consent from her employer, because an arrangement tied to future performance could tilt her effort toward that one account. Accepting without written consent is a violation.
+
+Then Standard four C, Responsibilities of Supervisors. A supervisor learns that a trader on her desk bought ahead of a large client order. She gives him a verbal warning and changes nothing. Verdict: violation. A supervisor must make reasonable efforts to prevent and detect violations, which here means investigating promptly, limiting the trader's activity meanwhile, and strengthening procedures. If a supervisor finds the firm's compliance system inadequate, she should decline supervisory responsibility until adequate procedures are in place.
+
+Case fifteen covers Standard five, Investment Analysis, Recommendations, and Actions. First, an analyst disagrees with her research committee's buy rating, but the committee followed a sound process. Verdict: no violation if her name stays on the report, because Standard five A, Diligence and Reasonable Basis, is met by a group process with a reasonable basis. She may document her dissent.
+
+Second, a manager starts adding borrowed money to a strategy marketed as unleveraged and does not tell clients. Verdict: violation of Standard five B, Communication with Clients and Prospective Clients. You must describe your process, its significant risks and limitations, and changes that materially affect it, and you must separate fact from opinion. Since the revision that took effect in 2024, you must also disclose the nature of your services and their costs to the client.
+
+Third, a departing analyst emails her models to a personal address. Verdict: violation, chiefly of Standard four A, because work records belong to the employer. Standard five C, Record Retention, requires keeping records that support your work, and when no regulation or firm policy sets a period, the recommended minimum is seven years.
+
+Case sixteen covers Standard six, Conflicts of Interest. An analyst's spouse sits on the board of a company she covers, and her report mentions it only in a small footnote in dense legal language. Verdict: violation of Standard six A, Avoid or Disclose Conflicts. Disclosure must be prominent, in plain language and effective, and where a conflict can reasonably be avoided, avoiding it is best practice. Handing coverage to another analyst would be cleanest.
+
+A manager who buys a stock for herself an hour before a large client buy order violates Standard six B, Priority of Transactions. And an adviser who takes a fee for each client referred to a tax attorney, without telling anyone, violates Standard six C, Referral Fees. The nature and value of the payment must be disclosed to the employer, clients and prospective clients before they agree to services.
+
+Case seventeen covers Standard seven. After the exam, a candidate posts which formulas and topic areas showed up most. Verdict: violation of Standard seven A, Conduct as Participants in CFA Institute Programs. Saying the exam was hard is fine, but revealing content, even broad topics, is not.
+
+Separately, a new charterholder's website calls him a CFA and claims charterholders earn better returns. Verdict: violation of Standard seven B, Reference to CFA Institute, the CFA Designation, and the CFA Program. The designation is an adjective, as in CFA charterholder, never a noun, and it cannot be used to imply superior performance.
+
+Notice the pattern. Most verdicts turned on one fact: a written consent, a footnote, an hour of timing, a copied list. So here is the rule to carry into the exam. Identify the duty and whom it is owed to, find the trigger fact, and apply the stricter of law and the Code. Disclosure fixes many conflicts, but it never fixes trading on inside information, manipulation or a false statement.
+
+## Recall check
+
+Q: A firm's equity unit keeps clean records, but its bond unit does not. Can the firm claim GIPS compliance for its equity composites only?
+
+Answer: No. Compliance must be met on a firm wide basis, and it is all or nothing. A firm cannot claim compliance for selected composites, and it cannot claim compliance except for certain requirements.
+
+Q: Which portfolios must a GIPS compliant firm include in at least one composite?
+
+Answer: All actual, fee paying, discretionary portfolios. Nondiscretionary portfolios stay out of composites, though they still count in total firm assets. Composites are defined by strategy in advance, and terminated portfolios stay in the history through their last full period.
+
+Q: A firm first claimed compliance by presenting five years of history. Three years later, what is the minimum number of years it must present?
+
+Answer: Eight years. The firm starts with at least five years and adds one year each year, so five plus three is eight, and it keeps adding until it shows at least ten.
+
+Q: Which statement about GIPS verification is most accurate? It is required for compliance. It is performed by an independent third party on a firm wide basis. Or it certifies the accuracy of each composite's returns.
+
+Answer: The second. Verification is optional but strongly recommended, and it is done by an independent third party for the whole firm. It tests policies and procedures, does not certify any single composite's numbers, and leaves responsibility for compliance with the firm.
+
+Q: An analyst combines public filings with her own interviews of a company's suppliers, none of whom shared anything material, and concludes earnings will fall. She issues a sell rating. Has she violated Standard two A?
+
+Answer: No. This is the mosaic theory. Combining public information with nonmaterial nonpublic information to reach a material conclusion is legitimate analysis, and she should keep records that document her research.
+
+Q: A client offers his portfolio manager a vacation if his account beats its benchmark this year. What must she do before accepting?
+
+Answer: Get written consent from her employer under Standard four B, Additional Compensation Arrangements. An arrangement tied to future performance can conflict with the employer's interest, for example by tempting her to favor that account. Telling her boss verbally is not enough.
+
+## Recap
+
+GIPS are voluntary, global, ethical standards for calculating and presenting investment performance, built on fair representation and full disclosure. They exist to stop representative accounts, survivorship bias and cherry picked time periods, and to make records comparable. Only investment management firms and asset owners can claim compliance, never individuals, and compliance is firm wide and all or nothing. Every actual, fee paying, discretionary portfolio must sit in at least one composite, defined by strategy in advance, with terminated portfolios kept in the history. Firms should define themselves broadly, must document their definition of discretion, and present at least five years of history at first, building to ten. Verification is optional, independent and firm wide, and it does not certify any single composite.
+
+For ethics cases, find the actor, the duty and the trigger fact, then apply the stricter of law and the Code. Disclosure fixes many conflicts, but never trading on inside information, manipulation or a false statement. The current Standards include one E, Competence, the renamed six A, Avoid or Disclose Conflicts, and the expanded five B covering the nature and cost of services. Written consent, prominent plain language disclosure, and clients first are the details that decide most verdicts.
