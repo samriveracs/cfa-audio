@@ -1,0 +1,169 @@
+## The big picture
+
+This episode is about two ways a sound investment plan goes wrong. The first happens inside the investor's head. The second happens inside an organization, when no one has decided how much risk to take, or no one is checking how much risk is actually being taken.
+
+Module 87.1 splits behavioral biases into two families, cognitive errors and emotional biases, and then works through the cognitive errors one at a time. Module 87.2 covers the six emotional biases, and then asks how biases shared by many investors might show up in market prices, through momentum, bubbles and crashes, and the value effect.
+
+Module 88.1 steps back to the organization. It defines risk management and the framework that supports it. Then it covers risk governance, risk tolerance, risk budgeting, the main financial and nonfinancial sources of risk, how risk is measured, and the four ways to modify a risk you hold.
+
+On the exam, these modules are mostly about labels and classification. A short scenario describes a behavior, and you name the bias, its family, or the best response. Or a scenario describes a risk decision, and you name the method. The wrong answers are usually close cousins of the right one, so this episode spends its time on the distinctions.
+
+## Module 87.1, Cognitive Errors vs. Emotional Biases
+
+Traditional finance assumes investors are rational. They use all available information, update their beliefs correctly, and maximize expected utility. Behavioral finance studies what people actually do, including mistakes that are predictable and have names.
+
+Here is the master distinction. A cognitive error is a mistake in thinking. It comes from faulty reasoning, weak statistical skill, errors in processing information, or faulty memory. An emotional bias comes from feelings, impulse or intuition rather than conscious reasoning. Both lead to choices that differ from what a fully rational investor would make.
+
+The distinction matters because the remedy differs. Cognitive errors are easier to correct, because they come from bad inputs or bad method, so better information, education and advice can reduce them. Emotional biases are harder to correct, because you cannot simply explain someone out of a feeling. An adviser often has to accommodate an emotional bias, building a plan the client can actually live with, rather than trying to eliminate it. So remember the pairing. Cognitive errors are corrected, and emotional biases are often accommodated.
+
+Cognitive errors come in two groups. The first is belief perseverance biases, and the second is processing errors, also called information processing biases.
+
+Belief perseverance means holding on to what you already believe, even when the evidence turns against you. It connects to cognitive dissonance, which is the mental discomfort you feel when new information conflicts with an existing belief. To ease that discomfort, people ignore the new information, explain it away, or go looking for information that supports the old view. Five biases sit in this group. They are conservatism, confirmation, representativeness, illusion of control, and hindsight.
+
+First, conservatism bias. The investor holds on to a prior view and fails to adjust enough when new information arrives. The result is underreaction. An analyst who forecast strong sales keeps the forecast nearly unchanged after a weak quarter, because rethinking takes effort and feels uncomfortable. The consequences are holding positions too long and reacting slowly to news.
+
+Second, confirmation bias. The investor looks for evidence that supports a belief and discounts evidence against it. Picture someone who loves a stock, reads only the bullish research, and designs stock screens that happen to favor the stocks already owned. A classic consequence is a concentrated portfolio, including too much of one's own employer's stock. The remedy is to seek out the strongest case against your position before you act on it.
+
+Third, representativeness bias. New information is classified by how much it resembles a familiar pattern, rather than by actual probabilities. Two forms are worth knowing. Base rate neglect means ignoring how common something is in the overall population. Sample size neglect means treating a small sample as if it were a reliable picture of the whole.
+
+Here is a quick example of sample size neglect. Suppose 1,000 fund managers have no skill at all, and each has a 50 percent chance of beating the market in any given year. The chance of beating it three years in a row is one half, times one half, times one half, which is one eighth. One eighth of 1,000 is 125, so you would expect about 125 perfect three year records from luck alone. An investor who sees one of them and concludes the manager must be skilled is ignoring the sample size. This bias leads investors to chase recent winners and to switch strategies after short stretches of performance.
+
+Notice the contrast. Conservatism underreacts to new information. Representativeness can overreact, because a little information that fits a familiar story gets too much weight.
+
+Fourth, illusion of control bias. The investor believes he can control or influence outcomes that he cannot. That feeling encourages heavy trading and concentrated positions, often in companies the investor feels close to. The remedy is to remember that prices are set by countless other participants.
+
+Fifth, hindsight bias. After an event, people believe they saw it coming, because memory edits itself so that past outcomes look predictable. This feeds overconfidence, and it leads investors to blame managers for missing something that only looked obvious afterward.
+
+Now the second group, processing errors. These concern how information is handled, not the urge to protect a belief. There are four. They are anchoring and adjustment, mental accounting, framing, and availability.
+
+Anchoring and adjustment means starting from an initial number, the anchor, and then adjusting too little away from it. Common anchors are a purchase price, last year's forecast, or a round number. Suppose an analyst forecasts earnings per share, or EPS, of 2 dollars. New information suggests 2.50 dollars is more realistic, but anchored to the old figure, the analyst moves only to 2.10 dollars.
+
+Anchoring and conservatism often appear together, and the difference is focus. Anchoring is about a specific starting number. Conservatism is about failing to update a belief in general.
+
+Mental accounting means treating money differently depending on where it came from or what it is earmarked for, even though every dollar is interchangeable. Consider someone who keeps 10,000 dollars in savings earning 1 percent while carrying 10,000 dollars of credit card debt at 20 percent. The savings earn 100 dollars a year, and the debt costs 2,000 dollars a year. Paying off the debt would leave this person 1,900 dollars a year better off, but the savings sit in a separate mental account labeled emergencies.
+
+Mental accounting also leads investors to build portfolios in layers, a safe layer for protection and a speculative layer for upside, ignoring how the layers interact through correlation. Another symptom is spending dividends freely while refusing to touch principal, which can push investors toward high income securities. Some investors also take far more risk with past gains than with their original principal, as if the profits were house money that does not quite feel like their own.
+
+Framing bias means the answer depends on how the question is presented. A strategy with an 80 percent chance of meeting a goal sounds appealing. Described as a 20 percent chance of falling short, it sounds worrying, though the facts are identical. People tend to be risk averse when a choice is framed as gains and risk seeking when it is framed as losses. A related form is narrow framing, which means judging one position or one short period in isolation rather than the whole portfolio over the full horizon.
+
+Availability bias means judging how likely something is by how easily examples come to mind. Recent, vivid or heavily advertised events feel more likely than they really are. Investors pick funds they have seen advertised and favor companies they know from daily life, which leads to poor diversification.
+
+Here is the trap for this module. Questions often describe a behavior that sounds emotional but is really a reasoning failure. Fixating on a purchase price sounds like attachment, but if the investor uses that number as a starting point for judging value, it is anchoring, a processing error. Illusion of control sounds like ego, but it is classified as a belief perseverance bias, which makes it a cognitive error. Read for the mechanism, not the mood.
+
+So here is the rule once more. Cognitive errors come from faulty reasoning and can usually be reduced with better information and education, while emotional biases come from feelings and often must be accommodated. Belief perseverance has five members, which are conservatism, confirmation, representativeness, illusion of control, and hindsight. Processing errors have four, which are anchoring and adjustment, mental accounting, framing, and availability.
+
+## Module 87.2, Emotional Biases
+
+Emotional biases come from feelings rather than calculation, which is why they resist correction. There are six. They are loss aversion, overconfidence, self control, status quo, endowment, and regret aversion. One way to hold the list is that the first letters spell the word loser with an extra S.
+
+First, loss aversion. A loss hurts more than an equal gain pleases. The idea comes from prospect theory, which says people judge outcomes as gains and losses relative to a reference point, usually the purchase price, rather than by their effect on total wealth. Loss aversion produces the disposition effect. Investors sell winners too soon, to lock in the pleasure of a gain, and hold losers too long, to avoid the pain of admitting a loss.
+
+Loss aversion also produces risk seeking in the face of losses. An investor sitting on a loss may take extra risk hoping to get back to even.
+
+One piece of arithmetic is worth knowing cold. Here it is slowly. The percentage gain needed to recover from a loss equals the dollar loss divided by the value that remains after the loss. Suppose you buy a stock at 50 dollars and it falls to 40. The loss is 10 dollars and the value remaining is 40 dollars, and 10 divided by 40 is 25 percent. So a 20 percent drop needs a 25 percent gain just to get back to even.
+
+The stock's prospects from here have nothing to do with what the investor paid. The rational question is simple. Knowing what I know today, would I buy this stock at 40 dollars?
+
+Second, overconfidence. Investors overestimate their knowledge, their skill, or the quality of their information. It has a reasoning element, but it is grouped with the emotional biases because it is driven by ego and is hard to correct.
+
+Overconfidence comes in two forms. Prediction overconfidence means forecast ranges that are too narrow. If your 90 percent confidence ranges were well calibrated, about 1 outcome in 10 would fall outside them, so if 4 in 10 fall outside, you are underestimating uncertainty. Certainty overconfidence means putting too high a probability on being right, like being 90 percent sure of every pick while being right about half the time.
+
+Self attribution bias travels with overconfidence. It means crediting your own skill for successes and blaming bad luck or other people for failures. Taking credit is the self enhancing part, and deflecting blame is the self protecting part. The consequences of overconfidence are underestimating risk, overestimating return, underdiversifying, and trading too much, which lowers net returns through transaction costs.
+
+Here is a trap. Illusion of control and overconfidence sound alike. Illusion of control is the belief that you can influence outcomes, and it is a cognitive error in the belief perseverance group. Overconfidence is overrating your knowledge and your ability to predict, and it is an emotional bias.
+
+Third, self control bias. This is failing to act in line with long term goals because of a lack of discipline. People prefer spending today over saving for later. The consequences are saving too little for retirement and then trying to catch up by taking too much risk. Another is tilting the portfolio toward income producing assets to fund current spending, which can throw the allocation out of balance. The remedy is a written plan and automatic saving, so the choice is not remade every month.
+
+Fourth, status quo bias. The investor prefers to keep things as they are and does nothing, out of inertia. This is why default options in retirement plans matter so much, because many participants keep whatever default they are given. The consequence is holding an allocation that no longer fits.
+
+Fifth, endowment bias. This is valuing an asset more highly simply because you own it. Picture someone who inherited shares and would sell them for no less than 60 dollars each, but would pay only 45 dollars to buy the same share. Endowment bias is common with inherited assets, and it leads people to keep holdings that no longer fit. A useful test is to ask, if this were cash today, would I buy it?
+
+Sixth, regret aversion. This is avoiding decisions out of fear that the outcome will turn out badly. An error of commission is taking an action that turns out badly, and an error of omission is failing to act. People tend to feel more regret over errors of commission, so regret aversion pushes them toward inaction and toward being too conservative, especially after recent losses. It also encourages herding, which means following the crowd, because a mistake shared with everyone else feels less painful.
+
+Here is the biggest trap in this module. Status quo bias, endowment bias and regret aversion can all produce the same visible behavior, which is doing nothing. You tell them apart by the reason. With status quo bias, the investor avoids change itself, out of inertia. With endowment bias, the investor places extra value on the asset because he owns it. With regret aversion, the investor fears that acting will turn out to be a mistake.
+
+Now the market level. In an efficient market, prices reflect available information and mispricing is quickly traded away. A market anomaly is a pattern of returns that persists over time, is not explained by risk, and is not simply the product of data mining. Behavioral finance argues that biases shared by many investors can create such patterns. Three examples matter.
+
+First, momentum. Recent winners tend to keep outperforming for a while, and recent losers tend to keep underperforming. The behavioral explanation is that investors extrapolate recent returns, which links to representativeness and availability. Herding and regret also play a part, as investors fear missing out while others profit, and hindsight bias makes the trend look obvious.
+
+Second, bubbles and crashes. Prices climb far above fundamental value for an extended period and then fall sharply. On the way up, overconfidence and self attribution grow as every gain seems to confirm skill, and confirmation bias filters out warning signs. Regret aversion keeps people in, because selling too early would hurt. On the way down, loss aversion and the disposition effect lead investors to hold falling positions too long.
+
+Third, the value effect. Value stocks, meaning stocks with low price to earnings ratios or high book to market ratios, have tended to outperform growth stocks over long periods in many historical studies, though not in every period. The traditional explanation is that value stocks carry more risk, so the extra return is compensation, which is why multifactor models include a value factor. The behavioral explanation points to the halo effect. Investors extend a good impression of a company, such as strong growth, to its stock, and so they overpay for glamorous growth stocks.
+
+The halo effect links back to representativeness, because a good company looks like it must be a good investment. A related familiarity pattern is home bias, where investors favor domestic companies beyond what diversification would justify.
+
+To close the module, the rule once more. The six emotional biases are loss aversion, overconfidence, self control, status quo, endowment, and regret aversion, and they are often accommodated rather than corrected. For loss aversion, the gain needed to get back to even equals the dollar loss divided by the value that remains.
+
+## Module 88.1, Introduction to Risk Management
+
+Risk management is the process of deciding how much risk to take, measuring how much risk is actually being taken, and adjusting the second toward the first. The goal is not to minimize risk. The goal is to maximize the value of the organization or portfolio, or the overall satisfaction of an individual, while staying within an acceptable level of risk.
+
+Here is the first trap. Risk management does not mean reducing risk. If an organization is taking less risk than it can tolerate and has good opportunities, sound risk management may call for taking more. It also does not mean preventing every loss. Losses will happen, and the question is whether they stay within what was accepted.
+
+A risk management framework is the infrastructure, processes and analytics that make this work. Its elements are risk governance, risk identification and measurement, and risk infrastructure, meaning people, systems and data. Then come policies and processes, ongoing monitoring and mitigation against the target, communication up to the board, and strategic analysis that uses risk information to make better decisions.
+
+Risk governance is the top down process and guidance that directs risk management so it supports the goals of the whole enterprise. It starts with the board of directors or a similar governing body, which sets risk tolerance and oversees the framework. Good governance takes an enterprise view, called enterprise risk management, because risks in different units can offset each other or pile up. Here is the trap. Governance is the board's responsibility, and it is not handed off entirely to traders or the risk department.
+
+Risk tolerance is the amount of risk the organization is willing and able to bear, and setting it is arguably the most important decision in the framework. The sound approach starts with the downside. Ask which losses or shortfalls the organization must avoid, meaning what could threaten its survival or its most important goals. Inside factors include its expertise in the risks it takes, its financial strength, and its ability to respond quickly. Outside factors include competition, regulation and the broader economy.
+
+A firm with a strong balance sheet and real expertise in a risk can tolerate more of it. Tolerance should be set in calm times, not in a crisis, when panic distorts judgment. At a bank or credit union, for example, tolerance often shows up as board approved limits on how far net interest income or the economic value of equity may fall in an interest rate shock.
+
+Risk budgeting is how that total tolerance gets spent. It allocates the overall risk across activities, asset classes or risk factors, using a measure such as standard deviation, beta or value at risk. Its benefit is that it forces explicit tradeoffs, so every use of risk has to justify itself by its expected return.
+
+Here is a small example. Suppose the board sets a total risk budget of 10 million dollars of value at risk, and for simplicity we treat the desk limits as adding up, which ignores diversification. Desk A uses 6 million dollars of the budget and is expected to earn 3 million dollars. Desk B uses 4 million dollars and is also expected to earn 3 million dollars. Desk A earns 3 divided by 6, or 0.5 dollars of expected profit per dollar of risk, and Desk B earns 3 divided by 4, or 0.75. If Desk B's opportunities hold up at a larger size, moving budget from A to B raises expected profit without raising total risk.
+
+Next, the sources of risk. Financial risks arise from events in financial markets, and there are three. Market risk comes from changes in interest rates, exchange rates, stock prices and commodity prices. Credit risk is the risk that a counterparty fails to pay what it owes. Liquidity risk is the risk that selling an asset quickly forces a large price concession, because few buyers are available at a fair price.
+
+Nonfinancial risks arise from the organization's own actions or from outside sources other than financial markets. Settlement risk is the risk that one party pays or delivers while the other defaults before completing its side. Legal risk is the risk of being sued, or of contracts not being enforced as expected. Compliance risk is the risk of breaking laws and regulations, and it includes regulatory, accounting and tax risk. Model risk is the risk that a model is wrong or is used the wrong way.
+
+Tail risk is the risk that extreme events happen more often than a model assumes, for example when a normal distribution is used for returns that really have fat tails. Operational risk comes from failures of people, processes and systems, or from external events, and it includes cyber attacks and fraud. Solvency risk is the risk that the organization runs out of cash and cannot survive, even if its assets would otherwise cover its liabilities.
+
+Here is the trap. Tail risk and settlement risk sound financial, but they are classified as nonfinancial. Also keep liquidity risk and solvency risk apart. Liquidity risk is about selling a particular asset at a fair price, while solvency risk is about the whole organization running out of cash. Individuals face risks too. Mortality risk is dying early, and longevity risk is outliving your savings.
+
+Risks also interact, and in a crisis they compound, so total risk can be larger than the sum of the parts. Picture a generic bank. Rising rates cut the market value of its bond holdings, depositors start withdrawing, and the bank must sell bonds into a weak market at a loss. Market risk plus liquidity risk has turned into a solvency problem.
+
+Now measurement. Standard deviation measures total volatility, and beta measures sensitivity to the overall market. Duration measures a bond's sensitivity to interest rates, so a bond with a duration of 5 loses roughly 5 percent of its value if yields rise by 1 percentage point. For options, delta measures sensitivity to the price of the underlying, gamma measures how delta itself changes, vega measures sensitivity to volatility, and rho measures sensitivity to interest rates. For credit risk, analysts use credit ratings, the probability of default, and the loss given default.
+
+Value at risk, or VaR, is the minimum loss expected over a stated period at a stated probability. Suppose a portfolio has a 5 percent one day VaR of 2 million dollars. That means on 5 percent of trading days, the loss should be at least 2 million dollars. Over 250 trading days, 5 percent of 250 is 12.5, so expect about 12 or 13 days with losses of 2 million dollars or more.
+
+Here is the trap. VaR is not the maximum loss. It is the minimum loss in the bad tail, and it says nothing about how bad the tail can get. Conditional VaR, also called expected shortfall, fills that gap, because it is the average loss on the days when the loss exceeds VaR. Stress tests and scenario analysis add what if analysis of extreme but plausible events.
+
+Finally, modifying risk, which has four approaches. First, risk prevention and avoidance means spending money to stop a loss before it happens, or not taking the activity at all, which also means giving up its return. Second, risk acceptance means keeping the risk. Self insurance is one form, where the organization bears the risk and may set aside reserves. Diversification also counts as acceptance, because you keep the exposures but spread them so that unrelated risks partly offset.
+
+Third, risk transfer means paying another party, usually an insurer, to bear the risk. Fourth, risk shifting means using derivatives to change the distribution of outcomes. Forwards, futures and swaps lock in a price, removing both the upside and the downside. Options cut off only one side, so a put option limits the downside and keeps the upside, in exchange for a premium.
+
+How do you choose? Weigh the cost of each method against its benefit, given the risk profile you want to end up with. Accept risks where you have expertise and are paid to bear them, and transfer or shift the ones you do not want when that is reasonably priced. Here is the trap. Insurance is risk transfer, derivatives are risk shifting, and diversification is risk acceptance.
+
+So, the rule once more. Risk management means deciding how much risk to take, measuring how much you are taking, and adjusting the actual toward the target. It is not about minimizing risk. And VaR is a minimum loss at a stated probability, never a maximum.
+
+## Recall check
+
+Q: A client says he will sell a losing stock only after it climbs back to the price he paid. Which emotional bias is most likely at work?
+
+Answer: Loss aversion. Selling below the purchase price would mean realizing a loss, which feels more painful than an equal gain feels good, so he holds the loser. Holding losers too long while selling winners early is the disposition effect.
+
+Q: Are confirmation bias and illusion of control cognitive errors or emotional biases, and which group do they belong to?
+
+Answer: Both are cognitive errors in the belief perseverance group. They come from faulty reasoning used to protect an existing belief. Because they are cognitive, better information and education can usually reduce them.
+
+Q: An analyst's 90 percent confidence ranges miss the actual outcome 4 times out of 10. Which form of overconfidence is this most likely to show?
+
+Answer: Prediction overconfidence. Well calibrated 90 percent ranges should miss only about 1 time in 10, so ranges that miss 4 times in 10 are too narrow. The analyst is underestimating uncertainty.
+
+Q: A stock falls from 80 dollars to 60 dollars. What percentage gain does it need to get back to 80?
+
+Answer: About 33 percent. The loss is 20 dollars and the value remaining is 60 dollars, and 20 divided by 60 is one third. A 25 percent drop needs a gain of about 33 percent to break even.
+
+Q: A company buys property insurance on its factory and buys put options on the commodity it produces. Which action is risk transfer and which is risk shifting?
+
+Answer: The insurance is risk transfer, because another party, the insurer, takes on the risk in exchange for a premium. The put options are risk shifting, because derivatives change the distribution of outcomes, here by limiting the downside while keeping the upside.
+
+Q: A portfolio has a 5 percent one day VaR of 1 million dollars. Over 200 trading days, on about how many days would you expect a loss of at least 1 million dollars?
+
+Answer: About 10 days, because 5 percent of 200 is 10. Remember that VaR is the minimum loss on those bad days, so some of those losses could be much larger than 1 million dollars.
+
+## Recap
+
+Cognitive errors come from faulty reasoning and can usually be reduced with information and education. Emotional biases come from feelings and often must be accommodated. Belief perseverance covers conservatism, confirmation, representativeness, illusion of control, and hindsight. Processing errors cover anchoring and adjustment, mental accounting, framing, and availability. The six emotional biases are loss aversion, overconfidence, self control, status quo, endowment, and regret aversion. Status quo, endowment and regret aversion all look like inaction, so identify them by the reason.
+
+Loss aversion drives the disposition effect, and the gain needed to recover a loss equals the dollar loss divided by the value remaining. Risk management means deciding how much risk to take, measuring what is taken, and adjusting toward the target. The board sets risk tolerance, and risk budgeting allocates it. Market, credit and liquidity risks are financial, while settlement, legal, compliance, model, tail, operational and solvency risks are nonfinancial. VaR is a minimum loss at a stated probability, never a maximum. Risk is modified by avoidance, acceptance, transfer through insurance, or shifting through derivatives.

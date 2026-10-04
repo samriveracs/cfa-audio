@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 09:15:17 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 09:34:35 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -712,6 +712,23 @@
     <itunes:duration>1994</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E41.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E42 Behavioral Biases and Risk Management</title>
+    <itunes:title>Behavioral Biases and Risk Management</itunes:title>
+    <itunes:episode>42</itunes:episode>
+    <itunes:season>9</itunes:season>
+    <podcast:season name="Portfolio Management">9</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Portfolio Management, Kaplan Modules 87.1 to 88.1. 87.1 Cognitive Errors vs. Emotional Biases, 87.2 Emotional Biases, 88.1 Introduction to Risk Management</description>
+    <itunes:summary>Portfolio Management, Kaplan Modules 87.1 to 88.1. 87.1 Cognitive Errors vs. Emotional Biases, 87.2 Emotional Biases, 88.1 Introduction to Risk Management</itunes:summary>
+    <content:encoded><![CDATA[<p>Portfolio Management, Kaplan Modules 87.1 to 88.1.</p><ul><li>Module 87.1, Cognitive Errors vs. Emotional Biases</li><li>Module 87.2, Emotional Biases</li><li>Module 88.1, Introduction to Risk Management</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:12 The big picture</li><li>1:41 Module 87.1, Cognitive Errors vs. Emotional Biases</li><li>10:26 Module 87.2, Emotional Biases</li><li>18:30 Module 88.1, Introduction to Risk Management</li><li>27:57 Recall check</li><li>30:55 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E42.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E42_v2.mp3" length="9759180" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e42</guid>
+    <pubDate>Sat, 03 Oct 2026 12:42:00 -0500</pubDate>
+    <itunes:duration>1952</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E42.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>
