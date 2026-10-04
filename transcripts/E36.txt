@@ -1,0 +1,157 @@
+## The big picture
+
+In the previous episode, forwards, futures and swaps were priced with one idea. If two positions produce the same payoff, they must cost the same today, or someone earns a riskless profit. This episode carries that idea over to options, whose payoffs are lopsided. A call pays off when the underlying ends above the exercise price and simply expires worthless otherwise. That kink is why we need new tools.
+
+Three modules build the toolkit. The first splits an option's value into exercise value and time value, sets the floor and the ceiling on its price, and shows how six factors push call and put values up or down. The second is put call parity, a no arbitrage link between a call, a put, the underlying and a risk free bond, which lets you build any one of the four from the other three. The third is the one period binomial model, which turns replication into an actual number.
+
+Expect three kinds of questions. Direction questions ask what happens to a call or a put when rates, volatility or dividends change. Parity questions ask for a missing price, a synthetic position or an arbitrage. Binomial questions ask for a hedge ratio, a risk neutral probability or an option value. Throughout, assume European options, which can be exercised only at expiration, on an underlying that pays no income unless I say otherwise.
+
+## Module 73.1, Option Valuation
+
+Start with the payoff at expiration. A call gives you the right to buy the underlying at the exercise price. At expiration, its value is the greater of zero and the underlying price minus the exercise price. A put gives you the right to sell the underlying at the exercise price. At expiration, its value is the greater of zero and the exercise price minus the underlying price. You never have to exercise, so the worst outcome is that the option expires worthless.
+
+Moneyness describes where the underlying price sits relative to the exercise price right now. The exercise price is also called the strike price. A call is in the money when the underlying price is above the exercise price, at the money when the two are equal, and out of the money when the underlying price is below. A put is the mirror image, in the money when the underlying price is below the exercise price. With an exercise price of 50 and an underlying at 56, the call is 6 in the money and the put is out of the money.
+
+Here is the first trap. Moneyness flips between calls and puts, so a falling underlying pushes calls out of the money and puts into the money. Under time pressure, candidates apply the call rule to a put.
+
+Next comes exercise value, also called intrinsic value. It is what the option would be worth if you could exercise it right now. At expiration, that is simply the payoff. But a European option's exercise price changes hands only at expiration, so the fair comparison today is with the present value of the exercise price.
+
+So, before expiration, the exercise value of a European call equals the greater of zero and the underlying price minus the present value of the exercise price. For a European put, it equals the greater of zero and the present value of the exercise price minus the underlying price. The present value uses the risk free rate over the time left until expiration.
+
+Here is a round number example. A one year European call has an exercise price of 104, and the risk free rate is 4 percent. The present value of 104 at 4 percent for one year is 100. If the underlying trades at 110, the exercise value is 110 minus 100, or 10. Now suppose the call actually trades at 13. The extra 3 is time value.
+
+Time value equals the option's price minus its exercise value. It is what you pay for the chance that the underlying moves in your favor before expiration. Time value shrinks as expiration approaches, a process called time value decay, and it reaches zero at expiration, when the option is worth exactly its payoff.
+
+When expiration is a fraction of a year away, discount with a fractional power. On the B A two plus, for 3 months at 5 percent, enter 1.05, press the y to the x key, enter 0.25 and press equals. Then press the one over x key, multiply by an exercise price of 100 and press equals. The display shows about 98.79.
+
+Exercise value is also the floor, or lower bound, on a European option's price. Why can a European call never trade below the underlying price minus the present value of the exercise price? Compare the call with a second position, the underlying bought with money borrowed at the risk free rate, with the exercise price owed at expiration. At expiration, that second position is worth the underlying price minus the exercise price, which can be negative. The call is worth that same amount or zero, whichever is higher. The call never pays less, so it can never cost less. The same logic for a put gives a floor of the present value of the exercise price minus the underlying price.
+
+There are ceilings too. A call can never be worth more than the underlying itself, because the best a call can do is deliver the underlying, and you still have to pay the exercise price. A put can never be worth more than the exercise price, which is what it pays if the underlying falls to zero. A European put waits until expiration to collect, so its ceiling is really the present value of the exercise price. And an American option, which can be exercised at any time, is worth at least as much as an otherwise identical European option, because an extra right cannot have negative value.
+
+Now a contrast with forward pricing. A forward is replicated with a static position. Buy the underlying with borrowed money and hold it to the end, because the forward's payoff moves one for one with the underlying. An option's payoff bends at the exercise price. A call deep in the money behaves almost like the underlying, while a call far out of the money barely moves. So replicating a call means holding some fraction of the underlying, financed by borrowing, and changing that fraction as the price moves. That is dynamic replication. A put is replicated the opposite way, by short selling some of the underlying and lending. The binomial model later in this episode shows how to find that fraction.
+
+Now the six factors that drive option value. This is heavily tested, so anchor each one to a reason.
+
+First, the underlying price. A higher underlying price raises call values and lowers put values. That follows straight from the payoffs.
+
+Second, the exercise price. A higher exercise price lowers call values, because you pay more when you buy. It raises put values, because you receive more when you sell.
+
+Third, time to expiration. More time generally raises the value of both calls and puts, because there is more room for a favorable move. For a call, more time also pushes the exercise payment further away, which lowers its present value and helps the call even more. Here is the exception. A European put that is deep in the money, with high interest rates and low volatility, can be worth less with more time. The put holder is waiting to receive the exercise price, and a longer wait shrinks its present value. When that discounting loss outweighs the extra chance of a good move, more time hurts.
+
+Fourth, the risk free rate. A higher rate raises call values and lowers put values. The call holder pays the exercise price later, so a higher rate makes that future payment cheaper in today's money. The put holder receives the exercise price later, so a higher rate makes it worth less today.
+
+Fifth, volatility. Higher volatility raises the value of both calls and puts. For someone who owns the underlying, more volatility means more risk. For an option holder, the loss is capped at the premium paid, while gains get bigger when the underlying swings further. So volatility helps the holder. Lenders feel this from the other side, because a borrower's right to prepay a fixed rate loan is an option the lender has sold, and more volatile rates make it more costly.
+
+Sixth, the benefits and costs of holding the underlying. Benefits are income, such as dividends or coupons. A call holder does not receive that income, and the underlying's price drops when it is paid out, so income lowers call values and raises put values. Carrying costs, such as storage and insurance for a commodity, work the other way. The call holder avoids those costs, so higher carrying costs raise call values and lower put values.
+
+Here is a memory aid. Anything that raises the forward price of the underlying helps calls and hurts puts. A higher underlying price, a higher risk free rate and higher carrying costs all raise the forward price, while income lowers it. Volatility and time are the two factors that generally help both.
+
+Now the traps. The first is the rate effect on puts. Candidates guess that higher rates help every option. Higher rates help calls and hurt puts. The second trap is dividends. A bigger dividend sounds like good news, but it hurts calls, because the call holder gets none of it. The third trap is mixing up moneyness and exercise value. Moneyness compares the underlying price with the exercise price itself, while exercise value before expiration uses the present value of the exercise price. If a question gives you a risk free rate and a time to expiration, discount.
+
+So the rule to carry from this module is this. An option's value equals its exercise value plus its time value. Before expiration, the exercise value of a European call is the greater of zero and the underlying price minus the present value of the exercise price, and time value falls to zero at expiration.
+
+## Module 74.1, Put-Call Parity
+
+Put call parity is the no arbitrage link between four prices. They are a European call, a European put on the same underlying with the same exercise price and the same expiration, the underlying itself, and a risk free zero coupon bond that pays the exercise price at expiration. Build the link from two portfolios.
+
+The first is a fiduciary call. You buy a call and buy the risk free bond. If the underlying ends above the exercise price, you use the bond's payment to exercise the call, and you end up holding the underlying. If it ends below, the call expires worthless and you keep the bond's cash, which equals the exercise price. Either way, you end with the greater of the underlying price and the exercise price.
+
+The second is a protective put. You buy the underlying and buy a put. If the underlying ends above the exercise price, the put expires and you keep the underlying. If it ends below, you exercise the put and sell the underlying for the exercise price. Again, you end with the greater of the underlying price and the exercise price.
+
+The payoff is the same in every state, so the two portfolios must cost the same today. Here is put call parity in words. The call price plus the present value of the exercise price equals the put price plus the underlying price. Say it once more in short form. Call plus bond equals put plus underlying.
+
+Take a worked example. The exercise price is 104, the risk free rate is 4 percent and the options expire in one year, so the bond costs 100. The underlying trades at 105 and the call trades at 12. Parity says the put equals the call plus the bond minus the underlying, which is 12 plus 100 minus 105, or 7.
+
+Now rearrange parity to isolate any one of the four, and you get a recipe for building it from the other three. Read a plus as buy and a minus as sell, or, for the bond, borrow.
+
+A synthetic call is a long put, plus the underlying, minus the bond. Buy the put, buy the underlying, and borrow the present value of the exercise price. A synthetic put is a long call, plus the bond, minus the underlying. Buy the call, lend the present value of the exercise price, and short the underlying.
+
+A synthetic underlying is a long call, minus the put, plus the bond. Buy the call, sell the put, and lend. A synthetic bond is the underlying, plus the put, minus the call. Buy the underlying, buy the put, and sell the call. That position pays the exercise price no matter what, which is why it earns the risk free rate.
+
+Parity also explains a familiar strategy. A covered call, long the underlying and short a call, has the same payoff as a long bond and a short put.
+
+Here is how parity catches mispricing. Keep the same numbers, so parity says the call should be worth 12. Suppose the call trades at 13. The call is rich relative to its synthetic, so sell the call for 13 and build the synthetic by buying the put for 7, buying the underlying for 105 and borrowing 100. Your net cash today is 13, minus 7, minus 105, plus 100, which is 1. At expiration, the underlying plus the put minus the call is worth exactly 104 in every state, which repays the loan of 100 plus 4 percent interest. You keep the 1 with no risk.
+
+Here is the trap in parity questions. Signs get flipped under pressure, so anchor on call plus bond equals put plus underlying, and treat everything else as algebra. A second trap is using the exercise price instead of its present value. A third trap is applying parity to options that do not match. Parity holds only for European options with the same underlying, exercise price and expiration.
+
+Next is put call forward parity. Replace the underlying with a position that delivers it at expiration, a long forward contract plus a risk free bond that pays the forward price. At expiration, the bond's cash pays the forward price and you receive the underlying. So in parity, the underlying price is replaced by the present value of the forward price. In words, the present value of the forward price plus the put price equals the call price plus the present value of the exercise price.
+
+Rearranged, the call minus the put equals the present value of the forward price minus the exercise price. When the exercise price equals the forward price, a European call and put have the same value. It also shows that a long call plus a short put at the same exercise price is a synthetic long forward at a price equal to the exercise price.
+
+A quick example. The forward price is 126, the exercise price is 105, the risk free rate is 5 percent and expiration is one year away. The difference is 21, and its present value is 20. So the call is worth 20 more than the put. When the underlying has no income or carrying costs, the present value of the forward price is just today's underlying price, and the two versions of parity are the same.
+
+The last application is firm value. Picture a company with assets and one zero coupon debt issue that must be repaid at its face value on a set date. On that date, if the assets are worth more than the debt, shareholders repay the lenders and keep the rest. If the assets are worth less, shareholders walk away, protected by limited liability, and the lenders take the assets.
+
+So equity is a call option on the firm's assets, with an exercise price equal to the face value of the debt. Debt is a risk free bond that pays the face value, minus a put on the firm's assets with that same exercise price. The lenders have effectively sold that put to the shareholders. Put call parity then says the value of the firm's assets equals the call, plus the present value of the debt's face value, minus the put.
+
+Two implications follow. The put is the value of default risk, so the riskier the assets, the larger the put and the lower the debt's value compared with a risk free bond. And because equity is a call, higher asset volatility helps shareholders and hurts lenders, which is a built in conflict between the two.
+
+So the rule to carry from this module is this. A call plus the present value of the exercise price equals a put plus the underlying, and any one of the four can be built from the other three.
+
+## Module 75.1, Binomial Model for Option Values
+
+Parity tells you how calls and puts relate to each other, but not what either one is worth. The binomial model gives you a number. Over one period, the underlying can move to just two possible prices, one up and one down. That is unrealistic, but it captures the key idea behind option pricing. An option can be combined with the underlying to remove all risk.
+
+Here is the setup. The underlying trades at 100 today. In one year it will be either 120 or 80. So the up factor, the gross return in the up state, is 1.2, and the down factor is 0.8. The risk free rate is 5 percent for the year. We want to value a European call with an exercise price of 100 that expires in one year. At expiration, the call pays 20 in the up state and zero in the down state.
+
+Step one is the hedge ratio, which tells you how many units of the underlying offset one option. The hedge ratio equals the option's value in the up state minus its value in the down state, divided by the underlying's price in the up state minus its price in the down state. Here that is 20 minus zero, divided by 120 minus 80. That is 20 divided by 40, or 0.5.
+
+Step two is to build the hedged portfolio. Buy 0.5 units of the underlying and sell one call. In the up state, the holding is worth 60 and you owe 20 on the call, leaving 40. In the down state, the holding is worth 40 and the call expires worthless, again leaving 40. The portfolio is worth 40 either way, so it is riskless.
+
+Step three is no arbitrage. A riskless portfolio must earn the risk free rate, so its value today is 40 divided by 1.05, about 38.10. The portfolio cost 50 for the half unit, minus the premium you received for the call. So 50 minus the call equals 38.10, and the call is worth about 11.90.
+
+Turn that around and you have the replicating portfolio. Buying 0.5 units of the underlying for 50 and borrowing 38.10 costs 11.90, and it pays exactly what the call pays in both states. That is the dynamic replication from the first module, frozen for a single period.
+
+If the market price differs, there is an arbitrage. Suppose the call trades at 13. Sell it, buy half a unit of the underlying for 50, and borrow 38.10. You collect about 1.10 today. At expiration, the hedged position is worth 40 in either state, exactly enough to repay the loan with interest. If the call traded below 11.90, you would do the reverse. Buy the call, short half a unit and lend.
+
+Now the faster route, risk neutral pricing. The risk neutral probability of an up move equals one plus the risk free rate, minus the down factor, all divided by the up factor minus the down factor. Here that is 1.05 minus 0.8, which is 0.25, divided by 1.2 minus 0.8, which is 0.4. So the risk neutral probability of the up move is 0.625, and of the down move, 0.375.
+
+The option's value equals its expected payoff, using the risk neutral probabilities, discounted at the risk free rate. The expected payoff is 0.625 times 20, plus 0.375 times zero, which is 12.5. Divide by 1.05 and you get about 11.90. That matches the hedge, as it must.
+
+Why call them risk neutral? Check the underlying's expected value. Multiply 0.625 by 120 and you get 75. Multiply 0.375 by 80 and you get 30. The total is 105, which is 100 grown at exactly the risk free rate, just what would happen if investors did not care about risk. We are not assuming that investors are risk neutral. The hedge removes the risk, so investors' attitude toward risk drops out of the price. That lets us value the option as if everyone were risk neutral, using probabilities that are a calculation device, not a forecast.
+
+Here is the trap that costs the most points. A question may tell you the actual probability of an up move, say 70 percent, or the underlying's expected return. Ignore both. The actual probability is already reflected in the underlying's price today. The option's value depends on the underlying price, the up and down factors, the exercise price and the risk free rate. Discount at the risk free rate, never at the underlying's expected return or a risk adjusted rate.
+
+Puts work the same way. A put with an exercise price of 100 pays zero in the up state and 20 in the down state. Its value is 0.375 times 20, which is 7.5, divided by 1.05, about 7.14. Check that against put call parity. The call plus the present value of the exercise price is 11.90 plus 95.24, about 107.14. The put plus the underlying is 7.14 plus 100, also 107.14. The two methods agree.
+
+A put's hedge ratio is negative. Zero minus 20, divided by 40, is negative 0.5. The put rises when the underlying falls, so you hedge a long put by buying the underlying, not selling it. Holding one put and 0.5 units of the underlying gives you 60 in both states. Equivalently, you replicate the put by shorting half a unit and lending.
+
+Two more points. First, the model needs the risk free return to sit between the down factor and the up factor. If one plus the risk free rate were above even the up factor, everyone would short the underlying and lend. If it were below even the down factor, everyone would borrow to buy the underlying. In both cases, the risk neutral probability would fall outside the range of zero to one, which signals an arbitrage.
+
+Second, volatility shows up as the spread between the up and down moves. Widen the moves so the underlying ends at either 130 or 70. The risk neutral probability of the up move becomes 1.05 minus 0.7, which is 0.35, divided by 0.6, about 0.583. The call now pays 30 in the up state, so the expected payoff is 17.5, and dividing by 1.05 gives a value of about 16.67. Wider moves mean higher volatility and a higher option value, exactly as the first module predicts.
+
+Two last traps. The hedge ratio puts the change in the option's value on top and the change in the underlying's price on the bottom. Flip it and you get 2 instead of 0.5. And the risk neutral probability uses one plus the rate, 1.05, not the rate itself. Plugging in 0.05 gives a negative probability, a sure sign that something went wrong.
+
+So the rule to carry from this module is this. The risk neutral probability of an up move equals one plus the risk free rate minus the down factor, divided by the up factor minus the down factor. The option's value is its expected payoff under those probabilities, discounted at the risk free rate.
+
+## Recall check
+
+Q: A put has an exercise price of 40 and the underlying trades at 35. Is the put in or out of the money, and what happens to its value if the underlying becomes more volatile?
+
+Answer: The put is in the money, because the underlying price is below the exercise price. Higher volatility raises its value, because the holder's loss is capped at the premium while bigger swings make large payoffs more likely.
+
+Q: Which change is most likely to decrease the value of a European call, a higher risk free rate, a larger dividend on the underlying, or a longer time to expiration?
+
+Answer: A larger dividend. The call holder receives none of the income, and the underlying's price falls when the dividend is paid. A higher rate and more time both generally raise call values.
+
+Q: A European call trades at 6, the underlying trades at 50, and the present value of the exercise price is 48. Using put call parity, what is the matching European put worth?
+
+Answer: 4. Parity says the put equals the call plus the present value of the exercise price minus the underlying. That is 6 plus 48 minus 50, which is 4.
+
+Q: Which combination replicates a long position in the underlying, a long call with a short put and a long bond, a long put with a short call and a long bond, or a long call with a long put and a short bond?
+
+Answer: A long call, a short put and a long bond. Rearranging parity, the underlying equals the call minus the put plus the present value of the exercise price. A plus means buy and a minus means sell, and only the first choice matches those signs.
+
+Q: An underlying trades at 100 and will be either 120 or 90 in one year. The risk free rate is 5 percent. What is the risk neutral probability of the up move?
+
+Answer: 0.5. One plus the rate minus the down factor is 1.05 minus 0.9, or 0.15. Divide by the up factor minus the down factor, which is 1.2 minus 0.9, or 0.3, and you get 0.5.
+
+Q: An analyst raises the estimated actual probability that the underlying rises from 60 percent to 80 percent, with nothing else changed. In a one period binomial model, what happens to the value of a call on that underlying?
+
+Answer: Nothing. Actual probabilities never enter the binomial calculation, because the hedge removes the risk and the option is valued with risk neutral probabilities.
+
+## Recap
+
+An option's value equals its exercise value plus its time value, and time value decays to zero at expiration. Before expiration, the exercise value of a European call is the greater of zero and the underlying price minus the present value of the exercise price, and that is also its lower bound. A call is never worth more than the underlying, and a put is never worth more than the exercise price. Higher underlying prices, higher rates and higher carrying costs help calls and hurt puts, while income does the reverse. Higher volatility helps both, and so does more time, except for some deep in the money European puts.
+
+Put call parity says a call plus the present value of the exercise price equals a put plus the underlying, and rearranging it builds any synthetic position. Put call forward parity swaps the underlying for the present value of the forward price, and in the firm value view, equity is a call on the assets while debt is a risk free bond minus a put. In the one period binomial model, the hedge ratio is the change in the option's value divided by the change in the underlying's price, and the option's value is its expected payoff under risk neutral probabilities, discounted at the risk free rate, with actual probabilities playing no role.

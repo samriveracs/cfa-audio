@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 07:39:45 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 07:59:02 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -610,6 +610,23 @@
     <itunes:duration>1837</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E35.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E36 Option Valuation, Put Call Parity and the Binomial Model</title>
+    <itunes:title>Option Valuation, Put Call Parity and the Binomial Model</itunes:title>
+    <itunes:episode>36</itunes:episode>
+    <itunes:season>7</itunes:season>
+    <podcast:season name="Derivatives">7</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Derivatives, Kaplan Modules 73.1 to 75.1. 73.1 Option Valuation, 74.1 Put-Call Parity, 75.1 Binomial Model for Option Values</description>
+    <itunes:summary>Derivatives, Kaplan Modules 73.1 to 75.1. 73.1 Option Valuation, 74.1 Put-Call Parity, 75.1 Binomial Model for Option Values</itunes:summary>
+    <content:encoded><![CDATA[<p>Derivatives, Kaplan Modules 73.1 to 75.1.</p><ul><li>Module 73.1, Option Valuation</li><li>Module 74.1, Put-Call Parity</li><li>Module 75.1, Binomial Model for Option Values</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:13 The big picture</li><li>1:43 Module 73.1, Option Valuation</li><li>10:56 Module 74.1, Put-Call Parity</li><li>17:53 Module 75.1, Binomial Model for Option Values</li><li>26:00 Recall check</li><li>29:18 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E36.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E36_v2.mp3" length="9283018" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e36</guid>
+    <pubDate>Sat, 03 Oct 2026 12:36:00 -0500</pubDate>
+    <itunes:duration>1856</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E36.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>
