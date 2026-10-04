@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 09:34:35 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 09:53:32 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -729,6 +729,23 @@
     <itunes:duration>1952</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E42.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E43 Ethics, Trust and the Code and Standards</title>
+    <itunes:title>Ethics, Trust and the Code and Standards</itunes:title>
+    <itunes:episode>43</itunes:episode>
+    <itunes:season>10</itunes:season>
+    <podcast:season name="Ethical and Professional Standards">10</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Ethical and Professional Standards, Kaplan Modules 89.1 to 90.1. 89.1 Ethics and Trust, 90.1 Code and Standards</description>
+    <itunes:summary>Ethical and Professional Standards, Kaplan Modules 89.1 to 90.1. 89.1 Ethics and Trust, 90.1 Code and Standards</itunes:summary>
+    <content:encoded><![CDATA[<p>Ethical and Professional Standards, Kaplan Modules 89.1 to 90.1.</p><ul><li>Module 89.1, Ethics and Trust</li><li>Module 90.1, Code and Standards</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:12 The big picture</li><li>2:01 Module 89.1, Ethics and Trust</li><li>12:37 Module 90.1, Code and Standards</li><li>28:13 Recall check</li><li>31:14 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E43.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E43_v2.mp3" length="9782954" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e43</guid>
+    <pubDate>Sat, 03 Oct 2026 12:43:00 -0500</pubDate>
+    <itunes:duration>1956</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E43.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>
