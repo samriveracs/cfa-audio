@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 10:31:20 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 10:50:45 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -780,6 +780,23 @@
     <itunes:duration>1876</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E45.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E46 Standards IV and V: Employers and Investment Analysis</title>
+    <itunes:title>Standards IV and V: Employers and Investment Analysis</itunes:title>
+    <itunes:episode>46</itunes:episode>
+    <itunes:season>10</itunes:season>
+    <podcast:season name="Ethical and Professional Standards">10</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Ethical and Professional Standards, Kaplan Modules 91.6 to 91.7. 91.6 Guidance for Standard IV, 91.7 Guidance for Standard V</description>
+    <itunes:summary>Ethical and Professional Standards, Kaplan Modules 91.6 to 91.7. 91.6 Guidance for Standard IV, 91.7 Guidance for Standard V</itunes:summary>
+    <content:encoded><![CDATA[<p>Ethical and Professional Standards, Kaplan Modules 91.6 to 91.7.</p><ul><li>Module 91.6, Guidance for Standard IV</li><li>Module 91.7, Guidance for Standard V</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:14 The big picture</li><li>1:49 Module 91.6, Guidance for Standard IV</li><li>14:33 Module 91.7, Guidance for Standard V</li><li>25:58 Recall check</li><li>29:32 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E46.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E46_v2.mp3" length="9335380" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e46</guid>
+    <pubDate>Sat, 03 Oct 2026 12:46:00 -0500</pubDate>
+    <itunes:duration>1867</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E46.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>
