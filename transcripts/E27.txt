@@ -1,0 +1,161 @@
+## The big picture
+
+Every bond is a promise. A borrower takes money today and agrees to pay it back later, usually with interest along the way. The three modules in this episode build the vocabulary for describing that promise, and everything later in fixed income assumes you speak it fluently.
+
+Module 47.1 covers the basic features of a bond and the legal contract behind it, called the indenture, including the covenants that protect lenders. Module 48.1 covers how the cash flows are shaped, from principal repayment and coupon designs to embedded options that let the issuer or the investor change them. It also covers how legal, regulatory and tax rules shape where and how bonds are issued.
+
+Module 49.1 covers the market itself. It runs from segments, issuers, investors and indexes to how new bonds are sold and how existing bonds trade.
+
+On the exam, this material is mostly conceptual. Expect questions that ask which party benefits from a provision, whether a covenant is affirmative or negative, what kind of bond a cross border issue is, and how bond markets differ from stock markets. A few small calculations appear too, such as a floating coupon, an inflation adjusted payment and a conversion value. One idea ties the whole episode together. Every feature shifts risk between the issuer and the investor, and the investor demands a higher or lower yield in return.
+
+## Module 47.1, Fixed-Income Instrument Features
+
+A business or government needs money now and expects to generate cash later. It can raise that money as equity, selling ownership with no promised payments, or as debt, promising specific payments on specific dates. A loan is debt arranged privately, usually with a bank, on negotiated terms. A bond is a standardized security sold to many investors, and it can be traded after it is issued.
+
+Six features describe any bond. First, the issuer. Issuers include supranational organizations such as multilateral development banks, sovereign governments, non sovereign governments such as states and cities, quasi government agencies, financial and nonfinancial companies, and special legal entities that hold pools of assets in securitizations. The issuer matters because its ability to pay drives credit risk.
+
+Second, maturity. The maturity date is when the issuer repays the principal and the obligation ends, and the time remaining until then is called the tenor. Instruments with an original maturity of one year or less trade in the money market, and longer ones trade in the capital market. Perpetual bonds have no maturity date at all.
+
+Third, the principal, also called par value or face value. This is the amount the issuer promises to repay. Bond prices are quoted as a percentage of par. A price of 98.5 means 98.5 percent of par, so a bond with 1,000 dollars of par costs 985 dollars. Above 100 is a premium, and below 100 is a discount.
+
+Fourth, the coupon rate and frequency. The coupon rate times par gives the annual interest. A 5 percent coupon on 1,000 dollars of par pays 50 dollars a year, or 25 dollars every six months if it pays semiannually. A zero coupon bond pays nothing until maturity. It is sold at a discount, and the gap between the price and par is the investor's return.
+
+Fifth, seniority. If the issuer fails, senior debt is paid before subordinated debt, also called junior debt, so subordinated holders demand a higher yield. Sixth, contingency provisions. These are embedded options, such as a call, a put or a conversion right, that can change the timing or form of the cash flows.
+
+The current yield equals the annual coupon divided by the price. A 6 percent coupon bond priced at 96 has a current yield of 6 divided by 96, or 6.25 percent. The yield to maturity, or YTM, is the single discount rate that makes the present value of all the promised cash flows equal the price. When the market yield is above the coupon rate, the bond trades at a discount, and when it is below, at a premium.
+
+Now the indenture. It is the legal contract between the issuer and the bondholders, and in some countries it is called a trust deed. Thousands of bondholders cannot each monitor the issuer, so a trustee, usually a financial institution, checks compliance for them and acts for them if the issuer defaults.
+
+Beyond the basic features, the indenture names the legal entity that issues the bond, which matters because bondholders can claim only on that entity, perhaps a subsidiary rather than the parent. It states the source of repayment. Sovereigns repay mainly from taxes, companies from operating cash flow, and securitized bonds from the cash flows of a pool of assets. It also describes any collateral.
+
+A secured bond is backed by specific assets that bondholders can claim in a default. Examples are equipment trust certificates, backed by equipment such as aircraft, and collateral trust bonds, backed by securities. An unsecured bond is backed only by the issuer's general promise to pay. In the United States it is often called a debenture, but in some other countries a debenture can be secured, so do not assume. Covered bonds, issued mainly by banks, are backed by a separate pool of assets that stays on the bank's balance sheet, and holders have a claim on both that pool and the bank, which is called dual recourse.
+
+Now covenants, which the exam tests directly. A covenant is a promise written into the indenture. Affirmative covenants say what the issuer must do. Negative covenants say what the issuer must not do.
+
+Affirmative covenants are mostly administrative. The issuer must pay interest and principal on time, comply with laws, pay its taxes, maintain and insure its assets, and deliver financial reports. Two clauses grouped here are worth knowing. A cross default clause says that if the issuer defaults on any other debt, it is also in default on this bond. A pari passu clause, Latin for on equal footing, says this bond ranks equally with the issuer's other senior debt.
+
+Negative covenants restrict actions that could hurt bondholders, so they cost the issuer more in lost flexibility. The classic examples are limits on additional borrowing, often set as a maximum leverage ratio or a minimum interest coverage ratio. A negative pledge stops the issuer from issuing new debt that would rank ahead of existing bondholders. Others restrict dividends and share buybacks, sales of key assets, risky investments, and mergers.
+
+Here is the trap. A covenant that protects bondholders is not automatically negative. A requirement to insure the assets protects bondholders, yet it is affirmative because it requires an action. The reverse trap is a financial ratio test. A minimum interest coverage ratio sounds like something the issuer must maintain, but it is classed as a negative covenant, a restriction on debt, because its purpose is to limit borrowing.
+
+So the rule to keep is this. Affirmative covenants require the issuer to do things. Negative covenants stop the issuer from doing things, and financial ratio limits on borrowing count as negative.
+
+## Module 48.1, Fixed-Income Cash Flows and Types
+
+This module answers two questions. When does the investor get the money back? And what can change those payments along the way? Start with principal.
+
+A bullet bond pays only interest until maturity and then repays all the principal at once. Take 1,000 dollars at 10 percent for five years. The investor receives 100 dollars a year for four years and 1,100 dollars in year five. A fully amortizing bond pays a level amount each period that covers the interest plus part of the principal, so the balance reaches zero at maturity, like a mortgage. A partially amortizing bond repays some principal along the way and the rest in a final lump sum, called a balloon payment.
+
+With a bullet bond, the whole principal is at risk until the last day. Amortizing bonds return principal steadily, so credit exposure shrinks over time. The tradeoff is reinvestment risk, because principal comes back early and must be reinvested at whatever rates prevail then. The same choice shows up in bank and credit union funding, where a bullet borrowing leaves the full balance to be refinanced on a single date.
+
+The amortizing payment is a calculator task. On the B A two plus, press the second key, then I Y, key in 1 for P Y and press enter, which also sets C Y to 1. Quit with the second key and C P T, then clear the time value registers with the second key and F V. Leave it in end mode, the default, because each payment comes at the end of the year. Enter N 5, I Y 10, P V negative 1,000, because the investor pays it out, and F V 0. Press C P T, then P M T, and the display shows 263.80, received each year.
+
+To split that payment, open the amortization worksheet with the second key and P V. Key in 1 and press enter for P 1, arrow down, key in 1 and press enter for P 2, then arrow down. The balance shows negative 836.20, negative only because the principal was entered as negative. Arrow down for principal repaid of 163.80, and again for interest of 100. For a partially amortizing version with a 400 dollar balloon, quit the worksheet with the second key and C P T, enter F V 400 and compute P M T again. The payment drops to about 198.28, because 400 dollars of principal is left for the end.
+
+A sinking fund is a special case of amortization. The indenture requires the issuer to retire a set portion of the issue on a schedule, say 10 percent of the original amount each year. The issuer can usually call the required bonds at a sinking fund price, often par, chosen by lottery, or buy them in the market. It buys in the market when the bonds trade below the sinking fund price and calls them when they trade above it, a choice that belongs to the issuer.
+
+So a sinking fund lowers credit risk for investors, but holders whose bonds are called when rates are low face reinvestment risk. Securitizations use a related structure called a waterfall, where principal goes first to the most senior class of bonds until it is paid off, then to the next class, and so on.
+
+Now coupons. A floating rate note, or floater, pays a coupon that resets periodically. The coupon rate equals a market reference rate, such as the Secured Overnight Financing Rate, or SOFR, plus a fixed spread called the quoted margin, which reflects the issuer's credit risk. Because the coupon keeps resetting, a floater's price stays near par as long as the issuer's credit quality does not change, so its interest rate risk is low.
+
+Say the reference rate is 4 percent and the quoted margin is 150 basis points, so the coupon rate is 5.5 percent a year. Paid quarterly on 1,000 dollars of par, each coupon is 5.5 percent divided by 4, times 1,000, or 13.75 dollars. A cap sets a maximum coupon rate, which protects the issuer when rates rise. A floor sets a minimum, which protects the investor when rates fall. An inverse floater works the other way round, and its coupon falls when the reference rate rises.
+
+Step up coupon bonds have coupons that rise on a schedule, or when a specified event occurs. A scheduled step up is often paired with a call. If rates rise, the issuer is unlikely to call, and the investor collects the higher coupon. Credit linked coupon bonds step up when the issuer's credit rating falls, which compensates investors but raises the issuer's costs exactly when it is weakest. Sustainability linked bonds step up if the issuer misses stated environmental, social and governance, or ESG, targets.
+
+Payment in kind bonds let the issuer pay interest with more bonds instead of cash. Highly leveraged issuers use them to conserve cash, so investors demand a higher yield.
+
+Index linked bonds tie payments to an index, most often a consumer price index, to protect investors against inflation. Interest indexed bonds adjust the coupon and keep the principal fixed. Capital indexed bonds adjust the principal and apply a fixed coupon rate to it. That is the most common design, and U.S. Treasury inflation protected securities use it.
+
+Take a capital indexed bond with 1,000 dollars of par and a 2 percent coupon. Inflation is 3 percent over the year, so the principal adjusts to 1,030 dollars. The coupon is 2 percent of 1,030, or 20.60 dollars. The coupon rate is a real rate, which is why it is lower than the coupon on a similar nominal bond.
+
+Now the contingency provisions, the most tested part of this module. An embedded option is a right attached to the bond, and the key question is always who owns it. When the issuer owns the option, the bond is worth less to investors, so they demand a higher yield. When the investor owns it, the bond is worth more, so investors accept a lower yield.
+
+A callable bond gives the issuer the right to redeem the bond early at a stated call price. The issuer calls when rates fall, to refinance more cheaply, which leaves the investor reinvesting at lower rates. So the value of a callable bond equals the value of an identical straight bond minus the value of the call option.
+
+Most callable bonds have a call protection period, or lockout, when they cannot be called. After that, the call price usually starts above par and steps down to par over time. An American style call can be exercised any time after protection ends, a European style call on one date only, and a Bermuda style call on a set of scheduled dates. A make whole call is different. Its call price is the present value of the remaining payments, discounted at a government bond yield plus a small spread. That price is usually above the bond's market price, so the issuer rarely uses it to refinance, and investors are largely protected.
+
+A putable bond gives the investor the right to sell the bond back to the issuer at a set price, usually par, on set dates. Investors exercise when rates have risen or the issuer's credit has weakened, because the market price has fallen below the put price. The value of a putable bond equals the value of the straight bond plus the value of the put, so investors accept a lower yield.
+
+A convertible bond gives the investor the right to exchange the bond for a fixed number of the issuer's common shares. The conversion ratio is the number of shares received per bond. The conversion price is par divided by the conversion ratio. The conversion value equals the conversion ratio times the current share price. The conversion premium is the bond's price minus its conversion value.
+
+Take 1,000 dollars of par and a conversion price of 50 dollars. The conversion ratio is 1,000 divided by 50, or 20 shares. With the stock at 40 dollars, the conversion value is 20 times 40, or 800 dollars. If the bond trades at 950 dollars, the conversion premium is 150 dollars. Investors accept a lower coupon for the upside, and the issuer pays less interest, although conversion dilutes existing shareholders.
+
+Warrants are a close cousin. A warrant attached to a bond gives the right to buy the issuer's shares at a fixed price, and it can be detached and sold separately.
+
+Contingent convertible bonds are issued mainly by banks. They convert into equity, or are written down, automatically when a trigger is hit, usually when the bank's regulatory capital ratio falls below a set level. Here is the trap. The name suggests an ordinary convertible that benefits the investor, but the investor has no choice, and conversion happens exactly when the shares are worth least. These bonds benefit the issuer by absorbing losses, so they pay high yields.
+
+The last topic is legal, regulatory and tax considerations. A domestic bond is issued by a local issuer in its home market and currency. A foreign bond is issued by a foreign issuer in another country's national market, in that country's currency and under its rules. Examples include Yankee bonds in the United States, Samurai bonds in Japan and Panda bonds in China.
+
+A Eurobond is issued outside the jurisdiction of any single country, usually in a currency other than that of the country where it is sold. The Euro prefix means outside the currency's home market, so a Eurodollar bond is a dollar bond issued outside the United States. Eurobonds face fewer listing, disclosure and regulatory requirements, so they are cheaper to issue. They were traditionally bearer bonds, owned by whoever holds them, while most domestic bonds are registered. A global bond is issued at once in the Eurobond market and at least one domestic market.
+
+Now taxes. Interest is usually taxed as ordinary income, though some bonds are exempt, such as many U.S. state and local government bonds for federal tax purposes. Selling a bond above or below its purchase price creates a capital gain or loss, which may be taxed at a different rate. In some jurisdictions, an investor in a bond issued at a deep discount, such as a zero coupon bond, must report part of the discount as interest income each year, even though no cash arrives. That accrual raises the cost basis, so a bond held to maturity produces no capital gain at the end.
+
+Here is the rule to carry out of this module. If a feature benefits the issuer, such as a call, a cap or a contingent conversion, investors demand a higher yield. If it benefits the investor, such as a put, a floor or a conversion right, investors accept a lower yield. And the conversion value equals the conversion ratio times the share price.
+
+## Module 49.1, Fixed-Income Issuance and Trading
+
+The bond market splits into segments along three main dimensions. First, issuer type. The main sectors are governments and related issuers, including sovereigns, local governments, agencies and supranationals, then financial companies, nonfinancial companies, and securitized products, such as asset backed securities, or ABS, and mortgage backed securities, or MBS.
+
+Second, credit quality. Investment grade bonds are rated triple B minus or higher by S and P and Fitch, or B a a 3 or higher by Moody's. Anything below that is high yield, also called speculative grade. The line matters because many institutions may hold only investment grade bonds, so a downgrade across it can force selling.
+
+Third, maturity. Money market instruments have original maturities of one year or less, and capital market securities are longer. Markets are also divided by currency, by geography, and by special features, such as green bonds, whose proceeds fund environmental projects.
+
+On the investing side, central banks hold government bonds for monetary policy and reserves. Institutional investors dominate. Pension funds and life insurers buy long maturity bonds to match long dated liabilities, while banks tend to favor shorter, high quality, liquid bonds. Most retail investors own bonds through funds, including exchange traded funds, or ETFs. Each investor picks its place along the credit and maturity spectrums to suit its liabilities and risk appetite.
+
+Next, bond indexes. A bond index tracks a group of bonds that meet set rules, such as issuer type, credit rating, maturity, currency and a minimum issue size. Indexes measure market performance, serve as benchmarks for active managers, and are the targets for index funds and ETFs. The broadest are aggregate indexes, which combine investment grade government, corporate and securitized bonds. Narrower indexes focus on one sector, credit band, maturity range, region, currency or theme.
+
+Bond indexes differ from stock indexes in three ways. First, the universe is much larger, because one issuer can have dozens of bonds outstanding but usually one class of common stock. Second, membership keeps changing as bonds mature, new ones are issued, and others drop below the minimum remaining maturity, so bond indexes are rebalanced often. Third, many bonds rarely trade, so index values often rely on estimated prices. Most bond indexes weight each bond by the market value of its debt outstanding, which gives the most heavily indebted issuers the largest weights.
+
+The primary market is where issuers sell new bonds to raise money. The secondary market is where investors trade existing bonds with each other, and the issuer receives nothing from those trades.
+
+Compare the primary market with equities. Most companies sell new shares rarely, but they return to the bond market again and again. Bonds mature and must be refinanced, and each new issue can be tailored in maturity, coupon and features. As a result, far more money is raised each year through new bonds than through new shares.
+
+In a public offering, bonds are offered to the investing public under registration and disclosure rules. Most corporate bonds use an underwritten offering, also called a firm commitment. An investment bank, or a group of banks, buys the whole issue at an agreed price and resells it, so the bank bears the risk that it cannot resell at that price. Before pricing, the bank builds a book of investor orders to gauge demand.
+
+In a best efforts offering, the bank acts only as an agent and sells what it can, so the issuer bears the risk, not the bank. A shelf registration lets an issuer file one set of disclosure documents and then sell bonds in pieces over time, whenever it needs funds, without a full new filing each time. It is mainly available to large, well established issuers. In a private placement, bonds are sold directly to a small group of qualified investors, usually institutions, without public registration. Terms, including covenants, are often negotiated, and because the bonds are hard to resell, investors demand a higher yield.
+
+Governments usually sell bonds by auction. In a single price auction, also called a uniform price auction, each bidder states an amount and the yield it will accept. Noncompetitive bidders agree to take whatever yield the auction sets, and they are filled first. Competitive bids are then filled from the lowest yield upward until the issue is sold. Every winning bidder receives the same yield, which is the highest yield accepted, often called the stop out yield. In a multiple price auction, by contrast, each winner receives the yield it bid.
+
+A worked example. A government sells 100 million dollars of bonds, and noncompetitive bids take 20 million, leaving 80 million for competitive bidders. The competitive bids are 30 million at 3.00 percent, 40 million at 3.05 percent, 30 million at 3.10 percent and 20 million at 3.15 percent. The first two bids take 70 million, leaving 10 million for the bidders at 3.10 percent, who receive one third of what they asked for. The bids at 3.15 percent get nothing.
+
+Everyone who wins, including the noncompetitive bidders, earns 3.10 percent. The trap is answering 3.00 percent, or an average of the winning bids. In a single price auction, all winners get the highest accepted yield, which means the lowest accepted price.
+
+Now the secondary market. Most stocks trade on exchanges, where buy and sell orders meet in a central order book. Most bonds trade over the counter, or OTC, through dealers. A dealer quotes a bid price, at which it will buy, and an ask price, also called the offer, at which it will sell, and it trades from its own inventory. The gap is the bid ask spread, the dealer's compensation and the investor's cost of trading. If a dealer bids 98.50 and offers at 98.75, the spread is 0.25 per 100 of par, or 2,500 dollars on 1 million dollars of par.
+
+Bond liquidity is uneven. Government bonds, especially newly issued ones, trade heavily with narrow spreads. Most corporate bonds trade actively for a short time after issue and then rarely, because many investors buy and hold them. Settlement, the exchange of cash for the bond, usually happens one or two business days after the trade, and many money market trades settle the same day.
+
+Here is the trap. Because stocks trade on exchanges, it is tempting to assume bonds do too. The typical bond trades over the counter, through dealers, and often infrequently.
+
+So the rule for this module is this. The primary market creates new bonds and raises money for issuers, and the secondary market moves existing bonds between investors, mostly over the counter through dealers. In a single price auction, every winner receives the highest accepted yield.
+
+## Recall check
+
+Q: An indenture says the issuer may not issue new debt that would rank ahead of these bonds. Is that an affirmative or a negative covenant?
+
+Answer: Negative. It is a negative pledge, which stops the issuer from doing something that would push existing bondholders further back in line. Affirmative covenants are actions the issuer must take, such as paying taxes, insuring assets or delivering reports.
+
+Q: A Brazilian company sells dollar bonds in the United States, registered with U.S. regulators and sold to U.S. investors. What kind of bond is this?
+
+Answer: A foreign bond, often called a Yankee bond. The issuer is foreign, but the bond is issued in the U.S. national market, in its currency and under its rules. A Eurobond would instead be issued outside the jurisdiction of any single country, with lighter regulation.
+
+Q: Which feature most likely lowers the yield investors require, compared with an otherwise identical option free bond: a call provision, a put provision, or a cap on a floating coupon?
+
+Answer: The put provision. The put belongs to the investor, so the bond is worth more and investors accept a lower yield. A call and a cap both benefit the issuer, so each one raises the required yield.
+
+Q: A convertible bond has 1,000 dollars of par and a conversion price of 25 dollars. The stock trades at 30 dollars. What is the conversion value?
+
+Answer: 1,200 dollars. The conversion ratio is 1,000 divided by 25, or 40 shares, and 40 shares times 30 dollars is 1,200 dollars. Conversion value is always the conversion ratio times the current share price.
+
+Q: In a single price government auction, what yield do the noncompetitive bidders receive?
+
+Answer: The same yield as every other winning bidder, which is the highest yield accepted in the auction. Noncompetitive bids are filled first, at whatever yield clears the auction. They do not get the lowest bid yield or an average of the bids.
+
+Q: Compared with stocks, how does the typical bond trade in the secondary market?
+
+Answer: Over the counter, through dealers who quote bid and ask prices and trade from their own inventory. Many bonds trade only rarely after their first weeks, while most stocks trade continuously on exchanges.
+
+## Recap
+
+A bond is defined by six features, which are the issuer, maturity, par value, coupon, seniority and contingency provisions, and it trades at a discount when the market yield is above its coupon rate. Affirmative covenants say what the issuer must do, and negative covenants say what it must not do, including negative pledges and ratio limits on borrowing. A bullet bond keeps the most principal at risk until maturity, while amortizing bonds and sinking funds cut credit risk but add reinvestment risk. A floater pays a market reference rate plus a quoted margin, with a cap helping the issuer and a floor helping the investor.
+
+Options owned by the issuer raise the required yield and options owned by the investor lower it, so a callable bond is worth the straight bond minus the call, and a putable bond is worth the straight bond plus the put. Conversion value equals the conversion ratio times the share price. Foreign bonds are issued in another country's national market, while Eurobonds sit outside any single jurisdiction with lighter regulation. Finally, most bonds trade over the counter through dealers, and in a single price auction every winner receives the highest accepted yield.
