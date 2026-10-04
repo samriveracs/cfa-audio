@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sat, 03 Oct 2026 23:43:04 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 00:01:47 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -100,6 +100,23 @@
     <itunes:duration>1871</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E05.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E06 Firms and Market Structures</title>
+    <itunes:title>Firms and Market Structures</itunes:title>
+    <itunes:episode>6</itunes:episode>
+    <itunes:season>2</itunes:season>
+    <podcast:season name="Economics">2</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Economics, Kaplan Modules 12.1 to 12.3. 12.1 Breakeven, Shutdown, and Scale, 12.2 Characteristics of Market Structures, 12.3 Identifying Market Structures</description>
+    <itunes:summary>Economics, Kaplan Modules 12.1 to 12.3. 12.1 Breakeven, Shutdown, and Scale, 12.2 Characteristics of Market Structures, 12.3 Identifying Market Structures</itunes:summary>
+    <content:encoded><![CDATA[<p>Economics, Kaplan Modules 12.1 to 12.3.</p><ul><li>Module 12.1, Breakeven, Shutdown, and Scale</li><li>Module 12.2, Characteristics of Market Structures</li><li>Module 12.3, Identifying Market Structures</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:09 The big picture</li><li>1:54 Module 12.1, Breakeven, Shutdown, and Scale</li><li>10:10 Module 12.2, Characteristics of Market Structures</li><li>21:41 Module 12.3, Identifying Market Structures</li><li>26:31 Recall check</li><li>30:04 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E06.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E06_v2.mp3" length="9507420" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e06</guid>
+    <pubDate>Sat, 03 Oct 2026 12:06:00 -0500</pubDate>
+    <itunes:duration>1901</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E06.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>
