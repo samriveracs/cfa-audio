@@ -1,0 +1,171 @@
+## The big picture
+
+This episode covers the economy as a whole and the two levers that governments and central banks pull to steer it. First comes the business cycle, the rhythm of expansion and contraction that every economy goes through. Then fiscal policy, which is the government's use of spending and taxes. Then monetary policy, which is the central bank's control over interest rates and the supply of money and credit.
+
+The pieces connect in a simple way. The business cycle is the problem, and fiscal and monetary policy are the two tools aimed at it. When output falls below what the economy can sustainably produce, policy makers try to add demand. When output runs above that level and inflation builds, they try to take demand away.
+
+On the exam, this material is mostly about direction and classification. Expect to decide which phase of the cycle a description fits, whether an indicator leads or lags, whether a policy is expansionary or contractionary, and what happens to interest rates, output and the currency when a policy changes. There are two small calculations worth owning, the fiscal multiplier and the neutral interest rate. Keep one idea in your head throughout. Every policy question comes back to aggregate demand, meaning total spending in the economy, and whether a policy pushes it up or pulls it down.
+
+## Module 13.1, Business Cycles
+
+A business cycle is the recurring pattern of expansions and contractions in overall economic activity. It exists because spending decisions feed on each other. Confident households and firms spend and hire, which raises incomes and confidence further, and a shock can run the same loop in reverse.
+
+There are three ways to measure the cycle. The classical cycle tracks the level of real gross domestic product, or GDP, meaning output adjusted for inflation, so a downturn means output actually falls. The growth cycle tracks real GDP relative to its long term trend, which is potential output. The growth rate cycle tracks the growth rate of real GDP itself.
+
+These three versions turn at different times. On the way up, the growth rate cycle peaks first, at the moment growth stops accelerating. The growth cycle peaks next, when growth has slowed to the trend rate, because that is when output is furthest above potential. The classical cycle peaks last, and only if growth actually drops below zero.
+
+The phases are defined using the output gap. The output gap equals actual real GDP minus potential real GDP, usually expressed as a percent of potential. Potential GDP is the output the economy can produce when labor and capital are fully but sustainably employed, without pushing inflation higher. A positive gap means the economy is running hot, and a negative gap means slack, such as idle workers and factories.
+
+Here is a quick example. Potential GDP is 1,000 billion dollars and actual GDP is 980 billion dollars. The output gap is negative 20 billion dollars, or negative 2 percent of potential. That economy has slack, and inflation pressure should be easing.
+
+Now the four phases, each defined by two questions. Is output above or below potential, and is the gap growing or shrinking? Recovery starts at the trough, where output is at its lowest point relative to potential. Output then grows faster than potential, so the negative gap starts to close.
+
+Expansion begins once output rises above potential. Growth is still above its trend rate, so the positive gap widens. Slowdown starts at the peak, where output is furthest above potential. Output is still above potential, but growth has fallen below the trend rate, so the positive gap narrows. Contraction begins when output falls below potential, and the negative gap widens until the next trough. A common rule of thumb calls two straight quarters of falling real GDP a recession.
+
+Each phase has a typical pattern in jobs, prices and markets. In recovery, unemployment stays high, inflation is still subdued, short term rates are near their low, and stock prices begin to rise. In expansion, firms shift to hiring, unemployment falls, inflation picks up, and the central bank starts lifting short term rates. In slowdown, hiring cools, inflation can keep climbing, and the yield curve tends to flatten or invert. In contraction, unemployment rises, inflation eases with a lag, the central bank cuts rates, the yield curve steepens, and stock prices often turn up before the economy does.
+
+Inventories swing more than almost anything else, so watch the inventory to sales ratio. When sales slow unexpectedly late in an expansion, unsold goods pile up and the ratio rises. Firms then cut production below sales to work off the excess, which deepens the downturn. Early in the recovery, sales outrun production, the ratio falls, and restocking gives output an extra push.
+
+Labor adjusts in a predictable order. Firms change hours before headcount, because hiring and firing are costly, so average weekly hours turn early while unemployment turns late. Capital spending falls sharply in contractions, and in recoveries firms first buy equipment that raises efficiency, building new capacity only once existing plants run close to full.
+
+Spending on durable goods, like cars and appliances, is the most cyclical because those purchases can be postponed. Spending on services and everyday nondurable goods is steadier, because households smooth consumption based on the income they expect over time. Housing is very sensitive to mortgage rates and to incomes relative to house prices, so building permits and housing starts move early. In external trade, imports rise when the domestic economy is strong, while exports depend on growth abroad and on the exchange rate.
+
+Economic indicators are sorted by timing. Leading indicators turn before the economy does. Examples include building permits, new manufacturing orders, average weekly hours, stock prices, and the spread between long term bond yields and the policy rate. Coincident indicators turn with the economy, such as industrial production, payroll employment and real personal income. Lagging indicators turn after the economy, such as the inventory to sales ratio, the average duration of unemployment, and the amount of business loans outstanding.
+
+A diffusion index tells you how broad a move in a composite index really is. It measures the share of the index's components that are moving in the same direction as the index. If 7 of 10 leading indicators rose this month and 3 fell, the diffusion index reads 70 percent.
+
+Finally, credit cycles, which are swings in the availability and pricing of credit. In good times, rising asset prices raise collateral values, lenders loosen standards and credit spreads narrow, which fuels more borrowing. When defaults rise, lenders tighten and the process reverses. Credit cycles tend to last longer than business cycles, recessions that coincide with a credit contraction tend to be deeper and longer, and strong credit booms often come before banking crises. For a bank or credit union, this is why loan growth and credit spreads feed into capital planning, since the credit cycle drives both loan demand and future loan losses.
+
+Here are the traps. First, slowdown is not contraction, because in a slowdown output is still above potential and may still be growing. Second, high unemployment early in a recovery is normal, because firms add hours before people. Third, the inventory to sales ratio is a lagging indicator, even though inventories drive the cycle.
+
+So the rule to carry out of this module is the output gap. The output gap equals actual real GDP minus potential real GDP. Below potential and closing is recovery. Above potential and widening is expansion. Above potential and narrowing is slowdown, and below potential and widening is contraction.
+
+## Module 14.1, Fiscal Policy Objectives
+
+Fiscal policy is the government's use of spending and taxation to influence the economy. Monetary policy, by contrast, is the central bank's management of interest rates and the quantity of money and credit. Both work mainly through aggregate demand, but they differ in who controls them and how precisely they can aim. Fiscal policy is set by elected officials, so it can target specific groups, regions or industries. Monetary policy works broadly through interest rates, so it reaches the whole economy at once.
+
+Fiscal policy has three broad objectives. First, it influences the level of economic activity and aggregate demand, which is the stabilization role. Second, it redistributes income and wealth among groups in society, through taxes and transfer payments. Third, it allocates resources among sectors, for example by funding public goods like defense and roads that private markets would undersupply.
+
+Economists disagree about how powerful fiscal policy is. Keynesians see it as a strong lever on output and jobs, especially when many workers and factories sit idle. Monetarists see its output effects as short lived and prefer monetary policy for keeping inflation in check.
+
+The key measure is the budget balance. The budget balance equals government revenue minus government spending, including transfer payments. A positive balance is a surplus and a negative balance is a deficit. Part of the balance moves on its own through automatic stabilizers. In a recession, progressive income tax collections fall faster than incomes and unemployment benefits rise, so the deficit widens and supports demand without any new law. Discretionary fiscal policy, in contrast, is a deliberate decision to change spending or tax rates.
+
+Now the debate over national debt, usually measured as debt to GDP. Three arguments say a high ratio is a problem. First, it implies higher future taxes, which can discourage work and entrepreneurship. Second, if lenders lose confidence, the government may struggle to refinance, or be tempted to print money, which risks inflation. Third, heavy government borrowing can push up interest rates and crowd out private investment.
+
+Five arguments say the concern can be overstated. If the debt is owed mostly to the country's own citizens, the interest paid stays inside the economy. If borrowing funds capital projects that raise productive capacity, future output and tax revenue rise too. If unemployment is high, deficit spending puts idle resources to work rather than crowding out private activity. Large deficits can also push governments into tax reforms that remove existing distortions. And under Ricardian equivalence, households expect future taxes to repay today's debt and save more now, so the deficit has little net effect on demand.
+
+Here is a small example. The government cuts taxes by 1,000 dollars per household and borrows to cover it. If households fully expect higher future taxes to repay that borrowing, they save the whole 1,000 dollars, and consumption does not change. Whether the theory holds fully in practice is debated.
+
+Two traps here. A widening deficit in a recession is not proof of new stimulus, because automatic stabilizers widen it on their own. And Ricardian equivalence is an argument that deficits matter less, not more.
+
+The rule to keep is the three objectives. Fiscal policy stabilizes aggregate demand, redistributes income and wealth, and allocates resources among sectors.
+
+## Module 14.2, Fiscal Policy Tools and Implementation
+
+Start with the tools, three on the spending side. Transfer payments are cash payments such as pensions, welfare and unemployment benefits, and they redistribute income without the government buying anything. Current government spending is the recurring purchase of goods and services, such as education, health care and defense. Capital expenditure is spending on long lived assets like roads, bridges and schools, which adds to future productive capacity.
+
+On the revenue side, direct taxes fall on income and wealth, such as personal income, corporate profit, capital gains and inheritance taxes. Indirect taxes fall on spending, such as sales taxes, value added taxes, and excise duties on fuel, alcohol and tobacco. A good tax system should be simple, efficient in the sense of distorting decisions as little as possible, fair, and sufficient to fund the government. Fairness has two parts. Horizontal equity means people in similar situations pay similar tax. Vertical equity means people with higher incomes or more wealth pay more.
+
+Each tool has a speed and a cost. Indirect taxes can be changed almost immediately and affect spending right away, and they raise revenue cheaply. They can also serve social goals, like taxing tobacco to discourage smoking. Direct taxes and transfer payments are slower to change, because households and administrators need notice. Capital spending is the slowest of all, since projects take years to plan, approve and build, even though they can raise long run growth.
+
+Now the fiscal multiplier, the main formula in this module. When the government spends an extra dollar, that dollar becomes someone's income. That person pays some tax, spends part of the rest and saves the remainder, and the part they spend becomes someone else's income. Each round is smaller than the last, so total output rises by more than the first dollar.
+
+Two things set the size. The marginal propensity to consume is the fraction of each extra dollar of disposable income that people spend. The tax rate is the share of each extra dollar of income that goes to the government. Here is the formula, slowly. The fiscal multiplier equals 1 divided by a denominator. The denominator is 1 minus a product, and that product is the marginal propensity to consume times the after tax share, which is 1 minus the tax rate.
+
+Let me work one. The marginal propensity to consume is 0.8 and the tax rate is 25 percent. Out of each extra dollar of income, 75 cents is left after tax, and people spend 80 percent of that, which is 60 cents. One minus 0.6 is 0.4, and 1 divided by 0.4 is 2.5. So 100 billion dollars of new government spending raises output by 250 billion dollars in this simple model.
+
+Here is the trap. If you forget the tax rate, you compute 1 divided by 0.2, which is 5, double the right answer. Also, a higher marginal propensity to consume makes the multiplier bigger, and a higher tax rate makes it smaller, because more of each round leaks out.
+
+A tax cut has a smaller first round effect than the same amount of spending, because part of the tax cut is saved. The same logic gives the balanced budget multiplier. If spending and taxes both rise by 100 billion dollars, the spending adds 100 billion of demand directly, while the tax trims consumption by only 80 billion when the marginal propensity to consume is 0.8. The net first round boost is 20 billion, so the balanced budget multiplier is positive.
+
+Next, how do you judge whether fiscal policy is expansionary or contractionary? Expansionary policy raises spending or cuts taxes, which increases the deficit, and contractionary policy does the reverse. But the actual deficit is a noisy signal, because automatic stabilizers move it with the cycle. The better gauge is the structural budget balance, also called the cyclically adjusted balance, which is the balance the government would run if the economy were at full employment. A rise in the structural deficit signals expansionary discretionary policy.
+
+Here is an example. In a recession, the actual deficit widens from 2 percent of GDP to 5 percent of GDP, but the structural deficit stays at 2 percent. The whole 3 percentage point widening is cyclical, from lower tax receipts and higher benefit payments. Discretionary policy has not changed, so the stance is neutral, not a new stimulus.
+
+Implementation is hard because of three lags. The recognition lag is the time it takes policy makers to realize the economy needs help. The action lag is the time to design, debate and pass a policy. The impact lag is the time before the policy actually affects the economy. By the time stimulus arrives, the economy may already be recovering.
+
+There are other difficulties. Government borrowing can crowd out private investment by raising interest rates. If unemployment is structural, caused by a mismatch of skills rather than weak demand, extra spending mainly raises inflation. High existing debt limits how far deficits can go. And the economy may face high unemployment and high inflation at once, which call for opposite responses.
+
+So, once more, the formula. The fiscal multiplier equals 1 divided by one minus a product, the marginal propensity to consume times 1 minus the tax rate. With a propensity of 0.8 and a tax rate of 25 percent, it is 2.5.
+
+## Module 15.1, Central Bank Objectives and Tools
+
+A central bank exists to keep money trustworthy and the banking system working, and it plays several roles. It alone issues the currency. It is the government's banker and the bank that commercial banks themselves use. It acts as lender of last resort to banks facing a liquidity crunch, it oversees the payments system, it often supervises banks, and it conducts monetary policy.
+
+The primary objective of most central banks is price stability, which in practice means low and stable inflation. Some have broader mandates. The U.S. Federal Reserve, for example, is also charged with pursuing maximum employment. Many also watch financial stability.
+
+Why prioritize stable prices? Unexpected inflation transfers wealth from lenders to borrowers, because loans are repaid in money worth less than expected. Deflation is dangerous too, because it raises the real burden of debt and encourages people to delay spending.
+
+The central bank has three main tools. The first is the policy rate, the rate at which it lends to banks, often through short term repurchase agreements against collateral. Raising it makes funding more expensive for banks, and they pass that cost on to their own borrowers.
+
+The second is open market operations, which means buying or selling securities, usually government bonds. When the central bank buys bonds from banks, it pays by crediting their reserve accounts, so reserves rise, banks can lend more, and short term rates fall. Selling bonds drains reserves and pushes rates up.
+
+The third is the reserve requirement, the share of deposits banks must hold as reserves rather than lend. Raising it is contractionary, because banks can lend less, and cutting it is expansionary. In the simplest textbook model, the money multiplier equals 1 divided by the reserve requirement. With a 10 percent requirement, the multiplier is 10, so 100 million dollars of new reserves can support up to 1 billion dollars of deposits. Many developed market central banks now rarely change this requirement.
+
+Now the transmission mechanism, which is the chain from a policy rate change to inflation. Suppose the central bank raises its policy rate. Four things follow. Market interest rates rise, from interbank rates to loan and mortgage rates. Asset prices such as bonds, stocks and houses tend to fall, making people feel less wealthy. Expectations and confidence shift toward slower growth, and the domestic currency tends to appreciate, because higher rates attract foreign capital.
+
+Those changes then reduce demand. Higher borrowing costs and lower wealth cut consumption and business investment. A stronger currency makes exports more expensive abroad and imports cheaper at home, so net exports fall. Weaker total demand eases domestic price pressure, and cheaper imports lower inflation directly. A rate cut runs the same chain in reverse. For a bank or credit union, the first link shows up quickly in deposit and loan pricing, so the expected policy rate path drives interest rate risk and margin forecasts.
+
+Here are the traps. First, buying bonds is expansionary and selling bonds is contractionary, because a sale pulls reserves out of the banking system. Second, a higher policy rate tends to strengthen the currency, not weaken it. Third, a higher reserve requirement is contractionary, even though it sounds like a mere safety measure.
+
+So the rule for this module. Tightening means a higher policy rate, bond sales or a higher reserve requirement, and it works through higher market rates, lower asset prices, cooler expectations and a stronger currency to reduce demand and inflation. Easing is the mirror image.
+
+## Module 15.2, Monetary Policy Effects and Limitations
+
+Monetary policy works best when a central bank has three qualities. The first is independence, meaning freedom from political pressure. Operational independence means the bank decides how to set interest rates to hit its target. Target independence means the bank also sets the target itself, such as the inflation rate and horizon. The second quality is credibility, meaning people believe the bank will do what it says. The third is transparency, meaning it explains its decisions openly, for example through published forecasts.
+
+Credibility is valuable because it anchors expectations. If workers and firms believe inflation will return to target, they set wages and prices accordingly, and that belief helps make it true.
+
+Central banks use three broad targeting approaches. Under inflation targeting, the bank announces an inflation target, often around 2 percent in developed economies, usually with a tolerance band around it. Because policy works with long lags, the bank focuses on forecast inflation a year or two ahead. Under interest rate targeting, the bank adds reserves when market rates rise above its target and drains reserves when rates fall below it.
+
+Under exchange rate targeting, the bank fixes the value of its currency against an anchor currency, often the U.S. dollar. Suppose the domestic currency comes under pressure to fall. The central bank sells foreign currency reserves and buys its own currency. That shrinks the domestic money supply and pushes domestic interest rates up, which defends the peg but squeezes the economy. In effect, the country imports the monetary policy and the inflation rate of the anchor country, and it gives up independent control of its own interest rates.
+
+Now the key formula, the neutral interest rate. The neutral rate is the policy rate that neither speeds up nor slows down the economy. The neutral rate equals the trend rate of real economic growth plus the inflation target. When the policy rate is above neutral, policy is contractionary. When it is below neutral, policy is expansionary.
+
+Here is an example. Trend real growth is 2 percent and the inflation target is 2 percent, so the neutral rate is 4 percent. A policy rate of 5 percent is contractionary. A policy rate of 3 percent is expansionary.
+
+Here is the trap. A rate hike is not automatically contractionary. If the central bank raises its rate from 1 percent to 2 percent while neutral is 4 percent, policy is still expansionary, just less so. Always compare the level of the policy rate with neutral, not the direction of the latest change. And remember that the neutral rate is only an estimate, because it cannot be observed directly.
+
+Now the limitations. First, the central bank controls short term rates directly, but long term rates depend on what bond investors expect about inflation and growth. If investors doubt the central bank, a rate cut can actually push long term yields up, because they fear higher inflation. Investors who sell bonds for this reason are sometimes called bond market vigilantes. In the other direction, a credible rate hike can lower long term yields by lowering expected inflation, which flattens the yield curve.
+
+Second, the central bank cannot make banks lend or people borrow. In a liquidity trap, interest rates are already very low and people are content to hold any extra money as cash, so adding money does little to push rates lower or spending higher. Third, in deflation, nominal rates cannot fall much below zero, so real rates can stay too high. With the policy rate stuck near zero, central banks have turned to quantitative easing, buying large amounts of government bonds and sometimes other securities to push down long term rates. The limit is that the new reserves may sit idle if banks will not lend or borrowers will not borrow.
+
+Fourth, emerging market central banks often face extra hurdles, such as limited credibility, shallow bond markets, and pressure to finance government deficits. All of these weaken the transmission mechanism.
+
+Last, how monetary and fiscal policy interact. Both work on aggregate demand, but through different channels, so the mix changes interest rates and the split between the public and private sectors. When both are expansionary, demand rises strongly and both sectors grow. When both are contractionary, demand falls and both sectors shrink.
+
+Now the mixed cases. Expansionary fiscal policy with contractionary monetary policy pushes interest rates up from both sides. Output tends to be higher, and the public sector becomes a larger share of the economy, because government spending grows while higher rates hold back private investment. Contractionary fiscal policy with expansionary monetary policy pushes interest rates down. Private consumption and investment pick up, and the public sector becomes a smaller share of the economy.
+
+So the rule to repeat. The neutral rate equals trend real growth plus the inflation target. Policy above neutral is contractionary, policy below neutral is expansionary, and you judge it by the level of the rate, not the latest move.
+
+## Recall check
+
+Q: An economy's output is above potential, but its growth rate has dropped below the trend rate. Which phase of the business cycle is it most likely in?
+
+Answer: Slowdown. Output above potential means the output gap is still positive, but growth below trend means that gap is narrowing. It is not yet a contraction, because contraction begins only when output falls below potential.
+
+Q: Which is most likely a leading indicator, industrial production, building permits, or the inventory to sales ratio?
+
+Answer: Building permits. They signal construction that will happen in the months ahead, so they turn before the economy does. Industrial production is a coincident indicator, and the inventory to sales ratio is a lagging indicator.
+
+Q: The marginal propensity to consume is 0.75 and the tax rate is one third. What is the fiscal multiplier?
+
+Answer: The multiplier is 2. After tax, one dollar of income leaves two thirds of a dollar, and spending 75 percent of that gives 50 cents, so the denominator is 1 minus 0.5, which is 0.5. One divided by 0.5 is 2.
+
+Q: During a recession, a government's actual budget deficit widens sharply, but its structural budget deficit is unchanged. What is the most likely explanation?
+
+Answer: The widening comes from automatic stabilizers, not new discretionary policy. Tax receipts fall and benefit payments rise on their own when the economy weakens. Because the cyclically adjusted deficit has not moved, the discretionary fiscal stance is unchanged.
+
+Q: Trend real growth is 1.5 percent, the inflation target is 2 percent, and the policy rate is 3 percent. Is monetary policy expansionary or contractionary?
+
+Answer: Expansionary. The neutral rate is 1.5 percent plus 2 percent, which is 3.5 percent. A policy rate of 3 percent is below neutral, so policy is still adding stimulus, even if the rate was recently raised.
+
+Q: A government raises spending sharply while its central bank tightens monetary policy. What is the most likely effect on interest rates and on the public sector's share of the economy?
+
+Answer: Interest rates rise and the public sector's share grows. Both policies push rates up, and higher rates hold back private investment while government spending expands. The mirror case, tight fiscal policy with easy money, lowers rates and grows the private sector's share.
+
+## Recap
+
+The business cycle has four phases defined by the output gap, which is actual real GDP minus potential real GDP, with recovery and contraction below potential and expansion and slowdown above it. Leading indicators like building permits turn first, coincident indicators like industrial production turn with the economy, and lagging indicators like the inventory to sales ratio turn last. Credit cycles tend to last longer than business cycles and make recessions deeper when the two coincide.
+
+Fiscal policy aims to stabilize demand, redistribute income and wealth, and allocate resources. Judge its stance by the structural deficit, not the actual deficit. The fiscal multiplier equals 1 divided by one minus the product of the marginal propensity to consume and 1 minus the tax rate. Central banks aim first for price stability, and they tighten with higher policy rates, bond sales and higher reserve requirements. The neutral rate equals trend real growth plus the inflation target, and a policy rate above it is contractionary.

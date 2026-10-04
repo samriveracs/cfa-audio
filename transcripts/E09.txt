@@ -1,0 +1,175 @@
+## The big picture
+
+This episode is about the price of one currency in terms of another. You will see who trades currencies and why, how governments decide whether to fix or float their exchange rate, and the arithmetic behind quotes, cross rates and forward rates. Currency questions are usually short and mechanical, which makes them dependable points, as long as you keep track of which currency is which.
+
+Three ideas hold the topic together. First, an exchange rate is a price with two sides. When one currency gains against another, the other loses, but the two percentage changes are not the same size, and that asymmetry produces a lot of wrong answers. Second, money moving across borders for investment, which economists call capital flows, is the main driver of exchange rates over the short and medium term, and governments sometimes manage or restrict those flows. Third, forward exchange rates are not forecasts. They are pinned down by the spot rate and the two interest rates, through a no arbitrage condition.
+
+Module 18.1 covers the market, its participants and products, nominal versus real exchange rates, and percentage changes. Module 18.2 covers exchange rate regimes, trade and capital flows, and capital restrictions. Module 19.1 is the calculation module, with quotes, cross rates and forward rates.
+
+One habit will save you points all episode. Always say a quote in words, as so many units of one currency per one unit of the other. If you can say it out loud, you will not flip it.
+
+## Module 18.1, The Foreign Exchange Market
+
+An exchange rate is the number of units of one currency it takes to buy one unit of another. The currency whose single unit is being priced is called the base currency. The currency the price is expressed in is called the price currency. So if one euro costs 1.10 dollars, the euro is the base currency, the dollar is the price currency, and the quote is 1.10 dollars per euro.
+
+One rule follows straight away. When the quote rises, the base currency has appreciated, because one unit of it now buys more of the price currency. When the quote falls, the base currency has depreciated. Written quote conventions vary, so translate every quote into the phrase "price currency per one unit of base currency" before you do anything else.
+
+The foreign exchange market, usually called the FX market, is the largest financial market in the world, with trillions of dollars traded every day, mostly over the counter through dealers rather than on an exchange. It exists to do three jobs. First, it lets people convert money to pay for trade and cross border investment. An importer buying goods priced in yen needs yen, and a pension fund buying German bonds needs euros. Second, it lets people hedge, meaning reduce a currency risk they already have. Third, it lets people speculate, meaning take on currency risk deliberately in the hope of a profit.
+
+Now the participants. The sell side is mostly large dealing banks and other financial institutions that make markets, quoting prices at which they will buy and sell currencies for clients.
+
+The buy side is everyone who uses those prices. Corporations use the market for trade and for foreign investment. Investment accounts come in two flavors. Real money accounts are investors such as mutual funds, pension funds, insurers and endowments that typically do not use leverage. Leveraged accounts include hedge funds and proprietary trading desks, which often trade currencies actively with borrowed money.
+
+Retail participants are households, travelers and individual traders. Then come the official sector participants. Governments and their agencies trade currencies to pay for things abroad. Central banks sometimes intervene to influence their own exchange rate, and they manage the country's foreign currency reserves. Sovereign wealth funds invest a country's surplus wealth across borders.
+
+Next, the products. A spot transaction is an exchange at today's rate, typically settled in two business days. A forward contract is an agreement today to exchange currencies on a future date at a rate fixed today. Forwards are over the counter contracts, so they can be tailored to any amount and date.
+
+An FX swap combines a spot transaction with an offsetting forward transaction, for example buying euros today and selling them back at a set rate in three months. Swaps are often used to roll hedges forward. Futures are like forwards but standardized and traded on an exchange, with a clearinghouse standing behind each trade. Options give the holder the right, but not the obligation, to exchange at a set rate.
+
+A quick hedging picture. An importer must pay 1 million euros in three months. If the euro appreciates in that time, the payment costs more dollars. By buying euros forward today, the importer locks in the dollar cost. The hedge removes the loss if the euro rises, and it also gives up the gain if the euro falls. A forward removes uncertainty in both directions.
+
+Now nominal versus real exchange rates. The nominal exchange rate is the rate you see quoted. The real exchange rate adjusts that rate for the price levels in the two countries. It measures purchasing power, meaning how many foreign goods your money can actually buy.
+
+Here is the formula, spoken slowly. Start with a quote in domestic currency per one unit of foreign currency. The real exchange rate, in domestic per foreign terms, equals the nominal exchange rate, also domestic per foreign, multiplied by the foreign price level, divided by the domestic price level. Notice the foreign price level is on top. If foreign prices rise, foreign goods get more expensive for you, and the real rate goes up.
+
+For percentage changes, there is a handy approximation. The percentage change in the real exchange rate, quoted domestic per foreign, is about equal to the percentage change in the nominal rate, plus the foreign inflation rate, minus the domestic inflation rate.
+
+A worked example. Take the dollar as the domestic currency and the euro as foreign, so the quote is dollars per euro. Over a year, the nominal quote rises 5 percent, euro area inflation is 2 percent, and inflation at home is 3 percent. The real exchange rate rises by about 5 plus 2 minus 3, which is 4 percent. The exact answer is 1.05 times 1.02, divided by 1.03, minus 1, which is just under 4 percent. In words, euro area goods have become about 4 percent more expensive for dollar holders in real terms.
+
+Here is the trap. An increase in the real exchange rate quoted domestic per foreign is a real depreciation of the domestic currency. Your money buys fewer foreign goods. That hurts domestic buyers of imports, but it makes domestic exporters more competitive, because their goods look cheaper to foreigners.
+
+Candidates often see "real rate up" and think "home currency stronger". Check which currency is the base. Here the base is the foreign currency, so a higher number means the foreign currency got stronger in real terms.
+
+A second trap is assuming that a flat nominal rate means nothing changed. If the nominal quote is unchanged and foreign prices rise about 10 percent more than domestic prices, the real exchange rate quoted domestic per foreign rises about 10 percent. Nothing on the trading screen moved, yet the competitive position of the two economies shifted.
+
+Finally, the percentage change in a currency. To find how much the base currency changed, divide the new quote by the old quote and subtract 1. To find how much the price currency changed, flip it. Divide the old quote by the new quote and subtract 1, which is the same as inverting both quotes first.
+
+Worked example. The quote moves from 1.00 dollar per euro to 1.25 dollars per euro. The euro is the base, so the euro appreciated by 1.25 divided by 1.00, minus 1, which is 25 percent.
+
+What happened to the dollar? Invert the quotes. Euros per dollar went from 1.00 to 1 divided by 1.25, which is 0.80. So the dollar depreciated by 20 percent, not 25.
+
+That is the classic exam trap. The tempting answer says the dollar fell 25 percent, because it mirrors the euro's rise. But percentage changes are not symmetric. Appreciation of one currency by 25 percent means depreciation of the other by 20 percent. So the rule to keep from this module is this. The base currency's percentage change is the new quote divided by the old quote, minus 1, and the price currency's change is the old quote divided by the new quote, minus 1.
+
+## Module 18.2, Managing Exchange Rates
+
+Start with what a government would want from a perfect currency arrangement. First, an exchange rate that is credibly fixed, so traders and investors face no currency uncertainty. Second, a currency that is fully convertible, meaning capital can move freely into and out of the country. Third, fully independent monetary policy, so the central bank can set interest rates for domestic goals like inflation and employment.
+
+You cannot have all three at once. This is often called the impossible trinity, or the trilemma.
+
+Here is the reasoning. Suppose a country fixes its exchange rate, allows free capital flows, and its central bank cuts interest rates below those of the anchor country. Investors move money out to earn the higher return abroad, which pushes the currency down. To hold the peg, the central bank must buy its own currency with its reserves, which shrinks the domestic money supply and pushes rates back up. So with a fixed rate and open capital markets, monetary policy ends up devoted to defending the peg.
+
+A country must therefore give up one. Large floating economies keep free capital flows and independent monetary policy. A hard peg with open capital markets gives up monetary independence. A peg combined with an independent interest rate policy requires restrictions on capital flows.
+
+Now the menu of regimes, from the most rigid to the most flexible. First, arrangements with no separate legal tender. Under dollarization, a country simply uses another country's currency, often the dollar. It gives up monetary policy entirely and has little ability to act as a lender of last resort. The benefit is that it borrows the credibility of the anchor currency.
+
+In a monetary union, such as the euro area, several countries share one currency and one central bank. Each member has a voice in the common policy but no independent policy of its own.
+
+Second, a currency board. By law, the monetary authority must swap domestic currency for one specific foreign currency at a set rate, and every unit of domestic currency it issues must be fully backed by reserves of that foreign currency. Hong Kong is the standard example. The money supply and interest rates largely follow the flow of reserves, so policy is close to automatic, and the scope to act as a lender of last resort is limited.
+
+Third, a conventional fixed peg. The country pegs to a single currency or a basket and allows only a narrow band of movement, about 1 percent either side of the central rate. The central bank defends the peg directly, by buying and selling foreign currency from its reserves, and indirectly, through interest rate policy and regulation. Unlike a currency board, there is no legal commitment to full backing, so the central bank keeps some discretion.
+
+Fourth, a target zone. This is a fixed central rate with a wider band than a conventional peg allows. More room to move means a bit more monetary policy discretion.
+
+Fifth, a crawling peg. The peg is adjusted periodically. A passive crawl adjusts for inflation, so the currency does not drift out of line in real terms. An active crawl announces a path of adjustments in advance, to steer inflation expectations.
+
+Sixth, management of the exchange rate within crawling bands. The band around the central rate widens over time. This is often used as a gradual exit from a fixed peg toward a floating rate.
+
+Seventh, a managed float. The authorities influence the exchange rate without announcing a specific target, often in response to inflation, employment or the balance of payments. This is sometimes called a dirty float. Eighth, an independent float. The market sets the rate, and the central bank uses monetary policy for domestic goals, intervening rarely and mainly to calm disorderly markets.
+
+The pattern to remember is a tradeoff. As you move from rigid to flexible, a country gains monetary policy independence and loses exchange rate stability. Rigid regimes import credibility, which helps a country with a history of high inflation, but they leave it less able to respond to its own shocks.
+
+Now exchange rates and trade. One accounting identity always holds. The balance of payments must balance, so if a country runs a current account deficit, buying more from the world than it sells, it must finance that gap with a matching surplus in its capital and financial accounts. In other words, foreigners are lending to it or buying its assets. A country that buys 50 billion dollars more from the world than it sells must bring in a matching 50 billion dollars of foreign lending or investment.
+
+In national income terms, exports minus imports equals private saving minus investment, plus tax revenue minus government spending. A trade deficit means the country as a whole spends more than its income, and invests more than it saves.
+
+Here is the key causal point. Capital flows are the main driver of exchange rates in the short to medium term. Trade flows adjust slowly, while investment money can move in seconds. When investors pour money into a country, its currency tends to appreciate. That appreciation makes imports cheaper and exports more expensive abroad, so the trade deficit tends to widen. The arrow often runs from capital flows, to the exchange rate, to the trade balance.
+
+What does a depreciation do to the trade balance? It makes exports cheaper for foreigners and imports more expensive at home. Whether the balance actually improves depends on how responsive export and import demand are to those price changes. If demand is elastic enough, volumes shift enough to improve the balance, and economists call that requirement the Marshall Lerner condition. The improvement often comes with a lag. Right after a depreciation, existing contracts mean the country pays more for the same imports, so the balance can worsen before it improves, a pattern called the J curve.
+
+Here is the trap. A weaker currency does not automatically fix a trade deficit. If imports are things the country cannot easily stop buying, like energy, and its exports face weak demand, a depreciation can leave the deficit about where it was. The identity points the same way, because a lasting deficit reflects a gap between saving and investment.
+
+Finally, capital restrictions. These are controls on money crossing borders, such as bans on certain transactions, taxes on inflows or outflows, caps on foreign ownership, and limits on taking profits or capital out of the country. Governments use them for four common objectives.
+
+First, to reduce the volatility of domestic asset prices, by slowing hot money that can rush in and then rush out. Second, to maintain a fixed exchange rate, which is the trinity at work. Third, to keep domestic interest rates low, or more broadly to run monetary policy for domestic goals. Fourth, to protect strategic industries from foreign ownership.
+
+The cost is efficiency, because controls keep capital from its most productive use and can discourage foreign investment. The rule to keep from this module is the trinity. Of a fixed exchange rate, free capital flows and independent monetary policy, a country can choose only two.
+
+## Module 19.1, Foreign Exchange Rates
+
+Two more labels first. A direct quote states the price of one unit of foreign currency in your domestic currency. For a dollar based investor, 1.10 dollars per euro is a direct quote. An indirect quote is the reverse, units of foreign currency per one unit of domestic currency, such as about 0.91 euros per dollar.
+
+The two are reciprocals. In a direct quote the foreign currency is the base, so a rising direct quote means the domestic currency is depreciating. Direct or indirect depends entirely on where you sit.
+
+Now cross rates. A cross rate is the exchange rate between two currencies, worked out from each one's rate against a third currency, usually the dollar. The method is to treat the quotes like fractions and make the common currency cancel.
+
+Example. You have 1.10 dollars per euro and 150 yen per dollar, and you want yen per euro. Say it in words. Yen per dollar, times dollars per euro. The dollars cancel, leaving yen per euro.
+
+So the cross rate is 150 times 1.10, which is 165 yen per euro. Sanity check. A euro is worth a bit more than a dollar, so it should cost a bit more than 150 yen.
+
+Now the version that catches people. Suppose you have 1.32 dollars per pound and 1.10 dollars per euro, and you want euros per pound. Here the dollar is the price currency in both quotes, so multiplying them leaves nothing that cancels. You need to invert one. Euros per dollar is 1 divided by 1.10. Then euros per pound equals euros per dollar times dollars per pound, which works out to 1.32 divided by 1.10, or 1.20 euros per pound.
+
+Here is the trap. When the common currency sits in the same position in both quotes, you divide. When it sits in opposite positions, you multiply. If you multiply out of habit, expect to find your wrong number among the answer choices. Always do the unit check in words.
+
+Why must cross rates line up? Because otherwise there is free money. If a dealer quoted 170 yen per euro when the dollar quotes imply 165, you could start with 165 yen, buy 1.10 dollars, use them to buy one euro, and sell that euro to the dealer for 170 yen. You end with 5 more yen than you started with and no risk. This is called triangular arbitrage, and traders hunting for it keep quoted cross rates in line with implied ones.
+
+Now forward rates, which are the most testable part of this module. Start from first principles. Suppose you have dollars to invest for one year, and you have two riskless choices. You can invest in dollars at the dollar interest rate. Or you can convert to euros at the spot rate, invest at the euro interest rate, and lock in a forward rate today to convert back to dollars at the end of the year.
+
+Both choices are riskless, so they must end with the same number of dollars. If they did not, you could borrow in one currency, lend in the other, and lock in a riskless profit. This no arbitrage condition is called covered interest rate parity, and it pins down the forward rate.
+
+Here is the formula. Quote everything as price currency per one unit of base currency. The forward rate equals the spot rate, times one plus the price currency interest rate for the period, divided by one plus the base currency interest rate for the period. The price currency rate goes on top and the base currency rate goes on the bottom, the same way the currencies sit in the quote.
+
+For periods shorter than a year, scale each annual rate by the number of days divided by 360, which is the usual money market convention. A 4 percent annual rate for 90 days becomes 4 percent times 90 divided by 360, which is 1 percent for the period.
+
+A worked example built to be easy in your head. The spot rate is 1.02 dollars per euro. The one year dollar interest rate is 5 percent, and the one year euro rate is 2 percent.
+
+The dollar is the price currency, so 1.05 goes on top. The euro is the base currency, so 1.02 goes on the bottom. The forward rate is 1.02 times 1.05, divided by 1.02. The two 1.02 figures cancel, and the forward rate is 1.05 dollars per euro.
+
+Check it with the two choices. Start with 1.02 dollars. Invest in dollars at 5 percent, and you end the year with 1.071 dollars. Or convert the 1.02 dollars into 1 euro, invest at 2 percent to get 1.02 euros, and convert back at the forward rate of 1.05. That gives 1.02 times 1.05, which is again 1.071 dollars. The ending values match, so there is no arbitrage.
+
+Now premiums and discounts. If the forward rate is above the spot rate, the base currency trades at a forward premium. If the forward is below spot, the base currency trades at a forward discount. In the example, the forward of 1.05 is above the spot of 1.02, so the euro trades at a forward premium, and the dollar trades at a forward discount.
+
+The rule that falls out is simple. The currency with the lower interest rate trades at a forward premium, and the currency with the higher interest rate trades at a forward discount. The size of the premium, as a percentage of spot, is the price currency rate minus the base currency rate for the period, divided by one plus the base currency rate for the period. In the example, that is the 3 percent gap divided by 1.02, about 2.9 percent, which is why people often just approximate the premium as the rate gap.
+
+Here is the trap. A forward premium is not a forecast that the euro will appreciate. The forward rate comes from arbitrage, not from anyone's view of the future. The euro's forward premium simply offsets its lower interest rate, so an investor cannot earn the higher dollar rate on euros without taking currency risk.
+
+If an answer says a currency at a forward premium is expected by the market to strengthen, be suspicious. And do not flip the direction. The higher yielding currency trades at the discount, not the premium.
+
+Now forward points. Dealers usually quote forwards not as full rates but as points, which are the forward minus the spot, scaled to the last decimal place of the spot quote. For quotes with four decimal places, one point is one ten thousandth. In the example, the forward minus the spot is 0.03, which a dealer would quote as plus 300 points.
+
+To get a forward rate from points, divide the points by 10,000 and add them to spot, keeping the sign. Positive points mean the base currency is at a forward premium, and negative points mean a discount. For quotes with only two decimal places, such as yen per dollar, one point is one hundredth instead.
+
+Forwards can also be quoted in percentage terms. If spot is 1.25 dollars per euro and the forward premium is 0.8 percent, the forward rate is 1.25 times 1.008, which is 1.26. For a bank or credit union hedging foreign currency assets or funding with forwards, the cost or benefit of the hedge comes from the interest rate gap, not from an exchange rate forecast.
+
+The rule to keep from this module is this. The forward rate equals the spot rate, times one plus the price currency rate, divided by one plus the base currency rate, and the lower interest rate currency trades at a forward premium.
+
+## Recall check
+
+Q: The nominal exchange rate between two countries does not change over a year, but foreign inflation runs well above domestic inflation. What happens to the real exchange rate quoted in domestic currency per unit of foreign currency, and how does that affect domestic exporters?
+
+Answer: The real exchange rate rises, because the foreign price level sits on top of the formula and it grew faster than the domestic price level. That is a real depreciation of the domestic currency. Domestic goods become relatively cheaper for foreigners, so domestic exporters become more competitive.
+
+Q: The exchange rate falls from 1.25 dollars per pound to 1.00 dollar per pound. By what percentage did the pound change against the dollar, and by what percentage did the dollar change against the pound?
+
+Answer: The pound is the base currency, so its change is 1.00 divided by 1.25, minus 1, which is a 20 percent depreciation. For the dollar, invert the quotes. Pounds per dollar went from 0.80 to 1.00, so the dollar appreciated 25 percent, and the two changes are not mirror images.
+
+Q: A country issues domestic currency only when it is fully backed by reserves of a named foreign currency, under a legal commitment to exchange at a fixed rate. Which regime is this most likely to be?
+
+Answer: A currency board. The legal commitment and full reserve backing are what separate it from a conventional fixed peg, where the central bank defends a rate but has no legal obligation of full backing.
+
+Q: A government wants to keep its exchange rate fixed and also wants its central bank to set interest rates for domestic goals. What is it most likely to need?
+
+Answer: Restrictions on capital flows. Under the impossible trinity, a country can have only two of a fixed exchange rate, free capital movement and independent monetary policy. Keeping the first and the third means giving up the second.
+
+Q: The spot rates are 1.10 dollars per euro and 150 yen per dollar. What is the yen per euro cross rate?
+
+Answer: 165 yen per euro. Multiply yen per dollar by dollars per euro so the dollars cancel, and 150 times 1.10 is 165. Multiplication works because the dollar is the price currency in one quote and the base in the other.
+
+Q: The one year interest rate on the dollar is higher than on the euro. With the quote in dollars per euro, is the forward rate above or below the spot rate, and which currency trades at a forward premium?
+
+Answer: The forward rate is above spot, so the euro, as the base currency, trades at a forward premium and the dollar at a forward discount. The lower interest rate currency trades at the premium, which offsets its lower yield. This follows from covered interest rate parity and is not a forecast that the euro will rise.
+
+## Recap
+
+An exchange rate is the price of one unit of the base currency in units of the price currency, and when the quote rises, the base currency has appreciated. To measure the base currency's change, divide the new quote by the old and subtract 1. For the price currency, divide the old quote by the new and subtract 1, and remember the two changes are not mirror images. The real exchange rate, in domestic per foreign terms, equals the nominal rate times the foreign price level divided by the domestic price level. A higher real rate in those terms is a real depreciation of the domestic currency, which helps domestic exporters. Capital flows drive exchange rates over the short to medium term, and a current account deficit must be financed by a surplus in the capital and financial accounts.
+
+Regimes run from no separate legal tender and currency boards, through pegs, target zones and crawls, to managed and independent floats. Of a fixed rate, free capital flows and independent monetary policy, a country can have only two, and capital restrictions are one way to choose. Cross rates come from making the common currency cancel, so say the units in words before you multiply or divide. The forward rate equals spot times one plus the price currency rate, divided by one plus the base currency rate, and the lower yielding currency trades at a forward premium.
