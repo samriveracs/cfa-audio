@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 00:39:32 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 00:58:25 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -151,6 +151,23 @@
     <itunes:duration>1904</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E08.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E09 Currencies and Exchange Rates</title>
+    <itunes:title>Currencies and Exchange Rates</itunes:title>
+    <itunes:episode>9</itunes:episode>
+    <itunes:season>2</itunes:season>
+    <podcast:season name="Economics">2</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Economics, Kaplan Modules 18.1 to 19.1. 18.1 The Foreign Exchange Market, 18.2 Managing Exchange Rates, 19.1 Foreign Exchange Rates</description>
+    <itunes:summary>Economics, Kaplan Modules 18.1 to 19.1. 18.1 The Foreign Exchange Market, 18.2 Managing Exchange Rates, 19.1 Foreign Exchange Rates</itunes:summary>
+    <content:encoded><![CDATA[<p>Economics, Kaplan Modules 18.1 to 19.1.</p><ul><li>Module 18.1, The Foreign Exchange Market</li><li>Module 18.2, Managing Exchange Rates</li><li>Module 19.1, Foreign Exchange Rates</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:10 The big picture</li><li>1:50 Module 18.1, The Foreign Exchange Market</li><li>9:43 Module 18.2, Managing Exchange Rates</li><li>17:36 Module 19.1, Foreign Exchange Rates</li><li>26:02 Recall check</li><li>29:45 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E09.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E09_v2.mp3" length="9431079" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e09</guid>
+    <pubDate>Sat, 03 Oct 2026 12:09:00 -0500</pubDate>
+    <itunes:duration>1886</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E09.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>
