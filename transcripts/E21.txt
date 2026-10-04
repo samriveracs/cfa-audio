@@ -1,0 +1,163 @@
+## The big picture
+
+A single ratio is a snapshot. Return on equity tells you how much profit a company earned on each dollar of shareholder capital, but it does not tell you how. Two companies can post the same return on equity for completely different reasons. One earns fat margins, another turns its assets over quickly, and a third simply borrows heavily. This episode is about seeing the machinery behind the headline number, and then using that machinery to look forward.
+
+Module 37.4 covers DuPont analysis, which splits return on equity into pieces you can measure and compare. Module 37.5 covers ratios built for particular industries, such as banks, retailers and hotels. It also covers sensitivity analysis, scenario analysis and simulation, the main tools for testing a forecast. Module 38.1 then builds a full forecast. You start with revenue, project costs, the balance sheet and cash flows, and then adjust for the biases, competitive forces, inflation and forecast horizon that shape every model.
+
+On the exam, DuPont is the heavy hitter. Expect calculations of return on equity from its parts, and questions that ask which part explains a change. Industry ratios tend to show up as definition questions, often with a tempting wrong denominator. Financial statement modeling is mostly conceptual. Expect questions on forecasting revenue and working capital, naming the behavioral bias in a story, how competition and inflation affect prices and costs, and how to handle the years beyond the explicit forecast.
+
+One thread connects all three modules. Ratios describe the past. DuPont explains the past. A model projects the future, using those same ratios as its assumptions.
+
+## Module 37.4, DuPont Analysis
+
+Start with why this tool exists. Return on equity, or ROE, is net income divided by average shareholders' equity. Owners watch it closely, because it measures the return on their own capital. But ROE is an outcome, not a cause. If ROE rises, you want to know whether management got better at running the business or simply took on more risk.
+
+DuPont analysis answers that question by writing ROE as a product of ratios. The trick is algebra you already know. If you multiply and divide by the same number, nothing changes. So you can slip extra terms into the ROE fraction and regroup them into ratios that mean something.
+
+Here is the first split. Take net income divided by average equity, and multiply and divide by average total assets. You get net income divided by average total assets, times average total assets divided by average equity. The first piece is return on assets, or ROA. The second piece is the financial leverage ratio, also called the equity multiplier. So the simplest version says ROE equals ROA times financial leverage.
+
+Now split ROA one more time, using revenue. ROA becomes net income divided by revenue, times revenue divided by average total assets. The first piece is the net profit margin. The second is total asset turnover. That gives the classic three part DuPont formula. Return on equity equals net profit margin, times total asset turnover, times financial leverage.
+
+Say it as a story. ROE is profitability, times efficiency, times leverage. Notice that each ratio's denominator cancels the next ratio's numerator. Revenue cancels, assets cancel, and the product collapses back to net income divided by equity.
+
+Each piece points to a different lever. The net profit margin reflects pricing power and cost control. Asset turnover reflects how hard the company works its assets. A grocery chain lives on thin margins and high turnover. A luxury goods maker lives on high margins and low turnover. Both can earn the same ROA.
+
+Financial leverage reflects how much of the asset base is funded by liabilities instead of equity. It equals one plus total liabilities divided by equity, so a company whose liabilities equal its equity has a leverage ratio of 2. Do not confuse it with the debt to equity ratio. In DuPont, leverage is assets divided by equity. Both ratios rise when a company borrows, but they are different numbers.
+
+Now a worked example with round numbers. A company has revenue of 1,000 dollars and net income of 60 dollars. Its average total assets are 500 dollars and its average equity is 250 dollars. The net profit margin is 60 divided by 1,000, which is 6 percent. Asset turnover is 1,000 divided by 500, which is 2. Financial leverage is 500 divided by 250, which is also 2.
+
+Now multiply. 6 percent times a turnover of 2 is 12 percent, and that is ROA. Then 12 percent times leverage of 2 is 24 percent. Check it directly. Net income of 60 divided by equity of 250 is 24 percent.
+
+Next is the extended, five part version. It takes the net profit margin apart, to separate operating performance from financing costs and taxes. Start with earnings before interest and taxes, or EBIT. Subtract interest expense to get earnings before tax. Subtract taxes to get net income.
+
+The five components follow that path. First, the tax burden, which equals net income divided by earnings before tax. Second, the interest burden, which equals earnings before tax divided by EBIT. Third, the EBIT margin, which equals EBIT divided by revenue. Fourth and fifth are total asset turnover and financial leverage, unchanged. Multiply the first three and you get back the net profit margin.
+
+Continue with the same company. Its EBIT is 100 dollars, so the EBIT margin is 100 divided by 1,000, or 10 percent. Interest expense is 20 dollars, so earnings before tax are 80 dollars. The interest burden is 80 divided by 100, or 0.8. The tax rate is 25 percent, so taxes are 20 dollars and net income is 60 dollars. The tax burden is 60 divided by 80, or 0.75.
+
+Now multiply slowly. 0.75 times 0.8 is 0.6. Then 0.6 times a 10 percent EBIT margin is 6 percent, which is the net profit margin we found before. Then 6 percent times a turnover of 2 times leverage of 2 gives the same 24 percent ROE. Same answer, with more of the story visible.
+
+Here is the trap. The tax burden and the interest burden are named the opposite of how they behave. A higher tax burden ratio means the company keeps more of its pretax income, so taxes are lower. In fact, the tax burden equals one minus the effective tax rate. A tax rate of 25 percent gives a tax burden of 0.75. If the tax rate falls to 20 percent, the tax burden rises to 0.8, and ROE rises.
+
+The same logic applies to interest. An interest burden of 1 means the company has no interest expense at all, and more interest expense pushes the ratio down.
+
+That leads to a second trap, which is what happens when a company borrows more. Two components move in opposite directions. The financial leverage ratio rises, pushing ROE up, while the interest burden ratio falls as interest expense grows, pushing ROE down. Which effect wins depends on what the assets earn. If they earn an operating return above the interest rate on the debt, ROE goes up, and if not, the extra debt lowers ROE.
+
+Leverage also magnifies losses. A company with a negative ROA and high leverage posts an even more negative ROE.
+
+Now interpretation, where many exam questions live. Suppose a company's ROE was 18 percent last year and is 18 percent again this year. Last year its net profit margin was 8 percent, its turnover was 1.5 and its leverage was 1.5. This year its margin fell to 6 percent, turnover held at 1.5, and leverage rose to 2. The ROE is identical, but the business became less profitable and the owners now carry more financial risk.
+
+So the quality of that ROE fell, even though the headline number did not move. As a rule, a rising ROE driven by better margins or faster turnover is a healthier sign than one driven by leverage alone. When a question tells you only that ROE changed, your job is to find the component that moved and say what that component measures.
+
+Two practical points. First, use average balances for assets and equity, so the numerator and denominators describe the same period. Second, compare components against the company's own history and close peers, because a 3 percent net margin can be healthy for a grocer and weak for a software company.
+
+To lock it in, here is the core formula once more. Return on equity equals net profit margin, times total asset turnover, times financial leverage. In the five part version, the net profit margin splits into tax burden, times interest burden, times EBIT margin. And higher tax burden and interest burden ratios mean lower taxes and lower interest.
+
+## Module 37.5, Industry-Specific Financial Ratios
+
+Standard ratios assume a generic company that buys inventory, sells on credit and owns some plant and equipment. Many businesses do not look like that. A software firm may hold almost no inventory, so inventory turnover tells you little. A bank usually lists its assets and liabilities in order of liquidity instead of splitting them into current and noncurrent items, so the current ratio is not a useful measure. Industry specific ratios exist because the drivers of value differ by industry, and because regulators in some industries set required ratios of their own.
+
+Start with ratios for business risk, which can apply to any industry. The coefficient of variation of operating income equals the standard deviation of operating income divided by average operating income. The same form works for net income and for revenue. A higher number means results are more volatile relative to their size. If operating income averages 200 dollars a year with a standard deviation of 50 dollars, the coefficient of variation is 50 divided by 200, or 0.25.
+
+The financial sector has its own set, shaped by regulation. Capital adequacy ratios compare a bank's capital with a measure of its risk, such as risk weighted assets. A monetary reserve requirement compares reserves held at the central bank with specified deposit liabilities. A liquid asset requirement compares approved, readily marketable securities with specified deposit liabilities.
+
+The fourth financial ratio is the net interest margin. It equals net interest income divided by total interest earning assets. If a bank earns 60 million dollars of interest income, pays 30 million in interest expense, and holds 1 billion dollars of interest earning assets, its net interest margin is 30 million divided by 1 billion, or 3 percent. In bank and credit union capital planning, net interest margin and capital ratios are among the first numbers projected under each interest rate scenario.
+
+Retail has two classics. Same store sales, also called comparable store sales, measures revenue growth only for stores that were open in both periods. It exists to separate growth from existing stores from growth that comes from opening new ones. Suppose a chain's 50 existing stores sold 100 million dollars last year and 104 million this year, while 10 new stores added 16 million. Total sales grew 20 percent, but same store sales grew only 4 percent. The second classic is sales per square foot, or per square meter, which measures how productively a retailer uses its selling space.
+
+Service businesses often have few physical assets, so people are the key resource. Revenue per employee and net income per employee measure that productivity. Hotels use two linked ratios. The average daily rate equals room revenue divided by the number of rooms sold. The occupancy rate equals the number of rooms sold divided by the number of rooms available.
+
+Picture a 100 room hotel that sells 80 rooms on a given night and earns 12,000 dollars in room revenue. The average daily rate is 12,000 divided by 80, or 150 dollars. Occupancy is 80 divided by 100, or 80 percent. Multiply the two and you get 120 dollars of revenue per available room, which blends price and volume into one number.
+
+For subscription businesses, analysts often track average revenue per user and the churn rate, which is the share of customers who leave in a period. For young companies that are not yet profitable, operating metrics like these may be the most meaningful numbers available.
+
+Here is the trap. Exam questions on these ratios often test the denominator. The average daily rate divides by rooms sold, not rooms available. Occupancy divides by rooms available. Net interest margin divides by interest earning assets, not total assets and not equity. Same store sales leaves out stores opened during the period.
+
+The last piece of this module is using ratios to model and forecast earnings. The basic approach is to forecast revenue, then apply ratios such as margins to project expenses and profit. Because every forecast is uncertain, analysts test it in three ways. Sensitivity analysis changes one input at a time, holding everything else constant, and asks how much the output moves.
+
+Scenario analysis changes several inputs together to describe one consistent state of the world. A recession case might combine lower volume, lower prices and higher credit losses. Simulation, often called Monte Carlo simulation, assigns a probability distribution to each key input, runs thousands of trials, and produces a full distribution of possible outcomes. So one input at a time is sensitivity, a consistent set changed together is a scenario, and many random draws is a simulation.
+
+The rule to carry from this module is simple. Each industry ratio answers one question, and its denominator tells you which question. Net interest margin divides by interest earning assets. The average daily rate divides by rooms sold. Occupancy divides by rooms available.
+
+## Module 38.1, Financial Statement Modeling
+
+A financial statement model is the engine under most valuations. Whether you value a company on earnings or on cash flow, you need a forecast of the income statement, balance sheet and cash flow statement that hangs together. The usual approach is sales based. You forecast revenue first, and then you drive most other lines from revenue through ratios. The result is a set of pro forma statements, meaning projected statements built on stated assumptions.
+
+There are three broad approaches to forecasting revenue. A top down approach starts with the economy or the industry and works down to the company. A bottom up approach starts with the company's own pieces, such as its segments, products, stores or production capacity, and adds them up. A hybrid approach combines the two, and it is common in practice.
+
+Top down comes in two main forms. The first ties company growth to growth in gross domestic product, or GDP. If nominal GDP is expected to grow 4 percent, and the company has tended to grow about one and a half times as fast, you might forecast 6 percent growth. The second form forecasts the size of the market and then applies the company's market share.
+
+A quick example. The market for a product is 1,000 million dollars and is expected to grow 10 percent, to 1,100 million. The company holds a 20 percent share and expects to keep it. Its revenue forecast is 20 percent of 1,100 million, or 220 million, up from 200 million. If the company instead expects its share to rise to 22 percent, the forecast becomes 242 million, a 21 percent increase.
+
+Bottom up methods build from the company outward. A retailer might combine same store sales growth with the new stores it plans to open, and a manufacturer might multiply expected volume by expected price, or start from capacity. Analysts can also project the company's own history forward with a time series model. Bottom up captures company detail, while top down keeps the totals consistent with the economy, so using both and reconciling them is good practice.
+
+Now costs. Cost of goods sold usually moves closely with revenue, so analysts often forecast it through the gross margin. They then adjust for expected changes in input prices, product mix or scale. Selling, general and administrative expenses are less closely tied to revenue, because part of them is fixed. When some costs are fixed, margins expand as sales grow and shrink as sales fall. That is operating leverage, and a good model captures it rather than holding every cost at a constant share of revenue.
+
+Below operating profit come financing costs and taxes. Analysts forecast interest expense from the expected debt balance and interest rate, and interest income from cash balances the same way. For taxes, keep three rates apart. The statutory rate is set by law, the effective rate is income tax expense divided by pretax income, and the cash rate is cash taxes paid divided by pretax income. Use the effective rate to forecast tax expense on the income statement, and the cash rate when you need the cash flow.
+
+Then the balance sheet. Retained earnings flow straight from the income statement, growing by net income minus dividends. Working capital accounts are commonly modeled by holding efficiency ratios at a chosen level. For receivables, suppose forecast revenue is 365 million dollars, or 1 million dollars a day. With 40 days of sales outstanding, forecast receivables are 40 million dollars. Inventory and payables work the same way, using days of inventory on hand and days of payables outstanding.
+
+Long lived assets need a capital spending forecast with two parts. Maintenance spending keeps existing capacity running. Depreciation is a common starting point for it, often adjusted upward for inflation, because replacing old assets costs more than they originally cost. Growth spending adds new capacity and should line up with the revenue growth you assumed. Once the income statement and balance sheet are forecast, the cash flow statement follows from net income and the changes in balance sheet accounts.
+
+A useful sanity check is return on invested capital. It equals after tax operating profit divided by invested capital, where invested capital is operating assets minus operating liabilities. High and persistent returns on invested capital usually signal a competitive advantage. If your model shows returns climbing far above peers with no clear reason, an assumption is probably too generous.
+
+Now the human side of forecasting. Five behavioral biases are worth knowing, each with a remedy. The first is overconfidence. Analysts tend to trust their own forecasts too much, so their ranges of possible outcomes are too narrow. The remedy is to keep a record of past forecasts against actual results, and to build scenarios with explicit probabilities.
+
+The second is the illusion of control. This is overestimating how much you can control or predict outcomes, for example by believing that more data and more detail make a forecast more accurate. A model with hundreds of lines feels precise, but extra detail does not make the future more predictable. The remedy is to focus on the few variables that truly drive value, and keep the model only as complex as it needs to be.
+
+The third is conservatism bias. This is clinging to a prior forecast and underreacting to new information. The remedy is to reexamine the forecast when news arrives and ask what you would forecast if you were starting fresh today.
+
+The fourth is representativeness. This is judging a case by how much it resembles a familiar category, while ignoring base rates. An analyst who assumes a fast growing young company will keep growing fast, because it looks like past winners, is showing this bias. The remedy is to start from base rates. Ask how often companies of this size and growth rate have actually sustained that growth.
+
+The fifth is confirmation bias, which is seeking evidence that supports your view and discounting evidence against it. The remedy is to look actively for disconfirming evidence, talk with people who hold the opposite view, and assign someone to argue the other side. Here is the exam trap. Conservatism and confirmation both sound like stubbornness, but conservatism is underreacting to new information, while confirmation is filtering which information you look at.
+
+Next, competition. Porter's five forces give a structured way to judge how a company's competitive position affects its prices and costs. The five forces are the threat of new entrants, the threat of substitutes, the bargaining power of customers, the bargaining power of suppliers, and the rivalry among existing competitors. Each force translates into a forecast assumption.
+
+Powerful suppliers can raise input costs and squeeze margins. Powerful customers can push prices down, and close substitutes cap how far prices can rise. Low barriers to entry invite newcomers who compete away high returns, and intense rivalry leads to price competition. So a company in a strong position can sustain its margins and pass cost increases on to customers. A company in a weak position deserves more cautious margin assumptions, because it will struggle to hold prices or pass on costs.
+
+Inflation and deflation come next. The key move is to forecast price and volume separately, because inflation affects them differently. Revenue growth equals one plus the price change, times one plus the volume change, minus one. If prices rise 5 percent and volume falls 2 percent, revenue grows by 1.05 times 0.98, minus one, which is about 2.9 percent.
+
+Whether a company can pass cost inflation on to customers depends on three things. First, its competitive position, which links back to the five forces. Second, the price elasticity of demand, because when demand is elastic, a price increase costs a lot of volume. Third, timing, because input costs often rise before contracts or price lists can be changed, so margins can dip before they recover. And one company may be unable to raise prices, even as its own costs rise, if its competitors have hedged their inputs or have different cost structures.
+
+Deflation works in reverse. Falling prices shrink revenue, and companies with high fixed costs feel it most, because their costs do not fall with their prices. Technology matters too. New technology can create substitutes that cut demand for existing products, or it can lower costs. Because the timing of a disruption is hard to pin down, scenario analysis is a natural way to model it.
+
+Last, the forecast horizon. The explicit forecast period is the stretch of years you model line by line, and four considerations shape its length. First, the investment strategy, since a long holding period calls for a longer horizon. Second, cyclicality. The horizon should cover a full business cycle, so you do not extrapolate a peak or a trough forever.
+
+Third, company specific events. If a merger or restructuring is under way, extend the horizon until its effects show up in the numbers. Fourth, the preferences of the analyst's employer, which may set a standard horizon.
+
+Beyond the explicit period, analysts usually estimate a terminal value. One method applies a valuation multiple to the final year's earnings or cash flow. Another assumes the cash flow grows at a constant long run rate forever. Under that growth approach, terminal value equals next year's cash flow divided by the discount rate minus the growth rate. With next year's cash flow at 100 dollars, a 10 percent discount rate and 5 percent growth, terminal value is 100 divided by 0.05, or 2,000 dollars. Raise growth to 6 percent and it becomes 2,500 dollars, a 25 percent jump from one percentage point.
+
+That sensitivity is why the long run assumptions matter so much. Two traps sit here. First, the final explicit year should reflect normalized results, meaning margins in the middle of the business cycle, not at a peak. Second, a perpetual growth rate well above long run nominal GDP growth implies the company eventually outgrows the whole economy, which cannot happen. Also ask whether the past is a fair guide, or whether a discontinuity such as new technology or regulation breaks the trend.
+
+To close the module, here is the core rule once more. A sales based pro forma model forecasts revenue first. It then drives costs and working capital from revenue through ratios, completes the balance sheet and cash flow statement, and checks the result for bias, competitive reality, inflation and a sensible long run endpoint.
+
+## Recall check
+
+Q: A company takes on new debt and uses it to buy back shares, while its operations stay the same. In the five part DuPont formula, which two components most likely change, and in which directions?
+
+Answer: The financial leverage ratio rises, because equity shrinks relative to assets. The interest burden ratio falls, because interest expense grows and takes a bigger bite of EBIT. The net effect on ROE depends on whether the assets earn an operating return above the interest rate on the debt.
+
+Q: A company has a tax burden of 0.75, an interest burden of 0.8, an EBIT margin of 10 percent, asset turnover of 1, and financial leverage of 2.5. What is its ROE?
+
+Answer: 15 percent. The first three components multiply to the net profit margin. 0.75 times 0.8 times 10 percent is 6 percent. Then 6 percent times a turnover of 1 is an ROA of 6 percent, and 6 percent times leverage of 2.5 is 15 percent.
+
+Q: A company's tax burden ratio rises from 0.70 to 0.75. Did its effective tax rate rise or fall?
+
+Answer: It fell, from 30 percent to 25 percent. The tax burden equals one minus the effective tax rate, so a higher ratio means the company keeps more of its pretax income. Holding everything else constant, ROE rises.
+
+Q: A 200 room hotel sells 150 rooms on a given night and earns 30,000 dollars in room revenue. What are its average daily rate and occupancy rate?
+
+Answer: The average daily rate is 30,000 divided by the 150 rooms sold, which is 200 dollars. The occupancy rate is 150 divided by the 200 rooms available, which is 75 percent. The trap is dividing revenue by rooms available, which would give 150 dollars.
+
+Q: An analyst's earnings forecast was 2 dollars a share. The company then reports a sharp drop in orders, but the analyst trims the forecast only to 1.95 dollars. Which bias is most likely at work, and what is the remedy?
+
+Answer: Conservatism bias, which is underreacting to new information and clinging to a prior forecast. The remedy is to reexamine the forecast as if starting fresh with the new information. It is not confirmation bias, because the analyst did see the bad news but gave it too little weight.
+
+Q: An analyst is modeling a highly cyclical company whose current year is a cyclical peak. Which approach to the forecast horizon and terminal year is most appropriate?
+
+Answer: Use an explicit horizon long enough to cover a full business cycle, and base the terminal value on normalized, mid cycle results rather than peak margins. Extrapolating peak earnings forever would overstate value. The long run growth rate should also stay in line with long run nominal GDP growth.
+
+## Recap
+
+Return on equity equals net profit margin, times total asset turnover, times financial leverage, or profitability, times efficiency, times leverage. The five part version splits the net profit margin into tax burden, times interest burden, times EBIT margin, and for both burden ratios a higher number means a lighter burden. The tax burden equals one minus the effective tax rate. More debt raises the leverage ratio but lowers the interest burden, and an ROE driven by leverage is lower quality than one driven by margins or turnover.
+
+Industry ratios are mostly tested on their denominators. Net interest margin divides by interest earning assets, the average daily rate by rooms sold, and occupancy by rooms available. Sensitivity analysis moves one input, scenario analysis moves a consistent set, and simulation draws from distributions. A sales based model forecasts revenue first, then drives costs and working capital from revenue through ratios. Among the five forecasting biases, conservatism underreacts to news, while confirmation filters which news you see. Finally, forecast price and volume separately, cover a full business cycle, normalize the final year, and keep long run growth near nominal GDP growth.
