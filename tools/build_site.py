@@ -4,6 +4,7 @@ import json, os, shutil, html, datetime as dt
 from email.utils import format_datetime
 ROOT="/home/claude/podcast"; SITE="/home/claude/cfa-audio"
 BASE="https://samriveracs.github.io/cfa-audio"
+VER="v2"  # bump when audio is re-recorded so podcast apps fetch the new file
 man=json.load(open(f"{ROOT}/manifest.json"))
 os.makedirs(f"{SITE}/episodes",exist_ok=True); os.makedirs(f"{SITE}/transcripts",exist_ok=True)
 open(f"{SITE}/.nojekyll","w").close()
@@ -12,14 +13,15 @@ tz=dt.timezone(dt.timedelta(hours=-5))
 base=dt.datetime(2026,10,3,12,0,tzinfo=tz)
 def hms(s):
     s=int(round(s)); return f"{s//3600}:{s%3600//60:02d}:{s%60:02d}" if s>=3600 else f"{s//60}:{s%60:02d}"
-items=[]; rows=[]
+items=[]; rows=[]; keep=set()
 for e in man:
     n=e['ep']; tag=f"E{n:02d}"; meta=f"{ROOT}/audio/{tag}.json"; mp3=f"{ROOT}/audio/{tag}.mp3"
     if not (os.path.exists(meta) and os.path.exists(mp3)): continue
     info=json.load(open(meta))
-    shutil.copy2(mp3,f"{SITE}/episodes/{tag}.mp3")
+    fn=f"{tag}_{VER}.mp3"; keep.add(fn)
+    shutil.copy2(mp3,f"{SITE}/episodes/{fn}")
     shutil.copy2(f"{ROOT}/scripts/{tag}.txt",f"{SITE}/transcripts/{tag}.txt")
-    size=os.path.getsize(f"{SITE}/episodes/{tag}.mp3")
+    size=os.path.getsize(f"{SITE}/episodes/{fn}")
     first,last=e['modules'][0]['id'],e['modules'][-1]['id']
     span=f"Module {first}" if first==last else f"Modules {first} to {last}"
     title=f"{tag} {e['title']}"
@@ -41,14 +43,16 @@ for e in man:
     <description>{html.escape(summary)}</description>
     <itunes:summary>{html.escape(summary)}</itunes:summary>
     <content:encoded><![CDATA[{desc_html}]]></content:encoded>
-    <enclosure url="{BASE}/episodes/{tag}.mp3" length="{size}" type="audio/mpeg"/>
+    <enclosure url="{BASE}/episodes/{fn}" length="{size}" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-{tag.lower()}</guid>
     <pubDate>{pub}</pubDate>
     <itunes:duration>{int(round(info['duration']))}</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="{BASE}/transcripts/{tag}.txt" type="text/plain"/>
   </item>""")
-    rows.append(f"<tr><td>{n}</td><td>{html.escape(e['topic'])}</td><td>{html.escape(e['title'])}<br><small>{span}</small></td><td>{hms(info['duration'])}</td><td><a href=\"episodes/{tag}.mp3\">MP3</a> · <a href=\"transcripts/{tag}.txt\">Text</a></td></tr>")
+    rows.append(f"<tr><td>{n}</td><td>{html.escape(e['topic'])}</td><td>{html.escape(e['title'])}<br><small>{span}</small></td><td>{hms(info['duration'])}</td><td><a href=\"episodes/{fn}\">MP3</a> · <a href=\"transcripts/{tag}.txt\">Text</a></td></tr>")
+for f in os.listdir(f"{SITE}/episodes"):
+    if f not in keep: os.remove(f"{SITE}/episodes/{f}")
 now=format_datetime(dt.datetime.now(tz))
 feed=f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
