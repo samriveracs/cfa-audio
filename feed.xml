@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sat, 03 Oct 2026 21:38:24 -0500</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 22:00:41 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -49,6 +49,23 @@
     <itunes:duration>1912</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E02.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E03 Portfolio Math, Simulation and Sampling</title>
+    <itunes:title>Portfolio Math, Simulation and Sampling</itunes:title>
+    <itunes:episode>3</itunes:episode>
+    <itunes:season>1</itunes:season>
+    <podcast:season name="Quantitative Methods">1</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Quantitative Methods, Kaplan Modules 5.1 to 7.1. 5.1 Probability Models for Portfolio Return and Risk, 6.1 Lognormal Distributions and Simulation Techniques, 7.1 Sampling Techniques and the Central Limit Theorem</description>
+    <itunes:summary>Quantitative Methods, Kaplan Modules 5.1 to 7.1. 5.1 Probability Models for Portfolio Return and Risk, 6.1 Lognormal Distributions and Simulation Techniques, 7.1 Sampling Techniques and the Central Limit Theorem</itunes:summary>
+    <content:encoded><![CDATA[<p>Quantitative Methods, Kaplan Modules 5.1 to 7.1.</p><ul><li>Module 5.1, Probability Models for Portfolio Return and Risk</li><li>Module 6.1, Lognormal Distributions and Simulation Techniques</li><li>Module 7.1, Sampling Techniques and the Central Limit Theorem</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>2:03 Module 5.1, Probability Models for Portfolio Return and Risk</li><li>12:19 Module 6.1, Lognormal Distributions and Simulation Techniques</li><li>19:42 Module 7.1, Sampling Techniques and the Central Limit Theorem</li><li>27:14 Recall check</li><li>30:53 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E03.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E03.mp3" length="9730080" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e03</guid>
+    <pubDate>Sat, 03 Oct 2026 12:03:00 -0500</pubDate>
+    <itunes:duration>1946</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E03.txt" type="text/plain"/>
   </item>
   <item>
     <title>E07 Business Cycles, Fiscal Policy and Monetary Policy</title>
