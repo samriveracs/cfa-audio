@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 01:36:20 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 01:55:13 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -219,6 +219,23 @@
     <itunes:duration>1856</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E12.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E13 Financial Statements, Revenue and Expense Recognition</title>
+    <itunes:title>Financial Statements, Revenue and Expense Recognition</itunes:title>
+    <itunes:episode>13</itunes:episode>
+    <itunes:season>4</itunes:season>
+    <podcast:season name="Financial Statement Analysis">4</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Financial Statement Analysis, Kaplan Modules 27.1 to 28.2. 27.1 Financial Statement Roles, 28.1 Revenue Recognition, 28.2 Expense Recognition</description>
+    <itunes:summary>Financial Statement Analysis, Kaplan Modules 27.1 to 28.2. 27.1 Financial Statement Roles, 28.1 Revenue Recognition, 28.2 Expense Recognition</itunes:summary>
+    <content:encoded><![CDATA[<p>Financial Statement Analysis, Kaplan Modules 27.1 to 28.2.</p><ul><li>Module 27.1, Financial Statement Roles</li><li>Module 28.1, Revenue Recognition</li><li>Module 28.2, Expense Recognition</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:13 The big picture</li><li>1:32 Module 27.1, Financial Statement Roles</li><li>9:37 Module 28.1, Revenue Recognition</li><li>17:20 Module 28.2, Expense Recognition</li><li>27:23 Recall check</li><li>31:15 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E13.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E13_v2.mp3" length="9808375" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e13</guid>
+    <pubDate>Sat, 03 Oct 2026 12:13:00 -0500</pubDate>
+    <itunes:duration>1961</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E13.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>

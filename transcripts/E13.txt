@@ -1,0 +1,155 @@
+## The big picture
+
+This episode opens financial statement analysis, and it answers two practical questions. Where does an analyst get information about a company, and how far can that information be trusted? And when does a company get to count revenue and record the costs that go with it?
+
+Module 27.1 sets the stage. It covers why we analyze financial statements, where the information comes from, what the auditor's report tells you, and a six step framework for the work. Modules 28.1 and 28.2 then open the income statement. Revenue recognition decides when sales show up, and expense recognition decides when costs show up, so together they decide what profit looks like in any one period.
+
+One idea ties all three modules together, and that is accrual accounting. Revenue is recorded when it is earned and expenses when they are incurred, not when cash changes hands. That requires judgment, and judgment is where analysts earn their keep. On the exam, expect to match audit opinions to their meaning, apply the five step revenue model, separate a principal from an agent, calculate depreciation, and give the direction of effect when a cost is capitalized instead of expensed.
+
+## Module 27.1, Financial Statement Roles
+
+Start with first principles. Financial reporting is the company's job. It gives outsiders information about the company's performance, its financial position, and how that position changed. Financial analysis is your job. You use that information to make an economic decision, such as whether to buy a stock or lend money, and the core questions never change. How well has the company performed, where does it stand now, and how much profit and cash can it generate in the future?
+
+The primary statements come first. The statement of financial position, usually called the balance sheet, lists assets, liabilities and owners' equity at a single point in time. It rests on the accounting equation, which says that assets equal liabilities plus equity. Equity is the owners' residual claim, meaning what is left after the liabilities.
+
+The statement of comprehensive income covers a period of time rather than a single date. Its first part is the income statement, which shows revenue, expenses and net income. A small set of gains and losses skips net income and goes to other comprehensive income instead, and net income plus other comprehensive income equals comprehensive income. Then comes the statement of changes in equity, which explains how each component of equity moved during the period. Finally, the statement of cash flows sorts cash receipts and payments into operating, investing and financing activities.
+
+Here is a tiny example of how the statements link. A company starts the year with assets of 1,000 dollars and liabilities of 600 dollars, so its equity is 400 dollars. During the year it earns net income of 50 dollars and pays dividends of 20 dollars, with no other changes in equity. Ending equity is 400 plus 50 minus 20, or 430 dollars, and that bridge is exactly what the statement of changes in equity shows. And because the income statement is built on accruals, the cash flow statement is what tells you whether profit is turning into cash.
+
+Next, the notes. The notes are an integral part of the financial statements, and they are covered by the audit. They explain the accounting policies and methods the company chose and the key estimates and judgments behind the numbers. They also give detail you will not find on the face of the statements, such as debt terms, leases, pensions and segment results. Because standards allow choices and require estimates, you cannot fairly compare two companies without reading the notes.
+
+Then management's commentary. In the United States it is called management's discussion and analysis, and the Securities and Exchange Commission requires it in annual and quarterly filings. It covers results, trends, liquidity, risks and the most critical accounting estimates. Under IFRS, the International Financial Reporting Standards, guidance on management commentary exists but is not mandatory. Here is the key point. Management's commentary is generally not audited, so read it with some skepticism.
+
+Now the auditor's report. An independent external auditor examines the statements and gives an opinion on them, while the statements themselves remain management's responsibility. The audit is designed to give reasonable assurance, not absolute assurance, that the statements are free of material misstatement, whether caused by error or by fraud. It is only reasonable because auditors test samples and many numbers rest on estimates.
+
+There are four types of opinion, and the exam loves to test them. First, an unqualified opinion, also called unmodified or clean, says the statements present the company's position and results fairly, in all material respects, under the stated framework. Second, a qualified opinion says the statements are fairly presented except for a specific issue that is material but not pervasive. Its signature wording is except for. Third, an adverse opinion says the statements are not fairly presented, because the problems are both material and pervasive. Fourth, a disclaimer of opinion means the auditor could not gather enough evidence to form any opinion at all.
+
+Here is the trap. Adverse and disclaimer both sound bad, but they mean different things. Adverse means the auditor looked and concluded that the statements are materially wrong. Disclaimer means the auditor could not finish the job. And a clean opinion is not a stamp of approval on the business, nor a guarantee that there is no fraud.
+
+Audit reports now carry more than the opinion. Under international auditing standards, the report for a listed company describes key audit matters, and for U.S. public companies the equivalent is called critical audit matters. Both point to the areas that required the most difficult auditor judgment, which tells you where to look hardest. If there is serious doubt about whether the company can continue as a going concern, the auditor flags it, even alongside a clean opinion. And in the United States, larger public companies also receive an auditor's opinion on the effectiveness of their internal control over financial reporting.
+
+Next, regulatory filings. In the United States, the main ones are the 10 K annual report, the 10 Q quarterly report, the 8 K current report for material events, and the proxy statement, which covers board elections, executive pay and governance. Interim reports are usually not audited, although they may be reviewed.
+
+Analysts also look beyond the annual and interim reports, to earnings calls, press releases, investor presentations, industry and economic data, credit rating agencies, news, and alternative data such as web traffic. Good analysis does not stop at the company's own reports.
+
+Now reporting systems. IFRS is used in most countries, while U.S. companies report under U.S. GAAP, the generally accepted accounting principles. The two have converged in important areas, revenue recognition being one, but real differences remain. For example, the last in, first out inventory method, or LIFO, is allowed under U.S. GAAP but prohibited under IFRS. So when you compare an IFRS reporter with a U.S. GAAP reporter, you must know where the rules differ and adjust where it matters.
+
+Standards also change, so you must monitor developments. A new standard can move reported numbers without any change in the business. When the newer lease standards brought most leases onto the balance sheet, reported liabilities and leverage ratios jumped on adoption. The notes on new standards warn you about coming breaks in a trend.
+
+Finally, the framework for doing the analysis, which has six steps. First, articulate the purpose and context of the analysis. Second, collect the input data. Third, process the data, which means making adjustments and computing ratios, common size statements and charts. Fourth, analyze and interpret the processed data. Fifth, develop and communicate conclusions and recommendations, and sixth, follow up by updating the analysis as new information arrives.
+
+The classic trap is the order of steps three and four. Computing ratios is processing. Deciding what the ratios mean is analysis.
+
+To lock in the single most important rule from this module, here are the four audit opinions once more. Unqualified means fairly presented. Qualified means fairly presented except for a material issue that is not pervasive. Adverse means not fairly presented. A disclaimer means no opinion could be formed.
+
+## Module 28.1, Revenue Recognition
+
+Start with first principles. Under accrual accounting, revenue is recorded when it is earned, not when cash arrives. If cash comes first, the company records a liability, often called unearned revenue, because it still owes the customer something. If the revenue comes first, it records a receivable. For example, a customer pays 120 dollars upfront for a 12 month subscription. On day one there is a 120 dollar liability and no revenue, and each month 10 dollars moves from the liability into revenue.
+
+IFRS and U.S. GAAP share a converged revenue standard. Its core principle is that a company recognizes revenue when it transfers control of promised goods or services to a customer, in the amount it expects to be entitled to in exchange. The key word is control. The standard applies that principle through five steps.
+
+First, identify the contract with the customer. Second, identify the separate performance obligations in the contract. Third, determine the transaction price. Fourth, allocate that price to the performance obligations. Fifth, recognize revenue when, or as, each performance obligation is satisfied.
+
+Step one. A contract is an agreement that creates enforceable rights and obligations, with identifiable payment terms and commercial substance, and it must be probable that the seller will collect what it is owed. Step two. A performance obligation is a promise to deliver a distinct good or service. A good or service is distinct if the customer can benefit from it on its own or with resources it can readily get, and if the promise can be separated from the other promises in the contract. A phone and the monthly service plan sold with it are usually two performance obligations.
+
+Step three. The transaction price is the amount the seller expects to be entitled to. It can include variable consideration, such as rebates, bonuses or penalties. The company estimates those amounts, but it includes them only to the extent that a significant reversal of that revenue later is highly unlikely.
+
+Step four. When a contract contains more than one performance obligation, the price is allocated in proportion to each obligation's standalone selling price, which is what the company would charge for it on its own. Here is a worked example. A software company sells a license plus two years of support as a bundle for 900 dollars, paid upfront. Sold separately, the license goes for 800 dollars and the support for 200 dollars, so the standalone prices total 1,000 dollars, and the bundle price is 90 percent of that.
+
+So the license is allocated 90 percent of 800, or 720 dollars, and the support is allocated 90 percent of 200, or 180 dollars. At delivery, the company recognizes 720 dollars of revenue and records a 180 dollar contract liability for the support. It then recognizes 90 dollars of support revenue in each of the two years. The trap is splitting the price some other way, such as equally, by cost, or by loading the whole discount onto one item.
+
+Step five. A performance obligation is satisfied either at a point in time or over time. For a point in time, the question is when control passes, and signs include legal title, physical possession, and the risks and rewards of ownership moving to the customer.
+
+Revenue is recognized over time if any one of three conditions holds. The customer receives and uses the benefit as the company performs, as with a cleaning service. Or the company's work creates or improves an asset the customer already controls. Or the asset has no alternative use to the company, and the company has an enforceable right to payment for the work done so far.
+
+When revenue is recognized over time, the company measures its progress. Output methods use things like units delivered or milestones reached. Input methods use effort, and the most common input method is costs incurred to date divided by total expected costs, the idea behind the older name, percentage of completion. For example, a builder signs a contract for 10 million dollars and expects total costs of 8 million dollars. In year one it incurs 2 million dollars of costs, so progress is 2 divided by 8, or 25 percent, and year one revenue is 25 percent of 10 million, which is 2.5 million dollars. With 2 million dollars of cost, gross profit is 0.5 million dollars.
+
+Now the balance sheet side. Suppose the builder billed the customer 3 million dollars in year one. It has recognized only 2.5 million dollars of revenue, so the extra 0.5 million dollars is a contract liability. If revenue had instead run ahead of billings, the difference would be a contract asset, a right to payment that still depends on more performance. Once the right to payment is unconditional, it becomes a receivable.
+
+Here is the trap in long term contracts. Progress is measured with costs or outputs, not with the cash billed or collected, because billing schedules are negotiated and say little about the work done.
+
+Next, principal versus agent. If the company controls the good or service before it passes to the customer, it is a principal, and it reports revenue gross, meaning the full price as revenue and the cost of the item as an expense. If it only arranges for another party to provide the good, it is an agent, and it reports revenue net, meaning only its commission. Signs of a principal include being primarily responsible for delivery, bearing inventory risk, and setting the price.
+
+Here is the example. An online platform sells a 100 dollar item and keeps 15 dollars. As a principal, it reports revenue of 100 dollars and cost of sales of 85 dollars. As an agent, it reports revenue of 15 dollars. Gross profit is 15 dollars either way, but the gross margin is 15 percent for the principal and 100 percent for the agent, which matters when you compare revenue growth or price to sales ratios.
+
+One more item. The incremental costs of obtaining a contract, such as a sales commission, are generally capitalized and amortized as the related revenue is recognized.
+
+What does this mean for analysis? Revenue recognition involves judgment at every step, and the required disclosures lay out those judgments, so read the revenue note and compare policies with peers. If receivables and contract assets grow much faster than revenue, the company may be recognizing revenue well ahead of collecting cash. Growing contract liabilities, on the other hand, mean customers are paying in advance, which often supports future revenue.
+
+The single most important rule from this module, once more. Revenue is recognized when control passes to the customer, through five steps. Identify the contract, identify the performance obligations, determine the transaction price, allocate it by standalone selling prices, and recognize revenue as each obligation is satisfied.
+
+## Module 28.2, Expense Recognition
+
+Start with first principles. An expense is anything that uses up assets or creates liabilities and so lowers equity, other than a distribution to the owners such as a dividend. Under IFRS, the definition of expenses also includes losses, such as a loss on selling an asset. And under accrual accounting, an expense is recognized when it is incurred, not when it is paid.
+
+The central idea is the matching principle. Costs that are tied to revenue are recognized in the same period as that revenue. Inventory is the cleanest example. A retailer buys 100 units at 10 dollars each, for 1,000 dollars, and sells 80 of them this year. Cost of goods sold is 80 times 10, or 800 dollars, and the other 200 dollars stays on the balance sheet as inventory until those units are sold. Costs that cannot be tied to specific revenue, such as administrative salaries or head office rent, are period costs, expensed as incurred.
+
+When unit costs change, the company needs a rule for which costs flow to cost of goods sold. The options are specific identification, weighted average cost, first in first out, or FIFO, and LIFO, which IFRS prohibits. For example, buy 10 units at 10 dollars, then 10 more at 12 dollars, and sell 10. Cost of goods sold is 100 dollars under FIFO, 110 dollars under weighted average, and 120 dollars under LIFO.
+
+Many expenses rest on estimates, and three are classics. The first is doubtful accounts. When a company sells on credit, some customers will not pay, and matching says that cost belongs in the same period as the sale, so the company estimates it in advance. It records bad debt expense and builds an allowance for doubtful accounts, which is a contra asset that reduces net receivables.
+
+For example, a company with 1 million dollars of credit sales that expects 2 percent to go unpaid records 20,000 dollars of bad debt expense and adds 20,000 dollars to the allowance. When a specific customer later defaults, the receivable is written off against the allowance, and no new expense hits the income statement, provided the estimate was adequate. For a bank or credit union, the allowance for credit losses on loans is the same idea on a much larger scale, and a change in that estimate flows straight into earnings and capital.
+
+The second estimate is warranties. A company that sells products with a warranty estimates the cost of future claims, and it records warranty expense and a warranty liability, also called a provision, in the period of sale. Later repairs reduce the liability rather than creating new expense.
+
+Here is the analyst's angle on both. Lowering either estimate raises current profit with no change in the business, so track the allowance relative to receivables and the warranty provision relative to sales, over time and against peers.
+
+The third estimate is depreciation. A machine helps produce revenue for many years, so matching says its cost should be spread over its useful life rather than expensed in the year it is bought. The amount to spread, called the depreciable base, is the cost minus the residual value, which is what the company expects to get for the asset at the end of its useful life. Amortization is the same idea applied to intangible assets with finite lives.
+
+There are three main methods. First, straight line. Annual depreciation equals the cost minus the residual value, all divided by the useful life in years. Take a machine that costs 12,000 dollars, with a residual value of 2,000 dollars and a 5 year life. The depreciable base is 10,000 dollars, so straight line depreciation is 2,000 dollars a year.
+
+Second, an accelerated method called double declining balance. The rate is two divided by the useful life, so a 5 year life gives a rate of 40 percent. Each year's depreciation equals that rate times the book value at the start of the year. Notice that the residual value is not subtracted when you compute each year's charge, but book value is never allowed to fall below the residual value. In year one, depreciation is 40 percent of 12,000, or 4,800 dollars, leaving a book value of 7,200 dollars, and in year two it is 40 percent of 7,200, or 2,880 dollars.
+
+Here is the trap. The tempting wrong answer for year one is 4,000 dollars, which comes from subtracting the residual value first and taking 40 percent of 10,000. Under double declining balance, the residual value acts only as a floor.
+
+Third, units of production. Depreciation per unit equals the cost minus the residual value, divided by the total units the machine is expected to produce over its life, and you multiply that by the units actually produced this year. If our machine is expected to make 50,000 units in total, the rate is 10,000 divided by 50,000, or 20 cents a unit. A year with 15,000 units gives depreciation of 3,000 dollars.
+
+Now the effects of the choice. Compared with straight line, an accelerated method gives higher depreciation and lower profit in the early years, and lower depreciation and higher profit in the later years. Book value stays lower under the accelerated method until the two meet at the end of the asset's life. Total depreciation over the asset's life is the same under every method, because it always adds up to cost minus residual value. And ignoring taxes, the method chosen for the financial statements does not change cash flow, because depreciation is a noncash expense.
+
+Estimates matter just as much as the method. A longer useful life or a higher residual value lowers annual depreciation and raises profit. IFRS also requires component depreciation, meaning that significant parts of an asset with different lives, such as an aircraft's engines and its airframe, are depreciated separately, while U.S. GAAP permits this but it is rarely used. For analysis, method choices and estimates move profit between periods without changing the economics, so compare them with peers and look closer at any change that happens to lift earnings.
+
+Now the last and heavily tested part of this module, capitalizing versus expensing. A cost that will benefit future periods is capitalized, meaning it is recorded as an asset and then expensed gradually through depreciation or amortization. A cost that benefits only the current period is expensed immediately. Many cases require judgment, such as whether a repair simply maintains an asset or improves it.
+
+Here is a worked example. Two identical companies each bring in 1,000 dollars of operating cash every year for three years, and we ignore taxes. In year one, each spends 300 dollars on something that will help for three years. Company E expenses it, while Company C capitalizes it and depreciates it at 100 dollars a year. Company E reports profit of 700 dollars in year one and 1,000 dollars in each of the next two years. Company C reports a steady 900 dollars each year, and over three years both report a total of 2,700 dollars.
+
+Now the cash flow statement. Company E's 300 dollar payment is an operating outflow, so its operating cash flow is 700 dollars in year one. Company C's payment is an investing outflow, so its operating cash flow is the full 1,000 dollars every year, and it shows a 300 dollar investing outflow in year one. Total cash is 2,700 dollars for each company, and only the label on the outflow differs.
+
+So compared with expensing, capitalizing gives you the following. Higher assets and higher equity. Higher profit in the year of the spending, lower profit in later years, and smoother profit overall. Higher operating cash flow and lower investing cash flow, with the same total cash flow. Lower leverage ratios, such as debt to equity, because assets and equity are larger. And typically a higher return on assets and return on equity in the early years, with lower returns later.
+
+Here is the trap. Capitalizing does not create cash, so an answer choice saying it increases total cash flow is wrong. And it raises profit only in the early years, because over the asset's whole life, total profit is the same.
+
+One special case is capitalized interest. When a company borrows to construct an asset that takes a long time to complete, the interest incurred during construction is added to the asset's cost under both IFRS and U.S. GAAP. For an asset built for its own use, that interest reaches the income statement later through depreciation, and the cash paid for it shows up in investing cash flow. When computing interest coverage, analysts usually add capitalized interest back to interest expense.
+
+To close the module, here is the single most important rule once more. Compared with expensing a cost, capitalizing it raises assets, equity, early profit and operating cash flow, and it lowers investing cash flow and leverage ratios. Total cash flow and lifetime profit stay the same.
+
+## Recall check
+
+Q: An auditor concludes that a company's statements contain misstatements that are both material and pervasive. Which opinion will the auditor most likely issue: a qualified opinion, an adverse opinion, or a disclaimer of opinion?
+
+Answer: An adverse opinion. Material and pervasive misstatement means the statements are not fairly presented. A qualified opinion is for a material issue that is not pervasive, and a disclaimer is for when the auditor cannot gather enough evidence to form any opinion at all.
+
+Q: In a company's annual report, which item is least likely to be covered by the auditor's opinion: the notes to the financial statements, the statement of cash flows, or management's commentary?
+
+Answer: Management's commentary. The notes are an integral part of the financial statements, so they are audited along with the cash flow statement. Management's commentary is generally unaudited.
+
+Q: A company sells equipment plus one year of service as a bundle for 800 dollars. Sold separately, the equipment goes for 600 dollars and the service for 400 dollars. How much of the bundle price is allocated to the equipment?
+
+Answer: 480 dollars. The standalone prices total 1,000 dollars, so the bundle is 80 percent of standalone value, and 80 percent of 600 is 480. The service gets the other 320 dollars, which is recognized over the year as the service is provided.
+
+Q: Two companies handle the same sales, earning 15 dollars on each 100 dollar item. Company A is the principal and Company B is an agent. Compared with A, does B most likely report lower revenue and the same gross profit, the same revenue and lower gross profit, or higher revenue and a higher gross margin?
+
+Answer: Lower revenue and the same gross profit. The agent reports only its 15 dollar fee as revenue, while the principal reports the full 100 dollars and an 85 dollar cost of sales. The agent's gross margin percentage is higher, which is why the third choice tempts, but it fails on revenue.
+
+Q: Compared with expensing a cost, capitalizing it most likely results in which of these: higher total cash flow, higher operating cash flow, or a higher debt to equity ratio?
+
+Answer: Higher operating cash flow. The payment is classified as an investing outflow instead of an operating outflow, so operating cash flow rises and investing cash flow falls by the same amount, leaving total cash flow unchanged. Debt to equity is lower, not higher, because capitalizing increases assets and equity.
+
+Q: A machine costs 20,000 dollars, with a residual value of 2,000 dollars and a 4 year useful life. What is first year depreciation under double declining balance?
+
+Answer: 10,000 dollars. The rate is two divided by 4, or 50 percent, applied to the full beginning book value of 20,000 dollars. The trap answer is 9,000 dollars, which wrongly subtracts the residual value first, although the residual value still sets a floor for book value.
+
+## Recap
+
+The notes are an audited, integral part of the financial statements, while management's commentary is generally unaudited. The four audit opinions are unqualified, qualified with its except for wording, adverse, and disclaimer, and an audit gives reasonable, not absolute, assurance. The analysis framework runs from purpose and context, to collecting, processing and analyzing data, to communicating conclusions, and then it follows up.
+
+Revenue is recognized when control passes to the customer, through five steps, which are contract, performance obligations, transaction price, allocation by standalone selling prices, and recognition at a point in time or over time. A principal reports revenue gross and an agent reports it net, with the same gross profit either way. Matching ties expenses to the revenue they help produce, and double declining balance applies two divided by the useful life to the beginning book value, without first subtracting residual value. Capitalizing instead of expensing raises assets, early profit and operating cash flow, but total cash flow and lifetime profit stay the same.
