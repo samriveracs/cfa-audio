@@ -1,0 +1,153 @@
+## The big picture
+
+This episode closes out fixed income with securitization. A lender takes loans it has already made, such as mortgages, car loans or credit card balances, and sells them to a separate legal entity. That entity pays for the loans by issuing bonds, and the bonds are repaid from the cash the borrowers send in each month. The general name for these bonds is asset backed securities, or ABS, and when the loans are mortgages they are called mortgage backed securities, or MBS.
+
+Module 63.1 covers the benefits, the parties and the tranches. Module 64.1 covers covered bonds, credit enhancement, auto loan and credit card deals, and collateralized debt obligations. Module 65.1, the largest, covers mortgage loans, pass through securities, prepayment risk, collateralized mortgage obligations and commercial mortgage deals.
+
+One question ties the three modules together. Who bears which risk? Credit risk, the risk that borrowers default, is reallocated by credit tranching and credit enhancement. Prepayment risk, the risk that borrowers repay sooner or later than expected, is reallocated by time tranching. Expect exam questions that rank tranches, contrast covered bonds with ABS, annualize a monthly prepayment rate, or ask which tranche absorbs contraction or extension risk.
+
+## Module 63.1, Fixed-Income Securitization
+
+Start with first principles. A bank that makes a 30 year mortgage has tied up its money for a long time, and it has to fund that loan with deposits or borrowing until the loan is repaid. Securitization breaks that link. The bank sells a pool of loans, receives cash today, and can lend that cash again.
+
+The benefits fall on three groups. For the issuer, securitization turns illiquid loans into cash, diversifies funding sources, can lower funding costs, and can move assets and their risks off the balance sheet, which may reduce the capital the lender must hold. For investors, securitization opens asset classes they could not easily buy one loan at a time, and tranches let each investor pick the risk and return that fits. For the economy and financial markets, it lowers the cost of intermediation, expands the credit available to households and businesses, and turns private loans into tradable, more liquid securities.
+
+There is a cost side too. Securitization structures can be complex and hard to analyze. And when an originator plans to sell every loan it makes, it may care less about the quality of those loans. Weak underwriting in mortgage securitizations, and too much faith in their ratings, were central to the financial crisis of 2007 to 2009.
+
+Now the parties. Picture a lender that has made 200 million dollars of car loans and wants to securitize them. That lender is the originator, also called the seller or depositor. It sells the loans to a special purpose entity, a separate legal entity created for this one deal, which you will also hear called a special purpose vehicle or a trust. The special purpose entity is the issuer, and it pays for the loans by selling ABS to investors.
+
+Three more parties keep the deal running. The servicer collects monthly payments from the borrowers, chases late payers, and handles repossession or foreclosure, and it is often the originator itself, paid a fee. The trustee holds the collateral for the benefit of the bondholders, checks that the deal's rules are followed, and makes sure cash reaches investors in the right order. Around them sit the underwriter, usually an investment bank that structures and sells the bonds, and the credit rating agencies that rate each tranche.
+
+Why use a separate entity at all? The answer is bankruptcy remoteness. The transfer to the special purpose entity is a true sale, so the loans legally belong to it, not to the originator. If the originator later goes bankrupt, its creditors cannot reach the pool, and the ABS investors are paid from the loans alone. That is why an ABS can carry a higher credit rating than the company that made the loans, and that higher rating is a big part of the lower funding cost.
+
+Here is the trap. Bankruptcy remote does not mean risk free. ABS investors swap exposure to the originator for exposure to the borrowers in the pool. If those borrowers default, investors lose money even if the originator is perfectly healthy.
+
+Now the structure. The simplest deal is a single class pass through, where every investor gets a pro rata share of whatever the pool pays, after fees. Most deals go further. They split the bonds into tranches with different claims, and they distribute cash according to a set of priority rules called the waterfall.
+
+Credit tranching is the first way to slice a deal. The tranches are ranked by seniority, with a senior tranche on top, one or more mezzanine tranches in the middle, and a subordinated tranche at the bottom, sometimes called the equity or residual tranche. Cash is paid from the top down. Losses are absorbed from the bottom up. This structure is called subordination, and it means the junior tranches protect the senior ones.
+
+Here is a worked example with our 200 million dollar pool. The senior tranche is 160 million, the mezzanine tranche is 30 million, and the subordinated tranche is 10 million. Suppose defaults cause 25 million dollars of losses. The subordinated tranche absorbs the first 10 million and is wiped out, and the next 15 million cuts the mezzanine tranche in half. The senior tranche loses nothing, because 40 million dollars of junior tranches sat beneath it.
+
+Notice the tradeoff. The subordinated tranche takes the first loss, so it has the lowest rating and the highest promised yield. The senior tranche has the highest rating and the lowest yield. And here is the trap. Tranching does not reduce the total credit risk in the pool. It only redistributes that risk among investors.
+
+Time tranching is the second way to slice a deal. Instead of ranking tranches by who absorbs losses first, you rank them by who receives principal first. That redistributes prepayment risk, which matters most for mortgages, so we will build it out in Module 65.1. A single deal can use credit tranching and time tranching at the same time.
+
+So remember the core rule of this module. In credit tranching, cash flows down from the top and losses climb up from the bottom.
+
+## Module 64.1, Asset-Backed Security (ABS) Instrument and Market Features
+
+Start with covered bonds, because they are easy to confuse with ABS. A covered bond is a senior debt obligation of a bank or other financial institution, backed by a segregated pool of assets called the cover pool. The cover pool is usually residential or commercial mortgages, or loans to public sector entities.
+
+Four features set covered bonds apart. First, the cover pool stays on the issuer's balance sheet, ring fenced for the bondholders, while ABS assets are sold to a special purpose entity. Second, covered bondholders have dual recourse. They have a priority claim on the cover pool, and if the pool falls short, they also have a claim on the issuing bank. ABS investors can look only to the pool.
+
+Third, the cover pool is dynamic. If a loan in the pool stops performing or prepays, the issuer must replace it with a qualifying asset, while a typical ABS pool is static. Fourth, a covered bond is usually a single class of bonds rather than a stack of tranches. Add regulation that typically requires the cover pool to exceed the bonds outstanding, and covered bonds end up with lower credit risk than comparable ABS, so they usually offer lower yields. And because prepaid loans are replaced, covered bond investors face much less prepayment risk than holders of a mortgage pass through.
+
+Covered bonds also differ in what happens if the issuer misses a payment due at maturity. With a hard bullet covered bond, a missed payment is a default, and bondholders can accelerate their claims. With a soft bullet covered bond, the maturity can be extended to a new final date, often up to a year later, before a default is triggered. With a conditional pass through covered bond, if payments are still owed after the original maturity date, the bond turns into a pass through security, and investors are paid as the cover pool generates cash. Hard bullet gives the most certain timing, while the extension features help avoid a fire sale of the cover pool.
+
+Now credit enhancement, which makes the senior tranches safer than the pool itself. Internal enhancement is built into the deal structure, and external enhancement comes from a third party.
+
+There are four common internal forms. The first is subordination, the credit tranching you just heard about. The second is overcollateralization, where the principal value of the pool exceeds the bonds issued against it. If a pool holds 105 million dollars of loans and the bonds total 100 million, the first 5 million of losses can be absorbed before any bond principal is at risk. The third is a reserve account, which is cash set aside at the start of the deal or built up over time to cover losses.
+
+The fourth is excess spread, sometimes called excess interest. Excess spread equals the interest earned on the collateral, minus the coupons paid to bondholders, minus servicing and other fees. Suppose the loans pay 8 percent, the bonds pay 5 percent on average, and fees take 1 percent. That leaves 2 percent of excess spread, or 2 million dollars a year on a 100 million dollar deal, a cushion that can absorb losses or build up the reserve account.
+
+External credit enhancement includes bank guarantees, letters of credit, and financial guarantee insurance from a bond insurer. Here is the trap. A third party guarantee adds the guarantor's own credit risk to the deal. If the guarantor is downgraded, the tranche it protects can be downgraded too, as happened to many insured deals in the financial crisis.
+
+Now the non mortgage ABS, starting with whether the underlying loans amortize. An amortizing loan, such as an auto loan or a mortgage, has payments that include interest plus scheduled principal, so the balance falls to zero by maturity. A non amortizing loan, such as a credit card balance, has no schedule for repaying principal. The borrower pays at least a minimum each month and can borrow again, so the balance revolves.
+
+Auto loan ABS are backed by car loans and sometimes leases. Their cash flows are interest, scheduled principal, and prepayments. Prepayments come when a car is sold or traded in, when an insurance payout clears the loan after a car is stolen or wrecked, or when the borrower simply pays early or refinances. Because car loans are small and short, refinancing saves little, so auto loan prepayments are much less sensitive to interest rates than mortgage prepayments. The main risk is credit risk, which depends heavily on whether the borrowers are prime or subprime, and deals typically layer several of the internal enhancements you just heard.
+
+Credit card ABS work differently. The cash flows from the pool are finance charges, fees such as annual and late fees, and principal repayments. The key feature is the lockout period, also called the revolving period. During the lockout, principal that cardholders repay is not passed to investors. It is used to buy new receivables, so the pool stays the same size, and investors receive only interest, paid out of the finance charges and fees. When the lockout ends, the deal enters its amortization period, and principal repayments flow through to investors.
+
+Now the trap. Because principal is recycled during the lockout, investors face little prepayment risk then. But these deals contain an early amortization provision. If certain events occur, such as excess spread falling below a set level or losses rising, the lockout ends early and principal starts flowing to investors to protect them. So the tempting answer that investors can never receive principal during the lockout is wrong.
+
+The same building blocks show up in newer sectors. Solar ABS, for example, are backed by loans to homeowners who install solar panels, and they appeal to investors with environmental goals.
+
+Last in this module, the collateralized debt obligation, or CDO. A CDO is a structured security backed by a diversified pool of debt obligations. The collateral can be corporate bonds, bank loans, emerging market debt, or even other ABS and MBS, and a synthetic CDO gets its credit exposure through credit derivatives instead of owning the debt. The most common type today is the collateralized loan obligation, backed by leveraged loans, which are loans to companies with below investment grade credit. Like an ABS, a CDO issues senior, mezzanine and subordinated or equity tranches.
+
+The big difference from a typical ABS is the collateral manager. The manager actively buys and sells collateral, within limits set by the deal, to generate the cash needed to pay the tranches. Deals also include coverage tests, which compare the collateral's par value and interest income with what the senior tranches are owed. If a test fails, cash is diverted away from the junior tranches to pay down the senior ones.
+
+Why would anyone set one up? The equity tranche earns the spread between what the collateral yields and what the debt tranches cost. Take 100 million dollars of collateral yielding 8 percent, or 8 million a year. The senior tranche is 70 million at 5 percent, costing 3.5 million, and the mezzanine tranche is 20 million at 7.5 percent, costing 1.5 million. That leaves 3 million for the 10 million dollar equity tranche, a 30 percent return before fees and losses.
+
+Here is the trap. That return comes from leverage, and leverage cuts both ways. If 10 million dollars of collateral defaults with nothing recovered, the entire equity tranche is gone, and further losses move into the mezzanine. Tranche losses are not proportional to pool losses. When defaults are highly correlated, losses can reach tranches that looked very safe.
+
+So carry this rule out of the module. Covered bonds keep the assets on the issuer's balance sheet, with dual recourse and a dynamic pool, while ABS move the assets into a special purpose entity.
+
+## Module 65.1, Mortgage-Backed Security (MBS) Instrument and Market Features
+
+Start with the loans themselves. A residential mortgage is a loan secured by a home. If the borrower stops paying, the lender can foreclose, meaning take the property and sell it to recover what is owed. The loan to value ratio equals the loan amount divided by the property's value. If you buy a 400,000 dollar home with a 320,000 dollar loan, the loan to value ratio is 80 percent, and a lower ratio means more borrower equity, lower default risk and a better recovery if the loan goes bad.
+
+Five loan features matter. First, maturity, which in the United States is typically 15 to 30 years. Second, how the rate is set. A fixed rate stays the same for the life of the loan. An adjustable rate resets periodically to a reference rate plus a margin, often with caps on how far it can move. A hybrid loan is fixed for an initial period, such as five years, and adjustable after that, and a convertible loan lets the borrower switch from one type to the other.
+
+Third, amortization. A fully amortizing loan pays off all of its principal through the scheduled payments. A partially amortizing loan leaves a balloon payment at maturity, and an interest only loan pays no principal for a set period. Fourth, prepayment. Most residential borrowers can prepay, sometimes subject to a prepayment penalty in the early years.
+
+Fifth, the lender's rights in foreclosure. With a recourse loan, the lender can pursue the borrower's other assets for any shortfall. With a nonrecourse loan, the lender can look only to the property, so a borrower whose home is worth less than the loan has a stronger incentive to walk away.
+
+Next, who stands behind the securities. In the United States, agency residential MBS carry the guarantee of Ginnie Mae, which is backed by the full faith and credit of the U.S. government, or of Fannie Mae or Freddie Mac, which are government sponsored enterprises. To qualify, loans must be conforming, meaning they meet standards for things like loan size, loan to value ratio, payment to income ratio and documentation. Because of the guarantee, agency MBS investors bear little credit risk, and their main risk is prepayment. Non agency MBS, also called private label, are issued by private entities, carry real credit risk, and therefore rely on credit tranching and other enhancements.
+
+The basic agency product is the mortgage pass through security. Investors own pro rata shares of a pool, and each month they receive the pool's interest, scheduled principal and prepayments, minus servicing and guarantee fees. So the pass through rate is lower than the mortgage rate the borrowers pay. Two pool statistics describe the collateral. The weighted average coupon is the average mortgage rate in the pool, weighted by each loan's outstanding balance, and the weighted average maturity is the average remaining term, weighted the same way.
+
+A quick example. Suppose a pool holds 60 million dollars of loans at 6 percent and 40 million at 5 percent. The weighted average coupon is 60 percent of 6, plus 40 percent of 5, which is 5.6 percent. If servicing and guarantee fees total 0.5 percent, the pass through rate is 5.1 percent.
+
+Now the central risk, prepayment. Every borrower holds an option to repay at par at any time, and borrowers use that option when it suits them, not the investor. This creates two mirror image risks. Contraction risk shows up when rates fall. Borrowers refinance, prepayments speed up, and investors get principal back early, just when they can only reinvest at lower rates. And because borrowers can refinance at par, the price of the MBS rises less than the price of a comparable option free bond, which is called negative convexity.
+
+Extension risk shows up when rates rise. Refinancing dries up, prepayments slow, and the security's life lengthens just when investors would like their money back to reinvest at the new, higher rates. They are stuck holding a below market coupon for longer, and the price falls. A depository institution holding MBS in its investment portfolio feels this directly, because rising rates slow prepayments just as its funding costs climb.
+
+Prepayment speed has its own vocabulary. The basic monthly measure is the single monthly mortality rate, S M M. It equals the prepayment during the month divided by the balance at the start of the month minus that month's scheduled principal payment. Scheduled principal is subtracted because that money was going to be repaid anyway. Suppose a pool starts the month at 101 million dollars, scheduled principal is 1 million, and borrowers prepay another 1 million. The S M M is 1 million divided by 100 million, or 1 percent.
+
+The conditional prepayment rate, C P R, expresses the same speed as an annual rate. The conditional prepayment rate equals one minus, one minus the S M M, raised to the power 12. With an S M M of 1 percent, take 0.99 to the 12th power, which is about 0.886, and one minus that is about 11.4 percent. Here is the trap. The tempting answer is 12 times 1 percent, or 12 percent, but each month's prepayment applies to a balance that has already shrunk, so the annual rate is a little lower.
+
+Speeds are also quoted against the P S A benchmark, an industry convention. At 100 P S A, the conditional prepayment rate starts at 0.2 percent in the first month and rises by 0.2 percentage points each month until it reaches 6 percent in month 30, then stays at 6 percent. At 200 P S A, every one of those rates is doubled. Prepayment speed drives the average life, which is the weighted average time until each dollar of principal is received. Faster prepayments shorten the average life, and slower prepayments extend it.
+
+Now time tranching. A collateralized mortgage obligation, or CMO, takes the cash flows from pass throughs and redistributes them among tranches. It does not eliminate prepayment risk. It moves that risk toward the investors most willing to bear it.
+
+The simplest version is the sequential pay CMO. Picture a 300 million dollar pool split into three tranches, A, B and C, of 100 million each. Every tranche receives interest on its own outstanding balance. All principal, scheduled and prepaid, goes to tranche A until it is fully repaid, then to B, then to C. If the pool returns 6 million dollars of principal this month, all 6 million goes to A.
+
+The result is three different risk profiles. Tranche A has the shortest average life and is protected from extension risk, because it gets every dollar of principal first, but it is the first to shrink when prepayments speed up. Tranche C is protected from contraction risk, because faster prepayments go to A and B first, but it carries the most extension risk.
+
+A more refined structure pairs a planned amortization class tranche with a support tranche, also called a companion tranche. The planned amortization class has a schedule of principal payments that it receives as long as prepayment speeds stay within a set range, called the collar or band. The support tranche absorbs the deviations. When prepayments run fast, the support tranche takes the extra principal, absorbing contraction risk. When prepayments run slow, the support tranche gets principal only after the planned amortization class is paid on schedule, absorbing extension risk.
+
+So the planned amortization class has more predictable cash flows and a lower yield, and the support tranche has the most prepayment risk and a higher yield. The more support there is in the deal, the stronger the protection. Here is the trap. The protection has limits. If prepayments are fast enough to pay off the support tranche completely, the planned amortization class loses its shield and behaves like an ordinary sequential tranche.
+
+Now commercial MBS. These are backed by mortgages on income producing property, such as apartment buildings, offices, warehouses, shopping centers and hotels. Commercial mortgages are generally nonrecourse, so the lender looks only to the property's income and value. Two ratios dominate the credit analysis. The debt service coverage ratio equals the property's net operating income divided by its debt service, meaning the scheduled interest and principal payments. A ratio above 1 means the income covers the payments, and higher is safer.
+
+The loan to value ratio works as before, and lower is safer. Suppose a property earns net operating income of 1.25 million dollars a year and owes 1 million in annual debt service. The debt service coverage ratio is 1.25. If the loan is 7.5 million and the property is appraised at 10 million, the loan to value ratio is 75 percent.
+
+Commercial MBS investors get much more call protection than residential MBS investors. At the loan level there are four tools. A prepayment lockout simply forbids prepayment for a set period. Prepayment penalty points charge a percentage of the principal prepaid. A yield maintenance charge requires the borrower to pay enough to make the lender whole for the interest it loses. And with defeasance, the borrower provides funds to buy a portfolio of government securities whose cash flows replicate the remaining loan payments, and that portfolio replaces the property as collateral.
+
+There is also protection at the structure level. Commercial MBS are credit tranched, and principal is usually paid to the highest rated tranches first, so the lower rated tranches are not paid down until the higher rated ones are retired. Losses from defaults, on the other hand, hit the lowest rated tranches first.
+
+Finally, balloon risk. Many commercial mortgages are not fully amortizing, so a large balloon payment is due at maturity, and the borrower usually has to refinance to make it. If the borrower cannot refinance, the loan may default, or the servicer may extend it during a workout period. Either way the investor's money comes back later than planned, so balloon risk is a form of extension risk.
+
+The one formula to carry out of this module is the annualizing rule. The conditional prepayment rate equals one minus, one minus the S M M, raised to the power 12. And remember the directions. Falling rates bring contraction risk, rising rates bring extension risk, and time tranching only moves those risks between investors.
+
+## Recall check
+
+Q: An originator that sold a pool of car loans to a special purpose entity goes bankrupt. Why are the ABS investors most likely unaffected by the bankruptcy itself?
+
+Answer: The transfer was a true sale to a bankruptcy remote special purpose entity, so the originator's creditors cannot reach the loans. Investors still bear the credit risk of the car buyers in the pool, but not that of the originator.
+
+Q: A 100 million dollar deal has a senior tranche of 85 million, a mezzanine tranche of 10 million and a subordinated tranche of 5 million. The pool suffers 8 million dollars of losses. How are the losses shared?
+
+Answer: The subordinated tranche absorbs the first 5 million and is wiped out. The mezzanine tranche absorbs the remaining 3 million, which is 30 percent of its principal. The senior tranche loses nothing, because losses climb from the bottom up.
+
+Q: Compared with an ABS backed by similar mortgages, a covered bond most likely has which feature, a static pool, dual recourse, or off balance sheet treatment?
+
+Answer: Dual recourse. Covered bondholders have a claim on the cover pool and on the issuing bank, the assets stay on the issuer's balance sheet, and the pool is dynamic because weak or prepaid assets must be replaced.
+
+Q: During the lockout period of a credit card ABS, what happens to the principal that cardholders repay?
+
+Answer: It buys new receivables, which keeps the pool at its target size, so investors receive only interest. Principal reaches investors in the amortization period, or sooner if an early amortization trigger ends the lockout.
+
+Q: A mortgage pool has a single monthly mortality rate of 1 percent. Is the conditional prepayment rate exactly 12 percent, above 12 percent, or below 12 percent?
+
+Answer: Below 12 percent, at about 11.4 percent. Each month's prepayment applies to a balance that has already shrunk, so multiplying the monthly rate by 12 overstates the annual rate.
+
+Q: Interest rates rise and mortgage prepayments slow. In a CMO with a planned amortization class tranche and a support tranche, which tranche's average life most likely lengthens the most?
+
+Answer: The support tranche. It receives principal only after the planned amortization class gets its scheduled payment, so when prepayments slow, the support tranche absorbs the extension. The planned amortization class stays close to its schedule as long as prepayments remain within its protected range.
+
+## Recap
+
+Securitization moves loans through a true sale into a bankruptcy remote special purpose entity, so ABS investors bear the borrowers' credit risk, not the originator's. In credit tranching, cash is paid from the top down and losses are absorbed from the bottom up, and tranching redistributes credit risk without reducing it. Covered bonds stay on the issuer's balance sheet, with dual recourse and a dynamic cover pool, so they yield less than comparable ABS. Internal credit enhancement means subordination, overcollateralization, reserve accounts and excess spread, while external enhancement adds the guarantor's credit risk.
+
+Credit card ABS pay only interest during the lockout, unless an early amortization trigger ends it. Mortgage investors face contraction risk when rates fall and extension risk when rates rise. The conditional prepayment rate equals one minus, one minus the S M M, raised to the power 12, so 1 percent a month is about 11.4 percent a year. In a CMO, the support tranche absorbs the most prepayment risk. Commercial MBS add call protection through lockouts, penalty points, yield maintenance and defeasance, but carry balloon risk.
