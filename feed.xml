@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 06:40:54 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 07:00:15 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -542,6 +542,23 @@
     <itunes:duration>1974</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E31.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E32 Credit Risk and Credit Analysis</title>
+    <itunes:title>Credit Risk and Credit Analysis</itunes:title>
+    <itunes:episode>32</itunes:episode>
+    <itunes:season>6</itunes:season>
+    <podcast:season name="Fixed Income">6</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Fixed Income, Kaplan Modules 60.1 to 62.1. 60.1 Credit Risk, 61.1 Credit Analysis for Government Issuers, 62.1 Credit Analysis for Corporate Issuers</description>
+    <itunes:summary>Fixed Income, Kaplan Modules 60.1 to 62.1. 60.1 Credit Risk, 61.1 Credit Analysis for Government Issuers, 62.1 Credit Analysis for Corporate Issuers</itunes:summary>
+    <content:encoded><![CDATA[<p>Fixed Income, Kaplan Modules 60.1 to 62.1.</p><ul><li>Module 60.1, Credit Risk</li><li>Module 61.1, Credit Analysis for Government Issuers</li><li>Module 62.1, Credit Analysis for Corporate Issuers</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>1:36 Module 60.1, Credit Risk</li><li>12:46 Module 61.1, Credit Analysis for Government Issuers</li><li>18:08 Module 62.1, Credit Analysis for Corporate Issuers</li><li>26:41 Recall check</li><li>29:50 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E32.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E32_v2.mp3" length="9471656" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e32</guid>
+    <pubDate>Sat, 03 Oct 2026 12:32:00 -0500</pubDate>
+    <itunes:duration>1894</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E32.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>
