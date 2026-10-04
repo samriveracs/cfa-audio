@@ -1,0 +1,161 @@
+## The big picture
+
+This episode is about how a company manages money over two horizons. The short horizon is working capital and liquidity. Can the firm pay its suppliers, workers and lenders on time, and how much cash is tied up in inventory and receivables while it waits to be paid? The long horizon is capital allocation. Which plants, systems and acquisitions should the firm fund, and how does it know an investment will add value?
+
+One idea links the two halves. Every dollar tied up in the business has a cost, because investors could have put it to work somewhere else. Cash stuck in a slow cash conversion cycle earns nothing. A long term project is worth doing only if its future cash flows, discounted at a rate that reflects their risk, are worth more than what the project costs today.
+
+Module 23.1 covers the cash conversion cycle, liquidity ratios, primary and secondary sources of liquidity, and the choices a firm makes about how to fund its working capital. Module 24.1 covers the types of capital investments, the capital allocation process, and three measures. They are net present value, which is NPV, internal rate of return, which is IRR, and return on invested capital. Module 24.2 covers the principles behind good cash flow estimates, the common pitfalls, and real options.
+
+Expect calculations of the cash conversion cycle, liquidity ratios, NPV, IRR and return on invested capital, plus concept questions on which cash flows belong in a project and what to do when NPV and IRR disagree. The cost of capital comes in the next episode, so here the discount rate is given.
+
+## Module 23.1, Liquidity Measures and Management
+
+Start with why working capital exists. A manufacturer buys materials, turns them into finished goods, sells them on credit, and then waits to be paid. Its own suppliers may give it some time to pay as well. The gap between paying cash out and getting cash back has to be funded, and that funding is the firm's investment in working capital.
+
+Working capital is current assets minus current liabilities. The operating pieces matter most here, meaning inventory and receivables on the asset side and payables on the liability side. The cash conversion cycle measures, in days, how long the firm's cash is tied up in that loop.
+
+The cash conversion cycle equals days of inventory on hand, plus days sales outstanding, minus days payables outstanding. Days of inventory on hand is how long inventory sits before it is sold. It equals inventory divided by daily cost of goods sold, which is the annual figure divided by 365. Days sales outstanding is how long customers take to pay. It equals accounts receivable divided by daily sales, which is annual revenue divided by 365.
+
+Days payables outstanding is how long the firm takes to pay its own suppliers. It equals accounts payable divided by daily purchases, and cost of goods sold often stands in for purchases. Notice the pattern. Each piece is a balance sheet amount divided by a daily flow from the income statement. Equivalently, each is 365 divided by the matching turnover ratio, so an inventory turnover of 6 means about 61 days of inventory.
+
+Here is a worked example. A company has annual revenue of 3,650 million dollars, so daily sales are 10 million. Receivables are 400 million, so days sales outstanding is 40 days. Cost of goods sold is 2,920 million, so daily cost of goods sold is 8 million. Inventory is 480 million, which is 60 days, and payables are 240 million, which is 30 days. The cash conversion cycle is 60 plus 40 minus 30, which is 70 days.
+
+Days of inventory plus days of receivables, 100 days here, is the operating cycle, the full time from buying inventory to collecting cash. Subtract the days of payables, because suppliers fund part of that time, and you get the cash conversion cycle.
+
+A shorter cycle generally means less cash tied up, less financing needed, and more liquidity. A cycle that is lengthening over time can signal slow collections or inventory that is not selling. Some retailers sell inventory quickly, collect cash at the register, and pay suppliers weeks later, so their cycle can be negative, and their suppliers are effectively financing them.
+
+Here is the trap. Shorter is not always better. A firm can shrink its cycle by refusing customers credit and losing sales, by running inventory so lean that it runs out of stock, or by stretching payables until suppliers raise prices or cut it off. So compare a firm with peers in the same industry, and look for the reason behind the number.
+
+A second trap is the sign. Days payables is subtracted, so paying suppliers more slowly shortens the cycle, even though more days sounds like a longer cycle. Also watch the denominators. Receivables go over daily sales, while inventory and payables go over daily cost of goods sold or purchases.
+
+Now liquidity itself. Liquidity is the ability to meet short term obligations as they come due, at a reasonable cost. Sources of liquidity come in two tiers.
+
+Primary sources are the normal, everyday ones. They include cash and marketable securities on hand, short term funding such as trade credit and bank lines of credit, and good cash flow management, such as collecting receivables promptly. Using them does not change how the firm normally operates.
+
+Secondary sources are what a firm turns to when primary sources are not enough. They include renegotiating debt agreements, selling long term assets, and filing for bankruptcy protection in order to reorganize. The key difference is that secondary sources can change the firm's financial and operating position, and using them often signals distress.
+
+A drag on liquidity delays cash coming in, such as late collections or obsolete inventory. A pull on liquidity speeds cash going out, such as suppliers demanding faster payment or a bank cutting a credit line.
+
+Analysts compare liquidity across issuers with three ratios, from loosest to strictest. The current ratio equals current assets divided by current liabilities. The quick ratio equals cash, plus short term marketable securities, plus receivables, all divided by current liabilities. Inventory is left out because it may take time to sell, or sell only at a discount. The cash ratio equals cash plus marketable securities, divided by current liabilities.
+
+A quick example. A firm has 50 million dollars of cash, 30 million of marketable securities, 120 million of receivables and 200 million of inventory, so current assets are 400 million. Current liabilities are 200 million. The current ratio is 400 divided by 200, which is 2. The quick ratio drops the inventory, so it is 200 divided by 200, which is 1. The cash ratio is 80 divided by 200, which is 0.4.
+
+Because each ratio removes more assets from the top, the current ratio is always at least the quick ratio, which is always at least the cash ratio. The trap is treating a high current ratio as proof of liquidity. If most current assets are slow moving inventory, the quick ratio tells the truer story. And extra liquidity is not free, because cash and short term securities earn low returns.
+
+How should a firm manage its working capital? The objective is enough liquidity to pay obligations on time, without so much idle cash and inventory that returns suffer. Firms choose how much to invest in current assets and how to finance them.
+
+Under a conservative approach, the firm holds relatively high current assets and funds them mostly with long term debt and equity. It rarely gets caught short, but long term funding usually costs more and idle assets earn little. Under an aggressive approach, the firm keeps current assets lean and relies on short term borrowing. That is cheaper, but if a lender will not renew or short term rates jump, the firm can be squeezed. That is rollover risk.
+
+In between is a moderate approach, often called matching. The permanent base of current assets is funded long term, and the seasonal part is funded short term. Bank and credit union balance sheet managers apply the same logic when they decide how much lending to fund with stable deposits and term borrowing rather than short term money.
+
+Now the main sources of short term funding. Trade credit from suppliers is the most common. Banks offer three kinds of lines. An uncommitted line is the weakest, because the bank may decline to lend when you ask. A committed line, also called a regular line, obliges the bank to lend up to a limit for a set period, in return for a commitment fee. A revolving credit agreement, or revolver, is the strongest, a formal committed facility that often runs several years.
+
+Firms can also borrow against receivables or inventory, or sell receivables to a factor at a discount, which typically passes the collection work and the credit risk to the factor. Large, highly rated firms can issue commercial paper, which is short term unsecured debt, usually backed by a line of credit in case it cannot be rolled over. Smaller and weaker firms have fewer choices and pay more.
+
+One calculation tests your grasp of trade credit. Suppose a supplier offers a 2 percent discount for paying within 10 days, with the full amount due in 30 days. In shorthand that is two ten, net thirty. Skip the discount and you keep the money for 20 extra days, at a price of 2 percent.
+
+The annual cost of skipping the discount equals one plus a fraction, raised to a power, minus one. The fraction is the discount divided by one minus the discount. The power is 365 divided by the number of extra days. Here the fraction is 0.02 divided by 0.98, about 2.04 percent for 20 days. With about 18 twenty day periods in a year, compounding gives roughly 44.6 percent a year. If the firm can borrow for less than that, it should take the discount.
+
+The trap is using 30 days instead of the 20 extra days, or dividing the 2 by 100 instead of by 98. Both mistakes make trade credit look cheaper than it really is.
+
+To close the module, hold onto this. The cash conversion cycle equals days of inventory on hand, plus days sales outstanding, minus days payables outstanding.
+
+## Module 24.1, Capital Investments and Project Measures
+
+Capital investments are the long lived assets a firm buys to run and grow its business, such as plants, equipment, technology and sometimes whole companies. They matter because they are large, hard to reverse, and they shape the firm's cash flows for years. How well management allocates capital is one of the clearest drivers of whether it creates or destroys value.
+
+Capital investments fall into four broad types. Going concern projects keep the existing business running or make it more efficient, such as replacing worn out machines, and usually need little analysis. Regulatory and compliance projects are required by a government or regulator. They often bring in no new revenue, but the alternative may be shutting down part of the business. Expansion projects add capacity, products or markets, and need careful forecasting. Other projects fall outside the normal pattern, such as a speculative new venture, and can be very risky and hard to analyze.
+
+The capital allocation process runs in four steps. First, generate ideas, which can come from anywhere in the firm. Second, analyze each proposal by forecasting its cash flows and measuring its value. Third, plan the overall capital budget, choosing which projects fit together, in what order, and within the funds available. Fourth, monitor the projects and conduct a post investment review that compares actual results with the forecasts. That review improves future forecasts and catches projects that are going wrong.
+
+Now the measures, starting with the most important, net present value. A project is worth doing if what you get back, measured in today's dollars, exceeds what you put in. NPV equals the sum of the present values of the project's future cash flows, minus the initial investment. Each future cash flow is divided by one plus r, raised to the power t. Here r is the required rate of return for a project of this risk, and t is the year in which that cash flow arrives. The cash flows are the expected incremental, after tax cash flows.
+
+The decision rule is to accept a project with a positive NPV and reject one with a negative NPV. An NPV of zero means the project earns exactly its required return, so it neither creates nor destroys value. A positive NPV is the value added for shareholders. In theory, if the market had not already expected the project, the value of the firm's equity should rise by about the amount of the NPV.
+
+Here is an example. A project costs 1,000 dollars today and returns 660 dollars at the end of year one and 605 dollars at the end of year two. The required return is 10 percent. The first cash flow, 660 divided by 1.1, is worth 600 today. The second, 605 divided by 1.1 squared, which is 1.21, is worth 500. The inflows are worth 1,100 dollars today, so the NPV is 100 dollars, and you accept.
+
+The internal rate of return is the discount rate that makes NPV exactly zero. Think of it as the project's own expected rate of return. Accept if the IRR is greater than the required rate of return, often called the hurdle rate, and reject if it is less. The IRR usually has no direct formula, so you find it by trial and error or with the calculator. For our project, the IRR is about 17.5 percent, comfortably above the 10 percent hurdle.
+
+On the B A two plus, use the cash flow worksheet. Press C F, then clear old entries with second, then C E C, which is clear work. At C F zero, type 1,000, press the change sign key, labeled plus minus, and press enter, so it reads negative 1,000, because outflows are negative. Press the down arrow to reach C zero one, type 660 and press enter. Arrow down past F zero one, the frequency, which defaults to 1. At C zero two, type 605 and press enter.
+
+Now press the NPV key. At the I prompt, type 10 and press enter, because the rate is entered as a whole number percent. Arrow down to NPV and press C P T, and the display shows 100. Then press the IRR key and C P T, and the display shows about 17.49. The P Y setting does not affect this worksheet. Common errors are forgetting to clear old cash flows, entering the outlay as a positive number, and typing the rate as a decimal.
+
+When do NPV and IRR disagree? For a single independent project with a conventional pattern, meaning an outflow first and then only inflows, they always agree on accept or reject. A positive NPV goes with an IRR above the hurdle rate. They can disagree on ranking when projects are mutually exclusive, meaning taking one rules out the other.
+
+Two things cause the conflict, differences in size and differences in the timing of cash flows. Here is a size example. Project small costs 100 dollars and returns 200 dollars a year later, so its IRR is 100 percent. Project large costs 1,000 dollars and returns 1,500 dollars a year later, so its IRR is 50 percent.
+
+At a 10 percent required return, small has an NPV of about 82 dollars, and large has an NPV of about 364 dollars. IRR favors small, but NPV favors large. Choose large, because it adds more value in dollars, and shareholders spend dollars, not percentages.
+
+The deeper reason is the reinvestment assumption. NPV implicitly assumes that a project's interim cash flows are reinvested at the required rate of return. IRR implicitly assumes they are reinvested at the IRR itself, which is unrealistic when the IRR is very high. So when NPV and IRR rank mutually exclusive projects differently, go with NPV.
+
+A useful picture is the NPV profile, which plots NPV against the discount rate. For a conventional project it slopes down and crosses zero at the IRR. The rate where two projects' profiles cross is the crossover rate, and it equals the IRR of the difference in their cash flows. For small and large, the difference is an outflow of 900 dollars followed by an inflow of 1,300, so the crossover rate is about 44 percent. Below that rate, large has the higher NPV.
+
+One more IRR problem. If a project's cash flows change sign more than once, for example a large cleanup cost at the very end, there can be more than one IRR, or none at all. NPV still gives a single clear answer.
+
+The third measure looks at the whole company rather than one project. Return on invested capital equals after tax operating profit divided by average invested capital. After tax operating profit is operating profit times one minus the tax rate. Invested capital is the book value of the debt and equity that fund the business, averaged over the year. If return on invested capital is above the cost of capital, management has been creating value with investors' money, and if it is below, management has been destroying value.
+
+For example, a company has operating profit of 200 million dollars and a tax rate of 25 percent, so after tax operating profit is 150 million. Average invested capital is 1 billion dollars. Return on invested capital is 150 million divided by 1 billion, which is 15 percent. If the cost of capital is 10 percent, the firm is earning 5 percentage points more than its investors require.
+
+Here are the traps. Because invested capital includes debt, the numerator must be an operating profit figure before interest, so do not use net income. The measure is accounting based, so it depends on book values and accounting choices rather than cash flows. And it is backward looking and company wide, so it cannot tell you whether one new project is worth doing. Use NPV for project decisions, and use return on invested capital to judge management's track record.
+
+To close the module, the rule to remember is this. NPV equals the present value of the expected future cash flows, discounted at the project's required return, minus the initial investment, and you accept the project when NPV is positive.
+
+## Module 24.2, Capital Allocation Principles and Real Options
+
+NPV is only as good as the cash flows that go into it, so a few principles govern them. Base decisions on cash flows, not accounting income. Depreciation is not a cash outflow, but the tax it saves is real cash. Use incremental cash flows, meaning the firm's cash flows with the project minus its cash flows without it. Record each cash flow when it actually occurs, and analyze everything after tax.
+
+One principle deserves extra emphasis. Do not subtract financing costs such as interest from the cash flows. The cost of financing is already in the required rate of return used to discount them, so subtracting interest as well would count it twice.
+
+Incremental thinking has three consequences. A sunk cost, money already spent that cannot be recovered whatever you decide, is excluded. An opportunity cost, the value of a resource in its next best use, is included even though no cash changes hands. Externalities, the project's effects on the rest of the firm, are included too, and the most common is cannibalization, where a new product takes sales from an existing one.
+
+Here is an example. A retailer weighing a new store paid 50,000 dollars for a location study last year. The store would use a building the firm owns that could otherwise be rented out for 30,000 dollars a year, and it would cost a nearby store 20,000 dollars a year of after tax cash flow. It would be funded with a 6 percent loan. The study is sunk, so leave it out. The forgone rent and the cannibalized cash flow both count as costs, but the loan interest stays out, because it belongs in the discount rate.
+
+Now the common pitfalls. Inertia means anchoring this year's budget to last year's. Source of capital bias means treating internally generated cash as if it were free, or changing the hurdle rate depending on how a project is funded. Pet projects favored by senior managers may get softer scrutiny and rosier forecasts. Others include ignoring alternatives such as a smaller version or doing nothing, ignoring how competitors will respond, and using one company wide discount rate for projects of very different risk.
+
+One more pitfall deserves its own mention. Managers paid on earnings per share, which is EPS, or on return on equity, which is ROE, may reject a positive NPV project because it lowers EPS in its early years. Here is the trap. A project that cuts near term EPS can still add value, and if NPV is positive at the right discount rate, the accounting hit does not change the answer.
+
+Now real options. A real option is the right, but not the obligation, to make a future decision about a real asset, such as when to invest, whether to grow, or whether to quit. It has value because management can act after it learns more. Standard NPV assumes a fixed plan, so it can understate the value of a project with that kind of flexibility.
+
+There are four types. Timing options let the firm delay an investment until it learns more. Sizing options come in two forms. An abandonment option lets the firm walk away and recover what it can if results are poor, which works like a put. A growth or expansion option lets the firm invest more if things go well, which works like a call.
+
+Flexibility options let the firm change how it operates once the project is running. A price setting option lets it raise prices when demand is strong, and a production flexibility option lets it switch inputs, add overtime, or change its product mix. Fundamental options arise when the whole project's payoff depends on the price of an underlying asset. An oil well or a gold mine is worth developing only if the commodity price is high enough, so the project itself behaves like an option.
+
+To bring options into the decision, first compute NPV without them. If it is already positive, accept, and there is no need to value the options. If it is negative, project NPV equals the NPV from discounted cash flows alone, minus the cost of the options, plus the value of the options.
+
+For example, a project's NPV on its cash flows alone is negative 4 million dollars. Buying extra land to keep an expansion option open costs 1 million, and the option is worth 6 million. Negative 4, minus 1, plus 6 is positive 1 million, so accept. Decision trees and option pricing models can estimate option values, but the core skills here are naming the type of option and making this adjustment.
+
+The trap is thinking an option can lower a project's value. An option you do not have to exercise can only add value. What you subtract is the cost of acquiring it.
+
+To close the module, remember the cash flow rule. Use incremental, after tax cash flows, include opportunity costs and externalities, and exclude sunk costs and financing costs.
+
+## Recall check
+
+Q: A firm has 45 days of inventory on hand, 35 days sales outstanding and 30 days payables outstanding. What is its cash conversion cycle, and what happens to it if the firm starts paying suppliers 10 days later?
+
+Answer: The cycle is 45 plus 35 minus 30, which is 50 days. Paying suppliers 10 days later raises days payables to 40, so the cycle falls to 40 days. Payables are subtracted, so stretching them shortens the cycle, though stretching too far can damage supplier relationships.
+
+Q: A company draws on its committed bank line, sells some of its marketable securities, and asks its bondholders to relax a covenant. Which of these is most likely a secondary source of liquidity?
+
+Answer: Asking bondholders to relax a covenant. Renegotiating debt agreements is a secondary source, because it can change the firm's financial position and often signals stress. Drawing on a bank line and selling marketable securities are primary sources used in normal operations.
+
+Q: Two mutually exclusive projects are being compared. Project A has the higher IRR, and Project B has the higher NPV at the firm's required return. Which should the firm choose, and why?
+
+Answer: Project B. NPV measures the value added in dollars and assumes interim cash flows are reinvested at the required return, which is more realistic than IRR's assumption of reinvestment at the IRR. IRR can favor a smaller project or one with faster cash flows even when it adds less value.
+
+Q: A company has operating profit of 40 million dollars, a tax rate of 25 percent, and average invested capital of 200 million dollars. Its cost of capital is 12 percent. What is its return on invested capital, and is it creating value?
+
+Answer: After tax operating profit is 40 million times 0.75, which is 30 million. Divided by 200 million, that gives a return on invested capital of 15 percent. Because 15 percent is above the 12 percent cost of capital, the firm is creating value.
+
+Q: A firm evaluating a new product line spent 2 million dollars on research last year, expects the new line to take sales from an existing product, and plans to fund the project with a bond. Which of these items belongs in the project's cash flows?
+
+Answer: Only the lost cash flows from the existing product. That cannibalization is an incremental effect of the project, so it is included. The research is a sunk cost and is excluded, and the bond's interest is excluded because financing costs are already reflected in the discount rate.
+
+Q: A power plant can switch between burning natural gas and burning oil, depending on which fuel is cheaper. What type of real option is this, and how does it affect the plant's value?
+
+Answer: It is a flexibility option, specifically a production flexibility option, because it lets management change inputs as conditions change. Like any option, it can only add value, so before counting the cost of building in that flexibility, the plant is worth at least as much as a standard NPV with a fixed fuel would suggest, and usually more.
+
+## Recap
+
+The cash conversion cycle equals days of inventory on hand, plus days sales outstanding, minus days payables outstanding, so paying suppliers more slowly shortens it. Primary sources of liquidity are part of normal operations, while secondary sources such as renegotiating debt or selling long term assets can change the firm's position and often signal stress. The current ratio is always at least the quick ratio, which is always at least the cash ratio. A conservative working capital approach is safer but costlier, and an aggressive one is cheaper but carries rollover risk.
+
+NPV equals the present value of future cash flows minus the initial investment, and you accept when it is positive. When NPV and IRR rank mutually exclusive projects differently, follow NPV, because it measures dollars of value and assumes a realistic reinvestment rate. Return on invested capital equals after tax operating profit divided by average invested capital, and it signals value creation when it beats the cost of capital. Finally, use incremental, after tax cash flows, exclude sunk and financing costs, and add the value of any real options minus their cost.

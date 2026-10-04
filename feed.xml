@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 00:58:25 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 01:17:27 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -168,6 +168,40 @@
     <itunes:duration>1886</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E09.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E10 Issuers, Stakeholders and Governance</title>
+    <itunes:title>Issuers, Stakeholders and Governance</itunes:title>
+    <itunes:episode>10</itunes:episode>
+    <itunes:season>3</itunes:season>
+    <podcast:season name="Corporate Issuers">3</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Corporate Issuers, Kaplan Modules 20.1 to 22.1. 20.1 Features of Corporate Issuers, 21.1 Stakeholders and ESG Factors, 22.1 Corporate Governance</description>
+    <itunes:summary>Corporate Issuers, Kaplan Modules 20.1 to 22.1. 20.1 Features of Corporate Issuers, 21.1 Stakeholders and ESG Factors, 22.1 Corporate Governance</itunes:summary>
+    <content:encoded><![CDATA[<p>Corporate Issuers, Kaplan Modules 20.1 to 22.1.</p><ul><li>Module 20.1, Features of Corporate Issuers</li><li>Module 21.1, Stakeholders and ESG Factors</li><li>Module 22.1, Corporate Governance</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>1:38 Module 20.1, Features of Corporate Issuers</li><li>8:52 Module 21.1, Stakeholders and ESG Factors</li><li>16:56 Module 22.1, Corporate Governance</li><li>27:32 Recall check</li><li>30:50 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E10.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E10_v2.mp3" length="9703252" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e10</guid>
+    <pubDate>Sat, 03 Oct 2026 12:10:00 -0500</pubDate>
+    <itunes:duration>1940</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E10.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E11 Liquidity and Capital Investments</title>
+    <itunes:title>Liquidity and Capital Investments</itunes:title>
+    <itunes:episode>11</itunes:episode>
+    <itunes:season>3</itunes:season>
+    <podcast:season name="Corporate Issuers">3</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Corporate Issuers, Kaplan Modules 23.1 to 24.2. 23.1 Liquidity Measures and Management, 24.1 Capital Investments and Project Measures, 24.2 Capital Allocation Principles and Real Options</description>
+    <itunes:summary>Corporate Issuers, Kaplan Modules 23.1 to 24.2. 23.1 Liquidity Measures and Management, 24.1 Capital Investments and Project Measures, 24.2 Capital Allocation Principles and Real Options</itunes:summary>
+    <content:encoded><![CDATA[<p>Corporate Issuers, Kaplan Modules 23.1 to 24.2.</p><ul><li>Module 23.1, Liquidity Measures and Management</li><li>Module 24.1, Capital Investments and Project Measures</li><li>Module 24.2, Capital Allocation Principles and Real Options</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>2:01 Module 23.1, Liquidity Measures and Management</li><li>11:49 Module 24.1, Capital Investments and Project Measures</li><li>21:09 Module 24.2, Capital Allocation Principles and Real Options</li><li>26:28 Recall check</li><li>30:29 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E11.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E11_v2.mp3" length="9604771" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e11</guid>
+    <pubDate>Sat, 03 Oct 2026 12:11:00 -0500</pubDate>
+    <itunes:duration>1921</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E11.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>

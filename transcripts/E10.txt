@@ -1,0 +1,153 @@
+## The big picture
+
+This episode opens the Corporate Issuers topic, and it is mostly about people rather than formulas. Who owns a business, who runs it, who lends to it, and what happens when their interests pull in different directions? The exam tests this material with short definition and classification questions, so precise vocabulary is where the points are.
+
+Three modules build the story. Module 20.1 compares the legal forms a business can take, and then compares public and private companies, including how a company goes public and how it is taken private. Module 21.1 compares the claims of lenders and shareholders, walks through the other stakeholders and what they want, and introduces environmental, social and governance factors, known as ESG. Module 22.1 explains why these groups end up in conflict, the governance mechanisms that keep those conflicts in check, and what weak or strong governance means for risk and value.
+
+One thread ties all three together. The corporate form separates the people who own the company from the people who run it. That separation is what lets a corporation raise enormous amounts of capital, and it is also what creates the agency problems that governance exists to manage. Keep that tradeoff in mind and many questions in this episode answer themselves.
+
+## Module 20.1, Features of Corporate Issuers
+
+Start with a simple question. If a business fails while it owes money, whose personal assets are on the line? That question, plus four others, separates the organizational forms. The five features to compare are legal identity, the relationship between owners and managers, owner liability, taxation, and access to financing.
+
+The simplest form is the sole proprietorship, also called a sole trader. One person owns and runs the business. It has no legal identity apart from its owner, the owner has unlimited personal liability for its debts, and profits are taxed once, as the owner's personal income. Financing is limited to what the owner has and can borrow personally, so it is simple but rarely grows large.
+
+Partnerships let several owners pool money and share risk. In a general partnership, the partners share management and share unlimited liability for the partnership's debts. A limited partnership must have at least one general partner, who usually runs the business and carries unlimited liability. The other owners are limited partners, whose losses are capped at what they invested, and who usually have little or no role in management. General partners typically take a larger share of the profit in return for that extra risk, and private equity funds, hedge funds and real estate ventures often use this structure.
+
+A limited liability partnership goes one step further. There is no general partner at all, every partner has limited liability, and the partners share management, often by naming one or more managing partners. Professional service firms such as law and accounting firms commonly use this form. For tax, partnerships are pass through entities. The business itself generally pays no income tax, and each partner pays personal tax on his or her share of the profit, whether or not that profit is actually paid out.
+
+The final form is the limited company, usually called a corporation. Four features define it. First, it is a separate legal entity, so it can sign contracts, borrow, own assets, sue and be sued, and pay tax in its own name. Second, ownership is separate from management, because shareholders elect a board of directors and the board hires and oversees the managers. Third, shareholders have limited liability, so the most a shareholder can lose is what was paid for the shares. Fourth, access to capital is broad, because anyone can become an owner by buying a share, and limited liability makes owners comfortable letting the company borrow.
+
+Many jurisdictions split limited companies into two types. A private limited company usually restricts the number of owners or how freely shares can change hands, and in some places, such as the United States, certain private companies can get pass through tax treatment like a partnership. A public limited company has no such limits on owners or transfers. Here is a vocabulary trap. A public limited company is a legal form, not the same thing as a listed company. It does not have to sell shares on an exchange, but it is the form best suited to doing so.
+
+The main drawback of the corporation is taxation. Its profit is taxed at the company level, and then dividends are taxed again in the hands of shareholders. That is double taxation. Here is the formula, slowly. The amount a shareholder keeps from each dollar of pretax profit equals one minus the corporate tax rate, multiplied by one minus the personal tax rate on dividends.
+
+Now a worked example. A company earns 100 dollars before tax. The corporate tax rate is 20 percent, so the company pays 20 dollars and has 80 left. It pays all 80 out as a dividend, and the shareholder pays 30 percent personal tax on it, which is 24 dollars. The shareholder keeps 56 dollars, so total tax is 44 dollars, a combined rate of 44 percent.
+
+If the same business were a partnership, the 100 dollars would pass straight through and be taxed once at 30 percent, so the owner would keep 70 dollars. Here the corporate form costs 14 dollars. Double taxation bites hardest when the company pays out most of its profit and its owners face high tax rates on dividends. It matters least when the company retains its earnings, which defers the second layer, or when its shareholders are tax exempt.
+
+Now the second half of the module, publicly versus privately owned companies. A public company's shares are listed and traded on an exchange. Its owners get liquidity, because they can sell quickly, and price transparency, because the market sets a visible price every trading day. In return, the company must register its securities with a regulator and publish financial statements and other material information on a regular schedule.
+
+A private company's shares do not trade on an exchange. They are hard to sell and valued only now and then, and disclosure goes mainly to owners and lenders. Owners and managers often overlap, ownership tends to be concentrated, and capital comes from founders, venture capital, private equity, private lenders and private placements. In exchange for less liquidity, private owners face lower reporting costs and less pressure over short term results.
+
+There are three main routes from private to public. The first is an initial public offering, or I P O. The company issues new shares to the public, so it raises capital, and investment banks underwrite the offering, meaning they manage and guarantee the sale. The second is a direct listing. The company simply lists its existing shares, with no underwriter and no new shares, so it raises no new capital, and existing shareholders sell at a price set by the market.
+
+The third route is a merger with a special purpose acquisition company, or S P A C. An S P A C is a shell company, often called a blank check company, that raises cash in its own I P O and then looks for a private company to acquire. When that deal closes, the private company becomes public. Here is the trap. If a question says no capital was raised and no underwriter was used, the answer is a direct listing, not an I P O.
+
+The trip can also run in reverse. In a take private deal, investors buy all of the publicly held shares, usually at a premium to the market price, and delist the company. When the purchase is financed mostly with borrowed money, it is a leveraged buyout, or LBO, and when the existing managers are among the buyers, it is a management buyout.
+
+So here is the core rule of this module once more. As you move from sole proprietor to partnership to corporation, owner liability shrinks and access to capital grows. The corporation pays for that with the separation of ownership from control and, in most places, double taxation of distributed profit.
+
+## Module 21.1, Stakeholders and ESG Factors
+
+Every company is financed by two kinds of investors with very different deals. Lenders hold a contractual claim. They are promised interest and principal on fixed dates, they rank ahead of shareholders, and the interest is owed whether profits are good or bad. Shareholders hold a residual claim. They get whatever is left after employees, suppliers, lenders and the government are paid, and dividends are discretionary, not promised.
+
+Those claims create opposite payoff shapes. A lender's upside is capped at the promised interest and principal, however well the company does. A shareholder's upside has no theoretical limit. On the downside, each can lose at most what it invested, but shareholders absorb losses first, so equity is far more sensitive to the value of the firm.
+
+Here are the payoffs as formulas, for a firm whose debt is coming due. The lender receives the smaller of two amounts, the amount owed or the value of the firm. The shareholders receive the larger of two amounts, zero or the value of the firm minus the amount owed. Add the two payoffs together and you always get the total value of the firm.
+
+From the issuer's side, debt is usually cheaper, because lenders bear less risk and interest is generally tax deductible. But its fixed payments can push a weak company into default, while equity carries no required payments and demands a higher expected return.
+
+A worked example shows where the conflict comes from. A company owes lenders 100 dollars, due in one year. Management can choose a safe project that leaves the firm worth 120 dollars for certain. Or it can choose a risky project that leaves the firm worth either 200 dollars or 40 dollars, each with a 50 percent chance. Both projects have the same expected value, 120 dollars.
+
+Under the safe project, lenders get their 100 and shareholders get 20. Under the risky project, lenders get 100 in the good case but only 40 in the bad case, an expected 70. Shareholders get 100 in the good case and zero in the bad case, an expected 50. So shareholders prefer the risky project, 50 versus 20, and lenders prefer the safe one, 100 versus 70. The firm's total expected value did not change at all. Value simply moved from lenders to shareholders.
+
+Shareholders gain from more risk, more leverage, and bigger dividends or buybacks, especially when those payouts are funded with new borrowing. Lenders lose from all three. Lenders defend themselves with covenants in loan and bond contracts, with collateral, and with higher interest rates when they cannot trust the borrower. The same payoff logic sits behind bank capital planning, where equity capital is the first loss layer that protects depositors and other creditors.
+
+Here is the trap. A tempting wrong answer says shareholders have unlimited downside. They do not, because limited liability caps their loss at what they invested, just as for lenders. The real difference is on the upside.
+
+Now widen the lens. A stakeholder is any person or group with a vested interest in how the company performs. Beyond shareholders and lenders, the main groups are the board of directors, managers, employees, customers, suppliers, governments, and society and the environment more broadly.
+
+Take them one at a time. Private lenders, such as banks, negotiate directly, can usually obtain nonpublic information and can tailor the terms, while public bondholders rely on public disclosures, credit ratings and the bond contract. Shareholders range from controlling holders, who have enough votes to steer the company, to minority holders with little influence. The board is elected by shareholders to oversee management and protect the company's long term interests. Managers want pay, job security, power and prestige, and they know far more about the business than any outsider.
+
+Employees want fair pay, safe conditions and job security, and some also own shares through profit sharing or stock plans. Customers want safe, reliable products at fair prices and protection of their data. Suppliers want to be paid on time and value a lasting relationship, so they care about the buyer's credit quality. Governments want tax revenue, compliance with the law, jobs and economic stability.
+
+Two theories frame how a board should weigh all of these groups. Under shareholder theory, the goal is to maximize shareholder value, and other groups count only to the extent that they affect that value. Under stakeholder theory, the board weighs the interests of all stakeholders, which often makes ESG concerns an explicit objective. Stakeholder theory is broader but harder to run. Goals other than shareholder value are hard to measure, balancing them takes judgment, higher standards carry direct costs, and global competitors may not face the same constraints.
+
+Here is the trap on this point. Shareholder theory does not say other stakeholders are ignored. It says they matter through their effect on shareholder value, and good wages, for example, can lift that value by cutting turnover and raising productivity.
+
+Now the ESG factors themselves. Environmental factors concern the natural world: climate change and carbon emissions, pollution, waste, water use and biodiversity. Social factors concern people and relationships: working conditions, health and safety, human rights in the supply chain, data privacy, product safety and community relations. Governance factors concern how the company is run: board composition and independence, executive pay, shareholder rights, audit quality, bribery and corruption, and political lobbying.
+
+Three ideas connect these factors to value. The first is materiality. A factor is material when it can significantly affect a company's results or business model, and what is material depends on the industry. Carbon emissions are central for a utility, while data privacy matters far more for a software company or a bank. The second idea is that externalities are becoming internal costs. Pollution used to be a cost borne by society, but carbon pricing, regulation, lawsuits and changing demand increasingly push it back onto the firm.
+
+The third idea is that governance is the easiest of the three to measure. Voting rights, board makeup and pay practices are widely disclosed, while environmental and social effects are harder to quantify.
+
+Analysts work ESG into the numbers in a few ways. They adjust forecast cash flows, adjust the discount rate or risk assessment, run scenario analysis, and screen out or underweight companies with poor practices. One more distinction is testable. A serious adverse ESG event usually hits the stock first and hardest, because equity is the residual claim. Bonds fall less, unless the event threatens the company's ability to pay interest and principal.
+
+Maturity matters too. Long dated bonds are more exposed than short dated bonds to slow moving risks, such as stranded assets. Those are assets whose value collapses early because of regulation or a shift in demand. A bond that matures next year will most likely be repaid before that risk arrives.
+
+So here is the rule to carry out of this module. Lenders hold a fixed, capped, senior claim and prefer safety. Shareholders hold a residual, uncapped claim and prefer risk. Both can lose only what they put in.
+
+## Module 22.1, Corporate Governance
+
+Corporate governance is the system of rules, processes and controls that directs a company and balances the interests of its stakeholders. It exists because of the principal agent problem. A principal hires an agent to act on the principal's behalf. Trouble arises when two things are true at once. The agent's interests differ from the principal's, and the agent knows more than the principal can easily check. That second ingredient is called information asymmetry.
+
+In a corporation the chain runs like this. Shareholders are the principals. They elect directors as their agents, and the directors hire managers, who are agents as well. The more information asymmetry outside investors face, the more risk they bear, so shareholders will pay less for the shares and lenders will demand a higher yield. That is how governance shows up directly in the cost of capital.
+
+Start with shareholders versus managers and directors. Five behaviors show up again and again. The first is insufficient effort. The second is self dealing, where managers use company resources for their own benefit, such as excessive perks like personal use of the corporate jet or lavish offices. The third is empire building, which is growth for its own sake, such as acquisitions that make the company bigger but not more valuable, because pay and prestige tend to rise with size. The fourth is entrenchment, where managers and directors act mainly to keep their jobs, by avoiding risk, copying their peers or resisting takeovers, and the fifth is the wrong appetite for risk.
+
+Risk appetite is the most testable of the five, because it cuts both ways. Pay dominated by stock options can push managers to take too much risk, since option holders share fully in a rising share price but are shielded from losses below the exercise price. Pay with little or no equity can make managers too cautious, because their careers are tied to one company, a risk they cannot diversify away. Here is the trap. More equity pay is not automatically better governance. The goal is a balance that ties managers to long term value.
+
+Next, controlling versus minority shareholders. A controlling shareholder can elect the board and steer decisions, sometimes at the expense of minority holders. A classic example is a related party transaction, such as the company buying supplies at an inflated price from another business the controlling holder owns. Control can also exceed ownership through a dual class share structure. One class, usually held by the public, carries one vote per share, while another class, held by founders or insiders, carries several votes per share.
+
+Here is a worked example. A company has 100 shares. The founder holds 20 shares that carry 10 votes each, which is 200 votes. The public holds the other 80 shares at one vote each, which is 80 votes. Voting control equals the founder's votes divided by total votes, so 200 divided by 280, or about 71 percent. The founder owns 20 percent of the economics but controls about 71 percent of the vote.
+
+Two more conflicts complete the list. Shareholders versus creditors is the conflict from the previous module, where more risk, more borrowing and large payouts transfer value from lenders to shareholders. Shareholders versus other stakeholders arises when cutting safety spending, squeezing suppliers or aggressive tax avoidance lifts short term profit at the expense of employees, customers or the public, and often later at the expense of the company itself.
+
+Now the mechanisms, grouped by stakeholder. The foundation is corporate reporting and transparency. Timely, reliable financial statements and disclosure of material events, ownership and executive pay let every group monitor the company.
+
+Shareholders act mainly through general meetings. The annual general meeting typically covers director elections, appointing the external auditor, approving the financial statements and dividends, equity based pay plans, and a vote on executive pay called say on pay, which is advisory in many jurisdictions. An extraordinary general meeting handles matters that cannot wait, such as a merger, a major asset sale, a capital increase, bylaw changes or a voluntary liquidation. Most shareholders never attend and instead vote by proxy, authorizing another party to cast their votes, which is the most common way investors take part.
+
+Shareholder activism is the next tool. Activists, often hedge funds, buy a stake and push for change, usually to raise shareholder value fairly quickly. Their tactics include proxy fights, shareholder proposals, public campaigns and lawsuits. One type is the shareholder derivative lawsuit, which has nothing to do with financial derivatives. A shareholder sues the directors, managers or controlling holders on behalf of the company, because those in charge failed to act in its interest.
+
+The market for corporate control is the final shareholder mechanism. In a proxy contest, a group seeking control of the board asks shareholders to vote for its candidates. In a tender offer, a bidder invites shareholders to sell their shares directly to it. A hostile takeover is any attempt to acquire the company without the consent of management. The threat of being taken over disciplines managers, but boards can blunt that threat with anti takeover defenses, which may entrench management.
+
+Two defenses matter most. A poison pill, formally called a shareholder rights plan, lets shareholders other than the bidder buy extra shares at a discount once the bidder crosses an ownership threshold, which dilutes the bidder and makes a takeover expensive. A staggered board, also called a classified board, elects only a fraction of the directors each year, so no single election can replace the whole board. Suppose a board has 9 seats and 3 come up each year. An activist that wins every contested seat holds 3 seats after one election and 6 after two, so it needs two full election cycles just to reach a majority.
+
+Creditors rely mainly on contracts. The bond indenture or loan agreement sets out the terms, and covenants are its key protections. Affirmative covenants say what the borrower must do, such as maintain insurance or deliver financial statements. Negative covenants say what it must not do, such as borrow beyond a limit, pay dividends above a limit or sell pledged assets. Collateral gives secured lenders a claim on specific assets, and when a borrower is in distress, a group of creditors may form an ad hoc committee to negotiate a restructuring.
+
+The board of directors sits at the center of governance. In a one tier structure, common in the United States and the United Kingdom, a single board includes executive directors, who are managers, and nonexecutive directors, ideally many of them independent of management. In a two tier structure, common in continental Europe and required in some countries such as Germany, a supervisory board oversees a separate management board. Good practice includes a majority of independent directors and separating the chair from the chief executive.
+
+Boards delegate work to committees, and three are considered core. The audit committee oversees financial reporting, internal controls and the internal and external auditors, and it should be independent. The compensation or remuneration committee sets pay for directors and senior executives and should tie it to long term performance. The nominating or governance committee finds and vets board candidates, runs the election process and oversees governance policies such as the code of ethics. Many companies add others, and banks commonly have a board risk committee that approves the risk appetite, including limits on interest rate and liquidity risk.
+
+Here is the trap with committees. The external auditor and accounting policies belong to the audit committee. Governance policies belong to the nominating or governance committee.
+
+Other stakeholders have their own mechanisms. Employees rely on labor laws, employment contracts and unions, and companies align them with owners through profit sharing and share plans. Customers and suppliers rely on contracts, consumer protection law and reputational pressure. Governments act through laws and regulation, and many countries publish corporate governance codes, often on a comply or explain basis, meaning a company either follows each provision or explains publicly why it does not.
+
+Finally, the risks of weak governance and the benefits of strong governance, which fall into three groups. The first group is operational. Weak control systems invite fraud and errors, and poor oversight leads to ineffective decisions, while strong governance improves control and efficiency. The second group is legal, regulatory and reputational. Governance failures bring lawsuits, regulatory penalties, and reputational damage that can cost far more than the fines.
+
+The third group is financial. Weak governance, especially poor management of creditor interests, raises the risk of default and bankruptcy, which hurts not just investors but employees, suppliers and the wider community. Strong governance builds investor confidence, which tends to lower the cost of debt and equity and supports better operating and financial performance. Here is the trap. Good governance mitigates risks such as fraud and helps catch them early, but it cannot eliminate them. It also means more scrutiny and control of decisions, not less.
+
+So here is the rule for this module once more. An agency problem needs two ingredients, different interests and information asymmetry. Every governance mechanism works by aligning interests, improving information, or giving principals the power to act.
+
+## Recall check
+
+Q: A company lists its existing shares on an exchange, uses no underwriter and raises no new money. Which route to going public did it take?
+
+Answer: A direct listing. An I P O issues new shares through an underwriter, so it raises capital. An S P A C deal takes a company public by merging it with a blank check company that already raised cash in its own I P O.
+
+Q: A company earns 100 dollars before tax, pays 25 percent corporate tax, and pays out everything left as a dividend taxed at 20 percent. How much does the shareholder keep?
+
+Answer: 60 dollars. Corporate tax leaves 75 dollars, and the 20 percent dividend tax takes 15 of that. Total tax is 40 dollars, the result of taxing the same profit twice.
+
+Q: A heavily indebted firm replaces a safe project with a riskier one that has the same expected value. Which group most likely gains, and who pays for it?
+
+Answer: Shareholders gain and lenders pay. Shareholders keep all of the upside while their loss is limited to their investment, and lenders take on more default risk with no extra return. Total expected value is unchanged, so value simply moves from lenders to shareholders.
+
+Q: A new regulation could strand a company's main assets in about 10 years but leaves near term cash flow intact. Which is likely to fall the most: its common stock, its bond maturing next year, or its bond maturing in 15 years?
+
+Answer: The common stock. Equity is the residual claim, so it absorbs a loss in firm value first and most. Among the bonds, the 15 year bond is more exposed, because the bond maturing next year will most likely be repaid before the risk arrives.
+
+Q: A staggered board has 12 seats, and 3 come up for election each year. An activist wins every contested seat. How many annual elections does it need to hold a majority?
+
+Answer: Three. After one election it holds 3 seats, after two it holds 6, which is only half, and after three it holds 9. That delay is why staggered boards are viewed as a defense that can entrench management.
+
+Q: A chief executive keeps buying companies that add revenue but destroy value, because pay rises with the size of the company. What conflict is this, and which mechanism most directly addresses it?
+
+Answer: This is empire building, a principal agent conflict between managers and shareholders. The most direct fix is an independent compensation committee that ties pay to value creation, such as long term share performance, rather than to size.
+
+## Recap
+
+Sole proprietors and general partners carry unlimited liability. Limited partners and shareholders can lose only what they invested, and in a limited liability partnership every partner has limited liability. The corporation is a separate legal entity that separates ownership from management and has the broadest access to capital, but its distributed profit is usually taxed twice. An I P O raises new capital through an underwriter, a direct listing raises none and uses no underwriter, and an S P A C is a blank check shell that merges with a private company.
+
+Lenders hold a fixed, capped, senior claim, shareholders hold a residual claim with unlimited upside, and that is why shareholders favor risk and lenders resist it. Shareholder theory puts shareholder value first, while stakeholder theory weighs every group. Material ESG risks hit equity first and long dated debt more than short dated debt. Agency problems need different interests plus information asymmetry. Strong governance uses transparency, shareholder votes, covenants and an independent board with audit, compensation and nominating committees, and it mitigates risk rather than eliminating it.
