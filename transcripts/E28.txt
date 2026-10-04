@@ -1,0 +1,163 @@
+## The big picture
+
+Last episode covered what a bond is and how it comes to market. This episode asks two follow up questions. Who borrows in the bond market, and how do they fund themselves? And once a bond exists, how do you price it?
+
+The first two modules are about issuers. Corporations need short term money for working capital and long term money for growth, and banks need funding every day. Governments borrow nationally, locally, through agencies, and through organizations owned by many countries at once. These modules are mostly vocabulary and comparisons, so expect questions on which funding source fits a situation, which risk a feature controls, or how two markets differ.
+
+The third module is the engine room of fixed income. A bond's price is the present value of its promised cash flows, discounted at the yield the market requires. That one idea gives you premium and discount bonds, the yield to maturity, the price between coupon dates, and five relationships among price, coupon, maturity and yield. Expect calculations, so we will use the B A two plus. Next episode builds on this with yield measures and the yield curve.
+
+## Module 50.1, Fixed-Income Markets for Corporate Issuers
+
+A company needs short term funding because cash goes out for inventory and wages before it comes in from customers. That working capital gap must be financed for weeks or months, from banks or directly from investors in the money market.
+
+Bank lines of credit form a ladder of commitment, from weakest to strongest. First, an uncommitted line. The bank can refuse any request, so the line usually carries no commitment fee, but it tends to vanish in a crisis, exactly when you need it. Second, a committed line, sometimes called a regular line. The bank formally promises to lend up to a limit for a set period, and the borrower pays a commitment fee for that promise. Third, a revolving credit agreement, or revolver, which is a formal multiyear commitment, often with covenants, and the most reliable of the three.
+
+Weaker borrowers often must pledge assets. A secured loan, also called an asset based loan, is backed by collateral such as receivables or inventory. Factoring goes one step further. The company sells its receivables to a lender, called a factor, at a discount, and the factor collects from the customers.
+
+The main non bank source is commercial paper, a short term, unsecured promissory note sold directly to investors such as money market funds. The issuers are mostly large companies and financial institutions with strong credit ratings, because buyers are relying on the issuer's credit alone. In the United States, maturities are typically 270 days or less, which avoids registration with the securities regulator. It is usually sold at a discount to face value, and it often funds working capital or serves as bridge financing until the company issues a long term bond.
+
+Most commercial paper is repaid by issuing new commercial paper, which is called rolling it over. If the market freezes or the issuer is downgraded, it may not be able to roll, and that is rollover risk. So issuers keep backup lines of credit, usually revolvers, that can repay maturing paper if the market shuts, and rating agencies expect to see them. The trap is to think the backup line makes the paper secured. It does not. It simply gives the issuer another source of cash.
+
+Financial institutions fund themselves differently, because borrowing short and lending long is their business. The base is deposits. Checking accounts, also called demand deposits, can be withdrawn at any time and pay little or no interest. Savings accounts and other retail deposits are also stable, especially where deposit insurance protects them.
+
+Beyond deposits, institutions tap wholesale funding. Certificates of deposit lock money in for a fixed term at a fixed rate. Non negotiable certificates charge a penalty for early withdrawal, while large negotiable certificates can be sold to another investor in a secondary market. Banks also lend reserves to each other in the interbank market, often overnight and unsecured, and they can borrow from the central bank.
+
+Deposits are cheap and sticky, while wholesale funds are flexible but more expensive and can vanish quickly in stress. On a bank or credit union balance sheet, that mix of sticky and flighty funding is a core input to every liquidity and funding plan.
+
+Now repurchase agreements. A repo is a short term secured loan structured as a sale. One party sells a security, usually a government bond, and at the same time agrees to buy it back on a set date at a set, higher price. The seller is really borrowing cash, and the security is the collateral. The difference between the repurchase price and the sale price is the interest, and the annualized rate it implies is the repo rate. Seen from the cash lender's side, the same trade is called a reverse repo.
+
+Here is the formula. The repurchase price equals the original sale price, times one plus the repo rate times the number of days divided by 360. For example, a dealer owns a government bond worth 100 million dollars and repos it for 90 days at a repo rate of 4 percent. The lender advances only 98 million dollars. Ninety days is a quarter of a 360 day year, so the interest is 1 percent of 98 million, or 980,000 dollars, and the dealer buys the bond back for 98.98 million dollars.
+
+Why only 98 million against 100 million of collateral? That 2 million cushion is the haircut, also called the repo margin. The haircut equals the collateral value minus the cash lent, divided by the collateral value, which here is 2 percent. The same cushion is sometimes stated as initial margin, the collateral value divided by the cash lent, which here is about 102 percent. If the bond loses value during the trade, the lender can call for more collateral, which is variation margin.
+
+Four factors move the repo rate and the haircut. Better quality, more liquid collateral means a lower rate and a smaller haircut. A longer term usually means a higher rate and a bigger haircut. A stronger borrower gets better terms. And when a particular bond is scarce and in demand, often because short sellers need it, cash lenders accept a lower repo rate to get it, which makes it special collateral.
+
+Dealers use repos to finance bond inventories, and leveraged investors use them to fund positions. Short sellers use reverse repos to borrow the bonds they have sold. Money market funds and corporate treasurers park cash in them, and central banks use them to add or drain reserves.
+
+Repos can be bilateral, directly between two parties, or triparty, where a custodian bank holds and values the collateral and handles the margin. Borrowers get cheaper funding than an unsecured loan, and lenders get a short, collateralized home for cash.
+
+The risks come in five flavors. Default risk is that the counterparty fails to repurchase or repay. Collateral risk is that the collateral loses value, which hurts most when the counterparty is also failing. Margining risk is that margin calls are disputed or not met. Legal risk is that the claim on the collateral is challenged, for example across borders or in a bankruptcy. Netting and settlement risk is that offsetting trades cannot be netted, or that the transfers fail to settle.
+
+Here is the repo trap. The party that sells the security first is the borrower of cash, and the party running a reverse repo is the lender of cash. Also, the haircut protects the cash lender, so riskier collateral or a weaker borrower means a bigger haircut, never a smaller one.
+
+Now long term funding, where the split is investment grade versus high yield. An investment grade issuer can comfortably service its debt from operating cash flow. So most of its yield to maturity, or YTM, is the government benchmark yield, and only a small slice is credit spread. That means its bond prices move mainly with government rates.
+
+Investment grade companies mostly issue senior unsecured, fixed rate bonds. They can reach the whole maturity spectrum, from a few years out to 30 years or more, and frequent issuers spread their maturities so only a manageable amount comes due in any one year. Covenants are relatively light, and call features, when present, are often make whole calls, which cost the issuer enough to protect investors.
+
+High yield issuers have a meaningfully higher chance of financial distress. A larger share of their YTM is issuer specific spread, so their bond prices react more to company news and default risk than to government yields, behaving more like equity. Their capital structures are layered. Secured bank loans, often floating rate and prepayable, sit at the top. Below them come secured bonds, senior unsecured bonds and subordinated debt.
+
+High yield bonds usually have shorter maturities, commonly 10 years or less. They carry tighter covenants that limit new debt, dividends, asset sales and liens for other lenders. And they are typically callable after a short protection period, at a price that starts above par and steps down. For example, an 8 year bond might be non callable for its first 3 years. Issuers want that option so they can refinance at a lower spread if their credit improves. Investors, for their part, focus on seniority, collateral and expected recovery.
+
+Here is the trap. Because high yield prices are driven by credit, do not assume a high yield bond rallies just because government yields fell. When you see secured bank loans, floating rates, tight covenants and short call protection in one capital structure, think high yield.
+
+The rule to carry from this module. The repurchase price equals the sale price, times one plus the repo rate times days divided by 360. And the haircut equals the collateral value minus the cash lent, divided by the collateral value.
+
+## Module 51.1, Fixed-Income Markets for Government Issuers
+
+Governments borrow for three reasons. Spending and tax receipts do not line up in time, budgets often run deficits, and maturing debt must be refinanced. A large, regular government bond market also gives everyone else a benchmark curve to price against.
+
+Start with sovereigns, meaning national governments. A sovereign that borrows in its own currency can raise taxes and, through its central bank, create that currency. So developed market sovereign debt in local currency is treated as essentially free of default risk, and the real risks shift to inflation and interest rates. Foreign currency borrowing is different. A government cannot print another country's currency, so its foreign currency debt carries more default risk, and that rating is usually no higher than its local currency rating. Emerging market sovereigns often accept that risk to reach a wider pool of investors.
+
+Sovereigns issue across the curve, from discount bills of a year or less, through coupon notes, to bonds of 30 years or more, plus floating rate and inflation linked bonds. They issue on a regular, preannounced calendar, in large sizes, mostly by auction. Primary dealers, a group of banks committed to bidding at auctions and making markets, buy much of each issue.
+
+At the auction, competitive bidders state the yield they want and the amount. The government accepts bids from the lowest yield upward until the issue is filled. Noncompetitive bidders, usually smaller investors, state only an amount and accept whatever yield the auction sets. In a single price auction, every winning bidder pays the same price, the one implied by the highest accepted yield, called the clearing or stop out yield. In a multiple price auction, each winner pays the price implied by its own bid.
+
+Say a government sells 50 billion dollars of bonds. It receives 20 billion of bids at 3.90 percent, 20 billion at 3.95 percent and 20 billion at 4.00 percent. The first two groups fill 40 billion, and the last 10 billion comes from the 4.00 percent bids, which get half of what they asked for. In a single price auction, every winner pays the price at a 4.00 percent yield. In a multiple price auction, the 3.90 percent bidders pay more, because a lower yield means a higher price.
+
+Here is the trap. The lowest yield bid is the most aggressive bid, not the cheapest one. In a single price auction, aggressive bidders still pay the clearing price, so bidding low to make sure you win carries little penalty.
+
+The most recently issued bond at each maturity is called on the run. It is the most liquid, it serves as the benchmark, and it usually trades at a slightly lower yield than older, off the run bonds of similar maturity. Government bonds trade over the counter through dealers, in heavy volume, with very narrow bid offer spreads.
+
+Corporates are different. They issue when they need money, not on a calendar. They mostly use underwritten offerings or private placements arranged by investment banks, and one issuer may have many smaller, more varied bonds outstanding. Corporate bonds also trade over the counter, but far less often and with wider bid offer spreads. Many go days without a trade, which is why the next module needs matrix pricing.
+
+Below the sovereign sit non sovereign governments, meaning states, provinces and cities. They can tax but cannot print money, so they carry more credit risk than their sovereign. General obligation bonds are backed by the issuer's general taxing power. Revenue bonds are backed only by the cash flows of a specific project, such as a toll road, an airport or a water system, so they usually carry more risk than the same issuer's general obligation bonds. In the United States, interest on many municipal bonds is exempt from federal income tax, which lets them pay lower yields.
+
+Quasi government entities, also called agencies, are created or sponsored by governments for public purposes such as housing finance or development lending. Their debt may carry an explicit guarantee or only an implied one, and it usually yields a little more than the sovereign, partly because it is less liquid.
+
+Supranational organizations are owned by several member governments. Examples are the World Bank and the regional development banks. They issue in many currencies, and their bonds are often rated triple A, supported by capital commitments from member countries and conservative lending.
+
+The broader trap is assuming every government bond is free of credit risk. Only local currency debt of a strong sovereign plays that role. Foreign currency sovereign debt, local government debt and especially revenue bonds all carry credit risk.
+
+The rule to carry. In a single price auction, every winner pays the price at the clearing yield, while in a multiple price auction, each winner pays its own bid.
+
+## Module 52.1, Fixed-Income Bond Valuation: Prices and Yields
+
+A bond is a set of promised cash flows, the coupons and then the principal. Its price is the present value of those cash flows, discounted at the market discount rate, which is the return investors currently require for a bond of that risk.
+
+Here is the formula, slowly. The bond price equals the coupon divided by one plus r, plus the coupon divided by one plus r, squared, and so on for each period. In the final period, you discount the last coupon plus the principal by one plus r, raised to the power N. Here, r is the market discount rate per period, and N is the number of periods to maturity. With semiannual coupons, r is half the annual rate, N is twice the years, and each coupon is half the annual coupon.
+
+Now compare the coupon with the market rate. Take a 3 year bond paying a 5 percent annual coupon on 100 par. If the market discount rate is also 5 percent, the price is exactly 100, which is par. If the market rate rises above the coupon, investors want more than the coupon gives, so the price falls below par, a discount. If the market rate falls below the coupon, the price rises above par, a premium.
+
+Run it backward and you get the yield to maturity. When you know the price, the YTM is the single discount rate that makes the present value of the cash flows equal that price. It is the bond's internal rate of return. It equals the return you actually earn only under three assumptions. You hold to maturity, the issuer pays every cash flow in full and on time, and you reinvest every coupon at that same YTM.
+
+On the B A two plus, use the time value of money keys. First, set P Y to 1. Press second, then I Y, type 1 and press enter, and C Y follows to 1. Press second, then C P T, to quit. Check that no B G N indicator shows, because bond coupons are paid at the end of each period. Then clear the worksheet with second, then F V, which is clear T V M.
+
+Now price a 5 year bond with a 6 percent annual coupon at a YTM of 5 percent. Enter 5 and press N, then 5 and press I Y. Enter 6 and press P M T, and 100 and press F V. Then press C P T, then P V. The display shows negative 104.33, negative because it is the price you pay, and a premium because the coupon is above the yield.
+
+To go from price to yield, keep N, P M T and F V. Enter 104.33, press the plus minus key to make it negative, and press P V. Then press C P T, then I Y, and the display shows 5, meaning 5 percent. If you forget the minus sign, the calculator returns an error, because it cannot find a rate when every cash flow has the same sign.
+
+For a semiannual bond, convert everything to periods. A 10 year bond with a 6 percent coupon paid semiannually, at an 8 percent YTM, uses N of 20, I Y of 4, P M T of 3 and F V of 100. Compute P V and the display shows negative 86.41. The trap is mixing annual inputs with semiannual periods.
+
+Real trades settle between coupon dates, and that creates three numbers. The full price is the present value of the future cash flows as of the settlement date. You get it in two steps. First, price the bond as of the last coupon date. Second, carry that value forward for the fraction of the period that has passed.
+
+In words, the full price equals the price at the last coupon date, found at today's yield, times one plus r, raised to the power t divided by T. Here, r is the periodic market rate, t is the number of days from the last coupon to settlement, and T is the number of days in the coupon period. Government bonds usually use actual over actual, which counts real calendar days, while corporate bonds usually use 30 over 360, which treats every month as 30 days.
+
+The seller held the bond for part of the period and has earned part of the next coupon. That share is accrued interest, and it equals t divided by T, times the coupon payment. The flat price equals the full price minus accrued interest. Dealers quote the flat price, also called the clean price, because it does not jump on coupon dates. The buyer pays the full price, also called the dirty or invoice price, so the seller receives its accrued interest at settlement.
+
+Take a corporate bond paying a 6 percent coupon semiannually, 3 dollars per period on 100 par. Its YTM is also 6 percent, so it was worth exactly 100 at the last coupon date. Settlement is 90 days into a 180 day period, so t divided by T is one half. The full price is 100 times 1.03 raised to the power one half, about 101.49. Accrued interest is half of the 3 dollar coupon, or 1.50, so the flat price is about 99.99. On the B A two plus, enter 1.03, press the y to the x key, enter 0.5, press equals, and multiply by 100.
+
+Notice that the flat price sits a hair below par, even though the yield equals the coupon. That happens because accrued interest grows in a straight line, while the full price compounds. Here is the bigger trap. Accrued interest uses the coupon, never the yield, and the discounting uses the yield, never the coupon.
+
+Now the five relationships among price, coupon, maturity and yield. First, the inverse effect. Price and yield move in opposite directions, because fixed cash flows are worth less at a higher discount rate.
+
+Second, the convexity effect. For an ordinary option free bond and the same size change in yield, the price rises more when the yield falls than it drops when the yield rises. Take a 20 year, 5 percent annual coupon bond priced at par. If its yield rises to 6 percent, its price falls to about 88.53, a loss of about 11.5 percent. If its yield falls to 4 percent, its price rises to about 113.59, a gain of about 13.6 percent.
+
+Third, the coupon effect. For the same maturity and the same starting yield, a lower coupon bond has a larger percentage price change, because more of its value sits in the distant principal. A zero coupon bond is the most sensitive of all for its maturity.
+
+Fourth, the maturity effect. For the same coupon and starting yield, a longer bond generally has a larger percentage price change. In the same move to 6 percent, a 5 year, 5 percent bond falls only about 4.2 percent, against 11.5 percent for the 20 year. The word generally covers rare exceptions among very long, deep discount bonds.
+
+Fifth, the constant yield price trajectory. If the yield stays the same, a bond's price moves toward par as it ages, which is often called pull to par. The 5 year, 6 percent bond priced at 104.33 at a 5 percent yield is worth about 103.55 one year later, then 102.72, 101.86 and 100.95, and 100 at maturity. A discount bond climbs toward par the same way.
+
+Here is the trap. A premium bond's falling price is not a loss of return. The above market coupons make up for it, and the investor still earns the 5 percent yield.
+
+Last, matrix pricing. Many bonds, such as thinly traded corporates and private placements, rarely trade or never do. To estimate a price, you borrow yields from comparable bonds that do trade, with the same credit quality and similar coupons and maturities. Then you interpolate between them and price the target bond at the result.
+
+The interpolation, in words. The estimated yield equals the shorter bond's yield, plus a fraction of the yield gap. That fraction equals the target maturity minus the shorter maturity, divided by the longer maturity minus the shorter maturity. The yield gap is the longer bond's yield minus the shorter bond's yield.
+
+Say you need a price for a 4 year, 5 percent annual coupon bond rated single A that has not traded. Single A bonds yield 4 percent at 3 years and 5 percent at 5 years. Four years is halfway between, so the estimated yield is 4.5 percent. Price the bond at that yield, with N of 4, I Y of 4.5, P M T of 5 and F V of 100, and you get about 101.79, a small premium because the coupon is above the yield.
+
+Underwriters use the same idea to estimate the yield a new issue will need, from the spreads at which comparable bonds trade. Here is the trap. Interpolate yields, not prices. Comparable bonds have different coupons, so averaging their prices gives nonsense. Get the yield first, then discount the target bond's own cash flows.
+
+The rule to carry from this module. A bond's price is the present value of its cash flows at the market discount rate, so a coupon above the yield means a premium and a coupon below the yield means a discount. And the full price equals the flat price plus accrued interest.
+
+## Recall check
+
+Q: A company funds its working capital with commercial paper and keeps a multiyear revolving credit agreement in place. What risk does the revolver mainly address?
+
+Answer: Rollover risk. Commercial paper is usually repaid by issuing new paper, and if that market shuts or the issuer is downgraded, the revolver provides the cash instead. It does not make the commercial paper secured.
+
+Q: In a repurchase agreement, which change would most likely reduce the haircut: a longer term, lower quality collateral, or a more creditworthy borrower?
+
+Answer: A more creditworthy borrower. The haircut protects the cash lender, so a stronger counterparty needs less of a cushion. A longer term and weaker collateral both tend to increase the haircut.
+
+Q: In a single price auction, one dealer wins with a bid at the lowest accepted yield. Compared with a dealer that won at the highest accepted yield, what price does it pay?
+
+Answer: The same price. In a single price auction, every winner pays the price implied by the clearing yield. In a multiple price auction, that dealer would pay its own, higher price.
+
+Q: Two 10 year annual coupon bonds both yield 5 percent. One pays a 2 percent coupon and the other an 8 percent coupon. If yields rise by 50 basis points, which is most likely to fall more in percentage terms?
+
+Answer: The 2 percent coupon bond. Lower coupon bonds have more of their value in the distant principal, so they are more sensitive to yield changes. Here it falls about 4.2 percent, against about 3.5 percent for the 8 percent coupon bond.
+
+Q: A corporate bond pays a 6 percent annual coupon on 100 par and uses 30 over 360. Settlement is 4 months after the last coupon. What is the accrued interest, and which price does the buyer pay?
+
+Answer: 2 dollars per 100 of par. Four months is 120 of 360 days, one third of the period, and one third of the 6 dollar coupon is 2. The buyer pays the full price, which is the quoted flat price plus that 2 dollars of accrued interest.
+
+Q: An illiquid 5 year bond needs a price. Comparable bonds yield 3 percent at 2 years and 5 percent at 6 years. What yield does linear interpolation give?
+
+Answer: 4.5 percent. Five years is three quarters of the way from 2 years to 6 years, and three quarters of the 2 point yield gap is 1.5 points, added to 3 percent.
+
+## Recap
+
+Corporations fund short term needs with bank lines, from uncommitted to committed to revolvers, plus secured loans, factoring and commercial paper, whose rollover risk is managed with backup lines. Financial institutions rely on sticky deposits and on flexible but flighty wholesale funding. A repo is a secured loan structured as a sale and repurchase, the repurchase price equals the sale price times one plus the repo rate times days divided by 360, and the haircut protects the cash lender. Investment grade issuers borrow unsecured at fixed rates across all maturities, while high yield issuers layer secured loans, tighter covenants, shorter maturities and early call options.
+
+Local currency debt of a strong sovereign is the benchmark, while foreign currency, local government and revenue bonds carry credit risk. In a single price auction every winner pays the clearing price, and in a multiple price auction each pays its own bid. A bond's price is its cash flows discounted at the market rate, a coupon above the yield means a premium, and the full price equals the flat price plus accrued interest, which uses the coupon. Lower coupons and longer maturities raise price sensitivity, convexity makes gains exceed losses for equal yield moves, prices pull to par at a constant yield, and matrix pricing interpolates yields from comparable bonds, never prices.

@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 05:43:31 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 06:02:37 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -474,6 +474,40 @@
     <itunes:duration>1931</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E27.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E28 Corporate and Government Bond Markets, and Bond Pricing</title>
+    <itunes:title>Corporate and Government Bond Markets, and Bond Pricing</itunes:title>
+    <itunes:episode>28</itunes:episode>
+    <itunes:season>6</itunes:season>
+    <podcast:season name="Fixed Income">6</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Fixed Income, Kaplan Modules 50.1 to 52.1. 50.1 Fixed-Income Markets for Corporate Issuers, 51.1 Fixed-Income Markets for Government Issuers, 52.1 Fixed-Income Bond Valuation: Prices and Yields</description>
+    <itunes:summary>Fixed Income, Kaplan Modules 50.1 to 52.1. 50.1 Fixed-Income Markets for Corporate Issuers, 51.1 Fixed-Income Markets for Government Issuers, 52.1 Fixed-Income Bond Valuation: Prices and Yields</itunes:summary>
+    <content:encoded><![CDATA[<p>Fixed Income, Kaplan Modules 50.1 to 52.1.</p><ul><li>Module 50.1, Fixed-Income Markets for Corporate Issuers</li><li>Module 51.1, Fixed-Income Markets for Government Issuers</li><li>Module 52.1, Fixed-Income Bond Valuation: Prices and Yields</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:12 The big picture</li><li>1:23 Module 50.1, Fixed-Income Markets for Corporate Issuers</li><li>11:02 Module 51.1, Fixed-Income Markets for Government Issuers</li><li>16:24 Module 52.1, Fixed-Income Bond Valuation: Prices and Yields</li><li>26:29 Recall check</li><li>29:40 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E28.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E28_v2.mp3" length="9407165" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e28</guid>
+    <pubDate>Sat, 03 Oct 2026 12:28:00 -0500</pubDate>
+    <itunes:duration>1881</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E28.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E29 Yield Measures and the Term Structure</title>
+    <itunes:title>Yield Measures and the Term Structure</itunes:title>
+    <itunes:episode>29</itunes:episode>
+    <itunes:season>6</itunes:season>
+    <podcast:season name="Fixed Income">6</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Fixed Income, Kaplan Modules 53.1 to 55.1. 53.1 Yield and Yield Spread Measures for Fixed-Rate Bonds, 54.1 Yield and Yield Spread Measures for Floating-Rate Instruments, 55.1 The Term Structure of Interest Rates: Spot, Par, and Forward Curves</description>
+    <itunes:summary>Fixed Income, Kaplan Modules 53.1 to 55.1. 53.1 Yield and Yield Spread Measures for Fixed-Rate Bonds, 54.1 Yield and Yield Spread Measures for Floating-Rate Instruments, 55.1 The Term Structure of Interest Rates: Spot, Par, and Forward Curves</itunes:summary>
+    <content:encoded><![CDATA[<p>Fixed Income, Kaplan Modules 53.1 to 55.1.</p><ul><li>Module 53.1, Yield and Yield Spread Measures for Fixed-Rate Bonds</li><li>Module 54.1, Yield and Yield Spread Measures for Floating-Rate Instruments</li><li>Module 55.1, The Term Structure of Interest Rates: Spot, Par, and Forward Curves</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>1:23 Module 53.1, Yield and Yield Spread Measures for Fixed-Rate Bonds</li><li>10:27 Module 54.1, Yield and Yield Spread Measures for Floating-Rate Instruments</li><li>16:05 Module 55.1, The Term Structure of Interest Rates: Spot, Par, and Forward Curves</li><li>24:36 Recall check</li><li>28:02 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E29.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E29_v2.mp3" length="8861316" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e29</guid>
+    <pubDate>Sat, 03 Oct 2026 12:29:00 -0500</pubDate>
+    <itunes:duration>1772</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E29.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>

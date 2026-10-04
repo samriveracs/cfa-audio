@@ -1,0 +1,145 @@
+## The big picture
+
+The last episode priced a bond from a single yield. This episode asks what that yield really means, how to compare yields that are quoted in different ways, and why one yield is not enough. The first covers yields and spreads for fixed rate bonds. The second covers floating rate notes and money market instruments, where quoting conventions are the whole game. The third replaces the single yield with a curve of spot rates, par rates and forward rates.
+
+One idea connects all three. Every yield is a benchmark rate plus a spread. The benchmark reflects economy wide forces such as expected inflation and central bank policy. The spread reflects what is special about this issuer and this bond, mainly credit risk, liquidity and sometimes taxes. Once you see yields this way, many exam questions become questions about which benchmark and which spread.
+
+Expect three kinds of questions. First, conversions between compounding frequencies and between money market quoting bases. Second, comparisons among spread measures, and between quoted margin and discount margin. Third, curve math with spot, par and forward rates.
+
+## Module 53.1, Yield and Yield Spread Measures for Fixed-Rate Bonds
+
+A bond yields 4 percent. Compounded how often? A stated annual rate means little until you know its periodicity, the number of compounding periods in a year. A yield on a semiannual coupon bond is usually quoted as the semiannual rate times 2, which is called a semiannual bond basis yield.
+
+To compare yields with different periodicities, convert them so they produce the same effective annual return. Here is the rule. One plus the annual rate for m periods divided by m, raised to the power m, equals one plus the annual rate for n periods divided by n, raised to the power n. In plain terms, both rates must grow one dollar into the same amount over a year.
+
+Try it with round numbers. A yield of 4 percent with quarterly compounding means 1 percent per quarter. Two quarters at 1 percent grow one dollar to 1.0201, so the semiannual rate is 2.01 percent, and the semiannual bond basis yield is 4.02 percent. Four quarters grow one dollar to about 1.0406, so the effective annual rate is about 4.06 percent.
+
+Here is the trap. Candidates often think more frequent compounding always means a higher yield. That is true of the effective return for a given stated rate. But when the investment is fixed and only the quote changes, more frequent compounding needs a lower stated rate. So converting from semiannual to monthly lowers the number, and converting from quarterly to annual raises it.
+
+On the B A two plus, the interest conversion worksheet does this. Press second, then the 2 key, which opens the worksheet labeled I conv. The first line is N O M, the nominal annual rate. Key in 4 and press enter. Arrow down twice to C Y, key in 4 and press enter.
+
+Arrow up once to E F F and press C P T. The display shows about 4.06, the effective annual rate. Now arrow down to C Y, key in 2 and press enter. Arrow up twice to N O M and press C P T. The display shows 4.02, the semiannual bond basis yield.
+
+Two quoting details come next. A street convention yield assumes every payment arrives on its scheduled date, even a weekend or holiday. A true yield uses the actual calendar, so it is never higher than the street convention yield and is usually slightly lower. A government equivalent yield restates a yield computed with 30 day months and a 360 day year onto the actual day count used for government bonds, so the two compare fairly.
+
+Now two simple yield measures that ignore time value. The current yield equals the annual coupon divided by the flat price. A bond with a 6 dollar annual coupon trading at 96 has a current yield of 6.25 percent. The current yield ignores the gain as the price pulls up to par, and it ignores reinvestment. The simple yield fixes the first problem. It equals the annual coupon plus the straight line amortization of a discount, or minus the amortization of a premium, all divided by the flat price.
+
+Take the same bond with 4 years left. The 4 dollar discount, spread evenly over 4 years, adds 1 dollar a year. So the simple yield is 6 plus 1, or 7, divided by 96, which is about 7.29 percent. Simple yield is a convention used mainly for Japanese government bonds. On the exam, remember that both measures divide by the flat price, not the full price and not par.
+
+Now callable bonds. The issuer can redeem a callable bond early, so you can compute a yield to each possible call date as well as the yield to maturity. The yield to first call uses the first call date as the end date and the first call price as the final cash flow. The yield to worst is the lowest of the yield to maturity and all the yields to call. It is the conservative quote, assuming the issuer acts in its own interest.
+
+Here is a worked case. A bond pays a 6 dollar annual coupon, matures in 5 years, trades at 104, and is callable in 2 years at 102. On the B A two plus, clear the time value of money worksheet by pressing second, then F V. Set P Y to 1 by pressing second, then I Y, keying 1 and pressing enter, which also sets C Y to 1. Quit with second, then C P T. Enter N as 2, P M T as 6, F V as 102, and P V as negative 104, by keying 104, pressing the plus minus key, then P V.
+
+Press C P T, then I Y. The display shows about 4.83, the yield to first call. Now change N to 5 and F V to 100, and compute I Y again. The display shows about 5.07, the yield to maturity. The yield to worst is the lower number, 4.83 percent. With semiannual coupons you would enter half year periods and half year coupons, then double the computed rate.
+
+The trap is relying on the yield to maturity for a callable bond trading at a premium. A premium usually means rates have fallen, which makes a call attractive to the issuer, so the yield to call is the more realistic expectation.
+
+The option adjusted yield goes further. Start from the bond's flat price and add the value of the embedded call, which gives the price of an otherwise identical bond with no option. Then compute the yield from that higher price. The result, the option adjusted yield, is lower than the callable bond's yield to maturity, because the extra yield that paid you for the call has been stripped out.
+
+Now spreads. A yield spread, or benchmark spread, is the bond's yield minus a benchmark yield. The G spread uses a government bond yield as the benchmark, either an actual government bond of the same maturity or a yield interpolated between two of them. The I spread uses the swap rate for that maturity, interpolated if needed. Swap rates are tied to a market reference rate such as SOFR, the secured overnight financing rate.
+
+Interpolation is a common calculation. Say the 2 year government yield is 3 percent and the 4 year is 4 percent. A corporate bond with 3 years left yields 5.1 percent. Three years sits halfway between, so the interpolated benchmark is 3.5 percent. The G spread is 5.1 minus 3.5, which is 1.6 percentage points, or 160 basis points.
+
+Spreads also drive matrix pricing. To value a bond that rarely trades, add a spread estimated from comparable bonds to the interpolated benchmark, and discount the cash flows at that yield.
+
+The G spread and the I spread share a weakness. Each compares one yield to maturity with one benchmark yield, which quietly assumes a flat curve. The Z spread, short for zero volatility spread, fixes this. A spot rate, covered later in this episode, is the yield on a zero coupon bond for one date. The Z spread is the single constant spread that, added to every government spot rate along the curve, makes the present value of the bond's cash flows equal its price.
+
+Spoken as a formula, the price equals the sum of each cash flow divided by one plus the government spot rate for that date plus the Z spread, raised to the number of periods until that cash flow. For bonds with embedded options, take one more step. The option adjusted spread, or OAS, equals the Z spread minus the value of the option expressed in basis points per year. For a callable bond, the investor has sold a call, so part of the Z spread is really payment for that call. Take it out, and the OAS is smaller than the Z spread.
+
+For a putable bond the logic flips. The investor owns the put and pays for it by accepting a lower yield, so the OAS is larger than the Z spread. Here is the trap. Two bonds with the same Z spread are not equally attractive if one of them is callable. The callable bond's OAS is lower, so it pays you less for credit and liquidity risk. Compare bonds with options on OAS.
+
+The rule to keep from this module is simple. A yield is a benchmark plus a spread. Put yields on the same compounding basis before you compare them, then pick the spread that fits the bond. Use the G spread or I spread for a quick comparison, the Z spread when the curve is not flat, and the OAS when there is an embedded option.
+
+## Module 54.1, Yield and Yield Spread Measures for Floating-Rate Instruments
+
+A floating rate note pays a coupon that resets with a market reference rate, such as SOFR, plus a fixed spread called the quoted margin. The quoted margin is set at issue to compensate investors for the issuer's credit risk as it looked on that day. Because the coupon tracks market rates, a floater's price stays close to par, and most of its interest rate risk disappears. What remains is the risk that the spread investors require changes.
+
+That required spread is called the discount margin, or required margin. It is the spread over the reference rate that investors demand today. Three cases matter, and they are heavily tested. If the discount margin equals the quoted margin, the floater prices at par on a reset date. If the discount margin is higher than the quoted margin, usually because the issuer's credit has weakened, the floater pays too little and trades at a discount. If the discount margin is lower than the quoted margin, the floater trades at a premium.
+
+The pricing model treats the floater like a fixed rate bond, with one simplification. It assumes the reference rate stays at today's level for the life of the note. The coupon per period equals the reference rate plus the quoted margin, divided by the number of periods per year, times par. The discount rate per period equals the reference rate plus the discount margin, divided by the number of periods per year. Discount each coupon and the final par value at that rate, and add them up.
+
+Take a 2 year floater that pays quarterly. The reference rate is 4 percent, the quoted margin is 100 basis points, and the issuer's credit has slipped, so the discount margin is now 120 basis points. The quarterly coupon is 4 percent plus 1 percent, or 5 percent, divided by 4, which is 1.25 per 100 of par. The quarterly discount rate is 4 percent plus 1.2 percent, or 5.2 percent, divided by 4, which is 1.3 percent.
+
+On the B A two plus, clear the time value of money worksheet and keep P Y at 1. Enter N as 8, I Y as 1.3, P M T as 1.25, and F V as 100. Press C P T, then P V. The display shows about negative 99.62. The floater trades about 0.38 per 100 of face value below par, because it pays 20 basis points less than the market now requires.
+
+The same logic applies to floating rate loans and deposits on a bank or credit union balance sheet. The rate resets, so repricing risk is small, but the spread is locked until maturity, so spread risk remains.
+
+Now money market instruments, which are debt with a year or less to maturity. Their rates are simple interest, without compounding, quoted on one of two bases.
+
+A discount basis is used for instruments that are issued below face value and repay face value, such as Treasury bills, commercial paper and bankers' acceptances. To get the price, multiply the discount rate by the days to maturity divided by the days in the year, subtract that from one, and multiply by face value. Put the other way, the discount rate equals the days in the year divided by the days to maturity, times the dollar discount divided by face value.
+
+An add on basis is used for instruments where interest is added to the principal at maturity, such as bank certificates of deposit, repurchase agreements and the reference rates themselves. To get the price, multiply the add on rate by the days to maturity divided by the days in the year, add one, and divide the amount repaid at maturity by that. Put the other way, the add on rate equals the days in the year divided by the days to maturity, times the interest earned divided by the price paid.
+
+Take a 180 day Treasury bill. It has a discount rate of 4 percent on a 360 day year. Half a year at 4 percent is a discount of 2 percent of face, so the price is 98 per 100 of face. As an add on rate, you earn 2 dollars on 98 dollars invested for 180 days, about 2.04 percent, which annualizes to about 4.08 percent on a 360 day year. On a 365 day year, the add on rate is about 4.14 percent. That 365 day add on rate is called the bond equivalent yield.
+
+Here is the trap. A discount rate understates the investor's return for two reasons. It divides the discount by face value instead of by the lower price actually paid, and it usually annualizes using a 360 day year. So with the same day count, a 4 percent discount rate and a 4 percent add on rate are not the same return, and the add on instrument pays less. To compare money market instruments, put them on the same basis and the same day count first.
+
+The rule from this module has two parts. A floater trades at par when the discount margin equals the quoted margin, at a discount when the discount margin is higher, and at a premium when it is lower. For money market rates, a discount rate understates return, so convert before you compare.
+
+## Module 55.1, The Term Structure of Interest Rates: Spot, Par, and Forward Curves
+
+So far each bond has had one yield. But a 3 year bond's cash flows arrive on three different dates, and money for different dates has different prices. The term structure handles this by giving each date its own rate. There are three ways to state that curve, as spot rates, par rates or forward rates, and they all carry the same information.
+
+A spot rate is the yield on a zero coupon bond for one specific maturity. The 2 year spot rate is the rate for money paid once, 2 years from today, with nothing in between. Plotting spot rates against maturity gives the spot curve, also called the zero curve. Spot rates are usually taken from government securities, so the spot curve serves as the default free benchmark.
+
+To price a bond with spot rates, discount each cash flow at the spot rate for its own date. The price equals the first cash flow divided by one plus the 1 year spot rate, plus the second cash flow divided by one plus the 2 year spot rate, squared, and so on to the last cash flow. This gives the no arbitrage price. If the bond sold for anything else, you could trade it against a package of zero coupon bonds and lock in a profit.
+
+Use one simple curve for the rest of this section. The 1 year spot rate is 2 percent, the 2 year is 3 percent, and the 3 year is 4 percent. Price a 3 year bond with a 5 percent annual coupon. The first 5 dollars, discounted at 2 percent, is worth about 4.90. The second 5 dollars, discounted 2 years at 3 percent, is about 4.71. The final 105 dollars, discounted 3 years at 4 percent, is about 93.34, so the price is about 102.96.
+
+This bond's yield to maturity is about 3.93 percent, which shows a key idea. A coupon bond's yield to maturity is a blend of the spot rates for its cash flow dates, weighted toward the dates that carry the most value. Here most of the value arrives in year 3, so the yield sits close to the 4 percent 3 year spot rate, but a little below it.
+
+This creates a trap called the coupon effect. On an upward sloping spot curve, a higher coupon bond gets more of its value early, at lower spot rates, so its yield to maturity is lower than that of a lower coupon bond with the same maturity. On our curve, a 3 year zero yields exactly 4 percent, and a 10 percent coupon bond yields about 3.88 percent.
+
+Next, par rates. A par rate is the coupon rate that would make a bond price exactly at par, given the spot curve. The discount factor for a date equals one divided by one plus the spot rate for that date, raised to the number of years. The par rate equals one minus the final discount factor, divided by the sum of all the discount factors up to that maturity.
+
+Plotting par rates by maturity gives the par curve. On our spot curve, the 1 year par rate is 2 percent, the same as the spot rate. The 2 year par rate is about 2.99 percent, and the 3 year par rate is about 3.95 percent. Each is slightly below the matching spot rate, because a par bond's coupons arrive early, at the lower short rates.
+
+You can also run the process in reverse. Starting from par rates, you solve for spot rates one maturity at a time, which is called bootstrapping. Say the 1 year par rate is 2 percent and the 2 year par rate is 3 percent. The 1 year spot rate is simply 2 percent. A 2 year par bond pays 3 dollars in year 1, worth about 2.94 today at 2 percent, so the remaining 97.06 of its 100 dollar price must be the value of the 103 dollars paid in year 2. Solving gives a 2 year spot rate of about 3.02 percent.
+
+Now forward rates. A forward rate is an interest rate, agreed today, for a loan that starts on a future date. The notation names the start first and the length second. The 1 y 1 y rate is a 1 year rate starting 1 year from now. The 2 y 1 y rate is a 1 year rate starting 2 years from now, and the 1 y 2 y rate is a 2 year rate starting 1 year from now. Mixing up the start and the length is a common exam mistake.
+
+Forward rates implied by the spot curve come from a no arbitrage argument. Investing for 2 years at the 2 year spot rate must give the same result as investing for 1 year at the 1 year spot rate and then rolling over at the 1 y 1 y forward rate. As a formula, one plus the 2 year spot rate, squared, equals one plus the 1 year spot rate, times one plus the 1 y 1 y forward rate. More generally, one plus the longer spot rate raised to its number of years equals one plus the shorter spot rate raised to its number of years, times one plus the forward rate raised to the number of years between them.
+
+On our curve, one plus the 2 year spot rate, squared, is 1.0609. Divide by 1.02 and subtract one, and the 1 y 1 y forward rate is about 4.01 percent. The same steps give a 2 y 1 y rate of about 6.03 percent and a 1 y 2 y rate of about 5.01 percent per year. There is a fast approximation for checking answers. Multiply each spot rate by its years, subtract the shorter from the longer, and divide by the difference in years. For 2 y 1 y that is 3 times 4, minus 2 times 3, divided by 1, which is about 6 percent.
+
+Think of a forward rate as a breakeven rate. If you buy the 2 year zero, you earn 3 percent a year. If you buy the 1 year zero and roll it over, you need 4.01 percent in year 2 to do as well. If you expect a higher rate than that, rolling short looks better. In capital planning and funding work, the forward curve often serves as the market implied baseline path for rates when projecting future funding costs. But a forward rate is a breakeven, not a promise about where rates will go.
+
+The relationship also runs the other way. A spot rate is a geometric average of the 1 year spot rate and the forward rates that follow it. One plus the 2 year spot rate equals the square root of the product of one plus the 1 year spot rate and one plus the 1 y 1 y rate. With 2 percent and 4.01 percent, that gives back 3 percent. Pricing with forward rates works the same way. Discount each cash flow by the product of one plus the 1 year spot rate and one plus each 1 year forward rate up to its date, and you get the same 102.96 price.
+
+Finally, compare the three curves, which is heavily tested. Think of spot rates as averages and forward rates as the marginal rates being averaged. When the spot curve slopes upward, each new marginal rate must be above the average to pull it up, so the forward curve lies above the spot curve. The par curve lies below the spot curve, because par bonds collect coupons at the earlier, lower rates. On our curve, at year 3 the forward rate is about 6.03 percent, the spot rate is 4 percent, and the par rate is about 3.95 percent.
+
+When the spot curve slopes downward, everything flips. The forward curve lies below the spot curve, and the par curve lies above it. When the spot curve is flat, all three curves are the same. The trap is to memorize only the upward case and guess the rest. Remember the logic instead. Forward rates are the marginal rates that move the average, and par rates tilt toward the short end because of early coupons.
+
+The rule to keep is this. One plus the long spot rate raised to its years equals one plus the short spot rate raised to its years, times one plus the forward rate raised to the years between them. And with an upward sloping spot curve, forward rates sit above spot rates, which sit above par rates.
+
+## Recall check
+
+Q: A bond yields 5 percent on a semiannual bond basis. If you restate it with monthly compounding, is the stated annual rate higher, lower, or the same?
+
+Answer: Lower. The investment and its effective annual return have not changed, and more frequent compounding needs a lower stated rate to produce the same effective return. The monthly equivalent is about 4.95 percent.
+
+Q: A callable bond and an option free bond from the same issuer have the same Z spread. Which one most likely has the higher option adjusted spread?
+
+Answer: The option free bond. For the callable bond, part of the Z spread is compensation for the call the investor has sold, so its OAS equals the Z spread minus the option value and comes out lower. For the option free bond, there is no option to remove, so its OAS equals its Z spread.
+
+Q: Since a floating rate note was issued, the issuer's credit rating has been cut and the discount margin has risen above the quoted margin. On the next reset date, does the note trade at, above, or below par?
+
+Answer: Below par. The coupon still pays the reference rate plus the old quoted margin, but investors now require the reference rate plus a higher discount margin. Discounting at a rate above the coupon rate gives a price below par, even right after a reset.
+
+Q: Which money market quote most likely understates the return an investor earns, a discount rate on a 360 day year, or a bond equivalent yield?
+
+Answer: The discount rate. It divides the discount by face value rather than by the lower price paid, and it uses a 360 day year. The bond equivalent yield is an add on rate on a 365 day year, so it measures the return on the amount actually invested.
+
+Q: The 1 year spot rate is 3 percent and the 2 year spot rate is 4 percent. Roughly what is the 1 y 1 y forward rate?
+
+Answer: About 5 percent. Two years at 4 percent is roughly 8 percent in total, and the first year contributes 3, so the second year must contribute about 5. The exact answer, 1.04 squared divided by 1.03, minus one, is about 5.01 percent.
+
+Q: The spot curve slopes upward. Rank the 5 year spot rate, the 5 year par rate, and the 1 year forward rate starting 4 years from now, from highest to lowest.
+
+Answer: The forward rate is highest, then the spot rate, then the par rate. A rising average requires marginal forward rates above it, and par rates sit below spot rates because coupons arrive at earlier, lower rates. If the curve sloped downward, the order would reverse.
+
+## Recap
+
+A stated yield means little without its periodicity, and the same investment shows a lower stated rate when compounding is more frequent. Current yield is the annual coupon divided by the flat price, and simple yield adds straight line amortization of a discount, or subtracts it for a premium. Yield to worst is the lowest of the yield to maturity and every yield to call, and the option adjusted yield on a callable bond is below its yield to maturity. The G spread uses a government benchmark, the I spread uses the swap curve, the Z spread is one constant spread over the whole government spot curve, and for a callable bond the OAS is the Z spread minus the option value, so it is smaller.
+
+A floater trades at par when the discount margin equals the quoted margin, below par when it is higher, and above par when it is lower. A discount rate understates return, and the bond equivalent yield is the add on rate on a 365 day year. The no arbitrage price discounts each cash flow at its own spot rate, and a par rate is the coupon that prices a bond at par on that curve. Forward rates link spot rates, and when the spot curve slopes upward, forward rates sit above spot rates and par rates sit below them.
