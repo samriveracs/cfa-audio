@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 03:10:58 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 03:29:51 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -321,6 +321,23 @@
     <itunes:duration>1934</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E18.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E19 Financial Reporting Quality</title>
+    <itunes:title>Financial Reporting Quality</itunes:title>
+    <itunes:episode>19</itunes:episode>
+    <itunes:season>4</itunes:season>
+    <podcast:season name="Financial Statement Analysis">4</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Financial Statement Analysis, Kaplan Modules 36.1 to 36.3. 36.1 Reporting Quality, 36.2 Accounting Choices and Estimates, 36.3 Warning Signs</description>
+    <itunes:summary>Financial Statement Analysis, Kaplan Modules 36.1 to 36.3. 36.1 Reporting Quality, 36.2 Accounting Choices and Estimates, 36.3 Warning Signs</itunes:summary>
+    <content:encoded><![CDATA[<p>Financial Statement Analysis, Kaplan Modules 36.1 to 36.3.</p><ul><li>Module 36.1, Reporting Quality</li><li>Module 36.2, Accounting Choices and Estimates</li><li>Module 36.3, Warning Signs</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:12 The big picture</li><li>1:59 Module 36.1, Reporting Quality</li><li>11:48 Module 36.2, Accounting Choices and Estimates</li><li>20:54 Module 36.3, Warning Signs</li><li>26:38 Recall check</li><li>30:34 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E19.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E19_v2.mp3" length="9711508" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e19</guid>
+    <pubDate>Sat, 03 Oct 2026 12:19:00 -0500</pubDate>
+    <itunes:duration>1942</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E19.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>

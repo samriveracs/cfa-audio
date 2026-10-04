@@ -1,0 +1,169 @@
+## The big picture
+
+The last several episodes taught you the rules. How revenue is recognized, how inventory and long lived assets are measured, and how leases, deferred compensation and income taxes are reported. This episode asks a harder question. Given that management applies those rules, can you trust what you are reading? Financial reporting quality is about the gap between what a company reports and what actually happened, and about the choices that open or close that gap.
+
+Module 36.1 builds the framework. It separates two ideas that exam questions love to blur, the quality of the reporting and the quality of the results being reported. It lays out a spectrum that runs from excellent reports all the way down to fraud. It contrasts conservative and aggressive accounting, explains why managers bend the numbers, names the conditions that make it possible, and covers the forces that push back.
+
+Module 36.2 gets practical. It walks through presentation choices, including non GAAP measures, and the accounting choices and estimates that can move earnings, operating cash flow and the balance sheet. Module 36.3 turns all of that into a checklist of warning signs an analyst can actually look for.
+
+Expect mostly concept questions. Which choice is aggressive? Which condition for fraud is present? Which ratio pattern is a red flag? Which move raises operating cash flow without creating any cash?
+
+The arithmetic is light, but the direction of every effect matters. So keep asking one question all the way through. Does this choice make the current period look better or worse, and what does it do to later periods?
+
+## Module 36.1, Reporting Quality
+
+Start with two definitions, because the whole topic rests on them. Financial reporting quality describes the information itself. High quality reporting complies with the applicable standards, IFRS or U.S. GAAP, and it is decision useful. That means it is relevant to the decisions users make, and it faithfully represents the economics, which means it is complete, neutral and free from error.
+
+The quality of reported results, usually called earnings quality, describes the economics behind the numbers. High quality earnings are sustainable, meaning they come from the ongoing business and can be expected to recur. They also provide an adequate return on the capital the company has invested. Earnings that come from a one time asset sale, or from a business that earns too little on its capital, are low quality even if every number is reported correctly.
+
+The two ideas can come apart, and that is the first exam trap. A company can report terrible results with perfect honesty, which is high reporting quality combined with low earnings quality. The reverse case matters even more. If reporting quality is low, you cannot judge earnings quality at all, because you cannot trust the very numbers you would use to judge it. So reporting quality comes first, because it is the precondition for any judgment about results.
+
+The same thinking extends beyond earnings. Cash flow quality asks whether operating cash flow comes from the core business on a repeatable basis, rather than from one time moves such as delaying payments to suppliers. High quality operating cash flow is positive, comes from sustainable sources, and is large enough to cover capital spending, dividends and debt repayments.
+
+Balance sheet quality asks three things. Is the balance sheet complete, with no significant obligations left off it? Are assets and liabilities measured without bias? And is it presented clearly?
+
+Now the spectrum. Picture a ladder with six rungs, best at the top and worst at the bottom. The top rung is reporting that complies with the standards, is decision useful, and shows sustainable earnings with adequate returns. The second rung is still compliant and decision useful, but the results themselves are low quality. Think of it as honest reporting of weak economics.
+
+The third rung is compliant but biased. Management picks choices and estimates within the rules that tilt the picture one way. The fourth rung is earnings management, still within the rules, where management makes deliberate choices to reach a target. That can happen through real actions, such as cutting research or advertising spending late in the year to hit a number. It can also happen through accounting, such as trimming a reserve estimate.
+
+Real earnings management deserves a moment, because it is the more costly kind. Suppose a company is 10 short of its pretax earnings target in the final month of the year, so it postpones 10 of planned advertising. Reported pretax earnings hit the target exactly. But the company may have given up future sales to get there. Unlike a pure accounting choice, that decision changes the actual business, and shareholders bear the cost.
+
+The bottom two rungs leave the standards behind. The fifth rung is non compliant accounting, where the reporting departs from the rules. The sixth and lowest rung is fictitious transactions, such as revenue from sales that never happened. That is fraud. Here is the trap. Once reporting departs from the standards, you can no longer say anything useful about earnings quality, because the reported numbers no longer tell you what happened.
+
+Next, bias. Accounting choices can be aggressive or conservative. Aggressive choices make the current period look better. They raise current revenue, earnings or operating cash flow, raise reported assets, or lower reported liabilities. Conservative choices do the opposite and make the current period look worse. The ideal is neutral.
+
+Here is the trap that catches many candidates. Conservative does not mean high quality. A conservative bias is still a bias. Worse, conservatism today often creates aggression tomorrow, because an expense pulled into this period is an expense that will not hit a later one.
+
+A tiny example makes the point. A company's true pretax earnings are 120 this year and 80 next year, and the market expects a steady 100. This year management overstates a reserve by 20, a conservative choice, and reports 100. Next year it releases that extra 20 back into income and reports 100 again. The reported figures are a smooth 100 and 100, while the true figures were 120 and 80. The excess reserve acted as a cookie jar.
+
+A related move is the big bath. A company already having a bad year, often under new management, takes oversized write downs or restructuring charges. The current year looks awful, but the inflated charges can be reversed or avoided later, so future earnings look better than they really are.
+
+Some conservatism sits inside the standards themselves. A probable loss from a lawsuit is recognized as a liability, while a gain of the same likelihood is not recognized. Under U.S. GAAP, research and development costs are generally expensed, while IFRS capitalizes development costs once certain criteria are met. People defend conservatism because it protects lenders and limits litigation risk, but for an analyst it still distorts the picture.
+
+Why would managers push the numbers at all? The motivations are mostly about pressure and pay. First, meeting or beating expectations, especially the analysts' consensus earnings estimate, because missing it can hit the share price hard. Second, compensation and careers. Bonuses and stock awards are often tied to earnings or the share price, and a manager's reputation rides on results.
+
+Third, contracts. Loan covenants written on financial ratios give a company that is near a limit a reason to flatter those ratios. Fourth, raising capital, since a company about to issue shares or borrow wants to look its best. Fifth, regulation, such as minimum capital ratios for banks. In bank capital planning, a ratio sitting just above a regulatory minimum is exactly the kind of pressure that deserves a closer look at the estimates behind it. Some motivations push toward conservatism instead, such as lowering taxes or setting a low bar for future periods.
+
+Smoothing is a motivation in its own right. A steady earnings stream looks less risky than a volatile one, and many managers believe it earns a higher valuation. That belief is what makes cookie jar reserves so tempting. It also explains why a long run of earnings that land just above expectations should make you curious rather than comfortable.
+
+Motivation alone is not enough. Low quality and even fraudulent reporting usually requires three conditions together, a combination often called the fraud triangle. The first is motivation, or pressure, which we just covered. The second is opportunity. Weak internal controls, a board that does not supervise management, a wide range of acceptable accounting treatments, and weak penalties all create opportunity.
+
+The third is rationalization, where the people involved tell themselves a story that makes it acceptable. It is only temporary. Everyone does it. We will make it up next quarter.
+
+Finally, what keeps reporting honest? Four mechanisms discipline it, and each has limits. First, markets. Companies compete for capital, and poor reporting raises the return investors demand, so it raises the cost of capital. The limit is that markets can only punish what they discover, and discovery can take years.
+
+Second, regulators. Securities regulators, such as the Securities and Exchange Commission in the U.S., require registration, periodic filings, management commentary and audited statements. They review filings and bring enforcement actions. In the U.S., senior executives must certify the financial statements, and for larger public companies the auditor also reports on internal control over financial reporting. The limit is resources, because regulators cannot review everything, and rules differ across countries.
+
+Third, auditors. An audit opinion gives reasonable assurance, not a guarantee. Auditors test samples rather than every transaction, a well concealed fraud can slip past them, and the company being audited pays the auditor, which creates a potential conflict of interest. A clean opinion also says nothing about whether earnings are sustainable.
+
+Fourth, private contracting. Lenders and investors who write contracts based on reported numbers, such as loan covenants, have their own reasons to scrutinize those numbers. The limit is that they protect their own interests, not those of every user.
+
+So here is the rule to carry out of Module 36.1. Reporting quality is about whether the information is faithful and useful. Earnings quality is about whether the results are sustainable and adequate. You can only judge the second when the first is high.
+
+## Module 36.2, Accounting Choices and Estimates
+
+Module 36.1 covered why and when. This module covers how. Managers have two kinds of tools. Presentation choices change how the numbers are shown. Accounting choices and estimates change the numbers themselves.
+
+Start with presentation, and the biggest item is non GAAP measures. These are figures such as adjusted earnings, core earnings or EBITDA, which is earnings before interest, taxes, depreciation and amortization. None of them is defined by the accounting standards. Management chooses what to exclude, and the exclusions are almost always expenses. Restructuring charges, impairments and stock based compensation are common candidates. Remember too that EBITDA ignores capital spending entirely, so a capital intensive company can look healthy on EBITDA while it consumes cash.
+
+The rules push back. In the U.S., a company that reports a non GAAP measure in its filings must also present the most directly comparable GAAP measure with equal or greater prominence, and must reconcile the two. Regulators in other major markets require similar reconciliation and explanation.
+
+Here is the trap. An item labeled nonrecurring that shows up every year is recurring. Suppose a company reports net income of 50 and adds back a restructuring charge of 30 to show adjusted earnings of 80. That headline is 60 percent higher. If the company has taken a restructuring charge every year for five years, the 80 overstates its sustainable earnings, and the honest figure is much closer to 50.
+
+Other presentation choices include how much detail to disclose, which figures get emphasis in the earnings release, and where an item is classified. A gain on selling equipment tucked into revenue or operating income makes the core business look stronger than it is.
+
+Now the accounting choices and estimates. Work through them line by line, and for each one ask what it does to earnings now and later.
+
+Revenue comes first, because it is the top line and often the biggest lever. A company can pull revenue forward by recognizing it before control passes to the customer. It can ship extra product to distributors near quarter end, which is called channel stuffing. It can use bill and hold arrangements, where the customer is billed but the goods stay in the seller's warehouse. A company can also inflate revenue, though not profit, by reporting sales at the gross amount when it is really acting as an agent and should report only its net commission.
+
+Here is how large that effect can be. An online seller arranges a sale of a supplier's product for 100 and keeps 10. Reported gross, revenue is 100 and cost of sales is 90. Reported net, as an agent should, revenue is just 10. Profit is 10 either way, but gross reporting makes revenue ten times larger and shrinks the gross margin from 100 percent to 10 percent, which can mislead anyone valuing the company on revenue.
+
+Next come estimates that sit against assets. The allowance for credit losses on receivables is an estimate of what customers will not pay. Set it too low and current earnings rise, along with reported receivables. For example, on 1,000 of receivables, an expected loss rate of 3 percent calls for an allowance of 30. If management books only 1 percent, or 10, pretax earnings are 20 higher this year, and the cost arrives later, when the losses show up anyway.
+
+Liability estimates work the same way in reverse. Understating warranty reserves, restructuring provisions or similar accruals raises current earnings and understates liabilities.
+
+The same logic applies elsewhere. Failing to write down obsolete inventory overstates both inventory and earnings. Under U.S. GAAP, reducing the valuation allowance on deferred tax assets lowers tax expense and raises net income. Inventory cost flow is a choice too. Under U.S. GAAP a company may use LIFO, and when prices are rising, LIFO gives lower earnings and lower taxes than FIFO.
+
+But if a LIFO company lets its inventory quantities fall, old low cost layers flow into cost of goods sold, and margins jump for a reason that cannot repeat. That is a LIFO liquidation. IFRS does not permit LIFO at all.
+
+Long lived assets offer several levers. Depreciation depends on the method, the useful life and the salvage value. A longer life or a higher salvage value lowers depreciation and raises earnings. Here is a quick example. A machine costs 1,000 with no salvage value. Over a 5 year life, straight line depreciation is 200 a year.
+
+Now stretch the life to 10 years, and depreciation falls to 100 a year. If earnings before depreciation are 500, profit rises from 300 to 400, a one third increase with no change in the business. A change in an estimate like this is applied going forward, not restated backward, so it can slip by quietly. By contrast, a change in accounting policy is generally applied retrospectively, with prior periods restated, which makes it much easier to spot. Delaying an impairment that is due has the same effect, keeping both assets and earnings too high.
+
+Acquisitions create another lever. When one company buys another, it allocates the purchase price to the identifiable assets and liabilities it acquires, and whatever is left over becomes goodwill. Goodwill is not amortized. It is tested for impairment instead. So putting more of the price into goodwill, and less into equipment or intangible assets that are depreciated or amortized, raises reported earnings in later years.
+
+Now the lever that hits earnings and cash flow together, capitalizing versus expensing. When a cost is expensed, the whole amount reduces this year's income, and the cash outflow sits in operating activities. When the same cost is capitalized, it becomes an asset. Only a slice is expensed each year through depreciation or amortization, and the cash outflow moves to investing activities.
+
+Here is the example, ignoring taxes. A company spends 100 on a cost it could arguably treat either way. If it expenses the 100, pretax income and operating cash flow both fall by 100. If it capitalizes the 100 and amortizes it over 5 years, this year's expense is only 20, so pretax income is 80 higher than under expensing. Operating cash flow is 100 higher, because the outflow is now an investing cash flow. Total cash is identical.
+
+The tempting wrong answer says capitalizing has no cash flow effect. Total cash is unchanged, but the split between operating and investing is not, and operating cash flow is the figure most analysts watch.
+
+That leads to cash flow management more broadly. Three moves are common. First, stretching payables. Paying suppliers later raises operating cash flow this period, but it cannot continue forever, and it shows up as rising days payable. Second, selling receivables to a third party. Collecting cash early raises operating cash flow now at the expense of future collections.
+
+Third, classification. Under IFRS, interest paid may be reported in operating or financing activities, interest and dividends received may be reported in operating or investing activities, and dividends paid may be operating or financing. Under U.S. GAAP, interest paid and interest and dividends received are all operating, and dividends paid are financing. So an IFRS company that reports interest paid in financing shows higher operating cash flow than an otherwise identical U.S. GAAP company.
+
+On the balance sheet, beyond the asset estimates already covered, watch for obligations kept off the balance sheet. Current lease standards now put most leases on it, so look for less obvious arrangements, such as guarantees or commitments that appear only in the notes.
+
+So here is the rule for Module 36.2. For every choice or estimate, ask whether it makes the current period look better, and remember the mirror image. Aggressive today means weaker later, and conservative today leaves room for a boost later. Capitalizing instead of expensing raises current earnings and raises operating cash flow, without creating a single dollar of cash.
+
+## Module 36.3, Warning Signs
+
+The last module turns the theory into a checklist. A warning sign is not proof. It is a reason to dig deeper, read the notes, and compare the company with its peers and with its own history.
+
+Start with revenue, because that is where problems most often begin. Watch for a change in revenue recognition policy, bill and hold or barter transactions, and revenue growth well out of line with peers. Above all, compare revenue with receivables. If receivables grow much faster than revenue, the company may be booking sales it has not truly earned, or its customers may not be paying.
+
+Two ratios do the work. Receivables turnover equals revenue divided by average receivables. Days sales outstanding equals 365 divided by receivables turnover, and it tells you how many days it takes to collect. Take a company with revenue of 1,200 and receivables of 100, and use year end receivables to keep it simple. Turnover is 12, so it takes about 30 days to collect.
+
+Next year revenue grows 10 percent to 1,320, but receivables jump 65 percent to 165. Turnover falls to 8, and collection time stretches to about 46 days. Sales growth was modest while unpaid sales piled up. That is a classic warning sign of aggressive revenue recognition or weakening collections.
+
+Inventory works the same way. Inventory turnover equals cost of goods sold divided by average inventory. If inventory grows faster than sales and turnover falls, the company may be carrying obsolete goods it should have written down, which overstates both assets and earnings.
+
+Suppose, again using year end figures, cost of goods sold is 800 and inventory is 100, so turnover is 8 and goods sit for about 46 days. Next year cost of goods sold rises 5 percent to 840, but inventory jumps 40 percent to 140. Turnover drops to 6, and goods now sit for about 61 days. Either the company is producing more than it can sell, or some of that inventory is no longer worth its cost. Separately, a sudden jump in gross margin at a LIFO company can signal a LIFO liquidation.
+
+Then capitalization. Compare the company's capitalization policies with its industry. If it capitalizes costs that peers expense, its earnings and operating cash flow are flattered. Depreciation methods, useful lives and salvage values that are more generous than peers send the same signal. A falling total asset turnover, which is revenue divided by total assets, can also hint that assets are not producing revenue, as with capitalized costs or an overpriced acquisition.
+
+The single most important test is the link between earnings and cash. Net income that persistently exceeds operating cash flow is a warning sign, because accrual earnings are not turning into cash. The formula is simple. Take operating cash flow and divide it by net income. A ratio that stays below 1, or keeps falling, deserves attention.
+
+For example, a company reports net income of 100 in each of three years, while operating cash flow runs 90, then 70, then 50. The ratio slides from 0.9 to 0.7 to 0.5. Over the three years, 300 of reported earnings produced only 210 of operating cash flow. That leaves 90 of profit that never showed up as cash.
+
+A few more signs round out the list. Watch for restatements of past results, frequent changes in accounting policies or estimates, and related party transactions. Watch for large adjustments or unusually strong results in the fourth quarter that the business's seasonality does not explain. The fourth quarter is the last chance to reach annual targets, so that is where year end adjustments tend to land.
+
+Also watch for nonrecurring charges that keep recurring, gains or other nonoperating income classified as operating, and heavy emphasis on non GAAP measures. Earnings that hit or narrowly beat the consensus estimate quarter after quarter can also suggest smoothing.
+
+Here is the trap. Each sign has innocent explanations. Receivables can grow because a company deliberately offered longer credit terms to win business, and cash can lag earnings in a fast growing firm that is building working capital. No single sign proves manipulation. What matters is a cluster of signs, a weak explanation from management, and a pattern that persists over time.
+
+In practice, detection is a routine you can repeat for any company. Compare the growth rates of revenue, receivables and inventory. Read the accounting policy note and look for changes from the prior year. Read the auditor's report, and note any change of auditor. Compare key estimates, such as useful lives and credit loss allowances, against peers. Then compare net income with operating cash flow, year after year.
+
+So here is the rule for Module 36.3. Follow the cash. Operating cash flow divided by net income, staying below 1 or falling, is the headline warning sign. Receivables or inventory growing faster than sales are the next places to look.
+
+## Recall check
+
+Q: A company's statements comply fully with IFRS and are decision useful, but most of this year's profit came from a one time sale of land, while its core business lost money. How would you describe its reporting quality and its earnings quality?
+
+Answer: Reporting quality is high and earnings quality is low. The information is faithful and useful, so you can trust it, and what it tells you is that the profit is not sustainable. Honest reporting of weak results sits on the second rung of the spectrum. Had the statements departed from the standards, you could not judge earnings quality at all.
+
+Q: Which of these is most likely a conservative accounting choice: lengthening the useful life of equipment, setting the allowance for credit losses above expected losses, or capitalizing software development costs?
+
+Answer: Setting the allowance above expected losses. It lowers current earnings and current assets, while the other two choices raise current earnings. Remember that an overstated allowance can later be released to boost earnings, so conservative is not the same as high quality.
+
+Q: An analyst notes that a company's board rarely challenges management, its internal controls are weak, and the accounting rules for its industry leave wide latitude in revenue estimates. Which condition for low quality reporting do these facts describe?
+
+Answer: Opportunity. Weak oversight, weak controls and flexible accounting rules make manipulation possible. Motivation and rationalization are the other two conditions, and low quality reporting typically requires all three together.
+
+Q: A company starts capitalizing 200 of costs it used to expense, and amortizes them over 4 years. Ignoring taxes, what happens to this year's pretax income and operating cash flow?
+
+Answer: Pretax income is 150 higher, because only 50 of amortization is expensed instead of the full 200. Operating cash flow is 200 higher, because the whole outflow moves to investing activities. Total cash is unchanged.
+
+Q: Two otherwise identical companies pay the same interest. One reports under U.S. GAAP. The other reports under IFRS and classifies interest paid as a financing cash flow. Which one reports higher operating cash flow?
+
+Answer: The IFRS company. U.S. GAAP requires interest paid to be reported in operating activities, while IFRS allows operating or financing. Moving it to financing raises operating cash flow without any change in total cash.
+
+Q: Over the last three years, a company's net income was 200 each year, while operating cash flow was 180, then 140, then 100. What is the latest ratio of operating cash flow to net income, and what does the trend suggest?
+
+Answer: The latest ratio is 100 divided by 200, or 0.5, down from 0.9 and then 0.7. Earnings are increasingly failing to turn into cash, which points to aggressive accruals such as early revenue recognition or understated reserves. It is a warning sign to investigate, not proof of manipulation.
+
+## Recap
+
+Reporting quality asks whether the information is faithful and decision useful. Earnings quality asks whether results are sustainable and earn an adequate return, and you can only judge it when reporting quality is high. The quality spectrum has six rungs, running from compliant, useful reports with sustainable earnings, down through low quality results, biased choices and earnings management within the rules, to non compliant accounting and, at the bottom, fictitious transactions. Aggressive choices make the current period look better and conservative choices make it look worse. Both are biased, and today's conservatism can fund tomorrow's boost. Low quality reporting usually needs motivation, opportunity and rationalization together.
+
+Markets, regulators, auditors and private contracts discipline reporting, but each has limits, and an audit gives reasonable assurance, not a guarantee. Non GAAP measures must be reconciled to the comparable standard measure, and recurring items labeled nonrecurring are a red flag. Capitalizing instead of expensing raises current earnings and operating cash flow while leaving total cash unchanged. Under IFRS, reporting interest paid as a financing cash flow also lifts operating cash flow compared with U.S. GAAP. Finally, follow the cash, because operating cash flow persistently below net income is the headline warning sign, and receivables or inventory growing faster than sales are the next places to look.
