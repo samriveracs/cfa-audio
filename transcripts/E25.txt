@@ -1,0 +1,163 @@
+## The big picture
+
+The last episode ended by looking backward at a single company. This one widens the lens to the industry around that company, and then turns everything into a forecast. The order matters. A company's results depend partly on its own decisions and partly on the economics of the industry it competes in. Industry structure sets a ceiling on how profitable most companies in it can be, and strategy decides which companies get closest to that ceiling.
+
+The first module covers how to define and classify an industry and how to survey its size, growth, profitability and concentration. The second covers Porter's five forces, the Pestle framework for outside influences, and the generic strategies a company can use to compete. The third shows how an analyst turns all of that into forecasts of revenue, costs, working capital, capital spending and debt, and how scenario analysis handles uncertainty.
+
+Expect the exam to test direction and identification more than heavy math. Which force does a feature strengthen? Which life cycle stage fits a description? Which strategy do the margins point to? Which forecasting approach suits a cyclical company? When math appears, it is light: a concentration index, a market share forecast, or a probability weighted value.
+
+## Module 44.1, Industry Analysis
+
+Why analyze an industry when you care about one company? Because demand, pricing power and the intensity of competition are largely industry level facts. Understanding them does two jobs. First, it improves your forecasts, because you learn what really drives revenue and margins. Second, it helps you find investment opportunities, such as an industry whose growth the market underestimates, or a company quietly taking share from its rivals.
+
+The work follows five steps. First, define the industry. Second, survey it, meaning its size, growth, profitability and market shares. Third, analyze its structure with the five forces. Fourth, assess outside influences with the Pestle framework. Fifth, evaluate how the company competes within it.
+
+Defining the industry starts with classification. The most common approach groups companies by the products and services they sell. The Global Industry Classification Standard, known as G I C S, is maintained jointly by M S C I and S and P Dow Jones Indices. The Industry Classification Benchmark, or I C B, is a similar system from another index provider. Each system is a hierarchy running from broad sectors down to narrow sub industries, and each company is placed in exactly one group at the bottom level, based mainly on the business activity that produces most of its revenue.
+
+Other grouping methods exist. Business cycle sensitivity splits companies into cyclical and defensive groups. Cyclical companies sell things buyers can postpone, such as cars, houses, travel, luxury goods and industrial equipment, so their sales and profits swing with the economy. Defensive companies sell necessities, such as food, household staples, basic health care and utility service, so their demand holds up in recessions.
+
+Statistical grouping puts together companies whose stock returns are highly correlated, meaning their prices tend to rise and fall together, whatever they sell. Companies can also be grouped by environmental, social and governance characteristics, known as ESG, or by geography, such as developed versus emerging markets.
+
+Here is the trap with cyclical and defensive. Defensive describes how steady demand is, not how safe the share price is or how fast the company grows. A defensive company can still be overpriced, and a cyclical company bought at the right point in the cycle can be an excellent investment.
+
+Classification is a starting point, and four problems come up. First, boundaries can be too narrow or too broad. A video streaming service competes with video game makers for the same evening hours, yet the two may sit in different groups. Second, a company with several businesses gets one label, so a conglomerate's other segments disappear from view. Third, a local business and a global one may share a code but not a market. Fourth, systems reclassify companies over time, which breaks historical comparisons.
+
+That is why analysts build a peer group by hand. A peer group is a set of companies whose economics are driven by the same factors, such as the same customers, inputs and sensitivity to the economy. Start with the classification system, then refine it using annual reports, the competitors management names, and segment data.
+
+Step two is the industry survey, which covers four things. Size is usually measured as the total revenue of all companies in the industry. Growth is judged from history and compared with growth in gross domestic product, or GDP, to see whether the industry is gaining or losing ground in the wider economy. Profitability is compared through margins and returns on capital across its members. Finally, market share trends matter, because stable shares usually signal settled competition, while rapidly shifting shares signal a fight.
+
+Growth characteristics are often described with the industry life cycle, which has five stages. The embryonic stage has slow growth, high prices, heavy investment and a high risk of failure. The growth stage has rapidly rising demand, falling prices as volume builds, improving profits, and fairly mild competition, because the market grows fast enough for everyone. The shakeout stage has slowing growth, excess capacity, intense competition, falling profits and business failures.
+
+The mature stage has little or no growth, consolidation and high barriers to entry. Efficient companies gain share there and generate strong cash flow. The decline stage has shrinking demand, excess capacity, price cutting and exits, as weaker companies merge or leave.
+
+Here is the trap. Many candidates assume competition is fiercest in the growth stage, because that is where the excitement is. It is not. When demand is rising fast, companies can grow without taking customers from each other. Competition turns brutal in the shakeout, when growth slows and companies are still adding the capacity they planned for a faster market. A second trap is that prices usually fall during the growth stage, yet profits improve, because volume and scale lower costs faster than prices fall.
+
+Remember too that the life cycle is a description, not a law. Stages can last very different lengths of time, and technology or regulation can restart growth or end it early.
+
+Now concentration. A concentration ratio simply adds up the market shares of the largest few firms, for example the top four. It is easy to compute, but it ignores how share is split among those firms. The Herfindahl Hirschman index, or H H I, fixes that. The H H I equals the sum of the squared market shares of the firms in the market.
+
+With shares written as whole percentages, the H H I runs from near zero for a very fragmented industry up to 10,000 for a monopoly. With shares written as decimals, the same scale runs up to 1. Squaring gives large firms far more weight than small ones, which is the whole point.
+
+Here is a worked example. Industry A has four firms with 25 percent each, and Industry B has four firms with 40, 30, 20 and 10 percent. Both have a four firm concentration ratio of 100 percent, so that measure cannot tell them apart. Now square the shares. For Industry A, 25 squared is 625, and four of those make 2,500. For Industry B, the squares are 1,600, 900, 400 and 100, which add to 3,000.
+
+Industry B is more concentrated, and only the H H I shows it. Now let the two smallest firms in B merge. The concentration ratio stays at 100 percent, but the H H I rises to 3,400, because the merged firm's 30 percent share squared is 900, replacing the 400 and the 100.
+
+Higher concentration usually means less price competition and higher profits, because a few large firms can avoid ruinous price wars. Usually, but not always. Here is the trap. A concentrated industry with an undifferentiated product, high fixed costs and spare capacity can still compete fiercely on price. Concentration is evidence about competition, not proof of it.
+
+So remember the rule. The H H I equals the sum of the squared market shares. Squaring is what makes it sensitive to large players and to mergers among them, which a simple concentration ratio misses.
+
+## Module 44.2, Industry Structure and Competitive Positioning
+
+Start with first principles. An industry creates value for its customers. The question is how much of that value the companies keep, and how much leaks to customers through lower prices, to suppliers through higher input costs, and to new entrants and substitutes that take a slice. Porter's five forces is a checklist for those leaks. The stronger the forces, the lower the industry's long run profitability.
+
+The first force is the threat of new entrants. If outsiders can enter easily, any high profit attracts new capacity until returns fall back. Barriers to entry keep them out. The main barriers are economies of scale, large capital requirements, strong brands, high switching costs for customers, control of distribution channels, network effects, and regulation such as licenses and patents. High barriers mean a low threat of entry, which supports profitability.
+
+The second force is the threat of substitutes. A substitute is a product from a different industry that meets the same need, such as video calls in place of business travel. When good substitutes exist and switching to them is cheap, they cap the price the industry can charge.
+
+The third force is the bargaining power of customers. Customers are powerful when they are few and large, buy a big share of the industry's output, face standardized products and low switching costs, are sensitive to price, or could make the product themselves. Powerful customers push prices down.
+
+The fourth force is the bargaining power of suppliers. Suppliers are powerful when there are few of them, their input is critical and hard to replace, changing suppliers is costly, or they could enter the industry themselves. Powerful suppliers push input costs up.
+
+The fifth force is rivalry among existing competitors, and it sits at the center, shaped by the other four. Rivalry is intense when there are many competitors of similar size, industry growth is slow, products are hard to tell apart, fixed costs are high, there is excess capacity, and exit barriers are high.
+
+Here is why high fixed costs and excess capacity matter. A plant has fixed costs of 60 million dollars a year that must be paid whether it runs or not. Each unit costs 40 dollars in materials and labor, and the plant can make 1 million units. Demand slumps and the market price drops to 70 dollars. Running at full volume, revenue is 70 million and variable costs are 40 million, so the plant contributes 30 million toward its 60 million of fixed costs, for a loss of 30 million.
+
+If the plant shuts, it loses the full 60 million. So it keeps producing, and to hold its volume it will accept any price above the 40 dollar variable cost. Every rival runs the same math, which is how price wars start and why they can last so long.
+
+Here are the traps. First, entry barriers and exit barriers work in opposite directions. High entry barriers protect profits, while high exit barriers, such as specialized assets with no other use, large severance costs, or government pressure to keep operating, trap unprofitable capacity in the industry and make rivalry worse. Second, a substitute is not a competitor's product. Another brand of the same product belongs under rivalry, while a substitute comes from outside the industry. Third, high entry barriers do not guarantee profits if rivalry among the companies already inside is fierce.
+
+Step four looks outside the industry with the Pestle framework, spelled P E S T L E. Political means government policy and stability, such as trade tariffs, taxes and government spending. Economic means growth, inflation, interest rates and exchange rates. Social means demographics, lifestyles and tastes, such as an aging population. Technological means innovation, which can create substitutes, lower entry barriers or cut costs.
+
+Legal means the laws and regulations companies must obey, such as competition law, product safety rules and labor law. Environmental means climate, natural resources and pollution, including physical risks like floods and droughts, and shifting demand as customers and investors push for lower emissions. Political and legal are easy to blur. A useful way to separate them is that political is the direction of government policy, and legal is the specific body of law that companies must follow.
+
+Outside influences matter because they change industry growth and shift the five forces over time. A new technology may strengthen substitutes or let new entrants in. A rise in interest rates may cut demand for things bought on credit, such as cars and homes. Always ask which force or growth driver each outside factor touches.
+
+Step five asks how the company competes. Porter described three generic strategies. Cost leadership means being the lowest cost producer while keeping quality acceptable, so the company can earn a decent margin at prices rivals cannot match. Differentiation means offering something customers value and will pay more for, such as quality, features, brand, service or design, so the company can charge a premium that exceeds the extra cost of providing it. Focus means applying either approach to a narrow segment, such as one region or one niche group of customers, which gives a cost focus or a differentiation focus.
+
+Then evaluate the strategy with three tests. Does it defend the company against the five forces? Does it fit the outside influences? And does the company have the resources to carry it out, such as scale, technology, brands or distribution?
+
+The financial statements should confirm the strategy. A cost leader usually shows lower costs per unit than peers, lower prices, margins often thinner than a differentiator's, and high asset turnover, meaning lots of sales from each dollar of assets. A differentiator usually shows higher gross margins than peers, along with heavy spending on research and development, marketing and brand building. Both routes can work.
+
+Here is a worked example. Return on assets equals net profit margin times total asset turnover. A discount retailer with a 2 percent net margin and an asset turnover of 5 earns a 10 percent return on assets. A luxury brand with a 10 percent net margin and an asset turnover of 1 also earns 10 percent. Same destination, different roads.
+
+Here is the trap. The company with the lowest prices is not necessarily the cost leader. A company that cuts prices without a cost advantage will show shrinking margins, not a durable edge. Likewise, a company that calls itself differentiated but shows gross margins below its peers and little spending on brands or innovation has a claim, not a strategy. The best evidence that a strategy works is persistence: market share that is stable or rising, and returns on capital that beat peers over several years, not just one good year.
+
+So remember the rule. The stronger the five forces, the lower long run industry profitability, and high exit barriers make rivalry worse, not better. A cost leader wins through low costs and high asset turnover, and a differentiator wins through a price premium and higher margins.
+
+## Module 45.1, Forecasting in Company Analysis
+
+Forecasting is where the earlier work pays off. The business model, the financial history, and the industry and competitive analysis all turn into numbers about the future, and those numbers drive valuation. Two principles run through everything. Build forecasts from drivers you understand, and make every piece consistent with every other piece.
+
+Start with what to forecast, called the forecast object, which comes in four types. The first is drivers of financial statement lines, such as store count, sales per store, or gross margin. The second is individual line items, such as depreciation. The third is summary measures, such as earnings per share, known as EPS, or free cash flow, forecast directly without building every line. The fourth is ad hoc objects, special items such as the outcome of a lawsuit or a one time gain from selling a business. Analysts prefer drivers that are material, that can be predicted with reasonable accuracy, and that can later be checked against reported results.
+
+Next, how to forecast them. There are four broad approaches. First, historical results, which assumes the past continues. This works for stable, mature, noncyclical businesses, and it can badly mislead for cyclical or rapidly changing companies.
+
+Second, historical base rates and convergence. Start from the averages of the industry or peer group, and assume the company's figures move toward them over time. A company earning a 25 percent return on invested capital in an industry that averages 10 percent might be forecast to drift toward 10 percent as competitors copy it, unless your industry analysis shows a durable advantage. This is where the five forces feed into the numbers.
+
+Third, management guidance, meaning the company's own targets. It is most useful when management has a record of hitting them, but management has incentives, so test guidance against your own analysis. Fourth, the analyst's discretionary forecast, meaning your own judgment built from surveys, models and historical parallels. Use it when history is a poor guide, such as for a new industry or one facing disruption.
+
+How far ahead should you forecast? The forecast horizon depends on four things. First, investment strategy, because a long term investor needs a longer view than a short term trader. Second, industry cyclicality, because the horizon should be long enough to reach a normal, midcycle year rather than stopping at a peak or a trough. Third, company specific factors, because after an acquisition or a restructuring you want to capture the period when its effects show up. Fourth, employer preferences, because many firms set a standard model length.
+
+Revenue is the most important forecast, because almost every other line depends on it. A top down forecast starts with the economy or the market and works down to the company. One version links industry growth to GDP growth. If nominal GDP is expected to grow 4 percent and the industry has grown about 2 percentage points faster, you would forecast industry growth of about 6 percent. Another version uses market share, where company revenue equals total market size times the company's market share.
+
+Here is a worked example. A market is 100 billion dollars and is expected to grow 5 percent, to 105 billion. The company's share is expected to rise from 10 percent to 11 percent. Revenue goes from 10 billion to 11.55 billion, which is growth of 15.5 percent.
+
+Here is the trap. The tempting answer adds 5 percent of market growth to 1 percentage point of share gain and gets 6 percent. But moving from 10 percent to 11 percent of the market is a 10 percent increase in share. So growth is 1.05 times 1.10, minus one, which is 15.5 percent. A second trap is that a revenue forecast in dollars should use nominal GDP, not real GDP, because revenue includes the effect of inflation.
+
+A bottom up forecast starts inside the company and adds up. The simplest version is volume times price, often built by segment, product or region. Another is capacity based, meaning the number of stores, plants or seats times sales per unit of capacity.
+
+Say a retailer has 200 stores selling 5 million dollars each, so 1,000 million in total. Sales at existing stores grow 4 percent, to 5.2 million each, which gives 1,040 million. It opens 20 new stores, each expected to sell 4 million dollars in its first year, adding 80 million. Total revenue is 1,120 million, growth of 12 percent.
+
+Some businesses build revenue from their asset base instead. A lender's interest income can be forecast as average loans times the average yield, the same driver logic used in bank and credit union balance sheet planning. A hybrid forecast combines both directions, for example a top down market forecast checked against a bottom up store plan.
+
+Now operating costs. Cost of goods sold is usually the largest cost for a company that makes or sells products, so analysts forecast it through gross margin, which is gross profit divided by revenue. Small changes matter. On 1,000 million dollars of revenue, one percentage point of gross margin is 10 million dollars of profit. If lower margin products are growing faster, the overall margin should fall even if each product's own margin holds steady.
+
+Selling, general and administrative expenses need more care, because they mix variable and fixed costs. Sales commissions and shipping tend to move with revenue, while head office costs move more with wage inflation. Say revenue grows from 400 million dollars to 500 million. Last year these expenses were 100 million, or 25 percent of revenue, made up of 60 million fixed and 40 million variable, with the variable part at 10 percent of revenue.
+
+Next year the fixed part rises with wages to 62 million, and the variable part is 10 percent of 500 million, which is 50 million. The total is 112 million, or 22.4 percent of revenue, down from 25 percent. Forecasting the whole line at 25 percent of revenue would give 125 million and miss the operating leverage.
+
+Working capital is forecast with efficiency ratios applied to the revenue and cost forecasts, often starting from historical levels. Receivables equal forecast revenue divided by 365, times days of sales outstanding. If revenue is 730 million dollars, that is 2 million a day, and at 45 days receivables are 90 million. If receivables were 80 million last year, the business ties up an extra 10 million of cash. Inventory works the same way using cost of goods sold and days of inventory, and so do payables.
+
+Capital spending splits in two. Maintenance spending keeps existing capacity running, and it is forecast from depreciation, adjusted upward for inflation. The reason is that depreciation reflects what the assets cost years ago, while replacing them costs today's higher prices. If depreciation is 100 million dollars and equipment prices are rising about 3 percent a year, maintenance spending of roughly 103 million is a sensible starting point.
+
+Growth spending adds capacity, so it is tied to the company's expansion plans and the revenue forecast. The 20 new stores in the earlier example need it. A revenue forecast that assumes new capacity without the spending to build it is not coherent.
+
+Capital structure is forecast from the company's history and management's financial strategy, often stated as a target leverage ratio such as debt to capital, debt to equity, or debt to EBITDA, which is earnings before interest, taxes, depreciation and amortization. Debt covenants can set a ceiling. Suppose management targets debt of 2 times EBITDA, and you forecast EBITDA of 300 million dollars. Debt is then about 600 million, and at a 5 percent average interest rate, interest expense is about 30 million. Any funding gap must be filled with debt or equity in a way that keeps leverage near that target.
+
+Last, scenario analysis. A single point forecast hides uncertainty. Scenario analysis builds several complete, internally consistent forecasts, usually a base case, an upside case and a downside case, and it can assign each one a probability. It differs from sensitivity analysis, which changes one input at a time while holding the rest constant. Scenario analysis changes several related inputs together, such as a recession that lowers volume, price and margins all at once.
+
+Here is a worked example. Your upside case gives a value of 80 dollars per share with a 25 percent probability. The base case gives 60 dollars with a 50 percent probability, and the downside case gives 30 dollars with a 25 percent probability. Weight each value by its probability: a quarter of 80 is 20, half of 60 is 30, and a quarter of 30 is 7.5, so the probability weighted value is 57.5 dollars. It sits below the base case because the downside is deeper than the upside is high. Banks and credit unions use the same idea in capital planning, running base and adverse interest rate and credit scenarios through the whole balance sheet.
+
+So remember the rules of this module. Top down, company revenue equals market size times market share. Bottom up, revenue equals volume times price. Maintenance spending starts from depreciation adjusted upward for inflation. And every line of the forecast must be coherent with every other line.
+
+## Recall check
+
+Q: Three firms hold market shares of 50 percent, 30 percent and 20 percent. What is the Herfindahl Hirschman index, using whole percentages?
+
+Answer: 3,800. Square each share to get 2,500, 900 and 400, then add them. In decimal form the same index is 0.38, and a monopoly would score 10,000, or 1 in decimals.
+
+Q: An industry shows slowing but still positive growth, excess capacity, falling prices and a wave of business failures. Which life cycle stage is it most likely in?
+
+Answer: The shakeout stage. Growth has slowed while capacity built for a faster market remains, so competition intensifies and weaker companies fail. In the growth stage, demand rises fast enough that competition is mild, and in the decline stage, demand is actually shrinking.
+
+Q: Which of these most likely intensifies rivalry within an industry: high barriers to entry, high barriers to exit, or strong customer loyalty to brands?
+
+Answer: High barriers to exit. When specialized assets or other costs keep weak companies from leaving, unprofitable capacity stays in the industry and pushes prices down. High entry barriers and brand loyalty both tend to protect profitability.
+
+Q: A company says it follows a differentiation strategy, but its gross margin is below its peers and it spends less than they do on research and marketing. What is the most likely conclusion?
+
+Answer: The financial evidence does not support the claimed strategy. A successful differentiator usually earns higher gross margins than its peers, because customers pay a premium, and it invests in the product features and brand that justify that premium. Treat the strategy claim with skepticism.
+
+Q: A market of 50 billion dollars is expected to grow 10 percent next year, and a company's market share is expected to rise from 20 percent to 22 percent. What is the company's revenue forecast?
+
+Answer: 12.1 billion dollars. The market grows to 55 billion, and 22 percent of 55 billion is 12.1 billion. That is 21 percent growth from 10 billion, not the 12 percent you get by adding 10 percent of market growth to 2 points of share.
+
+Q: An analyst forecasts a highly cyclical company by extending last year's record results. What is the main risk, and how should the forecast horizon be set?
+
+Answer: Last year was likely a peak, so the historical results approach would carry peak profits forward and overstate earnings. The horizon should be long enough to include a normal, midcycle year. The analyst should lean on base rates or discretionary judgment rather than simple extrapolation.
+
+## Recap
+
+Industry analysis has five steps: define the industry, survey it, analyze its structure, assess outside influences, and evaluate the company's competitive position. Classification systems place each company in one group, based mainly on the activity that produces most of its revenue, and defensive describes steady demand, not a safe share price. The H H I is the sum of the squared market shares, and it captures concentration and mergers that a simple concentration ratio misses. Competition is mild in the growth stage of the life cycle and fiercest in the shakeout.
+
+The stronger the five forces, the lower long run industry profitability, and high exit barriers make rivalry worse. Cost leaders win through low costs and high asset turnover, while differentiators win through a price premium and higher gross margins. In forecasting, top down revenue equals market size times market share, and bottom up revenue equals volume times price. Maintenance spending starts from depreciation adjusted upward for inflation, and scenario analysis changes several related assumptions together, while sensitivity analysis changes one at a time.

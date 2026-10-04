@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 04:45:32 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 05:04:45 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -423,6 +423,23 @@
     <itunes:duration>1958</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E24.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E25 Industry Analysis and Company Forecasting</title>
+    <itunes:title>Industry Analysis and Company Forecasting</itunes:title>
+    <itunes:episode>25</itunes:episode>
+    <itunes:season>5</itunes:season>
+    <podcast:season name="Equity Investments">5</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Equity Investments, Kaplan Modules 44.1 to 45.1. 44.1 Industry Analysis, 44.2 Industry Structure and Competitive Positioning, 45.1 Forecasting in Company Analysis</description>
+    <itunes:summary>Equity Investments, Kaplan Modules 44.1 to 45.1. 44.1 Industry Analysis, 44.2 Industry Structure and Competitive Positioning, 45.1 Forecasting in Company Analysis</itunes:summary>
+    <content:encoded><![CDATA[<p>Equity Investments, Kaplan Modules 44.1 to 45.1.</p><ul><li>Module 44.1, Industry Analysis</li><li>Module 44.2, Industry Structure and Competitive Positioning</li><li>Module 45.1, Forecasting in Company Analysis</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:12 The big picture</li><li>1:34 Module 44.1, Industry Analysis</li><li>9:44 Module 44.2, Industry Structure and Competitive Positioning</li><li>17:32 Module 45.1, Forecasting in Company Analysis</li><li>28:18 Recall check</li><li>31:48 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E25.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E25_v2.mp3" length="9973874" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e25</guid>
+    <pubDate>Sat, 03 Oct 2026 12:25:00 -0500</pubDate>
+    <itunes:duration>1994</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E25.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>
