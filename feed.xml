@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 02:52:04 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 03:10:58 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -304,6 +304,23 @@
     <itunes:duration>1986</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E17.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E18 Income Taxes</title>
+    <itunes:title>Income Taxes</itunes:title>
+    <itunes:episode>18</itunes:episode>
+    <itunes:season>4</itunes:season>
+    <podcast:season name="Financial Statement Analysis">4</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Financial Statement Analysis, Kaplan Modules 35.1 to 35.3. 35.1 Differences Between Accounting Profit and Taxable Income, 35.2 Deferred Tax Assets and Liabilities, 35.3 Tax Rates and Disclosures</description>
+    <itunes:summary>Financial Statement Analysis, Kaplan Modules 35.1 to 35.3. 35.1 Differences Between Accounting Profit and Taxable Income, 35.2 Deferred Tax Assets and Liabilities, 35.3 Tax Rates and Disclosures</itunes:summary>
+    <content:encoded><![CDATA[<p>Financial Statement Analysis, Kaplan Modules 35.1 to 35.3.</p><ul><li>Module 35.1, Differences Between Accounting Profit and Taxable Income</li><li>Module 35.2, Deferred Tax Assets and Liabilities</li><li>Module 35.3, Tax Rates and Disclosures</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>2:03 Module 35.1, Differences Between Accounting Profit and Taxable Income</li><li>10:46 Module 35.2, Deferred Tax Assets and Liabilities</li><li>18:05 Module 35.3, Tax Rates and Disclosures</li><li>26:41 Recall check</li><li>30:22 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E18.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E18_v2.mp3" length="9668827" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e18</guid>
+    <pubDate>Sat, 03 Oct 2026 12:18:00 -0500</pubDate>
+    <itunes:duration>1934</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E18.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>
