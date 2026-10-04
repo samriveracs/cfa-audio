@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 06:21:48 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 06:40:54 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -525,6 +525,23 @@
     <itunes:duration>1883</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E30.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E31 Convexity and Curve Based Risk Measures</title>
+    <itunes:title>Convexity and Curve Based Risk Measures</itunes:title>
+    <itunes:episode>31</itunes:episode>
+    <itunes:season>6</itunes:season>
+    <podcast:season name="Fixed Income">6</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Fixed Income, Kaplan Modules 58.1 to 59.1. 58.1 Yield-Based Bond Convexity and Portfolio Properties, 59.1 Curve-Based and Empirical Fixed-Income Risk Measures</description>
+    <itunes:summary>Fixed Income, Kaplan Modules 58.1 to 59.1. 58.1 Yield-Based Bond Convexity and Portfolio Properties, 59.1 Curve-Based and Empirical Fixed-Income Risk Measures</itunes:summary>
+    <content:encoded><![CDATA[<p>Fixed Income, Kaplan Modules 58.1 to 59.1.</p><ul><li>Module 58.1, Yield-Based Bond Convexity and Portfolio Properties</li><li>Module 59.1, Curve-Based and Empirical Fixed-Income Risk Measures</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>1:59 Module 58.1, Yield-Based Bond Convexity and Portfolio Properties</li><li>14:53 Module 59.1, Curve-Based and Empirical Fixed-Income Risk Measures</li><li>27:58 Recall check</li><li>31:18 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E31.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E31_v2.mp3" length="9870982" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e31</guid>
+    <pubDate>Sat, 03 Oct 2026 12:31:00 -0500</pubDate>
+    <itunes:duration>1974</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E31.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>

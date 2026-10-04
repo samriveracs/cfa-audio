@@ -1,0 +1,161 @@
+## The big picture
+
+In the previous episode, duration gave you a straight line estimate of how a bond's price responds to a change in yield. This episode completes the interest rate risk toolkit in two steps.
+
+The first module adds convexity. The true relationship between a bond's price and its yield is a curve, not a straight line, and convexity measures how much that curve bends. With duration and convexity together, your estimate of a price change becomes far more accurate, especially for large moves in yield. The module then scales both measures up from a single bond to a whole portfolio, and shows what that scaling quietly assumes.
+
+The second module drops two assumptions that sit behind every yield based measure. The first assumption is that a bond's cash flows stay fixed when rates change. Callable bonds, putable bonds and mortgage backed securities break that assumption, so you need effective duration and effective convexity, measured against shifts in a benchmark yield curve. The second assumption is that every yield moves by the same amount. Key rate durations handle changes in the shape of the curve. Then you will see how changes in credit spreads and liquidity run through the same duration math, and why a duration estimated from market data can differ from one calculated by formula.
+
+Expect calculations of price changes with a convexity adjustment, calculations of effective duration and convexity from three prices, and concept questions on callable bonds, key rates and empirical duration. One idea ties it all together. Duration is the slope, convexity is the bend, and each is only as good as its assumptions.
+
+## Module 58.1, Yield-Based Bond Convexity and Portfolio Properties
+
+Start with a picture. Plot a bond's price on the vertical axis and its yield on the horizontal axis. For an ordinary bond with no embedded options, the plot slopes down, because higher yields mean lower prices. But it is not straight. It bows toward the origin, steep at low yields and flatter at high yields, like the inside of a bowl.
+
+Duration measures the slope of that curve at the bond's current yield. In effect, it draws a straight line that touches the curve at one point, and uses that line to estimate new prices. Because the true curve sits above that line on both sides, the straight line estimate is always too pessimistic. When yields fall, the bond gains more than duration predicts. When yields rise, the bond loses less than duration predicts. Convexity measures how strongly the curve bends, and it corrects the straight line estimate.
+
+Why does the curve bend at all? Remember from the previous episode that a lower yield means a higher duration. So as yields fall, the bond becomes more sensitive, and its price rise speeds up. As yields rise, duration shrinks, and the price decline slows down. Convexity captures how fast the slope changes as the yield moves.
+
+Here is the key formula, spoken slowly. The percentage change in the bond's full price is approximately equal to negative annual modified duration times the change in yield, plus one half times annual convexity times the change in yield squared. The change in yield is written as a decimal in both terms. The first term is the duration effect. The second term is called the convexity adjustment.
+
+Notice what the squaring does. Whether the yield goes up or down, the change in yield squared is a positive number. So for a bond with positive convexity, the adjustment is always added. It shrinks the loss when yields rise, and it enlarges the gain when yields fall.
+
+Let's work an example with round numbers. A bond has an annual modified duration of 8 and an annual convexity of 80. Yields rise by 100 basis points, which is 0.01 as a decimal. The duration effect is negative 8 times 0.01, or negative 8 percent. For the convexity adjustment, 0.01 squared is 0.0001, times 80 gives 0.008, and half of that is 0.004, or 0.4 percent. Add the two pieces, and the estimated price change is negative 7.6 percent.
+
+Now let yields fall by 100 basis points instead. The duration effect is positive 8 percent. The convexity adjustment is still positive 0.4 percent. The estimate is a gain of 8.4 percent. The gain is larger than the loss for the same size move. That asymmetry is what positive convexity means.
+
+How much does the adjustment help? Take a real bond with 10 years to maturity, a 5 percent annual coupon and a yield of 5 percent, so it is priced at 100. Its modified duration is about 7.7 and its convexity is about 75. Now let its yield jump by 2 percentage points.
+
+Duration alone predicts a price drop of about 15.4 percent. Adding the convexity adjustment brings the estimate to a drop of about 13.9 percent. Repricing the bond at a 7 percent yield gives a true drop of about 14.0 percent. So convexity closes most of the gap, and it matters most for large moves.
+
+Now, how do you measure convexity? You can compute it exactly from every cash flow, but the practical tool is an approximation built from the same three prices you used for approximate modified duration. Here it is in words. Approximate convexity equals the price when the yield falls, plus the price when the yield rises, minus two times the original price, all divided by the change in yield squared times the original price.
+
+The logic is simple. If price and yield followed a straight line, the price after a fall in yield and the price after an equal rise would average out to exactly the original price, and the top of the fraction would be zero. Curvature makes the two prices add up to more than twice the original price. That excess, scaled by the size of the move and the starting price, is convexity.
+
+Let's get the three prices for our 10 year bond on the B A two plus, using the time value of money worksheet. Press second, then F V, to clear it. Check that P Y is 1 by pressing second, then I Y, entering 1 and pressing enter, then press second and C P T to quit. Stay in end mode, the default.
+
+Enter 10 and press N. Enter 5 and press P M T. Enter 100 and press F V.
+
+Now enter 4 and press I Y, then press C P T, then P V. The display shows about negative 108.11. Change I Y to 6, press C P T, then P V again, and the display shows about negative 92.64. Ignore the negative signs, which only mean the price is money paid out.
+
+Now apply the formula with a change in yield of 0.01. The top is 108.11 plus 92.64, which is 200.75, minus 200, which leaves 0.75. The bottom is 0.01 squared, which is 0.0001, times 100, which is 0.01. Divide 0.75 by 0.01, and approximate convexity is about 75. The same two prices give an approximate modified duration of about 7.7, as before.
+
+Here are the traps in this formula. First, the bottom uses the change in yield squared, not two times the change in yield. That two belongs to the duration formula. Second, the change in yield must be a decimal. A 100 basis point move is 0.01, and 0.01 squared is 0.0001. If you square 1 instead, your answer is off by a factor of ten thousand.
+
+Third, do not drop the one half when you use convexity to estimate a price change. Candidates who compute convexity correctly and then forget the one half double the adjustment.
+
+One more conversion trap. If convexity is calculated in periods, such as half years for a semiannual bond, convert it to an annual figure by dividing by the number of periods per year, squared. For a semiannual bond that means dividing by 4, not 2. So a convexity of 300 measured in half year periods is an annual convexity of 75. Duration converts by dividing by the periods per year, but convexity is measured in time squared, so it converts by the square.
+
+Risk managers also want convexity in money. Money convexity equals annual convexity times the full price of the position. The estimated change in value, in dollars, equals negative money duration times the change in yield, plus one half times money convexity times the change in yield squared.
+
+Take a position with a full value of 10 million dollars, a modified duration of 8 and a convexity of 80. Money duration is 80 million dollars, and money convexity is 800 million dollars. If yields rise 100 basis points, the duration effect is 80 million times 0.01, a loss of 800,000 dollars. The convexity adjustment is one half times 800 million times 0.0001, a gain of 40,000 dollars. The net estimated loss is 760,000 dollars, which is 7.6 percent of the position, matching the percentage example.
+
+Now the properties of convexity. The same features that raise duration also raise convexity. A longer maturity, a lower coupon and a lower yield all mean more convexity. For example, at a 5 percent yield, a 10 year zero coupon bond has a convexity of about 100, while the 10 year bond with a 5 percent coupon has about 75.
+
+The fourth property, new in this module, is dispersion. Holding duration constant, the more spread out a bond's cash flows are around that duration, the higher its convexity. A zero coupon bond has all of its cash arriving on one date, so for a given duration it has the least convexity possible. Our 10 year coupon bond has a Macaulay duration of about 8.1 years. A zero coupon bond maturing in 8.1 years has the same duration, but its convexity is only about 67, compared with about 75. By the same logic, a portfolio that holds very short and very long bonds has more convexity than a single bond with the same duration.
+
+Why does this matter? If two option free bonds share the same price, yield and duration, the one with more convexity gains more when yields drop and loses less when they climb. So, all else equal, more convexity is valuable to the bond holder.
+
+Now scale up to a portfolio. There are two ways to measure a portfolio's duration.
+
+The first treats the whole portfolio as one big bond. You add up every cash flow from every bond by date, and find the single discount rate that makes the present value of those combined cash flows equal the portfolio's market value. That rate is the cash flow yield, which is really the internal rate of return of the portfolio. Then you compute duration from the combined cash flows at that rate. This is the more theoretically sound method, but it has two problems. The cash flow yield is not commonly calculated in practice, and the method breaks down when cash flows are uncertain, as with callable bonds or mortgage backed securities.
+
+The second method is the one used most in practice. Portfolio duration equals the weighted average of the individual bonds' durations, where each weight is that bond's full market value divided by the total market value of the portfolio. Portfolio convexity is found the same way. This method is easy, it works with effective durations for bonds that have embedded options, and it shows how much each holding contributes to the portfolio's risk.
+
+Here is a quick example. A portfolio puts 60 percent of its market value in bond A, with a modified duration of 4 and a convexity of 20. It puts 40 percent in bond B, with a modified duration of 9 and a convexity of 100. Portfolio duration is 0.6 times 4, which is 2.4, plus 0.4 times 9, which is 3.6, for a total of 6. Portfolio convexity is 0.6 times 20, which is 12, plus 0.4 times 100, which is 40, for a total of 52. Money durations simply add across the bonds.
+
+Here is the limitation. The weighted average method implicitly assumes that every bond's yield changes by the same amount. In other words, it assumes a parallel shift of the yield curve. If short yields and long yields move differently, a single portfolio duration misstates the risk. The two methods give nearly the same answer when the yield curve is flat, and they drift apart as the curve gets steeper.
+
+Two last traps on portfolios. The weights are market values, not par values. And a portfolio duration of 6 means a 1 percentage point parallel shift changes the portfolio's value by about 6 percent. It does not tell you what happens when the curve twists.
+
+So the rule to carry from this module is this. The percentage change in price is approximately negative modified duration times the change in yield, plus one half times convexity times the change in yield squared.
+
+## Module 59.1, Curve-Based and Empirical Fixed-Income Risk Measures
+
+Everything so far has been yield based. You shift the bond's own yield to maturity and assume its cash flows stay the same. That works for a plain fixed rate bond. It fails when the cash flows themselves depend on rates.
+
+Three common examples. A callable bond lets the issuer redeem it early at the call price, which the issuer tends to do when rates fall enough to refinance more cheaply. A putable bond lets the investor sell it back to the issuer at the put price, which the investor tends to do when rates rise. And mortgage backed securities, or MBS, pass through payments from homeowners, who prepay faster when rates fall. For all of these, a modified duration built on one fixed set of cash flows cannot describe how the price will really respond.
+
+The fix is a curve based measure. Instead of shifting the bond's own yield, you shift a benchmark yield curve, usually the government par curve, up and down by the same small amount. You reprice the bond each time with a pricing model that lets the embedded option respond to the new rates, while holding the bond's spread over the benchmark constant. Then you plug the three prices into formulas you already know.
+
+Effective duration equals the price when the benchmark curve shifts down minus the price when the curve shifts up, divided by two times the change in the curve times the original price. Effective convexity equals the price when the curve shifts down, plus the price when the curve shifts up, minus two times the original price, all divided by the change in the curve squared times the original price.
+
+These have the same shape as the approximation formulas from the first module. Two things differ. You shift the benchmark curve, not the bond's own yield. And the new prices come from a model that lets cash flows change. For a bond with no embedded options, effective duration and modified duration are usually very close. For a bond with options, effective duration is the right measure.
+
+Now look at how a callable bond behaves. When rates are high, a call is unlikely, so the bond behaves much like an otherwise identical straight bond, with positive convexity. As rates fall, the call becomes more likely. Investors will not pay much more than the price at which the issuer can take the bond away, so the price rise is capped near the call price. The price curve flattens and starts to bend the other way, which is negative convexity. Because of this cap, a callable bond's effective duration is no greater than that of the otherwise identical straight bond, and it shrinks as rates fall.
+
+Here is an example you can do in your head, for a callable bond priced at 100. Shift the benchmark curve down 50 basis points, and the model price is 101.8. Shift it up 50 basis points, and the price is 98.0. For effective duration, the top is 101.8 minus 98.0, which is 3.8. The bottom is 2 times 0.005 times 100, which is exactly 1. So effective duration is 3.8.
+
+For effective convexity, add the two prices. 101.8 plus 98.0 is 199.8. Subtract 200, and the top is negative 0.2. The bottom is 0.005 squared, which is 0.000025, times 100, which is 0.0025. Negative 0.2 divided by 0.0025 is negative 80.
+
+You can sense the sign before you calculate. The bond gains only 1.8 when rates fall but loses 2.0 when rates rise. The gain is smaller than the loss, so convexity is negative.
+
+Now estimate the price change for a 100 basis point rise in the benchmark curve. The duration effect is negative 3.8 times 0.01, or negative 3.8 percent. The convexity adjustment is one half times negative 80 times 0.0001, or negative 0.4 percent. The estimate is negative 4.2 percent. For a 100 basis point fall, the duration effect is positive 3.8 percent, the adjustment is still negative 0.4 percent, and the estimate is a gain of 3.4 percent.
+
+Here is the trap. Earlier, with positive convexity, the adjustment always helped. With negative convexity, it hurts in both directions. The bond loses more than duration predicts when rates rise and gains less when rates fall. Keep the sign of convexity in the formula. A fixed rate mortgage works like a callable bond from the lender's side, so a bank or credit union holding fixed rate mortgages or MBS owns this negative convexity, because borrowers refinance when rates fall.
+
+A putable bond is the mirror image. When rates rise, the put becomes valuable, because the investor can sell the bond back at the put price. That creates a floor under the price, so the bond falls less than a straight bond would. A putable bond's effective duration is no greater than that of the straight bond, and it shrinks as rates rise. A putable bond has positive convexity, and more of it than the straight bond when the put is close to being used.
+
+To remember the pair, the holder of a callable bond has sold an option to the issuer, giving up upside, while the holder of a putable bond has bought one, adding protection and convexity. Both options shorten effective duration when they are likely to be exercised.
+
+Effective duration still assumes a parallel shift of the benchmark curve. Real curves steepen, flatten and twist. That is where key rate duration comes in. Key rate duration, also called partial duration, measures the sensitivity of a bond's or a portfolio's value to a change in the benchmark yield at one particular maturity, holding the yields at all other maturities constant. You choose a set of key maturities, such as 2, 5, 10 and 30 years, and shift them one at a time.
+
+The key property is this. The key rate durations of a bond or portfolio add up to its effective duration. A parallel shift moves every key rate at once, so adding up the separate effects gives you back the whole.
+
+Here is the formula in words. The percentage change in value is approximately negative the sum, across all the key rates, of each key rate duration times the change in that key rate.
+
+Here is an example. A portfolio has an effective duration of 6. Its key rate durations are 1 at the 2 year point, 2 at the 5 year point and 3 at the 10 year point, which add up to 6. Now the curve steepens. The 2 year yield falls 20 basis points, the 5 year yield is unchanged, and the 10 year yield rises 20 basis points.
+
+The 2 year piece is negative 1 times negative 0.002, a gain of 0.2 percent. The 5 year piece is zero. The 10 year piece is negative 3 times 0.002, a loss of 0.6 percent. The net is a loss of about 0.4 percent.
+
+Notice what happened. The average change across those three yields is zero, so applying effective duration to the average move would have predicted no change at all. Key rate durations reveal shaping risk, which is the risk from changes in the shape of the yield curve. Two portfolios with the same effective duration can have very different key rate profiles. Balance sheet risk teams use key rate exposures the same way, to see how the whole book fares if the curve steepens or flattens.
+
+Next come credit spreads and liquidity, because a corporate bond's yield to maturity equals a benchmark yield plus a spread. The spread compensates the investor for two things. One is credit risk, the chance of losing money if the issuer defaults. The other is liquidity risk, the chance that you cannot sell quickly at a fair price, which shows up in wide bid offer spreads and thin trading. If the issuer's credit quality worsens, or its bonds become harder to trade, the spread widens, the yield rises and the price falls. If credit or liquidity improves, the spread narrows and the price rises.
+
+For a fixed rate bond with no embedded options, the price does not care why its yield changed. The same duration and convexity apply to a change in the spread as to a change in the benchmark yield. The sensitivity to a change in spread is often called spread duration, and for such a bond it is about the same as modified duration. So the percentage price change is approximately negative modified duration times the change in spread, plus one half times convexity times the change in spread squared.
+
+Take a bond with a modified duration of 5 and a convexity of 40. After a downgrade, its spread widens 50 basis points while the benchmark yield is unchanged. The duration effect is negative 5 times 0.005, or negative 2.5 percent. For the convexity adjustment, 0.005 squared is 0.000025, times 40 is 0.001, and half of that is 0.0005, or 0.05 percent. The estimated price change is about negative 2.45 percent.
+
+If the benchmark yield and the spread both change, add the two changes first to get the change in yield to maturity, then apply duration and convexity. Suppose the benchmark falls 30 basis points while the spread widens 50 basis points. The yield to maturity rises 20 basis points, and this bond's price falls about 1 percent.
+
+That leads to the last idea, empirical versus analytical duration. Every measure so far is analytical. It comes from a formula or a pricing model, given assumed cash flows and an assumed change in yield. Analytical duration implicitly assumes that changes in the benchmark yield and changes in the spread are unrelated, so a benchmark move passes straight through to the bond's yield. Empirical duration is estimated from historical market data, using a statistical model, such as a regression of the bond's percentage price changes on changes in the benchmark yield. It measures how the bond has actually responded, including the way its spread tends to move when benchmark rates move.
+
+For government bonds, there is little credit spread to move, so empirical and analytical durations are usually close. For bonds with meaningful credit risk, and above all for high yield bonds, spreads and benchmark yields often move in opposite directions. In a slowdown or a flight to quality, investors buy government bonds, which pushes benchmark yields down, while corporate spreads widen on default fears. In a strong economy, benchmark yields tend to rise while spreads narrow. Either way, the spread change partly offsets the benchmark change, so the bond's price responds less than analytical duration predicts. Empirical duration ends up lower than analytical duration.
+
+A quick example. A high yield bond has an analytical duration of 5. In a recession scare, benchmark yields fall 100 basis points and the bond's spread widens 60 basis points. Its yield falls only 40 basis points, so its price rises about 2 percent. Per 100 basis points of benchmark move, that is an empirical duration of about 2, not 5.
+
+Here is the trap. If a question asks which bond's empirical duration is most likely to fall well below its analytical duration, pick the bond with the most credit risk, not the one with the longest maturity.
+
+So the rule to carry from this module is this. Effective duration equals the price when the benchmark curve shifts down minus the price when it shifts up, divided by two times the change in the curve times the original price, and it is the right measure whenever a bond's cash flows change with rates.
+
+## Recall check
+
+Q: A bond has an annual modified duration of 6 and an annual convexity of 50. If its yield falls 100 basis points, what is the estimated percentage change in its price?
+
+Answer: About positive 6.25 percent. The duration effect is negative 6 times negative 0.01, a gain of 6 percent. The convexity adjustment is one half times 50 times 0.0001, which adds 0.25 percent.
+
+Q: A manager finds portfolio duration as the market value weighted average of the individual bonds' durations. What key assumption does that number rely on?
+
+Answer: It assumes a parallel shift of the yield curve, meaning every bond's yield changes by the same amount. The alternative based on the portfolio's cash flow yield is more theoretically sound, but it is rarely calculated and cannot handle bonds whose cash flows depend on rates.
+
+Q: Benchmark yields have fallen well below the coupon rate of a callable bond. Is its effective convexity most likely positive, zero or negative?
+
+Answer: Most likely negative. With the call likely, investors will not pay much above the call price, so the price rise is capped as rates fall. The bond gains less when rates fall than it loses when they rise.
+
+Q: A bond priced at 100 rises to 103.1 when the benchmark curve shifts down 50 basis points and falls to 97.1 when it shifts up 50 basis points. What is its effective duration, and is its convexity positive or negative?
+
+Answer: Effective duration is 6. The difference in prices is 6, and the bottom of the formula is 2 times 0.005 times 100, which is 1. Convexity is positive, because the two prices add to 200.2, which is more than twice the original price.
+
+Q: What do a portfolio's key rate durations add up to, and what risk do they reveal that a single duration number misses?
+
+Answer: They add up to the portfolio's effective duration. Together they reveal shaping risk, the exposure to the curve steepening, flattening or twisting rather than shifting in parallel.
+
+Q: For a high yield corporate bond, is empirical duration most likely higher than, about equal to, or lower than its analytical duration?
+
+Answer: Most likely lower. When benchmark yields fall, high yield spreads tend to widen, and when benchmark yields rise, spreads tend to narrow. The spread move partly offsets the benchmark move, so the price reacts less than the formula predicts.
+
+## Recap
+
+Convexity corrects the straight line estimate from duration, and the percentage price change is approximately negative modified duration times the change in yield, plus one half times convexity times the change in yield squared. Approximate convexity equals the down price plus the up price minus twice the original price, divided by the change in yield squared times the original price. Lower coupons, longer maturities, lower yields and more dispersed cash flows all mean more convexity, and a zero coupon bond has the least convexity for its duration.
+
+Portfolio duration is usually the market value weighted average of the bonds' durations, which assumes a parallel shift of the yield curve. Effective duration and effective convexity shift the benchmark curve and use model prices, so they are the right measures for callable bonds, putable bonds and MBS. Callable bonds can have negative convexity at low yields, while putable bonds have more positive convexity than straight bonds. Key rate durations add up to effective duration and reveal shaping risk. Spread changes move a bond's price through the same duration and convexity, and empirical duration is usually lower than analytical duration for bonds with high credit risk.
