@@ -1,0 +1,177 @@
+## The big picture
+
+This episode finishes alternative investments with three very different corners of the market. Natural resources are land that grows things and raw materials that are mined or harvested. Hedge funds package active strategies with few restrictions. Digital assets are the newest, built on a shared ledger that no single party controls. For each one, the exam asks the same questions. Where does the return come from, what risks come with it, and how does it behave next to stocks and bonds?
+
+Module 80.1 covers raw land, timberland, farmland and commodities, and its most tested piece is how commodity futures are priced and why a long futures investor earns or loses roll yield. Module 81.1 covers how hedge funds differ from mutual funds, their strategy families, the ways to invest, and why reported returns look better than they really were. Module 82.1 explains distributed ledger technology, consensus through proof of work or proof of stake, and the types of digital assets. Module 82.2 covers how digital assets behave as investments, the vehicles that hold them, and their risks.
+
+Expect mostly conceptual questions about the most likely source of return, the direction of an effect, or the vehicle that fits an investor. The one calculation to own is the approximate futures price. Everything else is reasoning, so aim to understand each mechanism well enough that the right answer feels obvious.
+
+## Module 80.1, Farmland, Timberland, and Commodities
+
+Start with land. Unlike ordinary real estate, the value here sits in the land and what grows on it, not in buildings. Raw land is undeveloped land with no improvements. Timberland is forest managed to grow and sell trees. Farmland is land used to grow crops, either by the owner or by a farmer who pays rent.
+
+Raw land produces no income and costs money to hold, so its whole return comes from price appreciation. Part of that is option value. The owner has the right, but not the obligation, to develop, rezone or sell when conditions are favorable, and like any option, that right is worth more when the future is more uncertain.
+
+Timberland has three sources of return. First, biological growth. Trees get bigger every year whether markets are up or down. Second, changes in the price of timber. Third, changes in the value of the land.
+
+Timber also offers flexibility in timing the harvest. If lumber prices are low, the owner simply waits. The trees keep growing and the inventory stays stored on the stump.
+
+Farmland returns come from the crops harvested, the prices they fetch, and changes in land value. An owner who leases the land to a farmer earns rent instead. Row crops, such as corn, wheat and soybeans, are planted and harvested every year. Permanent crops, such as orchards and vineyards, take years to mature and then produce for many years.
+
+Here is the trap. Crops must be harvested when ripe, and many spoil quickly, so a farmland owner cannot wait for better prices. If a question asks which investment gives more control over when output is sold, the answer is timberland, because growing trees are a living inventory.
+
+Both are illiquid and need specialized management. Investors can own them directly, through private funds, or through public vehicles such as timber or farmland REITs. The main risks are weather, fire, pests, disease, commodity prices and regulation, such as limits on harvesting. Timberland also suits investors with ESG goals, since well managed forests store carbon.
+
+Now commodities. A commodity is a standardized physical good, so one unit is interchangeable with another. Examples are energy such as crude oil, metals such as copper and gold, grains, and livestock. A physical commodity pays no interest or dividends, so its return comes from price changes, driven by supply and demand shocks and the business cycle.
+
+Holding the physical good means paying for storage, insurance and transport, so most investors use derivatives, mainly futures. Other routes include commodity ETFs, managed futures funds run by commodity trading advisors, and the shares of commodity producers. Here is a trap. An oil producer's stock is not the same as oil. Its price also reflects the company's costs, debt and hedging, and the stock market, so the commodity exposure is partial and impure.
+
+Next, the pricing relationship you must know. You can own a barrel of oil a year from now in two ways. Buy it today and store it, or buy a futures contract and pay later. Buying today ties up money that could earn interest, and storage costs money, so the futures price should be higher by those amounts.
+
+But holding the physical barrel has a benefit. If a shortage hits, you have oil in hand to keep a refinery running. That benefit is the convenience yield, and since the futures holder does not get it, it pulls the futures price down. So, approximately, the futures price equals the spot price times one plus the risk free rate, plus storage costs, minus the convenience yield.
+
+Try it. Spot oil is 100 dollars, the risk free rate is 5 percent, storage costs 3 dollars, and the convenience yield is worth 1 dollar. The futures price is about 100 times 1.05, which is 105, plus 3, minus 1, giving 107 dollars. Now suppose a shortage pushes the convenience yield to 10 dollars. The futures price becomes 105 plus 3 minus 10, which is 98 dollars, below spot.
+
+Those outcomes have names. Futures above spot is contango, typical when inventories are ample. Futures below spot is backwardation, typical when supplies are tight and convenience yield is high.
+
+A fully collateralized long futures position earns three return components. First, the price return, from changes in the spot price. Second, the roll yield. Third, the collateral return, which is the interest earned on the cash or Treasury bills backing the position.
+
+Roll yield exists because futures expire. To keep exposure, you sell the expiring contract and buy a longer dated one, and every contract converges to spot as it nears expiration. In backwardation, you buy below spot, and if spot stays put, the contract drifts up toward it. That is a gain, so roll yield is positive. In contango, you buy above spot and the contract drifts down, so roll yield is negative.
+
+Picture it. Spot oil is 80 dollars and stays there, and the next contract costs 82 dollars. By expiration it converges to 80, so you lose 2 dollars a barrel, about 2.4 percent, though spot never moved.
+
+Here is the trap. Roll yield depends on the shape of the futures curve, not on whether prices rise or fall. A long investor can lose money in contango even while spot prices drift higher. And the collateral return is not roll yield. It is simply interest on the collateral.
+
+Now risk, return and diversification. Commodities are volatile, but their returns have had low correlation with stocks and bonds and positive correlation with inflation, especially unexpected inflation. That makes them a common inflation hedge. Timberland and farmland have also shown low correlation with traditional assets, and they tend to hold value in inflation because land and crop prices rise with the general price level.
+
+One caution. Farmland and timberland are valued by slow moving appraisals, so reported volatility and correlations look smoother than the true risk. A tempting wrong answer calls them low risk because index volatility is low. That low number is partly a measurement effect.
+
+To lock in the key rule, the futures price is approximately the spot price times one plus the risk free rate, plus storage costs, minus the convenience yield. Backwardation gives a long position positive roll yield, and contango gives negative roll yield.
+
+## Module 81.1, Hedge Funds
+
+A hedge fund is defined more by its structure than by what it holds. It is a private vehicle that pools money from institutions and wealthy investors and gives a manager wide freedom to invest it. The name comes from early funds that hedged market risk, but many strategies today hedge very little.
+
+Contrast this with a mutual fund, which is tightly regulated, sold to the public, offers daily liquidity, discloses its holdings, and faces limits on leverage and short selling. A hedge fund is lightly regulated and open only to institutions and wealthy, qualified investors. It uses leverage, short selling and derivatives freely. It charges a management fee plus an incentive fee, usually subject to a high water mark. It discloses less, and it restricts withdrawals.
+
+Those restrictions take several forms. A lockup period is an initial stretch, often a year or more, when you cannot redeem at all. After that, redemptions may be allowed only monthly or quarterly, with a notice period of perhaps 30 to 90 days. A gate lets the manager cap how much capital can leave in one period. These terms exist because many hedge fund positions cannot be sold quickly without losing value. A bank or credit union applies the same discipline when it matches its funding to the liquidity of its assets.
+
+Most hedge funds are limited partnerships, with the manager as general partner and investors as limited partners. A side letter gives one investor special terms, such as lower fees or better liquidity.
+
+Six strategy families cover the field. First, equity hedge strategies. Long short equity buys stocks expected to beat the market and shorts those expected to lag, usually ending up net long. Dedicated short bias funds are mostly short. Equity market neutral funds balance longs and shorts so market exposure is near zero, and the return comes from stock selection.
+
+Second, event driven strategies, which trade around corporate events. When a company agrees to be acquired, its stock usually trades below the offer price because the deal might fail. In merger arbitrage, the manager buys the target and, in a stock for stock deal, shorts the acquirer. Distressed securities strategies buy the debt or equity of companies in or near bankruptcy, betting that the recovery is worth more than the market price.
+
+Third, relative value strategies, which bet that a price gap between related securities will close. In convertible bond arbitrage, the manager buys a convertible bond that looks cheap and shorts the issuer's stock to hedge the equity exposure. The gaps are small, so these strategies often use heavy leverage.
+
+Fourth, opportunistic strategies. Global macro managers take views on interest rates, currencies, commodities and equity markets. Managed futures funds, run by commodity trading advisors, trade futures across many markets, often following trends with systematic rules.
+
+Fifth, specialist strategies, which need niche expertise, such as volatility trading or reinsurance. Sixth, multi manager strategies. A multi strategy fund runs several strategies within one firm and shifts capital among them, and a fund of funds invests in other hedge funds.
+
+Make merger arbitrage concrete. A target trades at 45 dollars after a 50 dollar cash offer. If the deal closes, you gain 5 dollars, about 11 percent. If it collapses, the stock might fall to 35 dollars, a loss of about 22 percent. A small, likely gain against a large, unlikely loss looks like selling insurance against deal failure.
+
+Here is the trap. Steady monthly returns can hide severe tail risk. Merger arbitrage, distressed debt and many relative value strategies have negatively skewed returns, and their losses tend to arrive together when markets are stressed.
+
+Now the investment forms. You can invest directly in a single fund as a limited partner. Large managers often use a master feeder structure. An onshore feeder fund for taxable domestic investors and an offshore feeder fund for foreign and tax exempt investors both pour capital into one master fund that holds the portfolio. That gives economies of scale in trading, while each investor group gets suitable tax treatment.
+
+Large investors wanting more control can use a fund of one, set up for a single investor, or a separately managed account. In a separately managed account, the assets sit in the investor's own name and the manager trades them. That gives full transparency and control over the assets, at a higher cost.
+
+The indirect route is a fund of funds. It offers diversification across managers, professional due diligence, and access to funds that may be closed to smaller investors, but it adds a second layer of fees.
+
+There is also netting risk. Suppose a fund of funds splits 200 million dollars equally between two managers. Manager A gains 20 million dollars and manager B loses 20 million dollars. The portfolio made nothing, but manager A still earns a 20 percent incentive fee on its gain, which is 4 million dollars. The investor pays a performance fee on a zero return. A multi strategy fund that charges its incentive fee on the overall result avoids this for the investor, but it concentrates operational risk in one firm.
+
+Now risk, return and diversification. Think of a hedge fund return in three layers. Market beta is broad market exposure you could buy cheaply in an index fund. Strategy beta, also called alternative beta, is the return for systematic risks a strategy takes on, such as the merger spread. Alpha is genuine manager skill, and it is the only layer worth premium fees.
+
+Then comes the measurement problem, because hedge fund databases rely on voluntary reporting. Survivorship bias arises because failed funds stop reporting and drop out, so the surviving record looks better than the full history. Backfill bias, also called instant history bias, arises because funds usually start reporting after a good run, and those earlier strong returns are added to the database. Both push reported returns up. Funds holding illiquid assets also use stale or model based prices, which smooths returns and understates volatility and correlation with markets.
+
+Here is the trap on diversification. Many strategies show modest correlation with stocks in normal times, but correlations tend to rise in a crisis, just when you need diversification. And net exposure matters more than the label. A fund with 100 million dollars of capital that is 120 million dollars long and 80 million dollars short is 40 percent net long. If the market drops 10 percent and both books move with it, the fund loses about 4 percent from market exposure alone.
+
+To lock in the key idea, reported hedge fund performance overstates returns and understates risk because of survivorship bias, backfill bias and smoothed pricing of illiquid holdings. And fund of funds investors pay two layers of fees and bear netting risk.
+
+## Module 82.1, Distributed Ledger Technology
+
+Start with the problem that distributed ledger technology solves. Normally a trusted intermediary such as a bank keeps the official record of who owns what. A distributed ledger replaces that single record keeper with a shared database. Many participants, called nodes, each hold a copy. They agree on which new entries are valid through rules called a consensus mechanism, and cryptography protects the records, so no single party can quietly change the books.
+
+A blockchain is the most common kind of distributed ledger. Transactions are grouped into blocks, and each block is linked to the one before it, forming a chain in time order. The link uses a cryptographic hash function, which turns any input into an output of fixed length that looks random. The same input always gives the same output, a tiny change in the input gives a completely different output, and you cannot work backward from output to input.
+
+Each block stores the hash of the previous block, so altering an old transaction breaks the link to every later block. That makes the ledger tamper evident and, on a large network, effectively permanent.
+
+Ownership is controlled with a pair of keys. Your public key works like an address that others can see and send assets to. Your private key works like a signature that lets you spend them. Lose it and the assets are gone for good, and anyone who steals it can take them.
+
+Now consensus, which is heavily tested. The network must agree on the next block without trusting any single participant.
+
+Proof of work is the original method, used by Bitcoin. Miners compete to solve a computational puzzle, essentially guessing numbers until one produces a block hash that meets a difficulty target. The winner adds the block and earns newly created coins plus transaction fees, and other nodes can verify the answer almost instantly. Security comes from cost. To rewrite history, an attacker would need more than half of the network's computing power, which is called a 51 percent attack, and on a large network that is extremely expensive. The drawbacks are enormous energy use and slow processing.
+
+Proof of stake replaces computing power with capital at risk. Validators lock up, or stake, their own coins, and the protocol selects them to confirm blocks, with the chance of selection tied to the size of the stake. Dishonest validators can lose part of their stake. Proof of stake uses far less energy and can process transactions faster. Its weaknesses are that it favors the largest holders, which can concentrate control, and that its security record is shorter. Ethereum moved from proof of work to proof of stake in 2022.
+
+Here is the trap. In proof of work, influence comes from computing power. In proof of stake, it comes from coins staked. Energy intensive mining points to proof of work. Validators putting their own holdings at risk points to proof of stake.
+
+Next, who may participate. In a permissionless network, anyone can join, view the ledger and validate transactions. Bitcoin is the standard example, fully decentralized but slower and harder to govern. In a permissioned network, a central authority or a group of known members controls who can join and what each participant may see or do. Financial institutions use them for tasks such as settlement among known parties, where speed and privacy matter more than open access. The tradeoff is less decentralization and more trust in whoever grants permission.
+
+What are the financial applications? First, cryptocurrencies, which move value between parties without a bank in the middle. Second, tokenization, which records ownership of a real asset such as a building or a bond as tokens on a ledger, allowing fractional ownership and faster transfer. Third, smart contracts, which are programs on a blockchain that execute automatically when set conditions are met, such as releasing payment once delivery is confirmed. Fourth, decentralized finance, where smart contracts provide lending, borrowing and trading without traditional intermediaries. Fifth, post trade clearing and settlement, where a shared ledger cuts the reconciliation and delays that arise when every institution keeps its own records.
+
+Finally, the types of digital assets. Cryptocurrencies such as Bitcoin and Ether run on their own blockchains and serve as a means of payment or a store of value. Tokens, by contrast, are built on an existing blockchain, often Ethereum, using smart contracts.
+
+Nonfungible tokens are each unique and not interchangeable, so they represent ownership of a specific item such as a piece of digital art. Security tokens are digital claims on a financial asset such as shares or debt, and they fall under securities regulation. Utility tokens give access to a product or service on a platform, such as paying fees to use a network. Governance tokens give holders votes on how a protocol is run. Stablecoins are designed to hold a steady value by tying it to a reference asset such as the U.S. dollar, usually backed by reserves.
+
+The trap is matching function to name. Voting means governance. Platform access means utility. A claim on an issuer's assets or cash flows means a security token. Uniqueness means nonfungible.
+
+To lock it in, a blockchain links blocks with hashes so tampering is evident. Proof of work secures the ledger with computing power, and proof of stake secures it with staked coins. Permissionless networks are open to anyone, while permissioned networks restrict who can join.
+
+## Module 82.2, Digital Asset Characteristics
+
+Now treat digital assets as investments. The first and biggest difference from traditional assets is the source of value. A bond pays coupons and a stock is a claim on earnings, but a cryptocurrency such as Bitcoin produces no cash flows at all.
+
+Its price depends on supply and demand, meaning how many people want to hold it, how widely it is used, and how scarce it is. Bitcoin's protocol caps total supply at 21 million coins, which is central to the store of value argument. With no cash flows to discount, discounted cash flow valuation does not apply, and measures such as network adoption give no firm anchor. That is a big reason prices swing so widely.
+
+Second, market structure. Digital assets trade around the clock, every day, on many exchanges worldwide. Many of those platforms have far less regulation and investor protection than a stock exchange, and the same coin can trade at different prices on different venues.
+
+Third, custody. You own a digital asset by controlling its private key, either yourself in a digital wallet or through a custodian. A hot wallet is online and convenient but easier to hack, while a cold wallet is offline and safer. Fourth, transparency. Every transaction on a public blockchain is visible, but owners appear only as addresses, so the system is pseudonymous rather than anonymous.
+
+Now the investment forms. The direct route is buying on a cryptocurrency exchange and holding the asset yourself or with a custodian. That gives pure exposure but leaves key management, exchange risk and security with you.
+
+The indirect routes avoid handling keys. Coin trusts hold a large amount of a cryptocurrency and issue shares that trade over the counter. Like a closed end fund, their shares can trade at a sizable premium or discount to the value of the coins. Cryptocurrency ETFs trade on regular exchanges, and their creation and redemption process keeps the share price close to net asset value. Spot Bitcoin ETFs began trading in the United States in 2024.
+
+Futures on Bitcoin and Ether trade on regulated exchanges and allow long or short positions, with the usual margin and roll costs. Shares of crypto related companies, such as miners and exchanges, add company risk and stock market risk, just like commodity producer stocks. Specialist hedge funds and venture capital funds add active management. And in the reverse direction, asset backed tokens are digital claims on assets that are not digital, such as gold or real estate, so their value comes from the underlying asset.
+
+Now risk, return and diversification. Returns on the major cryptocurrencies have been very high over some long stretches, with extreme volatility. Peak to trough declines of more than 70 percent have happened several times, and the short history makes long run averages unreliable. Correlations with stocks and bonds have generally been low, which is the case for a small allocation. But correlation with equities has risen in some stress periods, so the diversification can fade just when it is needed. And the evidence that cryptocurrencies hedge inflation has been mixed at best.
+
+The specific risks start with regulatory risk, because governments can restrict, tax or reclassify digital assets, and the rules are still changing. Then come operational and custody risk, from lost keys, hacks and failed exchanges or lenders, and fraud and manipulation in thinly regulated markets. Network risk includes software bugs, a 51 percent attack on a small network, or a fork, where a blockchain splits into two versions. Liquidity risk is modest for the largest coins but severe for many small tokens. And valuation risk is ever present, since there is no cash flow anchor.
+
+Here is the trap. A question may call a digital asset low risk because its transactions sit on a secure, tamper evident ledger. The ledger can be secure while the investment is extremely risky. Security of the record says nothing about price volatility, custody, or fundamental value.
+
+One more contrast. Commodities and cryptocurrencies both lack cash flows, but commodities have industrial and consumption uses that anchor demand, while demand for most cryptocurrencies depends far more on adoption and sentiment.
+
+To lock in the key idea, cryptocurrencies such as Bitcoin produce no cash flows, so their value rests on supply and demand rather than discounted cash flows. Their low historical correlation with traditional assets comes with extreme volatility and with risks that a secure ledger does not remove.
+
+## Recall check
+
+Q: A commodity has a spot price of 50 dollars, the risk free rate is 4 percent, storage costs 2 dollars and the convenience yield is worth 1 dollar. What is the approximate one year futures price, and is the market in contango or backwardation?
+
+Answer: About 53 dollars. Fifty times 1.04 is 52, plus 2 for storage, minus 1 for convenience yield, gives 53. Because the futures price is above spot, the market is in contango.
+
+Q: An investor holds a long commodity futures position in a market that stays in contango, and the spot price does not change. Is the roll yield positive, negative or zero?
+
+Answer: Negative. In contango each new contract is bought above spot, and as it nears expiration it converges down toward the unchanged spot price, producing a loss on each roll. Roll yield depends on the shape of the futures curve, not on the direction of the spot price.
+
+Q: Which hedge fund strategy most likely has a payoff that resembles selling insurance: equity market neutral, global macro or merger arbitrage?
+
+Answer: Merger arbitrage. The manager earns a small spread if the deal closes but suffers a large loss if it fails, which resembles collecting a premium for insuring against deal failure. The other two lack that asymmetry tied to a single event.
+
+Q: A hedge fund database adds new funds with their past track records and drops funds that close. What is the most likely effect on reported returns?
+
+Answer: Reported returns are overstated. Adding the past records of funds that start reporting after good runs is backfill bias, and dropping failed funds is survivorship bias. Both push the reported average above what investors actually earned.
+
+Q: Which consensus mechanism selects validators according to the coins they lock up, and what is its main advantage over the alternative?
+
+Answer: Proof of stake. Validators put their own coins at risk and can lose them for dishonest behavior, so security comes from capital at stake rather than computing power. Its main advantage over proof of work is far lower energy use.
+
+Q: An investor wants Bitcoin exposure without handling private keys, through exchange traded shares priced close to the value of the coins. Which most likely fits best: a coin trust, a spot Bitcoin ETF, or a mining stock?
+
+Answer: A spot Bitcoin ETF. Its creation and redemption process keeps the share price close to net asset value, while a coin trust can trade at a large premium or discount. Mining shares add company and stock market risk.
+
+## Recap
+
+Raw land earns only appreciation plus the option to develop. Timberland returns come from biological growth, timber prices and land value, and timber owners can delay the harvest when prices are low, which farmland owners cannot. The futures price is approximately the spot price times one plus the risk free rate, plus storage costs, minus the convenience yield. Futures above spot is contango, and futures below spot is backwardation. A long commodity futures return is price return plus roll yield plus collateral return, and roll yield is positive in backwardation and negative in contango.
+
+Hedge funds are lightly regulated private vehicles that use leverage, short selling and derivatives, and limit withdrawals through lockups, notice periods and gates. Merger arbitrage and many relative value strategies earn small steady gains with rare large losses. Funds of funds add diversification but charge a second layer of fees and carry netting risk, and survivorship and backfill bias overstate reported hedge fund returns. Blockchains link blocks with hashes, proof of work secures them with computing power, and proof of stake secures them with staked coins. Cryptocurrencies have no cash flows, so their value rests on supply and demand, and their risks go far beyond the security of the ledger.

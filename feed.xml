@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 08:17:56 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 08:36:50 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -644,6 +644,23 @@
     <itunes:duration>1966</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E37.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E38 Natural Resources, Hedge Funds and Digital Assets</title>
+    <itunes:title>Natural Resources, Hedge Funds and Digital Assets</itunes:title>
+    <itunes:episode>38</itunes:episode>
+    <itunes:season>8</itunes:season>
+    <podcast:season name="Alternative Investments">8</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Alternative Investments, Kaplan Modules 80.1 to 82.2. 80.1 Farmland, Timberland, and Commodities, 81.1 Hedge Funds, 82.1 Distributed Ledger Technology, 82.2 Digital Asset Characteristics</description>
+    <itunes:summary>Alternative Investments, Kaplan Modules 80.1 to 82.2. 80.1 Farmland, Timberland, and Commodities, 81.1 Hedge Funds, 82.1 Distributed Ledger Technology, 82.2 Digital Asset Characteristics</itunes:summary>
+    <content:encoded><![CDATA[<p>Alternative Investments, Kaplan Modules 80.1 to 82.2.</p><ul><li>Module 80.1, Farmland, Timberland, and Commodities</li><li>Module 81.1, Hedge Funds</li><li>Module 82.1, Distributed Ledger Technology</li><li>Module 82.2, Digital Asset Characteristics</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:13 The big picture</li><li>1:51 Module 80.1, Farmland, Timberland, and Commodities</li><li>8:58 Module 81.1, Hedge Funds</li><li>16:45 Module 82.1, Distributed Ledger Technology</li><li>22:49 Module 82.2, Digital Asset Characteristics</li><li>28:00 Recall check</li><li>31:23 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E38.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E38_v2.mp3" length="9911793" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e38</guid>
+    <pubDate>Sat, 03 Oct 2026 12:38:00 -0500</pubDate>
+    <itunes:duration>1982</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E38.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>
