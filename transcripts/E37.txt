@@ -1,0 +1,157 @@
+## The big picture
+
+Alternative investments are everything outside the familiar mix of publicly traded stocks, bonds and cash. This episode lays the foundation for that whole world. First, how alternative investments are structured and how their managers get paid. Second, how you measure their performance and turn a gross return into a net return after fees. Third, private capital, which means private equity and private debt. Fourth, real estate and infrastructure, the two big groups of real assets built on land and long lived structures.
+
+Three themes tie the modules together. The first is illiquidity. You often cannot sell quickly, so you expect to be paid a premium, but prices are stale and reported returns look smoother than they really are. The second is specialized management. You usually hire an expert, so fees and incentive terms matter a great deal. The third is unusual cash flow timing, because money goes in over years and comes back over years, which makes simple return measures misleading.
+
+Expect the exam to test fee calculations with hurdles and high water marks, the choice between direct, co investment and fund investing, which distribution waterfall favors whom, why appraisal based returns understate risk, and the defining features of each asset type. Natural resources, hedge funds and digital assets wait for the next episode.
+
+## Module 76.1, Alternative Investment Structures
+
+Start with why alternatives exist. Investors want returns that do not move in lockstep with stocks and bonds, and access to assets public markets do not offer, such as a private company or a toll road. The price of that access is a distinctive set of features. Alternatives are often illiquid and need specialized knowledge. They face less regulation and transparency, their return history is short and often built from appraisals, and they charge higher fees, hold concentrated positions and frequently use leverage. The main categories are private capital, real estate, infrastructure, natural resources and hedge funds, with digital assets often added as a newer category.
+
+Now the three ways to invest. The first is fund investing. You commit money to a fund, and the manager, called the general partner, chooses the deals. This needs the least expertise and gives you diversification across many deals. The costs are the highest fees and the least control, so choosing and checking the manager is the critical skill.
+
+The second is co investing. You invest in the fund and also put money directly into selected deals alongside the manager. The co invested portion usually carries lower fees or none at all, gives you more control and teaches your team how deals are done. Here is the trap. The manager decides which deals to offer, so you face adverse selection, the risk that the deals shared with co investors are the ones the manager is least eager to fund on its own.
+
+The third is direct investing. You buy companies or properties yourself with no fund in between. You get the most control and no outside manager fees. But you need a large in house team, deep expertise and a lot of capital, and your portfolio tends to be concentrated, so mainly the largest pension funds and sovereign wealth funds invest this way at scale.
+
+So hold this rule. Moving from fund investing to co investing to direct investing, fees fall and control rises, while the required expertise, resources and concentration all rise. The tempting wrong answer is that the cheapest method is always best. For a small investor without a team, fund investing is usually the sensible choice.
+
+Most private funds are organized as limited partnerships. The general partner manages the fund, makes the investment decisions, and bears unlimited liability. The limited partners supply most of the capital, play a passive role and can lose no more than they invested. The terms live in the limited partnership agreement. Some limited partners also negotiate side letters, which are separate agreements granting special terms such as lower fees, extra reporting, or a most favored nation clause that passes along any better terms given to other investors.
+
+Two other structures are worth knowing. In a separately managed account, the manager runs your money in an account you own, which gives you transparency and control. In a joint venture, common in real estate, partners share ownership and control of a specific asset.
+
+Limited partners commit capital up front, and the general partner draws it down through capital calls as deals are found. Manager pay then has two parts. The management fee is typically 1 to 2 percent a year. In private equity it is usually charged on committed capital during the investment period, while hedge funds charge it on assets under management. The performance fee is a share of profits, often 20 percent, which hedge funds call an incentive fee and private equity calls carried interest.
+
+Several clauses shape the performance fee. A hurdle rate is the minimum return limited partners must earn before the manager shares in profits. With a hard hurdle, the fee applies only to the return above the hurdle. With a soft hurdle, once the return clears the hurdle, the fee applies to the entire return. A high water mark means the fee is paid only on gains that lift the investor's value above its previous peak, so nobody pays twice for the same gains. A clawback requires the manager to return carried interest it already received if later losses mean it took more than its agreed share of total profits.
+
+The catch up clause is how a soft hurdle works in private equity. After limited partners receive the hurdle return, the general partner receives all of the next distributions until it has caught up to its full share of profits. Take a fund with 100 of capital, total profits of 30, an 8 percent hurdle, 20 percent carried interest and a full catch up. Limited partners get the first 8 of profit, and the general partner gets the next 2, which is 20 percent of the 10 paid so far.
+
+The remaining 20 splits 80 to 20, so the totals are 24 for the limited partners and 6 for the general partner, exactly 20 percent of 30. With a hard hurdle instead, the general partner earns 20 percent of only the 22 above the hurdle, which is 4.4.
+
+The waterfall sets the order of distributions. Under a European waterfall, also called whole of fund, limited partners get back all contributed capital plus the hurdle return before the general partner receives any carried interest. Under an American waterfall, also called deal by deal, the general partner earns carried interest on each deal as it is sold, even if the fund as a whole has not yet returned capital. Picture two deals of 50 each and ignore the hurdle. The first sells for 80, so under deal by deal the general partner takes 20 percent of the 30 profit, or 6, right away. The second returns only 20, the fund just breaks even, and a clawback would force the manager to give back that 6.
+
+Here is the trap. Candidates hear American and think investor friendly. The rule to keep is the reverse. The European waterfall favors limited partners, the American waterfall favors the general partner, and the clawback protects limited partners under deal by deal.
+
+## Module 77.1, Performance Appraisal and Return Calculations
+
+Measuring alternative investment performance is hard for four reasons. Horizons are long and cash flows are lumpy. Leverage magnifies results in both directions. Many assets are illiquid and valued by appraisal or model rather than by trades. And returns are often not normally distributed, with negative skew and fat tails, meaning rare but large losses.
+
+Start with the life of a private fund. In the capital commitment phase, investors commit money and the manager searches for deals. In the capital deployment phase, the manager calls capital and invests it. In the capital distribution phase, investments are sold and cash flows back to investors. Plot cumulative returns over that life and you get the J curve. Early returns are negative because fees and setup costs are paid while investments sit at cost or get written down, and gains appear later as companies mature and are sold.
+
+Here is the trap. A young fund with a negative return is not evidence of a bad manager. It is the normal shape of the J curve. That is why private funds are usually compared with other funds of the same vintage year, the year they started investing.
+
+Next, the risk adjusted measures. The Sharpe ratio is the average return in excess of the risk free rate, divided by the standard deviation of returns. Standard deviation treats upside and downside surprises alike and fits normal distributions best, so for negatively skewed strategies the Sharpe ratio tends to flatter performance. The Sortino ratio fixes part of that. It is the return in excess of a target, divided by downside deviation, which counts only returns that fall below the target.
+
+Drawdown measures focus on the worst experience. Maximum drawdown is the largest peak to trough decline in value before a new peak is reached. The Calmar ratio is the average annual return divided by the maximum drawdown, and higher is better. If a fund averages 12 percent a year and its worst drawdown was 24 percent, its Calmar ratio is 0.5.
+
+Now the smoothing problem, which is heavily tested. When values come from periodic appraisals or are held at cost, reported returns move far less than true economic values. That understates volatility, understates correlation with public markets and overstates the Sharpe ratio. The diversification benefit therefore looks bigger on paper than it really is.
+
+For private equity and real estate funds, the manager controls when capital is called and returned. So the preferred measure is the internal rate of return, or IRR, a money weighted return. It is the discount rate that makes the net present value of all the fund's cash flows, including the value of what it still holds, equal to zero. A simpler measure is the multiple of invested capital. It equals realized value plus unrealized value, divided by total capital invested. It is easy to read, but it ignores timing completely.
+
+Say you invest 100 and eventually receive 250, a multiple of 2.5 times. If that takes 5 years, the IRR is about 20 percent. If it takes 10 years, the same multiple gives an IRR of only about 9.6 percent. So two funds with identical multiples can have very different IRRs, and a fund that returns cash quickly can post a high IRR on a modest multiple.
+
+To check the 5 year case on the B A two plus, use the time value of money worksheet. Press second, then F V, to clear it, and make sure P Y and C Y are set to 1. Enter 5 and press N. Enter 100, press the change sign key and press P V. Enter 0 and press P M T, then enter 250 and press F V.
+
+Finally, press C P T and then I Y. The display shows about 20.11. The negative present value reflects money paid out, and the positive future value reflects money received. When a fund has several uneven cash flows, use the cash flow worksheet and the IRR key instead.
+
+When a fund borrows, the return to the investor's equity equals the asset return times the sum of equity and borrowed funds, minus the borrowing rate times the borrowed funds, all divided by equity. An equivalent form is easier to hold in your head. The leveraged return equals the asset return, plus the ratio of borrowed funds to equity times the difference between the asset return and the borrowing rate.
+
+Try it with round numbers. You have 100 of equity and borrow 50 at 4 percent. The 150 of assets earns 10 percent, which is 15. Subtract 2 of interest, and 13 on your 100 is a 13 percent return. If the assets instead lose 10 percent, you lose 15 and still pay 2, a loss of 17 percent. Leverage magnifies both directions, and lenders can force sales at the worst possible time.
+
+Liquidity also shapes realized returns. Hedge funds allow periodic redemptions, but they use lockup periods, notice periods, redemption fees and gates that cap withdrawals. If many investors redeem at once, the manager may have to sell illiquid holdings at a discount, which hurts the investors who stay. Thinly traded positions may also carry stale prices that overstate what could be realized.
+
+Now the core calculation, turning gross returns into net returns. Work in four steps. First, compute the management fee on the stated base, which may be beginning or ending assets. Second, compute the performance fee only on gains above the high water mark, and above the hurdle if it is hard, and after the management fee if the terms say so. Third, subtract both fees from the ending value. Fourth, divide the net gain by the beginning capital.
+
+Here is the base case. A fund charges 2 and 20 and starts the year with 100 million dollars. It ends at 120 million before fees. The management fee is 2 percent of beginning assets, or 2 million. If the incentive fee is calculated independently, it is 20 percent of the 20 million gain, or 4 million. Total fees are 6 million, the investor ends with 114 million, and the net return is 14 percent.
+
+Now change one term at a time. If the incentive fee is charged net of the management fee, it applies to a gain of 18 million, giving 3.6 million and a net return of 14.4 percent. If instead there is a 5 percent hard hurdle, the incentive fee applies only to the 15 million above the hurdle, giving 3 million. With a soft hurdle, the 20 percent return clears 5 percent, so the fee applies to the whole 20 million and is 4 million again.
+
+Next, the high water mark at work, ignoring management fees. A fund starts at 100, falls to 90 in year one, and climbs to 110 in year two. There is no incentive fee in year one. In year two the gain is 20, but the high water mark is 100, so the fee applies only to the 10 above it, and 20 percent of 10 is 2. You are not charged for earning back your own losses.
+
+Fee terms are increasingly customized. Founders class shares give early investors in a new fund lower fees in exchange for taking a chance on it. Under a 1 or 30 structure, the investor pays whichever is larger, a 1 percent management fee or 30 percent of the return above an agreed benchmark. A fund of funds adds its own layer of fees on top of the underlying funds' fees, in exchange for access, diversification and due diligence.
+
+One last warning concerns data. Hedge fund databases rely on voluntary reporting. Survivorship bias arises because failed funds stop reporting and drop out, so the surviving record looks better than the full history. Backfill bias arises because a fund that joins a database often adds its past returns, and funds tend to join after a good run. Both biases overstate historical returns.
+
+So keep this rule. The net return equals the gross ending value minus the management fee minus the performance fee, minus the beginning value, all divided by the beginning value. Read every fee term before you calculate.
+
+## Module 78.1, Private Capital
+
+Private capital is money provided to companies outside the public markets, either as ownership or as loans. Private equity comes in three main forms. The first is the leveraged buyout, or LBO. A buyout firm acquires a company, often taking a public company private, and finances much of the price with debt supported by the target's own assets and cash flows. In a management buyout, the existing managers take part in the purchase, and in a management buy in, an outside team replaces them.
+
+The second form is venture capital, or VC. It funds young companies with high growth potential and high failure rates. The stages run from pre seed or angel investing, to seed stage, to early stage, to later stage, and finally to mezzanine stage financing that prepares a company to go public. Risk is highest at the earliest stages. Here is a trap. Mezzanine stage venture capital describes timing, the round just before a public listing, which is completely different from mezzanine debt.
+
+The third form is growth capital, also called growth equity. It means minority stakes in established, often profitable companies that need capital to expand or restructure. The investor usually does not take control. Across all three, private equity owners add value through board influence, management incentives tied to equity value, operational improvements and the freedom to plan beyond the next quarter.
+
+Exits turn paper gains into cash. A trade sale sells the company to a strategic buyer, often at a high price because the buyer expects synergies. A public listing can happen through an initial public offering, a direct listing, or a merger with a special purpose acquisition company. A recapitalization adds debt to pay a dividend to the owners, which returns cash without giving up control, so it is not a full exit. A secondary sale goes to another private equity firm, and a write off or liquidation is the exit when the investment fails.
+
+Private debt has four main types. Direct lending means nonbank lenders lend straight to companies, usually senior and secured, often at floating rates, and at higher rates than borrowers would pay a bank. This includes leveraged loans to already indebted borrowers and unitranche loans, which combine senior and subordinated debt in a single loan with one blended rate. For a bank or credit union, direct lending funds compete for the same middle market borrowers, using the same senior secured, floating rate loan a commercial lender holds on its balance sheet.
+
+Mezzanine debt ranks below senior debt but above equity. It is often unsecured and pays a higher coupon, plus an equity kicker such as warrants or conversion rights. It is common in buyouts, expansions and recapitalizations. Venture debt lends to venture backed startups that have little cash flow or collateral, and the lender is paid partly through warrants. Distressed debt buys the debt of companies in or near default or bankruptcy at deep discounts, often with an active role in the restructuring, so its returns behave more like equity.
+
+Now the risk and return spectrum. Senior secured direct lending sits at the low end. Mezzanine debt sits in the middle, because it is junior and carries an equity kicker. Buyouts and especially early stage venture capital sit at the high end. Private debt overall is riskier than traditional bonds and pays more, partly as a premium for illiquidity and complexity.
+
+What about diversification? Private capital returns are less than perfectly correlated with public markets, so adding them can improve a portfolio's risk and return tradeoff. Private debt adds steady, often floating rate income, while private equity adds long term growth. Investors also diversify within private capital, across equity and debt, across stages and regions, and across vintage years, committing a little each year rather than all at once near a market peak.
+
+Here is the trap. Measured correlations with public markets are understated by appraisal smoothing, and a buyout is still leveraged equity exposed to the business cycle. So the true diversification benefit is real but smaller than the reported numbers suggest. Keep the core rule in mind. Risk and expected return climb as you move from senior secured lending to mezzanine debt to buyouts to venture capital.
+
+## Module 79.1, Real Estate
+
+Real estate means land and buildings held for income or appreciation. Raw land used for farming or timber is a natural resource, covered next time, and infrastructure is its own category. Residential real estate is mainly owner occupied homes. Commercial real estate is income producing property such as office, retail, industrial and warehouse, hotels, and apartment buildings owned to rent out.
+
+Organize the ways to invest into four quadrants, private or public, and equity or debt. Private equity means owning property directly or through private funds and joint ventures. Private debt means mortgages and other private real estate loans. Public equity means shares of a real estate investment trust, or REIT, and real estate operating companies, while public debt means mortgage backed securities, or MBS. A lender holding commercial real estate loans sits in the private debt quadrant, and its credit risk rises with vacancies and falling property values.
+
+Real estate has distinctive characteristics. Every property is different, and its location is fixed. Unit values are high, so direct ownership is lumpy and concentrated. There is no central exchange, so trading is illiquid and transaction costs are high. Properties need active management, buildings depreciate, and values are hard to pin down without a sale.
+
+Returns come from two sources, rental income and capital appreciation. Think of the cash flows in two layers. Lease income is bondlike, because tenants owe contractual rent. The property's value when leases end or the building is sold is equitylike, because it depends on the market at that time. Long leases to strong tenants behave more like bonds, while short leases, high vacancy and development projects behave more like equity.
+
+Investors buy real estate for current income, appreciation, a partial inflation hedge since rents and values tend to rise with prices over time, diversification, and in some places tax benefits. The risks include a weak economy, vacancies and tenant defaults, rising interest rates and refinancing needs, leverage, illiquidity, development delays and poor management.
+
+A common market measure is the capitalization rate, or cap rate, which equals net operating income divided by property value. Net operating income is rent after vacancy losses and operating expenses, before financing costs. If a building earns 600,000 dollars of net operating income and is worth 10 million, its cap rate is 6 percent. If cap rates rise to 8 percent with the same income, the value falls to 7.5 million. Higher cap rates mean lower values, and rising interest rates tend to push cap rates up.
+
+Now indexes, which carry a classic trap. Appraisal based indexes use periodic valuations, so they are smoothed and lag the market, understating volatility and correlation. Transaction based indexes, such as repeat sales indexes, use properties that sold more than once, which may not represent the whole market. REIT indexes use daily market prices, so they are more volatile and more correlated with stocks, especially over short periods. Real estate's correlation with bonds is generally low.
+
+So remember this. A smooth appraisal index does not mean real estate is low risk. Lease income is bondlike, the residual value is equitylike, and property value equals net operating income divided by the cap rate.
+
+## Module 79.2, Infrastructure
+
+Infrastructure means long lived, capital intensive real assets that deliver essential services. Many are developed by governments or through public private partnerships. Economic infrastructure includes transportation, utilities and energy, and information and communication technology like towers and fiber networks. Social infrastructure serves communities, such as schools, hospitals, social housing and correctional facilities.
+
+The stage of the asset drives its risk. Greenfield investment means building a new asset, which brings construction risk, no operating history and a higher expected return. Brownfield investment means buying an existing, operating asset with a track record, so cash flows are steadier and risk is lower. Under a build, operate, transfer arrangement, a private party builds the asset, runs it for a set period and then hands it to the government.
+
+Revenue models matter too. Some assets receive availability payments for keeping the asset open and working, while others earn usage fees such as tolls, which expose the investor to demand risk. Many assets have monopoly like positions, high barriers to entry, steady demand and regulated or inflation linked pricing. That produces stable long term cash flows that suit pension funds and insurers with long liabilities, though the assets often carry high leverage and face regulatory and political risk.
+
+You can invest directly, which is large, illiquid and concentrated, or indirectly through unlisted infrastructure funds, listed infrastructure companies and exchange traded funds, or ETFs. Listed shares add liquidity but move more with the stock market. Here is the trap and the rule. Brownfield means existing and steadier. Greenfield means new construction, more risk and a higher expected return.
+
+## Recall check
+
+Q: Which distribution waterfall is more favorable to limited partners, European or American?
+
+Answer: The European, or whole of fund, waterfall. Limited partners receive all contributed capital plus the hurdle return before the general partner earns any carried interest. Under the American, deal by deal approach, the manager can collect carry on early winners before the fund as a whole has returned capital.
+
+Q: A fund starts the year at 100 million dollars and earns 15 percent before fees. It charges a 1 percent management fee on beginning assets and a 20 percent incentive fee calculated independently, with no hurdle. What is the net return?
+
+Answer: 11 percent. The management fee is 1 million and the incentive fee is 20 percent of the 15 million gain, or 3 million. The investor ends with 115 minus 4, or 111 million, which is an 11 percent return.
+
+Q: An investor puts up 100 of equity and borrows 100 at 5 percent. The assets earn 8 percent. What is the return on equity?
+
+Answer: 11 percent. The 200 of assets earns 16, interest costs 5, and 11 on 100 of equity is 11 percent. With the shortcut, 8 percent plus a ratio of 1 times the 3 percent spread also gives 11 percent.
+
+Q: Which is most likely to rank below senior debt and include warrants: direct lending, mezzanine debt, or a leveraged buyout?
+
+Answer: Mezzanine debt. It is subordinated to senior lenders and usually carries an equity kicker such as warrants to compensate for that junior position. Direct lending is usually senior and secured, and a buyout is an equity investment.
+
+Q: Compared with true economic values, what does an appraisal based real estate index most likely do to measured volatility and correlation with stocks: overstate them, understate them, or measure them accurately?
+
+Answer: It understates them. Appraisals are periodic and anchored to past values, so reported returns are smoothed and lag the market. That makes real estate look less risky and more diversifying than it really is.
+
+Q: An investor wants stable current income and no construction risk. Which fits best: a greenfield toll road, a brownfield regulated water utility, or a greenfield airport expansion?
+
+Answer: The brownfield regulated water utility. It is an existing asset with an operating history and regulated revenue, so its cash flows are steadier. Both greenfield projects carry construction risk, and the toll road also carries demand risk.
+
+## Recap
+
+Alternatives share illiquidity, specialized management, high fees, limited data and low to moderate correlation with traditional assets. Moving from fund investing to co investing to direct investing, fees fall and control rises, but expertise and concentration rise too, and co investors face adverse selection. A hard hurdle charges the performance fee only above the hurdle, a soft hurdle with catch up charges it on the whole return, a high water mark stops investors paying twice for the same gains, and a clawback recovers carried interest the manager was overpaid. The European waterfall favors limited partners, and the American waterfall favors the general partner.
+
+Appraisal smoothing understates volatility and correlation, the J curve makes young funds look weak, and IRR captures timing while the multiple of invested capital ignores it. To get a net return, subtract the management fee and the performance fee from the ending value, then divide the gain by beginning capital, and read every fee term first. In private capital, risk climbs from senior direct lending to mezzanine debt to buyouts to venture capital. Lease income is bondlike, residual value is equitylike, cap rates and values move in opposite directions, and brownfield infrastructure is steadier than greenfield.
