@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 08:56:07 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 09:15:17 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -678,6 +678,40 @@
     <itunes:duration>1953</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E39.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E40 Beta, the CAPM and the Security Market Line</title>
+    <itunes:title>Beta, the CAPM and the Security Market Line</itunes:title>
+    <itunes:episode>40</itunes:episode>
+    <itunes:season>9</itunes:season>
+    <podcast:season name="Portfolio Management">9</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Portfolio Management, Kaplan Modules 84.1 to 84.2. 84.1 Systematic Risk and Beta, 84.2 The CAPM and the SML</description>
+    <itunes:summary>Portfolio Management, Kaplan Modules 84.1 to 84.2. 84.1 Systematic Risk and Beta, 84.2 The CAPM and the SML</itunes:summary>
+    <content:encoded><![CDATA[<p>Portfolio Management, Kaplan Modules 84.1 to 84.2.</p><ul><li>Module 84.1, Systematic Risk and Beta</li><li>Module 84.2, The CAPM and the SML</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:12 The big picture</li><li>1:49 Module 84.1, Systematic Risk and Beta</li><li>15:01 Module 84.2, The CAPM and the SML</li><li>26:29 Recall check</li><li>30:30 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E40.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E40_v2.mp3" length="9685287" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e40</guid>
+    <pubDate>Sat, 03 Oct 2026 12:40:00 -0500</pubDate>
+    <itunes:duration>1937</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E40.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E41 The Portfolio Management Process and Portfolio Planning</title>
+    <itunes:title>The Portfolio Management Process and Portfolio Planning</itunes:title>
+    <itunes:episode>41</itunes:episode>
+    <itunes:season>9</itunes:season>
+    <podcast:season name="Portfolio Management">9</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Portfolio Management, Kaplan Modules 85.1 to 86.1. 85.1 Portfolio Management Process, 85.2 Asset Management and Pooled Investments, 86.1 Portfolio Planning and Construction</description>
+    <itunes:summary>Portfolio Management, Kaplan Modules 85.1 to 86.1. 85.1 Portfolio Management Process, 85.2 Asset Management and Pooled Investments, 86.1 Portfolio Planning and Construction</itunes:summary>
+    <content:encoded><![CDATA[<p>Portfolio Management, Kaplan Modules 85.1 to 86.1.</p><ul><li>Module 85.1, Portfolio Management Process</li><li>Module 85.2, Asset Management and Pooled Investments</li><li>Module 86.1, Portfolio Planning and Construction</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:13 The big picture</li><li>1:45 Module 85.1, Portfolio Management Process</li><li>9:09 Module 85.2, Asset Management and Pooled Investments</li><li>15:33 Module 86.1, Portfolio Planning and Construction</li><li>28:23 Recall check</li><li>31:40 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E41.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E41_v2.mp3" length="9971496" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e41</guid>
+    <pubDate>Sat, 03 Oct 2026 12:41:00 -0500</pubDate>
+    <itunes:duration>1994</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E41.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>

@@ -1,0 +1,175 @@
+## The big picture
+
+The last few episodes were about the mathematics of portfolios. You saw how diversification lowers risk, how the efficient frontier forms, and how beta and the capital asset pricing model, or CAPM, price systematic risk. This episode steps back from the math and asks a practical question. Who are we investing for, and how do we turn their situation into an actual portfolio? These three modules are less technical than the ones before them, but they are dense with definitions, and exam questions test those definitions directly.
+
+The first module covers why investors think in portfolios, the three steps of the process, the main types of investors, and the two kinds of pension plans. The second looks at the asset management industry and its pooled products, from mutual funds and exchange traded funds, or ETFs, to hedge funds and private equity. The third and largest covers the investment policy statement, risk and return objectives, constraints, and strategic asset allocation.
+
+The pieces connect in a straight line. The portfolio approach explains why we care about the whole. The investor types tell you what different clients need. The policy statement writes those needs down, and asset allocation turns them into weights. Expect questions on which step an activity belongs to, which investor fits a description, who bears the risk in each pension plan, and whether ability or willingness governs risk tolerance.
+
+## Module 85.1, Portfolio Management Process
+
+Start with the portfolio approach itself. The idea is that you judge an investment by what it does to the whole portfolio, not by how it looks on its own. A risky asset can make a portfolio safer if its returns do not move in step with everything else you hold. Diversification lets you reduce risk without necessarily giving up expected return.
+
+Picture an employee whose entire retirement savings sit in the stock of the company she works for. If the company fails, she loses her job and her savings at the same moment. Spreading the savings across many companies and asset classes breaks that link.
+
+One way to measure the benefit is the diversification ratio. The diversification ratio equals the standard deviation of an equally weighted portfolio, divided by the standard deviation of a single security chosen at random. A lower ratio means a bigger diversification benefit. Suppose a typical stock has a standard deviation of 30 percent, and an equally weighted portfolio of those stocks has a standard deviation of 18 percent. The ratio is 18 divided by 30, or 0.6. The portfolio carries 60 percent of the risk of a typical single stock.
+
+Here is the trap. Diversification reduces risk on average, but it does not guarantee protection when you need it most. In a severe crisis, correlations across many assets tend to rise, and assets that usually offset each other fall together. And diversification removes only unsystematic risk. Market risk remains.
+
+Now the process. Portfolio management runs in three steps: planning, execution and feedback. Learn what sits inside each one, because a favorite question asks where a given activity belongs.
+
+The planning step has two parts. First, understand the client's needs, meaning goals, circumstances, risk tolerance and constraints. Second, write those needs down in an investment policy statement, which I will call the I P S. The I P S is the foundation for everything that follows.
+
+The execution step has three parts. First comes asset allocation, which splits the money across asset classes such as equities, bonds and real estate. It draws on the manager's views of the economy and markets, often formed from the top down. Second comes security analysis, which evaluates individual securities within each asset class, often from the bottom up. Third comes portfolio construction, which turns the allocation and the security views into actual holdings and executes the trades with attention to cost.
+
+The feedback step has two parts. First, monitoring and rebalancing, which means watching both the portfolio and the client, and bringing weights back toward target when markets or needs change. Second, performance measurement and reporting against the objectives and the benchmark.
+
+Here is the trap. Asset allocation sounds strategic, so it feels like planning, but it sits in execution. Planning ends with the written I P S. Rebalancing also tempts people toward execution, but it belongs to feedback.
+
+Use a simple test. If the activity writes down what the client needs, it is planning. If it builds the portfolio, it is execution. If it checks and adjusts what already exists, it is feedback.
+
+Next, the types of investors. Compare them on five features: risk tolerance, investment horizon, liquidity needs, income needs, and legal and regulatory constraints.
+
+Individual investors vary the most. Their goals include retirement, education, a home, and wealth for their heirs, and every feature depends on the person. They face relatively few regulatory constraints.
+
+Defined benefit pension plans usually have a long horizon and relatively high risk tolerance, because their obligations stretch decades into the future. Their liquidity needs are low, and their income needs depend on the age of the workforce, since a plan with many retirees needs more cash flow. These plans are heavily regulated.
+
+Endowments and foundations also have long horizons, high risk tolerance and low liquidity needs. An endowment supports an institution such as a university, and a foundation makes grants. Both usually aim to last indefinitely, so they must earn enough to cover their spending and still keep pace with inflation.
+
+Banks sit at the other end. They have low risk tolerance, short horizons and high liquidity needs, because depositors can withdraw at short notice. They need income to pay interest on deposits, and they are heavily regulated. On a bank or credit union balance sheet, the investment portfolio is managed around deposit liquidity and interest rate risk, not around maximum return.
+
+Insurance companies also have low risk tolerance, high liquidity needs and heavy regulation, because they must be ready to pay claims. Their horizon depends on the business. Life insurers have long horizons, while property and casualty insurers have shorter ones, because their claims arrive sooner and less predictably.
+
+Investment companies, such as mutual funds, take on the profile of each fund's mandate. Sovereign wealth funds are government owned investment funds, often built from commodity revenue or trade surpluses, with typically long horizons and a risk tolerance that varies with their purpose.
+
+Now the two kinds of pension plans. In a defined benefit plan, the employer promises a specific benefit at retirement, often based on years of service and salary. The employer must fund the plan and invest the assets to meet that promise. If returns fall short, the employer has to contribute more. So the employer, as plan sponsor, bears the investment risk.
+
+In a defined contribution plan, the employer promises only to contribute, often a percent of salary, into an account owned by the employee. The employee chooses the investments, usually from a menu, and the retirement benefit is whatever the account grows to. So the employee bears the investment risk. Defined contribution accounts are also portable, which means the employee keeps the account when changing jobs.
+
+Here is the trap. The name tells you what is fixed. In a defined benefit plan, the benefit is fixed, so the uncertainty falls on the sponsor. In a defined contribution plan, the contribution is fixed, so the uncertainty falls on the employee. Whatever is defined is what is certain, and the other party carries the risk.
+
+To lock in this module, repeat the process once more. Planning means understanding the client and writing the I P S. Execution means asset allocation, security analysis and portfolio construction. Feedback means monitoring and rebalancing, then measuring and reporting.
+
+## Module 85.2, Asset Management and Pooled Investments
+
+Asset managers are firms that invest money on behalf of clients. They sit on the buy side, along with the institutions whose money they manage. The sell side is the brokers, dealers and investment banks that sell securities and provide research and trading services to the buy side.
+
+Three distinctions describe asset managers. First, active versus passive. An active manager tries to beat a benchmark, while a passive manager tries to match one, usually by tracking an index at low cost. Passive investing has taken a large and growing share of assets, mainly because its fees are lower and many active managers fail to beat their benchmarks after costs.
+
+Second, traditional versus alternative. Traditional managers run long only portfolios of equities, fixed income and multi asset mixes. Alternative managers run hedge funds, private equity, real estate, commodities and infrastructure, and usually charge higher fees. Third, ownership. Some managers are publicly traded, some are private partnerships, and some are divisions of banks or insurers.
+
+Three trends are worth knowing. The first is the growth of passive investing. The second is big data, meaning large and unconventional datasets that managers analyze in search of an edge. The third is robo advisers, which use algorithms to build and rebalance portfolios at low cost with little human involvement.
+
+Now the products. A pooled investment combines money from many investors into one portfolio, and each investor owns a share of the pool. Pooling gives smaller investors diversification and professional management they could not afford alone.
+
+The classic pooled product is the mutual fund, valued per share by its net asset value. Net asset value per share equals the market value of the fund's assets minus its liabilities, all divided by the number of shares outstanding. Say a fund holds 210 million dollars of assets and owes 10 million dollars of liabilities, which leaves 200 million dollars of net assets. With 10 million shares outstanding, the net asset value is 20 dollars per share.
+
+Mutual funds come in two structures. An open end fund issues new shares when investors put money in and redeems shares when they take money out, at prices based on net asset value computed at the end of each trading day. So the fund grows and shrinks with investor flows. A closed end fund issues a fixed number of shares at launch, and after that the shares trade on an exchange between investors.
+
+Because a closed end fund's price is set by supply and demand, it can trade at a premium or a discount to its net asset value. If net asset value is 20 dollars and the shares trade at 18 dollars, the fund is at a 10 percent discount, because 2 dollars is 10 percent of 20. An open end fund has no such market discount, because the fund itself redeems shares at net asset value.
+
+Funds also differ in how they charge investors. A load fund charges a sales commission, either when you buy, called a front end load, or when you sell, called a back end load. A no load fund charges no sales commission. Here is the trap. No load does not mean free, because every mutual fund still charges an annual expense ratio to cover its costs.
+
+Next come exchange traded funds. Most ETFs track an index, like index mutual funds, but they trade on an exchange throughout the day at market prices, so investors pay a brokerage commission and the bid ask spread. Their expenses are typically low.
+
+What keeps an ETF's price close to its net asset value is a creation and redemption process run by large institutions called authorized participants. When the ETF trades above the value of its holdings, an authorized participant buys the underlying securities, delivers them to the fund for new ETF shares, and sells those shares, which pushes the price back down. Below value, the process runs in reverse. Because redemptions are made in kind, the fund hands over securities instead of selling them, so it realizes fewer capital gains to pass on to shareholders. That is why ETFs in the United States tend to be more tax efficient than comparable mutual funds.
+
+A separately managed account is a portfolio run by a professional manager for one investor, who owns the securities directly. That allows customization, such as excluding certain stocks or controlling when gains are realized for tax purposes. The tradeoff is a much higher minimum investment.
+
+Hedge funds are private pools, usually open only to wealthy or institutional investors, so they face fewer regulatory limits than mutual funds. They may use leverage, short selling and derivatives, and they often restrict withdrawals with lockup periods. Their fees typically combine a management fee on assets with an incentive fee on profits, such as 2 percent of assets plus 20 percent of profits.
+
+Private equity funds invest in companies that are not publicly traded. Buyout funds take control of established companies, often with heavy debt in a leveraged buyout, or LBO, then improve the business and sell it after several years. Venture capital funds, or VC funds, invest in young companies at an early stage. In both, investor money is tied up for many years.
+
+Here is the trap that links these products. Ask who owns the securities, how easily you can get out, and at what price you trade. An open end fund pays net asset value at the end of the day. An ETF and a closed end fund trade at market prices during the day, but only the ETF is held close to value by arbitrage.
+
+To finish the module, repeat the one formula. Net asset value per share equals the fund's assets minus its liabilities, divided by the number of shares outstanding.
+
+## Module 86.1, Portfolio Planning and Construction
+
+Planning starts with a written investment policy statement, for four reasons. First, it forces the adviser and the client to agree on goals and limits before any money is invested. Second, it guides decisions in stressful markets, when emotion pushes investors to abandon a plan. Third, it sets the standard for judging performance. Fourth, it gives continuity, so a new adviser can pick up where the last one left off.
+
+A typical I P S has several parts. It opens with an introduction describing the client and a statement of purpose. It sets out the duties and responsibilities of the client, the adviser and any custodian, along with procedures for updating the document. Its core is the investment objectives and the investment constraints. Then come investment guidelines, such as whether leverage or derivatives are allowed and which assets are excluded, and a section on evaluation and review that names benchmarks and reporting frequency. Appendices often hold the strategic asset allocation and the rebalancing policy.
+
+The I P S should be reviewed regularly, and whenever the client's circumstances change. A bank or credit union works the same way at the institution level, with a board approved investment policy that sets targets and limits management must stay within.
+
+The objectives are risk and return. The constraints are five: liquidity, time horizon, taxes, legal and regulatory factors, and unique circumstances. A common memory aid for all seven is the letters R R T T L L U, for return, risk, time horizon, taxes, liquidity, legal and unique.
+
+Start with the return objective. It can be absolute, such as 7 percent a year, or relative, such as beating a benchmark index by 1 percent a year. A good return objective says whether the target is nominal or real, and whether it is before or after fees and taxes. Above all, it must be consistent with the client's risk tolerance. An objective that needs more risk than the client can bear is not an objective. It is a wish.
+
+Here is a worked example. A client has a 1 million dollar portfolio and needs to withdraw 40,000 dollars a year, while keeping the portfolio's purchasing power intact. The spending alone requires 40,000 divided by 1 million, which is 4 percent in real terms. With expected inflation of 2 percent, the nominal required return is roughly 4 plus 2, or about 6 percent. Compounded exactly, it is 1.04 times 1.02, minus 1, which is about 6.1 percent.
+
+The risk objective can also be absolute or relative. An absolute risk objective might cap the standard deviation of returns, or set a limit such as no more than a 5 percent chance of losing more than 10 percent in a year, which is a value at risk, or VaR, style statement. A relative risk objective is usually stated as tracking error. Tracking error is the standard deviation of the difference between the portfolio's return and the benchmark's return. A pension fund might require tracking error of no more than 2 percent a year.
+
+Risk tolerance has two sides. Ability to take risk, also called capacity, is objective. It asks whether the client's finances can absorb losses without harming their goals. Willingness to take risk is subjective. It asks how the client feels about risk and how they behave when markets fall.
+
+Ability rises with a longer time horizon, with more wealth relative to needs, with stable income that does not depend on the portfolio, and with insurance against large personal shocks. A professional in her thirties with secure income, a long horizon and spending covered by salary has high ability. A retiree who draws all living expenses from the portfolio has lower ability, because a deep loss would cut directly into what she lives on.
+
+Willingness is gauged through conversation, questionnaires and, most tellingly, past behavior. A client who sold everything in the last downturn has told you something important, whatever they write on a form.
+
+So what happens when the two conflict? If willingness is higher than ability, ability governs. You cannot let a client take more risk than their finances can bear, however much they want it. If ability is higher than willingness, the adviser should explain the tradeoff and may try to educate the client, but should not simply override them, because a client pushed past their comfort tends to sell at the worst moment. In practice, the more conservative of the two usually sets the risk tolerance.
+
+Here is the trap. The tempting answer is the client's stated preference, because the client asked for it. But a strong desire for risk never overrides a weak ability to bear it. And a large portfolio alone does not mean high ability, because what matters is wealth relative to needs.
+
+Now the five constraints. First, liquidity. This is the need for cash, both expected spending and unexpected emergencies. Liquidity means turning an asset into cash quickly without a large price concession. A high liquidity need points toward cash and short term, high quality securities, and it limits illiquid assets such as private equity and direct real estate.
+
+Second, time horizon. This is the period over which the client's goals play out. A longer horizon raises the ability to bear risk and illiquidity, because there is time to recover from losses. Horizons can be multistage, such as 25 working years followed by 20 years of drawing down savings in retirement.
+
+Third, taxes. A taxable investor cares about after tax return, so tax status shapes the choice of assets. In the United States, a high bracket investor may prefer tax exempt municipal bonds, and may prefer gains taxed later to income taxed now. Tax exempt investors, such as many pension funds and endowments, can hold high income assets without that tax drag.
+
+Fourth, legal and regulatory factors, which are rules imposed from outside. Banks and insurers face limits on what they may hold, pension trustees owe fiduciary duties, and a corporate executive may be barred from trading company stock during certain periods.
+
+Fifth, unique circumstances, which catch everything particular to the client. Examples include religious or ethical preferences, a large holding the client will not sell for personal reasons, or the cost of caring for a family member. Preferences on environmental, social and governance issues, or ESG, often appear here too.
+
+Here is the trap. Liquidity is about cash needed soon, while time horizon is about how long the overall plan runs. A young investor with a 40 year horizon can still have a large liquidity need next year, such as a down payment on a house.
+
+With objectives and constraints in hand, the next job is defining asset classes well. Within a class, assets should be similar and highly correlated with each other. Across classes, correlations should be lower, so that each class adds diversification. The classes should not overlap, so no asset falls into two of them. Together they should cover the universe the client may invest in, and each should be large and liquid enough to absorb a meaningful share of the portfolio.
+
+Here is the trap. High correlation within a class is a feature, not a flaw. Listing both global equities and domestic equities as separate classes breaks the no overlap rule, because domestic stocks belong to both. Some investors go further and define classes by underlying risk factors, such as economic growth, inflation and liquidity, rather than by security type.
+
+Now portfolio construction. The manager combines the I P S with capital market expectations, which are long run forecasts of the returns, risks and correlations of each asset class. The result is a set of long term target weights called the strategic asset allocation, or policy portfolio. It is the main expression of the client's risk tolerance. It also explains most of the variation in a diversified portfolio's returns over time, because asset classes carry systematic risk, and systematic risk is what markets reward.
+
+Beyond the strategic weights, a manager may take two kinds of active risk. Tactical asset allocation is a deliberate, short term departure from the strategic weights to exploit a perceived opportunity. Moving equities from a 60 percent target to 65 percent for a few months because stocks look cheap is a tactical decision. Security selection is choosing securities within an asset class in weights that differ from the benchmark. Both create risk relative to the policy portfolio, and the return each one adds or loses can be measured.
+
+Risk budgeting is deciding how much of the total risk to spend on each source, meaning the strategic allocation, tactical shifts and security selection. Many investors put this into practice with a core satellite approach. The core is a large, low cost holding that tracks the strategic allocation passively. Around it sit smaller satellite positions managed actively, where the manager believes skill can add value.
+
+Markets move weights away from targets, so the I P S usually sets a rebalancing policy with a corridor around each target. Suppose the target is 60 percent equities with a corridor of 5 percent either side, so the allowed range is 55 to 65 percent. Start with 1,000,000 dollars, split 600,000 in equities and 400,000 in bonds. Equities rise 25 percent to 750,000 dollars, and the total becomes 1,150,000 dollars. Equities are now about 65.2 percent, just outside the corridor.
+
+To rebalance, take 60 percent of 1,150,000, which is 690,000 dollars. So you sell 60,000 dollars of equities and buy 60,000 dollars of bonds, which brings bonds to 460,000 dollars, or 40 percent. Corridors exist because trading has costs, so you do not rebalance after every small move. And because rebalancing means selling what has done well, a written policy helps you actually do it.
+
+The last piece is ESG, and investors bring it into portfolios in six main ways. Negative screening excludes certain sectors or companies, such as tobacco or weapons makers. Positive screening, often called best in class, favors companies with strong ESG records relative to their peers. ESG integration builds ESG factors into the normal analysis of risk and return without necessarily excluding anything. Thematic investing targets a theme, such as clean energy, and impact investing seeks measurable social or environmental benefits alongside a financial return.
+
+The sixth is engagement, or active ownership, which uses shareholder rights such as proxy voting and dialogue with management to influence company behavior. These preferences belong in the I P S, typically among the constraints or investment guidelines. Here is the trap. Negative screening shrinks the investable universe, which can reduce diversification and create tracking error against an unscreened benchmark. And do not confuse thematic with impact. An impact investment must aim for, and measure, a specific positive outcome.
+
+To close the module, repeat the core rule. The I P S states two objectives, risk and return, and five constraints, liquidity, time horizon, taxes, legal and regulatory factors, and unique circumstances. When willingness exceeds ability, ability governs. When ability exceeds willingness, the adviser may educate the client but should not override them. So the more conservative of the two usually sets the risk tolerance.
+
+## Recall check
+
+Q: In which step of the portfolio management process does asset allocation take place?
+
+Answer: The execution step. Planning ends with the written I P S. Execution covers asset allocation, security analysis and portfolio construction, and feedback covers monitoring, rebalancing and reporting.
+
+Q: A worker's retirement income will depend entirely on how the investments in her own account perform. Which type of plan is this, and who bears the investment risk?
+
+Answer: It is a defined contribution plan, and the employee bears the investment risk. Only the contribution is defined. In a defined benefit plan, the benefit is promised and the employer bears the risk of funding it.
+
+Q: A closed end fund has a net asset value of 25 dollars per share, and its shares trade at 22.50 dollars. Is it at a premium or a discount, and how large?
+
+Answer: It trades at a 10 percent discount. The gap is 2.50 dollars, and 2.50 divided by 25 is 10 percent. Closed end shares trade on an exchange rather than being redeemed by the fund, so their price can drift from value.
+
+Q: A retiree who depends on her portfolio for all of her living expenses insists on an all equity portfolio. Which should most likely set her risk tolerance, her ability or her willingness?
+
+Answer: Her ability, which is low because a deep loss would cut directly into her living expenses. When willingness exceeds ability, ability governs. The adviser should not let a strong desire for risk override a weak capacity to bear it.
+
+Q: A client with a 2 million dollar portfolio needs 80,000 dollars a year and wants to preserve purchasing power with expected inflation of 3 percent. Roughly what nominal return is required?
+
+Answer: About 7 percent. The spending is 80,000 divided by 2 million, or 4 percent real, and adding 3 percent inflation gives roughly 7 percent. Compounding exactly, 1.04 times 1.03 minus 1 gives about 7.1 percent.
+
+Q: A pension fund's strategic weight in equities is 50 percent. Its committee raises equities to 55 percent for six months because it expects stocks to outperform. Which decision is this most likely to be?
+
+Answer: Tactical asset allocation. It is a deliberate, short term departure from the strategic weights to exploit a perceived opportunity. It is not security selection, which is about choosing securities within an asset class.
+
+## Recap
+
+The portfolio approach judges each investment by its effect on the whole portfolio, and diversification lowers risk without necessarily lowering expected return, though it can fail in a crisis. The process runs planning, then execution, then feedback, with asset allocation in execution and rebalancing in feedback. Banks and insurers have low risk tolerance and high liquidity needs, while defined benefit plans, endowments and foundations have long horizons and higher risk tolerance. In a defined benefit plan the sponsor bears the investment risk, and in a defined contribution plan the employee does.
+
+Net asset value per share is assets minus liabilities, divided by shares outstanding, and of the funds covered here, closed end funds are the ones that can trade far from it. The I P S sets two objectives, risk and return, and five constraints, liquidity, time horizon, taxes, legal and regulatory factors, and unique circumstances. When willingness exceeds ability, ability governs. The strategic asset allocation drives most of a portfolio's return variation, tactical allocation and security selection add active risk, and ESG approaches range from negative screening to impact investing.
