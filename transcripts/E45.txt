@@ -1,0 +1,165 @@
+## The big picture
+
+The last episode covered Standard one, which is about your own professionalism. This episode moves outward. Standard two, Integrity of Capital Markets, protects the market as a whole. Standard three, Duties to Clients, protects the people whose money you manage or advise on. Together they hold seven of the Standards.
+
+Standard two has two parts. Standard two A, Material Nonpublic Information, says you may not act on inside information or pass it on. Standard two B, Market Manipulation, says you may not distort prices or fake trading volume to mislead other investors. Both rest on the same idea. Markets work only when prices reflect information that everyone can reach, and when trading reflects real buying and selling.
+
+Standard three has five parts. Three A is Loyalty, Prudence, and Care. Three B is Fair Dealing. Three C is Suitability. Three D is Performance Presentation. Three E is Preservation of Confidentiality.
+
+Read as a set, those five describe a good adviser. Put the client first, treat every client fairly, and know each client well enough to recommend what fits. Then report results honestly, and keep the client's secrets.
+
+On the exam, these Standards appear as short cases. You decide whether there is a violation, and if so, which Standard it breaks. The answer usually turns on one detail.
+
+Is the information material, and is it public? What was the trader's intent? Who is the real client, and was something disclosed?
+
+## Module 91.3, Guidance for Standard II
+
+Start with Standard two A, Material Nonpublic Information. In plain words, if you hold information that is both material and nonpublic, and it could affect the value of an investment, you must not act on it. That rules out trading on it and also changing a recommendation because of it. You also must not cause anyone else to act on it. Causing others to act includes tipping a friend, recommending the trade to a client, or hinting to a colleague.
+
+Why does this rule exist? If insiders can profit from information no one else can see, outsiders become the losing side of every such trade. Over time they demand a higher return to take part, or they leave. Liquidity falls and the cost of capital rises for every issuer.
+
+The test has two parts, and both must be true. First, the information must be material. Information is material if releasing it would likely move the price, or if a reasonable investor would want to know it before deciding. Common examples are earnings before release, a planned merger, a major change in management, a regulatory decision, a significant lawsuit, the loss of a big customer, and even a large order that a client is about to place. Materiality also depends on how specific and how reliable the information is, so a vague rumor from an unknown source is less likely to be material than a firm fact from a senior executive.
+
+Second, the information must be nonpublic. Information stays nonpublic until it has been released to the market in general, as opposed to a select group. Here is the trap. A company that tells a small group of analysts something at a private meeting has not made it public. The analysts in the room hold nonpublic information, even though the company chose to share it. The same caution applies to a closed online group with restricted membership, because being posted somewhere is not the same as being available to the market.
+
+Notice what the test does not ask. It does not ask how you got the information. Whether you overheard it in an elevator or were told it in confidence, if it is material and nonpublic, you may not act on it. The Standard also reaches beyond the stock, to bonds, options, or any instrument whose value the news would move.
+
+Now the most important exception, the mosaic theory. An analyst may combine public information with nonpublic information that is not material, and reach a conclusion that would be material if others knew it. That is not a violation. It is exactly what good research looks like. Each tile in the mosaic is either public or unimportant on its own, and the insight comes from the analyst's skill in putting them together. The recommended practice is to keep records of the research, so you can show later how you reached the conclusion.
+
+Two related points. When a widely followed analyst changes a rating, the change alone may move the price. That does not turn the report into inside information. The analyst built it from public and nonmaterial pieces, and clients pay for that work, so the firm can send it to clients without first releasing it to everyone. Similarly, a firm may pay outside industry experts for their insight. That is allowed, but if an expert passes along material nonpublic information, you cannot trade until it becomes public.
+
+Let us run two cases. In the first, an analyst visits a manufacturer she covers. The plant manager tells her, as a plain fact, that the company's largest customer has cancelled its biggest contract, and the announcement is two weeks away. She cuts her estimate and tells her portfolio manager to sell. That is a violation of Standard two A. The news is specific and from a reliable source, so it is material, and it has not been announced, so it is nonpublic.
+
+In the second case, a different analyst reads every public filing on a retailer, counts cars in its parking lots, and chats with a store manager who says business feels a little slow, with no figures. He concludes earnings will miss and issues a sell rating. That is not a violation. The filings and car counts are public, and the manager's comment is nonpublic but not material. This is the mosaic theory at work, and he should keep his notes.
+
+What if you do receive material nonpublic information? Do not trade and do not pass it on. The first recommended step is to encourage the source, usually the issuer, to make the information public. Tell your compliance department as well.
+
+Firms protect themselves with a firewall, which is a set of controls on how information moves between departments. Compliance or legal staff oversee communication between the deal side of the firm and the research and trading side, which are physically separated with no shared staff. Compliance keeps a confidential watch list to monitor trading in names where the firm may hold inside information, and a restricted list that limits trading in certain names. Employee trading is reviewed, the firm's own trading gets closer review or restriction while it holds such information, and the policies are written down and taught. In bank capital planning work, you often see results before they are released, and for any institution with publicly traded securities, that knowledge can be material nonpublic information until it is announced.
+
+Now Standard two B, Market Manipulation. In plain words, you must not try to fool other investors, either by pushing a price away from where genuine supply and demand would set it, or by making trading activity look heavier than it really is.
+
+Manipulation comes in two forms. The first is information based, which means spreading false rumors or misleading claims to push others to trade. The classic version is the pump and dump. You buy a thinly traded stock, promote it with exaggerated claims, and sell into the buying you created. Suppose you buy 100,000 shares at 1 dollar and your promotion lifts the price to 3 dollars. Selling gives you a 200,000 dollar profit, and that profit comes straight from the buyers you misled.
+
+The second form is transaction based, which means trades designed to give a false picture of price or activity. One version is trading back and forth between accounts you control, so volume looks real when no ownership has really changed. Another is building a dominant position in an asset in order to push around the price of a related derivative, or of the asset itself.
+
+Here is the key. This Standard turns on intent. Plenty of legitimate trading moves prices. Trading on a view that a security is mispriced is legitimate, even in a thin market where your orders move the price. So is spreading a large order over several days to limit its price impact, or selling a losing position to realize a tax loss. None of these aims to mislead anyone.
+
+A case. A manager holds a thinly traded small cap stock that normally trades about 10,000 shares a day. To attract buyers, he trades 40,000 shares back and forth between two accounts he runs. Reported volume jumps to 50,000 shares, five times normal, but real demand has not changed. That violates Standard two B, because the trades exist only to create a false impression of activity. It is a violation even if the price never moves, and firms guard against it with order controls, trade surveillance and exception reports.
+
+To repeat the core rules. Material and nonpublic means you neither act nor cause others to act. The mosaic theory is allowed. And market manipulation requires an intent to mislead.
+
+## Module 91.4, Guidance for Standards III(A) and III(B)
+
+Standard three A is Loyalty, Prudence, and Care. In plain words, you serve the client, and you do it carefully and sensibly. Whenever the client's interests clash with your firm's or your own, the client's interests win.
+
+The idea comes from trust. A client hands you control over money, or relies on your advice, because you know more than they do. That gap creates the temptation to serve yourself, and this Standard closes it. Prudence means the care and caution a sensible professional in your role would use, which includes understanding the client's situation and avoiding needless risk.
+
+The first practical question is who the client actually is. When you manage a pension plan or a trust, the client is the beneficiaries, not the company or the trustees who hired you. When you run a fund to a stated mandate, such as an index fund, your duty is to invest consistently with that mandate, not to satisfy each investor's personal wishes.
+
+Here is the classic case. A manager runs the pension plan of a manufacturing company. The company faces a hostile takeover bid, and its executives ask him to buy a large block of the company's own shares for the plan, to help fight the bid. The shares look expensive, and the purchase would concentrate the plan's risk. If he buys, that violates Standard three A, because his duty runs to the plan's beneficiaries and he would be serving the executives who hired him.
+
+Second, client brokerage. The commissions paid on a client's trades are the client's asset. Using them to buy research that helps manage that client's money is acceptable. Using them to pay the firm's rent serves the firm, not the client, and that violates this Standard.
+
+You must also seek best execution, meaning the best overall result on each trade once price, commission and market impact are counted. If a client directs you to use a particular broker, you can follow that instruction. But if that broker may not deliver best execution, the client should understand this, and you should get that acknowledgment in writing. Steering client trades to a broker as a reward for referring new clients to you is allowed only if those accounts still get best execution and the practice is disclosed to them.
+
+Third, proxy voting. Votes on shares a client owns have economic value, so they belong to the client too. Vote them in an informed way and in the client's interest. You do not have to vote every proxy, and if a cost benefit view shows that voting a routine matter adds nothing, skipping it can be fine. What you cannot do is vote with management automatically on important issues. A written proxy policy, available to clients, is good practice.
+
+Fourth, the recommended procedures. If you hold or control client assets, send each client an itemized statement at least quarterly, disclose where the assets are held, and keep client assets separate from the firm's and your own. Establish each client's objectives, consider how an investment fits the whole portfolio, diversify unless the client's guidelines say otherwise, and review accounts regularly. Treat clients fairly, disclose conflicts and compensation arrangements, seek best execution, vote proxies in the client's interest, and keep client information confidential.
+
+Here are the traps. Candidates sometimes assume the duty runs to whoever pays the fee or signs the contract. For a pension plan or trust, it runs to the beneficiaries. The second trap is assuming every proxy must be voted. It need not be, as long as the decision is made in the client's interest.
+
+Now Standard three B, Fair Dealing. In plain words, no client may be favored or shortchanged, whether you are sharing research, issuing a recommendation, placing trades, or doing any other professional work.
+
+The key word is fairly, not equally. Clients differ, and you cannot call everyone at the same moment. Firms may also offer different levels of service, such as a premium tier with more contact. That is allowed if the service levels are disclosed, offered to any client willing to pay for them, and do not disadvantage the other clients.
+
+Fair dealing has two arenas. The first is recommendations. When you issue a new recommendation, every client should get a fair chance to act on it, so it goes out to all of them at the same time, or as close to that as possible. A material change to an old recommendation must reach all current clients, with special care for those who acted on the original advice.
+
+The second arena is investment action, where the classic test is trade allocation. When a block trade fills, every participating account gets the same price and the same commission. When an order only partly fills, the shares are split pro rata, which means in proportion to each account's order size.
+
+A worked example. Your firm receives 6,000 shares of a hot new issue, and the issue is oversubscribed. Three clients for whom it is suitable ordered 4,000, 4,000 and 2,000 shares, for a total of 10,000. The firm received 6,000 out of 10,000, which is 60 percent, so each client gets 60 percent of the order. That is 2,400, 2,400 and 1,200 shares, which adds back to 6,000. The tempting wrong answer is to fill your largest fee client first, which favors one client over the others and violates Standard three B.
+
+Two more points on hot issues. When an offering is oversubscribed, you should skip buying it for yourself and for family accounts that are not clients, so more shares reach clients. But if a relative is a regular fee paying client, treat that account like any other client account. Do not favor it, and do not shut it out.
+
+A case. An analyst downgrades a stock from buy to sell. Before the downgrade goes out, she phones her three largest clients, who sell at once. Two hours later the firm emails the change to everyone else. That violates Standard three B, because the largest clients got a head start at the expense of the rest.
+
+The recommended procedures follow from that case. Limit the number of people who know about a pending recommendation, and shorten the time between the decision and its release. Set rules for what staff may do before release, and send the recommendation to all relevant clients at once. Keep a list of clients and their holdings, so you know who needs to hear about a change.
+
+Write down your trade allocation procedures. Those include time stamps on orders, processing orders in the sequence they arrive, the same price for every account in a block trade, and pro rata allocation of partial fills. Then disclose those procedures and your service levels to clients, and review accounts regularly to catch favoritism.
+
+To repeat the core rules. Under three A, the client's interests come before your employer's and your own, and for a pension plan the client is the beneficiaries. Under three B, fair does not mean equal, and partial fills are allocated pro rata.
+
+## Module 91.5, Guidance for Standards III(C), III(D), and III(E)
+
+Standard three C is Suitability, and it has two parts. Part one applies when you advise a client directly. Before you recommend or act for a client or prospect, you must find out how experienced they are as investors, what return they seek, how much risk they can bear, and what financial limits apply, and you must refresh that picture regularly. Each investment must fit the client's finances and line up with the goals and limits the client has set out in writing. And you judge that fit by looking at the whole portfolio.
+
+Part two applies when you run a portfolio to a stated mandate, strategy or style. Then every recommendation and every trade has to stay within the objectives and limits the portfolio has promised its investors.
+
+The first principle is simple. You cannot know whether something fits until you know the person it is meant to fit. The tool is the investment policy statement, a written record of the client's return objective, risk tolerance and constraints. The constraints are time horizon, liquidity needs, taxes, legal and regulatory limits, and unique circumstances. The statement can also record preferences such as environmental, social and governance considerations, known as ESG. The policy statement should be reviewed at least annually, and also before material changes to the client's investments.
+
+Total portfolio context matters. A volatile emerging market fund may look risky on its own. In a large, diversified portfolio, a small allocation to it might even lower overall risk. So you judge the effect on the whole portfolio, not the holding in isolation.
+
+Next, unsolicited requests. Sometimes a client asks for a trade that does not fit the policy statement. First, hold off and explain how the trade departs from the plan. If the effect on the portfolio is small, you can generally carry it out once the client acknowledges that it goes against your advice. If the effect is material, use the moment to update the policy statement, and if the client refuses and still insists, decide whether the advisory relationship should continue.
+
+Now part two. A manager who runs a fund to a mandate is not judging suitability investor by investor. The duty is to stay within the stated mandate. Suppose a fund is marketed as large cap value, and value stocks lag for a year. The manager quietly shifts a third of the fund into fast growing technology stocks to catch up. That violates Standard three C, because investors chose this fund for a style it no longer follows.
+
+A case under part one. A retired client depends on her portfolio for income and has low risk tolerance. Her adviser likes a small biotechnology company and puts 30 percent of her portfolio into it. That violates Standard three C. A single speculative stock at that weight does not fit her objectives or constraints, however good the research.
+
+The recommended procedures are a written policy statement, regular updates, and a suitability test before each investment. The test asks three things. How does this change the portfolio's diversification? How do its risks compare with the client's risk tolerance? Does it fit the strategy the client needs?
+
+Now Standard three D, Performance Presentation. In plain words, whenever you share investment results, you must take reasonable steps so the numbers are honest, correct, and leave out nothing a reader needs. Remember it as fair, accurate and complete. It applies to anyone who talks about performance, whether in a pitch book, a client letter, a fund report, or a summary of an analyst's past recommendations.
+
+The aim is to prevent misleading pictures of past results. That means no cherry picking the best account, no dropping closed accounts that did badly, and no passing off model results as real. It also means no suggesting that clients can count on getting past returns in the future. A brief presentation, such as a one page summary, is fine if it notes that the information is limited and that full details are available on request.
+
+The recommended procedures help. Present a weighted composite of similar portfolios, not a single representative account. Include terminated accounts, and say when they were terminated. Disclose whatever a reader needs to interpret the numbers, such as whether results are simulated, whether they come from a prior firm, and whether they are gross or net of fees. Keep the data and records that support the figures.
+
+Complying with the Global Investment Performance Standards is the recommended way to meet this Standard, but it is voluntary, not required. Here is the trap. Candidates think this Standard only matters for firms that claim compliance with those global standards. It applies to everyone who communicates performance, whether or not the firm complies.
+
+A worked example. A manager runs four similar accounts of equal size. Over the year, three of them return 14 percent, 10 percent and 6 percent, and the fourth loses 6 percent and is closed at year end. Showing only the best account claims 14 percent.
+
+Averaging the three survivors gives 10 percent. The honest composite includes all four, so the returns add to 24, and 24 divided by 4 gives 6 percent. Presenting either the 14 or the 10 as the firm's record violates Standard three D. Cherry picking the best account more than doubles the true figure, and dropping the closed account adds 4 percentage points.
+
+A case. A new firm's brochure shows a three year return of 18 percent a year. The figures come from a model portfolio the founder ran on paper, and the brochure does not say so. That violates Standard three D. Clearly labeling the results as simulated would have addressed that problem.
+
+Now Standard three E, Preservation of Confidentiality. In plain words, what you learn about a client stays private, and that holds for current clients, former clients and prospects. You may disclose it in only three situations. The information involves illegal activity by the client or prospect, the law requires you to disclose it, or the client or prospect gives permission.
+
+Why? Clients reveal their finances, families and plans because they trust you. If that trust leaks, clients stop telling advisers the truth, and advice gets worse for everyone. The duty covers information you receive because of the special relationship, while doing the client's business. It covers former clients, so ending the relationship does not end the duty, and it covers prospects who never became clients.
+
+The illegal activity exception permits disclosure, and in some cases the law may require you to report. Laws differ by jurisdiction, so when in doubt, go to compliance or outside counsel before disclosing anything. One special point. Sharing client information with CFA Institute's Professional Conduct Program during an investigation is not a violation. In fact, you must cooperate with such an investigation unless the law prevents it.
+
+On electronic information, you do not need to be a technology expert. You should understand and follow your firm's procedures for storing and sending client data, so you do not disclose something by accident. Share client information only with colleagues who are authorized and are working for that client.
+
+Two cases. At a dinner party, an adviser mentions that a former client just received a large inheritance and is going through a divorce. That violates Standard three E, because the duty survives the end of the relationship and none of the exceptions applies. In the second case, an adviser finds evidence that a client is using the account to launder money. Disclosing that to the authorities, after consulting compliance, is not a violation, because the information concerns the client's illegal activity.
+
+To repeat the core rules. Under three C, know the client and judge fit within the whole portfolio, or stick to the mandate. Under three D, performance must be fair, accurate and complete. Under three E, keep it confidential unless the client acted illegally, the law requires disclosure, or the client permits it.
+
+## Recall check
+
+Q: At a private meeting with ten analysts, a chief financial officer says quarterly sales will fall far short of guidance. Under Standard two A, is that information now public?
+
+Answer: No. Telling a select group of analysts is not release to the market in general, so the information is still material and nonpublic. The analysts may not trade or advise clients on it until it is publicly released, and they should encourage the company to release it.
+
+Q: Which is most likely a violation of Standard two B: splitting a large sell order over several days, selling a losing position to realize a tax loss, or trading a thin stock between two of your own accounts to raise its volume?
+
+Answer: Trading between your own accounts to raise volume. Those trades create a false picture of activity, and their purpose is to mislead. The other two are legitimate strategies with no intent to mislead, even if they move the price.
+
+Q: A manager runs a company's pension plan. To whom does she owe her duty of loyalty under Standard three A?
+
+Answer: The plan's beneficiaries. The company and its executives hired her, but they are not the client for this purpose. A request from them that conflicts with the beneficiaries' interests must be refused.
+
+Q: Your firm receives 3,000 shares of an oversubscribed new issue. Client A ordered 2,000 shares and client B ordered 4,000. Under pro rata allocation, how many shares does client A receive?
+
+Answer: 1,000 shares. Total orders are 6,000, and the firm received 3,000, which fills 50 percent of each order. Half of 2,000 is 1,000, and client B gets 2,000.
+
+Q: A client with low risk tolerance asks his adviser to buy a speculative stock that would become a large part of his portfolio. What should the adviser do under Standard three C?
+
+Answer: Explain how the trade departs from the investment policy statement, and because the effect would be material, discuss updating the policy statement. If the client will not update it and still insists, the adviser must decide whether the advisory relationship should continue. Simply executing the trade without that discussion is the tempting wrong answer.
+
+Q: Which is most likely a violation of Standard three E: sharing a former client's records with CFA Institute's Professional Conduct Program during an investigation, reporting a client's illegal activity when the law requires it, or telling a friend about a former client's finances?
+
+Answer: Telling a friend about a former client's finances. The duty of confidentiality covers former clients, and no exception applies. Neither of the other two actions is a violation.
+
+## Recap
+
+Standard two A says that if information is material and nonpublic, you may not act on it or cause anyone else to, however you obtained it. Information shared with a select group of analysts is still nonpublic, while the mosaic theory lets you combine public and nonmaterial nonpublic information into a material conclusion. Standard two B prohibits distorting prices or inflating volume with intent to mislead, so intent separates manipulation from legitimate trading. Standard three A puts clients ahead of your employer and yourself, makes the beneficiaries the client of a pension plan manager, and treats commissions and proxy votes as client assets.
+
+Standard three B requires fair rather than equal treatment, simultaneous release of recommendations, and pro rata allocation of partial fills. Standard three C requires knowing the client through a regularly updated investment policy statement and judging fit within the total portfolio, or staying within a fund's stated mandate. Standard three D requires performance to be fair, accurate and complete, using composites that include terminated accounts, with the Global Investment Performance Standards recommended but not required. Standard three E protects current, former and prospective clients, with exceptions for the client's illegal activity, disclosure required by law, and client permission.
