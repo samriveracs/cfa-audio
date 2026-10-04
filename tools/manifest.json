@@ -1,0 +1,1194 @@
+[
+ {
+  "ep": 1,
+  "season": 1,
+  "topic": "Quantitative Methods",
+  "title": "Rates, Returns and the Time Value of Money",
+  "modules": [
+   {
+    "id": "1.1",
+    "name": "Interest Rates and Return Measurement",
+    "kaplan_min": 25
+   },
+   {
+    "id": "1.2",
+    "name": "Time-Weighted and Money-Weighted Returns",
+    "kaplan_min": 15
+   },
+   {
+    "id": "1.3",
+    "name": "Common Measures of Return",
+    "kaplan_min": 20
+   },
+   {
+    "id": "2.1",
+    "name": "Discounted Cash Flow Valuation",
+    "kaplan_min": 25
+   },
+   {
+    "id": "2.2",
+    "name": "Implied Returns and Cash Flow Additivity",
+    "kaplan_min": 30
+   }
+  ],
+  "warmup": "Reading 2 Warm-Up (financial calculator)"
+ },
+ {
+  "ep": 2,
+  "season": 1,
+  "topic": "Quantitative Methods",
+  "title": "Return Statistics and Probability Trees",
+  "modules": [
+   {
+    "id": "3.1",
+    "name": "Central Tendency and Dispersion",
+    "kaplan_min": 35
+   },
+   {
+    "id": "3.2",
+    "name": "Skewness, Kurtosis, and Correlation",
+    "kaplan_min": 30
+   },
+   {
+    "id": "4.1",
+    "name": "Probability Models, Expected Values, and Bayes\u2019 Formula",
+    "kaplan_min": 20
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 3,
+  "season": 1,
+  "topic": "Quantitative Methods",
+  "title": "Portfolio Math, Simulation and Sampling",
+  "modules": [
+   {
+    "id": "5.1",
+    "name": "Probability Models for Portfolio Return and Risk",
+    "kaplan_min": 30
+   },
+   {
+    "id": "6.1",
+    "name": "Lognormal Distributions and Simulation Techniques",
+    "kaplan_min": 10
+   },
+   {
+    "id": "7.1",
+    "name": "Sampling Techniques and the Central Limit Theorem",
+    "kaplan_min": 25
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 4,
+  "season": 1,
+  "topic": "Quantitative Methods",
+  "title": "Hypothesis Testing and Tests of Independence",
+  "modules": [
+   {
+    "id": "8.1",
+    "name": "Hypothesis Testing Basics",
+    "kaplan_min": 20
+   },
+   {
+    "id": "8.2",
+    "name": "Types of Hypothesis Tests",
+    "kaplan_min": 60
+   },
+   {
+    "id": "9.1",
+    "name": "Tests for Independence",
+    "kaplan_min": 15
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 5,
+  "season": 1,
+  "topic": "Quantitative Methods",
+  "title": "Simple Linear Regression and Big Data",
+  "modules": [
+   {
+    "id": "10.1",
+    "name": "Linear Regression Basics",
+    "kaplan_min": 40
+   },
+   {
+    "id": "10.2",
+    "name": "Analysis of Variance (ANOVA) and Goodness of Fit",
+    "kaplan_min": 25
+   },
+   {
+    "id": "10.3",
+    "name": "Predicted Values and Functional Forms of Regression",
+    "kaplan_min": 15
+   },
+   {
+    "id": "11.1",
+    "name": "Introduction to Fintech",
+    "kaplan_min": 15
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 6,
+  "season": 2,
+  "topic": "Economics",
+  "title": "Firms and Market Structures",
+  "modules": [
+   {
+    "id": "12.1",
+    "name": "Breakeven, Shutdown, and Scale",
+    "kaplan_min": 25
+   },
+   {
+    "id": "12.2",
+    "name": "Characteristics of Market Structures",
+    "kaplan_min": 40
+   },
+   {
+    "id": "12.3",
+    "name": "Identifying Market Structures",
+    "kaplan_min": 10
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 7,
+  "season": 2,
+  "topic": "Economics",
+  "title": "Business Cycles, Fiscal Policy and Monetary Policy",
+  "modules": [
+   {
+    "id": "13.1",
+    "name": "Business Cycles",
+    "kaplan_min": 25
+   },
+   {
+    "id": "14.1",
+    "name": "Fiscal Policy Objectives",
+    "kaplan_min": 10
+   },
+   {
+    "id": "14.2",
+    "name": "Fiscal Policy Tools and Implementation",
+    "kaplan_min": 20
+   },
+   {
+    "id": "15.1",
+    "name": "Central Bank Objectives and Tools",
+    "kaplan_min": 20
+   },
+   {
+    "id": "15.2",
+    "name": "Monetary Policy Effects and Limitations",
+    "kaplan_min": 20
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 8,
+  "season": 2,
+  "topic": "Economics",
+  "title": "Geopolitics and International Trade",
+  "modules": [
+   {
+    "id": "16.1",
+    "name": "Geopolitics",
+    "kaplan_min": 30
+   },
+   {
+    "id": "17.1",
+    "name": "International Trade",
+    "kaplan_min": 30
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 9,
+  "season": 2,
+  "topic": "Economics",
+  "title": "Currencies and Exchange Rates",
+  "modules": [
+   {
+    "id": "18.1",
+    "name": "The Foreign Exchange Market",
+    "kaplan_min": 20
+   },
+   {
+    "id": "18.2",
+    "name": "Managing Exchange Rates",
+    "kaplan_min": 15
+   },
+   {
+    "id": "19.1",
+    "name": "Foreign Exchange Rates",
+    "kaplan_min": 20
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 10,
+  "season": 3,
+  "topic": "Corporate Issuers",
+  "title": "Issuers, Stakeholders and Governance",
+  "modules": [
+   {
+    "id": "20.1",
+    "name": "Features of Corporate Issuers",
+    "kaplan_min": 20
+   },
+   {
+    "id": "21.1",
+    "name": "Stakeholders and ESG Factors",
+    "kaplan_min": 25
+   },
+   {
+    "id": "22.1",
+    "name": "Corporate Governance",
+    "kaplan_min": 30
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 11,
+  "season": 3,
+  "topic": "Corporate Issuers",
+  "title": "Liquidity and Capital Investments",
+  "modules": [
+   {
+    "id": "23.1",
+    "name": "Liquidity Measures and Management",
+    "kaplan_min": 30
+   },
+   {
+    "id": "24.1",
+    "name": "Capital Investments and Project Measures",
+    "kaplan_min": 30
+   },
+   {
+    "id": "24.2",
+    "name": "Capital Allocation Principles and Real Options",
+    "kaplan_min": 10
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 12,
+  "season": 3,
+  "topic": "Corporate Issuers",
+  "title": "Cost of Capital, Capital Structure and Business Models",
+  "modules": [
+   {
+    "id": "25.1",
+    "name": "Weighted-Average Cost of Capital",
+    "kaplan_min": 10
+   },
+   {
+    "id": "25.2",
+    "name": "Capital Structure Theories",
+    "kaplan_min": 40
+   },
+   {
+    "id": "26.1",
+    "name": "Business Model Features and Types",
+    "kaplan_min": 15
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 13,
+  "season": 4,
+  "topic": "Financial Statement Analysis",
+  "title": "Financial Statements, Revenue and Expense Recognition",
+  "modules": [
+   {
+    "id": "27.1",
+    "name": "Financial Statement Roles",
+    "kaplan_min": 40
+   },
+   {
+    "id": "28.1",
+    "name": "Revenue Recognition",
+    "kaplan_min": 20
+   },
+   {
+    "id": "28.2",
+    "name": "Expense Recognition",
+    "kaplan_min": 55
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 14,
+  "season": 4,
+  "topic": "Financial Statement Analysis",
+  "title": "Nonrecurring Items, Earnings per Share and the Balance Sheet",
+  "modules": [
+   {
+    "id": "28.3",
+    "name": "Nonrecurring Items",
+    "kaplan_min": 10
+   },
+   {
+    "id": "28.4",
+    "name": "Earnings Per Share",
+    "kaplan_min": 35
+   },
+   {
+    "id": "28.5",
+    "name": "Ratios and Common-Size Income Statements",
+    "kaplan_min": 10
+   },
+   {
+    "id": "29.1",
+    "name": "Intangible Assets and Marketable Securities",
+    "kaplan_min": 35
+   },
+   {
+    "id": "29.2",
+    "name": "Common-Size Balance Sheets",
+    "kaplan_min": 15
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 15,
+  "season": 4,
+  "topic": "Financial Statement Analysis",
+  "title": "The Statement of Cash Flows",
+  "modules": [
+   {
+    "id": "30.1",
+    "name": "Cash Flow Introduction and Direct Method CFO",
+    "kaplan_min": 35
+   },
+   {
+    "id": "30.2",
+    "name": "Indirect Method CFO",
+    "kaplan_min": 20
+   },
+   {
+    "id": "30.3",
+    "name": "Investing and Financing Cash Flows and IFRS/U.S. GAAP Differences",
+    "kaplan_min": 45
+   },
+   {
+    "id": "31.1",
+    "name": "Analyzing Statements of Cash Flows II",
+    "kaplan_min": 35
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 16,
+  "season": 4,
+  "topic": "Financial Statement Analysis",
+  "title": "Inventories",
+  "modules": [
+   {
+    "id": "32.1",
+    "name": "Inventory Measurement",
+    "kaplan_min": 15
+   },
+   {
+    "id": "32.2",
+    "name": "Inflation Impact on FIFO and LIFO",
+    "kaplan_min": 25
+   },
+   {
+    "id": "32.3",
+    "name": "Presentation and Disclosure",
+    "kaplan_min": 25
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 17,
+  "season": 4,
+  "topic": "Financial Statement Analysis",
+  "title": "Long Lived Assets, Leases and Deferred Compensation",
+  "modules": [
+   {
+    "id": "33.1",
+    "name": "Intangible Long-Lived Assets",
+    "kaplan_min": 10
+   },
+   {
+    "id": "33.2",
+    "name": "Impairment and Derecognition",
+    "kaplan_min": 20
+   },
+   {
+    "id": "33.3",
+    "name": "Long-Term Asset Disclosures",
+    "kaplan_min": 15
+   },
+   {
+    "id": "34.1",
+    "name": "Leases",
+    "kaplan_min": 40
+   },
+   {
+    "id": "34.2",
+    "name": "Deferred Compensation and Disclosures",
+    "kaplan_min": 35
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 18,
+  "season": 4,
+  "topic": "Financial Statement Analysis",
+  "title": "Income Taxes",
+  "modules": [
+   {
+    "id": "35.1",
+    "name": "Differences Between Accounting Profit and Taxable Income",
+    "kaplan_min": 25
+   },
+   {
+    "id": "35.2",
+    "name": "Deferred Tax Assets and Liabilities",
+    "kaplan_min": 20
+   },
+   {
+    "id": "35.3",
+    "name": "Tax Rates and Disclosures",
+    "kaplan_min": 20
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 19,
+  "season": 4,
+  "topic": "Financial Statement Analysis",
+  "title": "Financial Reporting Quality",
+  "modules": [
+   {
+    "id": "36.1",
+    "name": "Reporting Quality",
+    "kaplan_min": 30
+   },
+   {
+    "id": "36.2",
+    "name": "Accounting Choices and Estimates",
+    "kaplan_min": 20
+   },
+   {
+    "id": "36.3",
+    "name": "Warning Signs",
+    "kaplan_min": 10
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 20,
+  "season": 4,
+  "topic": "Financial Statement Analysis",
+  "title": "Financial Ratios",
+  "modules": [
+   {
+    "id": "37.1",
+    "name": "Introduction to Financial Ratios",
+    "kaplan_min": 25
+   },
+   {
+    "id": "37.2",
+    "name": "Financial Ratios, Part 1",
+    "kaplan_min": 20
+   },
+   {
+    "id": "37.3",
+    "name": "Financial Ratios, Part 2",
+    "kaplan_min": 35
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 21,
+  "season": 4,
+  "topic": "Financial Statement Analysis",
+  "title": "DuPont, Industry Ratios and Financial Statement Modeling",
+  "modules": [
+   {
+    "id": "37.4",
+    "name": "DuPont Analysis",
+    "kaplan_min": 20
+   },
+   {
+    "id": "37.5",
+    "name": "Industry-Specific Financial Ratios",
+    "kaplan_min": 10
+   },
+   {
+    "id": "38.1",
+    "name": "Financial Statement Modeling",
+    "kaplan_min": 30
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 22,
+  "season": 5,
+  "topic": "Equity Investments",
+  "title": "Markets, Positions, Leverage and Orders",
+  "modules": [
+   {
+    "id": "39.1",
+    "name": "Markets, Assets, and Intermediaries",
+    "kaplan_min": 45
+   },
+   {
+    "id": "39.2",
+    "name": "Positions and Leverage",
+    "kaplan_min": 15
+   },
+   {
+    "id": "39.3",
+    "name": "Order Execution and Validity",
+    "kaplan_min": 40
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 23,
+  "season": 5,
+  "topic": "Equity Investments",
+  "title": "Security Market Indexes and Market Efficiency",
+  "modules": [
+   {
+    "id": "40.1",
+    "name": "Index Weighting Methods",
+    "kaplan_min": 35
+   },
+   {
+    "id": "40.2",
+    "name": "Uses and Types of Indexes",
+    "kaplan_min": 25
+   },
+   {
+    "id": "41.1",
+    "name": "Market Efficiency",
+    "kaplan_min": 40
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 24,
+  "season": 5,
+  "topic": "Equity Investments",
+  "title": "Equity Securities and Company Research",
+  "modules": [
+   {
+    "id": "42.1",
+    "name": "Types of Equity Investments",
+    "kaplan_min": 10
+   },
+   {
+    "id": "42.2",
+    "name": "Foreign Equities and Equity Risk",
+    "kaplan_min": 25
+   },
+   {
+    "id": "43.1",
+    "name": "Company Research Reports",
+    "kaplan_min": 5
+   },
+   {
+    "id": "43.2",
+    "name": "Revenue, Profitability, and Capital",
+    "kaplan_min": 20
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 25,
+  "season": 5,
+  "topic": "Equity Investments",
+  "title": "Industry Analysis and Company Forecasting",
+  "modules": [
+   {
+    "id": "44.1",
+    "name": "Industry Analysis",
+    "kaplan_min": 30
+   },
+   {
+    "id": "44.2",
+    "name": "Industry Structure and Competitive Positioning",
+    "kaplan_min": 30
+   },
+   {
+    "id": "45.1",
+    "name": "Forecasting in Company Analysis",
+    "kaplan_min": 35
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 26,
+  "season": 5,
+  "topic": "Equity Investments",
+  "title": "Equity Valuation",
+  "modules": [
+   {
+    "id": "46.1",
+    "name": "Dividends, Splits, and Repurchases",
+    "kaplan_min": 15
+   },
+   {
+    "id": "46.2",
+    "name": "Dividend Discount Models",
+    "kaplan_min": 45
+   },
+   {
+    "id": "46.3",
+    "name": "Relative Valuation Measures",
+    "kaplan_min": 45
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 27,
+  "season": 6,
+  "topic": "Fixed Income",
+  "title": "Bond Features, Cash Flows and Issuance",
+  "modules": [
+   {
+    "id": "47.1",
+    "name": "Fixed-Income Instrument Features",
+    "kaplan_min": 20
+   },
+   {
+    "id": "48.1",
+    "name": "Fixed-Income Cash Flows and Types",
+    "kaplan_min": 35
+   },
+   {
+    "id": "49.1",
+    "name": "Fixed-Income Issuance and Trading",
+    "kaplan_min": 25
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 28,
+  "season": 6,
+  "topic": "Fixed Income",
+  "title": "Corporate and Government Bond Markets, and Bond Pricing",
+  "modules": [
+   {
+    "id": "50.1",
+    "name": "Fixed-Income Markets for Corporate Issuers",
+    "kaplan_min": 35
+   },
+   {
+    "id": "51.1",
+    "name": "Fixed-Income Markets for Government Issuers",
+    "kaplan_min": 15
+   },
+   {
+    "id": "52.1",
+    "name": "Fixed-Income Bond Valuation: Prices and Yields",
+    "kaplan_min": 35
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 29,
+  "season": 6,
+  "topic": "Fixed Income",
+  "title": "Yield Measures and the Term Structure",
+  "modules": [
+   {
+    "id": "53.1",
+    "name": "Yield and Yield Spread Measures for Fixed-Rate Bonds",
+    "kaplan_min": 35
+   },
+   {
+    "id": "54.1",
+    "name": "Yield and Yield Spread Measures for Floating-Rate Instruments",
+    "kaplan_min": 15
+   },
+   {
+    "id": "55.1",
+    "name": "The Term Structure of Interest Rates: Spot, Par, and Forward Curves",
+    "kaplan_min": 35
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 30,
+  "season": 6,
+  "topic": "Fixed Income",
+  "title": "Interest Rate Risk and Duration",
+  "modules": [
+   {
+    "id": "56.1",
+    "name": "Interest Rate Risk and Return",
+    "kaplan_min": 35
+   },
+   {
+    "id": "57.1",
+    "name": "Yield-Based Bond Duration Measures and Properties",
+    "kaplan_min": 20
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 31,
+  "season": 6,
+  "topic": "Fixed Income",
+  "title": "Convexity and Curve Based Risk Measures",
+  "modules": [
+   {
+    "id": "58.1",
+    "name": "Yield-Based Bond Convexity and Portfolio Properties",
+    "kaplan_min": 25
+   },
+   {
+    "id": "59.1",
+    "name": "Curve-Based and Empirical Fixed-Income Risk Measures",
+    "kaplan_min": 25
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 32,
+  "season": 6,
+  "topic": "Fixed Income",
+  "title": "Credit Risk and Credit Analysis",
+  "modules": [
+   {
+    "id": "60.1",
+    "name": "Credit Risk",
+    "kaplan_min": 40
+   },
+   {
+    "id": "61.1",
+    "name": "Credit Analysis for Government Issuers",
+    "kaplan_min": 10
+   },
+   {
+    "id": "62.1",
+    "name": "Credit Analysis for Corporate Issuers",
+    "kaplan_min": 30
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 33,
+  "season": 6,
+  "topic": "Fixed Income",
+  "title": "Securitization, ABS and MBS",
+  "modules": [
+   {
+    "id": "63.1",
+    "name": "Fixed-Income Securitization",
+    "kaplan_min": 20
+   },
+   {
+    "id": "64.1",
+    "name": "Asset-Backed Security (ABS) Instrument and Market Features",
+    "kaplan_min": 25
+   },
+   {
+    "id": "65.1",
+    "name": "Mortgage-Backed Security (MBS) Instrument and Market Features",
+    "kaplan_min": 40
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 34,
+  "season": 7,
+  "topic": "Derivatives",
+  "title": "Derivative Markets, Instruments and Uses",
+  "modules": [
+   {
+    "id": "66.1",
+    "name": "Derivatives Markets",
+    "kaplan_min": 25
+   },
+   {
+    "id": "67.1",
+    "name": "Forwards and Futures",
+    "kaplan_min": 10
+   },
+   {
+    "id": "67.2",
+    "name": "Swaps and Options",
+    "kaplan_min": 30
+   },
+   {
+    "id": "68.1",
+    "name": "Uses, Benefits, and Risks of Derivatives",
+    "kaplan_min": 20
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 35,
+  "season": 7,
+  "topic": "Derivatives",
+  "title": "Arbitrage and Pricing Forwards, Futures and Swaps",
+  "modules": [
+   {
+    "id": "69.1",
+    "name": "Arbitrage, Replication, and Carrying Costs",
+    "kaplan_min": 20
+   },
+   {
+    "id": "70.1",
+    "name": "Forward Contract Valuation",
+    "kaplan_min": 15
+   },
+   {
+    "id": "71.1",
+    "name": "Futures Valuation",
+    "kaplan_min": 10
+   },
+   {
+    "id": "72.1",
+    "name": "Swap Valuation",
+    "kaplan_min": 10
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 36,
+  "season": 7,
+  "topic": "Derivatives",
+  "title": "Option Valuation, Put Call Parity and the Binomial Model",
+  "modules": [
+   {
+    "id": "73.1",
+    "name": "Option Valuation",
+    "kaplan_min": 30
+   },
+   {
+    "id": "74.1",
+    "name": "Put-Call Parity",
+    "kaplan_min": 15
+   },
+   {
+    "id": "75.1",
+    "name": "Binomial Model for Option Values",
+    "kaplan_min": 25
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 37,
+  "season": 8,
+  "topic": "Alternative Investments",
+  "title": "Alternative Investment Structures, Returns, Private Capital and Real Assets",
+  "modules": [
+   {
+    "id": "76.1",
+    "name": "Alternative Investment Structures",
+    "kaplan_min": 20
+   },
+   {
+    "id": "77.1",
+    "name": "Performance Appraisal and Return Calculations",
+    "kaplan_min": 35
+   },
+   {
+    "id": "78.1",
+    "name": "Private Capital",
+    "kaplan_min": 20
+   },
+   {
+    "id": "79.1",
+    "name": "Real Estate",
+    "kaplan_min": 15
+   },
+   {
+    "id": "79.2",
+    "name": "Infrastructure",
+    "kaplan_min": 5
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 38,
+  "season": 8,
+  "topic": "Alternative Investments",
+  "title": "Natural Resources, Hedge Funds and Digital Assets",
+  "modules": [
+   {
+    "id": "80.1",
+    "name": "Farmland, Timberland, and Commodities",
+    "kaplan_min": 15
+   },
+   {
+    "id": "81.1",
+    "name": "Hedge Funds",
+    "kaplan_min": 20
+   },
+   {
+    "id": "82.1",
+    "name": "Distributed Ledger Technology",
+    "kaplan_min": 20
+   },
+   {
+    "id": "82.2",
+    "name": "Digital Asset Characteristics",
+    "kaplan_min": 20
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 39,
+  "season": 9,
+  "topic": "Portfolio Management",
+  "title": "Portfolio Risk and Return",
+  "modules": [
+   {
+    "id": "83.1",
+    "name": "Historical Risk and Return",
+    "kaplan_min": 5
+   },
+   {
+    "id": "83.2",
+    "name": "Risk Aversion",
+    "kaplan_min": 15
+   },
+   {
+    "id": "83.3",
+    "name": "Portfolio Standard Deviation",
+    "kaplan_min": 15
+   },
+   {
+    "id": "83.4",
+    "name": "The Efficient Frontier",
+    "kaplan_min": 15
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 40,
+  "season": 9,
+  "topic": "Portfolio Management",
+  "title": "Beta, the CAPM and the Security Market Line",
+  "modules": [
+   {
+    "id": "84.1",
+    "name": "Systematic Risk and Beta",
+    "kaplan_min": 40
+   },
+   {
+    "id": "84.2",
+    "name": "The CAPM and the SML",
+    "kaplan_min": 45
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 41,
+  "season": 9,
+  "topic": "Portfolio Management",
+  "title": "The Portfolio Management Process and Portfolio Planning",
+  "modules": [
+   {
+    "id": "85.1",
+    "name": "Portfolio Management Process",
+    "kaplan_min": 15
+   },
+   {
+    "id": "85.2",
+    "name": "Asset Management and Pooled Investments",
+    "kaplan_min": 15
+   },
+   {
+    "id": "86.1",
+    "name": "Portfolio Planning and Construction",
+    "kaplan_min": 35
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 42,
+  "season": 9,
+  "topic": "Portfolio Management",
+  "title": "Behavioral Biases and Risk Management",
+  "modules": [
+   {
+    "id": "87.1",
+    "name": "Cognitive Errors vs. Emotional Biases",
+    "kaplan_min": 30
+   },
+   {
+    "id": "87.2",
+    "name": "Emotional Biases",
+    "kaplan_min": 20
+   },
+   {
+    "id": "88.1",
+    "name": "Introduction to Risk Management",
+    "kaplan_min": 30
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 43,
+  "season": 10,
+  "topic": "Ethical and Professional Standards",
+  "title": "Ethics, Trust and the Code and Standards",
+  "modules": [
+   {
+    "id": "89.1",
+    "name": "Ethics and Trust",
+    "kaplan_min": 20
+   },
+   {
+    "id": "90.1",
+    "name": "Code and Standards",
+    "kaplan_min": 30
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 44,
+  "season": 10,
+  "topic": "Ethical and Professional Standards",
+  "title": "Standard I: Professionalism",
+  "modules": [
+   {
+    "id": "91.1",
+    "name": "Guidance for Standards I(A) and I(B)",
+    "kaplan_min": 20
+   },
+   {
+    "id": "91.2",
+    "name": "Guidance for Standards I(C), I(D), and I(E)",
+    "kaplan_min": 10
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 45,
+  "season": 10,
+  "topic": "Ethical and Professional Standards",
+  "title": "Standards II and III: Market Integrity and Duties to Clients",
+  "modules": [
+   {
+    "id": "91.3",
+    "name": "Guidance for Standard II",
+    "kaplan_min": 5
+   },
+   {
+    "id": "91.4",
+    "name": "Guidance for Standards III(A) and III(B)",
+    "kaplan_min": 10
+   },
+   {
+    "id": "91.5",
+    "name": "Guidance for Standards III(C), III(D), and III(E)",
+    "kaplan_min": 10
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 46,
+  "season": 10,
+  "topic": "Ethical and Professional Standards",
+  "title": "Standards IV and V: Employers and Investment Analysis",
+  "modules": [
+   {
+    "id": "91.6",
+    "name": "Guidance for Standard IV",
+    "kaplan_min": 15
+   },
+   {
+    "id": "91.7",
+    "name": "Guidance for Standard V",
+    "kaplan_min": 15
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 47,
+  "season": 10,
+  "topic": "Ethical and Professional Standards",
+  "title": "Standards VI and VII: Conflicts and Member Responsibilities",
+  "modules": [
+   {
+    "id": "91.8",
+    "name": "Guidance for Standard VI",
+    "kaplan_min": 10
+   },
+   {
+    "id": "91.9",
+    "name": "Guidance for Standard VII",
+    "kaplan_min": 5
+   }
+  ],
+  "warmup": null
+ },
+ {
+  "ep": 48,
+  "season": 10,
+  "topic": "Ethical and Professional Standards",
+  "title": "GIPS and Ethics Application",
+  "modules": [
+   {
+    "id": "92.1",
+    "name": "Introduction to GIPS",
+    "kaplan_min": 10
+   },
+   {
+    "id": "93.1",
+    "name": "Ethics Application",
+    "kaplan_min": 25
+   }
+  ],
+  "warmup": null
+ }
+]
