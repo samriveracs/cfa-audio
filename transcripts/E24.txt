@@ -1,0 +1,155 @@
+## The big picture
+
+This episode moves from markets to the securities that trade in them, and then to the first stage of researching a single company. The first two modules ask what you actually own when you buy equity: the types of shares, how voting works, how preference shares differ from common shares, public versus private equity, and how investors buy foreign shares. They then tie equity back to the company that issues it: why companies raise equity, why market value and book value differ, and how return on equity compares with the cost of equity.
+
+The last two modules begin company analysis by looking backward. You will see what a research report contains, how to pin down a business model, and how to judge a company's revenue, profitability, working capital, capital spending and debt from its history. Forecasting comes in the next episode.
+
+Expect three kinds of exam questions. First, classification and ranking, such as which share type is least risky for the holder, or which depository receipt lets a company raise capital. Second, interpretation, such as whether a rising return on equity is good news. Third, quick ratio math with round numbers. One thread ties the equity modules together: where a claim stands in line, and what options come with it, decide its risk.
+
+## Module 42.1, Types of Equity Investments
+
+Start with first principles. Lenders get a contractual promise of interest and principal. Equity holders get no promise at all. They own whatever is left after everyone else is paid, which is why equity is called a residual claim. In exchange for standing last in line, they get the upside, and common shareholders usually get control through voting.
+
+Common shares are the basic form. Holders share in profits through dividends, which the board may declare but never has to, and through a rising share price. In a liquidation they are paid last. Most important, common shareholders vote, electing the board and approving major decisions such as mergers. Shareholders who cannot attend the meeting can vote by proxy, authorizing someone else to cast their votes.
+
+There are two ways to elect directors, and the difference is heavily tested. Under statutory voting, each share gets one vote for each seat, and each seat is a separate contest. Under cumulative voting, your total votes equal the number of shares you own times the number of seats up for election, and you may cast all of them for a single candidate.
+
+Say you own 100 shares and 5 seats are up. Under statutory voting you cast 100 votes in each of 5 separate contests. Under cumulative voting you get 500 votes and can put all of them behind one candidate. Now picture a holder with 70 percent of the shares against your 30 percent. Under statutory voting, the majority wins every seat, 70 to 30.
+
+Under cumulative voting, stacking your votes is enough to win you at least one seat. So cumulative voting helps minority shareholders gain board representation, and statutory voting favors the majority.
+
+Voting rights can also differ by share class. Some companies issue a class of common shares with several votes per share, or with the right to elect a set number of directors. Founders use this to keep control while owning a minority of the economic interest, which can work against outside shareholders.
+
+Common shares can also carry options. Callable common shares give the issuer the right to buy the shares back at a set call price, so the holder gives up upside, because the company calls when that suits the company. Putable common shares give the holder the right to sell the shares back to the issuer at a set price. That puts a floor under the value, so putable shares are less risky for the investor.
+
+Preference shares, also called preferred stock, sit between debt and common equity. They rank ahead of common shares for dividends and in liquidation, but behind all creditors. They usually pay a fixed dividend, often stated as a percent of par value, and many have no maturity date. They usually carry no general voting rights, although holders may get a vote on matters that affect their own rights. Here is the key contrast with debt. A preference dividend is not a legal obligation, so skipping it does not put the company in default.
+
+Two features shape their risk, and the first is whether dividends are cumulative. With cumulative preference shares, any dividend the company skips is carried forward as dividends in arrears, and all arrears must be paid before common shareholders receive anything. With noncumulative shares, a skipped dividend is gone for good. Suppose a 5 dollar annual preference dividend is skipped for two years. In year three, cumulative holders must receive 10 dollars of arrears plus the current 5 dollars, so 15 dollars per share, before any common dividend is paid. Noncumulative holders are owed only the current 5 dollars.
+
+The second feature is participation. Nonparticipating preference shares, the more common type, receive only the fixed dividend and, in a liquidation, their par value. Participating preference shares receive the fixed dividend plus an extra dividend if profits pass a set level. Some also receive more than par value in a liquidation.
+
+Convertible preference shares let the holder exchange each share for a set number of common shares, called the conversion ratio. If each share converts into 4 common shares and the common trades at 30 dollars, converting would give the holder 120 dollars of common stock. Meanwhile the holder collects a dividend that is typically larger than the common dividend, keeps priority, and still shares in the upside. That mix of protection and upside makes convertible preference shares popular with venture capital and private equity investors.
+
+Now public versus private equity. Public shares trade on an exchange, with prices set continuously and with extensive disclosure rules. Private equity is held by a small group of investors, usually institutions and wealthy individuals, with no public market. Prices are set by negotiation, the shares are illiquid, and less disclosure is required. Private owners may gain a longer term focus and lower reporting costs, but investors usually demand a higher return for the illiquidity and thinner information.
+
+Three forms of private equity are worth knowing. Venture capital funds young companies with high growth potential, and investors usually exit through an initial public offering or a sale to another company. A leveraged buyout, or LBO, uses a large amount of borrowed money to buy a public company or a division, and when existing managers lead it, it is a management buyout. A private investment in public equity runs the other way: a public company that needs cash quickly sells new shares privately to a few investors, typically at a discount.
+
+Here is the trap. The word cumulative appears in two unrelated places. Cumulative voting is about electing directors, and it multiplies shares by seats. Cumulative preference shares are about dividends, and they carry missed payments forward.
+
+So remember the rule. Cumulative voting gives you shares times seats, all of which you can stack on one candidate. Cumulative preference shares carry skipped dividends forward, and every dollar of arrears must be paid before common shareholders get a cent.
+
+## Module 42.2, Foreign Equities and Equity Risk
+
+Why buy foreign shares at all? Diversification comes first, because foreign markets do not move in lockstep with your home market. Second, foreign markets offer access to growth in other economies. Fewer limits on cross border capital and better technology have made this far easier.
+
+The first route is direct investing, which means buying shares on a foreign exchange in the local currency. It is straightforward but brings frictions. You must convert currency, and your holding's value moves with the exchange rate. You may also face thinner liquidity, unfamiliar rules, different reporting standards and different tax treatment.
+
+The second route is the depository receipt, a security that trades in the investor's own market like a local share but represents shares of a foreign company. A bank, called the depository, holds the foreign company's shares in custody and issues receipts against them. Each receipt may stand for one share, several shares, or a fraction of a share. Dividends are converted and paid in the receipt's currency, but the receipt's price still tracks the foreign share price and the exchange rate, so currency risk does not go away.
+
+Depository receipts are either sponsored or unsponsored. A sponsored receipt is created with the foreign company's direct involvement, under an agreement with the depository bank, so the investor gets the voting rights and the company accepts greater disclosure. An unsponsored receipt is created by the bank without the company's involvement, so the bank keeps the voting rights and disclosure is lighter. The likely exam question is simple: who votes? Sponsored means the investor votes, and unsponsored means the bank does.
+
+Two main kinds of depository receipts are tested. A global depository receipt, spoken as G D R, is issued outside both the company's home country and the United States. Most trade in London and Luxembourg, and most are denominated in U.S. dollars. Because they are issued outside the home country, they escape that country's limits on foreign ownership and capital flows. They are not registered with the U.S. Securities and Exchange Commission, the S E C, though they can be sold privately to large U.S. institutions.
+
+An American depository receipt, spoken as A D R, is denominated in U.S. dollars and trades in the United States, and the unit that actually trades is called an American depository share. A D Rs come in four types. Level one trades over the counter, cannot raise new capital, and has the lightest reporting. Level two lists on a U.S. exchange with fuller reporting to the S E C, but still cannot raise capital. Level three lists on an exchange and can raise capital through a public offering, with full reporting.
+
+The fourth type, the Rule 144A receipt, is sold in a private placement to large qualified institutional buyers, raising capital without S E C registration. So for raising capital in a public U.S. offering, think Level three. For raising capital without registering, think Rule 144A.
+
+Two more forms round out the list. Global registered shares are ordinary common shares that trade on several exchanges in different currencies, with no receipt and no conversion needed, because the same share trades everywhere. A basket of listed depository receipts is an exchange traded fund, an ETF, that holds a portfolio of depository receipts.
+
+Now risk and return. A share's return comes from the change in price and the dividends received, and over several periods, from income on reinvested dividends. In words, the holding period return equals the ending price minus the beginning price plus the dividend, all divided by the beginning price. Buy at 50 dollars, receive a 1 dollar dividend, and sell at 54 dollars. The gain is 4 plus 1, which is 5, and 5 divided by 50 is 10 percent.
+
+Foreign shares add one more source: currency. Your return in your home currency equals one plus the local return, times one plus the currency return, minus one. If a foreign stock returns 10 percent in its own currency and that currency rises 5 percent against yours, you earn 1.10 times 1.05, minus one, which is 15.5 percent. If instead the currency falls 5 percent, you earn 1.10 times 0.95, minus one, which is 4.5 percent.
+
+Risk means uncertainty about future cash flows and returns, usually measured by the standard deviation of returns. Preference shares are less risky than common shares, because their dividends are fixed and they are paid first. Cumulative preference shares are less risky than noncumulative ones, because missed dividends are not lost. Putable shares are less risky than otherwise identical shares, because the put sets a floor. Callable shares are riskier for the holder than noncallable shares, because the issuer calls when that suits the issuer, so holders expect extra return for bearing that risk.
+
+Why do companies issue equity at all? Equity funds long lived assets, research and development, expansion and acquisitions. Shares also serve as a currency, paying for acquisitions or rewarding employees through stock options. A listing gives existing owners liquidity. Issuing equity can also shore up a balance sheet so the company meets debt covenants or regulatory capital requirements, as banks must when regulators set minimum capital against the assets they hold.
+
+Management's broad goal is to grow book value and maximize the market value of equity, and those are two different numbers. Book value of equity is total assets minus total liabilities on the balance sheet. It reflects the past: money shareholders contributed plus profits the company kept. Market value is the share price times the number of shares outstanding. It reflects investors' expectations about the amount, timing and risk of future cash flows.
+
+The ratio of the two is the price to book ratio, also called market to book. If market value is 300 million dollars and book equity is 200 million, the price to book ratio is 1.5. A ratio well above one usually means investors expect growth or profitability the balance sheet does not capture, such as brands and skills that accounting does not record at full value.
+
+Return on equity, or ROE, measures the profit a company earns on the book equity shareholders have invested. ROE equals net income divided by average book value of equity, where average equity is beginning equity plus ending equity, divided by two. Beginning equity is an alternative when equity is fairly stable. Example: net income is 30 million dollars, and equity starts the year at 140 million and ends at 160 million. Average equity is 150 million, so ROE is 30 divided by 150, which is 20 percent. Using beginning equity gives about 21.4 percent.
+
+Here is the trap. A rising ROE is not automatically good news. It rises when net income grows faster than equity, which is healthy, but also when equity shrinks faster than net income, perhaps because of earlier losses or write downs, or share buybacks funded with debt. Say net income falls 10 percent, from 30 to 27, while equity falls 20 percent, from 150 to 120. ROE climbs from 20 percent to 22.5 percent, even though the business earned less. Always check which part of the fraction moved.
+
+The last idea in this module is the cost of equity. It is the minimum expected return a company must offer to persuade investors to buy its shares and keep holding them. From the investors' side, the same number is their required rate of return, one figure seen from opposite sides of the trade. It is never stated or directly observed, so analysts estimate it with models such as the dividend discount model, the DDM, or the capital asset pricing model, the CAPM. Because shareholders bear more risk than lenders, the cost of equity is generally higher than the cost of debt.
+
+Now compare the two. ROE is an accounting result, backward looking and based on book value, while the cost of equity is market based and forward looking. A company expected to earn an ROE above its cost of equity is creating value for shareholders, and its shares tend to trade above book value. A company expected to earn less than its cost of equity is falling short of what its owners require, even if it reports a profit.
+
+So remember the rule. ROE equals net income divided by average book equity, and it is an accounting measure. The cost of equity equals the investors' required return, and it is a market measure. Value is created only when the first beats the second.
+
+## Module 43.1, Company Research Reports
+
+Company analysis has one purpose: to support an investment decision with evidence. The research report is where that work is written down. Sell side analysts at brokers publish reports for clients, while buy side analysts at asset managers write them for their own portfolio managers. Either way, a good report is timely and clear, separates facts from opinions, and states the risks to its own conclusion.
+
+A first report on a company usually follows a common skeleton. It opens with front matter: the issuer and security, the rating, the target price and the required disclosures. Next comes the recommendation, which states the investment thesis, meaning the call and the short argument for it. A company description explains what the business does, and an industry overview shows its competitive position. Then come the financial analysis and model, with past results and forecasts, and a valuation section showing how the analyst reached a value or target price. The report closes with environmental, social and governance considerations and with the risks that could make the thesis wrong.
+
+The first report on a company is called an initiation of coverage, and it covers all of this in depth. Later updates are shorter. They keep the front matter, recommendation, valuation and risks, and replace the rest with an analysis of what changed.
+
+The foundation of the company description is the business model, meaning how the company makes money. Five plain questions get you there: who are the customers, what does the company sell, where does it sell, how does it sell, and how does it price? Selling might be direct or through distributors, and pricing might be one time sales, subscriptions, licensing or usage fees. Then add the cost side: which inputs, suppliers and assets it cannot do without.
+
+Why start here? Because the business model tells you which numbers drive value. A subscription software company lives on subscriber counts, renewal rates and revenue per subscriber, while a grocery chain lives on store count, sales per store and thin margins. If you do not know which drivers matter, you cannot judge the financials or build a forecast.
+
+Here is the trap. The thesis is the conclusion, not the description. If a question asks where an analyst states the recommendation and its main justification, the answer is the recommendation section, which carries the investment thesis, not the company description or the valuation section. So remember: the business model answers who, what, where, how and at what price, and the thesis is the recommendation with its reasons.
+
+## Module 43.2, Revenue, Profitability, and Capital
+
+Once you understand the business model, you test it against the numbers. This module looks backward at four things: revenue, operating profitability, working capital, and finally capital investment and capital structure.
+
+Start with revenue. At its root, revenue equals volume times price, so every change in revenue is a change in units sold, in the average price per unit, or both. Analysts split revenue by segment, product and region, and then into those drivers. A retailer grows through sales at existing stores and new store openings, and a subscription business through more subscribers or more revenue per subscriber.
+
+Next, separate organic growth from the rest. Organic growth is what the existing business produced, excluding acquisitions and currency movements. Say revenue rises from 1,000 million dollars to 1,100 million. An acquisition added 50 million, and a weaker home currency added 20 million by translating foreign sales into more home currency. Organic growth is the remaining 30 million, or 3 percent, not the headline 10 percent. Acquired and currency driven revenue is real, but it does not tell you the core business is gaining ground.
+
+Then judge pricing power, which is the ability to raise prices without losing much volume. It comes from industry structure and competitive position: few strong rivals, high barriers to entry, differentiated products, high switching costs, and customers who are not very sensitive to price. In the numbers, companies with pricing power tend to have gross margins that are higher than peers and stable over time. They pass cost increases on to customers during inflation, and a meaningful share of their growth comes from price rather than volume.
+
+Here is the trap. Fast revenue growth is not proof of pricing power. If a company grows by cutting prices to win volume, revenue climbs while gross margin falls. Falling margins alongside rising sales usually point to weak pricing power, not strong.
+
+Now operating profitability. Express each cost line as a percent of revenue, and track it over time and against peers. Gross margin equals gross profit divided by revenue, where gross profit is revenue minus the cost of goods sold. Operating margin equals operating profit divided by revenue. The gap between the two margins is operating expenses, such as selling, general and administrative costs and research and development.
+
+Cost structure matters as much as cost levels. Variable costs move with volume, while fixed costs do not. A company with mostly fixed costs has high operating leverage, so a small change in revenue causes a larger change in operating profit. Example: revenue is 100 dollars, variable costs are 40, and fixed costs are 40, so operating profit is 20. If revenue rises 10 percent to 110, variable costs rise to 44, fixed costs stay at 40, and operating profit becomes 26. Profit rose 30 percent on a 10 percent sales increase, three times as fast, and the same leverage works in reverse when sales fall.
+
+Working capital comes next. Growing companies tie up cash in receivables and inventory, partly offset by what they owe suppliers, and three day counts summarize this. Days of sales outstanding equals accounts receivable divided by revenue, times 365, and shows how long customers take to pay. Days of inventory on hand equals inventory divided by cost of goods sold, times 365. Days of payables outstanding equals accounts payable divided by purchases, times 365, and shows how long the company takes to pay suppliers. Cost of goods sold often stands in for purchases.
+
+The cash conversion cycle equals days of sales outstanding plus days of inventory on hand, minus days of payables outstanding. It measures how long cash is tied up between paying suppliers and collecting from customers. With 40 days of receivables, 60 days of inventory and 30 days of payables, the cycle is 70 days. A shorter cycle frees cash. Receivable days rising faster than peers can mean looser credit terms, weaker customers or aggressive revenue recognition, and rising inventory days can signal slowing demand.
+
+Capital investment is the third area. Compare capital spending with depreciation. A ratio above one suggests the asset base is growing, a ratio near one suggests the company is roughly maintaining it, and a ratio below one for years can signal underinvestment and aging assets. Analysts also split spending into maintenance spending, which keeps current capacity running, and growth spending, which adds capacity. Capital intensity, often measured as capital spending as a percent of revenue, shows how much investment each dollar of sales requires.
+
+The key test of whether investment pays off is return on invested capital. It equals net operating profit after tax, divided by invested capital. Net operating profit after tax is operating profit times one minus the tax rate. Invested capital is the money tied up in operations, which you can measure as debt plus equity minus excess cash. Example: operating profit is 100 million dollars and the tax rate is 25 percent, so after tax operating profit is 75 million. With 500 million of invested capital, return on invested capital is 15 percent.
+
+If that company's cost of capital is 9 percent, each dollar invested earns more than it costs, and growth adds value. If return on invested capital were below the cost of capital, faster growth would destroy value.
+
+Finally, capital structure, meaning how the company funds itself. Key measures include debt to equity, debt to total capital, and net debt to EBITDA, where net debt is debt minus cash. Interest coverage equals EBIT divided by interest expense. A company with 300 million dollars of net debt and 100 million of EBITDA carries net debt of 3 times EBITDA, and with EBIT of 80 million and interest expense of 20 million, coverage is 4 times. Count lease liabilities as debt, and check maturity dates, because a large amount of debt coming due soon is a refinancing risk.
+
+A bank lending to this company reads the same ratios to judge whether its cash flow can carry the debt. The ROE trap shows up here too, because net debt to EBITDA can rise when debt rises or when EBITDA falls. So remember the core rules of this module. Revenue equals volume times price, and the cash conversion cycle equals receivable days plus inventory days minus payable days.
+
+## Recall check
+
+Q: Under which voting method can a shareholder cast all of their votes for a single board candidate, and whom does it help most?
+
+Answer: Cumulative voting. Total votes equal shares owned times the number of seats being filled, and all of them can go to one candidate. This helps minority shareholders win board seats that statutory voting, which favors the majority, would deny them.
+
+Q: A company has cumulative preference shares with a 4 dollar annual dividend, and it skipped last year's payment. How much per preference share must it pay this year before common shareholders can receive a dividend?
+
+Answer: 8 dollars. The 4 dollars in arrears from last year plus the current 4 dollars must be paid first. With noncumulative shares, the missed 4 dollars would simply be lost.
+
+Q: An investor holds an unsponsored depository receipt. Who most likely exercises the voting rights on the underlying shares: the investor, the foreign company, or the depository bank?
+
+Answer: The depository bank. With unsponsored receipts the foreign company is not involved, and the bank keeps the votes. With sponsored receipts, the investor gets the voting rights.
+
+Q: A company's return on equity rose from 15 percent to 18 percent in a year when its net income fell. What most likely explains the increase?
+
+Answer: Book equity fell faster than net income, for example through share buybacks funded with debt, or earlier write downs that shrank the equity base. ROE is a ratio, so a shrinking denominator can lift it even when the business earns less. A higher ROE is good news only when it comes from higher profit on a stable or growing equity base.
+
+Q: A company's revenue has grown 12 percent a year for three years while its gross margin fell each year. What does this most likely say about its pricing power?
+
+Answer: Its pricing power is most likely weak. The growth appears to come from volume won with lower prices, or from cost increases it could not pass on to customers. A company with pricing power usually shows stable or rising gross margins compared with its peers.
+
+Q: A company has 50 days of sales outstanding, 40 days of inventory on hand and 30 days of payables outstanding. What is its cash conversion cycle?
+
+Answer: 60 days. Add receivable days and inventory days, 50 plus 40, to get 90, then subtract the 30 payable days. Cash is tied up for about two months between paying suppliers and collecting from customers.
+
+## Recap
+
+Cumulative voting multiplies shares by seats and lets minority holders stack their votes, while statutory voting favors the majority. Preference shares rank ahead of common shares, and cumulative ones carry missed dividends forward as arrears that must be paid before any common dividend. Putable shares and cumulative preference shares carry less risk for the holder, and callable shares carry more.
+
+Sponsored depository receipts give investors the vote, unsponsored ones leave it with the bank, and Level three A D Rs raise capital through a public U.S. offering. ROE is net income divided by average book equity, an accounting number, while the cost of equity is the investors' required return, a market number, and a rising ROE can come from a shrinking denominator. Revenue equals volume times price, and pricing power shows up as high, stable gross margins. The cash conversion cycle equals receivable days plus inventory days minus payable days. And return on invested capital above the cost of capital is what makes growth worth having.

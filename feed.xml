@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 04:26:29 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 04:45:32 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -389,6 +389,40 @@
     <itunes:duration>1823</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E22.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E23 Security Market Indexes and Market Efficiency</title>
+    <itunes:title>Security Market Indexes and Market Efficiency</itunes:title>
+    <itunes:episode>23</itunes:episode>
+    <itunes:season>5</itunes:season>
+    <podcast:season name="Equity Investments">5</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Equity Investments, Kaplan Modules 40.1 to 41.1. 40.1 Index Weighting Methods, 40.2 Uses and Types of Indexes, 41.1 Market Efficiency</description>
+    <itunes:summary>Equity Investments, Kaplan Modules 40.1 to 41.1. 40.1 Index Weighting Methods, 40.2 Uses and Types of Indexes, 41.1 Market Efficiency</itunes:summary>
+    <content:encoded><![CDATA[<p>Equity Investments, Kaplan Modules 40.1 to 41.1.</p><ul><li>Module 40.1, Index Weighting Methods</li><li>Module 40.2, Uses and Types of Indexes</li><li>Module 41.1, Market Efficiency</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:12 The big picture</li><li>1:23 Module 40.1, Index Weighting Methods</li><li>10:39 Module 40.2, Uses and Types of Indexes</li><li>16:10 Module 41.1, Market Efficiency</li><li>27:58 Recall check</li><li>31:12 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E23.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E23_v2.mp3" length="9815209" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e23</guid>
+    <pubDate>Sat, 03 Oct 2026 12:23:00 -0500</pubDate>
+    <itunes:duration>1963</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E23.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E24 Equity Securities and Company Research</title>
+    <itunes:title>Equity Securities and Company Research</itunes:title>
+    <itunes:episode>24</itunes:episode>
+    <itunes:season>5</itunes:season>
+    <podcast:season name="Equity Investments">5</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Equity Investments, Kaplan Modules 42.1 to 43.2. 42.1 Types of Equity Investments, 42.2 Foreign Equities and Equity Risk, 43.1 Company Research Reports, 43.2 Revenue, Profitability, and Capital</description>
+    <itunes:summary>Equity Investments, Kaplan Modules 42.1 to 43.2. 42.1 Types of Equity Investments, 42.2 Foreign Equities and Equity Risk, 43.1 Company Research Reports, 43.2 Revenue, Profitability, and Capital</itunes:summary>
+    <content:encoded><![CDATA[<p>Equity Investments, Kaplan Modules 42.1 to 43.2.</p><ul><li>Module 42.1, Types of Equity Investments</li><li>Module 42.2, Foreign Equities and Equity Risk</li><li>Module 43.1, Company Research Reports</li><li>Module 43.2, Revenue, Profitability, and Capital</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:12 The big picture</li><li>1:34 Module 42.1, Types of Equity Investments</li><li>8:06 Module 42.2, Foreign Equities and Equity Risk</li><li>17:49 Module 43.1, Company Research Reports</li><li>20:35 Module 43.2, Revenue, Profitability, and Capital</li><li>28:02 Recall check</li><li>31:15 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E24.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E24_v2.mp3" length="9791794" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e24</guid>
+    <pubDate>Sat, 03 Oct 2026 12:24:00 -0500</pubDate>
+    <itunes:duration>1958</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E24.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>
