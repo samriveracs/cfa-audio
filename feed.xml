@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 07:19:53 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 07:39:45 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -576,6 +576,40 @@
     <itunes:duration>1924</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E33.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E34 Derivative Markets, Instruments and Uses</title>
+    <itunes:title>Derivative Markets, Instruments and Uses</itunes:title>
+    <itunes:episode>34</itunes:episode>
+    <itunes:season>7</itunes:season>
+    <podcast:season name="Derivatives">7</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Derivatives, Kaplan Modules 66.1 to 68.1. 66.1 Derivatives Markets, 67.1 Forwards and Futures, 67.2 Swaps and Options, 68.1 Uses, Benefits, and Risks of Derivatives</description>
+    <itunes:summary>Derivatives, Kaplan Modules 66.1 to 68.1. 66.1 Derivatives Markets, 67.1 Forwards and Futures, 67.2 Swaps and Options, 68.1 Uses, Benefits, and Risks of Derivatives</itunes:summary>
+    <content:encoded><![CDATA[<p>Derivatives, Kaplan Modules 66.1 to 68.1.</p><ul><li>Module 66.1, Derivatives Markets</li><li>Module 67.1, Forwards and Futures</li><li>Module 67.2, Swaps and Options</li><li>Module 68.1, Uses, Benefits, and Risks of Derivatives</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>1:27 Module 66.1, Derivatives Markets</li><li>6:58 Module 67.1, Forwards and Futures</li><li>11:38 Module 67.2, Swaps and Options</li><li>19:59 Module 68.1, Uses, Benefits, and Risks of Derivatives</li><li>26:30 Recall check</li><li>29:45 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E34.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E34_v2.mp3" length="9374414" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e34</guid>
+    <pubDate>Sat, 03 Oct 2026 12:34:00 -0500</pubDate>
+    <itunes:duration>1875</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E34.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E35 Arbitrage and Pricing Forwards, Futures and Swaps</title>
+    <itunes:title>Arbitrage and Pricing Forwards, Futures and Swaps</itunes:title>
+    <itunes:episode>35</itunes:episode>
+    <itunes:season>7</itunes:season>
+    <podcast:season name="Derivatives">7</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Derivatives, Kaplan Modules 69.1 to 72.1. 69.1 Arbitrage, Replication, and Carrying Costs, 70.1 Forward Contract Valuation, 71.1 Futures Valuation, 72.1 Swap Valuation</description>
+    <itunes:summary>Derivatives, Kaplan Modules 69.1 to 72.1. 69.1 Arbitrage, Replication, and Carrying Costs, 70.1 Forward Contract Valuation, 71.1 Futures Valuation, 72.1 Swap Valuation</itunes:summary>
+    <content:encoded><![CDATA[<p>Derivatives, Kaplan Modules 69.1 to 72.1.</p><ul><li>Module 69.1, Arbitrage, Replication, and Carrying Costs</li><li>Module 70.1, Forward Contract Valuation</li><li>Module 71.1, Futures Valuation</li><li>Module 72.1, Swap Valuation</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:12 The big picture</li><li>1:44 Module 69.1, Arbitrage, Replication, and Carrying Costs</li><li>9:56 Module 70.1, Forward Contract Valuation</li><li>16:31 Module 71.1, Futures Valuation</li><li>21:00 Module 72.1, Swap Valuation</li><li>25:39 Recall check</li><li>28:50 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E35.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E35_v2.mp3" length="9186746" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e35</guid>
+    <pubDate>Sat, 03 Oct 2026 12:35:00 -0500</pubDate>
+    <itunes:duration>1837</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E35.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>
