@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Sun, 04 Oct 2026 04:07:37 -0500</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 04:26:29 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -372,6 +372,23 @@
     <itunes:duration>2014</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E21.txt" type="text/plain"/>
+  </item>
+  <item>
+    <title>E22 Markets, Positions, Leverage and Orders</title>
+    <itunes:title>Markets, Positions, Leverage and Orders</itunes:title>
+    <itunes:episode>22</itunes:episode>
+    <itunes:season>5</itunes:season>
+    <podcast:season name="Equity Investments">5</podcast:season>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Equity Investments, Kaplan Modules 39.1 to 39.3. 39.1 Markets, Assets, and Intermediaries, 39.2 Positions and Leverage, 39.3 Order Execution and Validity</description>
+    <itunes:summary>Equity Investments, Kaplan Modules 39.1 to 39.3. 39.1 Markets, Assets, and Intermediaries, 39.2 Positions and Leverage, 39.3 Order Execution and Validity</itunes:summary>
+    <content:encoded><![CDATA[<p>Equity Investments, Kaplan Modules 39.1 to 39.3.</p><ul><li>Module 39.1, Markets, Assets, and Intermediaries</li><li>Module 39.2, Positions and Leverage</li><li>Module 39.3, Order Execution and Validity</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:12 The big picture</li><li>1:29 Module 39.1, Markets, Assets, and Intermediaries</li><li>9:57 Module 39.2, Positions and Leverage</li><li>16:39 Module 39.3, Order Execution and Validity</li><li>25:28 Recall check</li><li>28:55 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E22.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E22_v2.mp3" length="9115023" type="audio/mpeg"/>
+    <guid isPermaLink="false">cfa-l1-audio-2026-e22</guid>
+    <pubDate>Sat, 03 Oct 2026 12:22:00 -0500</pubDate>
+    <itunes:duration>1823</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E22.txt" type="text/plain"/>
   </item>
 </channel>
 </rss>

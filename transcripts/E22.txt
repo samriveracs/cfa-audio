@@ -1,0 +1,149 @@
+## The big picture
+
+This episode opens the equity topic, and it is about the plumbing of markets. Before you value a stock, you need to know where it trades, who stands between the buyer and the seller, how a purchase can be financed, and how an order is written and filled. It is mostly vocabulary and mechanics, tested with precise definitions and a few short calculations.
+
+Module 39.1 maps the financial system, its functions, how assets and markets are classified, the main types of securities, contracts and real assets, and the intermediaries that make trading cheap and safe. Module 39.2 is short, but it carries the math. It covers long and short positions, buying on margin, the leverage ratio, the return on a margin trade, and the price that triggers a margin call.
+
+Module 39.3 follows an order from start to finish, then covers how new securities are sold, how secondary markets are organized, what makes a financial system work well, and why markets are regulated. The pieces connect simply. The system moves money and risk, intermediaries make that cheap, leverage magnifies the outcome, and orders and market structures decide the price you actually get.
+
+## Module 39.1, Markets, Assets, and Intermediaries
+
+Start with first principles. Some people have money they do not need today, and others have good uses for money they do not yet have. Some want to shed a risk, and others will bear it for a price. The financial system connects these people at low cost, and that turns savings into productive investment.
+
+The system has three main functions. First, it lets people and companies save, borrow, raise equity capital, manage risk, exchange assets now or in the future, and trade on information. Second, it sets the rates of return that balance the total supply of savings with the total demand for borrowing. Third, it allocates capital to its most productive uses.
+
+Information motivated traders trade because they believe an asset is mispriced, and they expect a return above what its risk alone would justify. Here is the trap. A hedger or a long term saver is not information motivated, even when buying the very same security.
+
+Next comes classification. Financial assets are securities, currencies and contracts. Real assets are physical things, such as commodities, real estate, machinery and equipment. Securities split into debt, which is a promise to repay borrowed money, and equity, which is ownership. They also split into public securities, which trade on exchanges or through dealers under regulatory oversight, and private securities, which are usually less liquid and less regulated.
+
+Markets are classified too. Spot markets trade assets for immediate delivery, while forward, futures and options markets trade contracts for delivery later. In the primary market, issuers sell newly created securities to investors, and in the secondary market, investors trade those securities with each other. Money markets trade debt with maturities of one year or less, and capital markets trade longer term debt and equity. Traditional markets cover debt and equity, while alternative markets cover hedge funds, commodities, real estate, collectibles and similar assets, which tend to be hard to value, illiquid and lightly regulated.
+
+Here is the trap on money versus capital markets. The split is about maturity, not about who issues the security. A three month Treasury bill and a 90 day corporate commercial paper note are both money market instruments.
+
+Now the major types of securities. Fixed income securities promise payments that are set by contract. Longer term issues are usually called bonds and intermediate term ones notes. Short term instruments include commercial paper issued by companies, certificates of deposit issued by banks, and repurchase agreements. A repurchase agreement, or repo, is a sale of a security with a promise to buy it back at a slightly higher price, so it works like a short term loan backed by collateral. Convertible bonds can be exchanged for a set number of the issuer's shares.
+
+Equity comes in three main forms. Common stock is a residual claim, meaning owners get what is left after everyone else is paid, and it usually carries voting rights. Preferred stock pays a fixed dividend that must be paid before any common dividend, and it usually carries no vote. Warrants are issued by a company and give the holder the right to buy its shares at a set price, much like call options, except that exercising a warrant creates new shares.
+
+Pooled investment vehicles combine money from many investors into one portfolio. Open end mutual funds issue and redeem shares at net asset value, which is the value of the fund's holdings per share. Closed end funds have a fixed number of shares that investors trade with each other, so their price can drift above or below net asset value. If a closed end fund holds assets worth 20 dollars per share and its shares trade at 18 dollars, it sits at a 10 percent discount to net asset value.
+
+Exchange traded funds trade on an exchange all day, and large institutions can create or redeem shares in exchange for the underlying basket of securities, an arbitrage that keeps the price close to net asset value. Asset backed securities are claims on the cash flows from a pool of loans, such as mortgages or car loans. Hedge funds are usually organized as limited partnerships and are open only to wealthy or institutional investors.
+
+Currencies are issued by central banks, and a few, such as the dollar and the euro, are held around the world as reserve currencies. Contracts whose value depends on an underlying asset are called derivatives. A forward contract is a private agreement to buy or sell an asset at a set price on a future date, so each side faces the risk that the other side defaults. A futures contract does the same job, but it is standardized, trades on an exchange, and is guaranteed by a clearinghouse that demands margin and settles gains and losses every day. A swap is an agreement to exchange a series of payments, such as fixed interest for floating interest.
+
+An option gives the buyer a right without an obligation. A call is the right to buy, a put is the right to sell, and the buyer pays a premium to the seller, who takes on the obligation. A credit default swap works like insurance against a borrower defaulting. A derivative is physical when its underlying is physical, such as oil or wheat, and financial when its underlying is financial, such as a bond or a stock index.
+
+Commodities include metals, agricultural products and energy. They trade in spot, forward and futures markets, used by hedgers and by speculators. Other real assets, such as buildings, machinery and aircraft, are illiquid, each one is different, and they need active management. So many investors own them indirectly, through real estate investment trusts, or REITs, or through master limited partnerships.
+
+Now the intermediaries, the firms that stand between buyers and sellers. Brokers are agents. They find a counterparty for a client's order and do not take the other side of the trade themselves. Exchanges provide a place and a set of rules for matching orders. Alternative trading systems do a similar job without an exchange's power to regulate its members, and some of them, called dark pools, do not display orders at all.
+
+Dealers are different. They trade with clients from their own inventory, buying at the bid price and selling at the higher ask price, and they earn that spread as payment for providing liquidity. A firm that acts as both broker and dealer has a conflict of interest, because it may profit by trading against the very client it should be serving.
+
+Securitizers buy a pool of assets, such as mortgages, place them in a separate legal entity, and sell securities backed by the pool's cash flows. Depository institutions, which include banks and credit unions, take deposits and make loans. Funding long term loans with short term deposits is the heart of bank balance sheet work, and it creates the interest rate risk and liquidity risk that capital planners manage.
+
+Insurance companies pool many independent risks so that total losses become predictable. They must manage moral hazard, which means insured people may take less care, adverse selection, which means the riskiest people are the most eager to buy, and fraud. Arbitrageurs buy an asset in one market and sell the same or an equivalent asset in another market at a higher price, which connects markets and pushes prices back into line. Clearinghouses guarantee that trades are completed, and custodians hold securities for clients, protecting them from theft and from the failure of a broker.
+
+Here is the trap on intermediaries. If a question says the firm trades from its own inventory or earns the bid ask spread, the answer is dealer. To repeat the rule for this module. Brokers are agents who find the other side of your trade, dealers are principals who are the other side of your trade, and arbitrageurs connect markets by buying where an asset is cheap and selling where it is expensive.
+
+## Module 39.2, Positions and Leverage
+
+Every position comes down to one question. Do you gain when the price rises, or when it falls? An investor who owns an asset, or who has a contract to buy it, has a long position and gains when the price rises. An investor who has sold an asset short, or who has a contract to sell it, has a short position and gains when the price falls.
+
+Here is the trap that catches people in options. The buyer of a put is long the put, but a put gains value when the underlying asset falls, so the put buyer has short exposure to the asset. The writer of that put is short the put, but has long exposure to the asset. For calls the labels line up, so the call buyer has long exposure and the call writer has short exposure. When a question asks about exposure, ask what happens to this person if the underlying price rises.
+
+In forwards and futures, the long side agrees to buy and the short side agrees to sell. In a swap, each party is long what it receives and short what it pays. And in currencies, being long one currency always means being short another.
+
+Now short selling. To sell short, you borrow a security, usually through your broker, sell it, and later buy it back to return it to the lender. You profit if you buy it back for less than you sold it. The short seller must pay the lender any dividends or interest paid while the security is on loan. The sale proceeds are held as collateral, the short seller usually posts extra margin on top, and the lender is typically compensated by keeping part of the interest earned on that collateral.
+
+Here is the trap with short selling. The most a short seller can gain is the full sale price, if the stock falls to zero. But a price has no ceiling, so the potential loss is unlimited. A long investor has the reverse profile, with the loss capped at the purchase price and the gain open ended.
+
+Now leverage. Buying on margin means paying part of the price with your own money, which is your equity, and borrowing the rest from your broker. The broker charges interest on that loan, often tied to what is called the call money rate. The minimum share of the price you must fund yourself at the start is the initial margin requirement. In words, the leverage ratio equals the value of the position divided by your equity in it. The maximum leverage ratio equals one divided by the initial margin requirement.
+
+Here is an example you can follow without paper. You buy 100 shares at 50 dollars, so the position is worth 5,000 dollars. The initial margin is 40 percent, so you put up 2,000 dollars and borrow 3,000. Your leverage ratio is 5,000 divided by 2,000, which is 2.5, the same as one divided by 0.4.
+
+Now suppose the price rises 20 percent to 60 dollars over the year. The position is worth 6,000 dollars and you still owe 3,000, so your equity is 3,000. You gained 1,000 dollars on 2,000, a 50 percent return, which is 2.5 times the 20 percent price change. Now add the cost of borrowing. If the loan costs 5 percent a year, interest is 150 dollars, your gain falls to 850, and your return falls to 42.5 percent.
+
+That is the recipe for the return on a margin transaction. The return equals what you get back minus what you put in, all divided by what you put in. What you put in is your initial equity, plus any commission paid on the purchase. What you get back is the sale proceeds, minus the loan you repay, minus the interest paid, minus any commission on the sale, plus any dividends you received.
+
+The downside is magnified just as much. If the price had fallen 20 percent to 40 dollars instead, the position would be worth 4,000, you would still owe 3,000, and your equity would drop from 2,000 to 1,000. That is a 50 percent loss before interest. A bank or credit union is a leveraged position too, so with equity at 10 percent of assets, a 1 percent loss on assets wipes out about 10 percent of equity.
+
+Now the margin call. After the purchase, your equity as a share of the position's current value must stay at or above the maintenance margin requirement. If it falls below, you get a margin call, and you must deposit more cash or securities, or the broker can sell the position. Assuming you borrowed the maximum at the start, the trigger price has a clean formula. In words, the margin call price equals the original purchase price, times one minus the initial margin, all divided by one minus the maintenance margin.
+
+Here is why it works. The loan per share stays fixed while the price falls, and your equity per share is the current price minus that loan. Solve for the price at which equity divided by price just equals the maintenance margin, and the formula drops out.
+
+Apply it to our trade, with a maintenance margin of 25 percent. One minus 0.4 is 0.6, and 50 times 0.6 is 30 dollars, the loan per share. One minus 0.25 is 0.75. So the margin call price is 30 divided by 0.75, which is 40 dollars. Check it. At 40 dollars the position is worth 4,000, the loan is 3,000, the equity is 1,000, and 1,000 divided by 4,000 is exactly 25 percent.
+
+Here are the traps. Inverting the ratio, 50 times 0.75 divided by 0.6, gives 62 dollars and 50 cents. Using the margins themselves instead of one minus each margin, 50 times 0.4 divided by 0.25, gives 80 dollars. Both answers are above the purchase price, and a rising price can never trigger a margin call on a long position. Also remember that the formula ignores interest that builds up on the loan.
+
+To repeat the rule worth memorizing. The margin call price equals the purchase price, times one minus the initial margin, divided by one minus the maintenance margin. And the maximum leverage ratio equals one divided by the initial margin.
+
+## Module 39.3, Order Execution and Validity
+
+An order names the security, whether to buy or sell, and the quantity. Then it carries three kinds of instructions. Execution instructions say how to fill the order. Validity instructions say when it can be filled. Clearing instructions say how the trade will be settled.
+
+The most important execution pair is market orders and limit orders. A market order trades now at the best price available. Execution is nearly certain but the price is not, and a large market order can move the price against you. A limit order trades only at the limit price or better, so a buy limit fills at the limit or lower, and a sell limit fills at the limit or higher. You control the price, but you may never trade at all. So the right choice depends on whether the bigger risk is missing the trade or paying too much.
+
+Where you place a limit price has its own vocabulary. Picture a stock with a best bid of 20 dollars and a best ask of 20 dollars and 10 cents. A buy limit at 20 dollars and 10 cents or higher is marketable, meaning it can fill at once against the ask. A buy limit between the two prices, say 20 dollars and 5 cents, makes a new market, because it becomes the new best bid and waits. A buy limit below 20 dollars is behind the market, and it fills only if prices fall.
+
+Sell limits mirror this. A sell limit at or below the best bid is marketable, and one above the best ask is behind the market. Here is the trap. A marketable limit order is still a limit order. It never fills at a worse price than its limit, and any part that cannot fill at the limit or better stays on the book.
+
+Other execution instructions control size and visibility. An all or nothing order trades only if the full quantity can be filled. A hidden order is not shown to other traders, and a display size order, sometimes called an iceberg order, shows only part of the order at a time. Large traders use these tools to limit the price move their own order causes.
+
+Validity instructions say when an order is active. A day order expires at the end of the trading day. A good till cancelled order stays open until it is filled or cancelled, though brokers often cap its life. An immediate or cancel order, in some markets called fill or kill, can trade only the moment it reaches the market, and anything not filled at once is cancelled. Where the two names are kept apart, fill or kill is the stricter one, because the whole order must fill at once or none of it trades. Good on close orders fill only at the close, and good on open orders only at the open.
+
+Stop orders are also validity instructions, because the stop price decides when the order becomes active. A sell stop sits below the current price, and when the stock trades at or below the stop price, the order usually becomes a market order. Investors use sell stops to limit losses on long positions, which is why they are often called stop loss orders. A buy stop sits above the current price and is used to limit losses on a short position.
+
+Here is the trap with stops. The stop price is a trigger, not a guaranteed price, so in a fast falling market the fill can be well below the stop. And do not confuse a sell stop with a sell limit. A sell limit usually sits above the current price and waits for a better price, while a sell stop sits below it and fires when the price gets worse.
+
+Clearing instructions say who will clear and settle the trade, usually the broker for a retail investor and often a custodian or another broker for an institution. Sell orders must also state whether the sale is a long sale or a short sale, so the broker can arrange the borrowing.
+
+Now primary markets. A company's first sale of shares to the public is an initial public offering, and later sales by a public company are seasoned offerings. In an underwritten offering, the investment bank guarantees the sale at the offering price and must buy any shares it cannot place. In a best efforts offering, the bank acts only as a broker, so the issuer bears the risk of unsold shares. Before setting the price, the bank gauges investor demand, a process called book building.
+
+Here is the trap. The underwriter has a conflict of interest. As the issuer's adviser it should seek a high price, but a low price makes the shares easier to sell. So when an initial public offering is heavily oversubscribed, meaning demand far exceeds the shares offered, the price was most likely set too low, and the issuer left money on the table. When an offering is undersubscribed, the price was most likely set too high.
+
+A private placement sells securities to a small group of qualified investors. It costs less and needs less disclosure, but the securities are less liquid, so buyers demand a higher return. A shelf registration lets a company file its disclosure once and then sell shares bit by bit over time. A dividend reinvestment plan lets shareholders buy new shares with their dividends.
+
+A rights offering gives existing shareholders the right to buy new shares, usually at a price below the market price, and shareholders who neither exercise nor sell their rights see their stake diluted. National governments usually sell their bonds through auctions. Secondary markets matter to issuers because investors pay more for securities they can easily resell. So liquid secondary markets lower the issuer's cost of capital and make it easier to raise money in the primary market.
+
+Now market structures, starting with timing. In a call market, orders are collected and filled all at once, at a single price, at set times. In a continuous market, trades happen whenever two orders match. Many stock exchanges open and close with a call auction and trade continuously in between.
+
+Three structures decide who you trade with. In quote driven markets, also called dealer markets, you trade with dealers at the prices they quote, and most bonds, currencies and spot commodities trade this way. In order driven markets, buyers and sellers trade with each other, and the exchange or platform matches their orders by set rules. In brokered markets, brokers search for a counterparty for assets that are unique or rarely traded, such as real estate, fine art, large blocks of stock or whole companies.
+
+Order driven markets rank orders by price priority first, then display precedence, so visible orders beat hidden ones at the same price, and then time precedence, so earlier orders beat later ones. Trade pricing rules then set the price. Under the discriminatory rule, used in continuous markets, a trade happens at the price of the order that was already waiting. Under the uniform rule, used in call markets, everyone trades at the one price that maximizes the quantity traded. Under the derivative rule, used by crossing networks, the price comes from another market, often the midpoint of its best bid and best ask.
+
+A well functioning financial system has complete markets, meaning people can save, borrow, raise equity, hedge risk and trade the assets they need. It is operationally efficient, meaning trading costs are low. And it is informationally efficient, meaning prices quickly reflect available information. Timely financial disclosure and liquid markets support all three, and the payoff is allocational efficiency, which means capital flows to its most productive uses. Here is the trap. Operational efficiency is about cost, informational efficiency is about prices, and allocational efficiency is the result of both.
+
+Finally, market regulation aims to control fraud, to control agency problems where intermediaries put their own interests ahead of clients, to promote fairness, and to set common standards such as financial reporting rules. It also aims to stop undercapitalized financial firms from taking risks that others would pay for, and to make sure long term obligations, such as pensions and insurance promises, are funded. Self regulatory organizations, which are industry bodies with authority over their members, share this work with government regulators.
+
+To repeat the core rule from this module. A market order trades price certainty for execution certainty, and a limit order does the reverse. A buy limit fills at the limit or lower, and a sell limit fills at the limit or higher.
+
+## Recall check
+
+Q: Which is more likely to trade at a price different from its net asset value, an open end mutual fund or a closed end fund?
+
+Answer: The closed end fund. It has a fixed number of shares that investors trade with each other, so its market price can sit at a premium or a discount to net asset value. An open end fund issues and redeems shares at net asset value, so it has no separate market price.
+
+Q: A firm buys bonds from some clients and sells them to other clients at a higher price, holding the bonds in its own inventory in between. Is it acting as a broker or as a dealer?
+
+Answer: A dealer. It is a principal that takes the other side of each trade and earns the bid ask spread for providing liquidity. A broker acts only as an agent and does not take ownership of the bonds.
+
+Q: An investor buys a stock with an initial margin of 25 percent. If the stock rises 10 percent, what is the return on the investor's equity, ignoring interest and commissions?
+
+Answer: 40 percent. The leverage ratio is one divided by 0.25, which is 4, so a 10 percent price move becomes a 40 percent move in equity. For example, a 1,000 dollar position funded with 250 dollars of equity gains 100 dollars, and 100 divided by 250 is 40 percent.
+
+Q: A stock is bought at 60 dollars with an initial margin of 50 percent and a maintenance margin of 25 percent. Below what price does the investor get a margin call?
+
+Answer: 40 dollars. The margin call price is 60 times one minus 0.5, which is 30, divided by one minus 0.25, which is 0.75, and 30 divided by 0.75 is 40. At 40 dollars the loan is 30 dollars per share and the equity is 10 dollars per share, and 10 divided by 40 is 25 percent.
+
+Q: The best bid on a stock is 20 dollars and the best ask is 20 dollars and 10 cents. A trader enters a buy limit order at 20 dollars and 5 cents. What most likely happens?
+
+Answer: The order does not fill right away. It sits inside the spread and becomes the new best bid, which is called making a new market. It fills only if a seller arrives who is willing to sell at 20 dollars and 5 cents.
+
+Q: An initial public offering is heavily oversubscribed. Was the offer price most likely set too high or too low, and why does this happen?
+
+Answer: Too low. Demand far above the number of shares offered shows that investors would have paid more. Underwriters have an incentive to price low, because a lower price makes the shares easier to sell and cuts their risk of being left holding unsold stock.
+
+## Recap
+
+The financial system lets people save, borrow, raise equity, manage risk, trade assets and trade on information, and it sets returns and allocates capital. Money markets trade debt of one year or less, and capital markets trade longer term debt and equity. Brokers are agents, dealers trade from their own inventory and earn the spread, and arbitrageurs connect markets. Open end funds transact at net asset value, while closed end funds can trade at a premium or a discount.
+
+Exposure depends on what happens to you when the underlying price rises, so a put writer has long exposure. The maximum leverage ratio is one divided by the initial margin. The margin call price is the purchase price times one minus the initial margin, divided by one minus the maintenance margin. Market orders trade price certainty for execution certainty, limit orders do the reverse, and stop orders are triggers that usually become market orders. A heavily oversubscribed offering points to underpricing. And a well functioning system has complete markets and is operationally and informationally efficient, which together make it allocationally efficient.
