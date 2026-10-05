@@ -55,6 +55,8 @@ PRON = [
  (r"\bIPO\b","I P O"),(r"\bIPOs\b","I P Os"),(r"\bSPAC\b","spack"),(r"\bSPACs\b","spacks"),(r"\bHHI\b","H H I"),(r"\bMBS\b","M B S"),
  (r"\bNPV\b","N P V"),(r"\bGDP\b","G D P"),(r"\bMPC\b","M P C"),(r"\bCFO\b","C F O"),(r"\bCFI\b","C F I"),(r"\bCFF\b","C F F"),
  (r"\bCPT\b","C P T"),(r"\bPMT\b","P M T"),(r"\bPV\b","P V"),(r"\bFV\b","F V"),(r"\bCAPM\b","cap M"),(r"\bWACC\b","wack"),
+ (r"\b[Aa]rbitrageurs\b","arbitrah zhers"),(r"\b[Aa]rbitrageur\b","arbitrah zher"),(r"\b[Aa]rbitrage\b","arbitrahzh"),(r"\b[Aa]rithmetic\b","arithmetik"),(r"\b[Cc]ovariances\b","co-variances"),(r"\b[Cc]ovariance\b","co-variance"),
+ (r"\bMAD\b","M A D"),(r"\bPlaty\b","Platty"),
  (r"\bANOVA\b","ANOVA"),(r"\bGAAP\b","gap"),(r"\bMM\b","M and M"),(r"’","'"),(r"‘","'"),(r"[“”]",'"'),
 ]
 ROMAN={"VII":"seven","VI":"six","IV":"four","V":"five","III":"three","II":"two","I":"one"}

@@ -252,50 +252,76 @@ HEART: The takeaway. A market price implies a return, the yield to maturity for 
 
 ## Recall check
 
-LEWIS Q: A Treasury bill is about as close to risk free as it gets. Is its rate a real rate or a nominal rate, and why?
+LEWIS Q: A Treasury bill is about as close to risk free as it gets. Is its rate a real rate or a nominal rate?
 
-HEART: Answer. Nominal. It includes a premium for expected inflation, so it is the nominal risk free rate, not the real one.
+HEART: Answer. Nominal. Here is why. Risk free only means no default risk. It says nothing about inflation. Lenders expect each dollar they get back to buy a little less than each dollar they lent, so the T bill rate carries an inflation premium to cover that. Real means inflation has been stripped out, and a T bill rate has not had that done.
 
 HEART Q: You have ten years of annual returns. Which average estimates next year's return, and which describes the compound growth over the full ten years?
 
-LEWIS: Answer. The arithmetic mean for next year. The geometric mean for compound growth over the whole stretch.
+LEWIS: Answer. The arithmetic mean for next year, the geometric mean for the ten years. Here is why. Next year is a single draw, and the arithmetic mean is the best estimate of a typical single period. Ten years is a chain of returns where each one builds on the last, and only the geometric mean captures that compounding. The double then halve example shows the gap. The arithmetic mean says you did well, the geometric mean says you went nowhere, and your account agrees with the geometric mean.
 
 LEWIS Q: You invest the same dollar amount every month. Which mean gives your average cost per share, and is it above or below the simple average of the prices?
 
-HEART: Answer. The harmonic mean, and it is below. A fixed dollar amount buys more shares when prices are low, so the low prices carry more weight.
+HEART: Answer. The harmonic mean, and it is below the simple average. Here is why. A fixed dollar amount buys more shares when the price is low and fewer when it is high. So you own more of the cheap shares, and the low prices count for more in your true cost. The simple average treats every price as if you bought the same number of shares, which you did not.
 
 HEART Q: A client makes a large deposit right before the portfolio's best year. Which is likely higher, the money weighted return or the time weighted return?
 
-LEWIS: Answer. The money weighted return. The most money was at work during the best year, and money weighted counts dollars. Time weighted ignores the client's timing.
+LEWIS: Answer. The money weighted return. Here is why. Money weighted counts dollars, so the period with the most money at work dominates, and here that was the best year. Time weighted gives every period equal say no matter how much money was in it, so the client's lucky timing does not lift it. Good timing helps money weighted, bad timing hurts it, and time weighted ignores timing altogether.
 
 LEWIS Q: The stated annual rate stays the same, but interest now compounds monthly instead of once a year. What happens to the present value of a payment due in a year?
 
-HEART: Answer. It falls. More frequent compounding raises the effective rate, so future values rise and present values fall.
+HEART: Answer. It falls. Here is why. Monthly compounding means interest starts earning interest sooner, so money grows faster and the effective annual rate rises. If money grows faster, you need to set aside less today to reach the same amount in a year. Faster growth forward means a smaller value today.
 
 HEART Q: Why are continuously compounded returns so convenient across many periods?
 
-LEWIS: Answer. They add. The log return over a year is just the sum of the log returns of its parts, while simple returns have to be compounded.
+LEWIS: Answer. They add. Here is why. Simple returns have to be compounded, because each period builds on the balance the last one left. Continuously compounded returns are log returns, and a log turns multiplying into adding. So the log return for a whole year is just the sum of its monthly log returns, the way mile splits add up to a finish time.
 
 LEWIS Q: You borrow money to buy an asset. Under what condition does the leverage raise your return?
 
-HEART: Answer. When the asset earns more than the interest rate on the borrowing. If it earns less, leverage lowers your return. And if the asset falls, leverage magnifies the loss.
+HEART: Answer. When the asset earns more than the interest rate on the loan. Here is why. Every borrowed dollar has to pay its interest before you keep anything. If the asset earns more than that rate, each borrowed dollar leaves you a profit, and your return on your own money rises. If it earns less, each borrowed dollar costs you money. And because the whole position rests on your small slice of equity, losses get magnified just like gains.
 
 HEART Q: A bond's coupon rate is below the market yield. Does it trade at a premium, at par or at a discount?
 
-LEWIS: Answer. At a discount. Its payments are smaller than the market demands, so its price falls below face value.
+LEWIS: Answer. At a discount. Here is why. The coupon is fixed. If the market now demands a higher return than those coupons provide, the only way a buyer can earn the market yield is by paying less up front. The lower price makes up for the smaller payments.
 
 LEWIS Q: A question gives you the dividend a company just paid and asks for the Gordon growth value. What do you do with that dividend first?
 
-HEART: Answer. Grow it by one period to get next year's dividend. Using the dividend just paid understates the value.
+HEART: Answer. Grow it by one period to get next year's dividend. Here is why. The Gordon model values the stream of dividends still to come, starting with the next one. The dividend just paid already went to someone else. Plug it in as it is and you start the stream too low, so you undervalue the stock, and that wrong answer will be sitting in the choices.
 
 HEART Q: Working backward from a stock's price, what two pieces make up the return the market implies?
 
-LEWIS: Answer. The dividend yield, which is next year's dividend divided by today's price, plus the expected growth rate.
+LEWIS: Answer. The dividend yield plus the growth rate. Here is why. A shareholder earns in two ways. Cash arrives as dividends, and next year's dividend measured against today's price is the dividend yield. The dividends themselves grow over time, and in the constant growth model the share price grows at that same rate. Add the two and you have the total return the price implies.
 
 LEWIS Q: Spot rates rise with maturity. Is the forward rate for the second year above, below or between the one year and two year spot rates?
 
-HEART: Answer. Above both. The two year rate is roughly an average of the first year's rate and the forward rate, so the forward has to be higher to pull that average up.
+HEART: Answer. Above both. Here is why. Investing for two years at the two year rate has to match investing for one year at the one year rate and then rolling at the forward rate. So the two year rate is roughly the average of the first year's rate and the forward. Since the two year rate is above the one year rate, the forward has to sit above the two year rate to pull the average up that far.
 
 HEART Q: In a dollars per euro quote, the dollar interest rate rises while the euro rate stays put. Does the forward rate rise or fall relative to the spot rate?
 
-LEWIS: Answer. It rises relative to spot. Each interest rate travels with its own currency, and a higher rate on the price currency, the dollar, pushes the forward up.
+LEWIS: Answer. It rises. Here is why. Holding dollars now earns more interest. If the forward stayed put, you could borrow euros, swap them into dollars, earn the higher dollar rate and lock in the old forward to swap back, keeping a riskless profit. To remove that, the dollar has to be worth less in the forward market, which means more dollars per euro.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: For the parts of an interest rate: real rate, inflation, default, liquidity, maturity. Rarely Is Debt Lent Mindlessly. Every nominal rate has the first two. The last three get added only when the loan carries that risk.
+
+HEART: For the three averages, whenever the values differ, alphabetical order runs from biggest to smallest. Arithmetic, then geometric, then harmonic. And each has a job. Arithmetic looks ahead one period. Geometric measures growth over time. Harmonic is the average cost when you invest the same dollar amount each time.
+
+LEWIS: For the two performance measures: time weighted grades the talent, money weighted follows the money. One exception. If the manager decides when money goes in and out, money weighted is the fairer grade.
+
+HEART: Compound more often, and future values rise while present values fall. Log returns add, simple returns compound. For real return, subtract to estimate and divide to be exact. And commissions come out of both gross and net returns, while management fees come out of net only.
+
+LEWIS: For bonds: price and yield sit on a seesaw. Coupon above the yield means a price above par. For the Gordon model: it wants next year's dividend, and its answer lands one period before that dividend. Required return is dividend yield plus growth.
+
+HEART: For forwards: when spot rates rise with maturity, the forward sits on top. The currency with the higher interest rate trades at a forward discount, giving back its extra interest. And underneath all of it sits the law of one price. Same cash flows, same price, or arbitrage closes the gap.
+
+LEWIS: Now, how you would say the big ideas to a senior leader who does not live in this material.
+
+HEART: On interest rates: every rate is a reward for waiting, plus cover for expected inflation, plus a charge for each risk the lender takes. When two rates differ, ask which risk the higher one is paying for. The jargon is the real risk free rate plus premiums for inflation, default, liquidity and maturity.
+
+LEWIS: On performance: the time weighted return tells you how good the manager was. The money weighted return tells you how the investor actually did, including the effect of when they put money in.
+
+HEART: On leverage: borrowing magnifies results in both directions, and it only lifts the return on our own capital when the assets earn more than the funding costs, while adding risk either way. That is the same logic behind a bank's return on equity.
+
+LEWIS: And on valuation: anything is worth the cash it will pay you, adjusted for when you get it and how risky it is. And two things that pay the same must cost the same, or traders will force their prices together. The jargon is discounted cash flow valuation and the law of one price.
