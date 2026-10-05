@@ -4,9 +4,11 @@ import json, os, shutil, html, datetime as dt
 from email.utils import format_datetime
 ROOT="/home/claude/podcast"; SITE="/home/claude/cfa-audio"
 BASE="https://samriveracs.github.io/cfa-audio"
-VER="v2"  # bump when audio is re-recorded so podcast apps fetch the new file
+VER="v2"  # default file version; audio/versions.json overrides per episode when one is re-recorded
+VERS=json.load(open(f"{ROOT}/audio/versions.json")) if os.path.exists(f"{ROOT}/audio/versions.json") else {}
 man=json.load(open(f"{ROOT}/manifest.json"))
 os.makedirs(f"{SITE}/episodes",exist_ok=True); os.makedirs(f"{SITE}/transcripts",exist_ok=True)
+if VERS: json.dump(VERS,open(f"{SITE}/tools/versions.json","w"),indent=1,sort_keys=True)
 open(f"{SITE}/.nojekyll","w").close()
 open(f"{SITE}/robots.txt","w").write("User-agent: *\nDisallow: /\n")
 tz=dt.timezone(dt.timedelta(hours=-5))
@@ -18,7 +20,7 @@ for e in man:
     n=e['ep']; tag=f"E{n:02d}"; meta=f"{ROOT}/audio/{tag}.json"; mp3=f"{ROOT}/audio/{tag}.mp3"
     if not (os.path.exists(meta) and os.path.exists(mp3)): continue
     info=json.load(open(meta))
-    fn=f"{tag}_{VER}.mp3"; keep.add(fn)
+    fn=f"{tag}_{VERS.get(str(n),VER)}.mp3"; keep.add(fn)
     shutil.copy2(mp3,f"{SITE}/episodes/{fn}")
     shutil.copy2(f"{ROOT}/scripts/{tag}.txt",f"{SITE}/transcripts/{tag}.txt")
     size=os.path.getsize(f"{SITE}/episodes/{fn}")

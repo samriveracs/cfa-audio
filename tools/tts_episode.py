@@ -61,6 +61,7 @@ ROMAN={"VII":"seven","VI":"six","IV":"four","V":"five","III":"three","II":"two",
 RN=r"(VII|VI|IV|V|III|II|I)"
 def norm(t, header=False):
     t=re.sub(r"\b"+RN+r"\(([A-E])\)", lambda m: ROMAN[m.group(1)]+" "+m.group(2), t)
+    t=re.sub(r"(^|(?<=[.?!:] ))A (?=[A-Z] [a-z]|U\.S\.)", "a ", t)   # sentence start article before a capital, e.g. A T bill, A U.S. company
     if header:
         t=t.replace("/"," and ").replace("(","").replace(")","")
         t=re.sub(r"(\w)-(\w)",r"\1 \2",t)
@@ -74,17 +75,36 @@ def norm(t, header=False):
     t=re.sub(r"\$([\d,\.]+)",r"\1 dollars",t)
     return re.sub(r"\s+"," ",t).strip()
 
+TAG=re.compile(r"^(HEART|LEWIS)( Q)?: (.*)$")
 def parse(text):
-    blocks=[]; para=[]
+    """Blocks: (kind, text, who). who is H or L when the script tags the speaker, else None."""
+    blocks=[]; para=[]; who=[None]
     def flush():
-        if para: blocks.append(("p"," ".join(para))); para.clear()
+        if para: blocks.append(("p"," ".join(para),who[0])); para.clear()
+        who[0]=None
     for line in text.splitlines():
         s=line.strip()
         if not s: flush(); continue
-        if s.startswith("## "): flush(); blocks.append(("h",s[3:].strip())); continue
-        if s.startswith("Q: "): flush(); blocks.append(("q",s[3:].strip())); continue
+        if s.startswith("## "): flush(); blocks.append(("h",s[3:].strip(),None)); continue
+        m=TAG.match(s)
+        if m and m.group(2): flush(); blocks.append(("q",m.group(3).strip(),m.group(1)[0])); continue
+        if s.startswith("Q: "): flush(); blocks.append(("q",s[3:].strip(),None)); continue
+        if m: flush(); who[0]=m.group(1)[0]; para.append(m.group(3).strip()); continue
         para.append(s)
     flush(); return blocks
+
+def tagged_plan(intro, blocks, outro_text):
+    """Dialogue scripts: every paragraph and question names its host. A header is read by the next speaker."""
+    out=[("h",intro[0][1],"H")]+[(k,t,"L") for k,t in intro[1:]]
+    for i,(k,t,w) in enumerate(blocks):
+        if k=="h":
+            nxt=next((b[2] for b in blocks[i+1:] if b[2]),"H"); out.append(("h",t,nxt))
+        else:
+            assert w, "untagged block in a tagged script: "+t[:60]
+            out.append((k,t,w))
+    last=next((b[2] for b in reversed(blocks) if b[2]),"H")
+    out.append(("p",outro_text,"L" if last=="H" else "H"))
+    return out
 
 def main(n):
     man={e['ep']:e for e in json.load(open(f"{ROOT}/manifest.json"))}
@@ -97,7 +117,9 @@ def main(n):
     if n==1:
         intro.append(("p","This series is original review audio, keyed to Kaplan module numbers for the 2026 Level One exam. It is not produced by Kaplan or by CFA Institute. Use it after you read the modules, as spaced review."))
     outro=[("p",f"That is the end of Episode {n}." + (f" Next is Episode {nxt['ep']}, {nxt['title']}." if nxt else ""))]
-    plan=assign(intro, parse(script), outro[0][1])
+    blocks=parse(script)
+    if any(b[2] for b in blocks): plan=tagged_plan(intro, blocks, outro[0][1])
+    else: plan=assign(intro, [(k,t) for k,t,_ in blocks], outro[0][1])
     sil=lambda s: np.zeros(int(SR*s),dtype=np.float32)
     audio=[sil(0.4)]; chapters=[]; t0=time.time(); share={"H":0,"L":0}
     def say(text,who,header=False):
