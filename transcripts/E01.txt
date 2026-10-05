@@ -1,389 +1,301 @@
-## The big picture
-
-HEART: I am Heart, and this is your review of the first two readings of Quantitative Methods. Reading 1 is Rates and Returns, and Reading 2 is the Time Value of Money in Finance.
-
-LEWIS: And I am Lewis. We will split the explaining, and when an idea is easy to hear wrong, one of us will stop and ask the question you are probably asking yourself.
-
-HEART: Here is the one idea that ties both readings together. Money has a time stamp. A dollar today and a dollar in five years are different things, the way a plane ticket for today and a ticket for next year are different things. An interest rate is the exchange rate between them.
-
-LEWIS: Reading 1 uses that exchange rate to measure the past. How much did an investment earn, how do you average returns over several years, how do you judge a manager when clients keep adding and pulling money, and how do you adjust a return for time, fees, taxes, inflation and borrowing.
-
-HEART: Reading 2 runs the same machine forward. You take a required return and turn future cash flows into a price today, for bonds, loans and stocks. Then you run it backward, from a market price to the return the price implies. And it closes with one principle, cash flow additivity, that quietly powers forward rates, currency forwards and option pricing later in the course.
-
-LEWIS: On the exam, these are usually quick calculations with one twist hidden inside. The wrong average, the dividend from the wrong year, a sign flipped on the calculator, or a rate that does not match the period. So as we go, listen for the traps as closely as the formulas.
+LEWIS: Reading 1 covers what an interest rate is made of, how to measure a return, the three kinds of average, time weighted versus money weighted returns, and adjusting returns for compounding, fees, taxes, inflation and leverage. Reading 2 covers valuing bonds and stocks from their cash flows, backing a return out of a price, and the no arbitrage idea behind forward rates, currency forwards and options.
 
 ## Module 1.1, Interest Rates and Return Measurement
 
-HEART: Start with what an interest rate actually is. You can read the same number three ways, and the exam likes to check that you know all three.
+HEART: An interest rate is one number doing three jobs, and the exam expects you to recognize all three. It is a required return, the least a lender will accept to hand money over. It is a discount rate, the tool for translating money due in the future into money today. And it is an opportunity cost, what you give up by spending now instead of saving.
 
-HEART: First, a required rate of return. It is the minimum a lender or investor needs before handing over money. Second, a discount rate. It is the rate you use to shrink a future amount back to its value today. Third, an opportunity cost. It is what you give up by spending now instead of saving. If you can earn 5 percent and you spend 1,000 dollars on a new watch today, the watch really cost you 1,050 dollars of next year's money.
+LEWIS: The opportunity cost version is the one people forget. Pay cash for a new car instead of leaving that money in savings, and the car really costs you the sticker price plus the interest that money would have earned. The rate is the price of having it now.
 
-LEWIS: Same number, three jobs. Lender's minimum, shrinking tool, price of spending now. Now, what is a rate made of?
+HEART: So what is a rate made of? Think of it as a bill the lender hands you, with one line for each thing the lender has to put up with.
 
-HEART: Think of it as a stack of payments, one for each thing the lender has to put up with. At the bottom is the real risk free rate. That is the pure reward for waiting, with no inflation and no chance of default. Economists call it time preference. People simply prefer to have things now rather than later, and this is the price of that impatience.
+HEART: The first line is the real risk free rate. That is pure payment for waiting. No inflation, no chance of default, just compensation for putting off what you could enjoy today. Economists call it time preference. Most people would rather have a concert ticket for this weekend than the same ticket a year from now, and the real risk free rate is the price of that impatience.
 
-HEART: On top of that sits the inflation premium, because the dollars you get back will buy less. Real risk free rate plus expected inflation gives you the nominal risk free rate. That is roughly what a short term government bill pays.
+LEWIS: The second line is for inflation, because the dollars you get back will buy less than the dollars you lent. Add expected inflation to the real risk free rate and you have the nominal risk free rate.
 
-LEWIS: So a Treasury bill is risk free, but it is not a real rate.
+HEART: That is roughly what a short term Treasury bill pays, and it is a favorite trick question. A T bill is risk free, but its rate is not a real rate. Expected inflation is built into it. Risk free and real are two different ideas.
 
-HEART: Exactly, and that is a classic trick question. A T bill rate is a nominal risk free rate, because it has inflation built in.
+LEWIS: One precision point. Adding the real rate and inflation is a shortcut. Strictly, the two compound together, so when both are positive the true nominal rate is a touch higher than the simple sum.
 
-LEWIS: Then come the three premiums for actual risk. Default risk, the chance the borrower does not pay on time or in full. Liquidity risk, the chance you have to sell in a hurry and take less than fair value. And maturity risk. Longer bonds swing more in price when rates move, so lenders want extra for tying money up longer.
+HEART: Then come three lines for risk. Default risk is the chance the borrower does not pay on time or in full. Liquidity risk is the chance you have to sell in a hurry and take less than fair value. Maturity risk is the bigger price swings that longer bonds suffer when rates move. Each one adds its own premium.
 
-HEART: So the full stack is the real risk free rate, plus the inflation premium, plus the default premium, plus the liquidity premium, plus the maturity premium. Let us build one. Real rate 2 percent. Inflation 3 percent. That is about 5 percent nominal risk free. Now a corporate bond adds 1.5 percent for default, half a percent for liquidity and 1 percent for maturity. Stack it up and the bond needs to yield about 8 percent.
+LEWIS: Picture three loans. One to the federal government for three months. One to a small private company for three months. And one to that same company for twenty years, written in a way that hardly anyone would ever buy it from you. The government loan pays the nominal risk free rate. The short company loan adds a default premium. The long loan nobody wants to buy adds a maturity premium and a liquidity premium on top of that. Every extra thing the lender has to tolerate adds a line to the bill.
 
-LEWIS: One precision point. Adding the real rate and inflation is a shortcut. The exact version multiplies. One plus the nominal rate equals one plus the real rate, times one plus inflation. With 2 and 3 percent, 1.02 times 1.03 is 1.0506, so the exact nominal rate is 5.06 percent, not 5. The extra 0.06 is inflation acting on the real return. On most questions the shortcut is fine. When the answer choices are close together, multiply.
+HEART: So the full stack is the real risk free rate, plus the inflation premium, plus the default risk premium, plus the liquidity premium, plus the maturity premium. When a question asks why two bonds yield different amounts, walk down that list.
 
-HEART: Now let us measure a return. The holding period return is the simplest measure there is. It is everything you have at the end, including any cash you were handed along the way, compared with what you put in.
+LEWIS: Next, measuring a return. The holding period return is the simplest measure there is. Everything you have at the end, including any cash you were paid along the way, compared with what you started with.
 
-LEWIS: So in words, the ending price, plus any income, divided by the beginning price, minus one.
+HEART: The income counts. If you own a rental house for a few years, your return is not just the sale price compared with the purchase price. It includes the rent you collected. For a stock, that means the price change plus the dividends, measured against the starting price.
 
-HEART: Right. Or equivalently, the price change plus the income, divided by the beginning price. Buy a share at 50 dollars. Collect a 1 dollar dividend. Sell at 54. You gained 4 on price and 1 in cash, 5 dollars total, on 50 dollars invested. That is 10 percent.
+LEWIS: And a holding period has no fixed length. It can be a day or a decade. It is simply start to finish.
 
-LEWIS: And there is no time limit on a holding period. It can be a day or ten years. It is just start to finish.
+HEART: To combine several periods, you compound rather than add, because each period's return builds on whatever balance the last one left behind. The cleanest illustration: a stock that rises 10 percent and then falls 10 percent does not leave you even. The loss comes out of a bigger balance, so you finish a little behind where you started.
 
-HEART: To link several periods, you compound. Add one to each period's return, multiply them, and subtract one. Here is why you cannot just add. Up 10 percent and then down 10 percent feels like zero. But 100 dollars becomes 110, and then you lose 10 percent of 110, which is 11 dollars. You end at 99. One point one times zero point nine is 0.99. A 1 percent loss.
+LEWIS: It gets dramatic at the extremes. Lose half your money and you need to double what is left just to get back to even. Gains and losses are not symmetric, and that one fact is why we need more than one kind of average.
 
-LEWIS: That little example is the whole reason we need more than one kind of average. So, averages.
+HEART: The arithmetic mean is the everyday average. Add up the returns and divide by how many there are. It treats each period as a separate draw, and statistically it is an unbiased estimate of the true average. So if someone asks what return to expect next year, the arithmetic mean is the answer.
 
-HEART: The arithmetic mean is the everyday average. Add up the returns and divide by how many there are. Statistically, it is the unbiased estimate of a typical single period. So if someone asks what return to expect next year, the arithmetic mean is the better answer.
+LEWIS: The geometric mean answers a different question. What one steady rate, compounded every period, would have taken you from your starting value to your ending value? Think of a race run in uneven splits. The geometric mean is the single even pace that would have produced the same finish time.
 
-LEWIS: And the geometric mean is the one that actually describes what happened to your money over the whole stretch.
+HEART: Here is the example that makes the difference stick. A stock doubles one year and halves the next. The arithmetic mean says you averaged 25 percent a year. Your account says you are exactly where you started. The geometric mean is zero, and that is the honest description of what happened to your money.
 
-HEART: Yes. It is the constant rate that would have taken you from the starting value to the ending value. As a runner would put it, it is the even pace that gives you the same finish time as all your uneven splits.
+LEWIS: Which gives you the rule. The geometric mean is never above the arithmetic mean. They are equal only when every return is identical, and the more the returns bounce around, the wider the gap between them.
 
-LEWIS: Here is the example that makes it stick. A stock doubles in year one and halves in year two. Plus 100 percent, then minus 50 percent. The arithmetic mean is 25 percent a year. That sounds great. But 100 dollars went to 200 and back to 100. You made nothing. The geometric mean is zero.
+HEART: One subtle point the exam likes. The geometric mean comes out in whatever unit of time you feed it. Feed it quarterly returns and you get a quarterly rate. If you want an annual return from those same quarterly returns, you spread the total growth over the number of years, not the number of periods.
 
-HEART: To compute it, multiply one plus each return, take the root equal to the number of periods, and subtract one. On the B A two plus, say the returns are positive 20, negative 10 and positive 5 percent. Multiply 1.2 times 0.9 times 1.05 to get 1.134. Then press the y to the x key, enter 3, press the one over x key, and press equals. That gives about 1.0428. Subtract one and the geometric mean is about 4.28 percent a year. The arithmetic mean of those same three returns is 5 percent.
+LEWIS: So ask what the question wants. The average per period, or the rate per year? Same data, two different answers, and each is correct for its own question.
 
-LEWIS: Which shows the rule. The geometric mean is never above the arithmetic mean. They are equal only if every return is identical. And the more the returns bounce around, the wider the gap.
+HEART: The third average is the harmonic mean, and you already use it without knowing it. Run one mile fast and the next mile slow. Your average speed is not halfway between the two speeds. You spent more time on the slow mile, so the slow speed counts for more, and your true average lands below the simple midpoint. That true average is the harmonic mean.
 
-LEWIS: Now a subtle one the exam likes. The root you take decides what kind of rate you get. Suppose you have four returns, each over six months, so two years in total. Take the fourth root of the product and you get the geometric mean per six month period. Take the square root, because there are two years, and you get the annual return.
+LEWIS: Investing has exactly the same shape. Put the same dollar amount into a fund every month. When the price is low, your money buys more shares. When the price is high, it buys fewer. You end up owning more of the cheap shares, so your average cost per share comes out below the simple average of the prices. That average cost is the harmonic mean, and it is the whole argument for investing a steady amount every month, often called cost averaging.
 
-HEART: Put numbers on it.
+HEART: The harmonic mean only works with positive values. To use it on returns that include losses, do what you do for the geometric mean. Work with one plus each return, then subtract one at the end.
 
-LEWIS: Six month returns of 3, negative 1, 2 and 4 percent. Multiplied as growth factors, that is about 1.0817. The fourth root gives about 1.98 percent per half year. The square root gives about 4.00 percent per year. Same data, two different answers, and both are right for different questions. Root equals number of periods for a per period mean. Root equals number of years for an annual return.
+LEWIS: And the ordering is worth knowing cold. When the values are not all the same, the harmonic mean is the smallest, the geometric mean sits in the middle, and the arithmetic mean is the largest. You may also see them tied together by saying the arithmetic mean times the harmonic mean equals the geometric mean squared. That holds exactly for two values and approximately for longer lists.
 
-LEWIS: And then there is the third mean, the harmonic mean, which sounds exotic but you already use it. Here is a running example. You run one mile at 10 miles an hour and a second mile at 5 miles an hour. What was your average speed?
+HEART: Last piece of this module, outliers. One wild year can drag an average around, and the arithmetic mean includes every value, extremes and all. Two fixes come back in the statistics reading. A trimmed mean throws out a small share of the highest and lowest values, the way some judged sports drop the top and bottom scores. A winsorized mean keeps the same number of values but pulls the extremes in, replacing them with the most extreme values that remain.
 
-HEART: The tempting answer is 7.5, the simple average. But the first mile took 6 minutes and the second took 12. Two miles in 18 minutes is 6.67 miles an hour. That is the harmonic mean of 10 and 5. You spent more time going slow, so the slow speed counts for more.
+LEWIS: So, which average for which job. Arithmetic when you want every observation included, or an estimate for a single period. Geometric for compound growth over several periods. Harmonic for the average cost of equal dollar purchases. Trimmed or winsorized when outliers distort the picture.
 
-LEWIS: The investing version is called cost averaging. You put the same dollar amount into a fund every month. Say 600 dollars a month, at share prices of 10, 15 and 30 dollars. Your 600 dollars buys 60 shares, then 40, then 20. That is 120 shares for 1,800 dollars, so your average cost is 15 dollars a share.
-
-HEART: The simple average of the prices is about 18.33. Your actual cost is lower, because a fixed dollar amount buys more shares when the price is low. And 15 is exactly the harmonic mean. You take the number of prices, three, and divide by the sum of one over each price.
-
-LEWIS: Two technical notes. The harmonic mean only works on positive numbers. If you want one for a set of returns that includes losses, do what you did for the geometric mean. Work with one plus each return, then subtract one at the end.
-
-HEART: Second, the ordering. For values that are not all equal, the harmonic mean is the smallest, the geometric mean is in the middle, and the arithmetic mean is the largest. You may also see the relationship written as the arithmetic mean times the harmonic mean equals the geometric mean squared. That is exact for two values, and for longer lists of returns it is very close but not exact. The ordering is the part to know cold.
-
-LEWIS: And outliers. The arithmetic mean uses every value, so one extreme year can drag it around. Two fixes, which come back in Reading 3. A trimmed mean throws away a small slice of the highest and lowest values and averages the rest. A winsorized mean keeps the count, but replaces those extremes with the most extreme values that remain.
-
-HEART: So, which mean for which job? Arithmetic for a typical single period, or when you want every observation included. Geometric for compound growth over several periods. Harmonic for the average cost of equal dollar purchases. Trimmed or winsorized when outliers are distorting things.
-
-LEWIS: Here is the trap. A question gives you five years of returns and asks for the expected return next year. The geometric mean tempts you because it sounds more sophisticated. But for one future period, it is the arithmetic mean. Flip the question to the compound annual return over those five years, and now it is the geometric mean.
-
-HEART: The rule to carry from this module. Holding period return is price change plus income, over the beginning price. Link periods by multiplying growth factors. And harmonic, then geometric, then arithmetic, from smallest to largest.
+HEART: And the trap. A question gives you several years of returns and asks for the expected return next year. The geometric mean sounds more sophisticated, so it tempts you. But for one future period, it is the arithmetic mean. Ask instead for the compound annual return over the whole stretch, and now it is the geometric mean.
 
 ## Module 1.2, Time-Weighted and Money-Weighted Returns
 
-LEWIS: This module answers a fairness question. Picture a fund manager. Clients put money in and take money out whenever they like. At the end of the year, how do you grade the manager?
+LEWIS: This module is about fairness. A fund manager runs money for clients who add and withdraw whenever they like. At the end of the year, how do you grade the manager?
 
-HEART: And the answer is, it depends on whose return you are measuring. The manager's skill, or the investor's actual experience, including when they happened to add money.
+HEART: It depends whose result you are measuring. One question is how good the manager's decisions were. A different question is how the investor actually did, given when they chose to put money in and take it out. Each question gets its own measure.
 
-LEWIS: So there are two measures. Think of the time weighted return as grading the manager, and the money weighted return as grading the investor's wallet.
+LEWIS: The time weighted return grades the manager. The money weighted return grades the investor's wallet.
 
-HEART: Start with money weighted. It is simply the internal rate of return, the IRR, of the investor's cash flows. The IRR is the one discount rate that makes the present value of everything you put in equal the present value of everything you took out or still hold. Put another way, it sets the net present value, the NPV, to zero.
+HEART: Start with money weighted. It is the internal rate of return, the IRR, on the investor's cash flows. Here is the plain English version. Imagine the account had been a savings account paying one steady rate. Which single rate would have turned your exact deposits, on their exact dates, into your exact withdrawals and your ending balance? That rate is your money weighted return. Formally, it is the rate that makes the present value of the money going in equal the present value of the money coming out.
 
-LEWIS: And every flow counts at its real date and size. Deposits, withdrawals, any income paid out to you, and the ending value.
+LEWIS: Every flow counts at its real size and on its real date: the starting balance, each deposit, each withdrawal and what is left at the end. Because it is built from dollars, a stretch when you had a lot of money invested counts for far more than a stretch when you had very little.
 
-HEART: Now time weighted. It measures how one dollar would have grown if it had sat in the account the whole time, untouched. You get it in three steps. First, chop the period into pieces at every deposit or withdrawal. Second, compute the holding period return for each piece. Third, link the pieces by multiplying one plus each return, and subtract one. If the whole thing runs longer than a year, take the geometric mean to state it per year.
+HEART: Time weighted works differently. It asks how one dollar would have grown if it had sat in the account the whole time, untouched by anyone's deposits or withdrawals. You cut the period into pieces at every deposit or withdrawal, measure the return of each piece, and chain the pieces together by compounding. If the whole stretch is longer than a year, you take the geometric mean to state it per year.
 
-LEWIS: Let us run one example both ways, slowly. At the start, you buy one share at 40 dollars. After one year, the share is worth 50, it pays you a 1 dollar dividend, and you buy a second share at 50. After year two, the price has slipped to 45, each share pays another 1 dollar dividend, and you sell both shares.
+LEWIS: Every piece counts the same no matter how much money was in it, so the client's timing drops out. That is the whole point.
 
-HEART: Time weighted first, piece by piece. Year one. You started with 40 dollars, ended with 50 dollars of stock plus 1 dollar of dividend, so 51. That is a 27.5 percent return.
+HEART: Here is the story that shows the difference. A client keeps a small amount with a manager through a great year. Pleased, the client sends in a large deposit right at the end of it. The next year is poor. The manager made the same kind of decisions both years. But the investor had little money working in the good year and a lot working in the bad year.
 
-LEWIS: Year two. Here is a detail people miss. The second piece starts after the new money goes in. So the starting value is two shares at 50, which is 100 dollars. You end with two shares at 45, which is 90, plus 2 dollars of dividends. 92 on 100 is a loss of 8 percent.
+LEWIS: So the money weighted return comes out low, because the bad year carried most of the dollars. The time weighted return gives the good year and the bad year equal weight, so it comes out higher, and it is the fairer grade for the manager.
 
-HEART: Link them. 1.275 times 0.92 is 1.173, so roughly 17.3 percent over two years. Take the square root for the annual figure and the time weighted return is about 8.3 percent a year.
+HEART: Flip the story and the result flips. Add money just before a strong stretch, and the money weighted return beats the time weighted return. The test is always the same question. When was the most money at work, and was that a good stretch or a bad one?
 
-LEWIS: Now money weighted. Line up the cash flows from your point of view. At the start, you pay 40, so negative 40. At the end of year one, you pay 50 for the second share but receive a 1 dollar dividend, so the net is negative 49. At the end of year two, you receive 90 for the shares plus 2 in dividends, so positive 92.
+LEWIS: One mechanical trap. When you cut the time weighted pieces, value the account just before each deposit or withdrawal. The new money belongs at the start of the next piece, not at the end of the old one.
 
-HEART: On the B A two plus, open the cash flow worksheet with the C F key, and clear it with second, then C E slash C, which is clear work. For C F zero, type 40, press the plus minus key to make it negative, and press enter. Arrow down and enter negative 49 as C zero one. Arrow down twice, past its frequency, F zero one, which stays at 1, and enter 92 as C zero two. Then press I R R and C P T. The answer is about 2.3 percent.
+HEART: So which measure do you use? The time weighted return is the industry standard for judging managers, because clients, not managers, usually decide when money comes and goes. Blaming a manager for a client's timing would be unfair.
 
-LEWIS: So the same investment shows about 8.3 percent time weighted and about 2.3 percent money weighted. Why the big gap?
+LEWIS: But when the manager does control the timing, the money weighted return is the better measure. A private equity fund is the classic case. The manager decides when to call money from investors and when to hand it back, so that timing is part of the skill being judged.
 
-HEART: Because of timing. Year one was the great year, but you only had 40 dollars in it. Year two was the bad year, and that is when you had 100 dollars at work. The money weighted return counts dollars, so the bad year counts for much more. The time weighted return gives each year equal say, no matter how much money was in it.
-
-LEWIS: And that gives you the rule the exam keeps testing. If money comes in just before a bad stretch, money weighted will be lower than time weighted. If money comes in just before a good stretch, money weighted will be higher.
-
-HEART: A quick way to never reverse it. Ask yourself, when was the most money at work, and was that a good stretch or a bad one?
-
-LEWIS: One more calculator point. You will often see this set up from the account's side instead. The opening amount and every deposit go in as positive, because they flow into the account, and withdrawals, including any dividends paid out to you, and the ending value go in as negative. We set it up from your wallet's side, which simply flips every sign. The IRR comes out the same either way. What matters is that the two directions have opposite signs.
-
-HEART: So which measure should you use? The time weighted return is the standard yardstick for judging a manager. The reason is that clients, not the manager, usually decide when money moves in or out. It would be unfair to blame the manager for a client's bad timing.
-
-LEWIS: But if the manager does control the timing, money weighted is the better measure. Think of a private equity manager who decides when to call capital from investors and when to send it back. Their timing decisions are part of their skill, so you want a measure that captures them.
-
-HEART: Here is the trap besides reversing the direction. When you build the subperiods, the new money belongs at the start of the next piece, not the end of the old one. In our example, year two started at 100 dollars for two shares, not 50 dollars for one.
-
-LEWIS: The rule to carry. Money weighted is the IRR of the investor's cash flows, so timing matters. Time weighted links subperiod returns, so client timing drops out, and that is why it is the standard for judging managers.
+HEART: The takeaway. Money weighted is the IRR of the investor's own cash flows, so timing matters. Time weighted chains the returns of each piece, so the client's timing drops out, and that is why it is the standard for grading managers.
 
 ## Module 1.3, Common Measures of Return
 
-HEART: Raw returns are hard to compare until you put them on the same footing. This module is the adjustment toolkit. Annualizing, compounding frequency, continuous compounding, fees, taxes, inflation and leverage.
+LEWIS: Returns only compare well once they are on the same footing. This module is the toolkit for that: annualizing, compounding frequency, continuous compounding, and the adjustments for fees, taxes, inflation and leverage.
 
-LEWIS: Start with annualizing, because rates are almost always quoted per year, no matter how long the investment actually lasted.
+HEART: Start with annualizing. Rates are quoted per year almost everywhere, however long the investment actually lasted. So you ask how many of your holding periods fit into a year, and you compound the return that many times. Count a year as 365 days.
 
-HEART: The recipe. Take one plus the holding period return, raise it to the power of 365 divided by the number of days you held it, and subtract one. That exponent just asks, how many of these periods fit in a year?
+LEWIS: A return earned over a few months gets compounded up to a full year, so the annual figure ends up a bit more than simply scaling it up. A return earned over several years gets spread back down, so the annual figure is smaller than the total.
 
-LEWIS: Two examples. You earn 2 percent over 73 days. 365 divided by 73 is exactly 5, so five of those periods fit in a year. 1.02 to the fifth power is about 1.104, so about 10.4 percent annualized. Not 10, because each of those five periods compounds on the last.
+HEART: The trap with short periods is the hidden assumption. Annualizing says you could repeat that return again and again for a whole year. Annualize one great week in the market and you get an absurd number nobody will ever earn.
 
-HEART: And for something longer than a year. You earn 21 percent over 730 days, which is two years. 365 over 730 is one half, so you take the square root of 1.21, which is 1.1. That is 10 percent a year.
+LEWIS: Next, compounding frequency. A bank quotes a stated annual rate, but it might credit interest monthly, or even daily. The more often interest is credited, the sooner that interest starts earning interest of its own. So the same stated rate produces a higher effective annual rate the more often it compounds.
 
-LEWIS: The trap with annualizing a short period is that it assumes you could repeat that return again and again all year. Annualize one great week and you get a silly number.
+HEART: The extra gain shrinks as you go, though. Moving from once a year to twice a year adds a noticeable amount. Moving from monthly to daily adds very little. There is a ceiling, and that ceiling is continuous compounding, interest credited every instant.
 
-HEART: Next, compounding frequency. A rate is often quoted as a stated annual rate, but interest is credited more often, say monthly. The more often it compounds, the sooner interest starts earning interest of its own.
+LEWIS: Then the direction to remember. More frequent compounding means faster growth, so future values go up. And if money grows faster, you need less of it today to reach the same future amount, so present values go down. Higher future value, lower present value.
 
-LEWIS: So a 12 percent stated rate, compounded monthly, is really 1 percent a month. And 1.01 to the twelfth power is about 1.1268, so the effective annual rate is about 12.68 percent.
+HEART: Continuous compounding gives us the continuously compounded return, also called the log return. It answers a simple question. If growth compounded every instant, what rate would produce the change you actually saw? Because instant compounding is the most powerful kind, it takes a smaller rate to get there. So for a gain, the log return is always a little below the holding period return. For a loss, it is a little more negative.
 
-HEART: The general recipe for the effective annual rate is one plus the stated rate divided by the number of compounding periods, raised to that number of periods, minus one. Semiannual compounding at 12 percent gives 12.36. Quarterly gives about 12.55. Monthly, 12.68. Daily, about 12.75. Notice it keeps rising, but by less and less.
+LEWIS: Mechanically, it is the natural log of the ending value divided by the starting value. That ratio, ending over starting, is called the price relative.
 
-LEWIS: And here is the direction to remember. More frequent compounding raises future values, and therefore lowers present values. If you are discounting 1,000 dollars due in one year at 12 percent, annual compounding gives about 892.86 today. Monthly compounding gives about 887.45. Faster growth means you need less today to reach the same target.
+HEART: And the reason analysts love log returns is that they add. Simple returns have to be compounded, period by period. Log returns just add up, the way mile splits add up to a race time. The log return for a year is simply the sum of the monthly log returns.
 
-HEART: To discount with any compounding frequency, divide the stated rate by the periods per year, and multiply the number of years by the periods per year. Then discount as usual over that many periods.
+LEWIS: Now fees. Gross return versus net return, and the definitions hide a trap. Trading costs, like commissions, come out of both. They are part of the cost of producing the return in the first place. The only difference is the management and administration fees. Gross is before those fees. Net is after them.
 
-LEWIS: Push the compounding to the limit, every instant, and you get continuous compounding. That leads to the continuously compounded return, also called the log return.
+HEART: Gross is the fairer number for comparing managers' skill, because fee schedules differ. Net is what the investor actually keeps.
 
-HEART: The recipe is the natural log of one plus the holding period return. Or, the same thing, the natural log of the ending value divided by the beginning value. That ratio, ending over beginning, is called the price relative. If a price goes from 100 to 110, the holding period return is 10 percent, and the continuously compounded return is the natural log of 1.1, about 9.53 percent.
+LEWIS: Taxes. The pretax nominal return is the return before taxes. The after tax nominal return is what is left once the tax bill is paid. In practice, different pieces of a return can face different rates. Dividends, interest, and gains on investments held for a short time or a long time can each be taxed differently. And notice the word nominal. An after tax return is still not adjusted for inflation.
 
-LEWIS: It is always a little lower than the holding period return when the return is positive. Why? Because with continuous compounding, a smaller rate gets you to the same place.
+HEART: Which brings us to the real return, the one that measures purchasing power. Imagine you could buy a stack of pizzas today, and instead you invest the money for a year. Your money grows, but pizza prices rise too. Your real return is how many more pizzas you can buy at the end. Roughly, it is your nominal return minus inflation.
 
-HEART: And here is the big payoff. Log returns add up over time. Simple returns have to be multiplied, but log returns stack like distances on a run. If three months have log returns of 1 percent, 2 percent and negative 1 percent, the quarter's log return is simply 2 percent.
+LEWIS: But only roughly. The extra money you earned also gets spent at the new, higher prices, so when your return beats inflation, the exact real return is a bit lower than the simple subtraction. The exact version divides. Grow your money, then divide by the growth in prices. When answer choices are close together, that difference decides the question.
 
-LEWIS: On the B A two plus, the natural log key is labeled L N. To go back from a log return to a holding period return, use e to the x, which is second, then L N, and subtract one.
+HEART: You can also build the real return from the Module 1.1 pieces. Grow by a risk free rate and a risk premium, then divide out inflation. Same idea, assembled from parts.
 
-HEART: Now the three adjustments investors actually care about in their own pocket. Fees, taxes and inflation.
+LEWIS: Last, leverage. A leveraged return is your gain or loss measured against the cash you personally put in, when part of the position is bought with borrowed money. A house bought with a mortgage is the everyday example. The whole house rises or falls in value, but only your down payment absorbs the result.
 
-LEWIS: Gross versus net. Here is the trick in the definitions. Trading costs, like commissions, are subtracted in both. They are a cost of producing the return. The difference is the management and administration fees. Gross return is before those fees. Net return is after them.
+HEART: So a modest move in the house's value becomes a big move in your equity. Put down a fifth of the price, and every change in the house's value hits your own money about five times as hard, before you count the interest you owe.
 
-HEART: An analogy. Gross is what the kitchen earned after paying for the groceries. Net is what is left after the restaurant's management takes its cut. Gross is fairer for comparing managers' skill. Net is what the investor actually keeps.
+LEWIS: In words, a leveraged return is what the whole position earned, minus the interest on the loan, divided by your own money. And that interest is the catch. Leverage helps only when the asset earns more than the borrowing costs. If the asset earns less than the loan rate, you can lose money on an investment that went up. And losses get magnified just as surely as gains.
 
-LEWIS: Pretax versus after tax. A pretax nominal return is just the return before taxes. The after tax nominal return subtracts the tax bill. In real life, the tax bill depends on where the return came from, since income and gains, and gains held for a short or a long time, can each face a different rate. In the simplest case, with one tax rate on the whole return, after tax equals pretax times one minus the tax rate. A 10 percent return taxed at 30 percent leaves 7 percent.
+HEART: Futures work the same way, because you post only a small deposit against a much larger position. And a bank or credit union is a leveraged portfolio too. Its return on equity comes from the spread between what its assets earn and what its funding costs, magnified by how much it borrows relative to its capital.
 
-HEART: Then real return, which strips out inflation and measures purchasing power. Here is the cleanest way to hear it. Say a large pizza costs 20 dollars today, so 1,000 dollars would buy 50 pizzas right now. Instead you invest the 1,000 dollars, earn 10 percent and have 1,100 dollars next year. But inflation was 4 percent, so the pizza now costs 20.80. Your 1,100 dollars buys about 52.9 pizzas.
-
-LEWIS: So you passed up 50 pizzas and can now buy about 52.9. That is about 5.8 percent more pizza, and that is your real return.
-
-HEART: And that is the formula hiding inside the story. One plus the real return equals one plus the nominal return, divided by one plus inflation. 1.10 divided by 1.04 is about 1.058. The shortcut, 10 minus 4, gives 6 percent, which slightly overstates it. Use the division when the choices are close.
-
-LEWIS: Last adjustment, leverage. A leveraged return is your gain or loss as a percentage of the cash you personally put in, when part of the position is funded with borrowed money. Think of buying a house with a mortgage. A small change in the house's value is a big change in your down payment.
-
-HEART: The recipe, in dollars first. The whole position earns its return. You subtract the interest on what you borrowed. Then you divide what is left by your own money. So it is the asset return times the total of your money and the borrowed money, minus the borrowing rate times the borrowed money, all divided by your money.
-
-LEWIS: Example. You put in 100 dollars and borrow another 100 at 5 percent. The 200 dollar portfolio earns 10 percent, which is 20 dollars. You pay 5 dollars of interest and keep 15. That is 15 percent on your 100. Leverage turned 10 into 15.
-
-HEART: Now the portfolio earns only 2 percent. That is 4 dollars, but you still owe 5 in interest. You lose 1 dollar, a negative 1 percent return, even though the investment itself made money.
-
-LEWIS: So leverage helps only when the asset return beats the borrowing rate, and it magnifies losses just as surely as gains. Futures contracts are leveraged in the same way, because you only post a small deposit against a much larger position.
-
-HEART: And a quick tie to banking. A bank or credit union is a leveraged portfolio. Its return on equity comes from the spread between what its assets earn and what its funding costs, multiplied by how much it borrows relative to its capital.
-
-LEWIS: The rule to carry. Annualize with one plus the return raised to 365 over days. Log returns add, simple returns multiply. And one plus real equals one plus nominal, divided by one plus inflation.
+LEWIS: The takeaway. Annualizing compounds a return to a full year. More frequent compounding raises future values and lowers present values. Log returns add. The real return divides inflation out. And leverage helps only when the asset beats the borrowing rate.
 
 ## Module 2.1, Discounted Cash Flow Valuation
 
-LEWIS: Reading 2 lives on the calculator, so a quick warm up first. The time value of money keys on the B A two plus are N for the number of periods, I Y for the interest rate per period, entered as a percent, P V for present value, P M T for a level payment each period, and F V for future value. Enter any four, press C P T and the fifth, and it solves for it.
+HEART: Reading 2 rests on one idea. Every investment is a list of dated payments, and its value today is each payment translated back to today, then added up.
 
-HEART: Three habits will save you points. Habit one, payments per year. Out of the box, the calculator assumes 12 payments a year, which quietly divides your rate by 12. Press second, then I Y, to reach P Y. Type 1 and press enter. C Y follows to 1 on its own. Then second, C P T to quit. Now every period is one period, and you control the conversion yourself.
+LEWIS: Translating a future payment back to today is called discounting. The intuitive way to hear it: how much would you need to put in the bank today, at the going rate, to have that payment waiting for you on that date? The further away the payment, or the higher the rate, the less you need today.
 
-LEWIS: Habit two, begin or end mode. End is the default and the right setting for most problems. For payments at the start of each period, press second, then P M T, then second and enter. A small B G N appears on the screen. Remember to switch it back.
+HEART: Growing money forward and discounting it back are the same relationship read in two directions. And with continuous compounding the logic is identical. Only the growth engine changes, from compounding once a period to compounding every instant.
 
-HEART: Habit three, clear before every problem. Press second, then F V, which is clear T V M. The calculator keeps old values even after you turn it off, and a stale payment from the last problem is one of the most common silent errors.
+LEWIS: Start with bonds. The simplest is a zero coupon bond, also called a pure discount bond. It pays one lump, its face value, at maturity, and nothing before. You buy it for less than face value, and the gap between what you pay and what you get back is your interest.
 
-LEWIS: And the sign convention. Money you pay out is negative, money you receive is positive. So in one problem, the present value and future value carry opposite signs. If you ask for a rate with both positive, the calculator gives you an error.
+HEART: Two forces set its price, the yield and the time to maturity. A higher yield or a longer wait both push the price down, as long as the yield is positive. It also works in reverse. Know the price, the face value and the time, and you can back out the yield.
 
-HEART: Now the core idea of the whole reading. Every asset is just a list of dated checks. Its value today is each check shrunk back to today, then added up. You shrink a check by dividing it by one plus the rate, raised to the number of periods until it arrives.
+LEWIS: Here is a twist. Yields can be negative. In the 2010s, parts of Europe and Japan saw government bond yields below zero. A zero coupon bond with a negative yield costs more than its face value. You knowingly pay more today than you will get back.
 
-LEWIS: So the future value is the present value grown at one plus the rate for t periods, and the present value is the future value divided by that same growth factor. Same relationship, read in two directions.
+HEART: Why would anyone do that? Think of it as a fee for very safe storage. When investors badly want safety, some will accept a small, certain loss to park money somewhere they trust completely.
 
-HEART: And with continuous compounding, the growth factor becomes e raised to the rate times time. So the present value is the future value times e to the power negative rate times time. 1,000 dollars due in two years at a continuous 5 percent is worth 1,000 times e to the negative 0.10, about 904.84 dollars today.
+LEWIS: Next, the fixed coupon bond. It pays a set interest payment every period, plus the face value at the end. And here is the distinction to lock in. The coupon rate only sets the size of each payment. The yield to maturity is the discount rate the market applies to those payments. They are two different numbers.
 
-LEWIS: Let us walk through the asset types, starting with fixed income. The simplest is a zero coupon bond, also called a pure discount bond. It pays one amount, the face value, at maturity and nothing before. You buy it for less than face, and the gap is your interest.
+HEART: Think of a long lease. The coupon rate is the rent written into it the day it was signed. The yield is the return a buyer of that lease would demand today. Nothing forces the two to match.
 
-HEART: Its price is the face value divided by one plus the yield, raised to the number of years. A 1,000 dollar zero due in 10 years, at a yield to maturity of 5 percent, costs about 613.91 dollars. On the calculator, N 10, I Y 5, P M T 0, F V 1,000, then C P T P V, and you see negative 613.91.
+LEWIS: And comparing them tells you the price. When the market yield equals the coupon rate, the bond sells at its face value, called par. When the market yield is above the coupon rate, the bond's payments are smaller than the market demands, so it sells below par, at a discount. When the market yield is below the coupon rate, it sells above par, at a premium.
 
-LEWIS: Here is something that surprises people. Yields can be negative. A zero coupon bond with a negative yield costs more than its face value. 1,000 dollars due in five years at a yield of negative 1 percent costs about 1,051.54 today.
+HEART: A perpetual bond, or perpetuity, pays a fixed amount forever and never matures. Its value is simply the payment divided by the rate.
 
-HEART: Why would anyone do that? Think of it as paying for very safe storage. Some investors will accept a small certain loss to park money somewhere they trust completely.
+LEWIS: The bank account picture makes that obvious. How much would you need to deposit, at the going rate, to collect that payment every year forever without ever touching the principal? That deposit is the perpetuity's value. It also tells you something useful. Double the rate and the value halves.
 
-LEWIS: Next, a fixed coupon bond. It pays a coupon every period plus the face value at the end. And here is the distinction to lock in. The coupon rate only decides the size of the check. The yield to maturity, the YTM, is the discount rate the market applies.
+HEART: One detail to file away. That value sits one period before the first payment. It matters for stocks in a moment.
 
-HEART: Think of the coupon rate as the number printed on the bond the day it was issued. The YTM is today's going rate in the market. They can be completely different.
+LEWIS: The last bond shape is the amortizing bond. It pays the same amount every period, including the final one, and each payment covers that period's interest plus a slice of principal. By the last payment, the balance is zero. A car loan or a mortgage works this way, and a level stream of payments like that is called an annuity. The payment is set so that the present values of all the payments, at the loan rate, add up to exactly the amount borrowed.
 
-LEWIS: Take a three year bond with a 1,000 dollar face value and a 5 percent annual coupon. So it pays 50 dollars a year, and 1,000 at the end. If the market yield is also 5 percent, the price is exactly 1,000, which is called par. If the market yield rises to 6 percent, enter N 3, I Y 6, P M T 50 and F V 1,000, and compute P V. You get negative 973.27.
+HEART: Contrast that with a fixed coupon bond, where every coupon is pure interest and the whole principal comes back at the end. With an amortizing loan, the principal comes back a piece at a time. Each payment carries a little less interest and a little more principal than the one before it. On a long mortgage, the early payments are mostly interest.
 
-HEART: That gives you the rule. When the market yield is above the coupon rate, the bond sells below par, at a discount, because its checks are smaller than the market demands. When the market yield is below the coupon rate, it sells above par, at a premium.
+LEWIS: Now equities. Same principle, value is the present value of future cash flows. Two things change. Stocks never mature, and their cash flows are not promised. So instead of a yield, we talk about the required return, the return investors need before they will hold the stock. It plays the role of the discount rate.
 
-LEWIS: Then the perpetual bond, which pays a fixed coupon forever and never matures. Its value is simply the payment divided by the rate.
+HEART: Preferred stock pays a fixed dividend, set as a percentage of its par value, and it has no maturity. So it is a perpetuity, and its value is the dividend divided by the required return. Same warning as with bonds. The stated dividend rate decides the size of the payment, and the required return is what you discount it at. Mixing them up is the trap.
 
-HEART: And here is the intuitive way to remember that. Ask how much money you would need in a bank account paying that rate to throw off the same payment forever without touching the principal. At 5 percent, you need 1,000 dollars to get 50 a year forever. So a perpetuity paying 50 at 5 percent is worth 1,000.
+LEWIS: Common stock is a residual claim. Shareholders get what is left after everyone else is paid, and the company can raise, cut or skip the dividend as it chooses. Nothing is promised, so analysts value it with the dividend discount model, which comes in three versions.
 
-LEWIS: One detail. That formula values the stream one period before the first payment. Keep that in mind, because it comes back with stocks.
+HEART: Version one, assume the dividend stays the same forever. Then common stock is valued just like preferred stock, as a perpetuity.
 
-HEART: Last fixed income shape, the amortizing bond or loan. It pays the same amount every period, and each payment covers that period's interest plus a slice of principal, so the balance hits zero at the end. A car loan or a mortgage works this way. A level stream like that is called an annuity.
+LEWIS: Version two, assume the dividend grows at a steady rate forever. That is the Gordon growth model, also called the constant growth model. Value today is next year's dividend divided by the gap between the required return and the growth rate.
 
-LEWIS: The payment formula is the rate times the principal, divided by one minus one plus the rate raised to the negative number of periods. On audio that is a mouthful, so use the calculator. A 100,000 dollar loan over five years at 6 percent, paid annually. Enter N 5, I Y 6, P V 100,000 and F V 0, and compute P M T. You get negative 23,739.64 per year.
+HEART: It is the perpetuity idea with a twist. The payment keeps growing, so it is as if you divide by a smaller rate, the required return minus growth. And notice what that implies. When the gap is narrow, small changes in growth or in the required return swing the value a lot.
 
-HEART: And if the payments come at the start of each period instead of the end, that is an annuity due. Switch to begin mode. Its value is the ordinary annuity times one plus the rate, because every check arrives one period sooner.
+LEWIS: The model needs the required return to be above the growth rate. If dividends grew as fast as you discount them, every future dividend would be worth as much today as the next one, forever, and the value would be infinite. The math only works with a positive gap.
 
-LEWIS: Now equity. Same idea, the value is the present value of future cash flows. But two things change. Stocks never mature, and their cash flows, the dividends, are not promised. So instead of a coupon rate and a yield, you have a required return. That is the return investors need before they will hold the stock, and it is the discount rate.
+HEART: Now the trap that costs the most points in this reading. The model wants next year's dividend. If the question says the company just paid a dividend, that dividend is in the past. Grow it by one year first. Plug in the dividend just paid and you undervalue the stock, and that wrong answer will be sitting in the choices.
 
-LEWIS: Preferred stock promises a fixed dividend, often set as a percentage of the share's par value, and it never matures. So it is a perpetuity. Its value is the dividend divided by the required return. A preferred share paying 6 dollars a year, with a required return of 7.5 percent, is worth 6 divided by 0.075, which is 80 dollars.
+LEWIS: So listen for the wording. Just paid, most recent or last means the dividend already happened, so grow it once. Expected, next or coming means it is already next year's dividend, so use it as it is.
 
-HEART: Same warning as with bonds. The stated dividend rate sets the cash flow. The required return is what you discount at. Do not mix them up.
+HEART: Version three is the multistage model, for a company that grows fast for a while and then settles into steady growth. The strategy is to value the bumpy early dividends one at a time, then collapse the entire steady part, all the way to forever, into one lump using the Gordon model.
 
-HEART: Common stock is a residual claim. Shareholders get what is left after everyone else is paid, and nothing obliges the company to pay a dividend at all, or on any schedule. So we need a model, and there are three common versions of the dividend discount model.
+LEWIS: And here is where that timing detail pays off. The Gordon model, applied to a dividend, gives a value one period before that dividend. So you apply it to the first dividend of the steady growth phase, and the lump you get sits one period earlier. Then you bring that lump back to today, along with the early dividends.
 
-LEWIS: Version one, assume the dividend stays constant forever. Then common stock is valued exactly like preferred stock, as a perpetuity.
+HEART: The classic mistake is discounting the lump for one period too many or one too few. Before you discount it, always ask on what date the Gordon value sits.
 
-HEART: Version two, assume the dividend grows at a constant rate forever. That is the Gordon growth model, also called the constant growth model. Value today equals next year's dividend, divided by the required return minus the growth rate.
-
-LEWIS: Here is the bank account intuition again. It is the perpetuity formula, payment over rate, except the payment keeps growing, so the effective rate you divide by shrinks to the required return minus growth. And the model only works when the required return is above the growth rate. If growth matches or beats the required return, the formula gives an infinite or negative value, which means nothing.
-
-HEART: Example. A company just paid a 2 dollar dividend. Dividends grow at 5 percent a year, and you require 10 percent. Next year's dividend is 2 times 1.05, which is 2.10. Divide by 10 percent minus 5 percent, which is 5 percent, and the value is 42 dollars.
-
-LEWIS: And here is the trap that costs people the most points in this reading. The question says the company just paid 2 dollars. The tempting move is 2 divided by 5 percent, which gives 40, and 40 will be sitting right there in the answer choices.
-
-HEART: So listen for the words. Just paid, current, most recent, or last means the dividend that already happened. Grow it once. Expected, next, or coming means it is already next year's dividend. Use it as it is.
-
-LEWIS: Version three is the multistage model, for companies that grow fast for a while and then settle down. The strategy is to discount the bumpy early dividends one at a time, then collapse the smooth forever part into one lump with the Gordon model.
-
-HEART: The key fact that makes it work is the one we flagged with the perpetuity. The Gordon model, applied to any dividend, gives you the value one period before that dividend. So if growth becomes constant starting from the year two dividend, the Gordon model on the year two dividend gives you a value at the end of year one.
-
-LEWIS: Let us do one. Next year's dividend is 2 dollars. The year after, it jumps to 3 dollars. From then on, dividends grow at 5 percent forever. The required return is 10 percent.
-
-HEART: The year two dividend of 3 dollars is the start of the constant growth. Gordon on it gives 3 divided by 5 percent, which is 60 dollars. That 60 is the value at the end of year one. At that same date you also receive the year one dividend of 2 dollars. So at the end of year one you have 62 dollars of value. Discount one year at 10 percent, 62 divided by 1.1, and the stock is worth about 56.36 today.
-
-LEWIS: And you can check it the other way. Take the year three dividend, 3 times 1.05, which is 3.15, and use Gordon to get a value at the end of year two, 3.15 divided by 5 percent, which is 63. Then discount the 2 dollars back one year, and the 3 dollars plus 63 back two years. You get the same 56.36. The trap is discounting that lump by one year too many or one too few. Always ask, at what date does this Gordon value sit?
-
-HEART: The rule to carry. Every asset is the sum of its discounted cash flows. A perpetuity is payment over rate. And in the Gordon model, value equals next year's dividend divided by the required return minus growth, and it lands one period before that dividend.
+LEWIS: The takeaway. Every asset is the sum of its discounted payments. A perpetuity is the payment divided by the rate. And the Gordon model divides next year's dividend by the gap between the required return and growth, landing one period before that dividend.
 
 ## Module 2.2, Implied Returns and Cash Flow Additivity
 
-HEART: Module 2.1 took a rate and found a price. This module runs the machine in reverse. Take the price you see in the market, and back out the return that price implies. Then it ties everything together with one principle that the rest of the course leans on.
+HEART: Module 2.1 started with a rate and found a price. This module runs it in reverse. Start with the price the market shows you, and back out the return that price implies.
 
-LEWIS: Start with a zero coupon bond. You pay 500 dollars today for 1,000 dollars in 10 years. Your money doubles in 10 years. What is the annual return?
+LEWIS: For a zero coupon bond, the implied return is the steady annual rate that grows today's price into the face value by maturity. For a coupon bond, it is the yield to maturity, the single discount rate that makes all the promised payments add up to today's price. In other words, the bond's internal rate of return.
 
-HEART: The implied return is face value divided by price, raised to the power one over the number of years, minus one. That is 2 raised to the one tenth, minus one, about 7.18 percent a year. On the calculator, N 10, P V negative 500, P M T 0, F V 1,000, then C P T I Y.
+HEART: That gives you a relationship you will use for the rest of the course. Bond prices and yields move in opposite directions. The payments are fixed, so if the market starts demanding a higher return, the only way to deliver it is a lower price. When the price rises, the yield falls.
 
-LEWIS: And a nice sanity check is the rule of 72. Money doubling in 10 years means roughly 72 divided by 10, which is about 7.2 percent. Close enough to confirm you did not slip.
+LEWIS: For stocks, you cannot look up the required return. Nobody publishes it. But you can see the price. So you rearrange the Gordon model.
 
-HEART: For a coupon bond, the implied return is the yield to maturity. It is the single discount rate that makes the present value of all the promised payments equal the price. In other words, it is the bond's IRR. Take our three year, 5 percent coupon bond priced at 973.27. Enter N 3, P V negative 973.27, P M T 50, F V 1,000, and compute I Y. You get 6.
+HEART: And the result reads naturally. The required return equals the dividend yield plus the growth rate. The dividend yield is next year's dividend divided by today's price. So your return comes from two sources: the cash the stock pays relative to what you paid for it, and the growth of that cash over time.
 
-LEWIS: And if the price rises back to 1,000, the yield falls back to 5 percent. That is the relationship you will use for the rest of the course. Bond prices and yields move in opposite directions, like the two ends of a seesaw.
+LEWIS: Turn it around and you get implied growth. If you know the return investors require, subtract the dividend yield, and what is left is the growth rate the market is pricing in. That makes a good reality check. If a price only makes sense with growth no company could sustain forever, the price is telling you something.
 
-HEART: Now equities. In practice, nobody hands you the required return on a stock. You cannot observe it. But you can observe the price. So you rearrange the Gordon model.
+HEART: Now the principle the rest of the course leans on. Cash flow additivity says the present value of a stream of payments equals the sum of the present values of its pieces. Cut a stream into pieces and the pieces add back to the value of the whole. Merge two streams date by date and the result is worth the two values added together.
 
-LEWIS: If value equals next year's dividend over the required return minus growth, then the required return equals next year's dividend divided by the price, plus the growth rate. In plain words, required return equals dividend yield plus growth.
+LEWIS: Think of Lego. A fixed coupon bond is really two simpler pieces snapped together, a level annuity of coupons plus a single lump at maturity, which is just a zero coupon bond. Value the two pieces separately, add them, and you get exactly the value of the bond.
 
-HEART: Example. A stock trades at 50 dollars and is expected to pay 2 dollars next year. That is a 4 percent dividend yield. If dividends grow at 5 percent a year, the market is implying a required return of 4 plus 5, which is 9 percent.
+HEART: Building one set of cash flows out of others like that is called replication. Any uneven stream can be broken into a level annuity plus a few single payments, which is often easier to value.
 
-LEWIS: Or flip it to find the growth the market is pricing in. Implied growth equals the required return minus the dividend yield. If you believe investors require 9 percent, and the dividend yield is 4 percent, the price is implying 5 percent growth forever.
+LEWIS: Here is why it matters so much. If two investments pay exactly the same cash flows in every possible outcome, they must cost the same today. That is the law of one price, also called the no arbitrage condition.
 
-LEWIS: Now the principle, cash flow additivity. The present value of a stream of cash flows equals the sum of the present values of its pieces. You can split a stream into whatever pieces are convenient, or combine two streams by adding the checks that land on the same date, and the total value does not change.
+HEART: Because if they did not, you would buy the cheap one, sell the expensive one, and collect the difference with no risk and none of your own money. That free lunch is called arbitrage. Traders pile in, and their buying and selling pushes the prices together until it disappears.
 
-HEART: Think of it like Lego. A coupon bond is really just two simpler pieces snapped together. An annuity of 50 dollars a year for three years, plus a zero coupon bond paying 1,000 in year three. At 6 percent, the annuity is worth about 133.65, the zero is worth about 839.62, and together they are 973.27. Exactly the price we found for the coupon bond.
+LEWIS: The simplest way to hold it: two routes to the same destination must cost the same toll. This reading uses it to pin down three prices: forward interest rates, forward exchange rates and option values.
 
-LEWIS: And it works for messy streams too. Any uneven stream can be split into a level annuity plus a few single lumps, which is often easier to value. Building one set of cash flows out of others like this is called replication.
+HEART: First, interest rates. A spot rate is the rate on a loan that starts today. A forward rate is a rate agreed today for a loan that starts later. The notation gives you both facts, the start first and the length second. One y one y is a one year loan starting one year from now. Two y five y is a five year loan starting in two years.
 
-LEWIS: Now the consequence that matters most. Two investments that pay exactly the same cash flows, whatever happens, must sell for the same price today. That is the law of one price, also called the no arbitrage condition.
+LEWIS: Now the two routes. You want to invest for two years. Route one, lock in the two year spot rate today. Route two, invest for one year at the one year spot rate, and agree today to reinvest for the second year at the one y one y forward rate. Both routes are certain and cover the same two years, so they must end with the same amount of money.
 
-HEART: Because if they did not, you would buy the cheap one, sell the expensive one, and pocket the difference with no risk and none of your own money. That free lunch is called arbitrage. Traders would pile in until the prices matched. So the no arbitrage rule is: two routes to the same destination must cost the same toll.
+HEART: That is how forward rates are inferred from the spot rates you can see in the market. And it chains. Any mix of spot and forward rates covering the same stretch of time has to produce the same total growth.
 
-LEWIS: Here are three classic places where this pins down a price. Forward interest rates, forward exchange rates and option values.
+LEWIS: A useful mental picture. The two year spot rate is roughly the average of the first year's rate and the forward rate for the second year. So when spot rates rise with maturity, the forward rate has to be above both spot rates, not between them. The forward is what pulls that average up.
 
-HEART: First, forward interest rates. A forward rate is a rate agreed today for a loan that starts later. The notation tells you both pieces. The first number is when the loan starts, and the second is how long it lasts. So one y one y means a one year loan starting one year from now. Two y five y would be a five year loan starting two years from now. A spot rate is the rate for a loan that starts right now.
+HEART: Second, exchange rates. An exchange rate is the price of one currency in terms of another. In a quote of dollars per euro, the dollar is the price currency and the euro is the base currency. The quote tells you how many dollars one euro costs.
 
-LEWIS: Here is the two routes logic. You want to invest for two years. Route one, lock in the two year spot rate today. Route two, invest for one year at the one year spot rate, and agree today to reinvest for the second year at the one y one y forward rate. Both routes are riskless and cover the same two years, so they must end with the same amount.
+LEWIS: The two routes here. Keep your money in dollars and earn the dollar interest rate. Or convert to euros today, earn the euro interest rate, and lock in a forward rate today to convert back in a year. Both routes are riskless, so they must end with the same number of dollars.
 
-HEART: So one plus the two year spot rate, squared, equals one plus the one year spot rate, times one plus the one y one y forward rate. Example. The one year spot rate is 4 percent and the two year spot rate is 5 percent. 1.05 squared is 1.1025. Divide by 1.04 and you get about 1.0601. So the forward rate is about 6.01 percent.
+HEART: Which means the forward rate exists to cancel the interest rate difference. In percentage terms, the forward differs from the spot rate by roughly the difference between the two interest rates. The currency with the higher interest rate trades at a forward discount. Its extra interest is given back when you convert at the forward rate.
 
-LEWIS: A mental check. The two year rate is roughly the average of the one year rate and the forward rate. If the average is 5 and the first year is 4, the second year must be about 6. And the trap is to think the forward rate falls between the two spot rates. When spot rates rise with maturity, the forward rate is above both of them.
+LEWIS: If that were not true, people would borrow in the low rate currency, invest in the high rate one, lock in the forward, and pocket a riskless profit. That trade is exactly what keeps the forward rate in line.
 
-HEART: And it chains. For three years, one plus the three year spot rate, cubed, equals one plus the one year spot rate, times one plus one y one y, times one plus two y one y. However you slice the same stretch of time into spot and forward pieces, the total growth has to match.
+HEART: Two traps. The forward rate is not a forecast of where the exchange rate is headed. It is simply the price that removes the free lunch. And keep each interest rate with its own currency. In a dollars per euro quote, when the dollar rate is above the euro rate, the forward sits above the spot. When the euro rate is higher, the forward sits below it.
 
-LEWIS: Second, forward exchange rates. Same two routes idea, now across currencies. Take an exchange rate quoted as dollars per euro. The currency on top, dollars, is the price currency. The one underneath, euros, is the base currency. So 1.20 dollars per euro means one euro costs 1.20 dollars.
+LEWIS: Third, options. An option is a right, not an obligation. A call is the right to buy an asset at a set price, called the exercise price. A put is the right to sell at a set price. If using the option would not pay, the owner simply lets it expire. An option that would pay to exercise is in the money. One that would not is out of the money.
 
-HEART: Route one, keep your dollars at home and earn the dollar interest rate. Route two, convert to euros today, earn the euro interest rate, and lock in a forward rate today to convert back to dollars in a year. Both are riskless, so they must end with the same number of dollars.
+HEART: That walk away feature is what makes options different to value. But the no arbitrage idea still works, using a one period binomial model. Binomial just means two outcomes. By the end of the period, the stock sits at either a higher price or a lower price.
 
-LEWIS: That gives you the formula. The forward rate equals the spot rate times one plus the price currency interest rate, divided by one plus the base currency interest rate. With a spot of 1.20 dollars per euro, a dollar rate of 4 percent and a euro rate of 1 percent, the forward is 1.20 times 1.04, divided by 1.01. That is about 1.2356 dollars per euro.
+LEWIS: You need four inputs. The stock's value today, the option's exercise price, the size of the up move and the down move, and the risk free rate for the period.
 
-HEART: Notice the forward is just under 3 percent above spot, and the interest rate gap is 3 percent. That is no accident. The forward premium or discount roughly equals the difference in interest rates. The currency with the higher interest rate trades at a forward discount. Otherwise everyone would borrow in the low rate currency, invest in the high rate one, lock in the forward, and make free money.
+HEART: Then comes the clever part. Sell a call option, and buy just enough of the stock that your combined position is worth the same whether the stock goes up or down. When the stock rises, your shares gain, but the call you sold costs you. When the stock falls, your shares lose value, but the call expires worthless. With the right amount of stock, those effects offset exactly.
 
-LEWIS: Two traps. First, the forward rate is not a forecast of where the exchange rate is going. It simply cancels out the interest rate difference. Second, keep the ratio right side up. The price currency's interest rate goes on top, with the price currency.
+LEWIS: That right amount is the hedge ratio, the number of shares per option. It is set by how far the option's payoff swings between the two outcomes, compared with how far the stock's price swings.
 
-HEART: Third, options. An option is a right, not an obligation. A call is the right to buy at a set price, called the exercise price. A put is the right to sell at a set price. If using the option would not pay, you just let it expire. When exercising pays, the option is in the money. When it would not, it is out of the money.
+HEART: And now the logic closes. A position worth the same in every outcome has no risk. A riskless position must earn the risk free rate, or there would be an arbitrage. So you know what the hedged position is worth today. The option's price is the difference between what the shares cost and what that hedged position is worth.
 
-LEWIS: You can value a simple option with the same no arbitrage logic, using a one period binomial model. Binomial just means two outcomes. We assume that by the end of one period, the stock sits at exactly one of two prices, a high one or a low one.
+LEWIS: You will do this properly in Derivatives. For now, notice the pattern is the same in all three examples. Build something riskless out of pieces, insist that it earns the risk free rate, and the unknown price falls out.
 
-HEART: Let us build one. A stock is at 40 dollars today. In one period it will be either 50 or 30. A call option lets you buy it at 45. The risk free rate for the period is 5 percent. If the stock goes to 50, the call is worth 5 dollars. If it goes to 30, the call is worth nothing.
-
-LEWIS: Now the clever part. Build a portfolio that pays the same amount no matter which way the stock goes. Sell one call, and buy just enough stock to offset it. How much stock? The call's payoff swings by 5 dollars, from 0 to 5, while the stock swings by 20 dollars, from 30 to 50. So you need 5 divided by 20, a quarter of a share, per call you sell. That number is called the hedge ratio.
-
-HEART: Check both outcomes. If the stock goes up, your quarter share is worth 12.50, and you owe 5 on the call, so you have 7.50. If the stock goes down, your quarter share is worth 7.50, and the call is worthless, so you still have 7.50. Same either way. That portfolio has no risk.
-
-LEWIS: And a riskless portfolio is just a savings account in disguise. It has to earn the risk free rate. So its value today is 7.50 divided by 1.05, about 7.14.
-
-HEART: Today the portfolio costs a quarter share at 40 dollars, which is 10, minus the money you received for selling the call. So 10 minus the call price equals 7.14. The call must be worth about 2.86 dollars. If it traded at any other price, there would be an arbitrage.
-
-LEWIS: You will do this properly in Derivatives. For now, the takeaway is the logic. Build something riskless out of pieces, insist it earns the risk free rate, and solve for the unknown price.
-
-HEART: The rule to carry. Implied required return on a stock is dividend yield plus growth. Bond prices and yields move opposite. And identical cash flows must have identical prices, which is what pins down forward rates, currency forwards and option values.
+HEART: The takeaway. A market price implies a return, the yield to maturity for a bond and the dividend yield plus growth for a stock. Bond prices and yields move in opposite directions. And identical cash flows must have identical prices, which is what sets forward rates, currency forwards and option values.
 
 ## Recall check
 
-LEWIS Q: You buy a share at 40 dollars, receive 2 dollars in dividends during the year, and sell it for 42. What is your holding period return?
+LEWIS Q: A Treasury bill is about as close to risk free as it gets. Is its rate a real rate or a nominal rate, and why?
 
-HEART: Answer. 10 percent. You gained 2 dollars on price and 2 in dividends, 4 dollars total, on 40 invested.
+HEART: Answer. Nominal. It includes a premium for expected inflation, so it is the nominal risk free rate, not the real one.
 
-HEART Q: You invest the same dollar amount in a fund every month at different prices. Which mean gives your average cost per share, and is it above or below the simple average of the prices?
+HEART Q: You have ten years of annual returns. Which average estimates next year's return, and which describes the compound growth over the full ten years?
 
-LEWIS: Answer. The harmonic mean, and it is below the simple average. A fixed dollar amount buys more shares when the price is low, so the low prices carry more weight.
+LEWIS: Answer. The arithmetic mean for next year. The geometric mean for compound growth over the whole stretch.
 
-LEWIS Q: You have eight quarterly returns covering two years. To get the annual compound return, do you take the eighth root or the square root of the product of the growth factors?
+LEWIS Q: You invest the same dollar amount every month. Which mean gives your average cost per share, and is it above or below the simple average of the prices?
 
-HEART: Answer. The square root, because there are two years. The eighth root would give you the geometric mean per quarter, not per year.
+HEART: Answer. The harmonic mean, and it is below. A fixed dollar amount buys more shares when prices are low, so the low prices carry more weight.
 
-HEART Q: A client makes a large deposit just before the portfolio's strongest year. Which is most likely higher, the money weighted return or the time weighted return?
+HEART Q: A client makes a large deposit right before the portfolio's best year. Which is likely higher, the money weighted return or the time weighted return?
 
-LEWIS: Answer. The money weighted return. It weights each period by the money invested, and the most money was at work in the best year. The time weighted return ignores the client's timing.
+LEWIS: Answer. The money weighted return. The most money was at work during the best year, and money weighted counts dollars. Time weighted ignores the client's timing.
 
-LEWIS Q: A stated annual rate of 12 percent is compounded monthly instead of annually. Does the present value of a payment due in one year go up or down?
+LEWIS Q: The stated annual rate stays the same, but interest now compounds monthly instead of once a year. What happens to the present value of a payment due in a year?
 
-HEART: Answer. Down. More frequent compounding raises the effective annual rate, so future values rise and present values fall.
+HEART: Answer. It falls. More frequent compounding raises the effective rate, so future values rise and present values fall.
 
-HEART Q: A company just paid a dividend of 2 dollars. An analyst plugs that 2 dollars straight into the Gordon growth model. If growth is positive, is the value most likely too high or too low?
+HEART Q: Why are continuously compounded returns so convenient across many periods?
 
-LEWIS: Answer. Too low. The model needs next year's dividend, which is the dividend just paid times one plus the growth rate. Using the smaller dividend understates the value.
+LEWIS: Answer. They add. The log return over a year is just the sum of the log returns of its parts, while simple returns have to be compounded.
 
-LEWIS Q: A stock trades at 50 dollars with an expected dividend next year of 1.50, and the market expects 6 percent growth forever. What required return does the price imply?
+LEWIS Q: You borrow money to buy an asset. Under what condition does the leverage raise your return?
 
-HEART: Answer. 9 percent. The dividend yield is 1.50 over 50, which is 3 percent, and 3 percent yield plus 6 percent growth is 9 percent.
+HEART: Answer. When the asset earns more than the interest rate on the borrowing. If it earns less, leverage lowers your return. And if the asset falls, leverage magnifies the loss.
 
-HEART Q: The one year spot rate is 3 percent and the two year spot rate is 4 percent. Is the one y one y forward rate above, below, or between those two rates?
+HEART Q: A bond's coupon rate is below the market yield. Does it trade at a premium, at par or at a discount?
 
-LEWIS: Answer. Above both, at roughly 5 percent. The two year rate is about the average of the first year and the forward year, so if the first year is 3, the second must be about 5.
+LEWIS: Answer. At a discount. Its payments are smaller than the market demands, so its price falls below face value.
 
-## Recap
+LEWIS Q: A question gives you the dividend a company just paid and asks for the Gordon growth value. What do you do with that dividend first?
 
-HEART: An interest rate can be a required return, a discount rate or an opportunity cost, and it stacks up as the real risk free rate plus premiums for inflation, default, liquidity and maturity. A T bill rate is nominal, not real.
+HEART: Answer. Grow it by one period to get next year's dividend. Using the dividend just paid understates the value.
 
-LEWIS: The holding period return is price change plus income over the beginning price, and you link periods by multiplying growth factors. Harmonic is below geometric, which is below arithmetic. Use arithmetic for a single period, geometric for compound growth, and harmonic for equal dollar purchases.
+HEART Q: Working backward from a stock's price, what two pieces make up the return the market implies?
 
-HEART: Money weighted return is the IRR of the investor's cash flows, so timing counts. Time weighted links subperiod returns, removes client timing, and is the standard for judging managers.
+LEWIS: Answer. The dividend yield, which is next year's dividend divided by today's price, plus the expected growth rate.
 
-LEWIS: Annualize with 365 over days as the exponent. More frequent compounding raises future values and lowers present values. Log returns add across time. Real return is one plus nominal over one plus inflation, minus one. And leverage only helps when the asset return beats the borrowing cost.
+LEWIS Q: Spot rates rise with maturity. Is the forward rate for the second year above, below or between the one year and two year spot rates?
 
-HEART: Every asset is the sum of its discounted cash flows. A perpetuity is payment over rate. The Gordon model is next year's dividend over the required return minus growth, and it lands one period before that dividend.
+HEART: Answer. Above both. The two year rate is roughly an average of the first year's rate and the forward rate, so the forward has to be higher to pull that average up.
 
-LEWIS: Run it backward and the required return on a stock is dividend yield plus growth, and a bond's yield moves opposite to its price. Finally, cash flow additivity and no arbitrage mean identical cash flows have identical prices. That is what sets forward rates, currency forwards and, later, option values.
+HEART Q: In a dollars per euro quote, the dollar interest rate rises while the euro rate stays put. Does the forward rate rise or fall relative to the spot rate?
+
+LEWIS: Answer. It rises relative to spot. Each interest rate travels with its own currency, and a higher rate on the price currency, the dollar, pushes the forward up.

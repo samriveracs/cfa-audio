@@ -118,7 +118,10 @@ def main(n):
         intro.append(("p","This series is original review audio, keyed to Kaplan module numbers for the 2026 Level One exam. It is not produced by Kaplan or by CFA Institute. Use it after you read the modules, as spaced review."))
     outro=[("p",f"That is the end of Episode {n}." + (f" Next is Episode {nxt['ep']}, {nxt['title']}." if nxt else ""))]
     blocks=parse(script)
-    if any(b[2] for b in blocks): plan=tagged_plan(intro, blocks, outro[0][1])
+    if any(b[2] for b in blocks):
+        # Dialogue scripts open with one line naming the episode and module span. The script's own first paragraph lists the topics.
+        intro=[("h",f"Episode {n}. {e['topic']}, {span}.")]
+        plan=tagged_plan(intro, blocks, outro[0][1])
     else: plan=assign(intro, [(k,t) for k,t,_ in blocks], outro[0][1])
     sil=lambda s: np.zeros(int(SR*s),dtype=np.float32)
     audio=[sil(0.4)]; chapters=[]; t0=time.time(); share={"H":0,"L":0}

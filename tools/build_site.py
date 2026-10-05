@@ -63,8 +63,8 @@ feed=f"""<?xml version="1.0" encoding="UTF-8"?>
   <link>{BASE}/</link>
   <atom:link href="{BASE}/feed.xml" rel="self" type="application/rss+xml"/>
   <language>en-us</language>
-  <description>Original 30 minute review episodes for the November 2026 CFA Level I exam, in Kaplan Schweser module order. Each episode teaches the core ideas, traps and formulas for a group of modules and ends with a spoken recall check. Not produced by or affiliated with Kaplan or CFA Institute.</description>
-  <itunes:summary>Original 30 minute review episodes for the November 2026 CFA Level I exam, in Kaplan Schweser module order.</itunes:summary>
+  <description>Original review episodes for the November 2026 CFA Level I exam, in Kaplan Schweser module order. Each episode teaches the core ideas and traps for a group of modules and ends with a spoken recall check. Not produced by or affiliated with Kaplan or CFA Institute.</description>
+  <itunes:summary>Original review episodes for the November 2026 CFA Level I exam, in Kaplan Schweser module order.</itunes:summary>
   <itunes:author>CFA Level I Audio Review</itunes:author>
   <itunes:image href="{BASE}/cover.jpg"/>
   <image><url>{BASE}/cover.jpg</url><title>CFA Level I Audio Review</title><link>{BASE}/</link></image>
