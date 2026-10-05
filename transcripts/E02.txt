@@ -1,169 +1,227 @@
-## The big picture
-
-This episode is about putting numbers on uncertainty. The first two modules take a set of past returns and summarize it. Where is the center, how widely do the returns scatter, is the shape lopsided, and are the tails fatter than a normal curve would suggest? Then the question widens to two return series and whether they move together.
-
-The third module turns the direction around. Instead of summarizing history, you build a model of what might happen next, attach a probability to each outcome, and compute an expected value and a standard deviation. Then you learn to update those probabilities when new information arrives, which is exactly what Bayes' formula does.
-
-Why does this matter on the exam? Standard deviation is the default risk measure in portfolio management, correlation drives diversification, and skewness and kurtosis explain why a normal curve can understate risk. Expected values and probability trees come back in equity, fixed income and derivatives. The questions here tend to be short and mechanical, so they are reliable points if you know the formulas cold and recognize the traps.
-
-Keep one contrast in mind all episode. With sample data, as in Modules 3.1 and 3.2, sample variance and covariance divide by n minus 1. With a probability model, as in Module 4.1, you weight each outcome by its probability and there is no n minus 1 anywhere.
+LEWIS: Reading 3 covers how to describe a set of returns: where the center is, how spread out they are, whether they lean to one side, how fat the tails are, and how two variables move together. Reading 4 covers expected values from probability models, probability trees, conditional expectations, and updating a forecast with Bayes' formula.
 
 ## Module 3.1, Central Tendency and Dispersion
 
-Start with why. Sixty monthly returns are impossible to hold in your head, so you want one number for where they cluster, called central tendency, and one for how widely they scatter, called dispersion. Return is the reward, and dispersion is the most common stand in for risk.
+HEART: Every dataset raises two questions first. Where is the middle, and how spread out is everything around it? The middle is called central tendency. The spread is called dispersion. In investing, the middle stands for reward and the spread stands for risk, so these two ideas run through the rest of the course.
 
-The arithmetic mean equals the sum of all the observations divided by the number of observations. One property matters later. If you subtract the mean from each observation and add up those deviations, the total is always exactly zero, because the positives and negatives cancel.
+LEWIS: Start with the middle. There are three main measures, and they answer slightly different questions.
 
-The weakness is that one extreme value can drag the mean a long way. Take five annual returns: 2, 4, 6, 8 and 10 percent. They add to 30, so the mean is 6 percent. Change the last return to 50 percent and the sum becomes 70, so the mean jumps to 14 percent, even though four of the five years were nowhere near 14.
+HEART: The arithmetic mean is the everyday average. Add up the values and divide by how many there are. When the data are a sample drawn from a bigger population, that average is called the sample mean, and we use it to estimate the mean of the whole population.
 
-The median fixes that. The median is the middle observation after sorting, or the average of the two middle values when the count is even. In both versions of our example the median is 6 percent. The outlier moved the mean by 8 percentage points and the median not at all, which is why the median is called robust.
+LEWIS: The median is the middle value once you line everything up in order. Half the observations sit above it and half below. With an even number of values there is no single middle one, so you take the average of the two in the middle.
 
-The mode is the value that occurs most often, and a dataset can be unimodal, bimodal or have more modes. Returns rarely repeat exactly, so in practice you group them into intervals, and the interval holding the most observations is the modal interval.
+HEART: And the reason the median matters is outliers. Picture ten people having coffee in a small cafe. A billionaire walks in. The average wealth in the room just jumped to tens of millions of dollars a head, but nobody else in the room got richer. The median barely moves, because it only cares about order, not size. When a few extreme values distort the picture, or might even be data errors, the median is the better measure of what is typical.
 
-Two compromise measures sit between the mean and the median. A trimmed mean throws away a stated percentage of the most extreme observations, split evenly between the two tails, and averages what is left. A 5 percent trimmed mean drops the lowest 2.5 percent and the highest 2.5 percent of the observations. A winsorized mean keeps every observation but pulls the extremes in. A 95 percent winsorized mean takes the lowest 2.5 percent of values and sets them equal to the value right at that cutoff, and does the same thing to the highest 2.5 percent.
+LEWIS: The mode is the value that shows up most often. A shoe store cares about the mode, because it wants to stock the size most people wear. A dataset can have one mode, which is called unimodal, two modes, bimodal, three, trimodal, or no mode at all.
 
-Keep the mechanics straight. Trimming deletes observations, while winsorizing replaces them. With the 50 percent year included, trim one observation from each end and you average 4, 6 and 8, which gives 6 percent. Winsorize one at each end instead, so the 2 becomes a 4 and the 50 becomes an 8, and the average of 4, 4, 6, 8 and 8 is again 6 percent.
+HEART: There is a catch with investment returns. They are continuous, so no two returns are likely to match exactly, and a single most common value means nothing. Instead you sort the returns into ranges, like buckets, and the bucket that collects the most observations is called the modal interval.
 
-Next come measures of location, called quantiles. A quantile is a value at or below which a stated fraction of the data lies. Quartiles split sorted data into four equal parts, quintiles into five, deciles into ten and percentiles into one hundred. The median is the second quartile, the fifth decile and the 50th percentile, all at once.
+LEWIS: Module 1.1 introduced two ways to tame outliers, and this module adds the detail. A trimmed mean throws away a stated percentage of the most extreme values, split evenly between the top and the bottom, and averages what is left. A winsorized mean keeps every observation but caps the extremes. Anything below a chosen low percentile is replaced by that percentile's value, and anything above a chosen high percentile is replaced by that one.
 
-To find a percentile in a sorted sample, first find its position. The position equals n plus 1, multiplied by y, divided by 100. Here n is the number of observations and y is the percentile you are looking for, such as 25 for the first quartile. Say you have 10 sorted returns and want that first quartile. The position is 11 times 25 divided by 100, which is 2.75.
+HEART: So trimming cuts the extremes out, and winsorizing pulls them in. Same goal, less influence from the wild values.
 
-Position 2.75 is not a whole number, so you interpolate. Start at the second observation and move 75 percent of the way toward the third. If the second observation is 4 percent and the third is 8 percent, the gap is 4, three quarters of the gap is 3, and the first quartile is 7 percent. The traps are forgetting the plus 1, and grabbing the nearest observation instead of interpolating.
+LEWIS: Now measures of location. Line the data up and pick a share, like a quarter or a tenth. The quantile is the cutoff with that share of the data at or below it. Quartiles cut the data into four equal parts. Quintiles into five. Deciles into ten. Percentiles into a hundred.
 
-The interquartile range equals the third quartile minus the first quartile. It is the spread of the middle half of the data, so a few outliers cannot distort it. A box and whisker plot draws exactly this. The box runs from the first quartile to the third quartile, a line inside the box marks the median, and the whiskers reach out toward the extreme values. If the median line sits near the bottom of the box and the upper whisker is long, the data stretch to the right, which hints at positive skew.
+HEART: Think of test scores. Score in the top tenth and you are in the top decile. Every quantile has a percentile twin. The first quartile is the twenty fifth percentile, the second is the median, and the third, with three quarters of the data at or below it, is the seventy fifth.
 
-Now dispersion. The simplest measure is the range, which equals the maximum minus the minimum. It is easy, but it uses only two observations and ignores everything in between.
+LEWIS: The gap between the third quartile and the first is the interquartile range. It is the spread of the middle half of the data, and because it ignores the top and bottom quarters, extreme values cannot stretch it.
 
-Better measures use every deviation from the mean, but raw deviations always sum to zero, so you need a fix. The mean absolute deviation takes absolute values. It equals the sum of the absolute values of each observation minus the mean, divided by n. The other fix squares the deviations, which leads to variance.
+HEART: The standard picture is a box and whisker plot. The box usually spans the middle half of the data, from the first quartile to the third, and a whisker runs from each end toward the smallest and largest values. If one whisker is much longer than the other, the data stretch further on that side, which hints at outliers in that direction.
 
-The sample variance equals the sum of the squared deviations from the sample mean, divided by n minus 1. The sample standard deviation is the positive square root of the sample variance, which puts risk back into the same units as the returns. Why n minus 1? Estimating the mean from the same data uses up one degree of freedom, and dividing by n minus 1 corrects the downward bias you would get from dividing by n. If you truly have the whole population, you divide by the population size instead, but exam questions usually hand you a sample.
+LEWIS: That brings us to dispersion, the measures of risk. The simplest is the range, the largest value minus the smallest. It is quick, but it depends entirely on two observations, so a single extreme value can make it misleading.
 
-Now the numbers, using the clean five returns: 2, 4, 6, 8 and 10 percent, with a mean of 6. The deviations are negative 4, negative 2, zero, positive 2 and positive 4. The range is 10 minus 2, which is 8 percent. For the mean absolute deviation, drop the signs: 4, 2, 0, 2 and 4 add to 12, and 12 divided by 5 is 2.4 percent.
+HEART: Next is the mean absolute deviation, or MAD. Measure how far each observation sits from the mean, ignore whether it is above or below, and average those distances. In plain words, it is the average distance from the average.
 
-For the variance, square the deviations: 16, 4, 0, 4 and 16, which add to 40. Divide by n minus 1, which is 4, and the sample variance is 10, measured in percent squared. The sample standard deviation is the square root of 10, about 3.16 percent. Notice the mean absolute deviation of 2.4 is smaller, because squaring gives extra weight to the larger deviations.
+LEWIS: Why ignore the direction?
 
-The B A two plus does all of this in its statistics worksheets. Press second, then 7, to open the data worksheet. Clear any old data by pressing second, then the C E C key, which is clear work. The display shows X zero one. Type 2 and press enter, then press the down arrow twice. The first press shows Y zero one, which defaults to 1 and acts as a frequency, and the second press takes you to X zero two.
+HEART: Because if you keep the signs, the distances above the mean and below the mean cancel out exactly. The deviations from the arithmetic mean always add up to zero. That is not a coincidence, it is what the mean is. So you take absolute values to keep the distances from erasing each other.
 
-Enter the other four returns the same way. Then press second, then 8, to open the stat worksheet, where the first screen shows the calculation method. Press second, then enter, which is the set function, until the display reads 1 V, for one variable, and then scroll down.
+LEWIS: The variance takes a different route around the same problem. Instead of dropping the signs, it squares each deviation. Squaring makes every deviation positive, and it also punishes big misses far more than small ones. The sample variance adds up those squared deviations and divides by the number of observations minus one.
 
-You will see n equal to 5, then x bar, the mean, at 6, then S x, the sample standard deviation, at about 3.162, then sigma x, the population standard deviation, at about 2.828. Use S x for a sample, and square it for the sample variance. The most common error is skipping the clear step, so old data quietly ends up in your answer.
+HEART: That minus one is a favorite exam point, so here is the intuition. A sample's values tend to sit closer to their own sample mean than to the true population mean, because the sample mean was calculated from those very values. So the squared deviations come out a little too small. Divide by the full count and you would systematically underestimate the population's variance. Dividing by one less nudges the answer up just enough to fix that. The result is called an unbiased estimator.
 
-Standard deviation has a scale problem, since 10 percent of volatility means more for an asset averaging 2 percent than for one averaging 20 percent. The coefficient of variation fixes that. It equals the standard deviation divided by the mean. It measures risk per unit of return, so lower is better, and in our example it is 3.16 divided by 6, about 0.53.
+LEWIS: The trouble with variance is its units. Square percentages and you get percent squared, which nobody can picture. So we take the square root and get the standard deviation, which is back in the same units as the data. In plain words, the standard deviation is how far a typical observation lands from the mean.
 
-Here is the trap. The Sharpe ratio runs the other way, excess return per unit of risk, so higher is better there. For the least risk per unit of return, pick the lowest coefficient of variation. Also be wary when the mean is near zero or negative, because the ratio then blows up or flips sign.
+HEART: Now a comparison problem. Say a utility stock has a modest average return and modest swings, and a biotech stock has a much higher average return with much bigger swings. Which is riskier for the reward you get? Comparing standard deviations alone is unfair, because the biotech is aiming for so much more.
 
-Last, downside risk. Standard deviation penalizes upside surprises as much as downside ones, so target semideviation looks only below a target return you choose. The target semideviation equals the square root of the following: take only the observations at or below the target, square each one's shortfall from the target, add those squares, and divide by n minus 1, where n is the total number of observations in the whole sample.
+LEWIS: That is what the coefficient of variation is for. It is a measure of relative dispersion, spread judged against the size of the average. It is the standard deviation divided by the mean. It tells you how much risk you take on for each unit of return. Lower is better, because it means less variability for every unit of reward. It lets you compare dispersion across datasets with very different averages.
 
-Example. Use the same five returns with a target of 5 percent. Only 2 and 4 fall below the target, with shortfalls of 3 and 1. Squared, those are 9 and 1, which add to 10. Divide by n minus 1, which is 4 because there are five observations in total, and you get 2.5. The square root of 2.5 is about 1.58 percent.
+HEART: Last in this module, downside risk. Standard deviation counts surprises on both sides of the mean, but most investors do not lose sleep over returns that beat their expectations. Picture a retiree who needs a certain return each year to cover spending. Only the years that fall short of that target hurt.
 
-Here is the trap. Candidates divide by the count of observations below the target, or by that count minus 1. With two observations below target, dividing by 1 gives the square root of 10, about 3.16, which is double the right answer. Count the whole sample, and measure shortfalls from the target, not from the mean.
+LEWIS: The measure for that is target downside deviation, also called target semideviation. You pick a target, look only at the observations that fall below it, square how far short each one fell, add those up, divide, and take the square root.
 
-If you carry one formula out of this module, make it this one. The sample variance equals the sum of the squared deviations from the sample mean, divided by n minus 1, and the sample standard deviation is its square root.
+HEART: And here is the trap. Even though only the shortfalls go into the top of the calculation, the bottom still uses the full sample size minus one. You do not shrink the denominator to the number of shortfalls.
+
+LEWIS: The takeaway. Mean, median and mode describe the middle, and the median resists outliers. Range, MAD, variance and standard deviation describe the spread. The coefficient of variation scales risk by return, and target downside deviation counts only the bad side.
 
 ## Module 3.2, Skewness, Kurtosis, and Correlation
 
-A normal distribution is fully described by its mean and standard deviation. Real return distributions often are not normal, so you need two more descriptions of shape. Skewness measures lopsidedness. Kurtosis measures how much probability sits in the tails.
+HEART: The mean and standard deviation tell you a lot, but not the shape. Two sets of returns can share the same mean and the same standard deviation and still behave very differently. This module is about shape, and then about how two variables move together.
 
-A symmetric distribution has skewness of zero, and if it has a single peak, its mean, median and mode are equal. A positively skewed distribution has a long tail to the right. Think of frequent small losses and a few very large gains. A negatively skewed distribution has a long tail to the left, which means frequent small gains and a few very large losses.
+LEWIS: Start with symmetry. Fold a symmetrical distribution at its mean and the two halves match, like the classic bell curve. In return terms, falling short of the average by a given amount is just as likely as beating it by the same amount.
 
-Now the ordering, which is tested constantly. The mean chases the long tail, because it gives every value full weight, including the extreme ones. The mode stays at the peak and the median sits between them. So with positive skew, the mean is greater than the median, which is greater than the mode. With negative skew the order reverses, and the mean is the smallest of the three.
+HEART: Skewness measures how far a distribution departs from that symmetry. It comes from outliers sitting mostly on one side.
 
-Why does the measure behave this way? The sample skewness is roughly the average of the cubed deviations from the mean, divided by the standard deviation cubed. Cubing keeps the sign of each deviation and magnifies big deviations far more than small ones. If the big deviations are on the upside, the large positive cubes dominate and skewness comes out positive. Dividing by the standard deviation cubed makes the measure unit free.
+LEWIS: A positively skewed distribution, also called skewed right, has a long tail stretching out to the right. Most outcomes are modest, with an occasional huge winner. Think of a portfolio of startup investments. Most companies return little or nothing, but once in a while one becomes enormous.
 
-Quick example. A fund has a mean return of 9 percent and a median return of 6 percent. The mean is above the median, so the distribution is most likely positively skewed, with a long right tail.
+HEART: A negatively skewed distribution, skewed left, has the long tail on the left. Most outcomes are steady and pleasant, with an occasional big loss. A bond with credit risk behaves like this. Year after year you collect the coupons, and then once in a long while the issuer defaults and you take a heavy hit. Strategies that sell insurance against rare events look like this too.
 
-Other things equal, investors favor positive skew and dislike negative skew, because negative skew means the rare surprises are large losses. Here is the trap. A negatively skewed strategy can show a good mean and a low standard deviation for years, then give much of it back in one bad period, and those two statistics alone will not warn you.
+LEWIS: Skew moves the three measures of the middle apart, and the exam tests the order. In a symmetrical distribution, the mean, median and mode are all the same. In a skewed one with a single peak, the mean gets pulled toward the long tail, because it feels the size of every outlier. The mode stays at the peak. The median sits in between.
 
-Kurtosis measures how much weight sits in the tails compared with a normal distribution. The sample kurtosis is roughly the average of the deviations raised to the fourth power, divided by the standard deviation raised to the fourth power. The fourth power makes extreme deviations dominate even more, and because the power is even, kurtosis describes both tails together without saying which side the extremes come from.
+HEART: So with positive skew, the mean is the largest, then the median, then the mode. With negative skew, it flips. The mean is the smallest, then the median, then the mode. A handy way to hear it: start at the tail and say them in alphabetical order. Mean, median, mode.
 
-A normal distribution has kurtosis of 3. Because 3 is the benchmark, analysts usually report excess kurtosis, which equals kurtosis minus 3. A normal distribution has excess kurtosis of zero and is called mesokurtic. A distribution with positive excess kurtosis is leptokurtic, and a distribution with negative excess kurtosis is platykurtic.
+LEWIS: You will not need to compute skewness, but you should know how it is built. The sample measure averages the cubed deviations from the mean and scales by the standard deviation cubed. Cubing keeps the sign, so if the big deviations sit above the mean the result is positive, and if they sit below it is negative. Scaling by the standard deviation makes it comparable across datasets. As a rule of thumb, a skewness beyond one half in either direction is considered significant.
 
-Picture the shapes. Compared with a normal distribution with the same mean and variance, a leptokurtic distribution has a taller, thinner peak and fatter tails, so extreme outcomes happen more often than the normal curve predicts. Lepto means slender, which describes that tall peak. A platykurtic distribution has thinner tails and a flatter top. Platy means flat, as in a plateau.
+HEART: Now kurtosis. Kurtosis describes how peaked a distribution is and, more importantly, how fat its tails are, compared with a normal distribution.
 
-Two traps. First, read whether a question gives you kurtosis or excess kurtosis. A kurtosis of 4 is an excess kurtosis of 1, which is leptokurtic. Second, fat tails are not the same thing as a high standard deviation. Two distributions can share the same mean and standard deviation and still have very different tails.
+LEWIS: There are three names to know. Leptokurtic means more peaked than normal, with fatter tails. Platykurtic means flatter than normal, with thinner tails. Mesokurtic means the same as normal.
 
-Many asset classes show leptokurtic returns, often with negative skew, so a model that assumes normality understates the chance of a severe loss. That is one reason capital planning at banks and credit unions leans on stress scenarios rather than a normal curve for the bad tail.
+HEART: A leptokurtic distribution is the interesting one for investors. Compared with a bell curve of the same standard deviation, more of its outcomes cluster near the middle, and more of them land far out in the tails. What it has less of is the in between. Daily stock market returns look like this. Most days are quiet, and every so often there is a day that a normal distribution says should almost never happen.
 
-Now two variables at once. Covariance measures whether two variables tend to move in the same direction. The sample covariance equals the sum, across all periods, of the deviation of X from its mean times the deviation of Y from its mean, divided by n minus 1. When both sit on the same side of their means, the product is positive, and when they sit on opposite sides it is negative. The sign of the total tells you which pattern dominates.
+LEWIS: Kurtosis has an anchor. Every normal distribution scores three. Many analysts subtract that three and report excess kurtosis, so the bell curve scores zero, a fat tailed leptokurtic distribution scores above zero, and a thin tailed platykurtic one scores below. The sample measure is built like skewness, but with deviations raised to the fourth power, which makes the extreme observations count enormously.
 
-Covariance has two problems. Its units are awkward, such as percent squared, and its size has no natural scale, because it depends on how volatile the two variables are. Correlation fixes both problems. The correlation equals the covariance of X and Y divided by the product of the standard deviation of X and the standard deviation of Y. Correlation has no units and always falls between negative 1 and positive 1.
+HEART: And this is why risk managers care. A bell curve model treats a market crash in a single day as practically impossible, yet markets keep producing them. Real returns usually show some skew and fatter tails than the bell curve allows, so a normal model understates how often big losses arrive. Risk work therefore centers on the tails. The exam rule: negative skew and positive excess kurtosis each mean more risk.
 
-Worked example over three periods. Asset X returns 2, 4 and 6 percent. Asset Y returns 1, 5 and 3 percent. The mean of X is 4 and the mean of Y is 3. In period one, X is 2 below its mean and Y is 2 below its mean, so the product is positive 4. In periods two and three, one of the two assets sits exactly at its mean, so both products are zero.
+LEWIS: Now, two variables at once. The first tool is a scatter plot. Put one variable on each axis and plot each pair of observations as a point. A cloud with no pattern means no clear relationship. Points hugging a straight line mean a strong linear relationship.
 
-The sum of the products is 4. Divide by n minus 1, which is 2, and the covariance is 2. Each standard deviation also works out to 2. So the correlation equals 2 divided by 2 times 2, which is 2 divided by 4, or 0.5.
+HEART: And scatter plots catch something the statistics can miss: curved relationships. Think of electricity demand against temperature. Demand rises on very cold days and on very hot days, and it is lowest in the mild middle. Plot it and you get a clear U shape, a strong relationship. Yet the correlation can come out near zero, because correlation only measures straight line relationships.
 
-The B A two plus can confirm it. Clear the data worksheet, then enter the X values in the X slots and the Y values in the Y slots, this time filling in every Y. Open the stat worksheet and press second, then enter, until the display reads L I N, for linear. Scroll down past the means, the standard deviations and the regression values a and b, until you reach r, the correlation coefficient, which should read 0.5. The calculator does not display covariance, but you can recover it as r times S x times S y.
+LEWIS: The statistics themselves. Covariance measures how two variables move together. Positive covariance means they tend to move in the same direction, negative means opposite directions. Like the sample variance, the sample covariance divides by the sample size minus one.
 
-A correlation of positive 1 means the points on a scatter plot fall exactly on an upward sloping straight line. Negative 1 means they fall exactly on a downward sloping line, and zero means no linear relationship.
+HEART: Covariance has two problems. Its units are the product of the two variables' units, so it is hard to interpret, and its size depends on how you measure things. Record the same prices in cents instead of dollars and the covariance balloons, even though nothing real has changed. So covariance gives you direction but tells you nothing useful about strength.
 
-Three limitations are tested. First, correlation only captures linear relationships, so two variables can be tightly linked along a curve and still show a correlation near zero. Second, a single outlier can create or hide an apparent relationship. Third, correlation can be spurious, arising from pure chance or from a third variable that drives both series. And correlation never proves causation.
+LEWIS: The fix is correlation, the correlation coefficient. You take the covariance and divide by the two standard deviations. That strips out the units and leaves a pure number between minus one and plus one.
 
-Here is the trap. Zero correlation means no linear relationship. It does not mean the variables are independent. Independence implies zero correlation, but zero correlation does not imply independence, so an answer choice saying the variables are unrelated is too strong.
+HEART: Plus one is perfect positive correlation. The two move in lockstep, in proportion, in the same direction. Minus one is perfect negative correlation, in lockstep but in opposite directions. Zero means no linear relationship, so you cannot predict one from the other with a straight line. That does not rule out a curved relationship, as the electricity example showed.
 
-The rules to carry out of this module are short. Correlation equals covariance divided by the product of the two standard deviations. In a positively skewed distribution, the mean is above the median, which is above the mode.
+LEWIS: Then come the warnings. Correlation is not causation. Stock prices and consumer confidence tend to rise together, but the number cannot tell you whether rising prices cheer people up, confident people buy stocks, or something else drives both. So the careful word is association.
 
-## Module 4.1, Probability Models, Expected Values, and Bayes’ Formula
+HEART: A classic example. Ice cream sales and drownings rise and fall together. Ice cream does not cause drowning. Hot weather drives both. That is spurious correlation, which is correlation that arises by pure chance, or because both variables are linked to some third variable.
 
-This module models outcomes you have not seen yet, so start with the language. An unconditional probability is the chance of an event with no extra information, such as the probability of a recession next year. A conditional probability is the chance of an event given that something else is true, such as the probability a company beats its earnings forecast given that the economy is expanding. You read it as the probability of A given B. The joint probability of A and B equals the probability of A given B times the probability of B, and that multiplication rule is how you move along the branches of a tree.
+LEWIS: And check the outliers. Two stocks that barely move together can show a strong correlation because of one crash day when both plunged. If dropping a few extreme points changes the answer a lot, find out whether they reflect something real or just noise.
 
-The expected value of a random variable equals the sum, across all possible outcomes, of each outcome times its probability. It is a probability weighted average. The variance equals the sum, across all outcomes, of each probability times the squared difference between that outcome and the expected value. The standard deviation is the square root of the variance.
+HEART: The takeaway. Skewness describes which side the long tail is on, and the mean follows the tail. Kurtosis describes fat tails, and positive excess kurtosis means extreme outcomes are more common than a normal distribution predicts. Covariance gives direction, correlation gives direction and strength, but only for straight line relationships, and never proof of cause.
 
-Example. A stock's return next year has three scenarios: a 20 percent chance of a 20 percent return, a 50 percent chance of a 10 percent return, and a 30 percent chance of a zero return. For the expected return, 0.2 times 20 is 4, 0.5 times 10 is 5, and 0.3 times zero is zero. Add them and the expected return is 9 percent.
+## Module 4.1, Probability Models, Expected Values, and Bayes' Formula
 
-For the variance, take each outcome's deviation from 9: positive 11, positive 1 and negative 9. Square them to get 121, 1 and 81. Weight by probability: 0.2 times 121 is 24.2, 0.5 times 1 is 0.5, and 0.3 times 81 is 24.3. Those add to 49, so the variance is 49 percent squared and the standard deviation is 7 percent.
+LEWIS: Reading 3 described data that already happened. Reading 4 looks forward. Instead of a sample of past returns, you start with a probability model: a list of possible outcomes and the probability of each.
 
-Here is the trap. With a probability model you weight by probabilities and you do not divide by n minus 1. The n minus 1 belongs to sample data from Module 3.1, and mixing the two methods is a classic error. Also check that the probabilities add to 1, because a question may expect you to infer a missing one.
+HEART: The expected value is the probability weighted average of those outcomes. Think of how an analyst builds a forecast. A bull case, a base case and a bear case, each with a probability. The expected value weights each scenario by its probability and adds them up. It is the center of the forecast.
 
-A probability tree lays out scenarios in stages. The first set of branches might be the state of the economy. From each of those, a second set of branches shows outcomes conditional on that state. Multiply the probabilities along a path to get the joint probability of ending up at that endpoint, and all the endpoint probabilities must add to 1.
+LEWIS: One thing to notice. The expected value does not have to be a possible outcome. Flip a coin for a dollar or nothing, and the expected value is fifty cents, an amount you can never actually receive. It is the long run average, not a prediction of any single result.
 
-Example. The economy is good with probability 0.6 and poor with probability 0.4. If it is good, earnings per share will be 3 dollars or 2 dollars, each with probability one half. If it is poor, earnings per share will be 1.50 dollars or 50 cents, each with probability one half. So expected earnings given a good economy is 2.50 dollars, and expected earnings given a poor economy is 1 dollar. Those two numbers are conditional expectations.
+HEART: The spread around that expected value is measured the same way as before, with one twist. The variance is the probability weighted average of the squared deviations from the expected value. The standard deviation is its square root.
 
-Now combine them. Overall expected earnings equal 0.6 times 2.50 dollars, plus 0.4 times 1 dollar, which is 1.50 plus 0.40, or 1.90 dollars. Check the endpoints too. Each good path has a joint probability of 0.6 times one half, which is 0.3, and each poor path has 0.4 times one half, which is 0.2. Then 0.3, 0.3, 0.2 and 0.2 add to 1, so the tree is complete.
+LEWIS: And here is the distinction to lock in. There is no dividing by the sample size minus one here. The minus one repairs the bias from measuring spread around a mean estimated from the same data. A probability model estimates nothing. It is a complete list of outcomes and their probabilities, so it already is the whole population, and the probabilities do the weighting. Sample statistics look back at data and divide by one less than the count. Probability models look forward and weight by probability.
 
-What you just used is the total probability rule for expected value. The expected value equals the sum, across scenarios, of the expected value given each scenario times the probability of that scenario. The scenarios must be mutually exclusive, meaning only one can happen, and exhaustive, meaning one of them must happen. Balance sheet scenario analysis works the same way, because you project net interest income under each rate path and then weight each path by its probability.
+HEART: Forecasts often unfold in stages, and a probability tree lays them out. The first branches might split on the central bank raising rates or holding. Then each branch splits again on whether a homebuilder's sales rise or fall, given that decision.
 
-Now Bayes' formula, which is about updating. You start with a prior probability for an event, new information arrives, and Bayes' formula turns the prior into an updated probability, often called the posterior.
+LEWIS: The probabilities on the second set of branches are conditional probabilities, the chance of sales rising given a rate hike, for example. To get the probability of any full path through the tree, you multiply along its branches. That gives the joint probability of both things happening. The probabilities of all the endpoints add up to one.
 
-Here is the formula, slowly. The probability of the event given the new information equals the probability of the information given the event, times the prior probability of the event, all divided by the unconditional probability of the information. You usually have to build that denominator with the total probability rule. It equals the probability of the information given the event times the probability of the event, plus the probability of the information given no event times the probability of no event.
+HEART: Then the expected value of, say, the homebuilder's profit is just the endpoint outcomes, each weighted by its joint probability. Multiply along the branches, then add across the endpoints.
 
-Worked example. Your prior probability of a recession next year is 20 percent. A leading indicator flashes a warning 80 percent of the time when a recession is coming. It also flashes a false warning 10 percent of the time when no recession is coming. The indicator just flashed, so what is the probability of a recession now?
+LEWIS: That leads to conditional expected values. A conditional expected value is the expected value given that some event has happened. Think of an airline. Its expected earnings, given that jet fuel prices spike, are lower than its expected earnings given that fuel stays cheap.
 
-Build the denominator first. The chance of a true warning is 0.8 times 0.2, which is 0.16. The chance of a false warning is 0.1 times 0.8, which is 0.08. So the total probability of a warning is 0.24. The recession share of that is 0.16, and 0.16 divided by 0.24 is two thirds, about 67 percent.
+HEART: That is exactly how analysts revise forecasts when news arrives. Before you know what fuel prices will do, the overall expected value is a blend of the conditional expectations, each weighted by the probability of its scenario, as long as the scenarios cover every possibility without overlapping. When the news lands, you drop the scenarios that did not happen and move to the conditional expectation for the one that did.
 
-If fractions are hard to hold while you are moving, think in counts. Picture 100 years. In 20 of them a recession follows, and the indicator warns in 16 of those. In the other 80, it falsely warns in 8. That is 24 warnings, 16 of them real, and 16 out of 24 is two thirds.
+LEWIS: Which brings us to Bayes' formula, the disciplined way to update a probability when new information arrives. You start with a prior probability, what you believed before the news. You end with an updated probability, also called a posterior.
 
-Three traps. First, do not confuse the probability of the information given the event, 80 percent, with the probability of the event given the information, 67 percent. Questions are built so the 80 percent looks like the answer. Second, do not forget the false warnings, because leaving out the 0.08 gives a probability of 1, which is obviously wrong. Third, check the direction. The warning raised the probability from 20 percent to 67 percent, because information that is more likely when the event is true than when it is false always pushes the probability up.
+HEART: In words, the updated probability equals the prior probability times a ratio. On top of the ratio is the probability of seeing this new information if the event is true. On the bottom is the overall, or unconditional, probability of seeing that information at all. If the evidence is more likely when the event is true than it is in general, the ratio is above one and your probability goes up. If it is less likely, your probability goes down.
 
-The formula to carry out of this module is Bayes' formula. The updated probability of the event equals the probability of the information given the event, times the prior probability of the event, divided by the total probability of the information.
+LEWIS: The unconditional probability on the bottom comes from the total probability rule. You add up every way the information could have shown up: the joint probability that the event is true and you see the information, plus the joint probability that it is false and you still see the information.
+
+HEART: Picture it on a tree. Find every branch that ends in what you actually observed. Bayes says the updated probability is the branch you care about divided by all the branches that lead to what you saw.
+
+LEWIS: Here is a picture with simple counts, because Bayes surprises people. A lender has a model that flags risky borrowers. Out of every hundred borrowers, five will default. The model catches four of those five. But it also flags ten of the ninety five good borrowers.
+
+HEART: So out of every hundred borrowers, fourteen get flagged, and only four of those fourteen actually default. Given a flag, the chance of default is under a third. The flag raised it a lot from the starting point of five in a hundred, but it is nowhere near certain.
+
+LEWIS: Why so low when the model catches most defaulters? Because defaults are rare. There are so many more good borrowers that even a small error rate among them produces more false alarms than true ones. That is the classic lesson of Bayes. Never ignore the prior, the base rate.
+
+HEART: The takeaway. Expected value is a probability weighted average, and its variance is weighted by probabilities, not divided by the sample size minus one. On a tree, multiply along the branches and add across the endpoints. Conditional expectations let you revise a forecast as news arrives. And Bayes updates a prior by how much more likely the evidence is under one explanation than overall.
 
 ## Recall check
 
-Q: A return distribution has a mean of 9 percent, a median of 6 percent and a mode of 4 percent. What kind of skew does it most likely have?
+LEWIS Q: A billionaire walks into a small cafe. Which moves more, the mean wealth in the room or the median, and which better describes the typical person there?
 
-Answer: Positive skew. The mean is pulled toward the long tail, so a mean above the median, and a median above the mode, point to a long right tail. Expect frequent small losses and a few large gains.
+HEART: Answer. The mean jumps, the median barely moves, and the median better describes the typical person. Here is why. The mean adds up every value, so one enormous value drags it a long way. The median only depends on which value sits in the middle of the line, so one extreme value at the end of the line barely shifts it.
 
-Q: You compute target semideviation from 12 monthly returns, and 4 of them fall below the target. What number do you divide the sum of squared shortfalls by?
+HEART Q: What percentile is the third quartile, and what does the interquartile range measure?
 
-Answer: 11. The denominator is n minus 1, where n is the full sample of 12 returns, not the 4 that fell below the target. Dividing by 4 or by 3 is the tempting mistake, and it makes downside risk look larger than it is.
+LEWIS: Answer. The seventy fifth percentile, and the interquartile range measures the spread of the middle half of the data. Here is why. Quartiles cut the data into four equal parts, so three quarters of the data sit below the third quartile. The interquartile range runs from the first quartile to the third, which leaves out the bottom and top quarters, so extreme values cannot stretch it.
 
-Q: Two assets have a covariance of 0.006, and their standard deviations are 0.10 and 0.30. What is their correlation?
+LEWIS Q: Why does the mean absolute deviation use absolute values instead of the raw deviations?
 
-Answer: 0.2. Multiply the standard deviations to get 0.03, then divide the covariance of 0.006 by 0.03. A correlation must sit between negative 1 and positive 1, which is a quick sanity check.
+HEART: Answer. Because the raw deviations from the mean always add up to zero. Here is why. The mean is the balance point of the data, so the distances above it exactly offset the distances below it. Dropping the signs keeps those distances from cancelling, so you get a true measure of spread.
 
-Q: A fund's return distribution has excess kurtosis of 2. Compared with a normal distribution with the same mean and variance, what is most likely true?
+HEART Q: Why does the sample variance divide by the sample size minus one instead of the full sample size?
 
-Answer: It is leptokurtic, with fatter tails, so extreme outcomes happen more often than a normal curve predicts. A risk measure that assumes normality would understate the chance of a large loss. Kurtosis alone does not tell you which tail the extremes come from.
+LEWIS: Answer. To avoid underestimating the population's variance. Here is why. The sample mean is calculated from the sample itself, so the sample's values sit closer to it than they would to the true population mean. That makes the squared deviations a little too small. Dividing by one less makes up for it, and the result is an unbiased estimator.
 
-Q: The prior probability of an event is 50 percent. A signal appears 60 percent of the time when the event is true and 20 percent of the time when it is false. If the signal appears, what is the updated probability?
+LEWIS Q: Two funds have very different average returns and very different standard deviations. Which measure compares their risk fairly, and is higher or lower better?
 
-Answer: 75 percent. The probability of the signal is 0.6 times 0.5 plus 0.2 times 0.5, which is 0.3 plus 0.1, or 0.4. The updated probability is 0.3 divided by 0.4, which is 0.75.
+HEART: Answer. The coefficient of variation, and lower is better. Here is why. It divides the standard deviation by the mean, so it measures risk per unit of return. That puts a high return fund and a low return fund on the same footing, and a lower number means less variability for each unit of reward.
 
-Q: Two variables have a sample correlation very close to zero. Which conclusion is most accurate: they are unrelated, they have little or no linear relationship, or neither causes the other?
+HEART Q: A retiree only cares about years that fall short of the return she needs. Which risk measure fits, and what is the trap in calculating it?
 
-Answer: They have little or no linear relationship. Correlation only measures straight line association, so a strong curved relationship can still produce a correlation near zero. Saying they are unrelated is too strong, and correlation says nothing about causation either way.
+LEWIS: Answer. Target downside deviation, also called target semideviation. Here is why. It counts only the observations below the target, so good surprises do not count as risk. The trap is the denominator. It still uses the full sample size minus one, not just the number of shortfalls. The years that beat the target are still part of the record. They simply count as a shortfall of zero.
 
-## Recap
+LEWIS Q: A return distribution has a long tail to the left. What is the sign of its skewness, and how do the mean, median and mode line up?
 
-The median is robust to outliers and the mean is not, while a trimmed mean deletes the extremes and a winsorized mean replaces them. Sample variance and target semideviation both divide by n minus 1 using the whole sample, and on the B A two plus the sample standard deviation is S x in the one variable stat worksheet. The coefficient of variation is standard deviation divided by mean, which is risk per unit of return, so lower is better. In a positively skewed distribution the mean is above the median, which is above the mode, because the mean chases the tail.
+HEART: Answer. Negative skewness, with the mean below the median and the median below the mode. Here is why. The mean feels the size of every outlier, so the big losses in the left tail drag it down the most. The mode stays at the peak of the distribution, and the median sits in between.
 
-Excess kurtosis equals kurtosis minus 3, and a positive value means fat tails and more extreme outcomes than a normal distribution. Correlation equals covariance divided by the product of the two standard deviations, runs from negative 1 to positive 1, and captures only linear relationships. In a probability model, expected value and variance weight each outcome by its probability, with no n minus 1 anywhere. Bayes' formula updates a prior, and the updated probability equals the probability of the information given the event, times the prior, divided by the total probability of the information.
+HEART Q: A return distribution is leptokurtic. What does that say about its tails, what is the sign of its excess kurtosis, and why does a risk manager care?
+
+LEWIS: Answer. Fat tails and positive excess kurtosis. Here is why. Leptokurtic means more outcomes near the middle and more far out in the tails than a normal distribution. A model that assumes normal returns will therefore underestimate how often extreme losses happen, which is exactly the risk a risk manager is paid to see.
+
+LEWIS Q: Two variables have a correlation close to zero, but their scatter plot shows a clear U shape. Is there a relationship?
+
+HEART: Answer. Yes, a strong curved one. Here is why. Correlation only measures straight line relationships. In a U shape, one variable rises at both ends and falls in the middle, so the straight line effects cancel out and the correlation looks like nothing. The scatter plot shows what the number hides.
+
+HEART Q: Why is correlation more useful than covariance for judging how strongly two returns move together?
+
+LEWIS: Answer. Because correlation has no units and is bounded between minus one and plus one. Here is why. Covariance depends on the units of measurement, so its size can balloon or shrink without anything real changing. Dividing by both standard deviations removes the units, which turns direction into a measure of strength you can compare.
+
+LEWIS Q: Why does a variance calculated from a probability model not divide by one less than the number of observations?
+
+HEART: Answer. Because a probability model has no sample to correct for. Here is why. The minus one repairs the bias from measuring spread around a mean estimated from the same data. A probability model estimates nothing. It already lists every outcome with its probability, so it describes the whole distribution, and the probabilities do the weighting.
+
+HEART Q: New evidence is much more likely when an event is true, but the event is rare to begin with. After you see the evidence, does the probability go up, and can it still be low?
+
+LEWIS: Answer. It goes up, and yes, it can still be low. Here is why. Bayes multiplies the prior by how much more likely the evidence is when the event is true than it is overall. That ratio pushes the probability up. But if the event is rare, there are far more cases where it is false, so even a small rate of false signals among them can outnumber the true signals.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: The three middles: mean is the average, median is the middle, mode is the most common. When outliers distort the picture, reach for the median.
+
+HEART: For outliers in an average: trimming cuts the extremes out, winsorizing caps them.
+
+LEWIS: For quantiles: quartiles, quintiles, deciles and percentiles slice the data into four, five, ten and a hundred pieces. The third quartile is the seventy fifth percentile.
+
+HEART: For the spread, think of a ladder. Range is the crude first step. MAD is the average distance from the average. Variance squares the distances and speaks in squared units. Standard deviation brings it back to the data's own units. The coefficient of variation is risk per unit of return, where lower is better. And downside deviation counts only the bad side, but still divides by the full sample size minus one.
+
+LEWIS: Why minus one for a sample: samples hug their own mean, so the raw spread understates the truth.
+
+HEART: For skew: the mean chases the tail. Start at the tail and say them in alphabetical order: mean, median, mode.
+
+LEWIS: For kurtosis: lepto leaps, a tall peak with fat tails. Platy is a plateau, flat with thin tails. Meso is the middle, like the normal curve. Normal kurtosis is three, and excess kurtosis subtracts the three.
+
+HEART: Two warning lights for risk: negative skew and fat tails.
+
+LEWIS: For moving together: covariance gives direction only, correlation gives direction and strength from minus one to plus one. Correlation only sees straight lines, so check the scatter plot, and it never proves cause.
+
+HEART: For probability: expected value is a probability weighted average. On a tree, multiply along the branches, add across the endpoints. And for Bayes: the branch you care about, divided by every branch that leads to what you saw. Never ignore the base rate.
+
+LEWIS: Now, how you would say the big ideas to a senior leader.
+
+HEART: On averages: when results are lopsided, quote the median, because one extreme value can drag the average a long way. The jargon is central tendency, outliers and skewness.
+
+LEWIS: On risk: standard deviation is how far a typical result lands from the average. If two options promise different returns, compare the risk you take per unit of return. The jargon is standard deviation and the coefficient of variation.
+
+HEART: On tail risk: our models often assume a bell curve, but real returns have fatter tails and a heavier downside, so severe losses come more often than the model says. That is a big reason risk teams run stress tests. The jargon is negative skewness and excess kurtosis.
+
+LEWIS: On relationships: correlation tells us how closely two things move together, not whether one causes the other. The jargon is the correlation coefficient and spurious correlation.
+
+HEART: And on forecasting: start with what we believed, then adjust in proportion to how much more likely the new evidence is under one explanation than in general, and never forget how rare the event was to begin with. The jargon is Bayes' formula, prior probability and the base rate.
