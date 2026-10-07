@@ -1,187 +1,349 @@
-## The big picture
-
-The income statement tells you whether a company earned a profit. The balance sheet tells you what it owns and owes at a point in time. Neither one tells you directly where the cash came from and where it went. That is the job of the statement of cash flows, and it is the subject of this episode.
-
-The statement exists because of accrual accounting. Revenue is recorded when it is earned, not when the customer pays. Expenses are recorded when they are incurred, not when the bill is paid. So a profitable company can run out of cash, and a company reporting a loss can pile up cash. The cash flow statement strips away the accruals and shows the actual movement of money over the period, sorted into three buckets: operating, investing and financing.
-
-Module 30.1 sets up the three buckets, links the statement to the other two, and builds operating cash flow line by line with the direct method. Module 30.2 reaches the same number from net income with the indirect method. Module 30.3 covers investing and financing cash flows, how to rebuild them from balance sheet changes, and the classification choices that differ between IFRS and U.S. GAAP. Module 31.1 turns to analysis: common size statements, free cash flow to the firm and to equity, and the cash flow ratios.
-
-On the exam, expect classification questions, an indirect method calculation, a proceeds from asset sale calculation, and a free cash flow or ratio calculation. We will follow one small company through the first three modules, so you can hear every piece fit together.
+LEWIS: Reading 30 covers how the cash flow statement ties to the income statement and the balance sheet, building operating cash flow with the direct and indirect methods, rebuilding investing and financing cash flows, converting an indirect statement to the direct format, and the classification choices where IFRS and US GAAP part ways. Reading 31 covers how to judge a cash flow statement, common size cash flow statements, free cash flow to the firm and to equity, and the cash flow ratios.
 
 ## Module 30.1, Cash Flow Introduction and Direct Method CFO
 
-Start with what counts as cash. The statement explains the change in cash and cash equivalents. Cash equivalents are short term, highly liquid investments that can be turned into a known amount of cash with little risk of a change in value. In practice, that usually means a maturity of three months or less when purchased.
+HEART: Picture a small furniture maker that lands a huge order from a hotel chain. It builds the tables, ships them in December and sends the invoice. The income statement says December was the best month in the company's history. But the hotel chain pays in March. Meanwhile the lumber supplier wants its money in thirty days, and payroll comes every two weeks. On paper the company is thriving. In the bank account it is running on fumes.
 
-One identity holds the statement together. Beginning cash, plus cash flow from operating activities, plus cash flow from investing activities, plus cash flow from financing activities, equals ending cash. A company with foreign operations also shows a line for the effect of exchange rate changes on cash held in other currencies. If the sections do not add up to the change in cash on the balance sheet, something has been missed.
+LEWIS: That gap is accrual accounting at work. Revenue is booked when it is earned and expenses when they are incurred, whatever day the cash actually moves. The income statement measures performance on that accrual basis. The statement of cash flows shows the cash that actually came in and went out over the same period.
 
-Now the three buckets. Operating activities are the day to day business: cash collected from customers, cash paid to suppliers and employees, and cash paid for taxes. Investing activities are buying and selling long term assets and investments. That means property, plant and equipment, intangible assets, and debt or equity securities of other companies that are not cash equivalents and not held for trading. Making a loan to another party and collecting its principal also go here. Financing activities are how the company raises and returns capital: issuing and repurchasing its own shares, borrowing and repaying the principal of debt, and paying dividends.
+HEART: Both are flow statements, sometimes called dynamic statements, covering the stretch between two balance sheet dates. But plenty of cash flows never touch the income statement when they happen. Borrow from a bank and you have more cash but no revenue. Buy a building and the cash leaves today, while only a slice of its cost reaches the income statement each year as depreciation.
 
-A few placements catch people. Securities held for trading are treated much like inventory, so cash flows from buying and selling them are usually operating, not investing. Repaying the principal of a loan is financing, but the interest on that loan is operating under U.S. GAAP. Interest and dividends get their own special treatment, which we cover in Module 30.3.
+LEWIS: So the statement shows four things: the actual cash receipts and payments, the split into operating, investing and financing activities, how accrual entries pulled earnings away from cash, and a check on earnings quality.
 
-Then there are transactions that never touch cash at all. A company might acquire a building by issuing shares, take on equipment by signing a note to the seller, or convert bonds into common stock. These are significant noncash investing and financing activities. They do not appear in the body of the statement, because no cash moved. Instead, they are disclosed in a note or a separate schedule.
+HEART: It also answers questions about liquidity, solvency and financial flexibility. Does the everyday business bring in enough cash to keep itself going? Can the company repay its debts as they come due? Will it need more financing? Could it handle a surprise bill, or jump on a good opportunity?
 
-Here is the trap. An answer choice will put the building in investing outflows and the share issue in financing inflows. Both are wrong. Nothing goes into the sections themselves.
+LEWIS: The statement's basic job is to explain the change in cash. Beginning cash, plus or minus the cash flow from operating activities, plus or minus investing, plus or minus financing, gives you ending cash. Any of the three sections can be positive or negative. And because both cash balances come straight off the balance sheet, the statement carries its own check figure.
 
-Now the link to the other two statements. Each operating cash flow is an income statement line adjusted for the change in a related balance sheet account. The cleanest example is accounts receivable. Beginning receivables, plus revenue, minus cash collected, equals ending receivables. Rearrange that and you get the rule.
+HEART: The three sections line up with different parts of the balance sheet. Operating activities mostly show up in current assets and current liabilities: receivables, inventory, payables and the like. Investing activities show up in noncurrent assets, such as property, plant and equipment and long term investments. Financing activities show up in noncurrent liabilities and equity, the money that comes from lenders and owners.
 
-Cash collected from customers equals revenue minus the increase in accounts receivable. If receivables rose, some sales have not been collected yet, so cash is less than revenue. If receivables fell, the company collected old balances, so cash is more than revenue. An increase in unearned revenue works the other way. Customers paid before the company earned it, so you add it.
+LEWIS: A simple hook for the three. Operating runs the business. Investing builds it. Financing funds it. Run it, build it, fund it.
 
-The direct method reports operating cash flow by listing these receipts and payments, each derived the same way. Cash paid to suppliers takes two steps. First, find purchases. Purchases equal cost of goods sold plus the increase in inventory, because if inventory grew, the company bought more than it sold.
+HEART: One naming point. Cash flow from operations, cash flow from operating activities and operating cash flow all mean the same thing. The short form is CFO, sometimes O C F, and here it has nothing to do with the chief financial officer. Investing cash flow is CFI, and financing cash flow is CFF.
 
-Second, convert purchases to cash. Cash paid to suppliers equals purchases minus the increase in accounts payable, because if payables grew, the company has not yet paid for some of what it bought. Put together, cash paid to suppliers equals cost of goods sold, plus the increase in inventory, minus the increase in accounts payable.
+LEWIS: Now earnings quality. When operating cash flow is near or above net income, earnings are considered high quality, because the profit is backed by cash. When net income keeps running above operating cash flow, year after year, quality is lower. Those accrual profits are not turning into cash.
 
-The other lines follow the same pattern. Cash paid to employees equals wage expense minus the increase in wages payable. Cash paid for other operating expenses equals the expense, plus the increase in prepaid expenses, minus the increase in accrued liabilities. Cash paid for interest equals interest expense minus the increase in interest payable. Cash paid for income taxes equals tax expense minus the increase in taxes payable, and you also subtract any increase in the deferred tax liability, because that part of the expense has not been paid.
+HEART: So how do you get from the income statement to cash? Through the balance sheet. Whenever revenue or an expense is booked on a different day than the cash moves, the difference waits in a balance sheet account until it clears.
 
-Notice what is missing from the direct method: depreciation, and gains or losses on asset sales. Depreciation is a noncash expense, so there is no payment line for it. A gain on selling equipment is not an operating receipt. The whole sale price belongs in investing.
+LEWIS: Accounts receivable is the cleanest case. Think of a garden center that lets landscapers buy on account. Every credit sale adds to what the landscapers owe. Every payment they send in reduces it. So the receivables balance at year end equals where it started, plus credit sales, minus cash collected.
 
-Let's build our example company. Revenue is 1,000, cost of goods sold is 600, wage expense is 150, and depreciation is 50. There is a gain on the sale of equipment of 20. Income tax expense is 60, all paid in cash. Net income is 1,000 minus 600, minus 150, minus 50, plus 20, minus 60, which is 160.
+HEART: That is a roll forward, the most useful tool in this reading. Beginning balance, plus what adds to it, minus what takes it away, equals ending balance. The two balances come from the balance sheet, sales from the income statement, and cash collected is what the cash flow statement wants. Know any three and you can find the fourth.
 
-On the balance sheet, accounts receivable rose by 40, inventory rose by 30, accounts payable rose by 10, and wages payable did not change. Cash collected from customers is 1,000 minus 40, or 960. Cash paid to suppliers is 600, plus 30, minus 10, or 620. Cash paid to employees is 150, and cash paid for taxes is 60.
+LEWIS: Rearrange it and you get the rule in words. Cash collected from customers equals revenue minus the increase in receivables. If receivables grew, customers bought more than they paid for, so cash collected was less than revenue. If receivables shrank, customers paid down old balances, so cash collected was more than revenue.
 
-Operating cash flow is 960, minus 620, minus 150, minus 60, which is 130. Hold on to that number. Net income was 160, but operating cash flow is only 130.
+HEART: Payables mirror that on the other side. When the company buys more from its suppliers than it pays them, accounts payable grow. When it pays more than it buys, payables shrink.
 
-Why use the direct method? It shows the actual operating receipts and payments, which helps with forecasting. Both IFRS and U.S. GAAP encourage the direct method, but both allow the indirect method, and most companies use the indirect method. Under U.S. GAAP, a company that uses the direct method must also provide a reconciliation of net income to operating cash flow, which is the indirect method in all but name.
+LEWIS: Then there is cash that arrives before the revenue does. Think of a gym that sells annual memberships paid up front in January. The cash is in the bank on day one, so it shows up in the cash flow statement then. But the revenue is earned a month at a time across the year. Until it is earned, the gym owes its members the rest of the year, and that obligation is a liability called unearned revenue.
 
-Here is the rule to keep from this module. Each direct method line is an income statement amount adjusted for the change in its related working capital account. Cash collected equals revenue minus the increase in receivables. Cash paid to suppliers equals cost of goods sold, plus the increase in inventory, minus the increase in payables.
+HEART: So when unearned revenue rises, new advance payments came in faster than the company worked off old ones, and the rise adds to cash collected on top of revenue. That rise is a source of cash, and you add it. And when reported revenue keeps racing ahead of cash collected, it can be an early warning of the aggressive accounting covered in the financial reporting quality reading.
+
+HEART: Now the direct method. It reports operating cash flow as a list of actual cash receipts and cash payments, and their sum is CFO. Think of it as a bank statement sorted into categories.
+
+LEWIS: The usual lines are cash collected from customers, normally the biggest one. Cash paid to suppliers for the inputs to the company's goods and services. Cash operating expenses, such as wages and salaries. Cash paid for interest. And cash paid for taxes.
+
+HEART: Its advantage is information. You see the actual cash behind each source and each purpose, which makes it easier to track how the business is doing from year to year and to predict the cash it will bring in next.
+
+LEWIS: The method is a walk down the income statement. Start at the top with revenue. For each line, find the balance sheet asset or liability that relates to it, usually a current one. See how much it changed. Adjust the income statement figure for that change, then move to the next line.
+
+HEART: The adjustment rules all come from one idea, sources and uses of cash. A rise in an asset is a use of cash. A fall in an asset is a source. A rise in a liability is a source. A fall in a liability is a use. Sources are positive numbers, cash coming in. Uses are negative numbers, cash going out.
+
+LEWIS: And one housekeeping step makes those rules work every time. Treat every expense as a negative number before you adjust it. Cost of goods sold, wages and the rest all start out negative. Then you add sources and subtract uses, and the signs take care of themselves.
+
+HEART: Why does that matter?
+
+LEWIS: Take wages. Suppose wages payable fell during the year. That means the company paid its staff more than this year's wage expense, because it also caught up on wages owed from last year. A fall in a liability is a use of cash, so it pushes the negative number further down. Cash paid to employees comes out bigger than the expense, which is exactly what happened.
+
+HEART: Cash paid to suppliers takes two steps. First, turn cost of goods sold into purchases with the inventory change. Second, turn purchases into cash with the payables change.
+
+LEWIS: Picture a ski shop at the end of its fiscal year. It sold plenty of gear, but it has also filled the back room with next season's stock, so it bought more than it sold, and purchases beat cost of goods sold. That is the inventory step. Then it bought much of that new stock on thirty day terms, so some of it is not paid for yet, and cash paid falls short of purchases. That is the payables step. The cash that actually left is cost of goods sold, plus the stock build, minus the bills not yet paid.
+
+HEART: Interest paid is interest expense adjusted for the change in interest payable. Taxes need a little more care. Tax expense is adjusted for taxes payable, and also for changes in deferred tax assets and deferred tax liabilities, which usually sit among the noncurrent items. If the deferred tax liability grew, part of this year's tax expense has not been paid yet, so cash paid for taxes was less than the expense. Deferred taxes get their own reading later.
+
+LEWIS: And then there is what the direct method leaves out. Depreciation is not a cash payment, so it never appears. A gain or loss on selling equipment or land is not an operating cash flow either, because the cash from that sale belongs in investing. In the direct method, noncash charges and disposal gains and losses are simply skipped.
+
+HEART: Here is the trap. Unearned revenue is a liability, so a rise in it is added, even though the word unearned sounds like it ought to reduce something. And a fall in wages payable makes cash paid bigger than the expense, not smaller. Run every line through the same rule and keep expenses negative.
+
+LEWIS: The takeaway. The cash flow statement explains the change in cash in three sections: run it, build it, fund it. The direct method turns each income statement line into cash with its related balance sheet change.
 
 ## Module 30.2, Indirect Method CFO
 
-The indirect method reaches the same operating cash flow by a different road. Instead of listing receipts and payments, it starts with net income and adjusts it back to cash. Think of it as undoing the accruals. Every adjustment answers one question. Did this item change net income without changing cash by the same amount?
+HEART: The indirect method reaches the same operating cash flow from the other end. Instead of listing receipts and payments, it starts with net income and adjusts it for everything that made profit and cash differ.
 
-There are three kinds of adjustments. First, add back noncash charges. Depreciation and amortization reduced net income, but no cash left the company, so you add them back. The same goes for impairments and other write downs.
+LEWIS: Picture the owner of a busy restaurant asking her accountant a simple question. We made a nice profit this year, so why did the bank balance barely move? The accountant's answer, line by line, is the indirect method. It is a bridge from profit to cash.
 
-Second, remove gains and losses that belong to investing or financing. Subtract a gain on the sale of equipment and add back a loss, because the full sale proceeds are reported in investing. Third, adjust for changes in operating working capital.
+HEART: In words, operating cash flow equals net income, plus noncash charges, minus the investment in working capital. So there are two kinds of adjustment.
 
-The working capital rule is the heart of this module, so take it slowly. For an operating current asset, such as receivables, inventory or prepaid expenses, an increase is subtracted and a decrease is added. Cash went into the asset, or came back out of it. For an operating current liability, such as accounts payable, wages payable, accrued liabilities or taxes payable, an increase is added and a decrease is subtracted. The company kept cash by owing more. A short way to remember it: assets move opposite to cash, liabilities move with cash.
+LEWIS: Noncash charges first. Depreciation is the classic. It was subtracted to arrive at net income, but no cash left the company for it this year, so you add it back. The same goes for depletion and amortization.
 
-Two more adjustments are worth knowing. An increase in the deferred tax liability is added back, because tax expense was larger than the taxes actually paid. And when bonds were issued at a discount, interest expense includes amortization of that discount, which is a noncash charge, so it is added back. Amortization of a bond premium works the other way and is subtracted.
+HEART: The name is a little loose, because the group includes items that raised income as well as items that lowered it. It means anything that passed through the income statement without being an operating cash flow.
 
-Now our company. Start with net income of 160. Add depreciation of 50, which brings you to 210. Subtract the gain of 20, which leaves 190.
+LEWIS: Here is the add back list. Depreciation, depletion and amortization. Losses on disposing of assets. Impairments and write downs. Losses on retiring debt early. Amortization of a bond discount. A rise in deferred tax liabilities, or a fall in deferred tax assets. And a share of losses from companies accounted for with the equity method.
 
-Subtract the increase in receivables of 40, which leaves 150. Subtract the increase in inventory of 30, which leaves 120. Add the increase in payables of 10, and you arrive at 130. That is the same 130 we built with the direct method.
+HEART: The subtract list mirrors it. Gains on disposing of assets. Gains on retiring debt early. Reversals of earlier impairments and write downs. Amortization of a bond premium. A fall in deferred tax liabilities, or a rise in deferred tax assets.
 
-The two methods always give the same total, and only the presentation differs. But the indirect method has its own analytical value. It explains why net income and operating cash flow differ. Here, net income beat cash flow by 30, mainly because the company built up receivables and inventory. If that pattern repeats year after year, earnings are running ahead of cash, and that deserves a closer look.
+LEWIS: Two of those deserve a picture. Say a moving company sells an old truck for more than its value on the books. Net income includes that gain. But the whole price the buyer paid is reported as an investing inflow. Leave the gain in operating cash flow as well and you count part of the same money twice. So you subtract the gain.
 
-You should also be able to convert an indirect statement into a direct one. Take each income statement line. Drop the noncash items like depreciation and the nonoperating items like the gain. Then attach each working capital change from the indirect statement to the income statement line it belongs with, keeping the sign the indirect statement gave it. The receivables change goes with revenue, and the inventory and payables changes go with cost of goods sold. Wages payable goes with wage expense, and taxes payable and deferred taxes go with tax expense.
+HEART: A loss works the other way. It reduced net income, but no operating cash left the company because of it. So you add it back. Gains out, losses back, and the full sale price goes to investing. Retiring debt early follows the same logic, except the cash paid to the lenders sits in financing.
 
-For our company, revenue of 1,000 with the receivables adjustment of minus 40 gives 960 collected. Cost of goods sold of minus 600, with minus 30 for inventory and plus 10 for payables, gives 620 paid. You rebuild the direct statement exactly.
+LEWIS: Then the bond discount. A bond issued below its face value pays a cash coupon, but the interest expense the company books is the coupon plus a slice of the discount. That extra slice is not cash. So interest expense overstates the cash interest, and you add the difference back. For a bond issued at a premium, interest expense is the coupon minus a slice of the premium. Now the expense understates the cash, so you subtract the difference.
 
-Here are the traps. The first is the sign on working capital. An increase in accounts payable is tempting to subtract, because a bigger liability sounds bad. But owing suppliers more means the company held on to cash, so it is added.
+HEART: Then why are these items skipped in the direct method but adjusted in the indirect method?
 
-The second trap is double counting a gain. Net income already includes the gain, so you subtract it in operating and put the full proceeds in investing. The third trap is adding back depreciation in the direct method, where it never appears at all.
+LEWIS: Because of the starting point. The direct method builds up from cash lines, so noncash items never get in. The indirect method starts from net income, and net income already contains them. So you have to take them back out.
 
-The rule to keep. Operating cash flow under the indirect method equals net income, plus noncash charges, minus gains and plus losses on investing or financing items, minus increases in operating current assets, plus increases in operating current liabilities.
+HEART: Now the second kind of adjustment, the investment in working capital. Working capital here means operating working capital, also called noncash working capital: operating current assets minus operating current liabilities.
+
+LEWIS: That definition matters, because it differs from the one in the ratio material, where working capital is simply total current assets minus total current liabilities. For cash flow purposes you leave out cash itself and short term investments, except trading securities, whose cash flows are operating. And you leave out dividends payable and short term interest bearing debt, because those belong to financing.
+
+HEART: Then come the direction rules, the heart of this module. Subtract an increase in an operating current asset. Add a decrease. Add an increase in an operating current liability. Subtract a decrease.
+
+LEWIS: The memory hook: assets move against cash, liabilities move with it. Asset up, cash down. Liability up, cash up.
+
+HEART: And the picture behind it. Receivables are money sitting in your customers' pockets instead of yours. Inventory is cash you have already spent and parked on a shelf. Payables are your suppliers' money still sitting in your account. So more receivables or a fuller shelf means less cash. A bigger stack of unpaid bills means more cash, for now.
+
+LEWIS: Prepaid expenses and unearned revenue fit the same rule, and a short line keeps them straight. More paid early by them, add. More paid early by you, subtract. And when either balance shrinks, flip the sign. Unearned revenue rising means customers paid you early. Prepaid expenses rising means you paid someone else early, such as a year of insurance up front.
+
+HEART: You can also do the working capital step in one go. Measure noncash working capital at the start and the end of the year and subtract the increase. If noncash working capital grew, the business tied up more cash in it, and operating cash flow comes out lower by exactly that increase.
+
+LEWIS: Done correctly, the indirect method lands on exactly the same operating cash flow as the direct method. Only the layout of the operating section differs. Investing and financing look the same either way.
+
+HEART: So which do companies choose? Both IFRS and US GAAP encourage the direct method. Both allow the indirect method, and most companies choose indirect. Under US GAAP, a company that does choose the direct method must also disclose a reconciliation of net income to operating cash flow, which is the indirect method in all but name.
+
+LEWIS: Each has its own strength. The direct method shows where the cash actually came from and where it went. The indirect method shows why net income and operating cash flow differ, which makes it a quick indicator of earnings quality. If the bridge from profit to cash shows a big subtraction for growing receivables year after year, profit is running ahead of cash.
+
+HEART: The trap. A rise in accounts payable tempts people to subtract, because owing more sounds bad. But the company held on to the cash, so it is added. And a gain left in operating gets counted twice once the full sale price lands in investing.
+
+LEWIS: The takeaway. Indirect operating cash flow equals net income, plus noncash charges, minus the investment in working capital. Gains out, losses back. Assets move against cash, and liabilities move with it.
 
 ## Module 30.3, Investing and Financing Cash Flows and IFRS/U.S. GAAP Differences
 
-Investing and financing cash flows are rebuilt from balance sheet changes too, with the same logic as receivables. Beginning balance, plus additions, minus reductions, equals ending balance. If you know three of the four, you can solve for the fourth.
+HEART: Now the other two sections. Cash flow from investing activities covers buying and selling long term assets and certain investments. Cash flow from financing activities covers transactions that change the capital structure: borrowing and repaying, issuing shares and buying them back, and paying dividends.
 
-Investing first. The classic question asks for the cash received from selling equipment. The rule is that cash proceeds equal the book value of the asset sold, plus any gain, or minus any loss. The hard part is finding the book value, which takes two small roll forwards.
+LEWIS: Here is the US GAAP map. Operating inflows are cash from customers, interest and dividends received, and cash from selling trading securities. Operating outflows are payments to employees and suppliers and for other expenses, purchases of trading securities, interest paid on debt, and taxes.
 
-First, roll forward gross property, plant and equipment, or PPE. Beginning gross PPE, plus purchases, minus the original cost of assets sold, equals ending gross PPE. Second, roll forward accumulated depreciation. Beginning accumulated depreciation, plus depreciation expense, minus the accumulated depreciation on assets sold, equals ending accumulated depreciation. The book value of what was sold is its original cost minus its accumulated depreciation.
+HEART: Investing inflows are cash from selling property, plant and equipment and intangible assets, cash from selling debt and equity investments, and principal collected on loans the company made to others. Investing outflows are the reverse: buying those assets and investments, and making loans to others.
 
-Back to our company. Gross PPE started at 1,000 and ended at 1,100, and the company spent 300 on new equipment. So the original cost of what it sold is 1,000 plus 300 minus 1,100, which is 200. Accumulated depreciation started at 400, depreciation expense was 50, and the ending balance was 330. So 400 plus 50 minus 330 means 120 of accumulated depreciation left with the asset.
+LEWIS: Financing inflows are the principal of new debt and the cash from issuing shares. Financing outflows are principal repaid on debt, payments to buy back shares, and dividends paid to the company's own shareholders.
 
-The book value sold is 200 minus 120, or 80. The income statement showed a gain of 20, so the cash proceeds were 80 plus 20, or 100. Investing cash flow is the 100 received minus the 300 spent, a net outflow of 200.
+HEART: A few placements trip people up. Trading securities are held for quick resale, a lot like inventory, so their cash flows are operating. Buying a bond or shares in another company as a longer term investment is investing, but the interest and dividends that investment pays are operating under US GAAP. Borrowed principal is financing, but the interest on it is operating. Leases treated as borrowing split the same way: principal repaid is financing, and interest is operating.
 
-Here is the trap. A careless answer uses the gain of 20 as the cash received, or the original cost of 200. Neither is the cash. The cash is book value plus the gain. And remember, the gain was subtracted in operating cash flow precisely so it is not counted twice.
+LEWIS: The one people mix up most is dividends. Under US GAAP, dividends received are operating, and dividends paid are financing. Same word, opposite direction, different section.
 
-Now financing. For debt, beginning debt, plus new borrowing, minus repayments, equals ending debt. For equity, an increase in common stock and paid in capital reflects new shares issued, and repurchases show up as treasury stock or a reduction in equity. For dividends, start with retained earnings. Beginning retained earnings, plus net income, minus dividends declared, equals ending retained earnings. Then adjust for any change in dividends payable to get dividends paid.
+HEART: There is a clean way to remember the US GAAP rule. Of the four interest and dividend flows, three normally pass through net income: interest received, dividends received and interest paid. Those are operating. Dividends paid never touch the income statement. They come out of retained earnings as a payout to owners, so they are financing.
 
-For our company, long term debt rose from 400 to 450, and it repaid 100 during the year, so it must have borrowed 150. Common stock rose from 200 to 280 with no repurchases, so it issued 80 of new shares. Retained earnings went from 500 to 610 with net income of 160, so dividends were 500 plus 160 minus 610, which is 50. Dividends payable did not change, so 50 was paid. Financing cash flow is plus 150, minus 100, plus 80, minus 50, a net inflow of 80.
+LEWIS: One more placement point. Some deals move no cash at all, such as buying a warehouse by handing the seller newly issued shares. Those significant noncash investing and financing activities stay out of the three sections and are disclosed separately instead.
 
-Now check the whole statement. Operating cash flow of 130, investing of minus 200 and financing of plus 80 sum to an increase in cash of 10. That should match the change in cash on the balance sheet, and it closes the loop between all three statements.
+HEART: Now rebuilding investing cash flows. In an asset sale, the only cash is what the buyer hands over, called the proceeds. The gain or loss is pure accounting. The company drops the asset's carrying value from its books and compares it with the proceeds. Get more than carrying value and you book a gain. Get less and you book a loss.
 
-Now the IFRS and U.S. GAAP differences. These are heavily tested and easy to mix up, so here is a structure. U.S. GAAP gives no choices for interest and dividends. IFRS gives choices.
+LEWIS: Turn that around and you have the rule for the exam. The cash from selling an asset equals its carrying value, also called book value, plus any gain, or minus any loss.
 
-Under U.S. GAAP, interest received, dividends received and interest paid are all operating. Dividends paid are financing. The logic is that interest and dividends received, and interest paid, all run through net income, so they sit with operations. Dividends paid are a distribution to owners, not an expense, so they are financing.
+HEART: Picture selling your car to a neighbor. Your depreciation schedule says the car is worth a certain amount on paper. The neighbor hands you more than that, so you book a gain. The cash in your hand is the paper value plus the gain. Nothing else.
 
-Under IFRS, interest received and dividends received can be operating or investing. Interest paid and dividends paid can be operating or financing. The company picks a policy and applies it consistently. A simple way to hold this: what you receive can be operating or investing, and what you pay can be operating or financing.
+LEWIS: The hard part is usually finding the carrying value of what was sold, because the balance sheet only shows totals. That is where roll forwards come back. Think of a parking garage counting cars. Cars at the start of the day, plus cars that came in, minus cars that left, equals cars at the end. Know three and you can find the fourth.
 
-Taxes. Under U.S. GAAP, income taxes paid are operating. Under IFRS, taxes are operating unless they can be specifically identified with an investing or financing activity.
+HEART: For equipment you run two of them. First, gross property, plant and equipment. The beginning balance, plus purchases, minus the original cost of what was sold, equals the ending balance. That gives you the original cost of the disposal.
 
-Bank overdrafts. Under IFRS, an overdraft that is repayable on demand and is an integral part of cash management can be included in cash and cash equivalents, as a negative amount. Under U.S. GAAP, overdrafts are not part of cash, and changes in them are financing activities.
+LEWIS: Second, accumulated depreciation. The beginning balance, plus this year's depreciation expense, minus the accumulated depreciation on what was sold, equals the ending balance. That gives you the depreciation that left along with the asset. Original cost minus that depreciation is the carrying value of what was sold.
 
-On format, both standards allow either the direct or the indirect method, and both encourage the direct method. U.S. GAAP adds one requirement: a company using the direct method must also show the reconciliation of net income to operating cash flow.
+HEART: There is a shortcut that does both in one pass, working with net book value. Beginning net book value, plus purchases, minus depreciation expense, minus the carrying value of what was sold, equals ending net book value.
 
-All of this matters for comparability. Take two identical companies. One reports under U.S. GAAP and puts interest paid in operating. The other reports under IFRS and chooses to put interest paid in financing. The IFRS company shows higher operating cash flow, by exactly the interest paid, even though the businesses are the same. Before you compare operating cash flow, or any ratio built on it, move the items into the same buckets.
+LEWIS: And how do you know a sale happened at all? Three clues. Gross equipment rose by less than the company spent on new equipment. Accumulated depreciation rose by less than the depreciation expense. Or a gain or loss on disposal shows up on the income statement.
 
-Here is the trap. A question says an IFRS company reports dividends paid in operating activities and asks whether that is allowed. It is. Candidates who memorized only the U.S. GAAP rule will say dividends paid must be financing. A second version asks where a U.S. GAAP company reports dividends received. The answer is operating, not investing, even though owning shares in another company feels like an investment.
+HEART: Land is easier, because land is not depreciated. Its carrying value is simply its cost. If the land balance fell and no land was bought, the drop is the carrying value of what was sold.
 
-The rule to keep. Under U.S. GAAP, interest received, dividends received and interest paid are operating, and dividends paid are financing. Under IFRS, what you receive can be operating or investing, and what you pay can be operating or financing.
+LEWIS: Investing cash flow then equals the proceeds from everything sold, minus the cash spent on everything bought.
+
+HEART: Now financing, which has two parts. The net flow with creditors is new borrowing minus principal repaid. The net flow with shareholders is new shares issued, minus shares bought back, minus cash dividends paid.
+
+LEWIS: Each comes from its own roll forward. The bond balance gives net borrowing. Contributed capital, which is common stock at par plus additional paid in capital, gives the net amount of shares issued or bought back.
+
+HEART: Two simplifications keep the exam work clean. Bonds are assumed issued at par, so no discount or premium amortization moves the balance. And shares bought back are assumed to cost exactly what the company first sold them for.
+
+LEWIS: Dividends take two steps. If dividends declared are not given, find them with retained earnings. Beginning retained earnings, plus net income, minus dividends declared, equals ending retained earnings. Then remember that declared is not the same as paid.
+
+HEART: So treat the dividend declared as a negative and adjust it for the change in dividends payable, using the liability rule. If dividends payable rose, some of what was declared has not been paid yet, so cash paid was less than the amount declared.
+
+LEWIS: Finally, add up all three sections and compare the total with the change in cash on the balance sheet. If they do not match, something is missing.
+
+HEART: Next, converting from indirect to direct. Only the operating section differs between the two methods, so an analyst can rebuild the direct version from the income statement and an indirect statement.
+
+LEWIS: It takes three steps. First, add up all the revenues and gains, and all the expenses and losses. Second, strip out the noncash items, such as depreciation, disposal gains and losses, and the deferred tax movement, and break what remains into its lines: revenue, cost of goods sold, wages, interest and taxes.
+
+HEART: Third, convert each line to cash with its own working capital change. Receivables and unearned revenue go with revenue. Inventory and payables go with cost of goods sold. Wages payable goes with wages, interest payable with interest, and taxes payable with taxes. It is the direct method again, with a different starting point.
+
+LEWIS: Now the differences between IFRS and US GAAP, which are tested heavily and are mostly about which section a cash flow sits in.
+
+HEART: US GAAP, as we said, gives no choice: interest received, dividends received and interest paid are operating, and dividends paid are financing.
+
+LEWIS: IFRS gives a choice. Interest and dividends received can be operating or investing. Interest and dividends paid can be operating or financing. The company picks a policy and applies it consistently from year to year.
+
+HEART: The hook for IFRS: receipts can invest, payments can finance, and operating is always allowed. A receipt can move to investing, because it is a return on an investment. A payment can move to financing, because it is a cost of raising capital.
+
+LEWIS: Taxes next. Under US GAAP, all income taxes paid are operating, even when the tax comes from an investing or financing transaction. Under IFRS, taxes are operating unless they can be tied to a specific investing or financing transaction, and then they can go with that transaction.
+
+HEART: Picture a regional newspaper that sells its old downtown office building at a big gain and owes tax on that gain. Under US GAAP, the sale price goes to investing and the tax goes to operating, so operating cash flow looks weaker that year for a reason that has nothing to do with selling newspapers. Under IFRS, the tax can sit in investing right beside the sale.
+
+LEWIS: Bank overdrafts. Under US GAAP, an overdraft is treated as debt, a borrowing. Under IFRS, an overdraft that is repayable on demand and swings back and forth as part of everyday cash management is treated as part of cash, a negative piece of it.
+
+HEART: And the format. Both standards prefer the direct method and allow the indirect. Only US GAAP adds the requirement to disclose the net income reconciliation when a company chooses the direct method.
+
+LEWIS: Why does all this matter to an analyst? Comparability. Take two identical companies. One reports under US GAAP, so its interest paid comes out of operating cash flow. The other reports under IFRS and puts interest paid in financing. The IFRS company shows higher operating cash flow, by the amount of its interest, for exactly the same business.
+
+HEART: So before you compare operating cash flow, or any ratio built on it, move the items into the same sections. And the trap runs both ways. An IFRS company putting dividends paid in operating is allowed. A US GAAP company must put dividends received in operating, even though owning shares in another company feels like an investment.
+
+LEWIS: The takeaway. Cash from a sale is carrying value plus the gain, and roll forwards find whatever is missing. Under US GAAP, the interest and dividend flows that pass through net income are operating, and dividends paid are financing. Under IFRS, receipts can invest and payments can finance.
 
 ## Module 31.1, Analyzing Statements of Cash Flows II
 
-Now you need to read the statement. Analysis starts with the major sources and uses of cash. For a healthy, mature company, operating activities should be the main source of cash over time, enough to fund investment and to pay lenders and shareholders. A company that keeps borrowing or issuing shares to cover negative operating cash flow cannot do that forever.
+HEART: Reading 31 turns from building the statement to judging it, with the same goal as before: liquidity, solvency and financial flexibility.
 
-Context matters. A young, fast growing company often has negative operating cash flow, because it is building receivables and inventory. It also has heavy investing outflows, funded by financing inflows. A mature company should generate operating cash, spend part of it on capital expenditures, and return the rest through debt repayment, dividends or buybacks.
+LEWIS: Start with the major sources and uses of cash in each section, and keep in mind where the company is in its life cycle. Picture a young electric bike maker that sells through independent bike shops. It is building inventory for every model, and the shops pay on long credit terms. Operating cash flow is negative, and the company fills the gap by borrowing and selling shares.
 
-Within operating activities, compare operating cash flow to net income. Over time they should move together. If operating cash flow runs persistently below net income, that can signal aggressive accruals and low earnings quality. Also ask what drives operating cash flow. Cash from growing sales and healthy margins can last. Cash from stretching payables or squeezing inventory is a one time boost that cannot repeat indefinitely.
+HEART: That is normal early on, but lenders and investors will not fund an operating cash drain forever. Eventually operating activities have to bring in cash. Given enough time, a healthy business pays its own way. Its operating cash flow runs above its capital spending, with cash to spare for the people who lent to it and the people who own it.
 
-Within investing, compare capital expenditures to depreciation. Spending well above depreciation suggests a growing asset base, while spending persistently below it can signal underinvestment. Within financing, see whether operating cash covers debt payments and dividends.
+LEWIS: Next, ask how the operating cash flow is being produced. The healthy source is the business itself: sales, margins and collections. But a company can also boost operating cash flow for a while by shrinking its working capital. It can sell down inventory, collect receivables faster, or pay its suppliers later.
 
-Common size cash flow statements make these comparisons easier across years and across companies of different sizes. There are two approaches. The first expresses every line as a percentage of revenue. The second expresses each inflow as a percentage of total cash inflows, and each outflow as a percentage of total cash outflows. The revenue approach is handy for forecasting, because once you know a cash flow as a share of sales, you can project it from a sales forecast.
+HEART: That last one is called stretching payables, and none of these moves can repeat forever. Inventory can only shrink until the shelves are bare, and receivables bottom out at zero. And suppliers who keep getting paid later will eventually stop offering credit. So a jump in operating cash flow that comes mostly from working capital is a one time lift, not a new level.
 
-Next, free cash flow. The idea is simple. How much cash is left after the company maintains and expands its asset base, and who does it belong to?
+LEWIS: Then compare operating cash flow with net income. When the two keep a steady relationship over the years, that points to quality earnings. When profit keeps pulling well ahead of cash, the accounting may be aggressive, or even improper, for example counting sales before they are truly made or pushing costs into later years. And the more either number jumps around from year to year, the more risk you are looking at.
 
-Free cash flow to the firm, or FCFF, is the cash available to all capital providers, both lenders and shareholders. Starting from operating cash flow, FCFF equals operating cash flow, plus interest expense times one minus the tax rate, minus fixed capital investment. Fixed capital investment means capital expenditures minus any proceeds from selling long term assets.
+HEART: The investing section tells a story too. Rising capital spending usually means growth. Falling capital spending, or selling off long term assets to raise cash, deserves a question. A company that skips replacing old equipment saves cash today and may face a bigger replacement bill later. Investing also shows acquisitions and purchases of securities.
 
-Why add back interest? Under U.S. GAAP, interest paid was subtracted in operating cash flow, but interest goes to lenders, who are capital providers. You add back only the after tax amount, because FCFF is measured as if the company paid tax on its full operating profit. Under IFRS, if interest paid was classified in financing, operating cash flow was never reduced by it, so you do not add it back.
+LEWIS: The financing section shows where outside money came from and where cash went back out. Is the company issuing debt or shares? Is it repaying debt, buying back stock, paying dividends? One combination always deserves a second look: borrowing money and handing it straight to shareholders through buybacks or dividends.
 
-You can also start from net income. FCFF equals net income, plus noncash charges, plus interest expense times one minus the tax rate, minus fixed capital investment, minus working capital investment. The two versions agree, because operating cash flow already contains the noncash charges and the working capital changes.
+HEART: Now common size cash flow statements. As with the other statements, you scale the numbers so that different years, and companies of different sizes, can be compared.
 
-Free cash flow to equity, or FCFE, is what is left for common shareholders after paying lenders and allowing for new borrowing. FCFE equals operating cash flow, minus fixed capital investment, plus net borrowing. Net borrowing is new debt issued minus debt repaid. Borrowing more raises FCFE, and paying debt down lowers it.
+LEWIS: There are two ways to do it. The first states every line as a percentage of revenue. The second states each inflow as a share of total cash inflows, and each outflow as a share of total cash outflows.
 
-A worked example. Operating cash flow is 500. Interest expense is 100 and the tax rate is 25 percent, so after tax interest is 75. Fixed capital investment is 200, and net borrowing is 50.
+HEART: The revenue version is the handy one for spotting trends and forecasting. Picture a regional grocery chain whose dividend payments have grown faster than its sales for several years running, so dividends take a bigger slice of every sales dollar. Seeing every line against revenue makes that drift obvious. And once you forecast revenue, any cash flow that tends to move with revenue follows from it.
 
-FCFF is 500, plus 75, minus 200, which is 375. FCFE is 500, minus 200, plus 50, which is 350. As a check, FCFE also equals FCFF, minus after tax interest, plus net borrowing. That is 375 minus 75 plus 50, or 350 again.
+LEWIS: Now free cash flow. Free cash flow is the cash a company has available for discretionary use after paying for the capital spending it needs to keep and grow the business. It is a key input for valuation, and there are two main versions.
 
-Here is the trap. When you compute FCFE from operating cash flow, do not add back interest. Under U.S. GAAP, interest paid is already out of operating cash flow, and that is right for equity, because shareholders only get what is left after lenders. Adding after tax interest back would give you FCFF plus net borrowing, which is the wrong number.
+HEART: Free cash flow to the firm, FCFF, is the cash available to all of the company's capital providers, both shareholders and lenders. Free cash flow to equity, FCFE, is the cash available to common shareholders alone, after the lenders have been taken care of.
 
-Now the ratios. There are two families, performance and coverage, and almost every one puts operating cash flow on top.
+LEWIS: Picture a pizza shop funded partly by its owners and partly by a bank loan. FCFF is the whole pizza that is left after paying for the ovens. FCFE is what the owners keep after the bank takes its slices, adjusted for any fresh loan the bank hands over.
 
-Performance ratios measure how well operations turn into cash. Cash flow to revenue equals operating cash flow divided by net revenue, the cash generated per dollar of sales. Cash return on assets equals operating cash flow divided by average total assets. Cash return on equity equals operating cash flow divided by average shareholders' equity.
+HEART: Start with FCFF from operating cash flow. In words, FCFF equals operating cash flow, plus cash interest paid after tax, minus fixed capital investment.
 
-Cash to income equals operating cash flow divided by operating income, which shows how much of operating profit turns into cash. Cash flow per share equals operating cash flow minus preferred dividends, divided by the weighted average number of common shares. If an IFRS company put common dividends paid in operating, add them back first.
+LEWIS: Why add the interest back?
 
-Coverage ratios measure the ability to meet obligations. Debt coverage equals operating cash flow divided by total debt, and higher is safer. Interest coverage equals operating cash flow, plus interest paid, plus taxes paid, all divided by interest paid. You add interest and taxes back because the question is how much cash was available before those payments.
+HEART: Because interest goes to lenders, and lenders are part of the firm in this measure. Under US GAAP, interest paid was already subtracted inside operating cash flow, so you put it back.
 
-Reinvestment equals operating cash flow divided by cash paid for long term assets. Above one means the company funds its capital spending internally. Debt payment equals operating cash flow divided by cash paid to repay long term debt. Dividend payment equals operating cash flow divided by dividends paid. Investing and financing equals operating cash flow divided by total cash outflows for investing and financing activities.
+LEWIS: And why only after tax?
 
-A quick example. Operating cash flow is 500, interest paid is 100, and taxes paid are 150. Interest coverage is 500 plus 100 plus 150, or 750, divided by 100, which is 7.5 times. If cash paid for long term assets is 200, the reinvestment ratio is 500 divided by 200, or 2.5. If total debt is 2,000, debt coverage is 500 divided by 2,000, or 25 percent. Lenders, including banks and credit unions underwriting business loans, lean heavily on cash coverage measures like these, because a borrower repays from cash, not from accounting profit.
+HEART: Because paying interest also cut the tax bill, and that tax saving stayed inside operating cash flow. So the real drag on operating cash flow from paying interest was only the interest net of that saving. That is the amount you add back: interest times one minus the tax rate.
 
-Here is the trap. In interest coverage, the tempting mistake is to divide operating cash flow alone by interest paid. That understates coverage, because under U.S. GAAP operating cash flow is already after interest and taxes. The numerator adds both back.
+LEWIS: Fixed capital investment is cash spent on fixed assets minus cash received from selling fixed assets, in other words net capital spending. It is not the same as investing cash flow. The investing section can also include buying securities and lending to others, and those are not fixed capital.
 
-The rule to keep. FCFF equals operating cash flow, plus after tax interest, minus fixed capital investment. FCFE equals operating cash flow, minus fixed capital investment, plus net borrowing.
+HEART: You can also start from net income. FCFF equals net income, plus noncash charges, plus cash interest paid after tax, minus fixed capital investment, minus working capital investment. Notice that net income, plus noncash charges, minus working capital investment, is just operating cash flow by the indirect method. So the two versions are the same calculation.
+
+LEWIS: Then the IFRS adjustments. If an IFRS company put interest paid in financing, its operating cash flow never had interest taken out, so there is nothing to add back. If it put dividends paid in operating, add the dividends back, because dividends go to shareholders, who are also part of the firm. And there is no tax adjustment for dividends, because dividends are not tax deductible.
+
+HEART: Now FCFE. In words, FCFE equals operating cash flow, minus fixed capital investment, plus net borrowing. Net borrowing is new debt issued minus debt repaid. If the company repaid more than it borrowed, net borrowing is negative and FCFE goes down.
+
+LEWIS: Notice there is no interest add back here. Shareholders get only what is left after the lenders are paid, so the interest stays out. And if an IFRS company subtracted dividends paid in operating, add them back, because dividends are paid out of FCFE, not a cost to deduct before you get there.
+
+HEART: The link between the two: FCFE equals FCFF, minus after tax interest, plus net borrowing. Start with the whole pizza, take out the interest that went to lenders net of the tax saving, then add net borrowing, the new money lent minus the principal repaid.
+
+LEWIS: The trap. When you work out FCFE from operating cash flow, do not add interest back out of habit from FCFF. And do not drop in investing cash flow as a stand in for fixed capital investment when the investing section includes securities or loans.
+
+HEART: Last, the cash flow ratios. They come in two families, performance ratios and coverage ratios, and you can compare them over time or across companies. Here is a hook for all of them. Operating cash flow sits on top, and the name tells you what sits underneath.
+
+LEWIS: Performance ratios first. Cash flow to revenue is operating cash flow over net revenue, the operating cash generated by each dollar of sales. Cash return on assets is operating cash flow over average total assets, the cash return to all providers of capital. Cash return on equity is operating cash flow over average total equity, the cash return to shareholders.
+
+HEART: Cash to income is operating cash flow over operating income, a measure of how well operations turn profit into cash. And cash flow per share is a cash version of basic earnings per share: operating cash flow minus preferred dividends, over the weighted average number of common shares. If an IFRS company put common dividends in operating, add them back first.
+
+LEWIS: Coverage ratios measure the ability to meet obligations. Debt coverage is operating cash flow over total debt, a measure of financial risk and leverage. Higher means more cash for each dollar owed.
+
+HEART: Interest coverage is the one with a twist on top. It is operating cash flow, plus interest paid, plus taxes paid, all over interest paid. Interest and taxes go back in because operating cash flow is already after both, and the question is how much cash was available to pay interest. If an IFRS company put interest in financing, its operating cash flow was never reduced by interest, so you skip the interest add back.
+
+LEWIS: Then four more, each asking whether operating cash can pay for one particular thing. The reinvestment ratio is operating cash flow over cash paid for long term assets. The debt payment ratio is operating cash flow over cash paid to repay long term debt. The dividend payment ratio is operating cash flow over dividends paid. And the investing and financing ratio is operating cash flow over all the cash outflows for investing and financing activities. For each one, a value above one means operating cash alone could cover it.
+
+HEART: Lenders lean hard on these coverage measures. A bank or credit union underwriting a business loan cares most about whether the borrower's cash covers the payments, because loans are repaid from cash, not from accounting profit.
+
+LEWIS: The takeaway. Judge operating cash flow by where it comes from and how well it tracks net income. FCFF adds back after tax interest and takes out fixed capital investment. FCFE takes out fixed capital investment and adds net borrowing. And in every cash flow ratio, operating cash flow sits on top.
 
 ## Recall check
 
-Q: Under U.S. GAAP, a company pays interest on its bonds and pays a cash dividend to its shareholders. Where does each payment appear?
+LEWIS Q: Receivables rose during the year, and no other balance tied to sales changed. Is cash collected from customers higher or lower than revenue?
 
-Answer: Interest paid is an operating outflow, and dividends paid are a financing outflow. Interest is an expense that runs through net income, while a dividend is a distribution to owners. Under IFRS, either payment could be operating or financing, depending on the company's policy.
+HEART: Answer. Lower. Here is why. Receivables grow when customers buy on credit faster than they pay. Part of this year's revenue is still in customers' pockets, so cash collected equals revenue minus the rise in receivables.
 
-Q: A company sells a machine with a book value of 60 for 75 in cash. How does this appear on a cash flow statement prepared with the indirect method?
+HEART Q: Why is depreciation skipped entirely in the direct method but added back in the indirect method?
 
-Answer: The gain of 15 is subtracted from net income in the operating section, and the full 75 appears as an investing inflow. Subtracting the gain prevents counting it twice, because all the cash from the sale belongs in investing.
+LEWIS: Answer. Because the indirect method starts from net income, which already has depreciation subtracted. Here is why. The direct method builds operating cash flow from actual receipts and payments, and depreciation is never a payment, so it never gets in. The indirect method starts from profit, and profit was reduced by depreciation. Adding it back undoes a charge that cost no cash this year.
 
-Q: Net income is 100, depreciation is 20, accounts receivable increased by 15, and accounts payable increased by 5. What is operating cash flow?
+LEWIS Q: Under the indirect method, accounts payable fell during the year. Do you add or subtract the change?
 
-Answer: 110. Start with 100 and add back 20 of depreciation to get 120. Subtract the 15 increase in receivables to get 105, then add the 5 increase in payables to reach 110.
+HEART: Answer. Subtract it. Here is why. When payables shrink, the company paid off some of last year's bills on top of this year's purchases, so cash paid to suppliers ran ahead of purchases. Liabilities move with cash, so a falling liability means less cash.
 
-Q: Two companies are identical, except one reports under U.S. GAAP and the other reports under IFRS and classifies interest paid in financing. Which one most likely reports higher operating cash flow?
+HEART Q: A software company sells annual subscriptions paid up front, and its unearned revenue rose sharply. All else equal, how does operating cash flow compare with net income?
 
-Answer: The IFRS company. Its operating cash flow is higher by the amount of interest paid, because that payment sits in financing instead of operating. An analyst should reclassify before comparing the two.
+LEWIS: Answer. Operating cash flow comes out above net income. Here is why. Customers paid cash for service the company has not yet delivered, so the cash arrived before the revenue. Unearned revenue is a liability, and a rising liability is a source of cash. More paid early by them, add.
 
-Q: Operating cash flow is 400, interest expense is 100, the tax rate is 20 percent, and fixed capital investment is 150. Under U.S. GAAP, what is free cash flow to the firm?
+LEWIS Q: A company sells a machine for more than its carrying value. How does the sale show up on an indirect method statement?
 
-Answer: 330. After tax interest is 100 times 0.8, or 80. FCFF is 400 plus 80 minus 150, which is 330.
+HEART: Answer. The gain is subtracted in the operating section, and the full sale price appears as an investing inflow. Here is why. Net income already includes the gain, but the cash from the sale belongs in investing. If the gain stayed in operating as well, part of the same money would be counted twice. The cash from the sale equals the carrying value plus the gain.
 
-Q: A company acquires a warehouse by issuing new common shares directly to the seller. How is this reported on the cash flow statement?
+HEART Q: Under US GAAP, where do dividends received and dividends paid go?
 
-Answer: It is not reported in any of the three sections, because no cash changed hands. It is a significant noncash investing and financing activity, disclosed in a note or a supplementary schedule.
+LEWIS: Answer. Dividends received are operating, and dividends paid are financing. Here is why. Dividends received pass through net income as investment income, and under US GAAP the interest and dividend flows that pass through net income are operating. Dividends paid never touch the income statement. They are a payout to the company's own owners.
 
-## Recap
+LEWIS Q: Two identical companies differ in one choice. The IFRS company puts interest paid in financing, while the US GAAP company must put it in operating. Which shows higher operating cash flow?
 
-The statement of cash flows explains the change in cash. Beginning cash, plus operating, investing and financing cash flows, equals ending cash. Direct method operating cash flow lists receipts and payments, each built from an income statement line adjusted for its working capital account, such as revenue minus the increase in receivables. Indirect method operating cash flow starts with net income, adds back noncash charges, removes investing and financing gains and losses, subtracts increases in operating current assets and adds increases in operating current liabilities. Both methods give the same total.
+HEART: Answer. The IFRS company. Here is why. Its operating section never has the interest payment subtracted, because that payment sits in financing. The businesses are the same, so the gap is purely classification, and an analyst should line the sections up before comparing.
 
-Cash from selling an asset equals its book value plus any gain, or minus any loss, and the gain is removed from operating cash flow. Noncash investing and financing activities are disclosed in the notes, not in the statement. Under U.S. GAAP, interest received, dividends received and interest paid are operating, and dividends paid are financing. Under IFRS, what you receive can be operating or investing, and what you pay can be operating or financing. FCFF equals operating cash flow plus after tax interest minus fixed capital investment, and FCFE equals operating cash flow minus fixed capital investment plus net borrowing. Cash interest coverage adds interest paid and taxes paid back to operating cash flow before dividing by interest paid.
+HEART Q: A company sells a building at a gain and pays tax on that gain. Under US GAAP, which section holds the tax, and what can IFRS do differently?
+
+LEWIS: Answer. Under US GAAP the tax is operating, while IFRS can put it in investing beside the sale. Here is why. US GAAP classifies all income taxes paid as operating, whatever caused them. IFRS keeps taxes in operating unless they can be tied to a specific investing or financing transaction, and a tax on the gain from selling a building can be. So under US GAAP the sale lifts investing while its tax weighs on operating.
+
+LEWIS Q: A company's operating cash flow jumped this year, and nearly all of the jump came from paying suppliers much later than before. How should an analyst view that?
+
+HEART: Answer. As a one time lift, not a lasting improvement. Here is why. Stretching payables keeps cash in the business for a while, but suppliers will not extend credit forever. Sustainable operating cash flow comes from sales, margins and collections, not from shrinking working capital.
+
+HEART Q: Why does FCFF add back interest paid after tax rather than the full interest payment?
+
+LEWIS: Answer. Because paying interest also lowered taxes, and that saving is already inside operating cash flow. Here is why. Interest is tax deductible, so each dollar of interest cost the company less than a dollar once the tax saving is counted. The net drag was interest times one minus the tax rate, so that is exactly what goes back.
+
+LEWIS Q: A company repays more debt this year than it borrows. Is its FCFE above or below its FCFF?
+
+HEART: Answer. Below. Here is why. FCFE equals FCFF, minus after tax interest, plus net borrowing. Here net borrowing is negative, so both adjustments push FCFE down. Shareholders only get what is left after the lenders receive their interest and the extra principal repaid.
+
+HEART Q: Why does the cash interest coverage ratio add interest paid and taxes paid back to operating cash flow?
+
+LEWIS: Answer. Because operating cash flow under US GAAP is already after both, and the ratio asks how much cash was available before paying them. Here is why. Interest is the obligation being tested, so taking it out of the cash meant to pay it would understate coverage. Taxes are worked out after interest is deducted, so the cash available to pay interest is the cash before taxes as well.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: For the three sections: run it, build it, fund it. Beginning cash plus all three must equal ending cash.
+
+HEART: For working capital: assets move against cash, liabilities move with it. Inventory on the shelf is cash you have spent. Unpaid bills in the drawer are cash you have kept. And for advance payments: more paid early by them, add. More paid early by you, subtract.
+
+LEWIS: For the two methods: the direct method is the bank statement, the indirect method is the bridge from profit to cash. Same operating cash flow either way.
+
+HEART: For asset sales: gains out, losses back, and the full price goes to investing. Cash from a sale is the carrying value plus the gain, or minus the loss.
+
+LEWIS: For any missing number: beginning, plus what came in, minus what went out, equals ending. Know three, find the fourth.
+
+HEART: For US GAAP: if an interest or dividend flow passes through net income, it is operating, which leaves dividends paid alone in financing. Taxes are always operating, and an overdraft is debt.
+
+LEWIS: For IFRS interest and dividends: receipts can invest, payments can finance, and operating is always allowed. Taxes can follow the transaction that caused them, and an overdraft repayable on demand can count as cash.
+
+HEART: For free cash flow: FCFF is the whole pizza, before anything goes to lenders. FCFE is the owners' share, after lenders are paid, plus net borrowing. Interest goes back into FCFF after tax, because the tax saving was already counted.
+
+LEWIS: For the ratios: operating cash flow is the starting point of every numerator, and the ratio's name tells you the denominator.
+
+HEART: Now, how you would say the big ideas to a senior leader.
+
+LEWIS: On profit and cash: profit and cash can drift apart, and when profit keeps running ahead of cash, someone should ask why. The jargon is accrual accounting, operating cash flow and earnings quality.
+
+HEART: On growth: a fast growing business often burns cash before it makes cash, because it has to stock up and wait for customers to pay. That is fine for a while, but not forever. The jargon is investment in working capital and negative operating cash flow early in the life cycle.
+
+LEWIS: On a sudden cash improvement: if cash flow jumped because we paid suppliers later or ran inventory down, that is a one time lift, not a new run rate. The jargon is stretching payables and an unsustainable reduction in working capital.
+
+HEART: On comparing companies: check where each one puts interest, dividends and taxes, because international rules allow choices that the US rules do not. The jargon is IFRS versus US GAAP classification of operating, investing and financing cash flows.
+
+LEWIS: On free cash flow: it is what is left after keeping the business running and growing, first for everyone who funded us, then for the owners once the lenders are paid. The jargon is free cash flow to the firm, free cash flow to equity and fixed capital investment.
+
+HEART: And on borrowing capacity: lenders care less about reported profit than about whether cash covers the payments. The jargon is cash flow coverage ratios, such as debt coverage and cash interest coverage.
