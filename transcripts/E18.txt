@@ -1,147 +1,263 @@
-## The big picture
-
-Every company that earns a profit keeps two scorecards. One is the income statement it shows investors, prepared under IFRS or U.S. GAAP. The other is the tax return it files with the government, prepared under tax law. The two sets of rules were written for different purposes, so they rarely produce the same profit number. This episode is about what happens in the gap between them.
-
-Module 35.1 sets out the vocabulary. You will meet accounting profit, taxable income, taxes payable, income tax expense and income tax paid. You will also learn to sort every difference between the two scorecards into one of two bins. Temporary differences reverse over time. Permanent differences never do.
-
-Module 35.2 shows how temporary differences create deferred tax liabilities and deferred tax assets on the balance sheet. It covers when a deferred tax asset must be written down, and how an analyst decides whether a deferred tax liability is really debt. Module 35.3 turns to tax rates. It covers the statutory rate, the effective rate and the cash rate, the effect of a change in the tax rate, and how to read the tax note, including the reconciliation from the statutory rate to the effective rate.
-
-On the exam, expect three kinds of questions. First, quick calculations of income tax expense, taxes payable and the change in deferred taxes. Second, classification questions. Does this item create a deferred tax asset, a deferred tax liability, or nothing at all? Third, analysis questions about ratios, valuation allowances and rate changes. One equation ties the whole topic together, and you will hear it several times today.
+LEWIS: Reading 35 covers why the profit a company reports to investors differs from the profit on its tax return, how timing differences create deferred tax liabilities and deferred tax assets, and what a change in the tax rate does to them. It then covers when a deferred tax asset has to be written down, how analysts treat these balances, the statutory, effective and cash tax rates, and what the tax note reveals under IFRS and US GAAP.
 
 ## Module 35.1, Differences Between Accounting Profit and Taxable Income
 
-Start with why two profit numbers exist at all. Financial reporting standards try to show the economic performance of a period, so they match expenses to the revenue they help produce, no matter when the cash moves. Tax law has other goals. Governments use it to raise revenue and to steer behavior, so they may let a company deduct the cost of new equipment faster than it wears out, to encourage investment. Tax law also tends to follow cash and certainty, allowing some deductions only when a cost is actually paid.
+HEART: Picture a family brewery at the end of its year. It hands two different documents to two different audiences. Its investors and its bank get financial statements, prepared under IFRS or US GAAP. The tax authority gets a tax return, prepared under tax law. Same business, same year, and almost never the same profit.
 
-Now the vocabulary, one term at a time. Accounting profit is income before taxes on the income statement. You will also hear it called pretax income or earnings before tax. Taxable income is the profit figure on the tax return, computed under tax law. Taxes payable is the tax owed for the current period, equal to taxable income times the tax rate, and it is also called the current tax expense.
+LEWIS: Why would two honest documents disagree? Because they are written for different jobs. Financial reporting standards try to show how the business really performed in the period, so they match each expense to the revenue it helped earn. Tax law has its own aims. A government may let companies deduct new equipment faster than it wears out, to encourage investment. And tax authorities are wary of guesses, so many deductions wait until the cash is actually spent.
 
-Income tax expense is the tax figure on the income statement. It equals taxes payable plus the deferred tax expense, and in U.S. reporting it is often labeled the provision for income taxes. Finally, income tax paid is the actual cash sent to the tax authorities during the period. It can differ from taxes payable because of the timing of installments, and because of refunds or payments that relate to other years.
+HEART: So this module starts with vocabulary, because the exam loves terms that sound alike. Begin on the tax return side. Taxable income is the income the tax return says is subject to tax. Taxes payable is the tax owed on that taxable income for the period. It is also called the current tax expense. And the same phrase, taxes payable, also names the liability on the balance sheet for tax that is owed but not yet paid.
 
-Here is the trap. Taxes payable and income tax expense sound alike, and exam answer choices will swap them. Taxes payable comes from the tax return. Income tax expense is what the income statement reports. The gap between them is the deferred tax expense, and it lands on the balance sheet as a change in the deferred tax liability or the deferred tax asset.
+LEWIS: Income tax paid is different again. It is the actual cash that went to the tax authority during the year. It can include an installment left over from last year, or money the tax authority sent back for an earlier year, so it need not match this year's taxes payable.
 
-That gives you the central equation of the topic. Here it is, slowly. Income tax expense equals taxes payable, plus the increase in the deferred tax liability, minus the increase in the deferred tax asset. If the deferred tax liability falls, its increase is negative, so the fall reduces income tax expense. If the deferred tax asset falls, you subtract a negative number, so the fall raises income tax expense. Almost every calculation in this reading is a version of that one sentence.
+HEART: Two more terms from the tax side. A tax loss carryforward is a loss, this year's or an earlier year's, that the company can use to shrink taxable income in future years, which means less tax later. And the tax base is the value tax law assigns to an asset or a liability.
 
-Next, the two kinds of differences. A temporary difference is a difference in timing. The same revenue or expense eventually shows up in both accounting profit and taxable income, just in different periods, so over the life of the item the totals match. Because the difference will reverse, it creates a deferred tax item. It creates a liability if the company is paying less tax now and will pay more later, and an asset if it is paying more now and will pay less later.
+LEWIS: Now the financial reporting side. Accounting profit is pre tax income on the income statement, built under the reporting standards. You will also hear it called income before tax or earnings before tax. Income tax expense is the tax figure on the income statement, sometimes called the tax provision. And here is the distinction to lock in. Income tax expense is not the tax bill. It is the tax bill, taxes payable, adjusted for changes in deferred taxes.
 
-A permanent difference never reverses. The item counts under one set of rules and simply never counts under the other. Permanent differences create no deferred tax at all. Instead, they make the effective tax rate differ from the statutory rate, which is an idea we will pick up in Module 35.3.
+HEART: That brings in the two balance sheet items this whole reading is about. A deferred tax liability, or DTL, arises when income tax expense is higher than taxes payable, and the gap is expected to reverse. The company has paid less tax so far than its income statement implies, and it expects to pay that tax later. So a deferred tax liability means cash going out in the future.
 
-Here are the classic examples. Temporary differences include depreciation, when tax law allows faster depreciation than the straight line method used in the financial statements. They include warranty costs and bad debt expense that are estimated and expensed on the books but deducted for tax only when paid or written off. They include cash received in advance from customers, which tax law may tax on receipt even though the books recognize the revenue later. Tax losses that can be carried forward to reduce future taxable income are not strictly a temporary difference, but they work the same way and create a deferred tax asset.
+LEWIS: A deferred tax asset, or DTA, is the mirror image. It arises when taxes payable are higher than income tax expense, and that gap is expected to reverse. The company has paid more tax so far than its income statement implies, and it expects to get that benefit back as lower tax in the future. A tax loss carryforward can create one too.
 
-Permanent differences include interest income that is exempt from tax, such as interest on many U.S. municipal bonds. They include fines and penalties that tax law never allows as deductions. And they include tax credits that reduce the tax bill directly.
+HEART: Two more reporting terms. The carrying value is the net amount at which an asset or a liability sits on the balance sheet. And a valuation allowance is a reduction of deferred tax assets, for the chance that the company never gets to use them. That one gets real attention in Module 35.2.
 
-Now a worked example with round numbers. Think of every figure as thousands of dollars. A company earns 1,000 a year before depreciation and taxes, for two years, and it buys a machine for 400 with a two year life and no salvage value. On its books it uses straight line depreciation of 200 each year, while for tax it deducts 300 in year one and 100 in year two. The tax rate is 25 percent, and there are no other differences.
+LEWIS: So where do the differences come from? Revenue or expenses can land in different periods on the two documents. Some items show up on one document and never on the other. An asset or a liability can have one value on the balance sheet and a different tax base. Gains and losses can be recognized at different times. Past tax losses can shelter future taxable income. And adjustments in the financial statements may never touch the tax return, or touch it in another period.
 
-Year one. Accounting profit is 1,000 minus 200 of book depreciation, or 800. Taxable income is 1,000 minus 300 of tax depreciation, or 700. Taxes payable are 25 percent of 700, which is 175. Income tax expense is 25 percent of the 800 of accounting profit, which is 200. The gap of 25 is the increase in the deferred tax liability, and the equation confirms it, because 175 plus 25 gives 200.
+HEART: All of those fall into two bins, and sorting them is the core skill. A temporary difference is a difference in timing. The same total amount passes through the income statement and the tax return over the life of the item, just in different years. A permanent difference never reverses. The item counts on one document and simply never counts on the other.
 
-Year two. Book depreciation is still 200, so accounting profit is again 800. Tax depreciation drops to 100, so taxable income rises to 900, and taxes payable are 225. Income tax expense is still 200. The deferred tax liability falls by 25, back to zero, and the equation still works, because 225 minus 25 gives 200.
+LEWIS: More formally, a temporary difference is a gap between an item's carrying value and its tax base that will produce taxable or deductible amounts in future years. Of the two bins, only temporary differences create deferred tax assets and liabilities. Permanent differences create none.
 
-Across both years, taxes payable total 400 and income tax expense totals 400. That is what temporary means. The company did not save any tax. It postponed 25 of tax by one year.
+HEART: Now the story. The brewery buys a set of new steel tanks. On its financial statements, it spreads the cost evenly over the years the tanks will actually be in service. That is straight line depreciation. But tax law lets it deduct the tanks much faster, with big deductions in the early years and small ones later. That is accelerated depreciation.
 
-Now the mirror image, from warranties. A company sells products with a one year warranty. This year it expenses 100 of estimated warranty costs on its books, but it pays no claims until next year, and tax law allows the deduction only when claims are paid. Accounting profit after the warranty expense is 1,000. Taxable income adds back the 100, so it is 1,100. At a 25 percent rate, taxes payable are 275, while income tax expense is 25 percent of 1,000, or 250.
+LEWIS: So in the early years, the tax return shows more depreciation than the income statement. More deductions means taxable income comes in below accounting profit. The brewery pays less tax now than its income statement suggests.
 
-This time the company has paid 25 more than its income statement shows, and it will get that back next year when the claims are paid and deducted. That 25 is a deferred tax asset. The equation agrees, because 275 of taxes payable minus a 25 increase in the deferred tax asset gives 250 of income tax expense.
+HEART: But the total cost of the tanks is the same on both documents. Once the big tax deductions are used up, the tax return has only small deductions left, while the income statement keeps charging its even slice every year. Now taxable income runs above accounting profit, and the brewery pays more tax than its income statement shows. The gap reverses.
 
-Notice the direction rule hidden in these examples. When taxable income is below accounting profit because of a temporary difference, the company builds a deferred tax liability. When taxable income is above accounting profit because of a temporary difference, the company builds a deferred tax asset. Notice also that in the machine example, income tax expense stayed smooth at 200 while taxes payable jumped from 175 to 225. Lining up tax expense with reported profit is the whole point of deferred tax accounting.
+LEWIS: That is the classic deferred tax liability. The brewery did not save any tax. It postponed it. Paying less now while knowing it will pay more later is exactly what makes it a liability. This kind of gap is called a taxable temporary difference, because when it reverses, the company pays more tax.
 
-Here is the second trap. A question may describe a difference and ask whether it creates a deferred tax item. Ask yourself whether it will reverse. Tax exempt interest never becomes taxable, so it is permanent and creates nothing on the balance sheet. Accelerated tax depreciation reverses once book depreciation catches up, so it is temporary. The tempting wrong answer treats every difference between the two profit numbers as a deferred tax item, and that is only true for the ones that reverse.
+HEART: Notice what the liability does to the income statement. Income tax expense follows the accounting profit, so it stays smooth while the actual tax bill starts low and then climbs. The deferred tax liability absorbs the gap, growing while the tax bill is low and shrinking while it is high.
 
-So the rule to carry out of Module 35.1 is the equation. Income tax expense equals taxes payable, plus the increase in the deferred tax liability, minus the increase in the deferred tax asset. And only temporary differences feed the deferred tax pieces of that equation.
+LEWIS: The general rule for liabilities. You get a DTL when revenue or a gain reaches the income statement before it reaches the tax return, or when an expense or a loss is deductible for tax before it reaches the income statement. Accelerated tax depreciation is the second kind, and it is by far the most common source.
+
+HEART: Now the mirror story. A gym sells annual memberships, and members pay for the whole year up front. Suppose the tax law where the gym operates taxes that cash when it arrives. On the income statement, though, the gym earns the revenue month by month as members actually come in to work out. So at first, taxable income is above accounting profit, and the gym pays tax ahead of its income statement.
+
+LEWIS: As the year goes on, the income statement catches up, but that revenue has already been taxed, so it adds nothing more to future taxable income. The gym got ahead on tax, and it gets the benefit back later. That is a deferred tax asset. This kind of gap is called a deductible temporary difference, because it reduces taxable income or tax in the future.
+
+HEART: The general rule for assets. You get a DTA when revenue or a gain is taxed before it reaches the income statement, when an expense or a loss reaches the income statement before it is deductible, or when the company has tax loss carryforwards to apply. Typical sources are unearned revenue like the gym's, warranty costs, post employment benefits and loss carryforwards.
+
+LEWIS: Here is the shortcut for direction. Look at the year the difference starts. If taxable income starts out below accounting profit, you get a deferred tax liability. If taxable income starts out above accounting profit, you get a deferred tax asset. Pay less now, owe it later. Pay more now, get it back later.
+
+HEART: There is a second way to see the same thing, from the balance sheet. Compare each asset's carrying value with its tax base. For the tanks, the carrying value is cost minus the depreciation charged on the books. The tax base is cost minus the depreciation already deducted for tax, which is the amount still left to deduct on future returns. Because tax depreciation ran ahead, the carrying value sits above the tax base. An asset carried above its tax base gives a deferred tax liability. An asset carried below its tax base gives a deferred tax asset.
+
+LEWIS: Liabilities flip. A liability carried above its tax base gives a deferred tax asset. Think of an obligation already charged as an expense on the books, whose tax deduction still lies ahead. A liability carried below its tax base gives a deferred tax liability.
+
+HEART: Here is a way to hear all four cases at once. When the book number is bigger than the tax base, the deferred tax item is the opposite type. A bigger asset gives a liability, and a bigger liability gives an asset. When the book number is smaller, the deferred tax item is the same type.
+
+LEWIS: And the size of the balance? It is the gap between carrying value and tax base, multiplied by the tax rate.
+
+HEART: Now the permanent differences. They come in three flavors. Revenue that is never taxed, like interest on many US municipal bonds. Expenses that are never deductible. In many countries, a fine paid to a regulator is the classic case. And tax credits, which cut the tax bill directly instead of reducing taxable income.
+
+LEWIS: None of those will ever reverse, so there is nothing to defer and no deferred tax item. What they do instead is push the effective tax rate away from the statutory rate. Tax free interest pulls the effective rate down. A fine that can never be deducted pushes it up. Those rates are the subject of Module 35.3.
+
+HEART: Here is the trap. A question describes some gap between the two profit numbers and asks whether it creates a deferred tax asset, a deferred tax liability or neither. Ask one question first. Will it reverse? Tax free interest never becomes taxable, so the answer is neither. The tempting wrong answer treats every gap between book and tax as a deferred tax item.
+
+LEWIS: Now the relationship that ties the reading together. In words, income tax expense equals taxes payable, plus the increase in deferred tax liabilities, minus the increase in deferred tax assets. The net change in deferred taxes is called the deferred tax expense.
+
+HEART: So follow the directions. A new or growing deferred tax liability adds to income tax expense, because the company is charging tax now that it will pay later. A new or growing deferred tax asset reduces income tax expense, because the company has paid tax now that it will get back later. The accrual idea explains why. The company's actions this period created those future tax effects, so this period's expense carries them.
+
+LEWIS: And it runs in reverse too. When a deferred tax liability shrinks, the company is paying tax that it already charged as an expense in earlier years, so income tax expense comes in below taxes payable.
+
+HEART: Last idea in this module, a change in the tax rate. A deferred tax balance starts out at the statutory rate in effect when the difference arises. But it has to run back down to zero as the difference reverses, so it should reflect the rate expected when that reversal happens. When the enacted rate changes, every existing deferred tax asset and liability is remeasured.
+
+LEWIS: The direction is the same for both. A higher rate makes both deferred tax assets and deferred tax liabilities bigger. A lower rate makes both smaller. Think about what each one is. A deferred tax liability is tax you will pay later, so a lower future rate means less to pay. A deferred tax asset is tax you will save later, and a saving at a lower rate is worth less.
+
+HEART: And like any other change in those balances, the remeasurement runs through income tax expense in the year of the change. Picture a rate cut. A company with a big net deferred tax liability sees that liability shrink, its income tax expense falls, and net income gets a one time lift. A company with a big net deferred tax asset sees the asset shrink, its income tax expense rises, and net income takes a one time hit.
+
+LEWIS: That really happened. In December twenty seventeen, the United States passed a law cutting its federal corporate tax rate from the start of the next year. Several large banks with big net deferred tax assets took sizable one time charges in that same quarter, while companies with big net deferred tax liabilities booked one time gains. The balances move when the new rate is enacted, not when it starts to apply. A rate increase works the other way round.
+
+HEART: Here is the trap. A tax cut is good news for future cash taxes, but it is not automatically good news for this year's reported earnings. The direction depends on whether the company's deferred taxes add up to a net liability or a net asset.
+
+LEWIS: The takeaway. Temporary differences reverse and create deferred tax items. Pay less tax now and you have a deferred tax liability, pay more now and you have a deferred tax asset. Permanent differences never reverse and create nothing, and a rate change moves both deferred tax assets and liabilities in the same direction as the rate.
 
 ## Module 35.2, Deferred Tax Assets and Liabilities
 
-Module 35.1 looked at deferred taxes through the income statement. This module looks at the same thing through the balance sheet, and then asks how an analyst should treat these balances. A deferred tax liability, or DTL, is tax the company expects to pay in the future, because so far it has paid less tax than its income statement implies, and that gap will reverse. A deferred tax asset, or DTA, is tax the company expects to save in the future, because so far it has paid more tax than its income statement implies, and that gap will reverse too.
+HEART: Module 35.1 named the pieces. This module watches deferred taxes build up and run off, asks when a deferred tax asset is really worth something, and asks how an analyst should treat a deferred tax liability.
 
-The balance sheet view uses one new term, the tax base. The tax base of an asset is the value tax law assigns to it, such as cost minus all the tax depreciation taken so far. The carrying amount is the value in the financial statements. Deferred taxes come from the gap between the two. For an asset, if the carrying amount is above the tax base, the company has already taken extra tax deductions and will get fewer later, so it has a DTL. If the carrying amount is below the tax base, it has a DTA.
+LEWIS: Start with the test for temporary. Add up everything the item ever puts through the income statement, and everything it ever puts through the tax return. If those lifetime totals match, the difference is temporary, and only the year by year pattern differs.
 
-For a liability, the logic flips. A liability carried on the books above its tax base creates a DTA, because the related tax deduction is still to come. A liability carried below its tax base creates a DTL. You do not need to memorize four cases. Just ask whether the item will make future taxable income higher than future accounting profit, which means a DTL, or lower, which means a DTA.
+HEART: Run the brewery's tanks through their life. In the early years, tax depreciation beats book depreciation every year, so the gap between carrying value and tax base widens and the deferred tax liability grows. Each year's growth adds to income tax expense.
 
-Apply that to the machine. At the end of year one, the carrying amount is 400 minus 200 of book depreciation, or 200. The tax base is 400 minus 300 of tax depreciation, or 100. The carrying amount is 100 above the tax base. Multiply by the 25 percent tax rate and you get a DTL of 25, the same number the income statement view gave. At the end of year two, both values are zero, so the liability is gone.
+LEWIS: Then the tax deductions shrink below the book charge. Now the gap narrows every year. The deferred tax liability shrinks, and each year's shrinkage holds income tax expense below the actual tax bill. Once the tanks are fully depreciated on both sets of books, carrying value and tax base are both zero and the liability is gone.
 
-Now the warranty case from the balance sheet angle. The warranty liability on the books has a carrying amount of 100. Its tax base is zero, because tax law will allow the whole 100 as a deduction when the claims are paid. A liability above its tax base creates a DTA, and 100 times 25 percent gives 25, matching the income statement view.
+HEART: Now a deferred tax asset that comes from a liability. A manufacturer promises its workers health coverage in retirement. Under the reporting standards, it charges the cost year by year as workers earn the benefit, and a liability builds on the balance sheet. Tax law gives no deduction until the company actually pays those bills, perhaps decades later.
 
-Other common sources of deferred tax assets follow the same pattern, including bad debt expense estimated before accounts are written off, asset write downs that tax law often ignores until the asset is sold, and accrued employee benefits that are deductible only when paid. Tax loss carryforwards deserve a moment. If a company loses money, tax law usually lets it use that loss to reduce taxable income in future years. The future tax saving is an asset today, equal to the loss times the tax rate, but only if the company later earns enough taxable profit to use it.
+LEWIS: So the income statement carries an expense that the tax return does not yet recognize. Taxable income runs above accounting profit, and the company pays tax ahead of its books. On the balance sheet, the benefit obligation has a carrying value, but its tax base is zero, because every dollar of it is still to be deducted on future returns. A liability carried above its tax base, so a deferred tax asset.
 
-That condition leads to the valuation allowance, and this is where IFRS and U.S. GAAP differ in a testable way. Under U.S. GAAP, the company records the full DTA, then reduces it with a contra account called a valuation allowance if it is more likely than not, meaning a likelihood above 50 percent, that some of the asset will not be realized. Under IFRS there is no separate allowance account. The company recognizes a DTA only to the extent it is probable that future taxable profit will be available to use it. The economic idea is the same in both, since a deferred tax asset is only worth something if future profits exist.
+HEART: Warranties work the same way. Matching means a company has to book the expected cost of repairs when it makes the sale, and a warranty liability goes on the balance sheet. Tax authorities will not let a company save tax on a guess about future repairs, so the deduction waits until the repair money is actually spent.
 
-Work through the effect with round numbers. A company loses 400 this year, and the tax rate is 25 percent. The loss carryforward supports a DTA of 100, which shows up as a tax benefit of 100 that shrinks the reported loss. Now suppose management concludes, under U.S. GAAP, that it is more likely than not that only half the loss will ever be used.
+LEWIS: Revenue received in advance, like the gym's memberships, has its own rule for working out the tax base, but it lands in the same place, a deferred tax asset.
 
-So it records a valuation allowance of 50. The net DTA falls to 50, the reported tax benefit falls to 50, and the net loss is larger. Increasing a valuation allowance raises income tax expense and lowers net income. Releasing it does the reverse.
+HEART: Now a point that surprises people. Deferred tax liabilities and deferred tax assets are not discounted to their present value. A tax payment expected twenty years from now sits on the balance sheet at its full amount, as if it were due next year. Keep that in mind when you judge what these balances are really worth.
 
-Here is the trap, and it is a favorite. The valuation allowance rests on management's judgment about future profits, so changes in it can be used to manage earnings. Releasing an allowance in a weak year lifts net income without any change in the underlying business. So when you see a large change in the valuation allowance, ask whether it fits the company's actual outlook. An increasing allowance tells you management expects lower future profits. A sudden release tells you management has become more optimistic, or wants the year to look better.
+LEWIS: That brings us to whether a deferred tax asset will ever pay off. A deferred tax asset is a future tax saving, and you can only save tax if you have taxable income to save it on. So at every balance sheet date, the company has to assess whether it will earn enough future taxable profit to use its deferred tax assets. If those profits never come, the asset is worth nothing.
 
-Now the analyst's question about deferred tax liabilities. Is a DTL really debt? The answer depends on whether it will reverse. If it is expected to reverse, meaning the company will actually pay the tax, treat it as a liability. If it is not expected to reverse, treat it as equity. If the timing and amount are too uncertain to judge, some analysts simply exclude it from both liabilities and equity.
+HEART: Picture an electric scooter startup that has lost money for four years running. Those losses become tax loss carryforwards, and on paper they are a deferred tax asset, a future tax saving. But the saving only arrives if the startup someday earns taxable profits. If that looks doubtful, the asset is overstated.
 
-The classic case of a DTL that never reverses is a growing company that keeps buying new equipment. Each new machine creates fresh accelerated deductions that offset the reversals on older machines, so the total DTL keeps rising and never comes due as a group. One more fact supports this skepticism. Deferred taxes are not discounted to present value, so a liability that will not be paid for many years is worth less today than its stated amount.
+LEWIS: When the doubt is real, both IFRS and US GAAP require the company to show the reduced value. The mechanics differ. Under US GAAP, the company keeps the full deferred tax asset on the books and sets a valuation allowance against it. The allowance is a contra account, a negative line that reduces the asset to its net value. The test is whether it is more likely than not that some or all of the asset will not be realized.
 
-Reclassifying matters for ratios. Moving a DTL out of liabilities and into equity lowers the debt to equity ratio, so the company looks less leveraged. The same skepticism applies to deferred tax assets. If future profits look doubtful, an analyst may reduce or exclude them even if management has not. In bank capital work, this is why regulators deduct certain deferred tax assets from regulatory capital, since their value depends on future profits that a troubled bank may never earn. As a final housekeeping point, both IFRS and U.S. GAAP present deferred tax assets and liabilities as noncurrent.
+HEART: Under IFRS there is no valuation allowance. The company simply carries a smaller deferred tax asset, only the part it expects to recover. The bookkeeping differs, but the net asset comes out the same. Either way, the reduction runs through income tax expense.
 
-Here is the rule to keep from Module 35.2. Pay less tax now than the income statement implies, and you will owe it later, which is a deferred tax liability. Pay more tax now than the income statement implies, and you will recover it later, which is a deferred tax asset. And a deferred tax asset is only as good as the future profits that will use it.
+LEWIS: So the directions. Creating or increasing a valuation allowance raises income tax expense and lowers net income. Reducing or releasing it lowers income tax expense and raises net income.
+
+HEART: Who decides? Management, and management has to defend the value of every deferred tax asset. Evidence of future taxable income supports keeping the asset, such as a strong order backlog or signed contracts that will generate taxable profit. Evidence against it includes cumulative losses over the last few years, or a track record of failing to use tax loss carryforwards. The scooter startup, with its string of losses, is the classic case for cutting the asset.
+
+LEWIS: Here is the trap, and it is a favorite. Because the allowance rests on management's view of future profits, it can be used to manage earnings. Release part of the allowance in a weak year and net income rises with nothing changing in the business. So a big swing in the allowance deserves a question. Does it fit what you can see of the company's actual prospects?
+
+HEART: And read the signal. A rising allowance says management expects less future taxable income. A falling allowance says management now expects more, or would like this year to look better.
+
+LEWIS: Here is IFRS versus US GAAP presentation in one place. US GAAP shows the gross deferred tax asset with a separate valuation allowance against it. IFRS requires the company to recognize only the part it expects to recover, so there is no allowance line to look for. Both frameworks show deferred tax assets and liabilities as noncurrent on the balance sheet. And when tax rates change, US GAAP applies rates that are enacted into law, while IFRS applies rates that are enacted or substantively enacted, meaning only formal steps remain.
+
+HEART: Now the analyst's question. Is a deferred tax liability really a liability? It depends on whether it will reverse. If you expect it to reverse, meaning the company will actually pay that tax, treat it as a liability. If you do not expect it to reverse in the foreseeable future, treat it as equity. You take it out of liabilities and add the same amount to equity. And if both the timing and the amount of any reversal are too uncertain to call, some analysts leave it out of debt and equity altogether.
+
+LEWIS: Why would it never reverse? Go back to the brewery, but make it a growing brewery that buys new tanks every year, and more each year than the last. The old tanks' differences start to reverse, but the new tanks bring fresh, fast tax deductions that more than offset them. Each tank's own difference reverses, yet the total deferred tax liability keeps growing and never comes due as a group.
+
+HEART: So do not ask whether each tank's gap reverses. Ask whether the company's total deferred tax liability will ever shrink, and when. Continued growth in capital spending is the usual reason it does not. Analysts do not all handle this the same way, so judge each company on its own facts.
+
+LEWIS: Moving a deferred tax liability into equity changes the ratios. Liabilities fall and equity rises, so the debt to equity ratio drops and the company looks less leveraged.
+
+HEART: Bank regulators show the same skepticism, aimed at assets. Bank capital rules deduct some deferred tax assets from regulatory capital, especially ones that depend on future profits, like loss carryforwards. A troubled bank is exactly the one that may never earn the profits needed to use them.
+
+LEWIS: The takeaway. Deferred tax balances build while a temporary difference grows and run off as it reverses, and they are never discounted. A deferred tax asset is only as good as the future taxable profits that will use it, reduced through a valuation allowance under US GAAP or directly under IFRS. And a deferred tax liability that will never reverse behaves more like equity than like debt.
 
 ## Module 35.3, Tax Rates and Disclosures
 
-Three tax rates appear on the exam, and each answers a different question. The statutory tax rate is the rate set by law in the company's home jurisdiction. It tells you what the company would pay on each dollar of profit if nothing special applied. The effective tax rate equals income tax expense divided by pretax income. It tells you what share of reported profit the income statement charges for tax. The cash tax rate equals cash taxes paid divided by pretax income, and it tells you what share of reported profit actually left the company as tax.
+HEART: Three tax rates, three questions. The statutory tax rate is the corporate income tax rate set by law where the company is domiciled, meaning where it is legally based. It is what the company would pay on each dollar of profit if nothing special applied.
 
-Each gap between these rates has typical causes. Permanent differences, different tax rates in foreign countries, tax credits, changes in the valuation allowance and changes in tax rates push the effective rate away from the statutory rate. Temporary differences, together with the timing of tax payments, push the cash rate away from the effective rate. Hold onto that split. Permanent items move the effective rate. Temporary items move the cash rate.
+LEWIS: The effective tax rate is income tax expense divided by pre tax income. It is the share of reported profit that the income statement charges for tax. The cash tax rate is cash taxes actually paid divided by pre tax income. It is the share of reported profit that really went out the door as tax. Notice that both share the same denominator, pre tax income from the income statement.
 
-A worked example puts all three rates side by side. A company reports pretax income of 1,000, which includes 100 of tax exempt interest. Its tax depreciation also exceeds its book depreciation by 200. The statutory rate is 25 percent, and the company pays its taxes in full during the year, so cash taxes paid equal taxes payable. Taxable income is 1,000 minus the 100 of exempt interest minus the extra 200 of depreciation, or 700. Taxes payable are 25 percent of 700, which is 175, and that is also the cash paid.
+HEART: Think of a restaurant bill. The menu price is the statutory rate. What the receipt says you were charged, after a coupon, is the effective rate. And what actually left your card tonight, with part of the bill put on a tab you will settle next month, is the cash rate.
 
-Now income tax expense. The temporary difference of 200 increases the DTL by 25 percent of 200, which is 50. Using the equation, income tax expense equals 175 plus 50, or 225. You can also get there directly by taking 25 percent of pretax income after removing the permanent difference, so 25 percent of 900, which is 225.
+LEWIS: So what pushes the effective rate away from the statutory rate? Four things. Profits earned in countries with different tax rates. Permanent differences, which include tax credits, tax exempt income, expenses that are never deductible, and capital gains taxed at a different rate from operating income. Changes in tax rates and tax law. And tax holidays, where a country waives or cuts tax for a period to attract investment.
 
-So the statutory rate is 25 percent. The effective rate is 225 divided by 1,000, or 22.5 percent. The cash rate is 175 divided by 1,000, or 17.5 percent. The 2.5 point gap between the statutory and effective rates comes entirely from the exempt interest. The 5 point gap between the effective and cash rates comes entirely from the depreciation difference.
+HEART: And what typically does not move it? Temporary differences. Accelerated depreciation changes when the tax is paid, so it moves the cash rate. But income tax expense already includes the deferred part, so the effective rate stays put. Hold onto that split. Permanent items, foreign rates, tax holidays and rate changes open a gap between the statutory rate and the effective rate. Temporary items open a gap between the effective rate and the cash rate.
 
-That example points to the effective tax rate reconciliation, which companies disclose in the tax note. It starts with tax at the statutory rate, shown either as a percentage or as an amount, and walks item by item to the effective rate. For our company it would start at 250, which is 25 percent of 1,000, subtract 25 for the tax exempt interest, and land on income tax expense of 225. Notice what is missing. The depreciation difference does not appear, because a temporary difference changes when tax is paid, not how much total expense is recognized.
+LEWIS: Here is the trap. An answer choice says a timing difference, such as accelerated depreciation, explains why the effective rate is below the statutory rate. Be suspicious. Unless tax rates change, a temporary difference shifts tax between the current and deferred parts of the expense, but it leaves the total expense alone.
 
-Here is the trap. If an answer choice says a temporary difference explains the gap between the statutory and effective rates, be suspicious. Unless tax rates change, it does not. Temporary differences shift tax between the current and deferred parts of the expense, but they leave the total expense alone.
+HEART: Companies must disclose a reconciliation in the tax note. It starts from the statutory rate, or the tax that rate would produce on pre tax income, and walks item by item to the effective rate. Foreign rate differences, tax exempt income, nondeductible expenses, rate changes, one time items and so on.
 
-The analyst's main use of the reconciliation is forecasting. Sort each reconciling item into recurring or one time. Profits earned in lower tax countries may persist, although they carry the risk of changes in tax law or in where the company earns its money. A valuation allowance release, a settlement with a tax authority or the effect of a rate change will not repeat. Trends matter too. An effective rate that drifts down year after year deserves an explanation, and comparing rates across peers in the same industry shows whether a company's tax position is unusual.
+LEWIS: The analyst relies on it to forecast earnings and cash flow. For each item, ask three things. How much does it matter? Which way has it been moving? Will it still be there next year? Then sort the items into continuous and sporadic.
 
-Here is a quick example. A company's statutory rate is 25 percent and its effective rate is 18 percent. The reconciliation shows 4 percentage points from lower foreign tax rates and 3 points from a one time valuation allowance release. For next year, a sensible starting forecast is 25 minus 4, or about 21 percent, not 18. Using the reported 18 percent would overstate future net income.
+HEART: Continuous items keep showing up year after year. Different tax rates on profits earned in other countries, tax exempt income and nondeductible expenses tend to be continuous. Sporadic items come and go. The tax effect of a large asset sale is sporadic. So are savings from a tax holiday, because holidays end. When you study the trend in a company's tax rate, or forecast next year's, lean on the continuous items.
 
-The other key disclosure is the breakdown of deferred tax assets and liabilities by source. A typical note lists items such as depreciation, warranty reserves, employee benefits and tax loss carryforwards, and it shows the valuation allowance. Read it for three things. First, which items drive the balances, which tells you whether a large DTL comes from steadily growing capital spending and may never reverse. Second, how much of the deferred tax assets rest on loss carryforwards, which depend on future profits and may expire. Third, what future cash taxes will look like when the differences reverse.
+LEWIS: Picture a sneaker company whose effective rate has sat well below the statutory rate. The reconciliation shows two reasons. Much of its profit comes from a factory in a country with a lower tax rate, and this year it also got a one time benefit when a dispute with a tax authority was settled. The lower foreign rate is likely to persist, so it belongs in the forecast. The settlement will not repeat, so leave it out. If you plug in this year's reported rate unchanged, you would understate next year's tax and overstate next year's earnings.
 
-The tax note also splits income tax expense into its current and deferred parts. Income taxes paid are disclosed on or alongside the cash flow statement, so you can compute the cash tax rate yourself. A cash tax rate that sits well below the effective rate for many years often signals a growing DTL, which brings you back to the question of whether that liability will ever be paid.
+HEART: Watch the fine print on tax holidays in particular. Look for the date a holiday ends, and for any clause that makes the company pay the skipped taxes later on. Read the management discussion and analysis along with the notes. And when special items swing widely from year to year, forecasting the effective rate gets hard, and comparing the company with its peers gets harder.
 
-Now, what happens when the tax rate changes. Deferred tax assets and liabilities are measured at the rate expected to apply when they reverse. U.S. GAAP uses enacted rates, and IFRS uses rates that are enacted or substantively enacted. When the rate changes under those rules, the company remeasures its existing deferred tax balances, and the adjustment generally flows through income tax expense in that period.
+LEWIS: Now the deferred tax disclosures. Companies must show the sources of the temporary differences behind their deferred tax assets and liabilities. A handful of sources come up again and again, and each one has a story.
 
-The direction is simple. A DTL is future tax owed, so a lower rate shrinks it. A DTA is a future tax saving, so a lower rate shrinks it too.
+HEART: Accelerated depreciation for tax with straight line on the books creates a deferred tax liability. To judge whether it will ever reverse, look at the company's growth rate and its capital spending. That is the growing brewery again.
 
-Here are round numbers. A company has a DTL of 250 at a 25 percent rate, which implies an underlying temporary difference of 1,000. The rate falls to 20 percent. The liability becomes 20 percent of 1,000, or 200. The 50 reduction lowers income tax expense and raises net income by 50 in the year of the change. It also lowers liabilities and raises equity, so leverage ratios improve.
+LEWIS: Impairments usually create a deferred tax asset. The loss lands on the income statement as soon as the asset is judged impaired, but the tax return usually waits for a sale or disposal before it allows the deduction.
 
-Now flip it. A company with a DTA of 100 at 25 percent has a temporary difference of 400. At 20 percent, the asset becomes 80. That 20 write down raises income tax expense and lowers net income.
+HEART: Restructuring creates a deferred tax asset. The charge lands on the income statement when the plan is announced, while the tax deduction waits until the money is actually spent. That also tells you something about cash. A big restructuring charge this year usually signals heavy spending over the next few years, cushioned by the tax deductions as those bills are paid.
 
-So a tax cut helps reported earnings for a company with a net deferred tax liability and hurts a company with a net deferred tax asset. A tax increase does the opposite. When a U.S. law passed in late 2017 cut the federal corporate rate from 35 to 21 percent, some large banks with big net deferred tax asset positions booked sizable one time charges that reduced their equity.
+LEWIS: Inventory is a special case. LIFO means last in, first out. In the United States, the LIFO conformity rule says a company that uses LIFO for tax must also report it in its financial statements. And since the tax saving is the main reason to choose LIFO, a US company that reports LIFO is almost always using it for tax as well. Either way, the two match, so LIFO creates no temporary difference there. In countries without that rule, choosing one inventory method for the books and another for tax can create one.
 
-The trap here is assuming that a tax cut is always good news for this year's earnings. It is good news for future cash taxes. But this year's reported effect depends on whether the company's deferred tax position is a net liability or a net asset. And when you build a forecast, treat these remeasurement effects as one time items.
+HEART: Post employment benefits and deferred compensation follow the retiree health pattern. The books charge them as employees earn them, the tax return deducts them when the money goes out, and the deferred tax asset unwinds as those payments are made.
 
-So the formulas to keep from Module 35.3 are these. The effective tax rate equals income tax expense divided by pretax income. The cash tax rate equals cash taxes paid divided by pretax income. Permanent differences explain the gap between the statutory and effective rates, and temporary differences explain the gap between the effective and cash rates.
+LEWIS: And one that goes around the income statement. Some investment securities, called available for sale, have their unrealized gains and losses taken straight to equity instead of through profit. The gain will only be taxed when the securities are sold, so an unrealized gain still creates a deferred tax liability on the balance sheet, and an unrealized loss can create a deferred tax asset. But the tax effect is booked in equity, right alongside the gain or loss, so it never passes through income tax expense.
+
+HEART: Beyond the sources, the note typically shows the deferred tax assets and liabilities, any valuation allowance, and how much that allowance changed during the year. It shows any deferred tax liability the company has not recognized on profits kept inside subsidiaries and joint ventures. And it shows the current year tax effect of each type of temporary difference, the components of income tax expense, the reconciliation to the statutory rate, and the tax loss carryforwards and credits still available.
+
+LEWIS: That unrecognized liability deserves a word. When profits stay inside a subsidiary, often abroad, and the parent plans to keep them there, the parent may not book the tax that would come due if those profits were paid up to it. Bring the money home, and that tax can become real.
+
+HEART: So how do you read the note? Start with the components of income tax expense. A deferred part that stays positive year after year means the reported tax charge keeps running above the actual bill, because deferred tax liabilities are outgrowing deferred tax assets. Then ask whether that liability will ever be paid, or whether it is really the growing brewery.
+
+LEWIS: Next, check the valuation allowance. If it shrank, that release made this year's tax charge smaller and earnings bigger. It also means management has grown more confident that there will be taxable profits to absorb its deferred tax assets. Ask whether the business supports that optimism.
+
+HEART: Then look at the mix of deferred tax assets. The more of them that rest on loss carryforwards, the more they depend on future profits, and in many places carryforwards expire if they go unused.
+
+LEWIS: Finally, think about the ratios. A valuation allowance release lifts net income and return on equity without any change in operations. Treating a deferred tax liability as equity lowers leverage ratios. And a cash tax rate that stays well below the effective rate for years points to a deferred tax liability that keeps growing, which brings you back to whether it will ever reverse.
+
+HEART: The takeaway. The effective rate is income tax expense divided by pre tax income, and the cash rate is cash taxes paid divided by pre tax income. Permanent differences, foreign rates, tax holidays and rate changes pull the effective rate away from the statutory rate, while temporary differences pull the cash rate away from the effective rate. Forecast from the continuous items, and read the deferred tax note for what will reverse, what may never reverse, and what depends on future profits.
 
 ## Recall check
 
-Q: A company accrues warranty expense when it sells a product, but tax law allows the deduction only when warranty claims are paid. Does this create a deferred tax asset or a deferred tax liability?
+LEWIS Q: Taxes payable and income tax expense sound alike. Which one comes from the tax return, and what links the two?
 
-Answer: A deferred tax asset. In the year of the sale, taxable income is higher than accounting profit, so the company pays more tax now than its income statement shows. It recovers that tax later, when the claims are paid and become deductible.
+HEART: Answer. Taxes payable comes from the tax return, and the change in deferred taxes links it to income tax expense. Here is why. Taxes payable is the tax owed on this period's taxable income. Income tax expense is the income statement figure, and it equals taxes payable plus the increase in deferred tax liabilities minus the increase in deferred tax assets. When deferred tax balances do not change, the two match.
 
-Q: A company reports taxes payable of 300. During the year its deferred tax liability rises by 40 and its deferred tax asset rises by 10. What is its income tax expense?
+HEART Q: A company earns interest that will never be taxed. Does it create a deferred tax asset, a deferred tax liability or neither?
 
-Answer: 330. Income tax expense equals taxes payable plus the increase in the deferred tax liability minus the increase in the deferred tax asset, so 300 plus 40 minus 10. The rising liability adds to the expense, and the rising asset subtracts from it.
+LEWIS: Answer. Neither, because it is a permanent difference. Here is why. Deferred tax items exist only for differences that reverse. Tax exempt interest counts in accounting profit but will never appear in taxable income, so there is nothing to catch up later. Instead, it pulls the effective tax rate below the statutory rate.
 
-Q: Which of these is most likely a permanent difference: depreciation that is faster for tax than for the books, interest income that is exempt from tax, or bad debt expense that is deducted for tax only when accounts are written off?
+LEWIS Q: Tax law lets a company deduct a machine faster than the books depreciate it. Is taxable income above or below accounting profit at first, and what deferred tax item results?
 
-Answer: The tax exempt interest. It is included in accounting profit but will never be taxed, so it never reverses and creates no deferred tax, and it pulls the effective tax rate below the statutory rate. The other two are timing differences that reverse, so they are temporary.
+HEART: Answer. Below, and the result is a deferred tax liability. Here is why. Bigger tax deductions early mean less taxable income, and less tax paid now than the income statement implies. Total depreciation over the machine's life is the same on both documents, so the gap reverses later, when the company pays more tax. Owing that tax later is the liability.
 
-Q: Under U.S. GAAP, a company increases the valuation allowance on its deferred tax assets. What is the most likely effect on income tax expense and net income?
+HEART Q: A company charges retiree benefit costs as workers earn them, but tax law gives the deduction only when the benefits are paid. Which deferred tax item builds up, and is the liability's carrying value above or below its tax base?
 
-Answer: Income tax expense rises and net income falls. The larger allowance reduces the net deferred tax asset, and that reduction is charged through income tax expense. It also signals that management expects less future taxable profit.
+LEWIS: Answer. A deferred tax asset, and the carrying value is above the tax base. Here is why. The expense hits the income statement now but reduces taxable income only later, so the company pays tax ahead of its books and will get that back. On the balance sheet, the benefit obligation has a carrying value but a tax base of zero, and a liability carried above its tax base gives a deferred tax asset.
 
-Q: A country cuts its corporate tax rate. Company A has a large net deferred tax liability, and Company B has a large net deferred tax asset. Which company most likely reports a one time increase in net income?
+LEWIS Q: In one year, a company's deferred tax liability grows and its deferred tax asset does not change. Is income tax expense above or below taxes payable?
 
-Answer: Company A. Its deferred tax liability is remeasured at the lower rate, so the liability shrinks and income tax expense falls. Company B's deferred tax asset shrinks too, which raises its income tax expense and lowers its net income.
+HEART: Answer. Above. Here is why. Income tax expense equals taxes payable plus the increase in deferred tax liabilities minus the increase in deferred tax assets. A growing liability means the company is charging tax this year that it will pay in later years, so the expense exceeds this year's bill.
 
-Q: A company has pretax income of 2,000, income tax expense of 400 and cash taxes paid of 300. What are its effective tax rate and its cash tax rate?
+HEART Q: The corporate tax rate is cut. Company A has a large net deferred tax liability, and Company B has a large net deferred tax asset. Which one reports a one time boost to net income?
 
-Answer: The effective tax rate is 400 divided by 2,000, or 20 percent. The cash tax rate is 300 divided by 2,000, or 15 percent. The lower cash rate suggests that temporary differences, such as accelerated tax depreciation, or the timing of payments are deferring part of the tax.
+LEWIS: Answer. Company A. Here is why. Deferred tax balances are remeasured at the new rate, and a lower rate shrinks both kinds. Company A's liability shrinks, which reduces income tax expense and lifts net income. Company B's asset shrinks, which raises income tax expense and lowers net income.
 
-## Recap
+LEWIS Q: Under US GAAP, management raises the valuation allowance on its deferred tax assets. What happens to income tax expense and net income, and what does it signal?
 
-Accounting profit comes from the financial statements, and taxable income comes from the tax return. Taxes payable is taxable income times the tax rate, while income tax expense is what the income statement reports. Income tax expense equals taxes payable, plus the increase in the deferred tax liability, minus the increase in the deferred tax asset. Temporary differences reverse and create deferred taxes. Permanent differences never reverse, create no deferred taxes and push the effective rate away from the statutory rate. Paying less tax now than the income statement implies creates a deferred tax liability, as with accelerated tax depreciation, and paying more tax now creates a deferred tax asset, as with warranty accruals and tax loss carryforwards.
+HEART: Answer. Income tax expense rises, net income falls, and it signals that management expects less future taxable income. Here is why. The allowance is a contra account that cuts the net deferred tax asset, and that cut runs through income tax expense. A deferred tax asset is only worth something if there are future taxable profits to use it, so a bigger allowance means management doubts those profits.
 
-Under U.S. GAAP, a valuation allowance reduces deferred tax assets when it is more likely than not that some will not be realized, and raising the allowance raises tax expense. Under IFRS, the asset is recognized only to the extent that future taxable profit is probable. A deferred tax liability that is not expected to reverse is better treated as equity. The effective tax rate is income tax expense divided by pretax income, and the cash tax rate is cash taxes paid divided by pretax income. Finally, a tax rate cut shrinks both deferred tax liabilities and deferred tax assets, which helps reported earnings for a net liability position and hurts them for a net asset position.
+HEART Q: How does IFRS handle a deferred tax asset the company may never be able to use, compared with US GAAP?
+
+LEWIS: Answer. IFRS requires the company to carry only the part it expects to recover, with no valuation allowance, while US GAAP shows the full asset less a valuation allowance. Here is why. Both frameworks require the balance sheet to reflect the reduced value of a doubtful deferred tax asset. US GAAP gets there with a separate contra account under a more likely than not test. IFRS simply recognizes a smaller asset, and the effect on income tax expense and net income is the same.
+
+LEWIS Q: A fast growing company buys more equipment every year, and its deferred tax liability grows every year. How should an analyst treat that liability?
+
+HEART: Answer. As equity, if it is not expected to reverse in the foreseeable future. Here is why. Each machine's difference reverses, but new purchases bring fresh accelerated deductions that more than offset the reversals, so the total never comes due. A liability that will never be paid is not really debt. Moving it from liabilities to equity lowers the company's leverage ratios.
+
+HEART Q: A company's effective tax rate is below its statutory rate. Is accelerated tax depreciation a likely explanation?
+
+LEWIS: Answer. No, not unless tax rates are changing. Here is why. Accelerated depreciation is a temporary difference. It lowers the current tax bill but adds an equal amount of deferred tax expense, so total income tax expense and the effective rate stay put. It shows up in the cash tax rate instead, so look for permanent differences, lower foreign rates, tax holidays or rate changes.
+
+LEWIS Q: When you forecast next year's effective tax rate from the reconciliation, which items do you keep and which do you drop?
+
+HEART: Answer. Keep the continuous items and drop the sporadic ones. Here is why. Items like different tax rates abroad, tax exempt income and nondeductible expenses tend to repeat, so they will shape next year's rate too. Items like the tax effect of a large asset sale, or savings from a tax holiday that is ending, will not recur. Building a forecast on a one time benefit would understate future tax and overstate future earnings.
+
+HEART Q: A company takes a large restructuring charge this year. Which deferred tax item appears, and what does it suggest about future cash flow?
+
+LEWIS: Answer. A deferred tax asset, and big cash outflows in the years ahead. Here is why. The costs hit the income statement when the plan is announced, but they are deductible only when paid, so the company pays tax ahead of its books for now. The actual spending comes later, and those cash outflows are partly cushioned by the tax deductions as the costs are paid.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: Two scorecards. The tax return gives taxes payable, the income statement gives income tax expense, and the bridge is the change in deferred taxes. Expense equals payable, plus the rise in deferred tax liabilities, minus the rise in deferred tax assets.
+
+HEART: Ask one question of every difference. Will it reverse? If yes, it is temporary and creates a deferred tax item. If no, it is permanent, creates nothing, and moves the effective rate.
+
+LEWIS: Pay less now, pay it later, and you have a deferred tax liability. Pay more now, save it later, and you have a deferred tax asset. Faster tax depreciation is the classic liability. Warranties, retiree benefits, revenue received in advance, restructuring, impairments and loss carryforwards are classic assets.
+
+HEART: For the balance sheet grid, when the book number is bigger than the tax base, the deferred item is the opposite type. When the book number is smaller, it is the same type.
+
+LEWIS: A rate change moves both deferred tax assets and liabilities in the same direction as the rate. In a rate cut, net liability companies gain and net asset companies lose.
+
+HEART: A deferred tax asset is only as good as the future profits that will use it. US GAAP keeps the full asset and sets an allowance against it. IFRS simply shows a smaller asset. More allowance means more expense and less income.
+
+LEWIS: A deferred tax liability that never reverses is a bill that never comes due, so treat it as equity. Steady growth in capital spending is the usual reason.
+
+HEART: For the three rates, statutory is the menu price, effective is what the receipt charged, and cash is what left your card. Permanent items open the gap between the menu price and the receipt. Temporary items open the gap between the receipt and what left your card. And forecast from what repeats, not from what happened once.
+
+LEWIS: Now, how you would say the big ideas to a senior leader.
+
+HEART: On deferred taxes: our reported tax charge and our actual tax bill differ because tax rules and accounting rules count some things in different years. Most of that gap is timing, not savings. The jargon is temporary differences, deferred tax liabilities and deferred tax assets.
+
+LEWIS: On tax assets: some future tax savings only count if we earn enough taxable profit to use them, so we write them down when that looks doubtful, a judgment that can swing earnings. The jargon is the valuation allowance and the realization of deferred tax assets.
+
+HEART: On a change in the tax rate: a rate cut shrinks the tax we owe later, which helps this year's earnings, but it also shrinks our future tax savings, which hurts. Our net position decides which wins. The jargon is remeasurement of deferred tax balances at the enacted rate.
+
+LEWIS: On our tax rate: the legal rate, the rate our income statement charges and the cash we pay are three different numbers, and the gaps show what is permanent and what is only timing. The jargon is the statutory, effective and cash tax rates, and the effective tax rate reconciliation.
+
+HEART: And on leverage: if our deferred tax liability keeps growing because we keep investing, it behaves more like equity than debt. The jargon is treating a deferred tax liability that will not reverse as equity.
