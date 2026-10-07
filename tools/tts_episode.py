@@ -75,6 +75,7 @@ def norm(t, header=False):
     t=re.sub(r"\bA(?= (?:and|or|versus|to|is|has|and) [A-Z]\b)", "eigh", t)
     t=t.replace("%"," percent").replace("&"," and ")
     t=re.sub(r"\$([\d,\.]+)",r"\1 dollars",t)
+    t=re.sub(r"(\d)\.(\d)", r"\1 point \2", t)   # module numbers and decimals, so a final period is not read as a pause
     return re.sub(r"\s+"," ",t).strip()
 
 TAG=re.compile(r"^(HEART|LEWIS)( Q)?: (.*)$")

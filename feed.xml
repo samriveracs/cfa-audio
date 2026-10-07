@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Mon, 05 Oct 2026 18:00:25 -0500</lastBuildDate>
+  <lastBuildDate>Tue, 06 Oct 2026 21:14:03 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -59,11 +59,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Quantitative Methods, Kaplan Modules 5.1 to 7.1. 5.1 Probability Models for Portfolio Return and Risk, 6.1 Lognormal Distributions and Simulation Techniques, 7.1 Sampling Techniques and the Central Limit Theorem</description>
     <itunes:summary>Quantitative Methods, Kaplan Modules 5.1 to 7.1. 5.1 Probability Models for Portfolio Return and Risk, 6.1 Lognormal Distributions and Simulation Techniques, 7.1 Sampling Techniques and the Central Limit Theorem</itunes:summary>
-    <content:encoded><![CDATA[<p>Quantitative Methods, Kaplan Modules 5.1 to 7.1.</p><ul><li>Module 5.1, Probability Models for Portfolio Return and Risk</li><li>Module 6.1, Lognormal Distributions and Simulation Techniques</li><li>Module 7.1, Sampling Techniques and the Central Limit Theorem</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>2:03 Module 5.1, Probability Models for Portfolio Return and Risk</li><li>12:18 Module 6.1, Lognormal Distributions and Simulation Techniques</li><li>19:41 Module 7.1, Sampling Techniques and the Central Limit Theorem</li><li>27:11 Recall check</li><li>30:45 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E03.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E03_v2.mp3" length="9693600" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Quantitative Methods, Kaplan Modules 5.1 to 7.1.</p><ul><li>Module 5.1, Probability Models for Portfolio Return and Risk</li><li>Module 6.1, Lognormal Distributions and Simulation Techniques</li><li>Module 7.1, Sampling Techniques and the Central Limit Theorem</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:32 Module 5.1, Probability Models for Portfolio Return and Risk</li><li>14:05 Module 6.1, Lognormal Distributions and Simulation Techniques</li><li>22:59 Module 7.1, Sampling Techniques and the Central Limit Theorem</li><li>35:02 Recall check</li><li>43:19 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E03.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E03_v3.mp3" length="14219107" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e03</guid>
     <pubDate>Sat, 03 Oct 2026 12:03:00 -0500</pubDate>
-    <itunes:duration>1938</itunes:duration>
+    <itunes:duration>2844</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E03.txt" type="text/plain"/>
   </item>
