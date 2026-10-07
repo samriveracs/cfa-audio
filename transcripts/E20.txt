@@ -1,169 +1,273 @@
-## The big picture
-
-A set of financial statements is a wall of large numbers, and a large number on its own says very little. A company with 500 million dollars of receivables might be collecting quickly or slowly. You cannot tell until you set that figure against the sales that created it. Financial ratios do exactly that. They divide one number by another, so that size drops out and the relationship remains.
-
-This episode covers the core ratio toolkit. Module 37.1 sets out the tools of financial analysis, which are ratios, common size statements, comparisons across time and across companies, graphs and regression, along with the limits of all of them. Module 37.2 covers the first two ratio families. Activity ratios show how efficiently a company runs its day to day operations, and liquidity ratios show whether it can meet obligations that come due soon.
-
-Module 37.3 covers solvency ratios, which ask whether the company can carry its debt over the long run, and profitability ratios, which ask how much it earns from its sales and its capital. It ends by reading the ratios together to evaluate a company.
-
-On the exam, this material shows up in three ways. First, direct calculations, where the trap is usually a wrong numerator or denominator. Second, interpretation, where you decide whether a change is good or bad and what most likely caused it. Third, transaction effects, where you predict how a single event moves a ratio. The goal today is to make each formula feel obvious, so you can rebuild it under pressure rather than recite a list.
+LEWIS: Reading 37 covers the tools of financial analysis, from ratios to common size statements, graphs and regression, along with the limits of ratio analysis and the traps in comparing companies and years. It then works through four ratio families, activity, liquidity, solvency and profitability, what each ratio tells you, which direction is good or bad, and how to judge the ratios together to evaluate a company.
 
 ## Module 37.1, Introduction to Financial Ratios
 
-Start with what financial analysis is for. Computing numbers is not analysis. Analysis is explaining what the numbers mean for a decision, such as whether to lend to a company, buy its shares or extend it trade credit. A ratio is a pointer. It tells you where to look and what to ask next, and it rarely answers the question by itself.
+HEART: Picture an annual checkup. Your blood pressure on its own tells the doctor something, but what really matters is how it compares with last year, how it compares with healthy people your age, and whether your other results point the same way. Financial ratios work exactly like that. A single ratio rarely gives a diagnosis. It tells the analyst where to look and what to ask next.
 
-Ratios exist for two reasons. First, they remove scale. A company twice the size of its rival will carry roughly twice the inventory, so comparing raw inventory tells you nothing about efficiency. Dividing cost of sales by inventory gives a number you can compare across companies of any size. Second, ratios connect the statements. Many of the most useful ones divide an income statement figure, which is a flow over a period, by a balance sheet figure, which is a stock at one moment.
+LEWIS: This module sits inside the analysis framework from the start of the financial statement topic. Its third step is where the analyst adjusts the statements for the accounting choices covered in the last few readings, then computes ratios, runs statistics, and builds exhibits such as graphs and common size statements. Four tools do that converting: ratio analysis, common size analysis, graphical analysis and regression analysis.
 
-That leads to the first technical rule. When a ratio puts an income statement flow over a balance sheet stock, use the average of the beginning and ending balances. Revenue was earned across the whole year, so compare it with the receivables held across the whole year, not just on the last day. When a ratio uses only balance sheet figures, such as the current ratio, use the balances at that date. And unless a question says otherwise, use 365 days for a year.
+HEART: Start with ratios. A ratio expresses one figure relative to another, so size drops out and the relationship is left. A national supermarket chain and a corner store cannot be compared on the dollar value of what sits on their shelves. They can be compared on how fast each one sells what it holds. Ratios work for comparisons inside one company over time, and for comparisons across companies.
 
-Next, the ratio families. Activity ratios measure how efficiently a company uses its assets, for example how fast it sells inventory and collects from customers. Liquidity ratios measure its ability to meet short term obligations. Solvency ratios measure its ability to meet long term obligations, mainly debt. Profitability ratios measure how well it turns sales and capital into profit.
+LEWIS: Analysts lean on ratios for five jobs. Forecasting future earnings and cash flow. Judging the company's flexibility, meaning how much room it has to grow and still pay what it owes when a surprise hits. Assessing how well management has performed. Tracking how the company and its industry change over time. And comparing the company with its competitors.
 
-A fifth family, valuation ratios such as price to earnings, links market prices to per share figures. It belongs mostly to equity analysis, so this episode sets it aside. The families overlap, and that is fine. The same ratio can tell you about efficiency and about liquidity at once. What matters is knowing which question each ratio answers.
+HEART: Now the limits, which the exam tests directly. First, a ratio on its own tells you almost nothing. It starts to mean something only when you set it beside the company's own past or beside other companies. A profit margin of a few cents on the dollar is dismal for a software firm and perfectly normal for a grocer.
 
-Now the second tool, common size analysis. Vertical common size analysis expresses every line of a statement as a percentage of one total from the same statement and the same period. On the income statement, that total is revenue. If revenue is 2,000 and cost of sales is 1,200, cost of sales is 60 percent of revenue, and the gross margin is 40 percent. On the balance sheet, the total is total assets. If inventory is 300 and total assets are 1,500, inventory is 20 percent of assets.
+LEWIS: Second, companies make different accounting choices, and those choices muddy any comparison, most of all when one company reports under U.S. GAAP and the other under IFRS. Inventory is the classic case. Only U.S. GAAP allows LIFO, last in first out. When prices are rising, LIFO sends the newest, costliest goods to cost of goods sold and leaves older, cheaper costs in inventory. So a LIFO company shows a faster inventory turnover and a weaker current ratio than an identical company using FIFO, first in first out, with nothing different in how it actually runs.
 
-A cash flow statement can be common sized too. One way divides each line by revenue. Another shows each inflow as a share of total inflows and each outflow as a share of total outflows.
+HEART: Third, a company that operates in several industries is hard to benchmark. Picture a group that runs both a cruise line and a chain of hardware stores. There is no single peer group, so any industry average you pick fits only part of the business.
 
-Why bother? A common size income statement turns every expense into a margin, so you see at a glance where each dollar of revenue goes. A common size balance sheet shows the mix of assets and the mix of financing. Because everything is a percentage, you can set a small company beside a giant and compare their structure directly.
+LEWIS: Fourth, one ratio never settles a conclusion. Ratios have to be judged against one another, because a weak number in one place is often explained by a strong number somewhere else. And fifth, it is hard to say what the right value of a ratio is. Analysts work with a range of acceptable values rather than a single target, and that range differs from one industry to the next.
 
-Horizontal common size analysis works across time instead. Each line item is divided by its own value in a chosen base year. If revenue was 2,000 in the base year and 2,400 two years later, its horizontal figure is 1.2, or 120 percent of the base. This shows which lines are growing faster than others. If revenue stands at 120 percent of the base but receivables stand at 160 percent, receivables are outgrowing sales, and you want to know why.
+HEART: So what does context mean in practice? Judge a ratio against the other companies in its industry, the company's own earlier results, its stated strategy, where the economy sits in the business cycle, and what analysts expect. A falling inventory turnover at a retailer that just announced a big push into new stores is a different story from the same fall at a retailer whose sales have stalled.
 
-Those two directions give you two kinds of comparison. Cross sectional analysis compares a company with peers or an industry benchmark at the same point in time. Trend analysis, also called time series analysis, compares a company with its own past. You need both. A ratio that looks fine against last year can look weak against competitors, and the reverse.
+LEWIS: One more practical warning. Ratio definitions vary from one analyst to the next and from one data provider to another. Some measure leverage with all liabilities, others with only interest bearing debt. Neither is wrong. What matters is applying one definition consistently, and knowing which definition sits behind any published ratio you compare against.
 
-Two more tools complete the kit. Graphs make patterns visible, for example a stacked column chart of how the asset mix shifts over five years, or a line chart of margins against a peer. Regression analysis estimates the relationship between variables, such as a company's sales and gross domestic product, or GDP. It helps with forecasting, and it flags years when the company broke from its usual pattern.
+HEART: Two comparison directions come out of all this. Comparing a company with its peers at the same point in time is called cross sectional analysis. Comparing a company with its own past is called trend analysis, or time series analysis. You need both. A margin that improved on last year can still trail every competitor, and a margin below last year can still lead the industry.
 
-Now the limits, because exam questions like them. Four stand out. First, a company may run several different businesses, so one set of ratios blends units that each deserve a different benchmark. Second, ratios can send mixed signals, so check whether they agree before you conclude anything, since one weak ratio may be a temporary blip that the others explain. Third, judgment is unavoidable, because there is no universally right value for a ratio, and you must decide what level makes sense for this company in this industry. Fourth, companies make different accounting choices, and those choices move ratios without changing the economics.
+LEWIS: The second tool is common size analysis, which turns every line of a statement into a share of one total. A vertical common size balance sheet shows each item as a percentage of total assets. A vertical common size income statement shows each item as a percentage of sales.
 
-Inventory is the classic example of that last point. U.S. GAAP, the generally accepted accounting principles used in the United States, allows last in, first out, or LIFO. IFRS, the International Financial Reporting Standards, does not. When prices are rising, LIFO sends the newest, highest costs to cost of sales and leaves the oldest, lowest costs in inventory. So a LIFO company reports higher cost of sales and lower inventory than an identical company using first in, first out, or FIFO. Its inventory turnover looks faster and its current ratio looks weaker, purely because of the method.
+HEART: Think of a household budget. Saying a family spends a large sum on rent means little until you know its income. Saying rent takes a third of take home pay tells you right away whether the budget is stretched. Common size statements do that for a company. And because everything becomes a share, a small regional chain can sit right beside a national giant.
 
-Here is the trap. A tempting answer choice says a ratio proves something. Ratios never prove. They are relative measures that need context, meaning the company's own history, its peers, its strategy and the state of the economy. A falling inventory turnover could reflect poor management, or a deliberate decision to stock up before a product launch. Also check definitions, because different data providers compute the same named ratio in different ways.
+LEWIS: A common size income statement also hands you the margins for free. Gross profit, operating profit and net income, each shown as a share of sales, are the gross, operating and net profit margins. And on a common size balance sheet, long term debt as a share of total assets is a leverage ratio that comes straight out of the statement.
 
-To close the module, keep the most important practical rule. When a ratio puts an income statement flow over a balance sheet stock, use the average balance for the period. And treat every ratio as the start of the analysis, not the end.
+HEART: Vertical common size is especially good for tracking costs and margins across several years. Picture a coffee chain whose margin improved this year. Line by line, the common size statement shows bean costs steady as a share of sales, but wages falling as a share of sales. Did the chain install faster machines, or cut staff hours in a way that will hurt service and sales next year? The common size view does not answer that, but it tells you exactly which question to ask.
+
+LEWIS: Horizontal common size analysis works across time instead. Each line is divided by its own value in a base year, usually the first year shown, so every line starts at exactly one. Each later figure then shows that line as a multiple of its base. The power is relative growth. If sales have crept up a little while receivables have nearly doubled from the base year, customers are paying more slowly, or some of those sales are not what they seem.
+
+HEART: One exam habit worth building. Financial exhibits do not all run in the same direction. Some put the most recent year first, others put the oldest year first. Before you call a trend rising or falling, check which way the years run.
+
+LEWIS: The third tool is graphs. A stacked column chart, also called a stacked bar chart, shows how the mix of something changes from year to year, such as receivables taking a bigger and bigger slice of total assets. A line graph shows the same kind of trend as a moving line. Either one can make a developing problem jump out faster than rows of numbers.
+
+HEART: The fourth tool is regression analysis, which measures the relationship between variables and is often used for forecasting. A lumber yard's sales tend to rise and fall with new home construction. Regress one on the other, and you have a way to forecast the yard's sales from a housing forecast, and a way to spot years when the yard broke from its usual pattern.
+
+LEWIS: Now the averages rule, because it trips up careful people. In most cases, when a ratio compares an income statement item with a balance sheet item, take the average balance, meaning the average of the balance at the start of the year and the balance at the end. The income statement item is a flow earned across the whole year. The balance sheet item is a snapshot on one day. Averaging the snapshots gives a fairer match to the flow.
+
+HEART: And here is the trap inside the rule. A seasonal business can fool even the average. Picture a toy retailer whose fiscal year ends after the holiday rush. Its shelves are nearly bare at both the start and the end of the year, so the average of those two days understates how much inventory it really carried through the busy months. Its inventory turnover looks wonderful. For a business like that, analysts add more data points, such as quarterly or monthly balances, to get a truer average.
+
+LEWIS: Ratios built only from the balance sheet, such as the current ratio or debt to equity, simply take the balances on that date. The exception you will meet in Module 37.3 is the financial leverage ratio, which is defined with average assets and average equity. And a couple of mixed ratios, debt to EBITDA and the defensive interval, are normally built from balances on a single date.
+
+HEART: The takeaway. Ratios, common size statements, graphs and regression turn raw statements into questions worth asking. A ratio means something only against history, peers and strategy, and when an income statement flow meets a balance sheet snapshot, take the average balance.
 
 ## Module 37.2, Financial Ratios, Part 1
 
-This module covers activity ratios and liquidity ratios. They belong together, because how fast a company turns its inventory and receivables decides how much cash it has to pay its bills.
+LEWIS: Analysts sort ratios into families by the question each one answers. Activity ratios ask how well the company puts its assets to work. Liquidity ratios ask whether it can pay its short term obligations as they come due. Solvency ratios ask about financial leverage and the ability to meet longer term obligations. Profitability ratios ask how well the company turns sales into operating profit and net profit. This module covers activity and liquidity, and Module 37.3 covers solvency and profitability.
 
-Activity ratios come in pairs. One is a turnover, which tells you how many times a year a balance is used up and replaced. The other is a days figure, which tells you how long one cycle takes. Days equal 365 divided by turnover, so higher turnover always means fewer days.
+HEART: The families overlap. Payables turnover, for example, is an activity ratio that also says something about liquidity. And nobody publishes an official list. Two analysts may choose different ratios, or build the same ratio in slightly different ways, though the everyday ones come out almost identical wherever you look.
 
-Inventory first. Inventory turnover equals cost of sales divided by average inventory. Cost of sales goes on top because inventory is carried at cost, so both sides are measured the same way. Days of inventory on hand equals 365 divided by inventory turnover. Suppose cost of sales is 1,000 and average inventory is 200. Turnover is 5, and days of inventory on hand is 365 divided by 5, or 73 days.
+LEWIS: You will also meet valuation ratios, such as price to earnings, which bring the share price into the picture. They belong with equity valuation rather than with the four families in this reading.
 
-Receivables next. Receivables turnover equals revenue divided by average receivables. Ideally the top would be credit sales only, because cash sales never create a receivable, but companies rarely disclose that split, so analysts usually use total revenue. Days of sales outstanding equals 365 divided by receivables turnover. With revenue of 2,000 and average receivables of 200, turnover is 10, and days of sales outstanding is 36.5 days. A shortcut gives the same answer, which is to divide revenue by 365 to get daily sales and then divide receivables by daily sales.
+HEART: Start with activity ratios, also called asset utilization or operating efficiency ratios. Here is the business for this family. Picture a wholesale bakery that sells bread and pastries to coffee shops and restaurants, which pay on credit a few weeks later. The bakery buys flour and butter from a mill, also on credit. It owns ovens and delivery vans. Every activity ratio asks one question about that bakery. How hard is each part of the business working?
 
-Payables third, and this is the most common formula trap in the module. Payables turnover equals purchases divided by average trade payables. Not cost of sales. Payables come from buying inventory, so purchases are the right flow. Companies rarely report purchases, so you derive them. Purchases equal cost of sales, plus ending inventory, minus beginning inventory, because whatever you bought was either sold or is still sitting on the shelf.
+LEWIS: The receivables, inventory and payables ratios each come as a pair. A turnover ratio says how many times in a year a balance gets used up and replaced. A days ratio says how long one cycle takes. Days equal the number of days in the period divided by the turnover, so when turnover goes up, days go down. For an annual turnover, that means three hundred sixty five days. For a quarterly turnover, the days in the quarter go on top instead.
 
-Then number of days of payables equals 365 divided by payables turnover. Try it. Cost of sales is 1,000, inventory rose from 150 to 250, and average payables are 110. Purchases are 1,000 plus 250 minus 150, which is 1,100. Payables turnover is 1,100 divided by 110, or 10, so the company takes 36.5 days to pay its suppliers.
+HEART: Receivables first. Receivables turnover puts annual sales over average receivables. Sales go on top because receivables are created by sales. Its days version is days of sales outstanding, also called the average collection period, which is how long customers take to pay. For the bakery, that is how many days the coffee shops take to settle their invoices.
 
-Three broader turnover ratios all put revenue on top. Working capital turnover equals revenue divided by average working capital, where working capital is current assets minus current liabilities. Fixed asset turnover equals revenue divided by average net fixed assets. Total asset turnover equals revenue divided by average total assets. Each one asks how many dollars of sales a dollar of that resource supports. Revenue of 2,000 over average total assets of 1,600 gives total asset turnover of 1.25.
+LEWIS: Which direction is good? Usually a higher turnover, meaning faster collection. But there is a catch. A very high turnover could mean excellent credit management. It could also mean the bakery forces fast payment with strict credit terms, big discounts for paying early, or stiff penalties for paying late. Push too hard and customers drift to a rival bakery. Strict terms cost sales.
 
-Now interpretation, which is where exam questions live. High inventory turnover usually signals efficient inventory management, but very high turnover can mean the company holds too little stock and loses sales. Low turnover can signal slow moving or obsolete goods. The tiebreaker is revenue growth. If turnover is high and sales grow in line with peers, that is efficiency. If turnover is high and sales lag peers, the company may be running short of stock.
+HEART: So what is the tiebreaker?
 
-Receivables follow the same logic. High turnover means quick collection, but it can also mean credit terms so strict that customers buy elsewhere. Again, compare revenue growth with peers.
+LEWIS: Revenue growth against peers. A high turnover with sales growing at or above the peer average points to good credit and collection management. A high turnover with sales growing more slowly than peers suggests the terms are too tight.
 
-Payables are subtler. A long payables period can mean the company negotiated generous terms, which is a strength, or that it cannot pay on time, which is a warning. A short period may mean it pays early to capture discounts, or simply that it is not using the credit its suppliers offer. Look at the liquidity ratios to tell which story fits.
+HEART: Inventory next. Inventory turnover puts cost of goods sold over average inventory. Cost goes on top, not sales, because inventory sits on the balance sheet at cost. Putting sales over inventory would mix a selling price with a cost and overstate how fast goods move. Its days version is days of inventory on hand, also called the inventory processing period, which is how long goods sit before they sell.
 
-Fixed asset turnover has a built in trap. Net fixed assets shrink as depreciation accumulates, so a company with old, heavily depreciated equipment shows high fixed asset turnover even if it is no more efficient. A company that just opened a new plant shows low turnover until the plant ramps up. Working capital turnover has its own quirk. When working capital is near zero or negative, the ratio becomes huge or meaningless.
+LEWIS: For a bakery, inventory turnover should be fast, because yesterday's bread is worth little. A high turnover usually means tight inventory control. But too high can mean the bakery keeps too little flour in stock, runs short, and misses orders. A low turnover compared with peers can mean slow moving or obsolete stock. And once again the tiebreaker is revenue growth against peers. High turnover with healthy sales growth is efficiency. High turnover with lagging sales may be lost orders.
 
-Now liquidity. Liquidity ratios compare assets that can become cash soon with obligations due soon. The ratios differ in which assets they count, from most generous to most strict.
+HEART: Payables third. Payables turnover puts cost of goods sold over average trade payables. Its days version is the number of days of payables, also called the payables payment period, which is how long the company takes to pay its suppliers.
 
-The current ratio equals current assets divided by current liabilities. The quick ratio equals cash, plus short term marketable investments, plus receivables, all divided by current liabilities. It leaves out inventory and prepaid expenses, because those may not turn into cash quickly or at full value. The cash ratio equals cash plus short term marketable investments, divided by current liabilities. It is the strictest test, because it ignores even receivables.
+LEWIS: One variation to know. Many analysts put purchases on top instead of cost of goods sold, because payables come from buying inventory. Purchases are rarely a line on the statements, so you back them out from inventory. Everything the bakery had available to sell, what it started the year with plus what it bought, either went out as cost of goods sold or is still sitting in ending inventory. So purchases equal cost of goods sold plus the increase in inventory over the year.
 
-A worked example. Cash is 50, short term marketable investments are 50, receivables are 200 and inventory is 200, so current assets are 500. Current liabilities are 250. The current ratio is 500 divided by 250, or 2. The quick ratio is 300 divided by 250, or 1.2. The cash ratio is 100 divided by 250, or 0.4.
+HEART: Payables are the subtle one, because both directions have an innocent explanation and a worrying one. A high payables turnover compared with peers, meaning the company pays quickly, may mean it pays early to capture discounts, or that it simply is not making full use of the credit its suppliers offer. A low payables turnover, meaning it pays slowly, may mean it negotiated generous terms, or that it is short of cash and stringing its suppliers along.
 
-Notice the order. The cash ratio can never exceed the quick ratio, and the quick ratio can never exceed the current ratio.
+LEWIS: And the tiebreaker here is different. Look at the liquidity ratios. A company paying slowly with plenty of cash has good terms. A company paying slowly with almost no cash is in trouble.
 
-The defensive interval ratio asks a survival question. If no cash came in at all, for how many days could the company pay its bills from liquid assets? It equals cash, plus short term marketable investments, plus receivables, divided by daily cash expenditures. Daily cash expenditures are the year's cash expenses divided by 365, and they leave out noncash charges such as depreciation. If those 300 of liquid assets face daily cash spending of 5, the defensive interval is 60 days.
+HEART: Now the broader turnover ratios, which all put revenue on top. Each one asks how many dollars of sales a dollar of some resource supports.
 
-The ratio that ties this module together is the cash conversion cycle. It measures how many days cash is tied up between paying suppliers and collecting from customers. The cash conversion cycle equals days of inventory on hand, plus days of sales outstanding, minus number of days of payables. Say inventory sits for 60 days, customers take 40 days to pay, and suppliers allow 30 days. The cycle is 60 plus 40 minus 30, or 70 days.
+LEWIS: Total asset turnover divides by average total assets. The right level depends heavily on the industry. A power utility with enormous plants turns its assets slowly, and a discount grocer turns them quickly. So the goal is a level near the industry norm. Too low means more money is locked up in assets than the sales justify. Too high can mean the company is stretched too thin to serve all the demand it could capture, or that its assets are old.
 
-For those 70 days the company must fund its operations some other way. A shorter cycle means better liquidity, and a lengthening cycle means more borrowing, more interest and more risk. Banks and credit unions ask the same liquidity question about themselves, except they measure liquid assets against deposits that could leave rather than against bills from suppliers.
+HEART: Fixed asset turnover divides by average net fixed assets, meaning property, plant and equipment after accumulated depreciation. For the bakery, it is sales per dollar of ovens and vans. A low turnover can mean idle capacity, or equipment that is not being worked hard enough.
 
-Here are the traps. First, a high current ratio is not automatically good. It can mean idle cash or inventory piling up, and both drag down returns.
+LEWIS: And here is a ratio that moves for the wrong reason. Net fixed assets shrink every year as depreciation builds up. So a bakery running twenty year old ovens shows a high fixed asset turnover, not because it is efficient, but because its ovens are nearly written off. A very high turnover can even signal obsolete equipment and a big round of capital spending coming soon. Meanwhile a rival that just bought new ovens shows a low turnover. Newer assets mean lower fixed asset turnover, other things equal.
 
-Second, transaction effects. When the current ratio is above 1, paying a current liability with cash raises it. Start with current assets of 200 and current liabilities of 100, a ratio of 2. Pay 50 of payables with cash and you have 150 over 50, a ratio of 3. When the ratio starts below 1, the same payment lowers it.
+HEART: Working capital turnover divides by average working capital, which is current assets minus current liabilities, sometimes called net working capital. It shows sales per dollar of working capital. The trap is a company whose payables nearly match its inventory and receivables. Its working capital is tiny, so the ratio becomes huge, swings wildly from year to year, and says little about efficiency.
 
-Third, buying inventory on credit adds the same amount to current assets and current liabilities. That pulls a current ratio above 1 down toward 1. It also lowers the quick ratio, because the new inventory does not count in the quick ratio while the new payable does.
+LEWIS: That finishes activity. Now liquidity, with a new business story. Picture a family furniture store. It buys sofas and tables from manufacturers on credit, keeps a full showroom, and lets many customers pay over time through store financing. Liquidity asks whether the store can pay the bills that fall due in the next few months.
 
-Hold on to the one formula that links this module. The cash conversion cycle equals days of inventory on hand, plus days of sales outstanding, minus number of days of payables.
+HEART: The liquidity ratios differ only in which current assets they trust to pay those bills. The current ratio puts all current assets over current liabilities. The quick ratio keeps only cash, marketable securities and receivables on top, leaving out inventory and other assets that may not turn into cash quickly. The cash ratio keeps only cash and marketable securities. Marketable securities here means short term debt that is easy to sell and issued by strong borrowers.
+
+LEWIS: So the three form a ladder of strictness. Current is the most generous, quick is stricter, and cash is the most conservative. For all three, a higher number means a bigger cushion against the bills coming due. And because each one counts fewer assets over the same liabilities, the cash ratio can never exceed the quick ratio, and the quick ratio can never exceed the current ratio.
+
+HEART: One critical value to know. A current ratio below one means current liabilities exceed current assets, so working capital is negative. For most companies, that signals a likely liquidity crunch.
+
+LEWIS: Now the trap the furniture store sets. Suppose its current ratio climbs year after year, and the owners feel safer. But the quick ratio has not budged. Both ratios divide by the same bills, and the current ratio counts everything the quick ratio counts plus inventory and a few other slow assets. So the only thing that can open that gap is those slow assets, mainly inventory, growing relative to the bills. And sure enough, days of inventory on hand keep rising. Sofas are piling up in the warehouse.
+
+HEART: So the higher current ratio is not more liquidity. It is slower inventory, which ties up cash, costs money to store, and may end in markdowns. A high current ratio that rests on slow inventory is a warning, not a comfort. Whenever the current ratio rises and the quick ratio does not, check inventory days.
+
+LEWIS: A related trick works on the current ratio from the other side. When the ratio is above one, paying off some current liabilities with cash just before year end raises it, even though the company is no better off. Both sides shrink by the same amount, and the smaller side shrinks by a bigger share. That is one reason analysts like to see liquidity on several dates, not just at year end.
+
+HEART: The defensive interval asks a survival question. If no cash came in at all, how many days could the company keep paying its bills from its liquid assets? On top are cash, marketable securities and receivables, the same assets as the quick ratio. On the bottom is average daily cash spending, covering things like the cost of goods, selling and administrative costs, and research and development. Because only cash spending counts, noncash charges such as depreciation are left out. Higher is better.
+
+LEWIS: For the furniture store, it is how long it could keep paying staff, rent and suppliers if every customer stopped paying tomorrow. A bank or credit union asks itself much the same question, how long its liquid assets could meet withdrawals and other outflows under stress.
+
+HEART: The last liquidity measure ties the two families together. The cash conversion cycle, also called the net operating cycle, is the time between paying suppliers and collecting cash from customers. In words, it is days of inventory on hand, plus days of sales outstanding, minus the number of days of payables.
+
+LEWIS: Walk the furniture store through it. The sofa arrives, and the clock on the supplier's credit starts. The sofa sits in the showroom. A customer buys it on store financing and pays later. The supplier's credit covers part of that wait, and the store has to fund the rest itself.
+
+HEART: So a long cash conversion cycle is undesirable. It means a lot of capital is tied up in getting goods sold and paid for, and the gap usually has to be financed with short term borrowing. A shorter cycle frees cash.
+
+LEWIS: And some businesses flip it. Picture a busy grocery chain. Food sells in days, customers pay at the register, and suppliers wait weeks to be paid. The grocer collects before it pays, so its cycle can be negative, and the suppliers' money effectively funds other parts of the business. A company like that can comfortably run a current ratio below one, which is why that critical value always needs context.
+
+HEART: The takeaway. Activity ratios show how hard each asset works, and turnover up means days down. Liquidity ratios run from current to quick to cash, each stricter than the last, and a current ratio that rises without the quick ratio usually means inventory is piling up. The cash conversion cycle is days on the shelf plus days to collect minus days to pay, and shorter is better.
 
 ## Module 37.3, Financial Ratios, Part 2
 
-This module moves from the short run to the long run, and from efficiency to results. Solvency ratios ask whether the company can carry its debt. Profitability ratios ask how much it earns. Then we put all the families together.
+LEWIS: Solvency is about the long run. Here is the business for this family. Picture a regional trucking company. It borrows to buy trucks, leases some of its trailers and depots, and earns freight revenue that rises and falls with the economy. Solvency asks how much of the company rests on borrowed money, and how comfortably its earnings carry the cost.
 
-Start with why solvency matters. Debt creates fixed claims that must be paid whether business is good or bad. Shareholders absorb the swings, and lenders expect to be paid regardless. So solvency analysis asks two questions. How much of the company is financed with debt, and how comfortably do earnings cover the cost of that debt? That gives two kinds of ratio, leverage ratios from the balance sheet and coverage ratios from the income statement.
+HEART: Two kinds of ratio answer those two questions. Debt ratios come from the balance sheet and measure how much of the financing is debt. Coverage ratios come from the income statement and measure how many times earnings cover the cost of that debt.
 
-One definition first. Total debt here means interest bearing borrowings, both short term and long term. It excludes operating liabilities such as accounts payable and accrued expenses. Analysts often include lease liabilities too, because a lease is a form of financing.
+LEWIS: First a definition, because it changes every answer. Total debt here means interest bearing borrowings, both short term and long term, including the part of long term debt that comes due within the year. Definitions vary. A broader version adds non interest bearing current liabilities, such as trade payables. A narrower one subtracts cash and marketable securities, which gives net debt.
 
-Among the leverage ratios, the debt to assets ratio equals total debt divided by total assets. The debt to capital ratio equals total debt divided by total debt plus total shareholders' equity. The debt to equity ratio equals total debt divided by total shareholders' equity. The financial leverage ratio equals average total assets divided by average total equity. It is the one leverage ratio built on averages, which lines it up with return on assets and return on equity. For all four, a higher number means more leverage and more financial risk.
+HEART: For exam purposes, count all interest bearing liabilities unless a question says otherwise, with one curiosity. The convention at this level leaves lease liabilities out of total debt, even though leases carry interest. Follow it on the exam, but notice what it does. For a company that leases most of its fleet or its stores, leaving leases out makes leverage look lower than it really is.
 
-A worked example, with balances that stayed flat all year. Total assets are 1,600, total debt is 400, other liabilities are 400 and equity is 800. Debt to assets is 400 over 1,600, which is 0.25. Debt to capital is 400 over 1,200, which is one third. Debt to equity is 400 over 800, which is 0.5. Financial leverage is 1,600 over 800, which is 2.
+LEWIS: Now the debt ratios. Debt to equity compares total debt with total shareholders' equity. Debt to capital compares total debt with total capital, which is all short and long term debt plus preferred stock and common equity. Debt to assets compares total debt with total assets. For all three, a rising ratio means greater reliance on debt, and a falling one means less.
 
-Notice that financial leverage is 2 even though debt is only a quarter of assets. That is because it compares total assets with equity, so it captures every liability, including payables and accruals, and not just debt. Here is the trap with the first two ratios. Debt to assets divides by total assets, while debt to capital divides by debt plus equity only, and answer choices like to swap them.
+HEART: The trap is the denominator. Debt to assets divides by everything the company owns. Debt to capital divides only by debt and equity, leaving out payables, accruals and other liabilities that are not debt. So debt to capital is never smaller than debt to assets, and answer choices love to swap them.
 
-Another widely used measure is debt to EBITDA, which equals total debt divided by EBITDA, meaning earnings before interest, taxes, depreciation and amortization. It gives a rough sense of how many years of EBITDA it would take to repay the debt. Higher means more leverage. With debt of 400 and EBITDA of 250, the ratio is 1.6 times.
+LEWIS: The fourth is the financial leverage ratio, also called the leverage ratio. It compares average total assets with average total equity, and it is the one solvency ratio defined with averages. A value near one means the assets are financed almost entirely with equity. The further above one it climbs, the more the company leans on other people's money, mostly debt, and the more risk lands on both shareholders and bondholders.
 
-Now coverage. Interest coverage equals EBIT, earnings before interest and taxes, divided by interest payments. It uses EBIT because interest is paid out of earnings before tax, so using net income would understate the cushion. Fixed charge coverage treats lease payments as another fixed financing charge. It equals EBIT plus lease payments, divided by interest payments plus lease payments. For both, higher is safer.
+HEART: For the trucking company, think of it as how many dollars of trucks and terminals stand on each dollar the owners put in.
 
-Try it. EBIT is 200, interest is 40 and lease payments are 60. Interest coverage is 200 divided by 40, or 5 times. Fixed charge coverage is 260 divided by 100, or 2.6 times. Whenever interest coverage is above 1, adding the same lease amount to the top and bottom pulls the ratio toward 1, so fixed charge coverage comes out lower.
+LEWIS: Then coverage. Interest coverage puts EBIT, earnings before interest and taxes, over interest payments. EBIT is the right numerator because interest is paid before taxes, so the whole pre tax operating profit is available to pay it. A thin cushion means a modest dip in earnings could leave the interest bill hard to pay. Higher is safer.
 
-Commercial lenders, including banks and credit unions, often write loan covenants around debt to EBITDA and interest coverage. That makes these two ratios the working language of business credit.
+HEART: Debt to EBITDA runs the other way, with debt on top. It compares total debt with EBITDA, earnings before interest, taxes, depreciation and amortization. Depreciation and amortization are noncash charges, so EBITDA serves as a rough stand in for operating cash flow, and the ratio says roughly how many years it would take to repay the debt from that cash flow. Higher means more leverage and more risk.
 
-Now profitability. It comes in two kinds. Return on sales ratios, better known as margins, compare profit with revenue. Return on investment ratios compare profit with the capital used to earn it.
+LEWIS: Fixed charge coverage treats lease payments as a fixed financing charge, just like interest. It adds them back to earnings on top and adds them to interest on the bottom. For the trucking company with leased trailers and depots, this is the more honest measure.
 
-Every margin has revenue on the bottom, and each one peels off another layer of cost. Gross profit margin equals gross profit divided by revenue, where gross profit is revenue minus cost of sales. Operating profit margin equals operating income divided by revenue. Pretax margin equals earnings before tax divided by revenue. Net profit margin equals net income divided by revenue.
+HEART: And the direction is reliable. Whenever earnings cover interest more than once, adding the same amount to the top and the bottom pulls the ratio down toward one. So a company with big lease commitments shows a fixed charge coverage well below its interest coverage. It matters most for companies that lease much of what they operate, and for U.S. GAAP companies with operating leases, where no interest expense for those leases appears on the income statement.
 
-Walk down an income statement. Revenue is 1,000 and cost of sales is 600, so gross profit is 400 and the gross margin is 40 percent. Operating expenses are 250, so operating income is 150 and the operating margin is 15 percent. Interest expense is 30, so pretax income is 120 and the pretax margin is 12 percent. Tax at 25 percent is 30, so net income is 90 and the net margin is 9 percent.
+LEWIS: One judgment sits over every solvency ratio. Ask how steady the cash flows are. A water utility with predictable bills can safely carry far more debt than a trucking company whose freight volumes swing with the economy. The same debt ratio can be comfortable for one and dangerous for the other.
 
-Each margin tells a different story. Gross margin reflects pricing power and the cost of making the product. A high gross margin with a thin operating margin points to heavy selling and administrative spending, as with a brand that spends heavily on marketing. Pretax margin picks up nonoperating items such as interest and one time gains. If pretax margin rises while operating margin falls, the improvement did not come from the core business.
+HEART: Lenders, including banks and credit unions, often write loan covenants around exactly these measures, such as a ceiling on debt to EBITDA and a floor on interest coverage. That makes them the everyday language of business credit.
 
-Net margin is the bottom line, but it also carries taxes and any unusual items. A one time gain from selling a division can lift net margin for a single year without telling you anything about the years ahead. So analysts often strip such items out before comparing one year with another or one company with its peers.
+LEWIS: Now profitability, with a new story. Picture a chain of pizza restaurants. Profitability ratios come in two kinds. Margins compare profit with revenue. Returns compare profit with the money invested in the business.
 
-Now return on investment. Return on assets, or ROA, equals net income divided by average total assets. Some analysts adjust it by adding back interest expense times one minus the tax rate. The reason is that assets are funded by lenders as well as owners, so the return should be measured before paying the lenders. Operating return on assets equals operating income divided by average total assets.
+HEART: Every margin has revenue on the bottom, and each one peels away another layer of cost. Gross profit margin is gross profit, which is sales minus cost of goods sold, over revenue. For the pizza chain, that is what is left after flour, cheese and toppings. The chain can widen it by raising menu prices or buying ingredients more cheaply, but rivals cap how far prices can climb.
 
-Return on total capital equals EBIT divided by average total capital, meaning short term and long term debt plus equity. Return on equity, or ROE, equals net income divided by average total equity. Return on common equity equals net income minus preferred dividends, divided by average common equity.
+LEWIS: Operating profit margin is operating income over revenue, what is left after rent, wages and marketing as well. It is often approximated with EBIT over revenue. The two are not quite the same, because EBIT can pick up items outside the core business, like a gain on selling an investment. So pick one version, stick with it, and check which one sits behind any published figure. Some analysts prefer an EBITDA margin, adding back depreciation and amortization.
 
-Continue the example with average total assets of 1,500 and average equity of 600. ROA is 90 divided by 1,500, or 6 percent. ROE is 90 divided by 600, or 15 percent. Operating return on assets is 150 divided by 1,500, or 10 percent. If average debt is 400, total capital is 400 plus 600, or 1,000, and return on total capital is EBIT of 150 divided by 1,000, or 15 percent. Adding back after tax interest of 22.5, which is 30 times 0.75, lifts the adjusted ROA to 7.5 percent.
+HEART: Pre tax margin is earnings before tax over revenue, so it also absorbs interest. And net profit margin is net income over revenue, the bottom line.
 
-The principle behind all of these is matching. The profit on top must belong to the same people who supplied the capital on the bottom. EBIT is earned for lenders and owners together, so it goes over total capital. Net income minus preferred dividends belongs to common shareholders, so it goes over common equity. Mismatch them and you get a meaningless number, which is exactly what a trap answer offers.
+LEWIS: One convention on the net margin. Base it on net income from continuing operations. The point is to judge what the business will earn from here, and a division that has been sold or shut down plays no part in that. For every margin, a value that is too low is the concern.
 
-The other trap is reading a rising ROE as better management. ROE can rise simply because the equity base shrank, for example after share buybacks, large write offs in earlier years, or replacing equity with debt. Leverage magnifies ROE in both directions, so a higher ROE can come with higher risk. And if equity turns negative, ROE stops meaning anything at all.
+HEART: Judging the margins together tells the story. Say the pizza chain's gross margin holds steady while its operating margin slides. The ingredients are fine. Something in rent, wages or marketing is eating the profit. Or say the operating margin falls while the pre tax margin rises. The core business got worse, and the improvement came from somewhere outside it, such as an investment gain or lower interest.
 
-Now evaluation, which means reading the ratios together. Picture a company over two years. Its current ratio rose from 1.5 to 2, which looks like better liquidity. But its quick ratio stayed at 0.9, and days of inventory on hand jumped from 50 to 80. So the improvement is inventory piling up, not cash.
+LEWIS: Now returns. Return on assets, or ROA, puts net income over average total assets. That version has a quirk. Interest has already come out of net income, so the lenders' share of the return is missing, yet total assets are funded by lenders as well as owners. So some analysts add interest expense back, after tax, to put the returns to both lenders and owners on top. Add back gross interest expense, not interest expense net of interest income.
 
-Keep reading. Operating margin fell from 12 percent to 9 percent, perhaps from discounting or storage costs. Interest coverage fell from 8 times to 4 times, and debt to EBITDA rose from 1.5 to 3 times. The consistent story is that the company borrowed to carry inventory it cannot sell. Your next questions are whether sales growth slowed against peers, and whether an inventory write down is coming.
+HEART: Operating return on assets puts operating income, or EBIT, over average total assets. Neither interest nor taxes has come out of that numerator, so it judges the assets on what they earn before financing and taxes.
 
-That example shows how the families connect. Activity drives liquidity, because slower inventory and receivables lengthen the cash conversion cycle and force borrowing. Borrowing drives solvency, through more debt and more interest. And all of it reaches profitability, through margins and returns. Margins, turnover and leverage also combine to explain ROE, and that decomposition, called DuPont analysis, is the subject of the next episode.
+LEWIS: Return on invested capital puts after tax operating profit over average long term capital, which is long term debt, preferred equity and common equity, leaving out working capital. You will also see return on total capital, which puts profit before interest and taxes over average total capital, meaning all the debt, short and long term, plus equity. Both measure what the business earns on the money that lenders and owners supplied together.
 
-Keep the core rule of this module. Match the profit on top to the capital providers on the bottom. ROE equals net income divided by average total equity, and interest coverage equals EBIT divided by interest payments.
+HEART: Return on equity, or ROE, sometimes called return on total equity, puts net income over average total equity, including preferred stock. Return on common equity narrows it to common shareholders. It subtracts preferred dividends from net income and divides by average common equity, because preferred dividends never reach common shareholders.
+
+LEWIS: There is one principle behind all of these, matching. The profit on top must belong to the same people who supplied the money on the bottom. Profit before interest is shared by lenders and owners, so it goes over total capital or total assets. Net income belongs to all shareholders, so it goes over total equity. Net income minus preferred dividends belongs to common shareholders, so it goes over common equity. The plain ROA, net income over total assets, is the one familiar loose match, and that is why some analysts add the interest back. Beyond that, a mismatched pair is exactly what a trap answer offers.
+
+HEART: For every return measure, as with margins, a low value is the concern. But a high one needs checking too, which brings us to evaluation.
+
+LEWIS: Ratios are meant to be judged together, across families, over time and against comparable companies. Picture two pizza chains that report the same return on equity. The first earns it with strong margins and busy restaurants that work their ovens and dining rooms hard. The second has thinner margins and quieter restaurants, and gets to the same ROE by borrowing heavily.
+
+HEART: Same headline number, very different quality. The second chain's ROE comes from leverage, so it carries more risk, and a bad year hits its shareholders much harder. So the meaning of a rising ROE depends on why it rose. If leverage jumped, the gain may be borrowed. If leverage held steady or fell, the improvement more likely came from the business itself.
+
+LEWIS: ROE can also rise for reasons that have nothing to do with performance. Share buybacks, or big write offs in earlier years, shrink equity, and a smaller denominator lifts the ratio. And if equity ever turns negative, ROE stops meaning anything at all. Module 37.4 takes ROE apart into margin, turnover and leverage, and that DuPont analysis is the next episode.
+
+HEART: Now one full evaluation, across the families. Picture a maker of farm equipment that sells to dealers on credit. This year its sales grew faster than its peers'. Its current ratio and its quick ratio both rose. On the surface, that is growth plus better liquidity.
+
+LEWIS: Then the activity ratios. Receivables turnover fell, so days of sales outstanding stretched out. Dealers are taking much longer to pay. And because receivables count in the quick ratio, the quick ratio rose for the wrong reason, just as the current ratio does when inventory piles up. The cash ratio, which leaves receivables out, did not improve at all.
+
+HEART: Follow the cash. With collections slowing, the cash conversion cycle lengthened, so the company took on a term loan to fill the gap. Debt to equity rose and interest coverage slipped. And the fast sales growth may itself be the cause. Easy credit terms win sales from rivals, but the cash arrives late, and some of it may never arrive.
+
+LEWIS: So the families tell one story. Activity drives liquidity, because slower collections or slower inventory lengthen the cash conversion cycle. Liquidity gaps drive borrowing, which shows up in solvency. And all of it reaches profitability, through interest costs and possible bad debts. When ratios in different families point the same way, trust the story more. When they disagree, find out why before you conclude anything.
+
+HEART: The takeaway. Debt ratios show how much of the financing is debt, and coverage ratios show how comfortably earnings carry it. Margins peel costs away layer by layer, and returns must match the profit to the people who supplied the capital. And no ratio stands alone, so a high ROE or a high quick ratio always needs a look at what is behind it.
 
 ## Recall check
 
-Q: An analyst divides every income statement line by revenue for five competitors in the same year. What technique is this?
+LEWIS Q: A ratio puts annual sales over receivables. Should you take the year end receivables balance, and if not, what?
 
-Answer: Vertical common size analysis, used cross sectionally. Each line becomes a percentage of revenue, which removes size, and comparing peers at the same date is cross sectional rather than trend analysis.
+HEART: Answer. Take the average of the beginning and ending balances instead. Here is why. Sales flow in across the whole year, while a balance sheet figure is a snapshot on a single day. Averaging the snapshots matches the flow more fairly. For a strongly seasonal business even that can mislead, so analysts add quarterly or monthly balances.
 
-Q: Which activity ratio should use purchases rather than cost of sales in its numerator?
+HEART Q: An analyst divides every line of a company's balance sheet by total assets, then does the same for five rivals in the same year. Which two techniques is she combining?
 
-Answer: Payables turnover. Payables come from buying inventory, so the matching flow is purchases. Purchases equal cost of sales plus ending inventory minus beginning inventory.
+LEWIS: Answer. Vertical common size analysis and cross sectional analysis. Here is why. Expressing each balance sheet line as a share of total assets is vertical common size, which removes differences in size. Comparing peers at the same point in time is cross sectional analysis, as opposed to trend analysis, which compares a company with its own past.
 
-Q: Inventory sits for 50 days, customers pay in 40 days, and the company pays suppliers in 30 days. What is the cash conversion cycle?
+LEWIS Q: Why does inventory turnover put cost of goods sold, not sales, over inventory?
 
-Answer: 60 days. Add days of inventory on hand and days of sales outstanding to get 90, then subtract the 30 days of payables.
+HEART: Answer. Because inventory is carried at cost, so the flow on top should be measured at cost too. Here is why. Sales include the markup. Dividing a figure that includes the markup by a balance carried at cost mixes two different bases and overstates how fast goods move. Cost of goods sold over inventory compares like with like.
 
-Q: A company's current ratio jumped this year while its quick ratio was unchanged. What is the most likely cause?
+HEART Q: A company's receivables turnover is far above its peers', but its sales are growing more slowly than theirs. What is the likely explanation?
 
-Answer: A buildup of inventory or prepaid expenses. Those items count in the current ratio but not in the quick ratio, so growth in them lifts one ratio and leaves the other unchanged. Check days of inventory on hand before calling it better liquidity.
+LEWIS: Answer. Its credit terms are probably too strict, and it is losing sales. Here is why. Fast collection is good only if it does not drive customers away. Tight terms, big early payment discounts and harsh late penalties all speed up collection, but terms that are too strict push customers to rivals. A high turnover with sales growth at or above the peer average would instead point to good credit management.
 
-Q: EBIT is 300, interest payments are 50 and lease payments are 50. What is fixed charge coverage?
+LEWIS Q: Days of payables have stretched well beyond the peer average. Good news or bad news, and how do you tell?
 
-Answer: 3.5 times. Add lease payments to both the top and the bottom, so 350 divided by 100. Interest coverage alone would be 6 times, which shows how lease commitments thin the cushion.
+HEART: Answer. It could be either, and the liquidity ratios decide. Here is why. Paying slowly can mean the company negotiated generous terms with its suppliers, which is a strength. It can also mean the company is short of cash and stringing its suppliers along. Strong liquidity ratios support the first story, and weak ones support the second.
 
-Q: Prices are rising. One company uses LIFO under U.S. GAAP and an otherwise identical peer uses FIFO. Which is most likely to report the higher inventory turnover?
+HEART Q: A manufacturer's fixed asset turnover is well above its peers'. Name a reason that has nothing to do with efficiency.
 
-Answer: The LIFO company. LIFO puts the newest, highest costs into cost of sales and leaves older, cheaper costs in inventory, so the numerator is larger and the denominator smaller. The difference comes from the method, not from better inventory management.
+LEWIS: Answer. Its equipment is old and heavily depreciated. Here is why. Fixed asset turnover divides by net fixed assets, which shrink as accumulated depreciation builds. An aging asset base therefore inflates the ratio, and it may also signal that big capital spending is coming. A rival with new equipment shows a lower turnover without being any less efficient.
 
-## Recap
+LEWIS Q: A company's current ratio rose this year while its quick ratio stayed flat. What most likely happened?
 
-Ratios remove scale and point you toward questions, but they never prove anything without context from history, peers and strategy. When a ratio puts an income statement flow over a balance sheet stock, use average balances. Vertical common size divides by revenue or total assets, and horizontal common size divides by a base year value. Cross sectional analysis compares peers, while trend analysis compares a company with its own past.
+HEART: Answer. Inventory, or another current asset the quick ratio leaves out, grew relative to current liabilities. Here is why. The two ratios share the same denominator and the same quick assets. The only difference is inventory and the other less liquid current assets. If the current ratio rises and the quick ratio does not, that difference grew, so check days of inventory on hand before calling it better liquidity.
 
-Days equal 365 divided by turnover, and payables turnover uses purchases, not cost of sales. The cash conversion cycle equals days of inventory on hand plus days of sales outstanding minus number of days of payables, and shorter is better. The current, quick and cash ratios get stricter in that order, and paying a current liability with cash raises a current ratio that starts above 1. Solvency splits into leverage ratios and coverage ratios, with interest coverage equal to EBIT divided by interest payments. Match profit to capital providers, so ROE is net income divided by average total equity, and remember that ROE can rise from leverage rather than better operations.
+HEART Q: Rank the current, quick and cash ratios from most generous to most conservative, and say what each one drops.
+
+LEWIS: Answer. Current, then quick, then cash. Here is why. The current ratio counts all current assets. The quick ratio drops inventory and other assets that may not turn into cash quickly. The cash ratio drops receivables too, leaving only cash and marketable securities. Because each one counts fewer assets over the same liabilities, each can be no higher than the one before it.
+
+LEWIS Q: Does a longer cash conversion cycle raise or lower a company's need for financing, and why can a grocer safely run a current ratio below one?
+
+HEART: Answer. A longer cycle raises the need for financing, and a grocer can run below one because it collects from customers before it pays suppliers, so its cycle can be negative. Here is why. The cycle is the time cash is tied up between paying suppliers and collecting from customers, and that gap has to be funded, usually with short term borrowing. A grocer sells quickly for cash and pays its suppliers later, so customer cash arrives before the bills come due, and thin current assets are not a danger.
+
+HEART Q: A company leases much of its equipment. Which coverage ratio is more meaningful, and how does it compare with interest coverage?
+
+LEWIS: Answer. Fixed charge coverage, and it comes out lower than interest coverage. Here is why. Fixed charge coverage adds lease payments to earnings on top and to interest on the bottom, treating leases as a fixed financing obligation. When earnings cover interest more than once, adding the same amount to both sides pulls the ratio down toward one. Interest coverage alone would overstate the cushion for a heavy lessee.
+
+LEWIS Q: For the same company, which is larger, debt to capital or debt to assets?
+
+HEART: Answer. Debt to capital, unless the company has no liabilities other than debt, in which case they are equal. Here is why. Both put total debt on top. Debt to capital divides by debt plus equity only, while debt to assets divides by total assets, which equal debt plus equity plus every other liability. A smaller denominator under the same numerator means a larger ratio.
+
+HEART Q: Two companies report the same return on equity, but one has much higher financial leverage. Which earned its ROE more soundly?
+
+LEWIS: Answer. The less leveraged company. Here is why. Return on equity can come from strong margins, efficient use of assets, or borrowing. When it comes from borrowing, a thin equity base magnifies results in both directions, so the same ROE carries more risk. A high or rising ROE always has to be judged alongside the leverage behind it.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: A ratio is a question, not an answer. It means something only next to history, peers and strategy.
+
+HEART: For averages: when a flow meets a snapshot, usually average the snapshot. And a seasonal business needs more than two dates.
+
+LEWIS: For common size: vertical divides by sales for the income statement and by total assets for the balance sheet. Horizontal divides each line by its own base year value, so every line starts at one.
+
+HEART: For activity ratios: turnover up, days down. Cost of goods sold goes over inventory and payables, and revenue goes over receivables and the asset turnovers. When receivables or inventory turnover looks suspiciously high, check sales growth against peers.
+
+LEWIS: For the cash conversion cycle: shelf plus collect minus pay. Days on the shelf, plus days to collect, minus days you take to pay. Shorter frees cash.
+
+HEART: For liquidity, think of a ladder: current, quick, cash. Quick drops the inventory, and cash drops the receivables too. When the current ratio rises and the quick ratio does not, look in the warehouse. A current ratio below one is a warning, unless the company collects before it pays.
+
+LEWIS: For solvency: debt ratios come from the balance sheet, where higher means riskier. Coverage ratios come from the income statement, where higher means safer. Debt to capital is never smaller than debt to assets. Leases stay out of total debt by convention, but enter fixed charge coverage on the top and the bottom.
+
+HEART: For profitability: match the profit to the people who funded the base. The basic ROA is the one familiar exception. Profit before interest goes over all capital. Net income goes over total equity. Net income minus preferred dividends goes over common equity. And base the net margin on continuing operations.
+
+LEWIS: For return on equity: same ROE, different engines. Ask whether it came from margins, turnover or borrowing.
+
+HEART: Now, how you would say the big ideas to a senior leader.
+
+LEWIS: On ratios in general: a ratio only means something against our history, our peers and our plan, so an odd number is a question to chase, not a verdict. The jargon is trend analysis, cross sectional analysis and the limitations of ratio analysis.
+
+HEART: On working capital: how many days does our cash sit in inventory and in customers' hands, once we subtract the time suppliers give us? Every day we cut frees cash we would otherwise borrow. The jargon is the cash conversion cycle, built from days of inventory on hand, days of sales outstanding and days of payables.
+
+LEWIS: On liquidity: a pile of current assets is not cash we can count on, so strip out the inventory before deciding we are safe. The jargon is the current, quick and cash ratios and the defensive interval.
+
+HEART: On debt: borrowing is fine when cash flow is steady enough to carry it, so watch how many times earnings cover the fixed charges. The jargon is debt to equity, debt to EBITDA, interest coverage and fixed charge coverage.
+
+LEWIS: And on returns: a higher return on equity is good news only if it came from better margins or better use of our assets, not just from more borrowing. The jargon is return on equity, return on assets and financial leverage.

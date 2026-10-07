@@ -59,7 +59,7 @@ PRON = [
  (r"\b([Oo]n|[Aa]t the) close\b",r"\1 cloze"),
  (r"\b([Pp])utable(s?)\b",r"\1ootable\2"),
  (r"\b([Cc])onglomerates?\b",lambda m: m.group(1)+"onglomerit"+("s" if m.group(0).endswith("s") else "")),
- (r"\b([Ss])ukuk\b",r"\1oo kook"),(r"\b([Tt])ranches\b",r"\1rahnshes"),(r"\b([Tt])ranche\b",r"\1rahnsh"),
+ (r"\b([Ss])ukuk\b",r"\1oo kook"),(r"\b([Tt])ranches\b",r"\1rahnshes"),(r"\b([Tt])ranching\b",r"\1rahnshing"),(r"\b([Tt])ranched\b",r"\1rahnsht"),(r"\b([Aa])ccretion\b",r"\1ccreetion"),(r"\b([Tt])ranche\b",r"\1rahnsh"),
  (r"\b([Aa]|[Tt]he|[Ll]oan|[Uu]nderwriting) syndicate\b",r"\1 sindicket"),(r"\bsyndicate of\b","sindicket of"),
  (r"\b([Aa])ggregate (?=(index|indexes|indices|demand|supply|output|income|expenditure|price|level|bond|risk|exposure|value|data)\b)",r"\1ggregut "),(r"\b([Ii])n aggregate\b",r"\1n aggregut"),
  (r"\b([Bb])reakevens\b",r"\1reak evens"),(r"\b([Bb])reakeven\b",r"\1reak even"),
