@@ -1,165 +1,251 @@
-## The big picture
-
-This episode answers one question. When interest rates move, what happens to a bond investor's return, and how do you capture that exposure in a single number? The first module starts with returns. It breaks a bond's total return into its sources, shows that yield to maturity is a promise that holds only under strict conditions, and introduces two risks that pull in opposite directions, price risk and reinvestment risk. It ends with Macaulay duration, which tells you the investment horizon at which those two risks roughly cancel.
-
-The second module turns duration into a measure of price sensitivity. Modified duration gives the percentage price change for a change in yield. Money duration and the price value of a basis point turn that percentage into dollars. Then you will see how coupon, maturity and the level of yields push duration up or down.
-
-Throughout this episode, assume the bond pays every coupon and its principal on time, and has no embedded options. Bonds whose cash flows can change with rates, such as callable bonds, need a curve based measure, which comes in the next episode.
-
-Expect three kinds of exam questions. First, direction questions, such as which investor is hurt when rates fall. Second, calculations, such as converting Macaulay duration into modified duration and estimating a price change. Third, ranking questions, such as which of three bonds carries the most interest rate risk. One rule ties it all together. Bond prices move opposite to yields, and duration tells you how far.
+LEWIS: Reading 56 covers where a bond's return comes from, why a change in rates pushes its price and its reinvestment income in opposite directions, and how your investment horizon and Macaulay duration decide which effect wins. Reading 57 turns duration into a measure of price sensitivity, in percent and in dollars, and covers what makes a bond's duration longer or shorter, embedded options included.
 
 ## Module 56.1, Interest Rate Risk and Return
 
-Start with what you actually receive when you buy a fixed rate bond. Your money comes back in three ways. First, the coupon and principal payments the issuer promised. Second, reinvestment income, which is the interest you earn by reinvesting each coupon from the day it arrives until the end of your horizon. Third, a capital gain or loss if you sell the bond before it matures. Add the three and you have the bond's total return over your horizon.
+HEART: Start with a plain question. You buy a fixed rate bond and hold it for a while. Where does your money come from? There are exactly three sources, and the rest of this episode is about how a change in interest rates hits each one.
 
-Yield to maturity, or YTM, is the single discount rate that makes the present value of the promised cash flows equal to the price you pay. It is tempting to treat it as the return you will earn.
+LEWIS: The first source is the promised payments themselves, the coupons along the way and the principal at the end. The second is reinvestment income, the interest you earn by putting each coupon to work from the day it arrives until the end of your holding period. The third is a capital gain or loss, and that one only exists if you sell before maturity.
 
-You earn exactly the YTM only if three conditions hold. You hold the bond to maturity. The issuer makes every payment in full and on time. And you reinvest every coupon at that same YTM. Here we assume no default, so the second condition holds. The risk comes from the other two, and it comes from interest rates.
+HEART: Picture owning a small rental house. The rent checks are the coupons. If you drop each rent check into a savings account, the interest on that account is your reinvestment income. And if you sell the house early, whatever it fetches compared with what it was worth on paper is your gain or loss. Add all three and you have your total return.
 
-Interest rate risk has two faces, and they move in opposite directions. Market price risk is the risk that rates rise and the bond's price falls, which hurts you if you sell before maturity. Reinvestment risk is the risk that rates fall, so your coupons earn less when you reinvest them. A rise in rates hurts the price but helps reinvestment. A fall in rates helps the price but hurts reinvestment. Which effect wins depends on how long you plan to hold the bond.
+LEWIS: Two working assumptions keep this clean. First, the issuer makes every payment in full and on time, so credit risk is set aside for now. Second, coupons are reinvested at the bond's yield to maturity, whatever that yield happens to be at the time. So if the market yield on the bond changes, the reinvestment rate changes with it.
 
-Let's make that concrete. Take a 3 year bond with a 5 percent annual coupon, bought at a price of 100 per 100 of par, so its YTM is 5 percent. If rates stay at 5 percent and you hold to maturity, you receive three coupons of 5 and the principal of 100. The first coupon is reinvested for two years and the second for one year, so at the end you have about 115.76. Of that, 15 is the coupons, 100 is principal, and about 0.76 is interest on interest. Grow 100 at 5 percent for three years and you get the same 115.76, so the realized return is exactly 5 percent.
+HEART: Now the baseline. Suppose the yield never moves after you buy. Then you earn exactly the yield to maturity you bought at, whether you hold the bond to maturity or sell it partway through. Hold to maturity, and every coupon grows at that same yield, so the whole package grows at that yield. Sell early, and the sale price is simply the bond's value at that same yield, so again your return matches the purchase yield.
 
-Now suppose rates fall to 4 percent right after you buy, and stay there. If you hold to maturity, the bond's price along the way no longer matters, because you get par at the end. What changes is reinvestment. Your coupons now grow at only 4 percent, and you end with about 115.61 instead of 115.76. Your realized return slips to about 4.95 percent.
+LEWIS: That second case needs a term. Even when the yield never changes, a bond's price drifts over time, because it has to arrive at par by the maturity date. Episode twenty eight called that pull to par, and the path the price follows at an unchanged yield the constant yield price trajectory. A bond bought at a discount climbs toward par. A bond bought at a premium slides down toward it.
 
-If rates instead rise to 6 percent, you end with about 115.92, and your return edges up to about 5.05 percent. So for a buy and hold investor, falling rates hurt, rising rates help, and the effect is small.
+HEART: The value on that path at any date is called the carrying value. It is what the bond would be worth on that date if its yield had stayed exactly where it was when you bought it. And it is not the same as market value once the yield has moved.
 
-Change only the horizon. This time you plan to sell after one year. If rates fall to 4 percent, the bond has two years left and its price rises to about 101.89. Add the coupon of 5 and you have about 106.89, a one year return of about 6.9 percent.
+LEWIS: Banks and credit unions see this every quarter. A bond held to maturity is typically carried on the balance sheet at a value along that constant yield path, not at today's market price. That is why such a bond can show no loss in earnings or capital while its market value has fallen well below it.
 
-If rates rise to 6 percent, the price falls to about 98.17, and with the coupon you have about 103.17, a return of about 3.2 percent. With a short horizon, rising rates hurt, falling rates help, and the effect is large. That is price risk dominating.
+HEART: Here is the point that matters for return. The climb or slide along that path is not a capital gain or loss. It is part of the interest you earn, the gradual unwinding of the discount or premium you paid, called amortization. A capital gain or loss only appears when you sell at a price that differs from the carrying value on the sale date. And that difference comes from one thing, a change in the yield since you bought.
 
-Here is the rule. With a short investment horizon, market price risk dominates, so the investor fears rising rates. With a long horizon, out to maturity, reinvestment risk dominates, so the investor fears falling rates. Somewhere in between, the two effects offset. That point is the bond's Macaulay duration, which we will build in a moment. Reinvestment risk also matters more for bonds with higher coupons and longer maturities, because more of their total return comes from reinvested coupons.
+LEWIS: Which sets up the trap. A question tells you an investor bought a bond well below par and later sold it for more than she paid. Is the whole rise a capital gain? No. Measure the gain from the carrying value on the sale date, not from the purchase price. Sell above the carrying value and there is a gain. Sell below it and there is a loss, even if the sale price was above what she paid.
 
-To measure what you actually earned, use the horizon yield, also called the realized yield. It is the annual rate that grows your purchase price into your total value at the horizon. In words, the horizon yield equals the total value at the horizon divided by the purchase price, raised to the power one over the number of years, minus one. For the buy and hold case at 4 percent, that is 115.61 divided by 100, raised to the power one third, minus one, which is about 4.95 percent.
+HEART: So two clean results so far. Hold to maturity with no change in yield, and you earn the purchase yield. Sell early with no change in yield, and you also earn the purchase yield, with no capital gain or loss at all. Now let rates move.
 
-On the B A two plus, this is a time value of money problem. Press second, then F V, to clear the worksheet. Check that P Y is 1 by pressing second, then I Y, typing 1 and pressing enter, then press second and C P T to quit. Leave the calculator in end mode, the default.
+LEWIS: The standard setup for these questions is worth knowing. The yield changes once, right after you buy, before the first coupon arrives, and then stays at its new level. That way every coupon you receive is reinvested at the new rate.
 
-Enter 3 and press N. Enter 100, press the change sign key, and press P V, because you paid that money out. Enter zero and press P M T, then enter 115.61 and press F V. Press C P T, then I Y, and the display shows about 4.95.
+HEART: First case. You plan to hold to maturity, and right after you buy, yields rise. Your bond's price falls, but that does not touch you, because you are not selling. At maturity you get par regardless. What does change is reinvestment. Every coupon now earns a higher rate, so you end up with more money than the original yield promised. Your realized return comes out above the purchase yield.
 
-The same worksheet prices the bond at the sale date. Clear it, then enter 2 for N, 4 for I Y, 5 for P M T and 100 for F V. Press C P T, then P V, and the display shows about negative 101.89. The sign is negative because the calculator treats the price as money paid out to receive the positive coupons and principal.
+LEWIS: And if yields fall instead, the reverse. Coupons get reinvested at a lower rate, you finish with less, and your realized return comes out below the purchase yield.
 
-One more detail on capital gains. If you buy a bond at a discount or a premium, its carrying value drifts toward par over time, following the price path at your original yield. That drift, called amortization, is part of your interest return, not a capital gain. The capital gain or loss is the sale price minus the carrying value on the sale date, and it comes from a change in yield. Our bond was bought at par, so its carrying value stays at 100, and the whole move to 101.89 is a capital gain.
+HEART: One detail worth holding on to. In either direction, your realized return lands between the original yield and the new rate. You do not jump all the way to the new rate, because the coupons and the principal were fixed the day you bought. Only the reinvestment piece moves.
 
-A zero coupon bond shows the split cleanly, because it has no coupons to reinvest. Buy a 3 year zero at a YTM of 5 percent and you pay about 86.38. One year later, at the original 5 percent, it would be worth about 90.70. That rise of about 4.32 is amortization, which counts as interest income, and it is exactly 5 percent of what you paid.
+LEWIS: Second case. Same bond, same rate move, but now you plan to sell after one year. Reinvestment barely matters, because you have collected a coupon or so and it has had almost no time to earn interest. What matters is the price you get when you sell. If yields rose, that price is lower, and your return comes out below the purchase yield. If yields fell, the price is higher, and your return beats it.
 
-Now suppose yields have risen to 6 percent, so the bond actually sells for about 89.00. The capital loss is about 1.70, measured from the carrying value of 90.70, not from your purchase price. Your total gain is about 2.62, a return of about 3 percent.
+HEART: So the same rate move, on the same bond, on the same day, helps one investor and hurts another. The only difference is how long each one planned to hold.
 
-Here is the first trap. A question may say a bond was bought at a YTM of 5 percent and ask what the investor earned. If rates changed and the investor sold early or reinvested at a different rate, the answer is not 5 percent. YTM is a promise built on three assumptions. Realized return is what actually happened.
+LEWIS: Here is the picture to keep. Two people buy the same ten year bond on the same morning. One is a company treasurer parking cash she will need in a year to pay for a new building. The other is a parent who will hold the bond until it matures to pay for college. Rates jump that afternoon. The treasurer is worried, because in a year she has to sell into a lower price. The parent is quietly pleased, because ten years of coupons will now be reinvested at a higher rate.
 
-Now Macaulay duration. A coupon bond pays cash on several dates. Macaulay duration is the weighted average time until you receive those cash flows, measured in years. Each weight is the share of the bond's value that comes from that cash flow, which is the present value of that cash flow divided by the bond's price. Cash flows that are large and arrive late pull the average out.
+HEART: That splits interest rate risk into two named risks. Price risk is the uncertainty about what the bond will sell for, because nobody knows what the market yield will be on the day you sell. Reinvestment risk is the uncertainty about how much your coupons and the interest on them will add up to, because nobody knows the rates at which you will reinvest.
 
-Here is the formula in words. Macaulay duration equals the sum, across every cash flow, of the time until that cash flow is paid multiplied by its weight. The weight equals the present value of that cash flow, discounted at the bond's YTM, divided by the bond's price. Between coupon dates, measure time from the settlement date, and use the full price, which is the flat price plus accrued interest.
+LEWIS: And here is the seesaw between them. When yields rise, the price falls, but reinvestment income rises. When yields fall, the price rises, but reinvestment income falls. Every rate move pushes the two in opposite directions.
 
-Back to our 3 year, 5 percent bond priced at 100. The first coupon of 5 has a present value of about 4.76, which is about 4.8 percent of the price. The second coupon is worth about 4.54, or about 4.5 percent. The final payment of 105 is worth about 90.70, or about 90.7 percent of the price.
+HEART: So which one wins? Your investment horizon decides. The investment horizon is simply how long you intend to hold the bond, and it can be shorter than the bond's maturity. With a short horizon, price risk dominates. You sell soon, the price change is large and immediate, and the coupons have had no time to earn anything. With a long horizon, out to maturity, reinvestment risk dominates. The price change fades away, because the bond pays par at the end anyway, while years of reinvestment at a different rate pile up.
 
-Now weight the times. One year times 0.048, plus two years times 0.045, plus three years times 0.907, gives about 2.86 years. Most of the value arrives at year three, so duration sits just under three.
+LEWIS: In fact the two extremes are pure. An investor who holds to maturity has no price risk in this sense, because she never sells, and assuming no default she gets par whatever happens to rates. Her only interest rate risk is reinvestment risk. And an investor who sells before any interest has been earned on a coupon has no reinvestment risk. His only risk is price risk.
 
-This number does two jobs. It summarizes the bond's effective time to its cash flows. And it is the investment horizon at which price risk and reinvestment risk roughly offset. For this bond, an investor with a horizon of about 2.86 years earns about 5 percent whether rates jump to 4 percent or to 6 percent right after purchase. The price change and the reinvestment change cancel.
+HEART: Which gives the favorite direction question. Short horizon investors fear rising rates. Long horizon investors, holding to maturity, fear falling rates. People get this backwards because they assume bondholders always cheer falling rates. That is only true if you plan to sell soon.
 
-Why does the balance point land exactly at duration? Picture the present values of the cash flows as weights sitting on a timeline. Macaulay duration is the spot where that timeline balances. Cash flows that arrive before your horizon get reinvested, so they gain when rates rise. Cash flows that arrive after your horizon must be sold at a discounted price, so they lose when rates rise. At the balance point, the gains on the early side match the losses on the late side, at least for small changes.
+LEWIS: One more term before we go further. The horizon yield is the compound annual return you actually earn over your horizon. Take everything you have at the end, which is the coupons, the interest earned on them, and either the sale price or the principal at maturity. Compare that with the price you paid, and find the steady annual rate that links the two. It is the realized counterpart to the promised yield to maturity. So when a question states the yield at purchase, then moves rates and asks what the investor actually earned, it wants the horizon yield, and the answer is rarely the original yield.
 
-That leads to the duration gap, which equals the bond's Macaulay duration minus the investment horizon. A positive gap means duration is longer than your horizon. You sell before the offset is complete, price risk dominates, and rising rates hurt you. A negative gap means your horizon is longer than duration. Reinvestment risk dominates, and falling rates hurt you.
+HEART: Now the most useful idea in the reading. If price risk dominates at short horizons and reinvestment risk dominates at long ones, somewhere in between they must balance. Is there a horizon where a rate move right after purchase leaves your return unchanged, whichever way rates go?
 
-Check it against the example. The one year investor has a gap of about positive 1.86 years, and that investor lost when rates rose. The hold to maturity investor has a gap of about negative 0.14 years, and that investor lost, a little, when rates fell. A bank faces the same tension on its balance sheet. When long duration loans and securities are funded with short duration deposits, rising rates cut the value of the assets by more than the value of the funding.
+LEWIS: There is. At that horizon, if yields fall, you lose some reinvestment income, but the bond is worth more when you sell it, and the two cancel. If yields rise, you gain reinvestment income but sell at a lower price, and again they cancel. You earn very nearly your original yield either way.
 
-Two limits keep this honest. The offset assumes a single change in rates that happens right after purchase and moves all yields by the same amount. And the cancellation is approximate, which matters more for large rate changes.
+HEART: And that balancing horizon has a name. It is the bond's Macaulay duration.
 
-Here is the trap that costs the most points. Short horizon investors fear rising rates. Buy and hold investors fear falling rates. Before you answer which direction hurts, find the horizon and compare it with duration. And remember the zero coupon case. A zero has no coupons to reinvest, so its Macaulay duration equals its maturity, and an investor who holds it to maturity locks in the YTM.
+LEWIS: So what is Macaulay duration on its own terms? It is the weighted average time until you receive the bond's promised cash flows, measured in years. Each cash flow's weight is its present value as a share of the bond's full price, the price including accrued interest. The weights add up to one, because the present values add up to the price.
 
-So the rule to carry from this module is this. Macaulay duration is the present value weighted average time to a bond's cash flows, and when your horizon equals Macaulay duration, price risk and reinvestment risk roughly cancel.
+HEART: Picture the bond's payments as deliveries arriving on a calendar. Each delivery has a value today, its present value. Now ask when, on average, the value of this bond arrives, counting each delivery by how much it is worth. That value weighted average date is Macaulay duration.
+
+LEWIS: For a typical coupon bond, the final delivery, the last coupon plus the whole principal, is by far the heaviest single payment. That pulls the average toward maturity, but the coupons along the way pull it earlier, so it always falls short of maturity, and the longer the bond, the bigger the shortfall. A ten year bond with an ordinary coupon might have a Macaulay duration of around eight years, and a thirty year bond only around sixteen.
+
+HEART: And a zero coupon bond has only one delivery, so its Macaulay duration is simply its maturity. That fits the horizon idea perfectly. A zero has no coupons to reinvest, so if you hold it to maturity you face neither price risk nor reinvestment risk, and you lock in its yield.
+
+LEWIS: Why should the balancing horizon land exactly on that average date? Think of a seesaw on a playground. Put your horizon on the calendar as the pivot. Every payment that arrives before your horizon gets reinvested until the horizon, so it gains when rates rise. Every payment that arrives after your horizon is still inside the bond when you sell, so its value falls when rates rise. When the pivot sits at the value weighted average date, the gains on the early side and the losses on the late side balance. Macaulay duration is the pivot.
+
+HEART: Semiannual bonds work the same way. You find the weighted average number of half year periods, then divide by two to state it in years.
+
+LEWIS: Two limits keep this honest. The offset assumes one rate change, right after purchase, with the new rate then holding steady. And it is very nearly exact for small moves but only approximate for large ones. Still, as a way of thinking, it is powerful. At a horizon equal to its Macaulay duration, the two kinds of interest rate risk offset each other, so a rate move in either direction leaves your return about where it started. So if the treasurer wants to lock in today's yield over her one year horizon, the ten year bond is the wrong tool. The bond that does the job has a Macaulay duration of about one year.
+
+HEART: Which brings us to the duration gap. The duration gap is the bond's Macaulay duration minus your investment horizon.
+
+LEWIS: Hear it as a question of timing. A positive gap means duration is longer than your horizon. You need the money before the bond's balance point, so you will be selling a bond that still has a lot of its value waiting to arrive. You are exposed to price risk, and rising rates hurt you. That is the treasurer.
+
+HEART: A negative gap means your horizon is longer than duration. The bond's value comes back to you, on average, before you need it, so a lot of it will be reinvested. You are exposed to reinvestment risk, and falling rates hurt you. That is the parent holding to maturity, because a coupon bond's duration is always shorter than its maturity.
+
+LEWIS: And a gap of zero is the balance point, where a small rate move right after purchase leaves your horizon return where it started.
+
+HEART: This is the same intuition behind asset and liability management at a bank or credit union, with the investment horizon replaced by when the money is owed. Fund long, fixed rate mortgages with deposits that can reprice or leave within months, and the assets bring their value back much later than the funding falls due. That is a positive gap in spirit, and rising rates hurt. Balance sheet teams apply the phrase duration gap to a related measure, the duration of the assets minus the duration of the liabilities scaled by the ratio of liabilities to assets. When that gap is positive, rising rates cut the economic value of equity, which credit unions track as net economic value, so the direction of the risk is the same.
+
+LEWIS: The trap is the sign. Keep it as duration minus horizon, never the other way around. Positive gap, fear rising rates. Negative gap, fear falling rates.
+
+HEART: The takeaway. A bond's return comes from coupons, reinvestment and any price change on a sale. A rate move pushes price and reinvestment income in opposite directions. Short horizons feel the price effect, long horizons feel the reinvestment effect, and at a horizon equal to Macaulay duration the two offset.
 
 ## Module 57.1, Yield-Based Bond Duration Measures and Properties
 
-Macaulay duration is measured in years. To measure price sensitivity, you need a percentage, and that is modified duration. Modified duration equals Macaulay duration divided by one plus the yield per period. It tells you the approximate percentage change in the bond's full price for a 1 percentage point change in its yield to maturity, in the opposite direction.
+LEWIS: Macaulay duration is measured in years. That is perfect for matching a horizon, but a risk manager wants a different number, one that says how much the price moves when the yield moves. This module turns duration from a measure of time into a measure of sensitivity.
 
-Here is the key formula in words. The percentage change in price is approximately equal to negative modified duration times the change in yield, with the yield change written as a decimal. The negative sign is the inverse relationship between price and yield.
+HEART: That measure is modified duration. It gives the approximate percentage change in a bond's full price for a one percentage point change in its yield to maturity, in the opposite direction. In words, the percentage price change is roughly negative modified duration times the change in yield.
 
-Why divide by one plus the yield? Macaulay duration describes timing. The slope of the price yield curve, expressed as a percentage of price, works out to that timing divided by one plus the periodic yield. You need the conversion, not the calculus.
+LEWIS: So a bond with a modified duration of about six loses roughly six percent of its value if its yield rises by one percentage point, and gains roughly six percent if its yield falls by one point. Half the move, roughly half the change. The minus sign is just the seesaw from Episode one, price and yield moving in opposite directions.
 
-Use our 3 year bond. Its Macaulay duration is 2.86, its yield is 5 percent, and it pays annually. Divide 2.86 by 1.05 and modified duration is about 2.72. If the yield rises by 50 basis points, the estimated price change is negative 2.72 times 0.005, which is about negative 1.36 percent. So the price would fall from 100 to about 98.64.
+HEART: Getting from Macaulay to modified is one step. Divide Macaulay duration by one plus the yield per period. For an annual pay bond, that is one plus the yield to maturity. For a semiannual bond, it is one plus half the yield, the yield divided by the periodicity.
 
-A 50 basis point fall in yield gives the same estimate in the other direction, a rise of about 1.36 percent. Repricing the bond exactly at 5.5 percent gives about 98.65, so the estimate is close. The estimate is a straight line while the true price yield curve bends, so the error grows with larger yield changes, and that curvature is the subject of the next episode.
+LEWIS: Why divide at all? Each year a payment waits, it is discounted by one plus the yield. A one point rise in the yield raises one plus the yield by slightly less than one percent of itself, because one plus the yield starts above one. So each year of waiting costs a little under one percent of value. Count those years by value and you get Macaulay duration, trimmed by one plus the yield. So modified duration comes out a little smaller than Macaulay duration whenever yields are positive. Same bond, two jobs. Macaulay duration answers when. Modified duration answers how much.
 
-Here is the first trap in this module. The divisor uses the yield per period, not the annual yield. For a semiannual bond, Macaulay duration starts out in half year periods. A result of 12 periods, for example, is 6 years. You divide by one plus half the annual yield, then convert to years by dividing by 2.
+HEART: The trap is the divisor. For a semiannual bond, divide by one plus half the annual yield, not one plus the full annual yield. Using the full yield shrinks the answer, and that wrong number will be sitting among the choices. And keep the units straight. If you worked in half year periods, divide by two at the end so the duration is stated in years, as a sensitivity to a one point change in the annual yield.
 
-If you are given an annualized Macaulay duration of 6 years for a semiannual bond yielding 8 percent, modified duration is 6 divided by 1.04, about 5.77. Dividing by 1.08 gives about 5.56, which is the tempting wrong answer.
+LEWIS: Now a second route to the same number, one that needs no cash flow schedule at all. Approximate modified duration comes from repricing the bond. Lower the yield by a small amount and find the new price. Raise it by the same amount and find that price. Take the gap between the two prices, the higher one minus the lower one, and divide by two times the starting price times the yield change.
 
-When you do not have the cash flows, or you want to check your work, estimate modified duration from prices. Reprice the bond at a slightly lower yield and at a slightly higher yield, by the same amount. Approximate modified duration equals the price at the lower yield minus the price at the higher yield, divided by two times the change in yield times the original price. The two is there because the gap between the two prices spans two yield changes, one down and one up.
+HEART: Each piece has a job. The two repriced values sit one step below and one step above today's yield, so the gap between them covers two steps, and halving it leaves one. Today's price underneath turns that dollar change into a percentage. And the yield step underneath turns the answer into percent per point of yield, the unit every duration is quoted in.
 
-Here is a version you can do in your head. A bond is priced at 100. If its yield falls 50 basis points the price becomes 102, and if its yield rises 50 basis points the price becomes 98.1. The numerator is 102 minus 98.1, which is 3.9. The denominator is 2 times 0.005 times 100, which is 1. So approximate modified duration is 3.9.
+LEWIS: Think of measuring how steep a hill is. Take one step uphill and one step downhill, see how much your height changed between the two spots, and divide by the distance between them. You get the slope right where you are standing. Approximate modified duration does exactly that to the bond's price yield curve.
 
-Notice the price rose 2 but fell only 1.9. That lopsided response is the curvature again.
+HEART: Two traps hide here. Enter the yield change as a decimal, so ten basis points is one thousandth, not one tenth. Get that wrong and your duration comes out a hundred times too small. And divide by the original price, not by either of the repriced values.
 
-Two traps live in this formula. Enter the yield change as a decimal, 0.005, not as 0.5, or your answer comes out a hundred times too small. And divide by the original price, not by either of the repriced values.
+LEWIS: Why the word approximate, and why is even modified duration only a rough guide? Because the true relationship between price and yield is not a straight line. It is a curve that bends, a shape called convex. Modified duration is the straight line that touches that curve at today's yield. For small yield changes, the line and the curve sit almost on top of each other. For large changes, they drift apart, and the errors grow.
 
-On the B A two plus, use the time value of money worksheet for our 3 year bond. Clear it, with P Y at 1 and end mode. Enter 3 for N, 5 for P M T and 100 for F V. Enter 4.9 for I Y, press C P T, then P V, and the display shows about negative 100.27. Now enter 5.1 for I Y, press C P T, then P V again, and you get about negative 99.73.
+HEART: That gap has a direction worth knowing now, even though the next episode measures it properly. Episode twenty eight showed that for the same size move, a bond's price rises more when yields fall than it drops when yields rise. A straight line cannot capture that. So for an ordinary bond with no options, duration alone overstates the price drop when yields rise and understates the price gain when yields fall.
 
-Ignore the signs. The difference is about 0.545. Divide by 2 times 0.001 times 100, which is 0.2, and approximate modified duration is about 2.72, matching the exact figure. Multiply by one plus the yield per period, 1.05, and you recover an approximate Macaulay duration of about 2.86. On the Professional model, the bond worksheet also reports modified duration directly, labeled D U R, but the repricing method works for any question.
+LEWIS: That brings us to bonds whose cash flows are not fixed. Everything so far assumes the payments stay put when rates change. A callable bond breaks that. If rates fall far enough, the issuer will probably call the bond and hand your money back early. A mortgage backed security breaks it too, because homeowners refinance when rates fall. The cash flows themselves depend on rates.
 
-One technical point. Modified duration measures the change in the full price. Accrued interest does not depend on yield, so when the yield moves, the flat price changes by the same amount of money as the full price.
+HEART: For those bonds, modified duration answers the wrong question, because it holds the payment schedule fixed. The measure that fits is effective duration. It follows the same repricing recipe as approximate modified duration, a value for rates a little lower, a value for rates a little higher, and the average change scaled by today's value. Two things change. You shift the benchmark yield curve rather than the bond's own yield, and you reprice with a model that lets the cash flows respond, so the model decides whether the call gets exercised at each new level of rates.
 
-Percentages are useful, but risk managers think in money. Money duration equals modified duration times the full price of the position. Multiply money duration by the change in yield, as a decimal, and you get the estimated change in value in dollars.
+LEWIS: So here is the sorting rule for the four measures. Macaulay duration is the weighted average time to the cash flows, in years, and it is the horizon where price risk and reinvestment risk offset. Modified duration is the percentage price sensitivity to the bond's own yield, for bonds whose cash flows do not change with rates. Approximate modified duration reaches that same sensitivity from repriced values. And effective duration is the sensitivity to a shift in the benchmark curve, the one to reach for whenever an embedded option can change the cash flows. The next episode builds effective duration out in full.
 
-Suppose you hold a bond position with a full value of 2 million dollars and a modified duration of 5. Money duration is 10 million dollars. If yields rise 20 basis points, the estimated loss is 10 million times 0.002, which is 20,000 dollars.
+HEART: Now from percentages to dollars. A five percent drop means very different things on a small holding and on a portfolio worth hundreds of millions. Picture a credit union board that limits how much value the investment portfolio may lose in a rate shock. That limit is set in dollars, so the risk report has to speak in dollars too. Money duration is the bridge from a percentage sensitivity to that dollar limit.
 
-In the United States, money duration is often called dollar duration. It can also be stated per 100 of par value, as modified duration times the full price per 100 of par. A bond with a full price of 98 and a modified duration of 7 has a money duration of 686 per 100 of par. Use the full price, including accrued interest, never the par amount, unless its full price happens to equal par.
+LEWIS: Money duration, also called dollar duration in the United States, is the annual modified duration times the full price of the position. It is stated in currency units. Multiply it by a change in yield, written as a decimal, and you get the approximate dollar change in the position's value, a loss when yields rise and a gain when they fall. It can also be stated per hundred of par value, which lets you compare bonds without regard to how much of each you hold.
 
-The price value of a basis point, or P V B P, is the money change in the full price for a one basis point change in yield. One way to get it is to reprice the bond one basis point lower and one basis point higher. P V B P equals the price at the lower yield minus the price at the higher yield, divided by 2. The other way is money duration times 0.0001.
+HEART: Two points of precision. Multiply by the full price, including accrued interest, because that is the value actually at risk, not the par amount and not the flat price. And the modified duration you multiply by is the annual figure, so a semiannual bond's duration has to be stated in years first.
 
-In our example, 10 million dollars of money duration times 0.0001 gives a P V B P of 1,000 dollars. Each basis point move in yield changes the position's value by about 1,000 dollars. You will also hear it called the D V zero one. Balance sheet risk teams use the same idea, adding up the basis point values of assets and liabilities to see how much a one basis point move changes the value of the whole book.
+LEWIS: Then the price value of a basis point, shortened to P V B P. It is the dollar change in a bond's full price when its yield moves by one basis point, one hundredth of a percentage point. Traders and balance sheet teams also call it the dollar value of an oh one, or D V oh one.
 
-Here is the trap with these measures. Modified duration is a percentage. Money duration and P V B P are amounts of money. A question that gives you a position size usually wants money. And P V B P is per single basis point, so for a 25 basis point move, multiply it by 25.
+HEART: There are two ways to find it. Reprice the bond one basis point lower and one basis point higher, and take the average of the two price changes, which is half the gap between the two prices. Or take money duration and multiply by one basis point. Put another way, the P V B P is one ten thousandth of money duration.
 
-Now the properties of duration, which are tested heavily as ranking questions. Hold on to one picture. Duration is a weighted average of payment dates, so anything that shifts value toward later payments raises duration, and anything that shifts value toward earlier payments lowers it. Four effects follow.
+LEWIS: Think of it as a unit price for rate risk. A shelf tag at the grocery store shows the cost per ounce, so you can compare packages of different sizes. The P V B P shows the dollars at stake per basis point, so you can compare positions of any size and add them up across a whole book. A committee can hear that every basis point move in rates changes the portfolio's value by about so many thousand dollars, and grasp it at once.
 
-First, coupon. A lower coupon means less value arrives early, so duration is higher. A zero coupon bond has all its value at the end, so its Macaulay duration equals its maturity. At a 5 percent yield, a 10 year zero has a duration of 10 years, a 10 year bond with a 5 percent coupon about 8.1 years, and a 10 year bond with a 10 percent coupon about 7.3 years. Lower coupon, more interest rate risk.
+HEART: Here is the trap among these three. Modified duration is a percentage. Money duration and the P V B P are amounts of money. When a question gives you the size of a position, it usually wants money. And the P V B P is per single basis point, so for a move of forty basis points, scale it up forty times.
 
-Second, yield. A higher yield discounts distant cash flows more heavily, which shrinks their weights, so duration falls. A 10 year bond with a 5 percent coupon has a Macaulay duration of about 8.3 years at a 3 percent yield and about 7.8 years at an 8 percent yield. Lower yield, more interest rate risk.
+LEWIS: Now the second half of the module, the properties of duration. These show up as ranking questions. Which bond carries the most interest rate risk? Hold on to one picture and you can rebuild every rule. Duration is a value weighted average of payment dates. Anything that shifts value toward later payments lengthens duration. Anything that shifts value toward earlier payments shortens it.
 
-Third, maturity. Longer maturity usually means higher duration. For a zero coupon bond, the two move one for one. For par and premium bonds, duration rises with maturity at a slowing pace, approaching a ceiling.
+HEART: Start with maturity. Other things equal, a longer maturity usually means a longer duration and more interest rate risk. The reason is compounding. A payment due in thirty years is discounted thirty times over, so a change in the rate works on it thirty times, while a payment due next year feels the change only once.
 
-That ceiling is the duration of a perpetuity, a bond that pays its coupon forever. The Macaulay duration of a perpetuity equals one plus the yield, divided by the yield. At a 5 percent yield, that is 1.05 divided by 0.05, or 21 years, whatever the coupon.
+LEWIS: But notice the word usually. For a coupon bond trading at a discount, one whose coupon is below its yield, there is an exception at long maturities, and it shows up most clearly when the coupon is far below the yield. As maturity stretches out, duration first rises, then peaks, then falls back toward a limit, the duration of a perpetuity.
 
-Here is the exception that trips people up. For a long term discount bond, one whose coupon is well below its yield, duration can rise above the perpetuity level, peak, and then fall back toward it as maturity grows. Take a bond with a 2 percent coupon and a 10 percent yield. Its duration is about 8.7 years at a 10 year maturity and about 14 years at a 30 year maturity. Beyond that it declines toward 11 years, the perpetuity duration at a 10 percent yield. So longer maturity usually means more interest rate risk, but not always.
+HEART: A perpetuity pays its coupon forever and never repays principal. Its Macaulay duration depends only on the yield. In words, it is one plus the yield, divided by the yield. So the lower the yield, the higher that limit.
 
-Fourth, time. As a coupon bond ages with its yield unchanged, its Macaulay duration traces a saw blade. Between coupon dates, duration falls one for one with the passage of time. When a coupon is paid, that near cash flow leaves the average, and duration jumps back up a little. The overall trend is still down, toward zero at maturity.
+LEWIS: Why the hump? For a long discount bond, the principal is a big payment far in the future, and it drags the average date out, past the perpetuity level. Stretch maturity further and that principal is pushed so far out that its present value shrinks to almost nothing. The bond starts to behave like a stream of coupons that never ends, so its duration drifts back down toward the perpetuity's. For a bond priced at par or at a premium, there is no hump. Duration simply rises with maturity, more and more slowly, toward that same limit, which for these bonds works as a ceiling.
 
-Put the properties together. Lower coupons, lower yields and, usually, longer maturities all mean higher duration and more interest rate risk. The exception is the long term discount bond.
+HEART: Next, the passage of time. Hold the yield constant and let a coupon bond age. Between coupon dates, its Macaulay duration falls steadily, day for day, because every payment is getting nearer. Then on each coupon date, the nearest payment drops out of the average, and duration jumps up slightly as the time to the next coupon resets to a full period. Picture the edge of a saw blade. A smooth slide down, a small step up, over and over, trending toward zero at maturity.
 
-For a ranking question, work through the features one at a time. If the bonds share a yield, compare maturity first, then coupon, and ask whether any bond is a very long discount bond. If one bond wins on both maturity and coupon, it has the highest duration. If the features conflict, such as a long bond with a high coupon against a short bond with a low coupon, you need the numbers.
+LEWIS: Then coupon. Other things equal, a higher coupon means a shorter duration and less interest rate risk. More of the bond's value arrives sooner, in the coupons, so the weighted average date moves earlier. Push the coupon all the way down to zero and duration reaches its maximum for that maturity. For a given maturity and yield, a zero coupon bond has a longer duration than any coupon bond.
 
-One last caution: these yield based measures assume the bond's cash flows do not change when rates change. For a callable bond that assumption fails, which is why the next episode turns to effective duration.
+HEART: Then the yield level. Other things equal, a higher yield means a shorter duration and less interest rate risk. A higher discount rate shrinks the present value of distant payments proportionally far more than near ones, so the weights tilt toward the early payments and the average date moves earlier. The price yield curve tells the same story. At low yields the curve is steeper, so a given change in yield moves the price more.
 
-So the rule to carry from this module is this. The percentage change in price is approximately negative modified duration times the change in yield, and modified duration equals Macaulay duration divided by one plus the yield per period.
+LEWIS: That one has had real consequences. Bonds bought when yields were near historic lows carried long durations, so when rates rose sharply in twenty twenty two, many bank and credit union securities portfolios took large market value losses, mostly unrealized. Low yields mean long durations, just when a rise in rates can do the most damage.
+
+HEART: Floating rate notes sit at the other extreme. As the last episode showed, their coupons reset to a market reference rate, so when rates rise, the coupon rises too, and the price barely has to move. A floater's Macaulay duration is about the time until its next reset date. On each reset date a floater prices near par, as long as the issuer's credit has not changed, so it behaves like a short bond that matures at the next reset. A floater that resets every quarter has a duration of no more than three months, whatever its final maturity.
+
+LEWIS: Now the embedded options. A call option shortens duration. When rates fall, an otherwise identical bond with no option keeps rising in price. A callable bond's price stalls near the call price, because investors expect the issuer to redeem it at that price. Its value stops responding to further falls in rates, and a value that responds less has a shorter duration. The more likely the call, the shorter the effective duration.
+
+HEART: A put option shortens duration too, from the other side. The investor holds the right to sell the bond back to the issuer at a set price. When rates rise, a bond with no option keeps falling in price. A putable bond's price levels off near the put price, because the holder can hand it back. Less price response when rates rise, so a shorter duration.
+
+LEWIS: So both options cut duration compared with an otherwise identical bond with no option. The call caps the upside, the put sets a floor under the downside, and either way the price moves less. That is exactly why bonds with options are measured with effective duration.
+
+HEART: Credit unions deal with the call version every day. A member with a fixed rate mortgage can usually pay it off early at any time, which is a call option held by the borrower. When rates drop, members refinance, the loans pay off early, and the asset's duration shortens just when the credit union would most like to keep earning the old, higher rate.
+
+LEWIS: Now put the ranking rules together. Episode twenty eight said the most rate sensitive bond is long and low, long maturity and low coupon. Duration adds a third item to that list, a low yield. Longer maturity, lower coupon and lower yield all mean longer duration, with the long discount coupon bond as the exception on maturity. Embedded options shorten duration, and floaters have very short durations.
+
+HEART: For a ranking question, compare the features one at a time. If two bonds share a yield and one is both longer and lower in coupon, it almost always has the longer duration, with very long discount bonds as the rare exception. If the features pull in opposite directions, such as a long bond with a high coupon against a shorter bond with no coupon, do not decide from one feature alone. Work out which effect is larger, or rely on the numbers if they are given.
+
+LEWIS: The takeaway. Modified duration turns Macaulay duration into a percentage price change per point of yield, money duration and the P V B P put that in dollars, and effective duration takes over when options make the cash flows move. Duration usually lengthens with maturity, and it shortens with higher coupons, higher yields and embedded options.
 
 ## Recall check
 
-Q: An investor plans to sell a bond in 2 years, and the bond's Macaulay duration is 7 years. Is the duration gap positive or negative, and which change in rates right after purchase hurts this investor most?
+LEWIS Q: Name the three sources of return from a fixed rate bond. Which one disappears if you hold the bond to maturity?
 
-Answer: The gap is positive, 7 minus 2, or 5 years. Duration is longer than the horizon, so price risk dominates. A rise in rates hurts most, because the price loss at the sale date outweighs the extra reinvestment income.
+HEART: Answer. Coupon and principal payments, reinvestment income, and a capital gain or loss, and the capital gain or loss is the one that disappears. Here is why. A capital gain or loss only arises when you sell before maturity at a price different from the carrying value. Hold to maturity and you receive par whatever happens to rates, so there is no sale price to gain or lose on. Your only interest rate risk left is reinvestment risk.
 
-Q: Rates fall right after an investor buys a coupon bond at a YTM of 6 percent, and she holds it to maturity with no default. Is her realized return most likely above, equal to, or below 6 percent?
+HEART Q: Yields rise right after you buy a coupon bond that you plan to hold to maturity. Does your realized return come out above, at or below the yield you bought at?
 
-Answer: Below 6 percent. Holding to maturity means she receives par, so any price gain along the way disappears by the end. Her coupons are reinvested at lower rates, so reinvestment risk dominates and her return falls short of the original YTM.
+LEWIS: Answer. Above it. Here is why. You never sell, so the lower price along the way does not touch you, and you receive par at maturity regardless. What changes is reinvestment. Every coupon now earns a higher rate, so you finish with more than the original yield promised, and the realized return lands between the old yield and the new one.
 
-Q: A semiannual coupon bond has an annualized Macaulay duration of 8.4 years and a yield to maturity of 10 percent. If its yield rises 25 basis points, about how much does its price change?
+LEWIS Q: Same rise in yields, same bond, but you plan to sell after one year. Above, at or below the purchase yield now?
 
-Answer: It falls about 2 percent. Modified duration is 8.4 divided by one plus half of 10 percent, so 8.4 divided by 1.05, which is 8. Negative 8 times 0.0025 is negative 0.02, a decline of 2 percent.
+HEART: Answer. Below it. Here is why. Over a single year, a coupon has had almost no time to earn interest, so the reinvestment gain is tiny. The drop in price at the sale date is large and immediate. With a short horizon, price risk dominates, so a rise in rates hurts.
 
-Q: Three bonds all yield 5 percent. Bond A has 10 years to maturity and a 2 percent coupon. Bond B has 10 years to maturity and a 6 percent coupon. Bond C has 5 years to maturity and a 2 percent coupon. Which has the highest modified duration?
+HEART Q: You sell a bond before maturity. What do you measure the capital gain or loss against, and why not the purchase price?
 
-Answer: Bond A. Compared with Bond B, its lower coupon puts more of its value in the final payment. Compared with Bond C, its longer maturity pushes its cash flows further out, and at a 5 percent yield the long discount bond exception is nowhere near in play.
+LEWIS: Answer. The carrying value on the sale date. Here is why. Even if yields never move, a bond bought at a discount climbs toward par over time, and a premium bond slides down toward it. That drift is amortization, part of the interest you earn, not a gain. Only the difference between the sale price and the carrying value comes from a change in yield, and that difference is the capital gain or loss.
 
-Q: You hold a bond position with a full value of 5 million dollars and a modified duration of 6. What are its money duration and its price value of a basis point?
+LEWIS Q: At what investment horizon do price risk and reinvestment risk offset each other?
 
-Answer: Money duration is 6 times 5 million, or 30 million dollars. Multiply by 0.0001, one basis point, and the P V B P is about 3,000 dollars. A 10 basis point rise in yield would cost about 30,000 dollars.
+HEART: Answer. At a horizon equal to the bond's Macaulay duration. Here is why. Payments that arrive before the horizon get reinvested, so they gain when rates rise. Payments that arrive after it are still in the bond when you sell, so they lose value when rates rise. At the value weighted average arrival date, those two effects balance for a small rate move right after purchase, so you earn about your original yield either way.
 
-Q: A bond's yield to maturity rises from 4 percent to 7 percent, and nothing else changes. What happens to its Macaulay duration, and why?
+HEART Q: A bond's Macaulay duration is longer than your investment horizon. Is the duration gap positive or negative, and which rate move hurts you?
 
-Answer: It falls. A higher discount rate shrinks the present value of distant cash flows more than near ones, so the weights shift toward earlier payments and the weighted average time gets shorter. Lower yields mean higher duration and more interest rate risk.
+LEWIS: Answer. Positive, and rising rates hurt. Here is why. The gap is duration minus horizon. When duration is longer, you need the money before the bond's value has arrived, on average, so you will sell while much of that value is still in the future. That exposes you to price risk, and a rise in yields cuts your sale price by more than it adds in reinvestment income.
 
-## Recap
+LEWIS Q: What does modified duration measure that Macaulay duration does not, and how do you get from one to the other?
 
-A fixed rate bond earns its return from three sources: coupons and principal, reinvestment income, and any capital gain or loss on a sale before maturity. You earn the YTM only if you hold to maturity, receive every payment, and reinvest every coupon at the YTM. Price risk dominates over short horizons and reinvestment risk over long ones, so short horizon investors fear rising rates and buy and hold investors fear falling rates.
+HEART: Answer. Modified duration measures the approximate percentage price change for a one percentage point change in yield, and you get it by dividing Macaulay duration by one plus the yield per period. Here is why. Macaulay duration is a length of time, in years, while price sensitivity is a percentage. For every year a payment waits, a rise in the yield cuts its value by about that rise divided by one plus the periodic yield, so dividing the value weighted years by that same amount gives the percentage change. For a semiannual bond, that divisor is built from half the annual yield, not the whole of it.
 
-Macaulay duration is the present value weighted average time to a bond's cash flows, and it is the horizon at which the two risks roughly offset. The duration gap is Macaulay duration minus the horizon, and a positive gap means rising rates hurt. Modified duration equals Macaulay duration divided by one plus the yield per period, and the percentage price change is about negative modified duration times the change in yield. Money duration is modified duration times the full price of the position, and P V B P is money duration times one basis point. Lower coupons, lower yields and, usually, longer maturities raise duration, with the long term discount bond as the exception.
+HEART Q: Why does a call option shorten a bond's duration, and which duration measure captures that?
+
+LEWIS: Answer. Because the call caps the price as rates fall, and effective duration captures it. Here is why. When rates fall, a bond with no option keeps rising in price, but a callable bond stalls near its call price because investors expect to be repaid at that price. A price that responds less to rates means a shorter duration. Modified duration assumes the cash flows are fixed and misses this, while effective duration reprices the bond with a model that lets the call be exercised.
+
+LEWIS Q: Two bond holdings have the same modified duration, but one is ten times the size of the other. Which measure shows the difference in risk, and what does the price value of a basis point add?
+
+HEART: Answer. Money duration shows it, and the P V B P states it per single basis point. Here is why. Modified duration is a percentage, so it is identical for a small holding and a large one. Money duration multiplies that percentage by the full value of the position, so it grows with size. The P V B P is money duration times one basis point, the dollar change for the smallest standard move in yield, which makes positions of any size easy to compare and to add up.
+
+HEART Q: Two bonds have the same maturity and the same yield. One pays no coupon, the other pays a high coupon. Which has the longer duration?
+
+LEWIS: Answer. The zero coupon bond. Here is why. Duration is the value weighted average time to the payments. The high coupon bond delivers a good share of its value early, which pulls its average date earlier. The zero delivers everything at maturity, so its Macaulay duration equals its maturity, the longest possible for that date.
+
+LEWIS Q: Market yields fall sharply. What happens to the duration of an ordinary option free bond, and why?
+
+HEART: Answer. It gets longer. Here is why. A lower discount rate raises the present value of distant payments proportionally more than near ones, so the weights tilt toward the later payments. The average date moves out, and the price becomes more sensitive to the next change in yield. Lower yields mean more interest rate risk.
+
+HEART Q: Does a longer maturity always mean a longer duration?
+
+LEWIS: Answer. No, not for a long coupon bond trading at a discount. Here is why. For a discount coupon bond, duration rises with maturity, peaks, and then falls back toward the duration of a perpetuity, which is one plus the yield divided by the yield. At very long maturities the far off principal is worth almost nothing today, so the bond behaves like a stream of coupons that never ends. Bonds at par or at a premium simply rise toward that limit, and a zero coupon bond's duration always equals its maturity.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: For the sources of return: paid, reinvested, sold. Coupons and principal, interest on the coupons, and a gain or loss only if you sell early.
+
+HEART: For the seesaw: when rates rise, price falls and reinvestment income rises. When rates fall, the reverse.
+
+LEWIS: For who fears what: sellers fear rises, holders fear falls. A short horizon means price risk dominates. Holding to maturity means reinvestment risk dominates.
+
+HEART: For carrying value: the drift toward par is interest, not a gain. Measure a gain or loss from the carrying value on the sale date, not the purchase price.
+
+LEWIS: For Macaulay duration: it is the value weighted average arrival date of the money, and it is the pivot where price risk and reinvestment risk balance. A zero coupon bond's duration is its maturity.
+
+HEART: For the gap: duration minus horizon. Positive gap, you are a seller, so fear rising rates. Negative gap, you are a reinvestor, so fear falling rates.
+
+LEWIS: Macaulay is when, modified is how much. Divide Macaulay by one plus the yield per period, and for a semiannual bond that means half the yield. The approximate version steps down and up, averages the move, and scales by today's price.
+
+HEART: For choosing a measure: fixed cash flows, pick modified. Cash flows that move with rates, pick effective.
+
+LEWIS: For dollars: money duration is modified duration times the full price of the position. The P V B P is one ten thousandth of that, the dollars at stake per basis point.
+
+HEART: For the properties: long, low and low. Long maturity, low coupon and low yield all mean long duration, with the very long discount coupon bond as the one exception on maturity. Options only shorten. The call caps the upside, the put floors the downside. And floaters reset the clock, so their duration runs only to the next reset.
+
+LEWIS: Now, how you would say the big ideas to a senior leader.
+
+HEART: On bond returns: the yield we buy at is what we earn if rates stand still, or roughly so if we hold for about the bond's duration. Otherwise, whether we come out ahead depends on whether we sell soon or hold to the end. The jargon is price risk, reinvestment risk and horizon yield.
+
+LEWIS: On duration: it tells us two things. Roughly how long until our money comes back, counted by value, and roughly how many percent a holding loses for each one point rise in rates. The jargon is Macaulay duration and modified duration.
+
+HEART: On dollar exposure: every basis point rise in rates costs this portfolio about a fixed number of dollars, so a quarter point move costs about twenty five times that. The jargon is money duration and the price value of a basis point.
+
+LEWIS: On balance sheet risk: if our assets bring their value back later than our funding falls due, rising rates hurt us, and the bigger that mismatch, the bigger the hit. The jargon is the duration gap.
+
+HEART: And on options: the expected life of mortgages and callable bonds shrinks when rates fall, because borrowers refinance and issuers call, so the long, higher yielding assets we were counting on come back just when we would rather keep them. The jargon is embedded options, prepayment and effective duration.
