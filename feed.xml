@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Tue, 06 Oct 2026 23:02:56 -0500</lastBuildDate>
+  <lastBuildDate>Tue, 06 Oct 2026 23:30:13 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -144,11 +144,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Economics, Kaplan Modules 16.1 to 17.1. 16.1 Geopolitics, 17.1 International Trade</description>
     <itunes:summary>Economics, Kaplan Modules 16.1 to 17.1. 16.1 Geopolitics, 17.1 International Trade</itunes:summary>
-    <content:encoded><![CDATA[<p>Economics, Kaplan Modules 16.1 to 17.1.</p><ul><li>Module 16.1, Geopolitics</li><li>Module 17.1, International Trade</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:10 The big picture</li><li>1:27 Module 16.1, Geopolitics</li><li>13:47 Module 17.1, International Trade</li><li>26:41 Recall check</li><li>30:00 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E08.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E08_v2.mp3" length="9520144" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Economics, Kaplan Modules 16.1 to 17.1.</p><ul><li>Module 16.1, Geopolitics</li><li>Module 17.1, International Trade</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:34 Module 16.1, Geopolitics</li><li>18:12 Module 17.1, International Trade</li><li>34:41 Recall check</li><li>42:25 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E08.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E08_v3.mp3" length="13879211" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e08</guid>
     <pubDate>Sat, 03 Oct 2026 12:08:00 -0500</pubDate>
-    <itunes:duration>1904</itunes:duration>
+    <itunes:duration>2776</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E08.txt" type="text/plain"/>
   </item>
