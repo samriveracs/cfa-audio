@@ -1,141 +1,263 @@
-## The big picture
-
-Inventory is where accounting choices quietly move profit from one period to another. A company buys goods at different prices during the year, sells some of them, and keeps the rest. The total it paid is a fact. The real question is how that total gets split between the income statement, as cost of goods sold, and the balance sheet, as ending inventory. Two things decide the split. The first is the cost formula the company chooses, and the second is whether the inventory has lost value.
-
-This episode covers three modules. Module 32.1 covers how inventory is measured, at the lower of cost and net realizable value, and what a writedown does to the statements and the ratios. Module 32.2 is the heavy one. It shows how rising and falling prices push FIFO and LIFO results apart, how the LIFO reserve lets you restate a LIFO company onto a FIFO basis, and what a LIFO liquidation does to profit. Module 32.3 covers what companies disclose about inventory, how an analyst reads those disclosures, and the inventory ratios.
-
-The pieces connect in a simple way. Measurement caps the number on the balance sheet. The cost formula decides how much cost reaches the income statement, and when. Disclosure is how you, as the analyst, find out which choices were made, so you can undo them when you compare companies. On the exam, expect direction of effect questions, at least one LIFO to FIFO conversion, and IFRS versus U.S. GAAP contrasts on writedown reversals and on which methods are allowed.
+LEWIS: Reading 32 covers how inventory is measured at the lower of cost and net realizable value, and what a writedown does to the statements and the ratios. It then covers how rising and falling prices pull FIFO, LIFO and weighted average cost apart, the LIFO reserve and LIFO liquidation, and what the inventory notes tell an analyst.
 
 ## Module 32.1, Inventory Measurement
 
-Start with the identity that drives this whole episode. Beginning inventory plus purchases equals the cost of goods available for sale. That pool of cost then goes to exactly two places. Cost of goods sold goes to the income statement, and ending inventory stays on the balance sheet. So beginning inventory plus purchases equals cost of goods sold plus ending inventory, and any choice that puts more cost in one bucket must put less in the other.
+HEART: Picture a company that makes winter coats. It spent the summer building parkas for a cold season, and then the winter turns out mild. The racks are full, a batch of half sewn coats is still on the line, and the price stores will pay has dropped. The coats cost what they cost. The question is what they are worth on the balance sheet now.
 
-What counts as cost in the first place? Inventory cost includes the purchase price after trade discounts, plus import duties, taxes the company cannot recover, and the freight and handling needed to bring the goods in. For a manufacturer it also includes conversion costs, meaning direct labor and a systematic share of production overhead. Some costs are expensed right away instead. These include abnormal waste of materials or labor, storage costs that are not a necessary step in production, administrative overhead, and selling costs. The line matters because capitalizing a cost delays the expense until the goods are sold, which raises current profit and current assets.
+LEWIS: Under IFRS the answer is the lower of cost and net realizable value. Net realizable value, or N R V, is the expected selling price minus two things still to be spent: the costs to complete the goods and the costs to sell them. For the coat maker, that is the marked down price, minus the sewing still needed on the unfinished coats, minus shipping and sales commissions.
 
-Next come the cost formulas, also called cost flow assumptions. Specific identification tracks the actual cost of each item, which suits unique, high value goods. Weighted average cost spreads the total cost evenly across all the units available. FIFO, which stands for first in, first out, assumes the oldest units are sold first, so ending inventory holds the newest costs. LIFO, which stands for last in, first out, assumes the newest units are sold first, so ending inventory holds the oldest costs. IFRS allows the first three, and U.S. GAAP allows all four, so LIFO is a U.S. GAAP only method.
+HEART: In plain English, N R V is what the goods will actually put in your pocket after everything you still have to spend on them. If that number falls below what the inventory is carried at, the company writes the inventory down to N R V.
 
-Now the heart of this module. Inventory is a current asset, and an asset should not sit on the balance sheet above the cash it can bring in. So under IFRS, inventory is measured at the lower of cost and net realizable value, or N R V. N R V equals the estimated selling price in the ordinary course of business, minus the estimated costs to complete the goods, minus the estimated costs to sell them. If N R V falls below cost, the company writes the inventory down to N R V and recognizes the loss in that period.
+LEWIS: Why not wait until the coats sell and let the loss show up then?
 
-Why does the rule exist? The loss in value happened now, when selling prices fell or the goods became damaged or obsolete. It belongs in this period's profit, not in some later period when the goods finally sell. And it keeps the balance sheet honest about what the inventory can really bring in.
+HEART: Two reasons. An asset should not sit on the balance sheet at more than it can bring in. And the loss happened this period, when the warm winter wiped out the demand, so it belongs in this period's profit, not in some later period when the coats finally leave the warehouse.
 
-U.S. GAAP splits the rule by cost formula. For FIFO, weighted average and specific identification, the rule matches IFRS, the lower of cost and N R V. For LIFO and for the retail method, which retailers use to estimate cost from selling prices, U.S. GAAP uses the lower of cost or market. Market here means current replacement cost, but with a ceiling and a floor. The ceiling is N R V, and the floor is N R V minus a normal profit margin. So market is simply the middle value of three numbers, replacement cost, N R V, and N R V minus the normal margin.
+LEWIS: The loss goes through the income statement, either on its own line or folded into cost of goods sold, which is also called cost of sales. A writedown large enough to matter typically gets its own line. The mechanics usually run through a valuation allowance. That is a contra asset account, which works like accumulated depreciation. The original cost stays on the books, the allowance sits beside it, and the difference is the carrying amount. So you can always see how far below cost the inventory has been marked.
 
-Try a quick example. A unit of LIFO inventory cost 100 dollars. Its N R V is 85 dollars, and the normal profit margin is 10 dollars, so the floor is 75 dollars. Replacement cost has dropped to 70 dollars. The middle of 70, 75 and 85 is 75, so market is 75 dollars, and the lower of cost and market is 75 dollars, a writedown of 25 dollars per unit. A FIFO company holding the same unit, under either IFRS or U.S. GAAP, would write it down only 15 dollars, to its N R V of 85 dollars.
+HEART: Now suppose the next winter is brutal and coat prices bounce back. Under IFRS the inventory is written back up, and that reversal is required, not optional. The gain also runs through the income statement, either on its own line or as a reduction in cost of sales. But there is a cap. The reversal can only undo the earlier writedown. The inventory can climb back to its original cost and no higher.
 
-Now the difference between the frameworks that is tested most often. Under IFRS, if N R V later recovers, the company reverses the writedown, but only up to the amount of the original writedown. So inventory can never climb back above its original cost. The reversal is recognized in profit, as a reduction in the inventory expense for that period. Under U.S. GAAP, reversals are prohibited, and the written down amount becomes the new cost basis.
+LEWIS: Think of it as a ladder. When value recovers, IFRS puts you back up the rungs you slid down, but never above the rung you started on. So the trap answer is the one that writes the coats up to the new, higher N R V. Lower of cost and N R V means cost is always the ceiling.
 
-Here is a worked example with round numbers. A company holds 1,000 units that cost 100 dollars each, so 100,000 dollars in total. At year end the expected selling price drops to 95 dollars, and finishing and selling each unit will cost 10 dollars, so N R V is 85 dollars a unit. The company writes inventory down by 15 dollars a unit, records a 15,000 dollar loss, and carries the inventory at 85,000 dollars. The next year, before the goods are sold, prices recover and N R V rises to 105 dollars a unit. Under IFRS, inventory goes back up to 100,000 dollars, a reversal of 15,000 dollars, and not to 105,000 dollars, while under U.S. GAAP it stays at 85,000 dollars.
+HEART: US GAAP splits the rule by cost method. A company on FIFO, weighted average, or anything other than LIFO and the retail method follows the same test as IFRS, the lower of cost or N R V. A company on LIFO or the retail method follows an older test, the lower of cost or market.
 
-Here is the trap. The tempting answer writes inventory up to the new, higher N R V. That does not happen for ordinary inventory under either framework, because the ceiling on any reversal is original cost. There is one narrow exception you should recognize. Producers of agricultural, forest and mineral products, and commodity broker traders, may carry inventory at N R V or at fair value less costs to sell, even above cost, with changes in value running through profit or loss. Treat that as an industry exception, not the general rule.
+LEWIS: Market starts out as replacement cost, what it would cost to buy or make the same item today. But market is boxed in. Its ceiling is N R V. Its floor is N R V minus a normal profit margin. If replacement cost sits above the ceiling, market is N R V. If replacement cost sits below the floor, market is the floor. Otherwise market is simply replacement cost.
 
-Now the financial statement effects, which is what this module really tests. In the period of a writedown, inventory falls, so current assets, total assets and equity all fall. The loss is often reported inside cost of sales, so gross profit, operating profit and net income fall too. The ratios follow. The current ratio falls, and debt to equity rises, because equity shrank while debt did not. Inventory turnover and total asset turnover rise, because their denominators got smaller.
+HEART: So market is always the middle of three values: replacement cost, N R V, and N R V minus the normal margin. And the gap between the ceiling and the floor is exactly one normal profit margin.
 
-Here is the subtle part. Because the inventory now carries a lower cost, cost of sales is lower when those goods are sold next period, so next period's gross margin looks better. A large writedown hurts this year and flatters next year. That is why analysts look hard at a writedown that seems bigger than the facts justify, since an oversized writedown shifts profit into the future.
+LEWIS: Why put a box around it?
 
-Hold onto this rule. Under IFRS, inventory is carried at the lower of cost and N R V, where N R V is the expected selling price minus the costs to complete and sell. A writedown can be reversed only up to original cost, and U.S. GAAP never allows the reversal.
+HEART: The ceiling keeps inventory from being carried at more than it can bring in, which is the whole point of the rule. The floor stops a company from writing inventory down so far that it books an unusually fat profit when the goods finally sell. And here is a consequence worth knowing. Market can never sit above N R V, so for the same item at the same cost, the market test produces a writedown at least as large as the N R V test, and sometimes larger.
+
+LEWIS: Under US GAAP, a small decline is usually folded into cost of sales, and a large one shows up as its own loss line. Either way, the written down amount becomes the new cost basis. And US GAAP never allows a reversal, under either test. If the coats recover in value, nothing is written back up. The recovery shows up only as a fatter profit when the coats are eventually sold.
+
+HEART: One more wrinkle. When costs have been rising, a LIFO company is less likely to need a writedown at all. Its inventory carries old, low costs, so there is more room before N R V drops below the carrying amount. A FIFO company holding identical goods carries them at recent, higher costs and hits the line sooner.
+
+LEWIS: There is also an industry exception, under both IFRS and US GAAP. Producers and dealers of commodities, such as agricultural and forest products, mineral ores and precious metals, may carry inventory at N R V even when that is above historical cost. Think of a large wheat farm with silos full of harvested grain. The unrealized gains and losses from price changes go straight to the income statement. If an active market exists, its quoted price sets the value. If not, recent transactions do. Treat this as the exception, not the rule.
+
+HEART: Now the part this module tests hardest, what a writedown does to the statements and the ratios. Assume the writedown runs through cost of sales. Start with the balance sheet. Inventory falls, so current assets and total assets fall. The loss lowers net income, so equity falls too.
+
+LEWIS: Then liquidity. The current ratio falls, because inventory is part of current assets. The quick ratio does not move at all, because it leaves inventory out.
+
+HEART: Activity ratios go the other way. Inventory turnover is cost of sales divided by average inventory. The writedown raises the top and shrinks the bottom, so turnover rises. Days of inventory on hand fall, and so does the cash conversion cycle. Total asset turnover rises too, because total assets are smaller.
+
+LEWIS: And the trap is treating that higher turnover as better management. The company did not get any better at selling coats. It shrank the inventory figure that cost of sales is divided by.
+
+HEART: Solvency. Debt does not change, but assets and equity shrink, so debt to assets and debt to equity both rise. Profitability. Higher cost of sales means lower gross, operating and net margins. And return on assets and return on equity fall for a typical company, because the hit to profit is proportionally bigger than the hit to assets or equity.
+
+LEWIS: Then comes the twist in the following period. The coats now sit at a lower carrying amount, so when they sell, cost of sales is lower than it would have been, and margins look better. Pair that higher profit with the smaller asset and equity base left by the writedown, and return on assets and return on equity rise. A writedown hurts this year and flatters next year.
+
+HEART: Which is why writedowns make ratios hard to compare across periods. And it is why an analyst looks hard at a writedown that seems bigger than the facts justify. Write down too much today and you move profit into tomorrow.
+
+LEWIS: The takeaway. Inventory is carried at the lower of cost and N R V, with US GAAP using the lower of cost or market for LIFO and the retail method. IFRS requires a writedown to reverse when value recovers, but never above original cost, and US GAAP never allows a reversal. And a writedown cuts this year's margins, assets and equity, lifts turnover and leverage ratios, and flatters next year's margins.
 
 ## Module 32.2, Inflation Impact on FIFO and LIFO
 
-Here is the core idea. When the cost of the goods a company buys is rising, the newest units are the most expensive. FIFO sends the old, cheap units to cost of goods sold and leaves the new, expensive units on the balance sheet. LIFO does the opposite. It sends the newest, most expensive costs to cost of goods sold and leaves the oldest, cheapest costs in inventory. Weighted average lands in between.
+HEART: Picture a lumber yard. It starts the year with a stack of two by fours in the shed, bought last winter. Then a building boom arrives, and the price the sawmill charges climbs month after month. The yard keeps buying fresh loads all spring and summer, sells a great many boards to builders, and ends the year with a stack still in the shed.
 
-Walk through a tiny example. A company starts the year with no inventory. It buys 100 units at 10 dollars, then another 100 units at 12 dollars, so the goods available cost 2,200 dollars. It sells 100 units at 20 dollars each, so revenue is 2,000 dollars. Under FIFO, the units sold are the first 100 at 10 dollars, so cost of goods sold is 1,000 dollars and ending inventory is 1,200 dollars. Under LIFO, the units sold are the last 100 at 12 dollars, so cost of goods sold is 1,200 dollars and ending inventory is 1,000 dollars.
+LEWIS: Add the starting stack to everything the yard bought during the year and you have the cost of goods available for sale. That total is a fact. The checks to the sawmill have been written. The accounting question is only how to split it. Part goes to the income statement as cost of goods sold. The rest stays on the balance sheet as ending inventory. Every dollar lands in one bucket or the other, so anything that puts more cost in one bucket puts less in the other.
 
-Under weighted average, the average cost is 2,200 dollars divided by 200 units, or 11 dollars a unit, so cost of goods sold and ending inventory are both 1,100 dollars. Gross profit is 1,000 dollars under FIFO, 900 dollars under weighted average, and 800 dollars under LIFO. In every case, cost of goods sold plus ending inventory equals 2,200 dollars. The method never changes the total, only the split.
+HEART: The rule for the split is the cost flow assumption. FIFO stands for first in, first out. The cost of the oldest boards goes to cost of sales first, so ending inventory holds the newest and most expensive loads.
 
-Now add taxes and cash. Suppose the tax rate is 25 percent and the company uses the same method for taxes as for reporting. LIFO's taxable profit is 200 dollars lower than FIFO's, so its taxes are 50 dollars lower and its cash flow is 50 dollars higher. Before taxes, the choice of method changes no cash at all, because the company paid the same amount for its goods either way. In the United States, a company that uses LIFO for taxes must also use it in its financial statements. So LIFO's lower reported profit is the price of its tax saving.
+LEWIS: LIFO stands for last in, first out. The cost of the newest boards goes to cost of sales first, so ending inventory holds the oldest costs, sometimes from years back.
 
-Here is the full rule set for rising prices with stable or growing quantities. Compared with FIFO, LIFO gives higher cost of goods sold, lower gross profit, lower net income and lower income taxes. On the balance sheet, LIFO gives lower inventory, lower current assets, lower working capital and lower equity. Operating cash flow is higher under LIFO because of the tax saving. Weighted average sits between the two on every line.
+HEART: Weighted average cost blends everything. Pool all the costs, spread them evenly over all the boards available, and both buckets get the same average cost per board. And for completeness, specific identification tracks the actual cost of each individual item. That suits unique goods, like a single slab of rare walnut, more than a pile of identical two by fours.
 
-Now the ratios, which is where most exam questions live. Under LIFO in a period of rising prices, gross margin and net margin are lower. The current ratio is lower, because inventory is lower. Inventory turnover is higher and days of inventory on hand are lower, because the numerator, cost of goods sold, is bigger and the denominator, inventory, is smaller. Debt to equity is higher, because equity is lower.
+LEWIS: Here is the point people miss. The method is about costs, not boards. Picture the stack in the shed. The forklift grabs from the top, so physically the newest boards go out first. The yard can still report on FIFO. The method decides which costs go where, not which pieces of wood leave the building.
 
-Two traps hide here. First, the quick ratio leaves inventory out, so LIFO's low inventory does not hurt it, and LIFO's tax saving adds cash, so the quick ratio can actually be higher under LIFO. Second, LIFO's higher turnover is not a sign of better inventory management. It comes from the method, because old, low costs sit in the denominator. And for return on assets and return on equity, both the numerator and the denominator are lower under LIFO, so the direction depends on the numbers.
+HEART: And a scope point. IFRS does not allow LIFO. US GAAP does. So LIFO is essentially a US story, and that matters when you compare companies across the two frameworks.
 
-Which method gives better information? FIFO ending inventory is close to current cost, so FIFO gives the more useful balance sheet. LIFO cost of goods sold is close to current cost, so LIFO gives the better measure of current profit margins. The analyst wants the best of both, and the tool for that is the LIFO reserve.
+LEWIS: Now the directions, and they all assume the quantity of inventory is stable or growing. When prices are rising, LIFO sends the newest, highest costs to the income statement. So cost of sales is highest under LIFO, lowest under FIFO, with weighted average in between.
 
-When prices fall, every direction flips, as long as quantities are stable or growing. LIFO now puts the newest, cheapest costs into cost of goods sold, so LIFO shows the higher profit and pays the higher taxes. FIFO shows the lower profit and the lower inventory, and its inventory is still the figure closer to current cost. On the exam, read the direction of prices first, and only then answer.
+HEART: Gross profit is the mirror image. Highest under FIFO, lowest under LIFO. And that difference flows all the way down: operating profit, income before taxes and net income are all higher under FIFO. Revenue does not change at all. The yard sold the same boards to the same builders at the same prices whatever method it chose.
 
-The LIFO reserve is the gap between inventory on a FIFO basis and inventory as reported under LIFO. In words, the LIFO reserve equals FIFO inventory minus LIFO inventory. In the tiny example, it was 1,200 minus 1,000, or 200 dollars. U.S. companies on LIFO disclose the reserve, and when prices keep rising it is positive and tends to grow. Like securities carried at amortized cost on a bank or credit union balance sheet, LIFO inventory can sit far from current value, with the gap visible only in a note.
+LEWIS: Ending inventory is the other bucket. Under FIFO it holds the latest, costliest loads, so it is highest. Under LIFO it holds the oldest, cheapest costs, so it is lowest.
 
-Three conversions follow, and they are worth saying slowly. First, FIFO inventory equals LIFO inventory plus the LIFO reserve. Second, FIFO cost of goods sold equals LIFO cost of goods sold minus the change in the LIFO reserve, where the change is the ending reserve minus the beginning reserve. Third, FIFO pretax income is higher than LIFO pretax income by that same change in the reserve, and FIFO net income is higher by the change in the reserve times one minus the tax rate.
+HEART: Then taxes and cash. Lower profit before tax under LIFO means a lower income tax bill. Now think about cash. Before taxes, the method changes nothing. The yard paid the sawmill the same amount and collected the same amount from customers. The only cash difference is the tax bill, and LIFO's is smaller. So operating cash flow is higher under LIFO.
 
-The balance sheet needs one more step. When you add the whole reserve to inventory, something must balance it. Equity rises by the reserve times one minus the tax rate, because those extra cumulative profits would have been taxed. The rest, the reserve times the tax rate, goes to taxes, either as a higher deferred tax liability or as lower cash, depending on the assumption you are given.
+LEWIS: That is the paradox to remember. In a period of rising prices, LIFO reports lower profit and produces more cash.
 
-Here is a worked example. A company reports LIFO inventory of 600 million dollars. Its LIFO reserve was 80 million dollars at the start of the year and 100 million dollars at the end. LIFO cost of goods sold is 900 million dollars, and the tax rate is 25 percent. FIFO inventory is 600 plus 100, or 700 million dollars.
+HEART: Why would a company accept lower reported profit?
 
-The reserve rose by 20 million dollars, so FIFO cost of goods sold is 900 minus 20, or 880 million dollars. FIFO pretax income is 20 million dollars higher, and FIFO net income is 20 times 0.75, or 15 million dollars higher. On the balance sheet, equity is 100 times 0.75, or 75 million dollars higher, and the remaining 25 million dollars sits in deferred taxes or comes out of cash.
+LEWIS: Because in the United States, a company that chooses LIFO for its tax return must also report on LIFO in its financial statements. That is called the LIFO conformity rule. The lower reported profit is the price of the tax saving.
 
-Here is the trap. To restate inventory and equity, you use the ending reserve, the whole 100 million. To restate cost of goods sold and income, you use only the change in the reserve, the 20 million. Mixing these up gives an answer that is far off, and it will be among the choices. Also watch the sign. When the reserve grows, FIFO cost of goods sold is lower than LIFO, so you subtract the increase.
+HEART: So which method tells the truth? Each gets half of it right. FIFO ending inventory is made of the latest purchases, so it sits near current replacement cost. That gives the better balance sheet number. LIFO cost of sales is made of the latest purchases, so it matches today's costs against today's revenue. That gives the better income statement number.
 
-Converting to FIFO moves the ratios as well. Inventory and current assets rise, so the current ratio rises. Cost of goods sold falls while inventory rises, so inventory turnover falls. Equity rises, so debt to equity falls. When you compare a LIFO company with a FIFO company, convert the LIFO company first, and this comes up often because IFRS does not permit LIFO.
+LEWIS: A short way to hold it. FIFO for the balance sheet, LIFO for the income statement.
 
-Now LIFO liquidation. Under LIFO, inventory builds up in layers, each carried at the cost of the year it was added. As long as the company buys at least as many units as it sells, the old layers are never touched. A LIFO liquidation happens when the company sells more units than it buys, so inventory quantities fall and old, low cost layers flow into cost of goods sold.
+HEART: When prices are flat, it does not matter. FIFO, LIFO and weighted average give the same cost of sales, the same inventory and the same gross profit. The methods only part ways when prices trend.
 
-With rising prices, those old costs are far below current costs. So cost of goods sold is understated, and gross profit, net income and income taxes all jump. That profit boost is real in accounting terms, but it is not sustainable, because an old layer can be used up only once. The company also gives back part of its past tax deferral, because it now pays tax on gains that LIFO had been postponing.
+LEWIS: And when prices fall, every direction flips, again assuming stable or growing quantities. LIFO now sends the newest, cheapest costs to cost of sales, so LIFO shows the lowest cost of sales, the highest gross profit, the higher tax bill and the highest ending inventory. What does not flip is which method is more current. FIFO inventory still holds the latest costs, and LIFO cost of sales still holds the latest costs.
 
-A quick example. A LIFO company sells 1,000 units from a layer bought years ago at 20 dollars each, while the current cost is 50 dollars. Cost of goods sold is 30 dollars a unit below current cost, so pretax profit is 30,000 dollars higher than it would be if the company had replaced those units. Strip that 30,000 dollars out when you judge the earnings trend.
+HEART: So the trap is the reflex that LIFO always means lower profit. It means lower profit only when prices are rising. Before you answer any of these questions, check which way prices are moving.
 
-Why do liquidations happen? Sometimes for real reasons, such as a strike, a supply shortage, or a deliberate plan to shrink inventory when demand falls. But management can also cause one on purpose, by delaying purchases near year end to pull cheap old costs into earnings. Here is the signal to watch. In a period of rising prices, a LIFO reserve that falls is a red flag for a LIFO liquidation.
+LEWIS: Now the ratios, assuming rising prices and stable or growing quantities. Start with profitability. Any margin built on cost of sales, so gross margin, operating margin and net profit margin, is higher under FIFO.
 
-Hold onto these rules. FIFO inventory equals LIFO inventory plus the LIFO reserve. FIFO cost of goods sold equals LIFO cost of goods sold minus the change in the reserve. And when prices rise, LIFO means higher cost of goods sold, lower profit, lower taxes, lower inventory and higher cash flow.
+HEART: Liquidity. FIFO carries more inventory, so current assets are higher, the current ratio is higher, and working capital is higher. The quick ratio leaves inventory out, so the method does not touch it directly. If anything, LIFO's tax saving leaves a little more cash in the bank.
+
+LEWIS: Activity. Inventory turnover is cost of sales divided by average inventory. Under LIFO the top is bigger, because it holds the newest costs, and the bottom is smaller, because it holds the oldest costs. So LIFO shows higher turnover and fewer days of inventory on hand. Restate a LIFO company to FIFO and its turnover falls and its days on hand rise.
+
+HEART: Same trap as with writedowns. The higher turnover under LIFO is an accounting effect, not faster selling. The boards did not move any quicker.
+
+LEWIS: Solvency. FIFO shows more inventory, so more total assets and more equity. So the solvency ratios, debt to assets and debt to equity, are both lower under FIFO. FIFO makes the company look less leveraged.
+
+HEART: And return on assets and return on equity have no fixed rule here, because under LIFO both the profit on top and the assets or equity underneath are lower.
+
+LEWIS: That brings us to the comparison problem. Say you want to compare a US lumber dealer on LIFO with a European competitor reporting under IFRS, where LIFO is not allowed. You need them on the same footing, and the tool is the LIFO reserve.
+
+HEART: The LIFO reserve is the gap between what inventory would be under FIFO and what it is under LIFO. US companies on LIFO disclose it in the notes. Picture the stack in the shed wearing two sets of price tags, the old LIFO tags and the newer FIFO tags. The reserve is the total difference between them.
+
+LEWIS: In a period of rising prices the reserve is positive, and as long as prices keep rising and quantities hold steady, it keeps growing. It also tells a story about the past. It is the cumulative extra cost that LIFO has pushed through the income statement over the years compared with FIFO, which is the same as the cumulative profit before tax that LIFO has pushed into the future.
+
+HEART: Restating then takes two ideas. For the balance sheet, add the whole reserve to LIFO inventory and you have FIFO inventory. For one year's income statement, what matters is how much the reserve changed during that year. If it grew, LIFO's cost of sales was higher than FIFO's by that growth, so FIFO's profit before tax is higher by the same amount.
+
+LEWIS: That is the trap in restating. The whole reserve goes with the balance sheet. Only the change in the reserve goes with the income statement. Mix them up and you are far off.
+
+HEART: Equity gets one refinement. Restating to FIFO raises equity, but not by the whole reserve, because part of those extra past profits would have gone to taxes. Equity rises by the after tax part, and the rest shows up as taxes.
+
+LEWIS: After the restatement, the ratios move the way you would expect. Inventory and the current ratio rise. Turnover falls. Debt to equity falls. Now the two lumber dealers can be compared fairly.
+
+HEART: Now LIFO liquidation. Under LIFO, inventory builds up in layers. In any year the yard buys more boards than it sells, the extra boards form a new layer at that year's cost, and the old layers sit untouched underneath. A LIFO yard that has been in business for decades can have layers costed at prices from twenty years ago.
+
+LEWIS: A LIFO liquidation happens when inventory quantities fall, because the yard sells more boards than it buys. Then LIFO has to reach down into those old layers, and ancient, low costs flow into cost of sales.
+
+HEART: The effects follow directly. Cost of sales is lower than it would have been, so gross margin, operating margin and profit all jump, and income taxes rise with them. In effect, the company is booking years of past inflation gains as this year's income.
+
+LEWIS: And none of it is sustainable. A layer can only be used up once, and no business can keep selling stock it never replaces. A big enough liquidation can even push LIFO's gross margin above FIFO's in a year of rising prices, which looks backwards until you see what caused it.
+
+HEART: Why do liquidations happen? Some are forced. A strike at the sawmill, or a wildfire season that shuts down a key supplier, can leave the yard unable to restock. Some are voluntary. Management expects orders to fall, and deliberately slims down inventory to fit the market. And some are opportunistic. Management can hold off on purchases near year end to pull cheap old costs into this year's earnings.
+
+LEWIS: How does an analyst spot one? Through the LIFO reserve in the notes. When prices are rising, the reserve should normally hold steady or grow. If it falls, suspect a liquidation, and if the effect is material, strip that boost out before judging the margins.
+
+HEART: The takeaway. When prices rise and quantities hold steady, LIFO means higher cost of sales, lower profit, lower taxes, lower inventory, more cash and higher turnover. FIFO gives the better balance sheet, LIFO the better income statement. Add the LIFO reserve to restate inventory to FIFO, and treat a falling reserve in a period of rising prices as a sign of LIFO liquidation.
 
 ## Module 32.3, Presentation and Disclosure
 
-Inventory sits in current assets on the balance sheet, and the notes tell you how it got there. Under IFRS, the key disclosures come in a short list. First, the accounting policy, including the cost formula used. Second, the total carrying amount, and the carrying amount by category, such as raw materials, work in progress and finished goods. Third, the amount of inventory recognized as an expense during the period, which is essentially cost of goods sold.
+LEWIS: The notes to the financial statements are where an analyst finds out how inventory was measured, and they are similar under IFRS and US GAAP. Seven disclosures matter.
 
-Fourth, the amount of any writedown recognized as an expense. Fifth, the amount of any reversal of a writedown, and the circumstances that caused it. Sixth, the carrying amount of inventory pledged as security for liabilities. A lender reads that last item closely, because inventory pledged to one creditor is not available to the others. U.S. GAAP disclosures are similar, except that there are no reversals to report, and LIFO users disclose the LIFO reserve.
+HEART: First, the cost flow method, FIFO, LIFO, weighted average and so on. Second, the total carrying amount of inventory, plus the carrying amount by category where that applies, typically raw materials, work in progress and finished goods. Third, the carrying amount of any inventory reported at fair value less costs to sell, which is where commodity dealers covered by the exception in Module 32.1 show up.
 
-Consistency is the theme behind these rules. Under IFRS, a company must use the same cost formula for all inventories of a similar nature and use, although inventories that differ in nature or use may justify different formulas. That stops a company from choosing a method warehouse by warehouse to steer its profit.
+LEWIS: Fourth, the cost of inventory recognized as an expense during the period, which is essentially cost of sales. Fifth, the amount of writedowns during the period, which is what builds the valuation allowance. Sixth, any reversals of writedowns and the circumstances behind them, which is IFRS only, since US GAAP does not allow reversals. Seventh, the carrying amount of inventory pledged as collateral.
 
-Next, changes in inventory method. Under IFRS, a company may change its cost formula only if a new standard requires it or the change gives reliable and more relevant information. The change is applied retrospectively, which means prior periods are restated as if the new method had always been used. U.S. GAAP also requires the company to justify the change as preferable, and it also applies changes retrospectively, with one important exception. A change to LIFO is applied prospectively, because rebuilding years of past LIFO layers is usually impractical, so the inventory carrying amount at the date of the change simply becomes the first LIFO layer.
+HEART: That last one matters to lenders. Picture a credit union lending to a small manufacturer with inventory as collateral. Inventory already pledged to another lender is not available to it. And what protects a lender is what the goods would actually sell for, not what they cost.
 
-Here is the trap. The tempting answer says every method change is restated retrospectively under both frameworks, which misses the U.S. GAAP exception for a change to LIFO. Remember too that a change in method breaks the comparison across years, and it can be used to manage earnings. When you see one, read the restated figures, and ask whether the stated reason makes economic sense.
+LEWIS: The category split depends on the business. Merchandisers, meaning wholesalers and retailers, buy goods ready to sell, so they usually show inventory as one line. The lumber yard is a merchandiser. Manufacturers usually show three.
 
-The breakdown by category is one of the most useful disclosures, so think about what each pattern means. If raw materials and work in progress are growing faster than sales, the company may be gearing up for higher demand. If finished goods are piling up faster than sales while raw materials shrink, demand may be weakening and production may be getting cut. In that second case, future writedowns become more likely.
+HEART: Picture a bicycle maker. Raw materials are the steel tubing, tires and chains waiting to be used. Work in progress is the frames moving down the assembly line. Finished goods are the boxed bikes waiting to ship.
 
-Other warning signs follow the same logic. Inventory growing much faster than sales means turnover is falling, and slow moving goods risk becoming obsolete. Frequent or large writedowns suggest weak inventory management or products with short lives. Under IFRS, a reversal of a writedown raises profit, so check whether a good period was helped by one. Analysts also look beyond the notes, to management commentary, industry data and the sales trend, to judge whether inventory levels make sense.
+LEWIS: Those three lines are signals about future revenue and earnings. If raw materials and work in progress are rising, the company is stocking up and building, which can mean management expects demand to grow. That points to higher revenue and earnings ahead.
 
-Now the inventory ratios. Inventory turnover equals cost of goods sold divided by average inventory. Days of inventory on hand equals 365 divided by inventory turnover, which is the same as average inventory divided by one day's worth of cost of goods sold. The gross profit margin equals gross profit divided by revenue.
+HEART: If finished goods are piling up while raw materials and work in progress shrink, the story turns. Bikes are not selling, so the company is cutting back production. That suggests falling demand, and future writedowns become more likely.
 
-A quick example. Cost of goods sold is 1,825 million dollars and average inventory is 365 million dollars. Turnover is 1,825 divided by 365, or 5 times a year. Days of inventory on hand is 365 divided by 5, or 73 days.
+LEWIS: Set finished goods against sales as well. If the pile of boxed bikes grows faster than bike sales, demand may be slipping and some models may be going stale. Obsolete inventory eventually gets written down, and that comes out of future earnings.
 
-Here is the trap. Turnover uses cost of goods sold, not revenue, because inventory is carried at cost. Dividing revenue by inventory mixes a selling price with a cost, so it overstates turnover and understates days on hand. Also use average inventory, meaning beginning plus ending inventory, divided by two, when you are given both balances.
+HEART: And excess inventory costs money even before any writedown. Someone pays to store and insure all those bikes, some places tax inventory, and the cash tied up in them cannot be put to better work.
 
-The gross profit margin belongs with these ratios because inventory cost is the main expense behind it. Read the two together. A falling gross margin alongside rising inventory can mean the company is discounting to move goods that are not selling. A rising gross margin right after a big writedown may simply reflect the lower cost basis, not better pricing.
+LEWIS: The notes are not the only source. Analysts also lean on management's discussion and analysis, industry data, trade publications, other sections of the annual report, conversations with management, media coverage, and the accounts of competitors.
 
-How do you read these numbers? High turnover, or few days on hand, can mean efficient management. But it can also mean the company holds too little inventory and is losing sales when shelves run empty. So compare with sales growth. If turnover is high but sales are growing more slowly than the industry, inventory may be too thin. If turnover is low compared with peers, inventory may be slow moving or obsolete, and writedowns may follow.
+HEART: Now the ratios for judging inventory management. Inventory turnover is cost of sales divided by average inventory, so it measures how quickly the company sells through its stock. Days of inventory on hand is the number of days in the year divided by turnover, so it measures how long the typical item sits before it sells.
 
-And remember the method effects from the last module. A LIFO company in a period of rising prices shows higher turnover and lower gross margin than an otherwise identical FIFO company. Before comparing two companies, put them on the same method.
+LEWIS: High turnover, meaning few days on hand, is usually a good sign. But there is such a thing as too fast. A bicycle maker that runs so lean it keeps running out of the popular frame sizes sends its dealers to a competitor. And as Module 32.1 showed, high turnover can also come from writedowns shrinking the inventory balance, and writedowns usually point to weak inventory management.
 
-Hold onto this rule. Inventory turnover equals cost of goods sold divided by average inventory, and days on hand equals 365 divided by turnover. The disclosures that matter most are the cost formula, the breakdown by category, writedowns and reversals, and inventory pledged as collateral.
+HEART: So how do you tell efficient from too thin? Set the company's sales growth against its industry's. If its sales lag the pack, the fast turnover probably means empty shelves and orders lost to rivals. If its sales keep pace with the pack or beat it, the fast turnover more likely reflects genuine efficiency.
+
+LEWIS: And at the other end, low turnover, meaning many days on hand, can signal slow moving or obsolete stock, the kind that ends up written down.
+
+HEART: The gross profit margin is the third tool. Read it next to the inventory numbers. If sales are rising but the gross margin is falling, the cost of making or buying the product is climbing faster than prices.
+
+LEWIS: Here is how the pieces work together. Say the bicycle maker's turnover jumps in a single year. Before you call it efficiency, you have three stories to test: better management, fading demand, or trouble getting parts.
+
+HEART: Start with the mix. Fading demand shows up as finished goods growing as a share of inventory while raw materials and work in progress shrink. Then set the valuation allowance against the cost of finished goods. Stock going out of style pushes N R V below cost, so a rising share points to obsolescence, and a falling or steady share argues against it. And look at sales. Bikes flying out the door sit awkwardly with a demand story.
+
+LEWIS: Then bring in the gross margin. If sales are rising but the margin is shrinking, input costs are climbing faster than prices. Put that beside a thin inventory and the likely story is supply, say a tire supplier that cannot keep up, rather than efficiency. Confirm it in management's discussion, industry reports and the accounts of competitors.
+
+HEART: Last, liquidity. The current ratio includes inventory. The quick ratio leaves it out, keeping only cash, marketable securities and receivables. Some analysts prefer the quick ratio because inventory is among the least liquid current assets. Before inventory becomes cash, it has to sit for its days on hand, and then customers take their own days to pay.
+
+LEWIS: So when the current ratio and the quick ratio move in opposite directions, look at inventory first, because it is the main thing one includes and the other leaves out.
+
+HEART: The takeaway. The notes give you the method, the categories, the writedowns and reversals, and anything pledged as collateral. Raw materials rising points to expected growth, finished goods piling up points to weakening demand. And high turnover is good only when sales growth keeps pace with the industry.
 
 ## Recall check
 
-Q: Under IFRS, inventory that cost 50 dollars a unit was written down to an N R V of 40 dollars. A year later, before it is sold, N R V recovers to 55 dollars. What is the new carrying amount per unit?
+LEWIS Q: Under IFRS, a company wrote its coats down to N R V. The next year, their N R V rises above the original cost. Where does the carrying amount end up?
 
-Answer: 50 dollars. IFRS allows the reversal, but only up to the original writedown, so the carrying amount returns to cost and not to 55 dollars. Under U.S. GAAP, it would stay at 40 dollars, because reversals are not allowed.
+HEART: Answer. At original cost, and no higher. Here is why. IFRS requires a reversal when value recovers, but only of the earlier writedown. The rule is the lower of cost and N R V, so cost is always the ceiling. Under US GAAP there would be no reversal at all, and the written down amount would stay as the cost basis.
 
-Q: Prices are rising and quantities are stable. Compared with FIFO, which is most likely higher for a company using LIFO, its operating cash flow, its current ratio, or its gross margin?
+HEART Q: Under US GAAP, which test does a LIFO company apply, and what is market?
 
-Answer: Operating cash flow. LIFO puts the newest, highest costs into cost of goods sold, which lowers taxable income and taxes, assuming the same method is used for taxes. The current ratio and gross margin are both lower under LIFO, because inventory and gross profit are lower.
+LEWIS: Answer. The lower of cost or market, where market is replacement cost kept between a ceiling and a floor. Here is why. The ceiling is N R V, so inventory is never carried above what it can bring in. The floor is N R V minus a normal profit margin, so the company cannot write inventory down far enough to manufacture a big profit later. Market is therefore the middle of three values: replacement cost, N R V, and N R V minus the normal margin.
 
-Q: A LIFO company's LIFO reserve fell during a year when its purchase costs rose. What is the most likely explanation, and what does it mean for earnings quality?
+LEWIS Q: A writedown runs through cost of sales. What happens to the current ratio and the quick ratio?
 
-Answer: A LIFO liquidation. The company sold more units than it bought, so old, low cost layers flowed into cost of goods sold and inflated gross profit. That boost cannot be repeated, so it lowers the quality of reported earnings.
+HEART: Answer. The current ratio falls, and the quick ratio does not change. Here is why. Inventory is part of current assets, so writing it down shrinks the top of the current ratio. The quick ratio leaves inventory out entirely, so the writedown never touches it.
 
-Q: A company reports LIFO inventory of 500 million dollars and a LIFO reserve of 100 million dollars, and its tax rate is 25 percent. On a FIFO basis, what is inventory, and how much higher is equity?
+HEART Q: The year after a large writedown, a company's gross margin improves. What is the likely reason?
 
-Answer: Inventory is 600 million dollars, and equity is 75 million dollars higher. You add the whole reserve to inventory, but equity rises only by the reserve times one minus the tax rate. The other 25 million dollars goes to deferred taxes or comes out of cash.
+LEWIS: Answer. The written down goods are now flowing through cost of sales at their lower carrying amount. Here is why. The writedown moved part of the cost into last year's loss. When those goods sell, less cost is left to charge, so cost of sales is lower and margins look better. The improvement comes from the earlier writedown, not necessarily from better pricing.
 
-Q: A manufacturer's finished goods grew 30 percent while sales grew 5 percent and raw materials fell. Which interpretation is most likely?
+LEWIS Q: Prices are rising and inventory quantities are stable. Which method shows the highest cost of sales and the lowest ending inventory?
 
-Answer: Demand is weakening. Unsold finished goods are piling up, and falling raw materials suggest the company is cutting production in response, so watch for lower turnover and possible writedowns. The tempting wrong answer is that the company is gearing up for growth, but that pattern shows up as rising raw materials and work in progress.
+HEART: Answer. LIFO on both counts. Here is why. LIFO sends the newest, most expensive costs to the income statement first. That leaves the oldest, cheapest costs sitting in inventory. FIFO does the opposite, and weighted average lands in between.
 
-Q: A U.S. GAAP company switches from FIFO to LIFO. How is the change applied, and how would an IFRS company handle the same switch?
+HEART Q: In a period of rising prices, a LIFO company reports lower profit than a FIFO company but higher operating cash flow. How can both be true?
 
-Answer: Under U.S. GAAP, a change to LIFO is applied prospectively, and the inventory carrying amount at the change becomes the first LIFO layer. Most other changes in inventory method are applied retrospectively. An IFRS company could not make this switch at all, because IFRS does not permit LIFO.
+LEWIS: Answer. LIFO's smaller tax bill explains both. Here is why. Before taxes, the cost method moves no cash, because the company pays its suppliers and collects from customers the same amounts either way. LIFO's higher cost of sales lowers taxable profit, so the tax bill is smaller. The only cash difference is that saving, so operating cash flow is higher under LIFO.
 
-## Recap
+LEWIS Q: Prices are falling and quantities are stable. Which method shows the higher gross profit?
 
-Beginning inventory plus purchases equals cost of goods sold plus ending inventory, so the cost formula changes only the split, never the total. Under IFRS, inventory is carried at the lower of cost and N R V, and a writedown can be reversed only up to original cost. U.S. GAAP uses the lower of cost and N R V for most methods but the lower of cost or market for LIFO and the retail method, and it never allows reversals. A writedown lowers inventory, profit, equity and the current ratio, and it raises turnover and debt to equity.
+HEART: Answer. LIFO. Here is why. When prices fall, the newest purchases are the cheapest. LIFO sends those newest costs to cost of sales, so cost of sales is lower and gross profit is higher. Each direction from the rising price case simply flips.
 
-When prices rise with stable quantities, LIFO gives higher cost of goods sold, lower profit, lower taxes, lower inventory, higher cash flow and higher turnover. FIFO inventory equals LIFO inventory plus the LIFO reserve, and FIFO cost of goods sold equals LIFO cost of goods sold minus the change in the reserve. A falling LIFO reserve while prices rise signals a LIFO liquidation and a profit boost that will not repeat. Inventory turnover equals cost of goods sold divided by average inventory, and you should read the category breakdown, writedowns and method changes in the notes before you trust any comparison.
+HEART Q: In a period of rising prices, a LIFO company shows higher inventory turnover than a FIFO peer. Does that prove it manages inventory better?
+
+LEWIS: Answer. No, it is largely an accounting effect. Here is why. Turnover is cost of sales divided by average inventory. Under LIFO the top holds the newest, higher costs and the bottom holds the oldest, lower costs, so turnover comes out higher even if the two companies sell at exactly the same pace. Restate the LIFO company to FIFO before comparing.
+
+LEWIS Q: To put a LIFO company's inventory on a FIFO basis, what do you add, and what do you use to restate one year's cost of sales?
+
+HEART: Answer. Add the whole LIFO reserve to inventory, and apply only the change in the reserve to cost of sales. Here is why. The reserve is the total gap, built up over many years, between FIFO and LIFO inventory, so the balance sheet needs all of it. One year's income statement only reflects how much of that gap was added during the year. When the reserve grows, LIFO's cost of sales was higher than FIFO's by that growth.
+
+HEART Q: A LIFO company's reserve fell during a year when its purchase costs rose. What most likely happened, and what should an analyst do about it?
+
+LEWIS: Answer. A LIFO liquidation, and the analyst should strip the boost out of margins if it is material. Here is why. With rising prices and steady quantities, the reserve should hold steady or grow. It falls when inventory quantities drop and old, low cost layers flow into cost of sales. That lifts margins and taxes for one period only, because an old layer can only be used once.
+
+LEWIS Q: A manufacturer's finished goods are piling up while its raw materials and work in progress are shrinking. What is the most likely reading?
+
+HEART: Answer. Demand is weakening, and writedowns may follow. Here is why. Unsold goods are stacking up at the end of the line, and the company is buying and building less in response. A company expecting growth would show the opposite, with raw materials and work in progress rising.
+
+HEART Q: A company has very high inventory turnover. How do you tell whether that is efficiency or too little inventory?
+
+LEWIS: Answer. Compare its sales growth with the industry's. Here is why. A company that runs too lean misses orders, so its sales tend to grow more slowly than its competitors'. If sales are growing at or above the industry pace, the high turnover more likely reflects genuine efficiency. Also check whether recent writedowns shrank the inventory balance, since that raises turnover too.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: For measurement: lower of cost and N R V, where N R V is what the goods will put in your pocket. When value recovers, IFRS puts you back up the ladder, but never above the rung you started on. US GAAP takes the ladder away.
+
+HEART: For the US GAAP market test, used only for LIFO and the retail method: market is the middle value of three. Replacement cost, N R V as the ceiling, and N R V minus a normal margin as the floor.
+
+LEWIS: For writedowns: hurts this year, flatters next year. The current ratio falls, the quick ratio ignores it, and turnover rises without anyone selling a single extra coat.
+
+HEART: For the cost methods: the checks are already written. The method only decides which bucket each dollar lands in, cost of sales or ending inventory. It moves costs, not boards.
+
+LEWIS: For rising prices with steady quantities: LIFO sends the latest, priciest costs to the income statement. So LIFO means higher cost of sales, lower profit, lower taxes, lower inventory, more cash and higher turnover. When prices fall, flip every one of those.
+
+HEART: For which number to trust: FIFO for the balance sheet, LIFO for the income statement.
+
+LEWIS: For the LIFO reserve: the reserve is the gap between the two sets of price tags. Whole reserve for the balance sheet, change in the reserve for the income statement. And a falling reserve while prices rise is a smoke alarm for liquidation.
+
+HEART: For liquidation: selling the old layers is a one time gift that raises profit and taxes once.
+
+LEWIS: For the notes: inputs rising signals expected growth, finished goods piling up signals fading demand. And fast turnover is good only if sales keep pace with the industry.
+
+HEART: Now, how you would say the big ideas to a senior leader.
+
+LEWIS: On cost methods: when our costs are rising, the method we choose decides how much of the rise hits this year's profit and how much sits in the value of the warehouse. The jargon is cost flow assumptions, FIFO, LIFO and weighted average cost.
+
+HEART: On LIFO and cash: in a period of rising costs, LIFO shows lower profit but a smaller tax bill, so we actually keep more cash. The jargon is the LIFO conformity rule and its effect on operating cash flow.
+
+LEWIS: On comparing competitors: before we compare ourselves with a company on a different method, we add back the gap they disclose, so we compare like with like. The jargon is the LIFO reserve and restating LIFO to FIFO.
+
+HEART: On a sudden margin jump: part of this year's margin came from selling old stock carried at very old costs, and that will not repeat. The jargon is LIFO liquidation and earnings sustainability.
+
+LEWIS: On writedowns: when stock is worth less than we paid, we take the hit now, and part of next year's margin bounce is just the echo. The jargon is the lower of cost and net realizable value, an inventory writedown and a valuation allowance.
+
+HEART: And on inventory health: watch which inventory is piling up and how fast it turns, against how fast sales are growing. The jargon is raw materials, work in progress, finished goods, inventory turnover and days of inventory on hand.

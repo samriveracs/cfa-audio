@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Wed, 07 Oct 2026 12:17:27 -0500</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 12:39:04 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -280,11 +280,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Financial Statement Analysis, Kaplan Modules 32.1 to 32.3. 32.1 Inventory Measurement, 32.2 Inflation Impact on FIFO and LIFO, 32.3 Presentation and Disclosure</description>
     <itunes:summary>Financial Statement Analysis, Kaplan Modules 32.1 to 32.3. 32.1 Inventory Measurement, 32.2 Inflation Impact on FIFO and LIFO, 32.3 Presentation and Disclosure</itunes:summary>
-    <content:encoded><![CDATA[<p>Financial Statement Analysis, Kaplan Modules 32.1 to 32.3.</p><ul><li>Module 32.1, Inventory Measurement</li><li>Module 32.2, Inflation Impact on FIFO and LIFO</li><li>Module 32.3, Presentation and Disclosure</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>1:58 Module 32.1, Inventory Measurement</li><li>9:29 Module 32.2, Inflation Impact on FIFO and LIFO</li><li>19:50 Module 32.3, Presentation and Disclosure</li><li>26:06 Recall check</li><li>29:50 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E16.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E16_v3.mp3" length="9428191" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Financial Statement Analysis, Kaplan Modules 32.1 to 32.3.</p><ul><li>Module 32.1, Inventory Measurement</li><li>Module 32.2, Inflation Impact on FIFO and LIFO</li><li>Module 32.3, Presentation and Disclosure</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:32 Module 32.1, Inventory Measurement</li><li>8:45 Module 32.2, Inflation Impact on FIFO and LIFO</li><li>20:24 Module 32.3, Presentation and Disclosure</li><li>27:11 Recall check</li><li>34:17 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E16.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E16_v4.mp3" length="11425178" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e16</guid>
     <pubDate>Sat, 03 Oct 2026 12:16:00 -0500</pubDate>
-    <itunes:duration>1885</itunes:duration>
+    <itunes:duration>2285</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E16.txt" type="text/plain"/>
   </item>
