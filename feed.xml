@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Wed, 07 Oct 2026 00:26:08 -0500</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 00:53:26 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -195,11 +195,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Corporate Issuers, Kaplan Modules 23.1 to 24.2. 23.1 Liquidity Measures and Management, 24.1 Capital Investments and Project Measures, 24.2 Capital Allocation Principles and Real Options</description>
     <itunes:summary>Corporate Issuers, Kaplan Modules 23.1 to 24.2. 23.1 Liquidity Measures and Management, 24.1 Capital Investments and Project Measures, 24.2 Capital Allocation Principles and Real Options</itunes:summary>
-    <content:encoded><![CDATA[<p>Corporate Issuers, Kaplan Modules 23.1 to 24.2.</p><ul><li>Module 23.1, Liquidity Measures and Management</li><li>Module 24.1, Capital Investments and Project Measures</li><li>Module 24.2, Capital Allocation Principles and Real Options</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>2:01 Module 23.1, Liquidity Measures and Management</li><li>11:49 Module 24.1, Capital Investments and Project Measures</li><li>21:09 Module 24.2, Capital Allocation Principles and Real Options</li><li>26:28 Recall check</li><li>30:29 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E11.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E11_v2.mp3" length="9604771" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Corporate Issuers, Kaplan Modules 23.1 to 24.2.</p><ul><li>Module 23.1, Liquidity Measures and Management</li><li>Module 24.1, Capital Investments and Project Measures</li><li>Module 24.2, Capital Allocation Principles and Real Options</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:36 Module 23.1, Liquidity Measures and Management</li><li>14:13 Module 24.1, Capital Investments and Project Measures</li><li>27:02 Module 24.2, Capital Allocation Principles and Real Options</li><li>36:16 Recall check</li><li>43:54 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E11.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E11_v3.mp3" length="14277158" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e11</guid>
     <pubDate>Sat, 03 Oct 2026 12:11:00 -0500</pubDate>
-    <itunes:duration>1921</itunes:duration>
+    <itunes:duration>2855</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E11.txt" type="text/plain"/>
   </item>
