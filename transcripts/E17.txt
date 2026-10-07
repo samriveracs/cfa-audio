@@ -1,165 +1,365 @@
-## The big picture
-
-This episode is about resources and promises that stretch across many years, and about a question at the heart of financial statement analysis. Does a cost hit the income statement now, or does it sit on the balance sheet and flow through over time? Reading 33 deals with long lived assets: intangibles first, then impairment and derecognition, meaning how assets lose value or leave the books, then the disclosures an analyst uses to judge how old the asset base is.
-
-Reading 34 turns to the other side of the balance sheet. Leases now put most rented assets and the matching obligations on the balance sheet, but IFRS and U.S. GAAP split the expense and the cash flows differently. Deferred compensation covers pensions and share based pay, two promises to employees that are earned now and paid later.
-
-Expect three kinds of exam questions. First, classification: capitalize or expense, finance lease or operating lease, profit or other comprehensive income. Second, direction of effect on net income, operating cash flow and ratios. Third, small calculations, such as an impairment loss, the age of equipment, or the first year of a lease. IFRS is the default throughout, and U.S. GAAP differences are flagged where they are testable.
+LEWIS: Reading 33 covers how intangible assets reach the balance sheet, what capitalizing instead of expensing does to profit, cash flow and ratios, depreciation choices, impairment and derecognition under IFRS and US GAAP, revaluation, and what the notes reveal about how old a company's assets are. Reading 34 covers lease accounting for lessees and lessors under both frameworks, defined contribution and defined benefit pensions, share based pay, and the disclosures behind all three.
 
 ## Module 33.1, Intangible Long-Lived Assets
 
-An intangible asset is an identifiable, nonmonetary asset without physical substance. Identifiable means it can be separated from the business and sold or licensed, or it arises from a contractual or legal right. Patents, copyrights, trademarks, licenses and customer lists all qualify. Goodwill does not, because it cannot be separated from the business.
+HEART: Picture two coffee chains with equally famous names. One built its brand over twenty years of advertising. The other bought its brand last year from a retiring founder. The first chain's balance sheet shows almost nothing for its brand. The second shows the full price it paid. This module explains why.
 
-How an intangible reaches the balance sheet depends on how the company got it, and there are three routes. First, purchased on its own. A patent bought from an inventor is recorded at cost, meaning the price paid plus any costs to get it ready for use, just like a machine.
+LEWIS: An intangible asset is a long term asset with no physical substance. Patents, copyrights, brand names, franchises. You cannot drop one on your foot, but it can earn money for years.
 
-Second, acquired in a business combination. The buyer allocates the purchase price to every identifiable asset and liability of the target at fair value, including intangibles the target never recorded, such as a brand it built itself. Whatever is left of the price is goodwill. Goodwill is not amortized, and it is tested for impairment at least once a year under both IFRS and U.S. GAAP.
+HEART: Intangibles get sorted two ways. First, by life. A finite life intangible, like a patent that runs out after a set number of years, is amortized, its cost spread over its useful life the way a machine is depreciated. An indefinite life intangible, like a trademark that can be renewed for as long as it is in use, is not amortized at all. Instead it is tested for impairment at least once a year, and any loss goes to the income statement in that period.
 
-Third, developed internally. The default is to expense, because the link between today's spending and a future benefit is uncertain, and internally generated brands and customer lists are never capitalized. Under IFRS, research costs are expensed as incurred. Development costs are capitalized once the company can show a set of conditions, such as technical feasibility, the intent and ability to complete and use or sell the asset, probable future benefits, and reliable measurement of the costs.
+LEWIS: Second, identifiable versus unidentifiable. Under IFRS, an identifiable intangible can be separated from the company and sold or licensed, or it comes from a contract or a legal right. The company controls it, and it is expected to bring future economic benefits. Those benefits also have to be probable, and the cost has to be measurable reliably.
 
-Under U.S. GAAP, research and development is generally expensed in full. The main exception is software. Software to be sold is expensed until technological feasibility is reached and capitalized after that. Software for internal use is capitalized once the project reaches the application development stage.
+HEART: The big unidentifiable intangible is goodwill. You cannot buy or sell goodwill on its own. It is tangled up with the business as a whole: the team, loyal customers, the way everything fits together. Goodwill is the amount by which the price paid for a company exceeds the fair value of the identifiable assets, net of liabilities, that came with it.
 
-Here is the trap. Two companies with identical development spending, one under IFRS and one under U.S. GAAP, do not report the same results.
+LEWIS: How an intangible reaches the balance sheet depends on how the company got it. Three routes: built internally, bought on its own, or acquired as part of buying a whole business.
 
-Say the spending is 100 dollars, it qualifies under IFRS, and it is amortized straight line over 5 years with a full year in year one. The IFRS company's year one expense is 20 dollars, leaving an asset of 80, while the U.S. GAAP company expenses all 100, so the IFRS company's pretax profit is 80 dollars higher. Its assets and equity are higher too. Its operating cash flow is 100 dollars higher and its investing cash flow 100 dollars lower, because capitalized spending is an investing outflow. Total cash is identical, and only the labels and timing differ.
+HEART: Route one, built internally. The default is to expense the costs as they are incurred, because the link between today's spending and any future benefit is too uncertain to call it an asset. That is why the first coffee chain's brand is missing. Twenty years of advertising went through the income statement as it happened.
 
-A finite life intangible, like a patent with 10 years left, is amortized over its useful life, usually straight line. An indefinite life intangible, like a trademark the company expects to renew indefinitely, is not amortized but is tested for impairment at least annually. IFRS also permits a revaluation model for intangibles, but only where an active market exists, which is rare. U.S. GAAP requires the cost model.
+LEWIS: There are important exceptions, and this is where IFRS and US GAAP part ways. Under IFRS, research costs are expensed. Research is the search for new scientific or technical knowledge, like a drug company screening thousands of compounds. Development costs can be capitalized. Development is turning those findings into a plan or design for a real product or process. Development spending goes on the balance sheet once the company passes a set of tests, chief among them that it can actually finish the product and means to use or sell it.
 
-So remember the rule. Research is always expensed. Development is capitalized under IFRS once the conditions are met, while U.S. GAAP expenses both, except for certain software costs.
+HEART: A simple way to hear it. Research is a hunch. Development is a plan. IFRS can capitalize the plan, but never the hunch.
+
+LEWIS: Under US GAAP, both research and development are generally expensed. The main exception is software. Software written to sell, say by a video game studio, is expensed until the product reaches technological feasibility, and the costs of finishing a salable product are capitalized after that. That works much like IFRS development.
+
+HEART: Software for the company's own use, like an airline's new booking system, is expensed until it is probable the project will be finished and the software used as intended, and capitalized after that. Technological feasibility is the harder bar to clear.
+
+LEWIS: Route two, bought on its own. A purchased intangible goes on the balance sheet at cost, usually its fair value on the day it was bought, just like buying a truck. If several assets are bought together for one price, the price is split among them based on their fair values. For analysis, what was bought often matters more than the number assigned to it. A device maker that buys the patent on a new surgical tool is telling you where it expects growth.
+
+HEART: Route three, a business combination, accounted for with the acquisition method. Picture a sporting goods company buying a small running app. On the app company's own books, its user list and its brand are nowhere to be found, because it expensed that work as it went. After the deal, the buyer spreads the price across the app company's identifiable assets and liabilities at fair value, and that includes those homegrown intangibles, as long as they are identifiable.
+
+LEWIS: Whatever is left is goodwill, after the newly recognized intangibles have taken their share of the price. Only goodwill bought in an acquisition is capitalized. A company's homegrown goodwill is expensed as it is built.
+
+HEART: So a company that builds its intangibles shows lower assets than one that buys them, even when the brands are equally valuable. Any ratio built on assets can mislead unless you check how the intangibles were obtained.
+
+LEWIS: That leads to the theme of this reading, capitalizing versus expensing. Picture a homeowner. Mowing the lawn is an expense, used up this week. A new roof keeps the rain out for twenty years, so its cost makes sense spread across those years. Capitalizing is the roof treatment: the cost goes on the balance sheet and flows through the income statement over time.
+
+HEART: Now the directions, which are tested heavily. Compare a company that capitalizes a cost with an identical one that expenses it. In the year of the spending, the capitalizer reports lower expense and higher net income. In each later year it carries a depreciation or amortization charge the expenser does not, so its net income is lower. Over the full life, total expense is the same. Only the timing moves.
+
+LEWIS: On the balance sheet, the capitalizer has an extra asset, so total assets are higher, and with higher profit so far, equity is higher too. That makes its debt to assets and debt to equity ratios lower.
+
+HEART: The cash flow statement holds the classic trap. The cash spent is identical. But the capitalizer reports it as an investing outflow, while the expenser runs it through operating cash flow. So the capitalizer shows higher operating cash flow and lower investing cash flow, with the same total cash.
+
+LEWIS: And the profitability ratios. In the first year, return on assets and return on equity are usually higher for the capitalizer, because net income gets a bigger lift than assets and equity. In later years they are lower, because net income is lower while assets and equity are still higher. So an IFRS drug company that capitalizes development tends to look more profitable early, more cash generative from operations, and less leveraged than a US GAAP rival with the same science.
+
+HEART: Inside capitalizing sits one more set of choices, how fast to spread the cost. Management picks a depreciation or amortization method, a useful life, and a salvage value, which is what it expects to get back at the end.
+
+LEWIS: Straight line spreads the cost evenly. Accelerated methods, like declining balance, put more cost into the early years. So compared with straight line, an accelerated method means lower net income early, higher net income later, and a lower carrying amount along the way. Cash is not affected. It went out when the asset was bought.
+
+HEART: A longer useful life spreads the cost thinner, so the yearly charge is smaller and profit is higher. A higher salvage value leaves less cost to spread, with the same result. So a company whose useful lives are longer than its peers' deserves a closer look.
+
+LEWIS: The takeaway. Built intangibles are mostly expensed and bought ones are capitalized. IFRS can capitalize development but never research, while US GAAP expenses both, except for software. Capitalizing lifts early profit, operating cash flow, assets and equity, and the bill arrives later as amortization.
 
 ## Module 33.2, Impairment and Derecognition
 
-Depreciation spreads cost on a schedule. Impairment is an unscheduled write down when an asset can no longer justify its carrying amount, meaning cost less accumulated depreciation and earlier impairments. The principle is that an asset should not be carried at more than the company can recover from it.
+HEART: Depreciation is planned. You know a machine will wear out, so you spread its cost on a schedule. An impairment is the unplanned version. Something knocks the asset's value below its carrying value, which is its cost minus the depreciation taken so far.
 
-Under IFRS, the company looks for signs of impairment at every reporting date, such as physical damage or a worse business outlook. The asset is impaired when its carrying amount exceeds its recoverable amount. The recoverable amount is the higher of two figures: fair value less costs to sell, also called costs of disposal, and value in use, which is the present value of the asset's expected cash flows. The impairment loss equals the carrying amount minus the recoverable amount. Why the higher of the two? A sensible owner either sells the asset or keeps using it, whichever is worth more, so it is impaired only if both options fall short.
+LEWIS: Picture a cinema chain with expensive digital projectors in every theater. Then audiences move to streaming, and half the screens sit empty. The projectors still work. They just will not earn what they were bought to earn.
 
-U.S. GAAP uses two steps for assets held for use, and it tests only when events suggest the carrying amount may not be recoverable. Step one is the recoverability test, which compares the carrying amount with the undiscounted future cash flows. If those cash flows are at least as large, there is no impairment. If not, step two measures the loss as the carrying amount minus fair value.
+HEART: Both IFRS and US GAAP require a write down when an asset is impaired, with a loss in the income statement, shown as an unusual or infrequent item if it is large. But they test and measure differently. Here we mean finite life assets held for use, tangible or intangible.
 
-Here is a worked example. A machine has a carrying amount of 1,000 dollars. Its fair value is 750 and selling costs are 50, so fair value less costs to sell is 700. Its value in use is 800, and the same cash flows undiscounted total 1,050. Under IFRS, the recoverable amount is the higher of 700 and 800, so the loss is 1,000 minus 800, or 200 dollars. Under U.S. GAAP, undiscounted cash flows of 1,050 exceed the carrying amount, so the machine passes step one and no loss is recorded.
+LEWIS: Under IFRS, every year the company looks for warning signs, like a sharp fall in market value or physical damage. If there are signs, it tests. The asset is impaired when its carrying value is above its recoverable amount.
 
-Now suppose the undiscounted cash flows were only 950. The machine fails step one, and the U.S. GAAP loss is 1,000 minus the fair value of 750, or 250 dollars. Here is the trap. Undiscounted cash flows are only a trigger, and they never measure the loss.
+HEART: The recoverable amount is the higher of two numbers. Fair value less costs to sell, what you could get by selling today after the costs of the sale. And value in use, the present value of the cash the asset will generate if you keep using it and then dispose of it.
 
-Reversals differ too. Under IFRS, if the recoverable amount later rises, impairments on assets other than goodwill can be reversed, but only up to the carrying amount the asset would have had, after normal depreciation, if it had never been impaired. Goodwill impairments are never reversed. Under U.S. GAAP, impairments of assets held for use can never be reversed.
+LEWIS: Why the higher?
 
-Assets held for sale follow their own rule. Once management commits to a sale that is highly probable, the asset is reclassified as held for sale, stops being depreciated, and is carried at the lower of its carrying amount and fair value less costs to sell. If that value later recovers, both IFRS and U.S. GAAP allow a reversal, but only up to the losses already recognized.
+HEART: Because a sensible owner has two exits, sell it or keep it, and will take the better one. Think of an old car. You could sell it to a dealer, or keep driving it for a few more years. It is only worth less than you thought if both options fall short. So the asset is written down to its recoverable amount, and the loss is the gap between the carrying value and that amount.
 
-In the year of an impairment, assets, net income and equity all fall, but cash does not, so the loss is added back in an indirect method cash flow statement. Debt to equity rises because equity shrinks. In later years, depreciation is lower and the asset base is smaller, so profit, ROA and asset turnover look better. Management has discretion over the timing and size of write downs, and a large impairment can also signal that past depreciation was too slow.
+LEWIS: Value in use is highly subjective. Management forecasts the cash flows, guesses the disposal proceeds and picks a discount rate. Nudge any of those and the answer moves.
 
-Derecognition means the asset leaves the balance sheet, by sale, abandonment or exchange. In a sale, the gain or loss equals the sale proceeds minus the carrying amount. If the asset is abandoned, the loss equals the full carrying amount. In an exchange, the old asset comes off at its carrying amount, the new asset generally goes on at fair value, and the difference is a gain or loss.
+HEART: Under IFRS, if the asset's value later recovers, the loss must be reversed. That is a requirement, not a choice. But the asset only goes back up to where it would have been with no write down, so the reversal never exceeds the earlier loss.
 
-Equipment cost 500 dollars and has accumulated depreciation of 300, so its carrying amount is 200. It sells for 260, so the gain is 60. Here is the trap. The cash inflow is the full 260, reported in investing activities. The 60 dollar gain is not cash, so the indirect method subtracts it from net income within operating cash flow.
+LEWIS: US GAAP works in two steps, and it tests only when events suggest the carrying value may not be recoverable. Step one, the recoverability test. Add up the expected future cash flows without discounting them. If the carrying value is above that undiscounted total, the asset is impaired. Step two measures the loss. The asset is written down to fair value, and the loss is the gap between the carrying value and fair value. If fair value is not known, the discounted cash flows stand in, which is the same idea as value in use.
 
-Remember the core rule. Under IFRS, the impairment loss equals the carrying amount minus the recoverable amount, which is the higher of fair value less costs to sell and value in use. Under U.S. GAAP, undiscounted cash flows decide whether there is a loss, and fair value decides how big it is.
+HEART: Here is the trap. Undiscounted cash flows only decide whether there is an impairment. They never measure it. Fair value measures it. And it is plain fair value, not fair value less costs to sell.
+
+LEWIS: Why undiscounted? When rates are positive, undiscounted flows are always bigger than discounted ones, so the test is a low bar. An asset can be worth less than its carrying value and still escape a write down. And since no discount rate is involved, rising interest rates cannot by themselves push an asset into impairment.
+
+HEART: And under US GAAP, an impairment of an asset held for use is never reversed. The lower number becomes the new starting point, even if the business recovers.
+
+LEWIS: Now the effects. In the year of the impairment, net income falls, the asset's carrying value falls, so total assets fall, and retained earnings fall, so equity falls. Return on assets and return on equity drop that year. Debt to equity and debt to assets rise, because debt is unchanged while assets and equity shrank. Asset turnover rises, because sales are unchanged against smaller assets, and it stays higher afterward.
+
+HEART: In later years there is less cost left to depreciate. Net income is higher than it would have been, and with smaller assets and equity underneath, return on assets and return on equity look better.
+
+LEWIS: And cash? An impairment does not move cash. There is no tax effect when it is booked, and the loss stays unrealized until the asset is sold or scrapped. So the indirect method adds it back to net income.
+
+HEART: Now think like an analyst. An impairment is often a quiet admission that past depreciation was too slow, so past earnings were overstated. And the judgment involved gives management room to pick the timing and size. A company might wait for a strong year to book the loss, which smooths earnings. Or it might pile losses into a year already hurt by the economy or the industry, so outside forces get the blame. New management teams like that move too: a big charge in year one, blamed on the predecessor, then lower depreciation and better returns on assets and equity in every year after.
+
+LEWIS: Two special cases. Indefinite life intangibles are never amortized, so the annual impairment test is their only check, and they are impaired when the carrying amount is above fair value. Goodwill is tested at least yearly too, and a goodwill write down is never reversed.
+
+HEART: Second, assets held for sale. Suppose a trucking company decides to sell an old depot. If it intends to sell, the sale is probable, and the depot is available right away, it moves from held for use to held for sale and is no longer depreciated. It is impaired if its carrying value is above fair value less costs to sell, and the loss goes through the income statement.
+
+LEWIS: And here is the exception to the US GAAP rule. For assets held for sale, both IFRS and US GAAP write the asset back up if the value recovers, but only up to the loss already taken.
+
+HEART: Now derecognition, the asset leaving the balance sheet, by sale, abandonment or exchange. A sale first. Picture a warehouse company selling a used forklift. It comes off the books at its carrying value, which is cost minus accumulated depreciation and any impairment. The gain or loss is the proceeds minus that carrying value, reported with other gains and losses, or separately if it is large.
+
+LEWIS: And the cash flow trap. The full proceeds are an investing inflow. Not the gain, the whole check. Under the indirect method, the gain is subtracted from net income to get operating cash flow, and a loss is added back. Otherwise the gain would be counted twice.
+
+HEART: Abandonment is a sale with no buyer. A mining company walks away from a worked out mine. There are no proceeds, so the whole carrying value comes off as a loss.
+
+LEWIS: An exchange is a swap. Picture a farmer trading a parcel of land for a neighbor's barn. The old asset comes off at carrying value, and the new asset goes on at fair value. The gain or loss compares the old asset's carrying value with its fair value, or with the new asset's fair value if that is clearer. With no reliable fair value at all, the new asset simply takes over the old carrying value, and there is no gain or loss.
+
+HEART: Last, a spinoff. A company moves a whole division into a new legal company and hands the new shares to its own shareholders, who give up nothing. Picture a big food company spinning off its snack brands. Once the spinoff is probable, the division's assets and liabilities move to held for sale, here called held for distribution, and no profit or loss is booked on the disposal.
+
+LEWIS: The takeaway. IFRS writes an asset down to the higher of fair value less costs to sell and value in use, and reverses the loss if value recovers. US GAAP relies on undiscounted cash flows to decide and fair value to measure, with no reversals except for assets held for sale. On a sale, the gain is proceeds minus carrying value, and the full proceeds are investing cash.
 
 ## Module 33.3, Long-Term Asset Disclosures
 
-The notes tell you how a company measures and depreciates its long lived assets. For property, plant and equipment, which you will hear as PPE, companies disclose the measurement basis, depreciation methods, useful lives or rates, gross carrying amounts, accumulated depreciation, and a reconciliation of opening and closing balances. For intangibles, they disclose whether lives are finite or indefinite and how the assets are amortized. For impairments, they disclose the amounts, where the losses appear, and the events behind them.
+HEART: The notes are where an analyst learns how a company measures its long lived assets and how fast it is using them up.
 
-The most testable use of these notes is estimating the age of the asset base. Three ratios do it, and all three assume straight line depreciation with no salvage value.
+LEWIS: Under IFRS, for each class of property, plant and equipment, the company discloses the measurement basis, usually historical cost, the depreciation method, depreciation expense, useful lives or rates, gross carrying value and accumulated depreciation at the start and end of the period, and a reconciliation of the carrying amount. It also discloses restrictions on title, assets pledged as collateral, and commitments to buy more. That collateral line matters to any bank deciding whether to lend against a company's trucks.
 
-First, estimated total useful life equals gross PPE, meaning historical cost before accumulated depreciation, divided by annual depreciation expense. Second, average age equals accumulated depreciation divided by annual depreciation expense. Third, estimated remaining useful life equals net PPE, meaning gross PPE minus accumulated depreciation, divided by annual depreciation expense. Average age plus remaining life equals total useful life.
+HEART: IFRS also lets a company choose the revaluation model instead of the cost model. Picture a hotel company whose downtown buildings have doubled in market value. Under the cost model they sit at old cost minus depreciation. Under the revaluation model they are carried at fair value, updated regularly.
 
-Here is a worked example. A company reports gross PPE of 1,000 dollars excluding land, accumulated depreciation of 400, and depreciation expense of 100 a year. Total useful life is 1,000 divided by 100, or 10 years. Average age is 400 divided by 100, or 4 years. Remaining life is 600 divided by 100, or 6 years. Four years plus six years gives ten, which is your check.
+LEWIS: Which way does a revaluation flow? An increase usually goes to other comprehensive income and builds up in equity as a revaluation surplus. It reaches profit only when it reverses an earlier loss on that asset that went through profit. A decrease goes to profit, unless it reverses an earlier surplus on that asset. So the upside mostly bypasses net income, and the downside mostly hits it.
 
-Why does this matter? An old asset base, meaning a high average age relative to total life, suggests heavy capital spending is coming, and it can flatter ROA because the assets are heavily depreciated. Comparing capital spending with depreciation tells a similar story, and spending well below depreciation for years means the asset base is aging or shrinking.
+HEART: A write up lifts assets and equity, so debt to equity falls. But there is more value to depreciate, so later profit is lower and return on assets weaker. US GAAP does not allow revaluation of property, plant and equipment at all. And for intangibles, IFRS allows it only where an active market exists, which is rare.
 
-Now the traps. Land is not depreciated, so remove it from gross PPE before dividing, or the total and remaining lives will come out too long. The estimates are also rough. Acquisitions, disposals, impairments and a mix of asset types with very different lives all distort them. Use them to compare companies in the same industry, not as precise figures.
+LEWIS: A revaluing company discloses the revaluation date, how fair value was determined, the carrying value under the cost model, and the surplus in other comprehensive income. That cost model figure lets you compare it with a company that does not revalue.
 
-So remember. Average age equals accumulated depreciation divided by depreciation expense, and remaining life equals net PPE divided by depreciation expense.
+HEART: Intangible disclosures under IFRS are similar, plus whether each life is finite or indefinite. For impairments, the company discloses losses and reversals by class, where they appear in the income statement, and what caused them.
+
+LEWIS: US GAAP asks for depreciation expense, the balances of major classes such as land, buildings and machinery, accumulated depreciation by class or in total, and a general description of methods. For intangibles it adds a forecast of amortization expense for each of the next five years. For impairments, it asks for a description of the asset, the circumstances, how fair value was determined, the amount, and where the loss appears.
+
+HEART: Where does depreciation show up? An income statement presented by nature of expense shows depreciation and amortization on its own line. One presented by function folds it into cost of sales and selling, general and administrative expenses. The indirect cash flow statement adds it back as a noncash charge. The direct method does not show it, but US GAAP still requires the indirect reconciliation in the notes. And buying or selling long lived assets is investing cash flow.
+
+LEWIS: Now the analysis. Fixed asset turnover is revenue divided by average fixed assets, the sales each dollar of fixed assets produces. Higher is read as more efficient. With a caution: old, heavily depreciated assets have a small carrying value, so they can flatter turnover even when the equipment is tired.
+
+HEART: Which is why analysts work out how old the assets are. Old assets can make a company less competitive, and their age hints at when big capital spending, and the financing for it, is coming.
+
+LEWIS: Think of a car's odometer. Total miles on the clock divided by miles driven per year tells you roughly how many years the car has been on the road. Accumulated depreciation is the odometer, and annual depreciation expense is the miles per year.
+
+HEART: So average age is accumulated depreciation divided by annual depreciation expense. Total useful life is gross historical cost divided by annual depreciation expense. Remaining useful life is net property, plant and equipment, cost minus accumulated depreciation, divided by annual depreciation expense. Remaining life is also roughly total life minus average age.
+
+LEWIS: All three divide by one year of depreciation. What is used up gives the age, the original cost gives the whole life, and what is left gives the remaining life.
+
+HEART: They are rough. They assume straight line depreciation and no salvage value, so they say less about assets on accelerated schedules or with big salvage values. The notes often lump together assets with different lives, so the answer swings with the mix. Treat them as a way to raise questions, not to settle them.
+
+LEWIS: One more ratio, capital expenditures divided by depreciation. Think of the tires on a delivery fleet. Replace them as fast as they wear out and the fleet stays on the road. A ratio near or above one says capacity is being replaced at least as fast as it is used up. Well below one, year after year, says the asset base is aging or shrinking.
+
+HEART: The takeaway. The notes give you methods, lives, gross amounts, accumulated depreciation, impairments and any revaluation. One year of depreciation turns those balances into a rough age and remaining life.
 
 ## Module 34.1, Leases
 
-A lease is a contract that gives the lessee the right to use an identified asset for a period of time in exchange for payments. The lessee controls the use of the asset, meaning it gets substantially all the economic benefits and directs how the asset is used. The owner is the lessor.
+LEWIS: Picture a bakery that needs a big industrial oven. It can buy one, or lease it. With a lease, the bakery, the lessee, pays the oven's owner, the lessor, for the right to use the oven for a set period. In substance, a lease is another way to finance an asset.
 
-Why lease rather than buy? Leasing needs less cash up front and can be cheaper than borrowing to buy. It shifts the risk of obsolescence, and of the asset's value at the end of the term, to the lessor, and its terms can be flexible. Leasing once kept debt off the balance sheet, but current standards have largely ended that.
+HEART: A contract is a lease only if it refers to a specific asset, gives the lessee effectively all of that asset's economic benefits during the term, and lets the lessee decide how the asset is used.
 
-Start with the lessee under IFRS, because IFRS uses a single model. At the start of almost every lease, the lessee records a lease liability equal to the present value of the lease payments. The discount rate is the rate implicit in the lease, or the lessee's incremental borrowing rate if the implicit rate cannot be determined. The lessee also records a right of use asset, usually equal to the lease liability, adjusted for items like payments made at or before the start and initial direct costs.
+LEWIS: Why lease? Less cash up front, since there is usually little or no down payment. Often cheaper financing, because the lessor can take the oven back if the bakery defaults, so the rate built into the lease can be lower than a loan rate. And less risk of obsolescence, because the oven goes back at the end.
 
-After that, two things happen each period. The right of use asset is depreciated, usually straight line. The lease liability accrues interest at the discount rate, and each payment covers that interest and reduces the principal. There are two exemptions. Leases of 12 months or less, and leases of low value assets such as laptops, may be expensed straight line with no asset or liability recorded.
+HEART: But the lessor prices that obsolescence risk into a higher implicit interest rate. And if the lessee guarantees a minimum residual value for the asset at the end, the obsolescence risk stays with the lessee.
 
-U.S. GAAP keeps two types of lessee lease. Both put a right of use asset and a lease liability on the balance sheet at the present value of the payments, and the difference shows up in the income statement and the cash flow statement.
+LEWIS: Classification. A lease that substantially passes both the benefits and the risks of ownership to the lessee is a finance lease. Otherwise it is an operating lease, and the lessee and lessor classify a given lease the same way.
 
-A lease is a finance lease if it meets any one of five tests. First, ownership transfers to the lessee by the end of the term. Second, the lessee has a purchase option it is reasonably certain to exercise. Third, the lease term covers the major part of the asset's remaining economic life. Fourth, the present value of the payments, including any residual value the lessee guarantees, equals or exceeds substantially all of the asset's fair value. Fifth, the asset is so specialized that the lessor has no alternative use for it.
+HEART: It is a finance lease if it meets any one of five conditions, and each asks whether the lessee has effectively bought the asset. One, ownership passes to the lessee. Two, there is a purchase option the lessee is expected to exercise. Three, the lease runs for most of the asset's useful life. Four, the present value of the lease payments covers essentially all of the asset's fair value. Five, the asset is so specialized that the lessor has no other use for it.
 
-If none of the five is met, it is an operating lease. Notice the theme: each test asks whether the lessee has effectively bought the asset. A U.S. GAAP finance lease works just like the IFRS model, with amortization of the asset plus interest on the liability. An operating lease instead shows a single straight line lease expense within operating expenses. Interest still accrues on the liability, but the asset's amortization is set each period so that the total expense stays level.
+LEWIS: Now the lessee's books, starting with IFRS, which has one model for every lease. At the start, the lessee books a lease liability and a right of use asset, both equal to the present value of the lease payments. It looks just as if the bakery had borrowed money and bought the oven. Note that the asset is not the oven. It is the right to use the oven.
 
-Cash flows follow the same split. For a U.S. GAAP finance lease, the interest part of each payment is an operating outflow and the principal part is a financing outflow. For a U.S. GAAP operating lease, the entire payment is an operating outflow. Under IFRS, principal is financing, and interest is operating or financing, depending on the company's policy.
+HEART: Each period, the right of use asset is amortized, usually straight line over the lease term. The liability works like an amortizing loan. Each payment is split into interest expense and repayment of principal, and the principal part reduces the liability.
 
-Now a worked example with the calculator, since measuring the liability is a time value of money problem. A lessee signs a 3 year lease with payments of 1,000 dollars at the end of each year, and the discount rate is 10 percent.
+LEWIS: The asset and the liability start equal and both end at zero, but they differ in between. Early on, the liability is large, so interest takes a big bite of each payment and little principal is repaid, while the asset is amortized at a steady pace. So the right of use asset sits below the liability during the lease.
 
-On the B A two plus, press second, then F V, to clear the T V M worksheet. Press second, then I Y, to check that P Y is 1, and if it is not, type 1 and press enter, which also sets C Y to 1. Press second, then C P T, to quit. Make sure no B G N indicator shows, which means end mode.
+HEART: IFRS exempts short term leases, twelve months or less, and low value items, up to about five thousand US dollars, like a laptop. Those stay off the balance sheet, and the payments are expensed as rent, straight line.
 
-Now enter 3 and press N. Enter 10 and press I Y. Enter 1,000, press the plus minus key to make it negative because the lessee pays out, and press P M T. Enter 0 and press F V. Press C P T, then P V, and the display shows 2,486.85, a positive number, which is the lease liability.
+LEWIS: One convention to keep. Assume each lease payment is made at the end of the period, even though many real leases are paid at the start.
 
-If the payments were due at the start of each year, switch to begin mode. Press second, then P M T, then second and enter to set it, then second and C P T to quit. Press C P T, then P V again, and the same inputs give about 2,736 dollars, higher because every payment arrives one year sooner. Switch back to end mode when you are done.
+HEART: Cash flows under IFRS. Principal is a financing outflow. Interest can be classified as operating or financing.
 
-Back to payments at the end of each year. Year one interest is 10 percent of about 2,487, or about 249 dollars. Straight line depreciation of the right of use asset is 2,487 divided by 3, or about 829. So under IFRS or a U.S. GAAP finance lease, year one expense is about 1,078 dollars, against a flat 1,000 under a U.S. GAAP operating lease. Both total exactly 3,000 dollars over the lease, but the finance lease pattern is front loaded, because interest is highest when the liability is largest.
+LEWIS: US GAAP keeps two lessee models. A finance lease is reported just like an IFRS lease, with one difference in cash flow: under US GAAP the interest part is always an operating outflow, and the principal part is financing.
 
-Of the first 1,000 dollar payment, about 249 is interest and about 751 is principal, so the liability ends the year at about 1,736 dollars. Under a U.S. GAAP finance lease, only the 249 reduces operating cash flow, while an operating lease puts the full 1,000 there.
+HEART: An operating lease under US GAAP also puts a right of use asset and a lease liability on the balance sheet, and the liability works the same way. But the income statement shows a single lease expense, equal to the payment, the same every year. To make that work, the asset is amortized each period by exactly the amount the liability falls, so the asset equals the liability every period. And the entire payment is an operating cash outflow.
 
-Here are the traps. Compared with a U.S. GAAP operating lease, a finance lease, like a lease under the IFRS single model, gives higher operating cash flow, higher EBIT and higher EBITDA. That is because interest sits below operating income, and depreciation is added back in EBITDA. Its net income, though, is lower in the early years and higher in the later years. The tempting wrong answer is that the operating lease looks better everywhere because its early expense is lower. In fact it reports lower operating cash flow and operating income every year.
+LEWIS: US GAAP exempts short term leases too, but it has no low value exemption.
 
-Now the lessor. Under both frameworks, the lessor classifies each lease using tests like the five you just heard. In a finance lease, the lessor removes the asset and records a lease receivable, equal to the present value of the lease payments plus any residual value it expects to recover, also discounted, and then earns interest income on that receivable. If the asset's fair value exceeds its carrying amount, as when a manufacturer leases its own product, the lessor also books a selling profit at the start. In an operating lease, the lessor keeps the asset on its books, keeps depreciating it, and recognizes lease revenue, usually straight line.
+HEART: Now the comparison the exam loves, a finance lease against an otherwise identical operating lease under US GAAP. Balance sheet first. The liability is the same. The right of use asset is lower under the finance lease, because straight line amortization runs ahead of the early principal repayments.
 
-Remember the key rule. Under IFRS, nearly every lessee lease creates a right of use asset and a lease liability equal to the present value of the payments, followed by depreciation and interest. U.S. GAAP gives the same balance sheet, but an operating lease shows one straight line expense, with the whole payment in operating cash flow.
+LEWIS: Income statement. The finance lease front loads its expense. Interest is highest when the liability is biggest, so interest plus amortization is above the flat operating lease expense early, and below it later. Total expense over the lease is identical. So net income is lower early and higher late under the finance lease.
+
+HEART: But EBIT is higher under the finance lease every year, because only the amortization sits above operating income. The interest sits below it. Under the operating lease, the whole payment is an operating expense. Interest expense is higher under the finance lease.
+
+LEWIS: Cash flow. The cash paid is the same, but under the finance lease only the interest is operating and the principal is financing. So the finance lease shows higher operating cash flow and lower financing cash flow.
+
+HEART: The trap. The operating lease's lower early expense makes it look better, but only on early net income. It shows lower EBIT and lower operating cash flow every year. And since an IFRS lessee treats nearly every lease like a finance lease, an IFRS company shows higher EBIT and operating cash flow than a US GAAP company renting the same oven under an operating lease.
+
+LEWIS: Now the lessor. Under both frameworks, lessors also have finance leases and operating leases.
+
+HEART: In a finance lease, the lessor removes the asset and books a lease receivable, called the net investment in the lease. It is the present value of the lease payments plus the present value of the residual value, what the lessor expects the asset to be worth when it comes back. At the rate built into the lease, those add up to the asset's fair value.
+
+LEWIS: Each payment received is part interest income and part repayment of the receivable, the lessee's method seen from the other side. At the end, the receivable has shrunk to the expected residual value, and selling the returned asset for more or less than that gives a further gain or loss.
+
+HEART: Who the lessor is changes when profit appears. A manufacturer or dealer, say a tractor maker leasing its own tractors, treats the lease like selling inventory. That is a sales type lease. Revenue is the present value of the lease payments, cost of sales is the carrying value minus the present value of the residual, and the profit is booked on day one. Its later interest income is part of revenue too.
+
+LEWIS: A financing company, like a bank's leasing arm that buys cars only to lease them, is a lender, not a seller. Any gain is deferred and spread over the lease through interest income, so no profit is booked on day one. That is a direct financing lease.
+
+HEART: In an operating lease, the lessor keeps the asset on its balance sheet, keeps depreciating it, and reports the lease payments as income, usually straight line, with depreciation and other costs as expenses.
+
+LEWIS: For a lessor, every payment received is an operating inflow under both classes, and total income over the lease is the same either way. Only the timing differs. A sales type lease front loads income, while an operating lease gives a steady amount each year.
+
+HEART: The takeaway. Under IFRS nearly every lessee lease brings a right of use asset and a lease liability, then amortization and interest. A US GAAP operating lease shows one flat expense and puts the whole payment in operating cash flow. A finance lease means higher EBIT and operating cash flow, but lower net income early.
 
 ## Module 34.2, Deferred Compensation and Disclosures
 
-Deferred compensation means employees earn something now that is paid later. The accounting principle is matching, so the cost is recognized while the employee works, not when the cash is paid. Two kinds matter here: post employment benefits such as pensions, and share based compensation.
+LEWIS: Deferred compensation means an employee earns something now and gets the cash later. Pensions and share based awards are the big examples, and both lean heavily on management's assumptions.
 
-Start with the two types of pension plan. In a defined contribution plan, the employer promises to pay an agreed amount into the employee's account each period, and that is the whole promise. The employee bears the investment risk. Pension expense equals the contribution owed for the period, and a liability appears only for contributions not yet paid.
+HEART: Two kinds of pension. In a defined contribution plan, the employer puts a sum into each employee's retirement account every period, based perhaps on pay, service, age, profits, or a match of what the employee saves. And that is the whole promise. Think of it as an allowance. Once it is paid, the employer's job is done, and the employee chooses the investments and carries all the investment risk.
 
-In a defined benefit plan, the employer promises a future benefit, usually based on years of service and final salary. Now the employer bears the investment risk, and the risk that employees live longer or earn more than expected. The obligation is the present value of the benefits employees have earned so far. IFRS calls it the defined benefit obligation, and U.S. GAAP calls it the projected benefit obligation. The employer usually sets aside plan assets in a trust to pay it.
+LEWIS: So pension expense is simply the employer's contribution. If it has been paid by year end, there is no asset or liability on the balance sheet.
 
-The balance sheet shows the funded status. Funded status equals the fair value of plan assets minus the present value of the obligation. An underfunded plan shows a net pension liability, and an overfunded plan shows a net pension asset.
+HEART: A defined benefit plan flips the risk. The employer promises a set payment every period after retirement, usually based on years of service and pay near retirement. Picture a retired firefighter receiving the same monthly check for the rest of her life. If markets disappoint, the employer makes up the gap.
 
-Under IFRS, the periodic pension cost has three parts. First, service cost, which is the present value of benefits earned this year plus any past service cost from plan changes, and it goes to profit or loss. Second, net interest, which equals the discount rate times the net pension liability or asset at the start of the year, and it also goes to profit or loss. Third, remeasurements, which go to other comprehensive income and are never reclassified to profit. They include actuarial gains and losses, and the difference between the actual return on plan assets and the return implied by the discount rate.
+LEWIS: Employers usually fund the promise through a separate legal entity, typically a trust, whose plan assets are invested to pay benefits as they come due. Fair value of plan assets is what that pool is worth today.
 
-Here is a worked example. Plan assets are 900 dollars and the obligation is 1,000, so the net pension liability is 100. With service cost of 40 and a discount rate of 5 percent, IFRS pension expense is 40 plus 5 percent of 100, or 45 dollars. Now suppose plan assets actually earned 70, while the discount rate implied 5 percent of 900, or 45. The extra 25 dollars is a remeasurement gain in other comprehensive income. Here is the trap: a great year in the markets does not lower IFRS pension expense in profit or loss at all.
+HEART: The hard part is the obligation. Actuaries have to forecast pay raises, employee turnover, retirement ages, how long retirees survive, and choose a discount rate. The obligation is the present value of benefits earned so far, to be paid from retirement until death. IFRS calls it the present value of the defined benefit obligation, US GAAP the projected benefit obligation, and in practice they are the same.
 
-U.S. GAAP builds the cost differently. Profit or loss includes service cost, interest cost on the full obligation, and an expected return on plan assets, which lowers the cost. Past service cost and actuarial gains and losses generally go to other comprehensive income first and are then amortized into profit or loss over time. Because the expected return is an assumption, a higher expected return lowers reported pension expense under U.S. GAAP. IFRS has no such lever.
+LEWIS: Which way do assumptions push it? A higher discount rate shrinks the obligation. Faster pay growth and longer life expectancy enlarge it. That rate sensitivity makes a pension obligation behave like a long dated fixed rate liability, much like long term fixed rate funding in a bank's interest rate risk analysis.
 
-Three assumptions drive the obligation. A higher discount rate lowers it, while higher assumed salary growth and longer life expectancy raise it. A defined benefit obligation behaves like a long duration liability, so its value swings with interest rates the way long dated funding does in a bank's interest rate risk work. Other post employment benefits, such as retiree health care, follow the same logic but are usually unfunded. On the cash flow statement, what matters is the cash the employer contributes, not the expense.
+HEART: The key balance sheet number is the funded status, the fair value of plan assets minus the obligation. Assets bigger means overfunded and a net pension asset. Obligation bigger means underfunded and a net pension liability. Retiree health care plans work the same way, but they are usually not funded in advance, so they show up as a liability.
 
-Now share based compensation. Paying employees in shares or options aligns their interests with shareholders, conserves cash and, through vesting, encourages them to stay. There are drawbacks. An individual employee has limited influence on the share price, options can encourage excessive risk taking, and existing shareholders are diluted when new shares are issued.
+LEWIS: Each year the net pension asset or liability changes, and the question is where each piece lands, net income or other comprehensive income. With the same assumptions, total economic cost is the same under IFRS and US GAAP. Only the split differs.
 
-For awards settled in shares, measure the award at its fair value on the grant date, and expense that amount over the service period, which is usually the vesting period. For stock grants, including restricted stock and performance shares, fair value is the share price on the grant date. For options, fair value comes from a model such as Black Scholes or a binomial model, using the share price, exercise price, expected volatility, expected life, risk free rate and dividend yield. Higher volatility, a longer expected life or a higher risk free rate raise the option value and the expense, and a higher dividend yield lowers them.
+HEART: IFRS has three pieces. First, service cost, the present value of benefits earned by another year of work, plus past service cost, the change in benefits for earlier years when the plan is amended. Second, net interest, the opening net pension liability or asset times the discount rate. That is interest expense if the plan started underfunded and interest income if it started overfunded. In effect, IFRS assumes plan assets earn the discount rate and nets that against interest on the obligation.
 
-Here is a worked example. A company grants 1,000 options with a grant date fair value of 6 dollars each, vesting over 3 years. Total compensation cost is 6,000 dollars, expensed at 2,000 dollars a year. If the share price doubles next year, the expense does not change, because awards settled in shares are fixed at grant date fair value. The expense is noncash, so it is added back in an indirect method cash flow statement. And the entry that records it also credits paid in capital, so total equity does not change because of the expense itself.
+LEWIS: Third, remeasurements. These are actuarial gains and losses from changed assumptions, like the discount rate, salary growth, turnover, retirement age or mortality, plus the gap between the actual return on plan assets and the return assumed in net interest.
 
-Stock appreciation rights pay the employee the increase in the share price, often in cash, so there is no dilution and no cash outlay at grant. Phantom shares work the same way but track a hypothetical share, which suits private companies. When these awards are settled in cash, they are liabilities, and their fair value is remeasured each period until settlement, which makes the expense more volatile.
+HEART: The IFRS rule: service cost and net interest go to the income statement. Remeasurements go straight to other comprehensive income and are never pushed through profit later. So when a pension fund has a spectacular year in the markets, IFRS pension expense in profit does not fall at all. The extra return is a remeasurement gain in other comprehensive income.
 
-Finally, disclosures. Pension notes give the key assumptions, such as the discount rate, salary growth and, under U.S. GAAP, the expected return on plan assets. Share based pay notes give the plan types, the valuation model and its assumptions, and the expense for the period. Notes on long term debt and leases give maturity schedules, interest rates and covenants. A company using a higher discount rate or a lower volatility assumption than its peers reports a smaller obligation or expense, so adjust before comparing.
+LEWIS: US GAAP has five pieces. Three go to the income statement: service cost, interest cost, which is the growth in the obligation simply because a year has passed, and the expected return on plan assets, which reduces the expense. US GAAP shows interest and expected return separately, because they can use different rates.
 
-Remember the core rule. Under IFRS, service cost and net interest go to profit or loss, remeasurements go to other comprehensive income, and share based awards are expensed at grant date fair value over the vesting period.
+HEART: The other two, past service cost and actuarial gains and losses, go to other comprehensive income first. Past service cost is then amortized into profit over the employees' remaining service. Actuarial gains and losses usually follow the same path, though US GAAP lets a company put them through profit right away. So compare past service cost: IFRS takes it all in profit in the year the plan changes, while US GAAP drips it in over time.
+
+LEWIS: And notice the lever under US GAAP. The expected return is an assumption, and raising it lowers reported pension expense. Under IFRS, the return built into net interest is tied to the discount rate, so that lever does not exist.
+
+HEART: Two practical points. At a manufacturer, pension cost for factory workers flows into inventory and cost of goods sold, and the rest into administrative expenses, so you often have to dig pension expense out of the notes. And treat a net pension liability like debt when you measure leverage, since interest accrues on it just like a bond.
+
+LEWIS: Now share based compensation. Picture a software startup paying its engineers partly in stock. The aim is to line up employees' interests with shareholders' and cut agency costs. The company pays no cash, but new shares dilute existing owners and lower earnings per share.
+
+HEART: There are criticisms. One employee has little power over a share price that swings with the market. Stock awards can make managers too cautious, protecting what they already hold. And options can push them toward too much risk, because the payoff is one sided. If the stock soars, the option is worth a lot. If it collapses, the option is worth nothing, but never less. Heads I win, tails I do not lose much.
+
+LEWIS: The rule is the same under IFRS and US GAAP. Measure the award at fair value on the grant date and expense it over the vesting period, also called the service period, which runs from the grant until the employee receives the stock or can first exercise the option.
+
+HEART: Stock grants are shares awarded outright, with restrictions, or only if targets are hit. Fair value is the share price on the grant date. With immediate vesting, the whole amount is expensed on the grant date. Otherwise it is expensed straight line over the service period. Grants that vest only once service or performance conditions are met are often called restricted stock units.
+
+LEWIS: Performance shares tie vesting to an accounting target like return on equity rather than the share price. That answers the complaint that one person cannot move the stock, but it tempts managers to manipulate the financial statements to hit the target.
+
+HEART: Employee stock options are the right to buy shares later at a set exercise price. A share is worth something as long as its price is above zero. An option pays off only if the share price ends up above the exercise price. On exercise, the company issues new shares and receives the exercise price.
+
+LEWIS: Valuing options takes a model such as Black Scholes Merton or a binomial model, and some inputs are very subjective, especially expected volatility. A higher volatility assumption means a higher option value and a higher expense, so a company assuming calmer shares than its peers reports lower compensation cost.
+
+HEART: Now the equity trap. The expense lowers net income and so retained earnings. But the same amount is added to additional paid in capital or a share based compensation reserve. So total equity does not change. Net income falls, equity stays put.
+
+LEWIS: In more detail, a grant that vests immediately raises common stock and additional paid in capital by its fair value, as if shares were issued. With a service period, each year's expense builds an equity reserve or paid in capital, and any reserve left at the end moves into common stock and paid in capital. For options, nothing happens at the grant. On exercise, cash rises by the exercise price and equity rises by the same, split between common stock at par and additional paid in capital, with any reserve moved across. And if options expire unexercised, nothing is reversed.
+
+HEART: Stock appreciation rights pay the employee cash equal to the rise in the share price, without holding any stock. No new shares, so no dilution, and the option like payoff does not push managers toward caution. The catch is cash: the better the stock does, the more cash goes out. A company without exchange traded shares can use phantom stock, cash tied to the value of a hypothetical share, like a family business rewarding key people as if they were owners.
+
+LEWIS: Finally, the disclosures. For leases, the aim is to show how leasing affects the company's position, performance and cash flows. A lessee discloses right of use assets by class, additions to them, and their amortization by class, interest on lease liabilities, total cash paid for leases, short term and low value lease expenses, and a maturity analysis split between current and long term, with next year's principal current.
+
+HEART: It also discloses expenses for variable lease payments not in the liability. Payments linked to an index or rate, like inflation, are built into the liability at today's index and remeasured when it changes. Payments tied to future sales or usage, like rent that rises with a store's sales, stay out of the liability and are expensed as they occur.
+
+LEWIS: Plus a narrative: the nature of the leasing, cash it might owe that is not in the liability, such as residual value guarantees, restrictions and covenants, and sale and leaseback deals, where a company sells an asset and immediately leases it back. Picture a retailer selling its stores to a property investor and renting them back.
+
+HEART: Lessors with finance leases disclose the selling profit or loss, finance income on the net investment, variable payment income, big changes in the net investment, a maturity analysis of payments to be received, and a reconciliation of those undiscounted payments to the net investment. Lessors with operating leases disclose lease income, showing variable payments not tied to an index separately, a maturity analysis with each of the next five years and the total beyond, and the usual fixed asset and impairment disclosures for the leased assets.
+
+LEWIS: Pension disclosures. A defined contribution plan needs just the contribution expensed. A defined benefit plan must explain its characteristics and risks, especially underfunding, the amounts in the statements, and how it affects the amount, timing and uncertainty of future cash flows, which are the employer's contributions. The minimum list covers the plan's nature, governance, rules and risks, reconciliations of funded status, obligation and plan assets, a sensitivity analysis of the obligation to key assumptions, the mix of plan assets, expected contributions, and the obligation's maturity profile.
+
+HEART: That sensitivity analysis is the analyst's best friend. If a company assumes a higher discount rate than its peers, its obligation looks smaller, and the sensitivity figures let you judge it at a peer's rate.
+
+LEWIS: Share based pay disclosures cover the nature and key terms of each plan, such as grant date, vesting date, service period and whether options settle in shares or cash, how grant date fair value was determined, and the effect on earnings and the balance sheet.
+
+HEART: The takeaway. A defined contribution plan's expense is the contribution. A defined benefit plan shows funded status on the balance sheet, with service cost and net interest in IFRS profit and remeasurements in other comprehensive income. Share awards are expensed at grant date fair value over the vesting period, with no change to total equity.
 
 ## Recall check
 
-Q: Which is most likely to be capitalized: research costs under IFRS, qualifying development costs under IFRS, or drug development costs under U.S. GAAP?
+LEWIS Q: Two drug companies spend the same amount on development that meets the conditions for capitalizing. One reports under IFRS and capitalizes it, the other under US GAAP and expenses it. Which reports higher operating cash flow?
 
-Answer: Qualifying development costs under IFRS. IFRS always expenses research and capitalizes development only once conditions such as technical feasibility and reliable measurement are met. U.S. GAAP expenses research and development as incurred, with software as the main exception.
+HEART: Answer. The IFRS company that capitalizes. Here is why. Capitalized spending is an investing outflow, while expensed spending runs through operating cash flow. The cash spent is identical, so total cash is the same, but the capitalizer moves the outflow from operating into investing.
 
-Q: Under IFRS, a plant has a carrying amount of 500 dollars, fair value less costs to sell of 380 and value in use of 420. What is the impairment loss?
+HEART Q: Under IFRS, an asset's recoverable amount is the higher of which two numbers, and why the higher?
 
-Answer: 80 dollars. The recoverable amount is the higher of 380 and 420, which is 420. The loss is the carrying amount of 500 minus 420.
+LEWIS: Answer. The higher of fair value less costs to sell and value in use. Here is why. An owner can sell the asset or keep using it, and a sensible owner takes the better exit. The asset is only worth less than its carrying value if both exits fall short.
 
-Q: Under U.S. GAAP, an asset held for use has a carrying amount above its fair value but below its undiscounted future cash flows. Is an impairment loss most likely recognized?
+LEWIS Q: Under US GAAP, an asset held for use has a carrying value above its fair value but below its undiscounted future cash flows. Is it impaired?
 
-Answer: No. The asset passes the recoverability test because its undiscounted cash flows cover the carrying amount, so no loss is recorded even though fair value is lower. Fair value only measures the loss after the asset fails that first step.
+HEART: Answer. No. Here is why. The first step is the recoverability test, which compares the carrying value with undiscounted future cash flows. Those cash flows cover the carrying value, so the asset passes, and fair value never comes into play. Fair value only measures the loss after an asset fails that first step.
 
-Q: A company reports gross PPE of 600 dollars excluding land, accumulated depreciation of 240 and annual depreciation of 60. What are the average age and the remaining useful life?
+HEART Q: A company books a large impairment this year. What happens to its asset turnover and its return on assets in the following years?
 
-Answer: Average age is 240 divided by 60, or 4 years. Remaining life is net PPE of 360 divided by 60, or 6 years. Together they give a total useful life of 10 years, which matches 600 divided by 60.
+LEWIS: Answer. Both are higher than they would otherwise be. Here is why. The write down shrinks total assets while sales are unchanged, so asset turnover is higher from then on. Later depreciation is lower, so net income is higher, and it is measured against a smaller asset base.
 
-Q: Under U.S. GAAP, which lessee reports higher cash flow from operations: one with a finance lease or one with an otherwise identical operating lease?
+LEWIS Q: Under US GAAP, can an impairment loss ever be reversed?
 
-Answer: The lessee with the finance lease. Only the interest part of each payment is an operating outflow, and the principal part is a financing outflow. Under an operating lease, the entire payment is an operating outflow.
+HEART: Answer. Yes, but only for an asset held for sale, never for one held for use. Here is why. A written down asset held for use keeps the lower value as its new basis. An asset held for sale is carried at the lower of carrying value and fair value less costs to sell, and both IFRS and US GAAP reverse that loss if value recovers, but only up to the loss already taken.
 
-Q: Under IFRS, a defined benefit plan's assets earn 12 percent in a year when the discount rate is 5 percent. Where does the extra return appear?
+HEART Q: A company sells used equipment for more than its carrying value. Where do the proceeds go on the cash flow statement, and what happens to the gain under the indirect method?
 
-Answer: In other comprehensive income, as a remeasurement gain, and it is never reclassified to profit. Profit or loss includes only service cost and net interest at the discount rate, so the strong return does not reduce reported pension expense.
+LEWIS: Answer. The full proceeds are an investing inflow, and the gain is subtracted from net income in operating cash flow. Here is why. Selling a long lived asset is an investing activity. The gain is already inside net income, so leaving it there would count it in operating cash flow as well as in the investing proceeds.
 
-## Recap
+LEWIS Q: Which two numbers from the notes give the average age of a company's fixed assets, and what assumption makes the answer rough?
 
-Research is always expensed, IFRS capitalizes development once its conditions are met, and U.S. GAAP expenses both except certain software costs. Under IFRS, an impairment loss equals the carrying amount minus the recoverable amount, which is the higher of fair value less costs to sell and value in use, and reversals are allowed except for goodwill. Under U.S. GAAP, undiscounted cash flows decide whether an asset held for use is impaired, fair value measures the loss, and the loss is never reversed. When an asset is sold, the gain equals proceeds minus carrying amount, but the full proceeds are the investing inflow.
+HEART: Answer. Accumulated depreciation divided by annual depreciation expense, assuming straight line depreciation with no salvage value. Here is why. Accumulated depreciation is everything used up so far, and annual depreciation is one year of it, so the ratio counts the years of use, like an odometer reading divided by miles per year. Accelerated depreciation or large salvage values make that yearly slice uneven, so the count is off.
 
-Average age equals accumulated depreciation divided by depreciation expense, and remaining life equals net PPE divided by depreciation expense. Under IFRS, lessees put nearly every lease on the balance sheet and report depreciation plus interest, while U.S. GAAP operating leases show one straight line expense and put the whole payment in operating cash flow. Under IFRS pension accounting, service cost and net interest go to profit or loss, and remeasurements go to other comprehensive income. Share awards are expensed at grant date fair value over the vesting period, while cash settled awards are remeasured every period.
+HEART Q: Under US GAAP, an otherwise identical lease is a finance lease at one company and an operating lease at another. Which reports higher EBIT and higher operating cash flow?
+
+LEWIS: Answer. The finance lease company, on both counts. Here is why. In a finance lease only the amortization sits above operating income, while the interest sits below it, so EBIT is higher. And only the interest part of each payment is an operating outflow, with principal in financing. The operating lease puts the whole payment in operating expense and operating cash flow.
+
+LEWIS Q: Under a US GAAP operating lease, how does the right of use asset compare with the lease liability during the lease, and how is a finance lease different?
+
+HEART: Answer. Under an operating lease the asset equals the liability every period, while under a finance lease the asset sits below it until both reach zero. Here is why. The operating lease amortizes the asset by exactly the amount the liability falls, keeping them equal and the expense flat. The finance lease amortizes the asset straight line, which runs ahead of the small early principal repayments.
+
+HEART Q: A tractor maker and a bank's leasing arm each enter a finance lease as lessor. Which one books a profit at the start of the lease?
+
+LEWIS: Answer. The tractor maker. Here is why. A manufacturer or dealer treats the lease as a sales type lease, like selling inventory, so it books revenue and cost of sales and takes the selling profit on day one. A financing company acts as a lender, so in a direct financing lease any gain is deferred and spread over the lease as interest income.
+
+LEWIS Q: Under IFRS, a pension plan's assets earn far more than the discount rate this year. Does that lower pension expense in profit or loss?
+
+HEART: Answer. No, the extra return goes to other comprehensive income. Here is why. IFRS profit or loss includes only service cost and net interest, and net interest assumes plan assets earn the discount rate. The gap between the actual return and that assumed return is a remeasurement, which goes to other comprehensive income and never moves into profit.
+
+HEART Q: A company grants employee stock options that vest over several years. What does the expense do to total shareholders' equity?
+
+LEWIS: Answer. Nothing, total equity is unchanged. Here is why. The expense lowers net income and therefore retained earnings. But the same amount is credited to additional paid in capital or a share based compensation reserve, which is also equity, so one part falls as another rises.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: Research is a hunch, development is a plan. IFRS can capitalize the plan. US GAAP expenses both, except software.
+
+HEART: Capitalizing is the roof, expensing is the lawn. Capitalize, and profit, assets and equity are higher now, profit is lower later, and the cash leaves through investing. Same cash, different door.
+
+LEWIS: Faster depreciation, shorter lives and lower salvage values all raise today's expense. The reverse flatters today's profit.
+
+HEART: Under IFRS, an asset is worth the better of its two exits, selling it or using it, and a loss is undone if value recovers, never past the original loss.
+
+LEWIS: Under US GAAP, undiscounted cash flows open the door, fair value sets the bill, and there is no coming back, except for assets held for sale.
+
+HEART: In an impairment year, profit, assets and equity fall, leverage and turnover rise, and cash does not move. Later years look better.
+
+LEWIS: Sell an asset, and the gain is proceeds minus carrying value, but the whole check is investing cash.
+
+HEART: Revaluation under IFRS: gains to a surplus in other comprehensive income, losses usually to profit. US GAAP does not allow it.
+
+LEWIS: For asset age, read the odometer. Divide by a year of depreciation: accumulated gives the age, gross the whole life, net what is left.
+
+HEART: For the five lease tests, ask whether the lessee effectively bought the asset.
+
+LEWIS: Under US GAAP, the finance lease wins on EBIT and operating cash flow, and the operating lease wins on early net income.
+
+HEART: For lessors, a dealer books the sale up front, a lender spreads it out, and the cash is operating either way.
+
+LEWIS: Defined contribution, pay it and you are done. Defined benefit, you own the promise and its risk. Funded status is assets minus obligation. Discount rate up, obligation down.
+
+HEART: IFRS sends remeasurements to other comprehensive income for good. US GAAP parks past service cost and actuarial gains and losses there, then drips them into profit.
+
+LEWIS: Share awards carry a price tag fixed on grant day and spread over the vesting wait, with total equity unchanged. Options dilute, stock appreciation rights cost cash.
+
+HEART: Now, how you would say the big ideas to a senior leader.
+
+LEWIS: On capitalizing: putting spending on the balance sheet flatters near term profit and operating cash flow, but saves no cash, and the cost arrives later. The jargon is capitalization, amortization and cash flow classification.
+
+HEART: On write downs: a big write down usually means past profits were overstated, and its timing is partly management's choice. The jargon is impairment, recoverable amount and earnings management.
+
+LEWIS: On leases: nearly every lease is now debt on the balance sheet, and under US rules the label changes where the cost shows up, not the cash paid. The jargon is the right of use asset, the lease liability, and finance versus operating leases.
+
+HEART: On pensions: a traditional pension is a long term debt that swings with interest rates and life expectancy, with the investment risk on the employer. The jargon is the defined benefit obligation, funded status and actuarial assumptions.
+
+LEWIS: On stock pay: it costs no cash today, but it is a real expense that dilutes the owners. The jargon is share based compensation, grant date fair value and dilution.

@@ -59,6 +59,9 @@ PRON = [
  (r"\b([Oo]n|[Aa]t the) close\b",r"\1 cloze"),
  (r"\b([Pp])utable\b",r"\1ootable"),
  (r"\b([Cc])onglomerates?\b",lambda m: m.group(1)+"onglomerit"+("s" if m.group(0).endswith("s") else "")),
+ (r"\b([Ss])ukuk\b",r"\1oo kook"),(r"\b([Tt])ranches\b",r"\1rahnshes"),(r"\b([Tt])ranche\b",r"\1rahnsh"),
+ (r"\b([Aa]|[Tt]he|[Ll]oan|[Uu]nderwriting) syndicate\b",r"\1 sindicket"),(r"\bsyndicate of\b","sindicket of"),
+ (r"\b([Aa])ggregate (?=(index|indexes|indices|demand|supply|output|income|expenditure|price|level|bond|risk|exposure|value|data)\b)",r"\1ggregut "),(r"\b([Ii])n aggregate\b",r"\1n aggregut"),
  (r"\bMAD\b","M A D"),(r"\bCournot\b","Coor no"),(r"\bHerfindahl\b","Herfin dahl"),(r"\b[Mm]onopsony\b","mo nopsony"),(r"\bKeynesians\b","Kaynzians"),(r"\bKeynesian\b","Kaynzian"),(r"\bKeynes\b","Kaynz"),(r"\bexcise\b","eksize"),(r"\b([Mm])onetarist",r"\1onitterist"),(r"\bquota rents?\b",lambda m: "kwohtuh "+m.group(0).split()[1]),(r"\bhegemony\b","hejemoany"),(r"\b[Ss]upervisory\b","supervizery"),(r"\bNOPAT\b","no pat"),(r"\bModigliani\b","Mohdilyani"),(r"\b([Ll])essees\b",r"\1e sees"),(r"\b([Ll])essee\b",r"\1e see"),(r"\b([Ll])essors\b",r"\1ess ors"),(r"\b([Ll])essor\b",r"\1ess or"),(r"\b([Ee])xternalit",r"\1ksternalit"),(r"\b(the|of|its|their|cheap|cheaper|more|fewer|less|on|for|foreign|total|net|than|domestic|rising|falling|higher|lower|and|minus|plus|exceed|over) imports\b",r"\1 im ports"),(r"(^|(?<=[.!?] ))Imports\b","Im ports"),(r"\bimports (and|minus|exceed|rise|fall|grow|shrink)\b",r"im ports \1"),(r"\bPlaty\b","Platty"),
  (r"\bANOVA\b","ANOVA"),(r"\bGAAP\b","gap"),(r"\bMM\b","M and M"),(r"’","'"),(r"‘","'"),(r"[“”]",'"'),
 ]

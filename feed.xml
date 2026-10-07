@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Wed, 07 Oct 2026 12:39:04 -0500</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 13:10:15 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -297,11 +297,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Financial Statement Analysis, Kaplan Modules 33.1 to 34.2. 33.1 Intangible Long-Lived Assets, 33.2 Impairment and Derecognition, 33.3 Long-Term Asset Disclosures, 34.1 Leases, 34.2 Deferred Compensation and Disclosures</description>
     <itunes:summary>Financial Statement Analysis, Kaplan Modules 33.1 to 34.2. 33.1 Intangible Long-Lived Assets, 33.2 Impairment and Derecognition, 33.3 Long-Term Asset Disclosures, 34.1 Leases, 34.2 Deferred Compensation and Disclosures</itunes:summary>
-    <content:encoded><![CDATA[<p>Financial Statement Analysis, Kaplan Modules 33.1 to 34.2.</p><ul><li>Module 33.1, Intangible Long-Lived Assets</li><li>Module 33.2, Impairment and Derecognition</li><li>Module 33.3, Long-Term Asset Disclosures</li><li>Module 34.1, Leases</li><li>Module 34.2, Deferred Compensation and Disclosures</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:14 The big picture</li><li>1:34 Module 33.1, Intangible Long-Lived Assets</li><li>5:16 Module 33.2, Impairment and Derecognition</li><li>10:19 Module 33.3, Long-Term Asset Disclosures</li><li>13:16 Module 34.1, Leases</li><li>20:56 Module 34.2, Deferred Compensation and Disclosures</li><li>28:01 Recall check</li><li>31:28 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E17.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E17_v3.mp3" length="9929994" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Financial Statement Analysis, Kaplan Modules 33.1 to 34.2.</p><ul><li>Module 33.1, Intangible Long-Lived Assets</li><li>Module 33.2, Impairment and Derecognition</li><li>Module 33.3, Long-Term Asset Disclosures</li><li>Module 34.1, Leases</li><li>Module 34.2, Deferred Compensation and Disclosures</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:44 Module 33.1, Intangible Long-Lived Assets</li><li>9:16 Module 33.2, Impairment and Derecognition</li><li>17:41 Module 33.3, Long-Term Asset Disclosures</li><li>23:42 Module 34.1, Leases</li><li>32:00 Module 34.2, Deferred Compensation and Disclosures</li><li>45:00 Recall check</li><li>52:16 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E17.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E17_v4.mp3" length="16880581" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e17</guid>
     <pubDate>Sat, 03 Oct 2026 12:17:00 -0500</pubDate>
-    <itunes:duration>1986</itunes:duration>
+    <itunes:duration>3376</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E17.txt" type="text/plain"/>
   </item>
