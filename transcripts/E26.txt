@@ -1,155 +1,299 @@
-## The big picture
-
-Every valuation question on the exam comes down to one comparison. You estimate what a share is worth, its intrinsic value, and you compare that estimate with the market price. If your value is above the price, the share looks undervalued. If your value is below the price, it looks overvalued. If the two are close, it looks fairly valued.
-
-Two cautions apply. Your estimate is only as good as your model and inputs, and a large gap may mean the market knows something you have missed. So the more confident you are in the model and the inputs, the more willing you should be to act on a gap.
-
-Analysts use three families of models. Present value models, also called discounted cash flow models, value a share as the present value of the cash it will deliver, either dividends or free cash flow to equity. Multiplier models, also called market multiple models, compare the share price, or the value of the whole firm, with a measure such as earnings, book value, sales or cash flow. Asset based models value equity as the fair value of the assets minus the fair value of the liabilities.
-
-Module 46.1 covers what shareholders receive: cash dividends, buybacks, and the stock dividends and splits that look like payouts but are not. Module 46.2 values dividends with discount models. Module 46.3 turns to multiples and links them back to the Gordon model, and the episode closes with asset based valuation. Expect formula questions with round numbers, and questions that ask which model or multiple best fits a given company.
+LEWIS: Reading 46 covers how to judge a share's price against its intrinsic value, the three families of valuation models, and what cash dividends, stock dividends, splits, reverse splits and buybacks really do, along with the dividend dates. It then builds on the Gordon growth model with free cash flow to equity, preferred stock and multistage models, and finishes with price multiples, justified multiples, enterprise value multiples and asset based valuation.
 
 ## Module 46.1, Dividends, Splits, and Repurchases
 
-Start with what a dividend really is. A cash dividend moves value from the company to its owners. It does not create value. The moment the cash leaves, the company is worth less by roughly that amount, and the shareholder holds the cash instead.
+HEART: Start with a picture. A house is listed for sale at an asking price. A careful buyer who has read the inspection report and priced the repairs has her own view of what the house is worth. That view is the idea behind intrinsic value, also called fundamental value. It is the value a rational investor would place on an asset with full knowledge of its characteristics.
 
-Cash dividends come in three forms. Regular dividends are paid on a set schedule, quarterly in the United States and often twice a year or once a year elsewhere. Companies work hard to keep them steady or rising, because a cut is read as bad news. Special dividends, also called extra or irregular dividends, are one time payments, often after an unusually strong year, and they are common at cyclical companies. A liquidating dividend is a return of capital rather than a share of profits. It is paid when a company goes out of business, sells part of its business and passes on the proceeds, or pays out more than its accumulated retained earnings.
+LEWIS: And the market price is the asking price, what the share actually trades at today.
 
-Know the balance sheet effect of a cash dividend. Cash falls, so total assets fall. Retained earnings fall, so shareholders' equity falls by the same amount. Less cash means weaker liquidity ratios, such as the cash ratio and the current ratio. Lower assets and lower equity, with debt unchanged, mean higher leverage ratios, such as debt to assets and debt to equity.
+HEART: Right. Analysts build valuation models to judge intrinsic value, then compare that judgment with the market price. If the price is below your value, the share looks undervalued. If the price is above your value, it looks overvalued. If the two match, it looks fairly valued. The whole exercise rests on two beliefs. Prices sometimes wander away from intrinsic value, and an analyst with a sharper sense of value than the crowd can earn abnormal profits as the price wanders back.
 
-Now the actions that change the number of shares but not the value of the company. A stock dividend pays shareholders in new shares instead of cash. With a 10 percent stock dividend, you get one new share for every 10 you own. No cash leaves the company, so its total value does not change. Every holder gets the same percentage increase, so everyone keeps the same fraction of the company. The same pie is simply cut into more slices.
+LEWIS: Here is the trap in the wording. Undervalued means the price is too low compared with value, so it is a potential buy. People flip it when the question starts from the value side. Value above price, undervalued. Price above value, overvalued.
 
-Walk through it. You own 100 shares at 55 dollars, worth 5,500 dollars. After a 10 percent stock dividend you own 110 shares. The company's total value is unchanged, so the price falls to 50 dollars, and 110 shares at 50 dollars is still 5,500 dollars. In the accounts, a stock dividend moves an amount from retained earnings to contributed capital. Total equity does not change.
+HEART: Spotting a gap is not the same as acting on it. Several things decide whether a gap deserves a position. First, size. Small gaps are expected, because every model is only roughly right. The bigger the gap in percentage terms, the more willing you should be to act.
 
-A stock split has the same economics. In a 2 for 1 split, each share becomes 2 shares, and the price should halve. In a 3 for 2 split, every 2 shares become 3, so the price falls to two thirds, and a 60 dollar share becomes a 40 dollar share. A 2 for 1 split is economically the same as a 100 percent stock dividend. Companies usually split after a large price rise, to bring the price back into a range that looks more affordable. Price per share and earnings per share fall in the same proportion, so the price to earnings ratio does not change.
+LEWIS: Second, confidence in the model. If the model is the wrong tool for this company, its answer means little. Third, confidence in the inputs, and tied to that, sensitivity. If nudging your required return up by a hair would wipe out the gap, the whole opportunity rests on that one input, and you had better be very sure of it.
 
-A reverse split does the opposite. In a 1 for 10 reverse split, every 10 shares become 1, so a 2 dollar share should trade at about 20 dollars. Companies whose prices have fallen a long way use reverse splits, for example to meet an exchange's minimum price.
+HEART: Fourth, respect for the market. Even if prices sometimes stray, the market price is a fairly reliable signal of value, because many people with money at stake have weighed in. So ask why the market might be wrong. Your case is stronger for a neglected stock that hardly any analysts follow than for a household name that dozens of analysts pick apart every quarter.
 
-Here is the trap. A split or a stock dividend does not make shareholders richer or change their share of ownership. Total market value, proportional ownership and total equity all stay the same. Only the share count and the per share numbers change.
+LEWIS: And fifth, timing. To profit, the price has to travel toward your value, and travel far enough before your holding period runs out. Being proved right in ten years is little comfort if you have to sell in one.
 
-Now share repurchases, also called buybacks. The company uses cash to buy back its own shares, usually in the open market. Repurchased shares are either canceled or held as treasury shares. Treasury shares are not counted as outstanding, they receive no dividends and they carry no votes. On the balance sheet, a buyback has the same effect as a cash dividend of the same size. Cash falls and equity falls.
+HEART: So a gap is a reason to look harder, and a reason to act only when it passes all five tests.
 
-The key idea is that a buyback at the market price and a cash dividend of the same total amount leave shareholders equally well off, ignoring taxes and signals. Take a company with 10 million shares at 50 dollars, so it is worth 500 million dollars, and it has 50 million dollars of cash to return. Option one is a 5 dollar dividend per share. The company is then worth 450 million dollars, so the share falls to 45 dollars. Each holder has 45 dollars of stock plus 5 dollars of cash, 50 dollars in total.
+LEWIS: Now the toolkit. There are three families of valuation models, and a rental duplex shows all three. Method one, forecast the rent it will bring in, net of costs, and discount that stream back to today. Method two, look at what similar duplexes nearby sold for as a multiple of their rent, and apply that multiple. Method three, price the land and the building at what they would fetch today, and subtract the mortgage.
 
-Option two is to buy back 1 million shares at 50 dollars each. The company is again worth 450 million dollars, but now there are only 9 million shares, so the price stays at 50 dollars. A holder who did not sell still has 50 dollars per share. The wealth is the same either way.
+HEART: Those are the three families. Present value models, also called discounted cash flow models, value a share as the present value of cash flows to shareholders. Either the cash actually paid out, which gives dividend discount models, or the cash available to shareholders after the company covers the capital spending and working capital it needs, which gives free cash flow to equity models.
 
-Four reasons can favor a buyback. First, signaling, because management may believe the shares are undervalued. Second, flexibility, because a buyback is not a commitment, while cutting a regular dividend is painful. Third, taxes, in places where capital gains are taxed less than dividends, or where the tax is deferred until the shares are sold. Fourth, offsetting dilution from shares issued when employees exercise stock options. A buyback can also raise earnings per share simply because there are fewer shares, but a higher EPS on its own does not make shareholders richer.
+LEWIS: Multiplier models, also called market multiple models, come in two types. The first compares the share price with a per share fundamental, such as earnings, sales, book value or cash flow. The price to earnings ratio is the best known. The second compares enterprise value, the value of the whole company to all its investors, with EBITDA, which is earnings before interest, taxes, depreciation and amortization, or with revenue.
 
-Last, the dividend payment chronology. There are four dates, in this order. The declaration date is when the board announces the dividend, its amount, the record date and the payment date. The ex dividend date is the first day the share trades without the right to the coming dividend. The holder of record date is the day the company checks its books to see who will be paid. The payment date is when the cash is sent.
+HEART: Asset based models value common equity as the value of the assets minus the liabilities and the preferred stock. Analysts usually adjust the balance sheet figures toward fair value first, because book values reflect old costs and can sit far from what the assets are worth today.
 
-The ex dividend date is the one that matters to an investor. Buy before it and you receive the dividend. Buy on or after it and the seller keeps it. That is why the price tends to drop by about the amount of the dividend on the ex date.
+LEWIS: In practice, analysts rarely trust a single number. They run more than one model, each with several sets of inputs, and end up with a range of values rather than one point.
 
-The gap between the ex date and the record date comes from settlement, because a trade must settle by the record date for the buyer to appear on the books. When trades take two business days to settle, the ex date is one business day before the record date. With one day settlement, now the standard in the United States, the two dates fall on the same day. If a question gives you a settlement period, work back from the record date.
+HEART: Now what shareholders actually receive. A cash dividend is a payment to shareholders in cash, and it comes in two main kinds. Regular dividends are paid out of profits on a consistent schedule, often quarterly. Investors take years of steady or rising regular dividends as evidence that the company stands on solid ground, which is why boards hate to cut them.
 
-The rule to keep: stock dividends and splits change the number of slices, not the size of the pie. And the ex dividend date decides who gets paid.
+LEWIS: Special dividends, also called extra or irregular dividends, are one time payments on top of any regular dividend. Think of a homebuilder after a boom year. It shares the windfall with a special dividend without promising to repeat it, so it keeps the freedom to hold on to cash when the housing market cools. Cyclical companies are the classic payers of special dividends.
+
+HEART: Here is what a cash dividend does, piece by piece. The share count does not change. The share price drops by about the amount of the dividend, because that cash has left the company. The shareholder's wealth does not change before taxes, since a little less value sits in the share and that same amount sits in her hand as cash.
+
+LEWIS: And the ratios move. Cash falls, so liquidity ratios like the current ratio and the cash ratio weaken. Total assets and equity both fall while debt stays put, so leverage ratios like debt to equity and debt to assets rise. A dividend moves value from the company to its owners. It does not create value.
+
+HEART: Next, stock dividends. A stock dividend pays shareholders in new shares instead of cash, and it is quoted as a percentage. A five percent stock dividend gives you five new shares for every hundred you hold.
+
+LEWIS: Then stock splits. A split divides each existing share into several new ones, and it is quoted as a ratio. In a two for one split, each share becomes two. Splits are more common than stock dividends these days, and companies tend to split after a long climb in the share price, to bring each share back into a range that feels easier to buy.
+
+HEART: The picture for both is trading a twenty dollar bill for two tens. You have more pieces of paper and exactly the same money. No cash leaves the company, so the company is worth the same. Every shareholder gets the same percentage of new shares, so everyone keeps the same fraction of the company.
+
+LEWIS: So, piece by piece. The share count goes up and the price per share falls in proportion, so total market value, wealth and ownership fractions are all unchanged. Total shareholders' equity and the liquidity and leverage ratios are unchanged too, because no cash moved. Earnings per share falls in proportion with the price, so the price to earnings ratio stays where it was.
+
+HEART: A reverse stock split runs it backward. In a one for ten reverse split, every ten shares become one. Fewer shares, a higher price per share and higher earnings per share, and again no change in total value, in anyone's wealth, in the price to earnings ratio or in the balance sheet ratios. Companies whose share price has sunk very low turn to reverse splits to lift it, often to stay above an exchange's minimum price for listing. So here is the trap with all three. A split, a reverse split or a stock dividend can make a share look cheaper or dearer, but it cannot make anyone richer.
+
+LEWIS: Now share repurchases, also called buybacks. The company spends cash to buy back its own shares. Like a cash dividend, it is a way to hand cash to shareholders, and when it is done at the market price, it has the same effect on shareholders' wealth as a cash dividend of the same total size.
+
+HEART: Walk the two routes without numbers. Dividend route. Every owner receives cash, and the share price drops by the same amount, so each owner holds a cheaper share plus cash. Buyback route. The company pays the market price to the owners who choose to sell, and they swap shares for cash at full value. The owners who stay keep shares at the same price, and each of those shares is now a bigger slice of a smaller company.
+
+LEWIS: So for a buyback, piece by piece. The share count falls. The share price, all else equal, stays the same. Wealth is unchanged, just as with an equal cash dividend. And the balance sheet looks exactly like the dividend case. Cash and equity both fall, so liquidity ratios weaken and leverage ratios rise.
+
+HEART: What about earnings per share?
+
+LEWIS: A buyback often lifts earnings per share, because the earnings are spread over fewer shares. That is the trap. A higher per share figure that comes from a smaller share count does not by itself make the owners richer. The cash that left the company was already theirs.
+
+HEART: Then why buy back shares instead of paying a dividend? The reasons to know. Signaling, because management may believe the shares are undervalued, and buying them says so with real money. Supporting the share price. Offsetting dilution, because when employees exercise stock options, new shares appear, and a buyback soaks them up. And taxes. In countries that tax capital gains at lower rates than dividends, shareholders may prefer to receive cash through a buyback.
+
+LEWIS: Last, the dividend payment chronology. Four dates, in this order. The declaration date is when the board of directors approves the dividend and announces the amount per share, the record date and the payment date. The ex dividend date is the first day on which a buyer of the share will not receive the coming dividend. The holder of record date, or record date, is when the owners entitled to the dividend are identified from the company's books. The payment date is when the cash actually goes out to those holders of record.
+
+HEART: Here is a picture for the gap between the ex date and the record date. A school field trip roster is fixed on Friday, but permission slips take two days to process. A slip handed in on Wednesday makes Friday's roster. Hand it in on Thursday and you miss the trip, even though the roster is not fixed until Friday. Thursday is the ex date of that field trip.
+
+LEWIS: Shares work the same way. To receive the dividend, you must be on the company's books as an owner by the record date, and a purchase does not reach the books until the trade settles. So the ex dividend date is the first day a purchase would settle too late. For the exam, that puts it one or two business days before the record date, depending on how long settlement takes. In the real world, faster settlement has shrunk that gap. Since May of twenty twenty four, United States stock trades settle one business day after the trade, so there the ex date now falls on the record date itself. That is background only. For an exam answer, the ex date comes one or two business days before the record date.
+
+HEART: Which gives the trap. The date that decides whether a buyer gets the dividend is the ex dividend date, not the record date and not the declaration date. Buy on the day before the ex date, and the dividend is yours. Buy on the ex date or later, and it goes to the seller, even if the record date is still ahead.
+
+LEWIS: And the price adjusts to match. With no other news, on the ex dividend date the share opens lower than the previous day's final price by about the amount of the dividend.
+
+HEART: So the buyer on the ex date is not cheated. She pays a lower price because the dividend is no longer attached. Before taxes, buying the day before or the day of comes out about even.
+
+LEWIS: The takeaway. Compare value with price, and act only on a gap you trust. Cash dividends and buybacks hand cash to owners, shrink cash and equity, and push leverage up without changing wealth. Stock dividends, splits and reverse splits change only the share count and the price per share. And the ex dividend date decides who gets paid.
 
 ## Module 46.2, Dividend Discount Models
 
-First principles. A share is worth the present value of the cash it will pay its owner. If you hold it forever, the only cash you ever receive is dividends. If you plan to sell, you receive dividends plus a sale price, but the buyer will pay only for the dividends that come after. Either way, the value of a share is the present value of all its expected future dividends, discounted at the required return on equity. That is the dividend discount model, or DDM.
+HEART: Episode one built the core of this module. The Gordon growth model divides next year's dividend by the gap between the required return and the growth rate, and the answer lands one period before that dividend. A multistage model values the early, uneven dividends one at a time, then collapses the steady part into a single Gordon value. This module builds on both.
 
-The discount rate is the return investors require for bearing the risk of the share. A common way to estimate it is CAPM, which gives the risk free rate plus beta times the equity risk premium.
+LEWIS: Start with why dividends. Picture an apple orchard. It is worth the apples it will bear. If you plan to sell the orchard in a few years, you collect apples until then, plus a sale price. But the buyer will only pay for the apples still to come. So however long you hold it, the value comes back to the apples.
 
-Start with one period. The value today equals next year's expected dividend plus the expected price at the end of the year, all divided by one plus the required return. Say you expect a 2 dollar dividend and a 42 dollar price in one year, and you require 10 percent. 2 plus 42 is 44, and 44 divided by 1.10 is 40 dollars. With more periods, discount each dividend and the final sale price for their own number of years.
+HEART: That is the dividend discount model, or DDM. With a one year holding period, the value today is the dividend you expect during the year plus the price you expect at the end of the year, both discounted at the required return on equity. With a holding period of several years, you add up the discounted dividends and the discounted sale price at the end, which is called the terminal value. And because a corporation can exist indefinitely, the most general form simply discounts every dividend forever, with no sale at all.
 
-Now the workhorse, the Gordon growth model, also called the constant growth model. If dividends grow at a constant rate forever, the infinite sum collapses into one short formula. The value today equals next year's dividend, divided by the required return minus the growth rate. Next year's dividend equals the dividend just paid times one plus the growth rate.
+LEWIS: Now the problem. Plenty of companies pay no dividend, or pay far less than they could. For those, analysts turn to free cash flow to equity, or FCFE. Dividends are what the board chooses to hand out. FCFE is what the business could hand to common shareholders if it wanted to, so it gauges how much dividend the company can afford.
 
-Here is an example. A company just paid 2 dollars. Dividends grow at 5 percent a year, and you require 10 percent. Next year's dividend is 2 times 1.05, which is 2.10. The required return minus growth is 0.05. And 2.10 divided by 0.05 is 42 dollars.
+HEART: In words, start with cash flow from operations. Subtract fixed capital investment, the spending on equipment and buildings needed to maintain the existing assets and to support the growth you are assuming. Then add net borrowing, which is new debt minus debt repaid. Borrowing that is not needed to repay old debt is cash the owners could receive, so it counts.
 
-Three traps live here. The first is using the dividend just paid. Dividing 2 dollars by 0.05 gives 40 dollars, a classic wrong answer. Read the tense carefully. A dividend just paid, or the most recent dividend, must be grown one year. A dividend expected next year is used as it is.
+LEWIS: You can reach the same number from net income. Add back depreciation, subtract the increase in working capital, subtract fixed capital investment, subtract debt repaid and add new debt issued. Same destination, different starting point.
 
-The second trap is the model's conditions. The required return must be greater than the growth rate, and growth must be constant forever. If growth is at or above the required return, the formula breaks down, so a fast grower needs a multistage model. The Gordon model fits mature companies with stable dividend policies, growing at or below the long run growth rate of the economy. Utilities are the classic case.
+HEART: The value of the equity is then the present value of all future FCFE, discounted at the required return on equity. That last part is a trap. FCFE is what is left for shareholders after the lenders are taken care of, so you discount it at the shareholders' own required return, not at a rate that blends in the cost of debt.
 
-The third trap is sensitivity. Keep the same company, but lower the required return to 9 percent. The denominator falls from 0.05 to 0.04, and the value rises from 42 dollars to 52.50 dollars. A one percentage point change in the required return moved the value by 25 percent. Equity behaves like a very long duration asset, for the same reason that long term fixed rate loans on a bank balance sheet swing in value when rates move.
+LEWIS: A practical bonus: with FCFE, you never have to guess when the board will start paying dividends, or how much.
 
-You can rearrange the model. The required return equals the dividend yield, which is next year's dividend divided by the price, plus the growth rate. And the growth rate the market implies equals the required return minus the dividend yield. At a 42 dollar price, the dividend yield is 2.10 divided by 42, which is 5 percent. Add 5 percent growth and you get back the 10 percent required return.
+HEART: Where does the required return on equity come from? One common tool is CAPM, the capital asset pricing model. The required return equals the risk free rate plus beta times the market risk premium, which is the extra return the whole market is expected to earn over the risk free rate. Beta measures how much market wide risk the share carries.
 
-Where does growth come from? The sustainable growth rate equals the retention rate times return on equity, or ROE. The retention rate, often called b, is the share of earnings kept in the business, which is one minus the dividend payout ratio. Say ROE is 15 percent and the company pays out 40 percent of its earnings. It retains 60 percent, and 0.60 times 15 percent is 9 percent growth. Profits plowed back into the business at the company's ROE are what make dividends grow.
+LEWIS: There is real debate over whether CAPM is the best model for this, and analysts pick different inputs, so there is no single correct required return. A second approach starts from the company's own bonds. Shareholders stand behind bondholders, so equity has to require more than the company's bond yield. Take the yield on the company's traded bonds and add a risk premium. If the company has no traded bonds, start from a government bond yield and add a larger premium.
 
-Preferred stock is the easiest case. A preferred share with no maturity, no call feature and no conversion right pays a fixed dividend forever. That is the Gordon model with zero growth. The value equals the preferred dividend divided by the required return on the preferred.
+HEART: Preferred stock is the simplest case, and Episode one set it up. A preferred share that cannot be called and cannot be converted typically pays a fixed dividend with no maturity. That is a perpetuity, so its value is the preferred dividend divided by the required return on the preferred. It is also the Gordon model with zero growth.
 
-A preferred share with a 100 dollar par value and a 5 percent dividend rate pays 5 dollars a year. If investors require 8 percent, the value is 5 divided by 0.08, which is 62.50 dollars. When the required return is above the dividend rate, the preferred is worth less than par, just as with a bond. A preferred share with a maturity date is valued like a bond.
+LEWIS: Directions. A higher required return means a lower value. And if investors require more than the stated dividend rate, the preferred is worth less than its par value, just as a bond whose coupon is below the market yield sells at a discount.
 
-Now multistage models. Many companies grow quickly for a few years and then settle down. So you split the future into two pieces. First, discount each dividend in the high growth period one at a time. Second, at the end of the high growth period, use the Gordon model to find a terminal value, which is the value of all dividends after that point. Discount the terminal value back to today, and add the pieces.
+HEART: Now the Gordon model, building on Episode one. Three assumptions sit underneath it. Dividends are the right measure of what shareholders receive. The growth rate and the required return never change. And the required return is above the growth rate. If any one of them fails, the model is the wrong tool. Words like forever, indefinitely or for the foreseeable future signal the Gordon model, and the tense, just paid or expected, tells you which dividend you have been given.
 
-Here is an example built to keep the arithmetic clean. A company just paid 1 dollar. Dividends will grow 10 percent a year for two years, then 5 percent forever. The required return is 10 percent. The year one dividend is 1.10, and the year two dividend is 1.21. Discounted at 10 percent, each is worth exactly 1 dollar today, so the high growth period is worth 2 dollars.
+LEWIS: The value depends on the gap between the required return and growth. As the gap widens, the value falls. As the gap narrows, the value rises. And because you are dividing by that gap, small changes in it swing the value a lot. Hold next year's dividend fixed, halve the gap, and the value doubles.
 
-Now the terminal value at the end of year two. It uses the year three dividend, which is 1.21 times 1.05, about 1.27. Divide by the required return minus the long term growth rate, which is 0.05, and the value at the end of year two is 25.41 dollars. Discount it back two years, which means dividing by 1.21, and you get 21 dollars. Add the 2 dollars from the high growth years. The share is worth 23 dollars.
+HEART: Which is why a careful analyst never reports a single Gordon value. She runs a range of required returns and growth rates and reports the range. It is the lesson of long fixed rate loans on a bank's balance sheet. The longer the stream, the more its value swings when rates move, and a share never matures.
 
-Two traps sit in that calculation. The terminal value at the end of year n uses the dividend for year n plus 1. And it is a value as of year n, so you discount it n years, not n plus 1. In this example, discounting the terminal value three years gives a total of about 21.09 dollars instead of 23. Building the terminal value from the year two dividend instead gives 22 dollars.
+LEWIS: Here is a clever way to read a Gordon value. Split it into two parts. First, value the share as if the dividend never grows again, which is just the dividend already paid divided by the required return. Then subtract that from the full Gordon value. What is left is the part of the value that comes from expected growth.
 
-On the B A two plus, the cash flow worksheet does this in one pass. Press C F, then clear it with the second key and C E C, which is clear work. Enter 0 as C F zero and press enter. Arrow down, enter 1.10 as C zero one and press enter. Arrow down twice, past its frequency of 1, to C zero two.
+HEART: That is a powerful question to put to an expensive stock. If most of the price is the growth piece, you are paying mostly for a promise.
 
-Enter the year two dividend plus the terminal value, 1.21 plus 25.41, which is 26.62, and press enter. Then press the N P V key, enter 10 for I and press enter. Arrow down to N P V and press C P T. The display shows 23.
+LEWIS: So where does the growth rate come from? Three sources. The company's own history of dividend growth. The median dividend growth rate of its industry. Or the sustainable growth rate.
 
-When does a dividend discount model fit? It works best when the company pays dividends, when its dividend policy has a clear and consistent link to its earnings, and when you are valuing a minority stake, which gives you no say over the payout. If a company pays no dividend, or pays far less than it could afford, or if you are valuing a controlling stake, use free cash flow to equity, or FCFE, instead. FCFE is the cash left for common shareholders after operating needs, capital spending and debt flows. It equals cash flow from operations, minus fixed capital investment, plus net borrowing, which is new borrowing minus debt repaid. The value of equity is the present value of expected FCFE, discounted at the required return on equity, because these are cash flows to equity holders alone.
+HEART: The sustainable growth rate is the retention rate times return on equity, or ROE. The retention rate is the share of earnings the company keeps instead of paying out, which is one minus the dividend payout ratio. Picture a savings jar that earns a return each year. You spend part of that return and drop the rest back into the jar. Drop back a bigger share, or earn a higher return on what is inside, and the jar grows faster.
 
-The rule to keep: the Gordon model value equals next year's dividend divided by the required return minus the growth rate. It works only when the required return is above growth, and next year's dividend is the one just paid, times one plus the growth rate.
+LEWIS: Three conditions keep that rate going indefinitely. Return on equity holds steady, the payout ratio holds steady, and the company issues no new shares. Under those conditions, equity, earnings and dividends all grow at that one rate.
+
+HEART: And a reality check. Over the long run, economies grow at single digit rates. A company whose sustainable growth comes out far above that cannot keep it up forever, so check it against the industry and the company's own history first.
+
+LEWIS: Now a company that pays nothing today but is expected to start. Why pay nothing? Either it is in financial distress and cannot spare the cash, or it can earn more by reinvesting than its shareholders could earn elsewhere.
+
+HEART: To value it with the Gordon model, you forecast when the first dividend arrives and how large it will be. Then the timing rule from Episode one does the work. The Gordon value lands one period before that first dividend, and you discount it back to today from there.
+
+LEWIS: The trap is to discount from the year of the first dividend instead of the year before it. And because the size and timing of a first dividend years away are so uncertain, check the answer against other models before relying on it.
+
+HEART: Now multistage models. A company can grow faster than its required return for a while, but never forever. Fast growth and high returns attract rivals, and competition drags growth down. Think of the first coffee shop in a fast growing suburb. For a few years it has the street to itself. Then three competitors open nearby.
+
+LEWIS: So you split the future into stages. Decide the required return. Forecast how fast and how long the high growth runs, and the dividends during it. Choose the constant growth rate that follows, and the first dividend of that steady phase. From that dividend, the Gordon model gives the value at the end of the high growth period, the terminal value. Then discount the high growth dividends and the terminal value back to today and add them up.
+
+HEART: Episode one covered the timing trap, so just the rule. The terminal value is built from the first dividend after the high growth period, but it sits at the end of that period, so you discount it back over the high growth years only.
+
+LEWIS: Which model for which company? The Gordon model fits stable, mature, noncyclical companies whose dividends grow at a steady rate. Think of a regulated water company, or a maker of toothpaste and soap that has raised its dividend a little every year for decades.
+
+HEART: A two stage model fits a company whose growth will change once and then settle. A company growing fast now that will slow to a stable rate. An older company enjoying a temporary burst of growth. Or an older company that is losing market share, growing slowly or even shrinking, as long as its growth is expected to steady at some point.
+
+LEWIS: That last case surprises people. Multistage does not have to mean fast first. The early stage can be slow, or even negative. What the model needs is that dividends can be forecast, and that growth eventually settles at a constant rate, so the Gordon model can supply the terminal value.
+
+HEART: A three stage model splits the path into growth, transition and maturity. High growth, then a stretch of slowing, then the long run constant rate. That fits a young company still in its high growth phase, because it has a long road ahead before it looks like a utility.
+
+LEWIS: And when dividends cannot be forecast with any confidence, such as a company that pays none and gives no hint of when it will, the dividend models give way. Free cash flow to equity works if earnings growth can be forecast. If not, price multiples may be the better tool.
+
+HEART: The takeaway. A share is worth its discounted dividends, or its discounted free cash flow to equity when dividends do not reflect what it could pay. Preferred stock is a perpetuity. The Gordon value moves opposite to the gap between the required return and growth, and that gap is a hair trigger. Sustainable growth is retention times ROE. And the stages of the model should match the stages of the company's life.
 
 ## Module 46.3, Relative Valuation Measures
 
-Multiples answer a different question. Instead of asking what the cash flows are worth, they ask what the market pays for similar assets. A price multiple divides the share price by a per share measure, such as earnings, book value, sales or cash flow. An enterprise value multiple divides the value of the whole firm by a measure such as EBITDA.
+LEWIS: Dividend models swing hard on small changes in their inputs, so many investors also ask a different question. Instead of what the cash flows are worth, they ask what the market pays for similar things. That is a price multiple.
 
-There are two ways to use a multiple. The first is the method of comparables. You compare a company's multiple with a benchmark, such as the average or median of its peers, its industry, or its own history. The logic is the law of one price: similar assets should sell at similar prices. The second is the method based on fundamentals. You ask what multiple the company deserves, given its expected cash flows, and that leads straight back to the Gordon model.
+HEART: The everyday version is house hunting. You do not discount a lifetime of rent to decide whether a condo is fairly priced. You check the price per square foot of similar condos in the same building. A price multiple is the stock market's price per square foot.
 
-Divide both sides of the Gordon model by next year's earnings. The justified leading price to earnings ratio equals the dividend payout ratio divided by the required return minus the growth rate. Leading means it is based on next year's expected earnings. A trailing ratio uses the last 12 months of earnings, so its justified value is the leading value times one plus the growth rate.
+LEWIS: A price multiple divides the share price by a per share fundamental, and you compare the result with a benchmark. That might be a market index, the industry, a group of direct peers, or the stock's own history. Comparing with the stock's own past is a time series comparison. Comparing with peers at the same moment is a cross sectional comparison.
 
-Here is an example. The payout ratio is 40 percent, the required return is 10 percent, and growth is 6 percent. 0.40 divided by 0.04 gives a justified leading price to earnings ratio of 10. The justified trailing ratio is 10 times 1.06, which is 10.6. If the stock trades at 14 times next year's earnings, it looks overvalued on fundamentals.
+HEART: Multiples are popular for good reasons. They are easy to calculate, widely published and widely understood. And there is evidence that some of them help predict returns, with low multiples tending to come before higher future returns.
 
-Now the directions. The justified ratio rises when expected growth rises, and falls when the required return rises. The payout ratio is the trap. In the formula, a higher payout raises the multiple only if growth stays the same. But paying out more means retaining less, and since growth equals retention times ROE, growth falls. So the net effect of a higher payout is ambiguous unless the question tells you to hold growth constant.
+LEWIS: The usual complaint is about the denominator. Most published multiples use last year's figure, a trailing or lagging multiple, so they describe where the company has been. The common answer is a leading multiple, also called forward or prospective, which uses next year's forecast instead. The trailing and leading versions of one ratio can be far apart, so the rule is consistency. Pick one version and use it for every company in the comparison.
 
-Next comes the comparables trap. Relative value is not absolute value. A stock trading at 12 times earnings while its peers trade at 18 is cheap relative to its peers. But if the whole industry is overpriced, the cheap stock may still be overvalued in absolute terms. Also check whether a low multiple is simply explained by weaker growth or higher risk.
+HEART: There are two ways to judge a multiple. Multiples based on comparables measure a stock against what the market is paying for similar companies. Multiples based on fundamentals ask what multiple a valuation model says the stock deserves, which does not depend on anyone else's price.
 
-Now each price multiple, with its strengths and its weaknesses. Price to earnings is the most widely used, because earnings drive value. Its weaknesses are that it is meaningless when earnings are zero or negative, that earnings can include one time items that will not recur, and that management's accounting choices can shift earnings. Analysts often strip out the items that will not recur, and for cyclical firms they use normalized earnings, an estimate of earnings at the middle of the business cycle.
+LEWIS: Fundamentals first, because they connect straight to the Gordon model. Take the Gordon equation and divide both sides by next year's earnings. On one side, you get price divided by next year's earnings, the leading price to earnings ratio. On the other, you get the dividend payout ratio divided by the gap between the required return and growth. That is the justified price to earnings ratio. It is justified because it is the multiple the present value of the dividends supports.
 
-Price to book compares the price with book value per share. Book value per share is common shareholders' equity divided by shares outstanding, and common equity is total assets minus total liabilities minus preferred stock. Book value is usually positive even when earnings are negative, and it is more stable than earnings. So price to book works for loss making firms, and for companies whose assets are mostly liquid financial assets. That is why price to book is a standard yardstick for banks, where book value is a meaningful measure of what shareholders own.
+HEART: So three fundamentals drive it. Other things equal, the justified ratio is higher when the payout ratio is higher, when growth is higher and when the required return is lower. A company that beats its peers on all three can deserve a higher multiple.
 
-Its weaknesses are that it ignores intangible assets that never reach the balance sheet, such as human capital, and that book values can drift from market values because of inflation, technology change and accounting choices. Analysts often adjust book value, for example by subtracting goodwill to get tangible book value, or by restating assets at fair value.
+LEWIS: Here is the trap. Other things are rarely equal. Pay out more and you retain less, and since sustainable growth is retention times ROE, growth falls. The higher dividend pushes value up, and the lower growth pushes it down. That tug of war is called the dividend displacement of earnings, and the net effect on value of raising the payout is ambiguous.
 
-Price to sales uses revenue, which is positive even for struggling companies and is harder to manipulate than earnings. Sales are also more stable than earnings, so price to sales suits mature companies, cyclical companies and companies with losses. Its weaknesses are that sales say nothing about costs or profit, so two firms with the same sales but very different margins look alike. Revenue recognition choices can also distort it.
+HEART: Common sense backs that up. If raising the payout always raised the multiple, every company would pay out everything it earns. When a question changes one input, listen for the words other things equal before you answer.
 
-Price to cash flow uses cash flow, which is harder for management to manipulate than earnings and is more stable. It needs a definition of cash flow. The simplest is earnings plus noncash charges, such as depreciation and amortization. Others are cash flow from operations, FCFE and EBITDA, though EBITDA fits enterprise value better. Its weaknesses are that the simple definition ignores working capital and capital spending, that FCFE can be volatile or negative, and that management can still shift operating cash flow, for example by delaying payments to suppliers.
+LEWIS: Risk works through the required return. Picture two otherwise similar grocery chains, one carrying far more debt. The extra debt makes its shares riskier, investors require more, and its justified multiple is lower.
 
-Now enterprise value. Enterprise value is the value of the whole firm to all of its capital providers. It equals the market value of common equity, plus the market value of preferred stock, plus the market value of debt, minus cash and short term investments. You subtract the cash because a buyer of the whole company would get that cash along with it.
+HEART: Putting a justified ratio to work is simple. An actual price to earnings ratio above the justified one says overvalued, and below it says undervalued. But the justified ratio inherits the Gordon model's hair trigger in that gap, so work out a range rather than a single figure.
 
-Here is an example. Equity is worth 800 million dollars, debt is worth 300 million, and cash is 100 million, with no preferred stock. Enterprise value is 800 plus 300 minus 100, which is 1,000 million dollars, or 1 billion. If EBITDA is 125 million dollars, enterprise value to EBITDA is 8 times. The trap is adding the cash instead of subtracting it, which gives 1.2 billion and a multiple of 9.6.
+LEWIS: Now comparables, or comps. The idea rests on the law of one price, which says identical assets should sell for the same price. So similar companies should trade at similar multiples.
 
-Why pair enterprise value with EBITDA? EBITDA is earnings before interest, taxes, depreciation and amortization, so it is measured before anything is paid to lenders. It is a flow to all capital providers, which matches enterprise value. That makes enterprise value to EBITDA useful for comparing companies with very different leverage, and for capital intensive companies with heavy depreciation. EBITDA is also usually positive when net income is negative. The weaknesses are that EBITDA ignores the capital spending and working capital a business needs, so it can overstate the cash truly available, and that the market value of debt can be hard to find.
+HEART: The catch is the word similar. Multiples may not be comparable across companies of very different size, in different industries, or with different growth. A cloud software company and a regional trucking firm should not trade at the same multiple, and a low multiple may simply reflect slower growth or higher risk. Different accounting methods can make multiples hard to compare, especially across countries. The multiples of cyclical companies swing with the economy. A stock can look overvalued against its peers yet undervalued on fundamentals, or the reverse. And cheap relative to peers is not the same as cheap. If a whole industry is overpriced, its cheapest stock can still be overpriced.
 
-Here is the matching rule, a favorite trap. Earnings after interest belong to shareholders, so they pair with price. EBITDA and EBIT come before interest, so they belong to all capital providers and pair with enterprise value. Price to EBITDA, or enterprise value to net income, is a mismatch. Price to sales is the common exception, used widely even though sales come before interest.
+LEWIS: Now each multiple, by what it says and when it misleads. The price to earnings ratio is the share price divided by earnings per share. It says how many dollars investors pay for each dollar of profit, and it is the multiple most quoted in the press.
 
-Last, asset based valuation. Common equity value equals the fair value of the company's assets minus the fair value of its liabilities and any preferred stock. It works best when the assets are mostly tangible and easy to value at market prices, as with financial firms, natural resource companies and firms being liquidated. It works poorly when much of the value is intangible, such as a software platform or a brand, because those assets are hard to value and often missing from the balance sheet. It also struggles during high inflation, when recorded figures drift far from current values.
+HEART: It misleads in three situations. When earnings are negative, the ratio is meaningless, and price to earnings is the multiple most exposed to that problem. When earnings are knocked down for a year by a one time charge, or held down by heavy depreciation, interest or taxes, the ratio balloons and makes the company look expensive. And for cyclical companies, earnings swing so hard that the ratio says more about the stage of the cycle than about value.
 
-Comparing the three families, present value models rest on sound theory but are very sensitive to their inputs. Multiples are simple and tied to market prices, but they give only relative value and fail when the denominator is negative. Asset based models suit firms with tangible assets but miss intangible value.
+LEWIS: The price to sales ratio is the share price divided by sales per share. It says what investors pay for each dollar of revenue. Its strength is stability. Sales are usually positive even when profits are not, and sales swing less than earnings, because operating and financial leverage magnify every change in sales on the way down to earnings. That is why price to sales can suit cyclical companies better than price to earnings.
 
-The rule to keep: the justified leading price to earnings ratio equals the payout ratio divided by the required return minus growth. And enterprise value equals equity plus preferred stock plus debt, minus cash.
+HEART: Its weakness is that sales say nothing about costs. Two retailers with the same sales, one earning healthy margins and one barely breaking even, look alike on price to sales. Revenue is not profit.
+
+LEWIS: The price to book ratio is the share price divided by book value per share, where book value is the accounting value of common equity. It says what investors pay for each dollar of the owners' accounting net worth. Book value is usually positive and steadier than earnings, so this multiple suits companies whose assets are mostly financial and carried near fair value. It is the standard yardstick for banks.
+
+HEART: It misleads when much of the value never reaches the balance sheet, like a software company's code or a consumer brand built over decades. And it misleads when book values are stale, carried at old costs that inflation or new technology have left far behind.
+
+LEWIS: The price to cash flow ratio is the share price divided by cash flow per share, where cash flow can mean operating cash flow or free cash flow. Cash is harder to dress up with accounting choices than earnings are, which is the appeal. The catch is that free cash flow can swing sharply, even below zero, in a year of heavy investment, and analysts define cash flow in different ways, so check the definition before you compare.
+
+HEART: Some industries have their own multiples. An oil producer might be valued per barrel of proven reserves, or a hotel company per room. They work inside the industry and nowhere else.
+
+LEWIS: Now enterprise value multiples. Enterprise value measures the value of the whole company, and the best way to think of it is the cost of buying the whole thing. Picture buying a house where you must take over the seller's mortgage, and the seller leaves a safe full of cash in the basement. Your real cost is the price you pay the seller, plus the mortgage you take on, minus the cash you find.
+
+HEART: So enterprise value is the market value of the common and preferred stock, plus the market value of the debt, minus cash and short term investments. The cash comes off because the buyer gets it along with the company. The trap is adding the cash instead of subtracting it.
+
+LEWIS: The denominator has to match. Enterprise value belongs to every capital provider, lenders and shareholders alike, so it pairs with a measure of earnings available to all of them, before interest is paid. EBITDA is the favorite. Operating income works too, and so does revenue.
+
+HEART: Why bother? Because enterprise value multiples let you compare companies with very different capital structures. Two companies with identical operations, one funded mostly with debt and one entirely with equity, can show very different price to earnings ratios simply because of how they are financed. Their enterprise value to EBITDA ratios look past that. And EBITDA is usually positive even when net income is negative, so the multiple still works where price to earnings fails.
+
+LEWIS: The weaknesses. EBITDA is not cash. It can include noncash revenues and expenses, and it ignores the spending needed to replace worn out equipment. And the market value of debt is often not available. Then you can substitute the market prices of similar bonds, or fall back on book values. But book value can be well off if interest rates or the company's credit have changed since the bonds were issued.
+
+HEART: Reading the multiple works like any other. If peers trade at a higher enterprise value to EBITDA ratio than your company does, your company looks relatively undervalued. And you can work back to the equity. Take the enterprise value a peer multiple implies, subtract the debt and the preferred stock, add back the cash, and what remains is the implied value of the common equity.
+
+LEWIS: Last, asset based valuation. Equity is worth the market or fair value of the assets minus the market or fair value of the liabilities, and minus any preferred stock. Market values are hard to find directly, so the analyst starts with the balance sheet and adjusts, because book values rarely equal market values. Assets might be valued at depreciated cost, at depreciated cost adjusted for inflation, or at what it would cost to replace them.
+
+HEART: It works best in three situations. When the company holds mostly tangible short term assets. When its assets have ready market prices, as at financial companies, or natural resource companies holding oil or timber. And when the company is being liquidated, because then the parts really are all that is left. Private companies are often valued this way, and as more public companies report assets at fair value, the method gets more useful for them too.
+
+LEWIS: It struggles when intangibles matter. Picture a small design studio. Its balance sheet is a few laptops and a lease. Its real value is the founder's talent and her client relationships, and if she walked away, much of that value would go with her. For a company like that, the asset based value is best treated as a floor, a minimum, and backed up with a forward looking method such as a discounted cash flow model. It also struggles during hyperinflation, when asset values are hard to pin down.
+
+HEART: Pull the three families together. Present value models rest on sound theory and are widely accepted, but every input must be forecast and the answer is very sensitive to them. Multiples based on fundamentals share that strength and that sensitivity.
+
+LEWIS: Multiples based on comparables are widely used, readily available and some help predict returns, and enterprise value to EBITDA works across capital structures and through negative earnings. Their weaknesses are the traps from this module: backward looking data, peers that are not truly comparable, cyclical swings, accounting differences and negative denominators.
+
+HEART: And asset based models give a floor and are most reliable for tangible, marketable or liquidating assets, but market values are hard to find, differ from book values, miss intangibles and get murky in hyperinflation.
+
+LEWIS: The takeaway. A multiple says what the market pays for each unit of a fundamental. The justified price to earnings ratio is the payout ratio over the gap between the required return and growth. Enterprise value is the cost of buying the whole company, and it pairs with earnings before interest. And asset based value is a floor, most trustworthy when the assets could actually be sold.
 
 ## Recall check
 
-Q: You own 2 percent of a company's shares before it pays a 10 percent stock dividend. What fraction of the company do you own afterward, and what happens to the total value of your holding?
+LEWIS Q: A company does a two for one stock split. What happens to the number of shares, the share price, a shareholder's wealth and the price to earnings ratio?
 
-Answer: You still own 2 percent, and the total value of your holding is unchanged. Every holder receives the same percentage of new shares, and no cash leaves the company. The share price falls so that the larger number of shares has the same total value.
+HEART: Answer. The shares double, the price halves, and wealth and the price to earnings ratio are unchanged. Here is why. No cash leaves the company, so the same total value is spread over twice as many shares. Earnings per share halve too, so price and earnings per share fall together and their ratio holds.
 
-Q: A stock goes ex dividend on a Wednesday, and an investor buys the shares that Wednesday morning. Does she receive the upcoming dividend?
+HEART Q: A company returns the same total cash either as a cash dividend or as a buyback at the market price. What happens to the share price and to leverage under each, and is either route better for shareholders' wealth?
 
-Answer: No. The ex dividend date is the first day the share trades without the right to the coming dividend, so the seller keeps it. To receive the dividend, she needed to buy on Tuesday or earlier.
+LEWIS: Answer. The dividend lowers the price by about the dividend per share while the buyback leaves it unchanged, leverage rises under both, and wealth is the same either way before taxes and signals. Here is why. With a dividend, every owner gets cash and holds a share worth that much less. With a buyback, sellers get full price in cash, and the owners who stay hold a bigger slice of a smaller company at the same price. Either way, cash and equity fall while debt stays put.
 
-Q: A company just paid a dividend of 4 dollars. Dividends are expected to grow at 5 percent forever, and the required return is 10 percent. What is the share worth?
+LEWIS Q: Which date decides whether a buyer receives a dividend, and what happens if she buys on that date?
 
-Answer: 84 dollars. Next year's dividend is 4 times 1.05, which is 4.20, and 4.20 divided by 0.05 is 84. Dividing the 4 dollars already paid by 0.05 gives 80, the classic wrong answer.
+HEART: Answer. The ex dividend date, and if she buys on it, the dividend goes to the seller. Here is why. Only owners on the books by the record date are paid, and a purchase reaches the books only when it settles. The ex date is the first day a purchase would settle too late, so the last day to buy and still get the dividend falls before the record date, not on it.
 
-Q: A profitable company has never paid a dividend, and an investor is considering a controlling stake. Which approach is most likely appropriate: a dividend discount model, the Gordon growth model, or a free cash flow to equity model?
+HEART Q: Your model says a stock is undervalued, but raising your required return very slightly would make your value equal the market price. Should that make you more or less willing to act?
 
-Answer: A free cash flow to equity model. With no dividends, a dividend model has nothing to discount, and the Gordon model is itself a dividend model. A controlling owner can also set the payout, so the cash the company could pay, its FCFE, is the better basis for value.
+LEWIS: Answer. Less willing. Here is why. The whole opportunity rests on one input being right. The market price already reflects many investors' views, so betting against it needs strong confidence in the model and in every sensitive input, and a gap that vanishes with a small change in assumptions is too thin.
 
-Q: You are comparing two firms in the same industry, one with no debt and one with heavy debt. Which multiple most likely gives the fairer comparison: price to earnings, or enterprise value to EBITDA?
+LEWIS Q: In the Gordon growth model, the gap between the required return and the growth rate narrows. What happens to the value, and why report a range?
 
-Answer: Enterprise value to EBITDA. EBITDA is measured before interest, and enterprise value includes both debt and equity, so the multiple is not distorted by how each firm is financed. Earnings come after interest, so leverage affects price to earnings directly.
+HEART: Answer. The value rises, often sharply, so a careful analyst reports values across a range of inputs. Here is why. The model divides next year's dividend by that gap, so a smaller gap means a larger value. Because small input changes produce big value changes, a single number would claim far more precision than the model has.
 
-Q: A company pays out 60 percent of its earnings, its required return is 10 percent, and its dividends are expected to grow at 7 percent. What is its justified leading price to earnings ratio?
+HEART Q: A company raises its dividend payout ratio while its ROE stays the same. What happens to its sustainable growth rate?
 
-Answer: 20. Divide the payout ratio, 0.60, by the required return minus growth, which is 0.03. The trailing version would be 20 times 1.07, or 21.4.
+LEWIS: Answer. It falls. Here is why. Sustainable growth is the retention rate times ROE, and the retention rate is one minus the payout ratio. Paying out more means keeping less in the business, so less capital earns that ROE, and equity, earnings and dividends grow more slowly.
 
-## Recap
+LEWIS Q: A young company is in its high growth phase and is expected to slow over several years before settling into steady growth. Which dividend discount model fits best?
 
-Cash dividends and buybacks both lower cash and equity and raise leverage ratios, and at the market price they leave shareholders equally wealthy, before taxes and signals. Stock dividends, splits and reverse splits change the share count and the price per share, but not total value, ownership fractions or total equity. The dates run declaration, ex dividend, holder of record, payment, and a buyer on or after the ex dividend date does not receive the dividend.
+HEART: Answer. A three stage model. Here is why. Its path has three phases: high growth, a transition as growth slows, and maturity. The Gordon model assumes one constant rate forever, and a two stage model jumps straight from fast growth to the long run rate, skipping the transition.
 
-The Gordon model value equals next year's dividend divided by the required return minus growth, it needs the required return above growth, and it is very sensitive to that gap. Sustainable growth equals the retention rate times ROE. In a multistage model, the terminal value at year n uses the year n plus 1 dividend and is discounted n years. The justified leading price to earnings ratio equals the payout ratio divided by the required return minus growth. Enterprise value equals equity plus preferred plus debt, minus cash, and it pairs with EBITDA, while price pairs with earnings.
+HEART Q: A profitable company pays no dividend and has given no hint of when it will start. Which present value approach fits, and at what rate do you discount?
+
+LEWIS: Answer. Free cash flow to equity, discounted at the required return on equity. Here is why. With no dividends to forecast, a dividend model has nothing reliable to discount, while FCFE measures the cash the company could pay its shareholders. That cash is what is left after lenders and needed investment, so it is discounted at the shareholders' own required return.
+
+LEWIS Q: With everything else held constant, a higher payout ratio raises the justified price to earnings ratio. Why is the real effect of raising the payout ambiguous?
+
+HEART: Answer. Because a higher payout lowers growth. Here is why. The justified ratio is the payout ratio over the gap between the required return and growth. Paying out more raises the top, but it cuts retention, so with ROE unchanged growth falls and the gap underneath widens. That tug of war is the dividend displacement of earnings.
+
+HEART Q: A steelmaker is near the bottom of the business cycle and its earnings are barely positive. Which is more reliable for valuing it, price to earnings or price to sales?
+
+LEWIS: Answer. Price to sales. Here is why. Depressed earnings make the price to earnings ratio enormous or meaningless, even if the company is sound over a full cycle. Sales swing much less than earnings, because operating and financial leverage magnify every change in sales on the way down to the bottom line.
+
+LEWIS Q: Why does enterprise value subtract cash, and why does it pair with EBITDA rather than net income?
+
+HEART: Answer. It subtracts cash because a buyer of the whole company gets that cash, and it pairs with EBITDA because both belong to all capital providers. Here is why. Enterprise value is the cost of acquiring the company: its equity, plus the debt the buyer takes on, minus the cash the buyer receives. EBITDA comes before interest, so it is earned for lenders and shareholders together, while net income is what is left for shareholders alone.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: Value above price, undervalued. Price above value, overvalued. Act only on a gap that is big, trusted, explained and likely to shrink in time.
+
+HEART: The three families: flows, peers and parts. Present value models value the flows. Multiples compare with peers, or with the multiple the fundamentals justify. Asset based models add up the parts.
+
+LEWIS: Splits, reverse splits and stock dividends are two tens for a twenty. More or fewer pieces of paper, the same money. Only the per share numbers move.
+
+HEART: Cash dividends and buybacks: cash out, leverage up, wealth unchanged. The dividend lowers the price. The buyback lowers the share count.
+
+LEWIS: Dividend dates in order: decide, exit, roll call, pay. Declaration, ex dividend, holder of record, payment. To get the dividend, buy before the ex date. The record date is too late.
+
+HEART: Gordon: for the same next dividend, halve the gap and you double the value. That gap is a hair trigger, so report a range.
+
+LEWIS: Growth is the share you keep times the return it earns. Sustainable growth is the retention rate times ROE.
+
+HEART: Model choice: Gordon for the grown ups, two stages for one change of pace, three stages for the young, and free cash flow to equity, discounted at the equity rate, when dividends cannot be forecast, and price multiples when earnings growth cannot be either.
+
+LEWIS: The justified price to earnings ratio is payout over the gap. Pay out more and you grow less, so the net effect is a tug of war.
+
+HEART: Multiples: earnings for steady profits, sales for cyclicals and loss makers, book for balance sheet businesses like banks, and cash flow when the accounting is in doubt.
+
+LEWIS: Enterprise value: pay for the house, take on the mortgage, and knock off the cash you find in the safe. It pairs with earnings before interest. And asset based value is a floor.
+
+HEART: Now, how you would say the big ideas to a senior leader.
+
+LEWIS: On valuation: what a share is worth is a judgment built on forecasts, so we act only when our value and the market price are far apart and we can explain why the market is wrong. The jargon is intrinsic value, undervalued and overvalued.
+
+HEART: On payouts: a dividend or a buyback hands owners cash they already owned. It shrinks the balance sheet and raises leverage, but it does not create value, and neither does a split. The jargon is cash dividends, share repurchases, stock splits, and liquidity and leverage ratios.
+
+LEWIS: On dividend models: a share is worth the cash it will pay over time, and the answer swings hard with the growth we assume and the return investors demand. The jargon is the dividend discount model, the Gordon growth model and free cash flow to equity.
+
+HEART: On multiples: comparing what the market pays for similar companies is quick and grounded in real prices, but it only tells us whether something is cheap next to its peers. The jargon is price multiples, comparables, justified multiples and enterprise value to EBITDA.
+
+LEWIS: And on asset values: what the assets would fetch sets a floor, but it misses the brand, the people and the relationships that often drive most of the value. The jargon is asset based valuation and intangible assets.
