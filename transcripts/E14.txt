@@ -1,175 +1,341 @@
-## The big picture
-
-This episode finishes the income statement and starts the balance sheet. One question ties it together. Which numbers tell you about the future, and how do you compare them fairly across companies of very different sizes?
-
-Module 28.3 sorts income into pieces that will repeat and pieces that will not. Discontinued operations, unusual items and accounting changes each get a specific treatment, and exam questions often ask where an item goes, whether it is shown before or after tax, and whether prior years are restated. Module 28.4 is earnings per share, or EPS, one of the most quoted numbers in equity analysis. Module 28.5 turns the income statement into percentages of revenue so you can compare margins.
-
-Then the balance sheet. Module 29.1 covers the assets whose values depend most on accounting rules: intangible assets, goodwill and financial instruments, plus a short look at noncurrent liabilities. Module 29.2 turns the balance sheet into percentages of total assets and adds the liquidity and solvency ratios.
+LEWIS: Reading 28 finishes with income that will not repeat, accounting changes, earnings per share and dilution, and common size income statements. Reading 29 covers intangible assets and goodwill, how financial assets and long term liabilities are measured, and common size balance sheets with the liquidity and solvency ratios.
 
 ## Module 28.3, Nonrecurring Items
 
-Analysts value a company on the earnings it can keep producing. A gain from selling a factory happened this year, but it says little about next year. So the standards separate certain items, and you decide how much weight to give them. Three categories matter: discontinued operations, unusual or infrequent items, and accounting changes.
+HEART: An analyst values a company on the profit it can keep earning. So the first job with any income statement is sorting the parts that will come back next year from the parts that will not. Picture a trucking company whose profit jumped this year because it sold an old depot for far more than it paid decades ago. Nobody should expect that depot sale again next year.
 
-First, discontinued operations. A discontinued operation is a part of the company that has been sold or is classified as held for sale, and that can be cleanly separated from the rest of the business, operationally and financially. Think of a major business line or a whole geographic region. Its results are pulled out of the normal revenue and expense lines and reported on a separate line, net of tax, below income from continuing operations. Both International Financial Reporting Standards, or IFRS, and U.S. generally accepted accounting principles, or GAAP, work this way. Because it will not be there next year, analysts leave it out of forecasts.
+LEWIS: The standards help by putting certain items in special places. The first group is unusual or infrequent items. These are events that are either unusual in nature or infrequent in occurrence, and material, meaning big enough to change how a reader of the statements sees the company.
 
-Second, unusual or infrequent items. These include gains and losses on the sale of assets, impairment write downs, restructuring charges and litigation settlements. Here is the key contrast. These items stay inside income from continuing operations, and they are reported before tax, not net of tax. Material items like these must be shown or disclosed separately. Neither IFRS nor U.S. GAAP allows a separate category for extraordinary items anymore.
+HEART: Typical examples. A gain or loss from selling assets or part of the business, when selling those things is not what the company normally does. Impairments, write offs and write downs, where an asset is marked down because it is worth less than its carrying value. And restructuring costs, like the severance and lease costs of shutting a call center.
 
-The analyst's job is to judge whether an unusual item is really unusual. A company that books a restructuring charge every year is telling you restructuring is a normal cost of its business. Some analysts average such charges over several years and treat the average as a recurring expense.
+LEWIS: Here is the placement to lock in. Unusual or infrequent items stay inside income from continuing operations, and they are reported before tax. They may appear on a line of their own, but they sit above the tax line, which also puts them above the income from continuing operations total, and they are taxed along with everything else.
 
-Third, accounting changes, where the treatment is the whole point. A change in accounting policy, such as a voluntary switch in inventory method, is applied retrospectively. That means prior years in the report are restated as if the new policy had always applied, so the years stay comparable. A new accounting standard follows its own transition rules, which are often retrospective too.
+HEART: The analyst's job is to decide whether unusual really means unusual. Picture a friend whose car breaks down unexpectedly every single winter. After a few winters it is not a surprise anymore. Some companies are like that, with an unusual loss every year or every few years. When that happens, the honest forecast treats those charges as a normal cost of doing business rather than leaving them out.
 
-A change in accounting estimate is different. A new useful life, a new salvage value, or a new estimate of bad debts is applied prospectively. Only the current and future periods change, and nothing is restated. Finally, the correction of an error in a prior period is handled by restating those prior periods.
+LEWIS: The second group is discontinued operations. A discontinued operation is a part of the business that management has decided to exit. The exit may still be ahead at year end, or it may have happened during the year, after the unit had already produced some profit or loss.
 
-Here is the trap. A change in depreciation method sounds like a policy change, but both IFRS and U.S. GAAP treat it as a change in estimate, so it is applied prospectively. Also, estimate changes are a quiet way to manage earnings, because stretching useful lives lowers depreciation and lifts profit with no change in cash. Error corrections are a warning sign about reporting quality and internal controls.
+HEART: Picture a packaged food company that decides to sell its pet food division. For that division to count as a discontinued operation, it has to be physically and operationally distinct from the rest of the company. Separate assets, separate operations, and separate investing and financing activities. A product line that shares the same factories, sales force and financing as everything else would not qualify.
 
-A quick example. A company earns 100 million dollars pretax from continuing operations, after a 10 million dollar restructuring charge. It also reports 15 million dollars of after tax income from a division it has agreed to sell. That 15 million dollars drops out of your forecast entirely. If you judge the restructuring charge to be truly one time, you might add it back and start from 110 million dollars of recurring pretax income.
+LEWIS: Two dates matter. The measurement date is the date the company adopts a formal plan to dispose of the operation. The phaseout period runs from the measurement date to the day the operation is actually disposed of.
 
-Remember the rule. Discontinued operations go below continuing operations, net of tax. Unusual or infrequent items stay in continuing operations, before tax. Policy changes and error corrections are retrospective, and changes in estimates are prospective.
+HEART: And here is a lopsided rule worth knowing. The moment the plan is adopted, which is the measurement date, the company books the operating losses it expects while winding the unit down, plus any loss it expects on the sale. An expected gain on the sale, though, stays off the books until the sale has gone through. Bad news is booked when it is foreseen. Good news waits until it happens.
+
+LEWIS: Where does it all go? The income or loss from discontinued operations is reported on its own line, net of tax, below income from continuing operations. And any prior year income statements shown alongside are restated to pull the discontinued results out of them, so the years still compare.
+
+HEART: Set that beside unusual items, the favorite exam contrast. Unusual items ride inside continuing operations and are taxed with everything else. Discontinued operations sit below the tax line, so they carry their own tax.
+
+LEWIS: For analysis, discontinued operations are the easy case. They do not affect net income from continuing operations, and the business will not be there next year, so they come out of the earnings forecast. But the decision itself carries information about future cash flows: what the company will no longer earn, and what cash it may soon have to put to work.
+
+HEART: The third group is accounting changes, and there are three kinds: changes in accounting policies, changes in accounting estimates, and prior period adjustments. Each gets one of two treatments, so learn the treatments first.
+
+LEWIS: Picture a running app that changes how it measures distance. One option is to recalculate every run you have ever logged with the new method. Now your old runs and new runs compare fairly. That is retrospective application. Prior period statements shown in the current report are restated as if the new method had always applied. The other option is to apply the new method only from today forward and leave the old runs alone. That is prospective application. Nothing in the past is restated.
+
+HEART: A change in accounting policy can come from a standard setter issuing a new standard, or from the company itself switching to a different acceptable method, such as moving from one accepted inventory cost flow method to another. Unless it is impractical, a policy change is applied retrospectively. One variation: when the current revenue recognition standard arrived, companies were allowed a modified retrospective approach. Prior periods are not restated, but the opening balances of the affected accounts are adjusted for the cumulative effect of the change. One catch up adjustment at the start, instead of rewriting history.
+
+LEWIS: A change in accounting estimate is different. It happens when management revises a judgment, typically because it has learned something new. Picture an airline that learns its jets will fly safely for years longer than first expected, so it extends their useful lives. That change is applied prospectively. Only the current and future periods change, and nothing is restated.
+
+HEART: Estimate changes usually do not touch cash. Extending the jets' lives lowers depreciation and lifts profit, but not one more dollar comes in. So the analyst's question is how the change affects future operating results, and whether the new judgment is believable.
+
+LEWIS: One related point. A change in depreciation method sounds like a policy change, but both IFRS and US GAAP handle it like a change in estimate, so it is applied prospectively.
+
+HEART: The third kind is a prior period adjustment, the correction of an error in earlier statements, including a move from a method that was never acceptable to one that is. That one is retrospective. The prior periods are restated, and the company must disclose what the error was and how it affected net income.
+
+LEWIS: Prior period adjustments usually do not affect cash either. But they deserve a hard look, because an error that slipped through can signal weak internal controls. If the books were wrong once, ask what else might be.
+
+HEART: The trap is the sorting. Policy changes and error corrections look backward and restate. Estimate changes look forward and restate nothing.
+
+LEWIS: Last, two things that can move the numbers even though companies are not required to disclose their effect. A change in scope means an acquisition has changed the size of the combined company. When a grocery chain buys a rival halfway through the year, this year's totals against last year's tell you more about the deal than about the business underneath.
+
+HEART: And exchange rates. A company that sells abroad, buys abroad or owns foreign subsidiaries has to translate those results into its reporting currency. When the home currency strengthens, the same foreign sales translate into fewer units of home currency, and reported revenue can fall with no change in the business. The detail of both topics waits for Level II.
+
+LEWIS: The takeaway. Unusual or infrequent items stay in continuing operations, before tax. Discontinued operations go below, net of tax, with losses booked when foreseen and gains only when realized. Policy changes and error corrections are retrospective, and estimate changes are prospective.
 
 ## Module 28.4, Earnings Per Share
 
-Earnings per share is the profit available to common shareholders divided by the number of common shares. Two versions matter. Basic EPS uses the shares actually outstanding. Diluted EPS assumes that every security that could become common stock does so, whenever that would lower EPS.
+HEART: Earnings per share, EPS, is the profit belonging to each common share, and it is one of the most quoted numbers for public companies. Two framing facts. EPS is reported only for common stock, also called ordinary shares. And companies that are not publicly traded are not required to report it.
 
-A company with a simple capital structure has no potentially dilutive securities, such as convertible bonds, convertible preferred stock, options or warrants. Its diluted EPS simply equals its basic EPS. A company with a complex capital structure has at least one of those securities, so it must report both basic and diluted EPS, and the two can differ.
+LEWIS: Picture the company's profit as a pizza and each common share as a slice. EPS is the size of one slice. Everything in this module comes down to two questions. How big is the pizza that belongs to common shareholders? And how many slices is it cut into?
 
-Here is basic EPS, slowly. Basic EPS equals net income minus preferred dividends, all divided by the weighted average number of common shares outstanding during the period. Preferred dividends are subtracted because that money belongs to preferred shareholders, not common shareholders. Common dividends are never subtracted, and subtracting them is a classic wrong answer.
+HEART: Start with capital structure. A simple capital structure contains no potentially dilutive securities. Just common stock, plus any debt or preferred stock that can never become common stock. A complex capital structure contains securities that could become common shares, such as employee stock options, warrants, convertible bonds or convertible preferred stock. A simple structure reports only basic EPS. A complex one must report both basic and diluted EPS.
 
-The denominator has two rules. First, shares issued or repurchased during the year are weighted by the fraction of the year they were outstanding. Second, stock splits and stock dividends are treated as if they happened at the very start of the period, and prior years shown for comparison are restated too, because neither one brings in new money.
+LEWIS: Basic EPS first. In words, it is net income minus preferred dividends, divided by the weighted average number of common shares outstanding.
 
-Example. A company starts the year with 1 million shares. On July 1 it issues 200,000 new shares. On December 1 it does a two for one stock split. Net income is 2.4 million dollars and preferred dividends are 200,000 dollars. Before the split, the weighted average is 1 million plus 200,000 times one half, or 1.1 million shares.
+HEART: Take the top of that fraction. Preferred shareholders stand in line ahead of common shareholders. Their dividends for the year come first, so that money is not part of the common shareholders' pizza. Net income minus preferred dividends is called the income available to common shareholders.
 
-The split doubles everything retroactively, so the weighted average becomes 2.2 million shares. The numerator is 2.4 million minus 200,000, which is 2.2 million dollars. Basic EPS is 2.2 million dollars divided by 2.2 million shares, or exactly 1 dollar.
+LEWIS: And common dividends are never subtracted. That is the classic wrong answer. Common dividends are paid out of income that already belongs to common shareholders. A dividend just hands them part of the slice they already own. It does not shrink the slice.
 
-Look at the traps in that example. If you forget the preferred dividends, you get about 1.09 dollars. If you use the year end count of 2.4 million shares instead of the weighted average, you get about 92 cents. And if you weight the split as if it only counted from December 1, your share count is far too low and your EPS is far too high.
+HEART: Now the bottom, the weighted average number of shares. Picture a gym working out its average membership for the year. Someone who joins on the first day of the final quarter was a member for a quarter of the year, so counts as a quarter of a member. Shares work the same way. Each share counts for the fraction of the year it was outstanding.
 
-Now diluted EPS. There are two methods, one for convertible securities and one for options.
+LEWIS: The rules follow from that. Newly issued shares count from the date they are issued, including shares issued to pay for an asset. Shares the company buys back drop out from the date of the buyback. Strictly, the weighting runs on days, but exam questions usually count in months.
 
-The if converted method handles convertible preferred stock and convertible bonds. Assume conversion at the start of the year, or on the issue date if the security was issued during the year. For convertible preferred stock, the company would no longer pay those preferred dividends, so you add them back to the numerator, and you add the new common shares to the denominator. For convertible bonds, the company would no longer pay interest, so you add back the interest after tax, because interest was tax deductible. After tax interest equals the interest expense times one minus the tax rate. Then you add the new shares to the denominator.
+HEART: Now splits and stock dividends, the heavily tested part. In a stock split, every existing share is swapped for a larger number of new ones. In a stock dividend, the company pays its shareholders in extra shares instead of cash, in proportion to what each already holds. For the share count, the two are interchangeable. A stock dividend of one extra share for every share held lands exactly where a two for one split does.
 
-Example. A company has net income of 4 million dollars, no preferred stock, and 2 million shares, so basic EPS is 2 dollars. It also has convertible bonds with 1 million dollars of annual interest expense, its tax rate is 25 percent, and the bonds convert into 500,000 shares. The after tax interest is 1 million times 0.75, or 750,000 dollars. Diluted EPS is 4.75 million dollars divided by 2.5 million shares, or 1.90 dollars.
+LEWIS: And here is the key. Neither one brings in any money or changes anyone's percentage of ownership. Back to the pizza. A split cuts the same pizza into more slices. Each owner has more slices, but the same share of the pizza.
 
-Now convertible preferred. Suppose instead the company earns 5 million dollars and pays 1 million dollars of dividends on convertible preferred stock. Basic EPS is still 5 million minus 1 million, divided by 2 million shares, or 2 dollars. If the preferred converts into 1 million common shares, you add back the 1 million dollars of preferred dividends, so the numerator is the full 5 million dollars, and the denominator is 3 million shares. Diluted EPS is about 1.67 dollars.
+HEART: So a split or stock dividend is applied retroactively. Every share outstanding before the event is restated as if the split had happened at the very start of the year, no matter when during the year it actually happened. Prior years' share counts shown for comparison are restated too. Otherwise EPS would appear to collapse in the year of a split, for a change that leaves the business exactly as it was.
 
-The treasury stock method handles options and warrants. Assume the holders exercise and pay the exercise price, and the company uses that cash to buy back its own shares at the average market price for the period. The net new shares are the shares issued minus the shares bought back. The numerator does not change, because options pay no interest or dividends.
+LEWIS: Two traps. First, a split late in the year still applies to the whole year for the shares that existed before it. Do not weight it only by the months after the split. Second, shares issued or bought back after the split date are not adjusted for it. They were already new shares. The split only recuts the slices that existed before it.
 
-Example. There are options on 100,000 shares with an exercise price of 20 dollars, and the average market price during the year was 25 dollars. Exercise brings in 2 million dollars, which buys back 80,000 shares at 25 dollars each. The net new shares are 100,000 minus 80,000, or 20,000.
+HEART: Now diluted EPS. A dilutive security is one that would lower EPS if it were converted or exercised. An antidilutive security is one that would raise EPS. Diluted EPS shows what EPS would have been if every dilutive security had become common stock.
 
-A shortcut gives the same answer: the number of option shares times the gap between the average price and the exercise price, all divided by the average price. That is 100,000 times 5, divided by 25, or 20,000.
+LEWIS: Why would a security ever raise EPS? More shares sounds like it can only shrink the slices.
 
-Now go back to the company with 4 million dollars of net income and 2 million shares. If these options were its only dilutive security, diluted EPS would be 4 million dollars divided by 2.02 million shares, or about 1.98 dollars.
+HEART: Because conversion changes the top as well as the bottom. Picture a class with an average test score. A new student joins. If the new student's score is below the class average, the average falls. If it is above, the average rises. Every potentially dilutive security is a new student. It brings some earnings to the top, money the company would no longer have to pay out, and it brings new shares to the bottom.
 
-Now the antidilution test. A security is antidilutive if including it would raise EPS, and antidilutive securities are left out. That is why diluted EPS can never be higher than basic EPS. For a convertible, a quick check is to divide what it adds to the numerator by the shares it adds to the denominator. If that amount is below basic EPS, the security is dilutive. If it is above basic EPS, it is antidilutive.
+LEWIS: So the test is simple. Ask how much earnings the security brings for each new share it creates, and compare that with basic EPS. If it brings less per new share than basic EPS, it drags the average down, so it is dilutive and it goes in. If it brings more per new share than basic EPS, it would pull the average up, so it is antidilutive and it stays out.
 
-In the bond example, 750,000 dollars divided by 500,000 shares is 1.50 dollars, below the basic EPS of 2 dollars, so the bonds are dilutive. If those same bonds converted into only 250,000 shares, the figure would be 3 dollars, above 2 dollars. Including them would push EPS up to about 2.11 dollars, so you leave them out and diluted EPS stays at 2 dollars.
+HEART: Each security is tested on its own. And because the antidilutive ones are always left out, diluted EPS can never be higher than basic EPS. If an answer shows diluted EPS above basic EPS, something antidilutive was let in.
 
-For options, the test is simpler. Options are dilutive only when the average market price is above the exercise price, and otherwise they are left out.
+LEWIS: Convertible securities are handled with the if converted method. Assume conversion at the start of the year, whether or not the holders were actually allowed to convert during the year. If the security was issued partway through the year, count its new shares only for the part of the year it was outstanding.
 
-Three traps to finish. First, use the average market price for the period, not the year end price. Second, add back interest after tax, not before. Third, leave antidilutive securities out. One more point: IFRS does not use the name treasury stock method, but its approach reaches the same answer.
+HEART: Convertible preferred stock first. If it converted, the company would stop paying those preferred dividends. So they no longer come out of income available to common, which means you add them back to the top. And you add the new common shares to the bottom.
 
-Here is the core rule once more. Basic EPS equals net income minus preferred dividends, divided by the weighted average number of common shares. Diluted EPS adds back what conversion would save, adds the shares conversion would create, and includes only the securities that lower EPS.
+LEWIS: So for convertible preferred, the earnings it brings per new share is its preferred dividend spread over the new shares it creates. Picture preferred stock that pays a generous dividend but swaps into only a few common shares. Each new share arrives carrying a lot of dividend with it, likely more than basic EPS, so it is likely antidilutive. Preferred with a small dividend that swaps into many shares brings little per new share, so it is likely dilutive.
+
+HEART: And if convertible preferred turns out to be antidilutive, nothing changes. Its dividends stay subtracted, exactly as in basic EPS.
+
+LEWIS: Convertible bonds next. If the bonds converted, the company would stop paying the interest. But interest is tax deductible, so the company would also lose that tax saving. So you add back the interest after tax, which is the interest times one minus the tax rate, and you add the new shares to the bottom.
+
+HEART: That is the trap. For bonds, add back the after tax interest, never the full interest. And there is no tax adjustment for preferred dividends, because preferred dividends were never tax deductible in the first place. They come out of profit after tax.
+
+LEWIS: Options and warrants work differently. They pay no interest and no dividends, so there is nothing to add to the top. They only add shares. That means they are dilutive whenever they add any net new shares at all, and that happens only when the exercise price is below the average market price for the year.
+
+HEART: That is where the treasury stock method comes in. Assume the option holders exercise and pay the exercise price. Then assume the company takes that cash and buys back its own shares in the market at the average market price for the year. The net new shares are the shares issued on exercise minus the shares bought back.
+
+LEWIS: Why assume a buyback?
+
+HEART: Because exercise brings the company real cash, and ignoring that cash would overstate the dilution. And here is the intuition for why only part of the options count. Split the option shares into two piles. One pile is shares the exercise cash effectively paid for at the full market price. Selling shares at a fair price takes nothing from existing owners. The other pile is shares handed over for nothing, because the holders paid less than the shares were worth. Only that free pile dilutes.
+
+LEWIS: Picture an employee whose options let her buy shares below where the stock has been trading. Her cash could buy back some of those shares, but not all of them. The shortfall is the dilution.
+
+HEART: Which gives a relationship in words. The fraction of the option shares that ends up as net new shares equals the gap between the average market price and the exercise price, divided by the average market price.
+
+LEWIS: So the directions. A higher average share price, with the exercise price unchanged, means more net new shares and more dilution. If the average market price is below the exercise price, the exercise cash would buy back more shares than the options created, so the share count would fall and EPS would rise. Those options are antidilutive and are left out. The trap here is the price. The right one is the average market price for the year, not the year end price, because EPS covers the whole year, so the assumed buyback is priced at the year's average.
+
+HEART: The takeaway. Basic EPS is income available to common over the weighted average shares, with splits and stock dividends rewound to the start of the year. Diluted EPS adds back what conversion would save and adds the new shares, but only for securities that bring less earnings per new share than basic EPS. Options dilute only when they are in the money on average. Antidilutive securities stay out, so diluted EPS never tops basic.
 
 ## Module 28.5, Ratios and Common-Size Income Statements
 
-A company with 10 billion dollars of revenue and one with 100 million dollars cannot be compared line by line. Common size analysis fixes that. On a common size income statement, every line is divided by revenue, so each becomes a percentage of sales. This is vertical common size analysis, and it lets you compare a company with its rivals and with its own past.
+LEWIS: Picture a sandwich chain that has doubled its sales over five years. Comparing this year's costs with five years ago in dollars tells you almost nothing, because everything is bigger. A vertical common size income statement fixes that by expressing every line as a percentage of revenue. Size drops out, and what is left is the shape of the business.
 
-The key ratios here are margins. Gross profit margin equals gross profit divided by revenue, where gross profit is revenue minus cost of goods sold. Operating profit margin equals operating profit divided by revenue. Pretax margin equals income before tax divided by revenue. Net profit margin equals net income divided by revenue. Each one captures one more layer of cost.
+HEART: That allows two kinds of comparison. Time series analysis compares a company with its own past. Cross sectional analysis compares it with other companies over the same period. If the sandwich chain's ingredient costs have crept up as a share of sales year after year, the common size statement shows it plainly, while the raw dollars hide it inside the growth.
 
-Example. Revenue is 1,000 dollars and cost of goods sold is 600 dollars, so gross profit is 400 dollars and the gross margin is 40 percent. Operating expenses are 250 dollars, so operating profit is 150 dollars and the operating margin is 15 percent. Interest expense is 50 dollars, so pretax income is 100 dollars and the pretax margin is 10 percent. Tax is 25 dollars, so net income is 75 dollars and the net profit margin is 7.5 percent.
+LEWIS: Common size statements also reveal strategy. Picture a discount grocer and a premium grocer of similar size. The discount grocer's cost of goods sold eats a much bigger share of each sales dollar, so its gross margin is thin, but it runs bare bones stores. The premium grocer keeps much more of each sales dollar after the cost of its goods, but spends far more of it on staff, displays and prime locations. Side by side, the percentages show two different business models.
 
-Now read the margins like an analyst. Gross margin reflects pricing power and production costs. The gap between gross margin and operating margin reflects overhead, such as selling, general and administrative expenses and research spending. The gap between operating margin and pretax margin mostly reflects financing, because interest sits in between. The gap between pretax and net margins mostly reflects taxes. So if gross margin is stable while operating margin falls, the problem is overhead, not pricing.
+HEART: One line breaks the pattern. Income tax expense is more meaningful as a percentage of pretax income, not revenue, because tax is charged on profit, not on sales. That ratio is the effective tax rate. Tax as a share of revenue mixes the tax rate together with how profitable the company is, so on its own it tells you very little.
 
-Here is the trap. Tax divided by revenue, 2.5 percent in the example, tells you little. Analysts look instead at income tax expense divided by pretax income, which is the effective tax rate. In the example that is 25 dollars divided by 100 dollars, or 25 percent.
+LEWIS: Now the ratios. Margin ratios are quick profitability checks, each one a profit figure divided by revenue. Gross profit margin is gross profit, which is revenue minus cost of goods sold, divided by revenue. Net profit margin is net income divided by revenue, the profit left after every expense. In fact, any subtotal on the income statement can become a margin. Operating profit divided by revenue is the operating profit margin. Pretax income divided by revenue is the pretax margin.
 
-A second trap: reported margins include nonrecurring items, so one large gain or charge can distort them. Analysts often adjust margins for unusual items and discontinued operations, which links back to Module 28.3. The rule to keep: on a common size income statement, divide every line by revenue, and the four margins are gross, operating, pretax and net profit, each divided by revenue.
+HEART: How does a company raise its gross margin? Two ways. Charge higher prices, or produce more cheaply. And the ability to charge more usually comes from differentiation: a brand people trust, better quality, superior technology or patent protection. Picture a maker of premium headphones. A strong brand and patented noise cancelling let it charge well above generic rivals for parts that cost about the same, so its gross margin is wide.
+
+LEWIS: Common size statements can show how that edge is paid for, too. A company that spends a larger share of revenue on research than its rivals may be buying the technology that supports its higher prices.
+
+HEART: Read the margins as a staircase, top to bottom. Gross margin reflects pricing and production costs. The step down to operating margin reflects operating expenses such as selling, administrative and research costs. The step down to pretax margin mostly reflects financing costs, since interest sits between the two. And the step down to net margin mostly reflects taxes. So if gross margin holds steady while operating margin shrinks, the problem is overhead, not pricing.
+
+LEWIS: Three traps. First, margins should be compared over time and with industry peers, never judged alone, because normal margins differ hugely between, say, software and groceries. Second, reported margins include any unusual items from Module 28.3. One large restructuring charge can sink a year's operating margin, so analysts often look at margins with and without those items. Third, remember from Module 28.1 that an agent reporting revenue net shows a far higher gross margin than a principal earning the same gross profit.
+
+HEART: The takeaway. A common size income statement divides every line by revenue, except tax, which is judged against pretax income as the effective tax rate. Gross margin reflects pricing power and production cost, and differentiation is the usual route to a higher one.
 
 ## Module 29.1, Intangible Assets and Marketable Securities
 
-Now the balance sheet, starting with intangible assets. An intangible asset is a nonmonetary asset with no physical substance, such as a patent, a trademark, a license, software or a customer list. To be recognized on its own, it must be identifiable. That means it can be separated from the company and sold or licensed, or it comes from a contractual or legal right. Goodwill is not identifiable, so it gets its own treatment.
+LEWIS: Now the balance sheet, starting with assets you cannot touch. An intangible asset is a nonmonetary asset that lacks physical substance. Patents, trademarks and copyrights are typical examples. One exclusion: securities are not intangible assets, even though you cannot touch them either. They are financial assets.
 
-Recognition depends on how the company got the asset, and there are three routes. First, an intangible bought on its own is recorded at cost. Second, one acquired as part of buying another company is recorded at fair value on the acquisition date. Third, one developed internally is mostly expensed as the costs are incurred.
+HEART: Intangibles come in two kinds. Identifiable intangibles can be bought or sold on their own, or they come from a legal or contractual right, such as a patent or a broadcast license. Unidentifiable intangibles cannot be split off from the business and traded by themselves, and they may last indefinitely. Goodwill is the main one, and it comes up shortly.
 
-The internal route is where IFRS and U.S. GAAP differ. Under IFRS, research costs are expensed, but development costs are capitalized once the company can show, among other tests, that the project is technically feasible and will probably produce future economic benefits. Under U.S. GAAP, research and development costs are generally expensed, with narrow exceptions for certain software development costs. Under both frameworks, internally generated brands and customer lists are not capitalized.
+LEWIS: How are purchased identifiable intangibles carried? Under IFRS, a company can choose the cost model or the revaluation model, the same two choices it has for property, plant and equipment. But revaluation is allowed only if there is an active market for the intangible, and that is rare. Under US GAAP, only the cost model is allowed.
 
-That creates a comparability problem. A company that builds a famous brand through decades of advertising shows almost none of that value on its balance sheet. A rival that buys a similar brand shows it at fair value. Their balance sheets are not comparable, and the difference is accounting, not economics.
+HEART: Internally created intangibles are a different story. Picture a software firm spending years building a product, or a shoe brand spending decades on advertising. Under US GAAP, the costs of creating intangibles internally, research and development included, are generally expensed as incurred, apart from narrow exceptions such as certain legal costs and the software case from Module 28.2.
 
-After recognition, the key question is useful life. An intangible with a finite useful life, such as a patent with 10 years left, is amortized over that life and tested for impairment when there are signs of trouble. An intangible with an indefinite useful life, such as a trademark the company can keep renewing, is not amortized. Instead, it is tested for impairment at least once a year. IFRS also permits a revaluation model for intangibles, but only when an active market exists, which is rare, and U.S. GAAP does not permit revaluation.
+LEWIS: Under IFRS, as Module 28.2 introduced, the company splits the work into two stages. The research stage is the search for new scientific or technical knowledge, and its costs are expensed. The development stage puts the research results to work planning or designing products, and its costs can be capitalized once certain criteria are met.
 
-Now goodwill. Goodwill arises only when one company acquires another. It equals the purchase price minus the fair value of the identifiable net assets acquired, meaning identifiable assets minus liabilities, all measured at fair value. It captures things like expected synergies, an assembled workforce, and sometimes simple overpayment. A company can never record goodwill that it generated internally.
+HEART: The criteria work as a checklist of four questions. Is it technically feasible, meaning can it really be done? Are the money and people in place to finish it? Is there a market that will buy it? And does the company mean to finish it and sell it, with the means to do so?
 
-Example. A buyer pays 500 million dollars for a target. The target's identifiable assets have a fair value of 600 million dollars and its liabilities are 200 million dollars, so its identifiable net assets are 400 million dollars. Goodwill is 500 minus 400, or 100 million dollars.
+LEWIS: Picture a kitchen appliance maker designing a quieter dishwasher. Early on, its engineers are still testing whether a new motor material works at all. That is research, and it is expensed. Later the design works, retailers want it, the money is in place to finish it, and the company is committed to selling it. Now the costs of finishing the design can be capitalized under IFRS. Under US GAAP, they would still be expensed.
 
-Here is the trap. Suppose the target's book value of net assets is only 300 million dollars. A careless answer gives 200 million dollars of goodwill, so always use fair values, not book values. If the price is below the fair value of the net assets, there is no negative goodwill, and the buyer records a bargain purchase gain in profit or loss.
+HEART: Some costs are expensed under both frameworks, no matter how much future value they seem to create. Start up and training costs. Administrative overhead. Advertising and promotion. Relocation and reorganization. And termination costs. When a hotel group opens in a new country, the launch campaign, the staff training and the managers it moves overseas may pay off for years, but all of it is expensed.
 
-For listed companies, goodwill is not amortized under either IFRS or U.S. GAAP. It is tested for impairment at least annually, at the level of a cash generating unit under IFRS or a reporting unit under U.S. GAAP. An impairment loss reduces goodwill and net income, and it can never be reversed. For analysis, a large impairment often signals that the company overpaid for an acquisition, and it is a noncash charge. Because impairment testing relies on management's forecasts, its timing involves judgment, and many analysts remove goodwill when computing ratios.
+LEWIS: After recognition, the key question is useful life. An intangible with a finite life is amortized over that life and checked for impairment just as a machine would be, and its amortization method and useful life must be revisited every year at a minimum. A patent is the classic finite life intangible. An intangible with an indefinite life, such as a trademark that can be renewed again and again, is not amortized, but it is tested for impairment at least once a year.
 
-Now financial instruments, which is where marketable securities live. Under IFRS, a financial asset falls into one of three measurement categories. The category depends on the company's business model for the asset and on whether its cash flows are solely payments of principal and interest.
+HEART: Some analysts simply strip intangible assets out of a balance sheet. The better habit is to weigh what each one is really worth first. Patents on a best selling drug are not a stale customer list.
 
-First, amortized cost. This applies to debt instruments held to collect their contractual cash flows. The asset is carried at its purchase price, adjusted over time for any premium or discount, and changes in its market value are not recognized. Interest income goes to profit or loss.
+LEWIS: Now goodwill. Picture buying a busy neighborhood restaurant. You add up the fair value of everything you can identify, the kitchen equipment, the liquor license, the furniture, and subtract its debts. Then you pay more than that, because of the loyal regulars and the reputation built over twenty years. That extra is goodwill.
 
-Second, fair value through other comprehensive income. For debt, this applies when the business model is both to collect cash flows and to sell. The asset is carried at fair value, and unrealized gains and losses go to other comprehensive income, which sits in equity rather than net income. When the debt is sold, the cumulative gain or loss is moved, or recycled, into profit or loss, and interest income goes to profit or loss throughout.
+HEART: Formally, goodwill is the extra a buyer pays for a business over and above the fair value of its identifiable net assets, which are the identifiable assets it gets minus the liabilities it takes on. Fair value is the key phrase. Not the target's own book values.
 
-Third, fair value through profit or loss. This is the category for everything else, including trading securities and derivatives. The asset is carried at fair value, and unrealized gains and losses go straight into net income.
+LEWIS: Why do buyers pay more? Three reasons. Some of the target's value never made it onto its balance sheet, like the restaurant's loyal regulars and good name. Its own research and development may be missing too, since the standards we just covered make companies expense most of that spending. And the buyer expects synergies, savings or gains from combining, such as merging two delivery networks or buying supplies in bigger volumes.
 
-Equity securities are a special case under IFRS. They have no principal and interest, so they cannot sit at amortized cost, and they normally go to fair value through profit or loss. But a company can make an irrevocable election, when it buys an equity investment that it does not hold for trading, to measure it at fair value through other comprehensive income. Then unrealized gains and losses go to other comprehensive income and are never recycled to profit or loss, even on sale. Dividends still go to profit or loss.
+HEART: Occasionally a buyer pays less than the fair value of the identifiable net assets. That is a bargain purchase, and the buyer reports the difference as a gain on its income statement right away.
 
-U.S. GAAP uses different labels for debt securities. Held to maturity means amortized cost. Available for sale means fair value, with unrealized gains and losses in other comprehensive income. Trading means fair value, with those gains and losses in net income. Equity securities are generally measured at fair value through net income.
+LEWIS: Goodwill only reaches a balance sheet through an acquisition. Whatever a company spends building its own reputation is expensed as it goes, never put on its balance sheet.
 
-A tiny example. A company buys a bond at par for 1,000 dollars, and by year end its fair value is 1,050 dollars. At amortized cost, the balance sheet still shows 1,000 dollars and the 50 dollar gain is not recognized. In both fair value categories, the balance sheet shows 1,050 dollars. Here is the trap: they differ only in where the 50 dollar gain lands, in other comprehensive income for one and in net income for the other.
+HEART: After the deal, goodwill is treated as having an indefinite life, so it is never amortized. Instead, at least once a year, the company checks whether it is still worth what the books say. When it is not, the company writes it down and takes an impairment loss on the income statement, a noncash charge. The message is that the buyer has cut its forecast of the excess returns the acquired business will earn, so the business is now worth less than what was paid for it.
 
-In bank and credit union balance sheet work, this classification decides whether a rise in interest rates shows up in reported equity right away, through other comprehensive income, or stays out of reported equity because the securities sit at amortized cost. Financial liabilities, such as bonds and loans, are mostly measured at amortized cost, while derivatives and liabilities held for trading are measured at fair value through profit or loss.
+LEWIS: Here is the trap, and it is a manipulation risk. In an acquisition, the price is spread across the identifiable assets at fair value, and whatever is left over becomes goodwill. Equipment and identifiable intangibles with finite lives get depreciated or amortized. Goodwill does not. So a buyer that assigns lower fair values to the identifiable assets, and more of the price to goodwill, reports less depreciation and amortization in future years and higher net income. This is easiest when fair values are subjective.
 
-Last, noncurrent liabilities. These are obligations due beyond one year, such as bonds, bank loans, leases, pensions and deferred taxes. Long term debt is usually carried at amortized cost, so its balance sheet value reflects the market rate when it was issued, not today's rate. The portion due within the next year is reclassified as a current liability. A deferred tax liability arises when taxable income is lower than accounting profit because of temporary differences, such as faster depreciation for tax purposes, so the company expects to pay more tax later. Leases, pensions and deferred taxes get fuller treatment later in this topic.
+HEART: Keep two kinds of goodwill apart. Accounting goodwill comes from past acquisitions. Economic goodwill comes from the company's expected future performance.
 
-Here are the rules to keep. Goodwill equals the purchase price minus the fair value of identifiable net assets, and it is not amortized, is tested at least annually, and is never written back up. Financial assets sit at amortized cost, at fair value through other comprehensive income, or at fair value through profit or loss, and the category decides where unrealized gains land.
+LEWIS: And analysts disagree about accounting goodwill. Supporters call it a real asset, the present value of the extra profit the acquired business should bring in. Skeptics point out that nobody can sell it by itself, and that it may just measure how much the buyer overpaid. Either way, impairments are a useful scorecard for past acquisitions.
+
+HEART: For ratio analysis, the usual adjustment is to remove goodwill from the balance sheet and goodwill impairment charges from the income statement, so a company that grew by acquisition can be compared with one that grew on its own. And judge any future acquisition by the price paid compared with the earning power of what is being bought.
+
+LEWIS: Now financial instruments. A financial instrument is a contract that creates a financial asset for one party and a financial liability or equity instrument for the other. A bond is the investor's asset and the issuer's liability. A share is the investor's asset and part of the issuer's equity. So financial instruments show up on both sides of balance sheets. Held as assets, they include stocks and bonds, derivatives, loans and receivables.
+
+HEART: There are three ways to measure them: historical cost, amortized cost and fair value. Loans and notes receivable are carried at cost, and so are unquoted equity investments whose fair value cannot be reliably measured.
+
+LEWIS: Amortized cost needs a picture. Buy a bond for less than its face value. Each year, part of that discount is amortized, so the carrying value climbs steadily toward face value by maturity. A bond bought above face value steps down toward face value the same way. Subtract any principal repaid and any impairment losses. And here is the defining feature. Changes in the bond's market value along the way are ignored. The path is set the day you buy it.
+
+HEART: Under US GAAP, debt securities bought with the intent to hold them until they mature are called held to maturity securities, and they are carried at amortized cost.
+
+LEWIS: Fair value accounting, also called mark to market, applies to trading securities, available for sale securities and derivatives. All of them show market value on the balance sheet. They differ in where the unrealized gains and losses land. An unrealized gain or loss, also called a holding period gain or loss, is the change in market value on a security you still own.
+
+HEART: Trading securities, also called held for trading securities, are debt securities bought to sell in the near term. They are carried at fair value, and unrealized gains and losses go straight to the income statement. Equity holdings with quoted market prices are treated the same way, unless the holding gives significant influence over the other company, which is a Level II topic. Derivatives are treated like trading securities too.
+
+LEWIS: Available for sale securities are debt securities the company does not expect to hold to maturity or to trade soon. They are also carried at fair value, but unrealized gains and losses skip the income statement. They go to other comprehensive income, which is part of shareholders' equity. And under US GAAP, equity securities cannot be classified as available for sale.
+
+HEART: Under US GAAP, one rule covers every category. Dividends, interest, and realized gains and losses, the ones actually locked in when a security is sold, always go to the income statement. IFRS sends interest and dividends to profit and loss too. The exception is equity a company chose to carry at fair value through other comprehensive income, where even a gain or loss on sale never reaches profit.
+
+LEWIS: Here is the picture that makes the classes stick. Three holders own the same Treasury bond when interest rates drop and its market price rises. An insurer that plans to hold it to maturity carries it at amortized cost, so neither its balance sheet nor its income shows the rise. A company that holds it to collect the interest but may sell it carries it as available for sale. Its balance sheet shows the higher value, and the gain lifts equity through other comprehensive income, while net income never sees it. A trading desk carries it as a trading security, so the gain lands in net income.
+
+HEART: Same bond, same price move, three different reported results. Classification follows what the holder intends to do, not just what the security is. And when rates rise instead, the same choice decides whether a bank's or credit union's bond losses show up in reported equity right away or stay off the balance sheet, visible only in the notes.
+
+LEWIS: IFRS has three matching classes. The treatments line up, but the rules for which security goes where are different. Amortized cost matches held to maturity. It requires that the cash flows are solely payments of principal and interest, and that the business model is to hold the security to maturity and collect those payments. Fair value through other comprehensive income matches available for sale. And fair value through profit and loss matches trading.
+
+HEART: The sorting rules. Under both frameworks, debt held to maturity, loans, notes receivable and unlisted securities without a reliable fair value sit at amortized or historical cost. Under IFRS, debt held to collect interest but possibly sold before maturity goes to fair value through other comprehensive income. Debt bought to sell soon, equity securities, derivatives and anything that fits neither class go to fair value through profit and loss.
+
+LEWIS: Then two irrevocable choices under IFRS, both made at the time of purchase. A company may choose to carry an equity security at fair value through other comprehensive income, which US GAAP does not allow, since equity there can never be available for sale. And a company may choose to carry a financial asset at fair value through profit and loss.
+
+HEART: Last in this module, noncurrent liabilities. Long term financial liabilities include bank loans, notes payable, bonds payable and some derivatives. They are usually carried at amortized cost. When one is issued above or below its face value, the premium or discount is amortized through interest expense over its life, so the carrying value moves toward face value by maturity.
+
+LEWIS: Picture a company issuing bonds below face value because their coupon is lower than the market wants. It owes the full face value at maturity, so the discount is really extra interest, spread over the bond's life. Interest expense each year is higher than the coupon cash paid, and the liability climbs toward face value. A bond issued at a premium works in reverse.
+
+HEART: Some liabilities are carried at fair value instead. Held for trading liabilities, such as a short position in a stock, which may be a short term liability. Derivative liabilities. And liabilities that are not derivatives themselves but whose risks are hedged with derivatives.
+
+LEWIS: Then deferred tax liabilities, taxes that will be payable in future periods because tax accounting and financial accounting time things differently. A deferred tax liability is created when income tax expense on the income statement is greater than the taxes payable to the government now.
+
+HEART: Two ways that happens. Expenses or losses can be deducted for tax before they hit the income statement. The classic case is a company using accelerated depreciation on its tax return and straight line depreciation in its financial statements. Or revenues and gains can hit the income statement before they are taxable, such as a subsidiary's earnings recognized before it pays any dividends to the parent.
+
+LEWIS: Either way, the tax is postponed, not forgiven. The deferred tax liability reverses when the taxes are actually paid. The income taxes reading covers the mechanics.
+
+HEART: The takeaway. Internally created intangibles are expensed, except development costs under IFRS that meet the criteria. Goodwill is the price paid above the fair value of identifiable net assets, is not amortized, and is tested at least yearly. Financial assets sit at amortized cost, at fair value through other comprehensive income, or at fair value through profit and loss, and the class decides where unrealized gains land.
 
 ## Module 29.2, Common-Size Balance Sheets
 
-A common size balance sheet divides every item by total assets. Because total assets equal total liabilities plus equity, both sides add up to 100 percent. It shows at a glance what the company owns and how it is funded.
+LEWIS: A vertical common size balance sheet expresses every item as a percentage of total assets. Because total assets equal total liabilities plus equity, both sides add up to the whole. Like the income statement version, it strips out size for the same time series and cross sectional comparisons.
 
-A large and growing share of goodwill suggests the company grows by acquisition. A rising share of receivables can mean looser credit terms or aggressive revenue recognition. Here is the trap. A falling percentage does not prove the dollar amount fell, because cash can drop from 10 percent to 8 percent of total assets while still growing, if total assets grew faster.
+HEART: It answers two questions at a glance. What does the company own, and how does it pay for it?
 
-The balance sheet ratios come in two families. Liquidity ratios measure the ability to meet short term obligations. The current ratio equals current assets divided by current liabilities. The quick ratio equals cash plus short term marketable investments plus receivables, all divided by current liabilities. The cash ratio equals cash plus short term marketable investments, divided by current liabilities.
+LEWIS: Here is how to read one. Picture a hardware store chain. If its current liabilities are a large share of total assets while its current assets are barely larger, it may struggle to pay bills as they come due. If cash is a thin slice while inventory is a fat one, it may need to sell goods and collect receivables before it can pay its suppliers. And a heavy share of inventory deserves a closer look, because goods may be going obsolete on the shelves.
 
-Each liquidity ratio is stricter than the one before. The quick ratio drops inventory and prepaid expenses, because inventory may take a long time to turn into cash. The cash ratio drops receivables as well.
+HEART: But more liquidity is not automatically better. A big cushion of working capital can mean money sitting idle, since cash, receivables and inventory typically earn a lower return than the plants, equipment and other long term assets that run the business.
 
-Take current assets of 400 dollars, made up of 50 dollars of cash, 50 dollars of marketable securities, 100 dollars of receivables and 200 dollars of inventory. Current liabilities are 200 dollars. The current ratio is 400 divided by 200, or 2.0. The quick ratio is 200 divided by 200, or 1.0. The cash ratio is 100 divided by 200, or 0.5. Higher means more cushion, but a very high current ratio can also signal idle cash or slow moving inventory.
+LEWIS: On the funding side, when long term debt pays for a large share of the assets, the company faces heavy obligations stretching years ahead, which is a solvency warning. And on the asset side, a growing share of goodwill over the years points to a company that buys its growth rather than building it, and if debt climbs alongside, it may be borrowing to pay for the deals.
 
-Solvency ratios measure the ability to meet long term obligations. The long term debt to equity ratio equals total long term debt divided by total equity. The debt to equity ratio equals total debt divided by total equity. The total debt ratio equals total debt divided by total assets. The financial leverage ratio equals total assets divided by total equity.
+HEART: One trap. A falling percentage does not prove a falling dollar amount. Cash can shrink as a share of total assets while growing in dollars, if total assets grow faster.
 
-Debt here usually means interest bearing borrowings, short term and long term, so check how each question defines it. With total assets of 1,000 dollars, total debt of 300 dollars and equity of 500 dollars, debt to equity is 0.6, the total debt ratio is 0.3, and financial leverage is 2.0. Higher solvency ratios mean more financial risk.
+LEWIS: Those common size percentages are themselves balance sheet ratios, one balance sheet item compared with another. The named ratios come in two families, liquidity and solvency.
 
-One more trap is a transaction that moves a ratio in a surprising direction. Start with a current ratio of 2.0, from 400 dollars of current assets and 200 dollars of current liabilities. The company uses 100 dollars of cash to pay its suppliers. Current assets fall to 300 dollars and current liabilities fall to 100 dollars, so the current ratio rises to 3.0. Paying down current liabilities with cash raises the current ratio whenever it starts above 1, and lowers it whenever it starts below 1.
+HEART: Liquidity ratios measure the ability to meet short term obligations as they come due. Picture three ways of answering a friend who asks whether you could cover a surprise bill. The generous answer counts everything you could turn into cash within the year, including the furniture you plan to sell. The stricter answer counts only your bank balance, your investments and the money people owe you. The strictest counts only your bank balance and investments.
 
-Here is the rule to keep. A common size balance sheet divides every item by total assets, the current, quick and cash ratios measure liquidity, and the debt and leverage ratios measure solvency.
+LEWIS: Those are the three liquidity ratios, each with current liabilities on the bottom. The current ratio puts all current assets on top. The quick ratio, also called the acid test ratio, puts cash, marketable securities and receivables on top, so it leaves out inventory. The cash ratio puts only cash and marketable securities on top, so it leaves out receivables as well.
+
+HEART: Read them together. If one company has a higher current ratio than a peer but a lower quick ratio, the difference must be inventory, because inventory is what the quick ratio drops. Comparing the quick ratio with the cash ratio isolates receivables the same way.
+
+LEWIS: One directional trap. Paying off a current liability with cash lowers current assets and current liabilities by the same amount. When the current ratio starts above one, that raises it. When it starts below one, that lowers it.
+
+HEART: Solvency ratios measure the ability to meet long term obligations, and there are four. Long term debt to equity is long term debt divided by total equity. Total debt to equity is total debt divided by total equity. The debt ratio is total debt divided by total assets. And the financial leverage ratio is total assets divided by total equity. For all four, higher means more financial risk.
+
+LEWIS: Two definitions matter. In these ratios, debt usually means interest bearing obligations, the money actually borrowed. But the financial leverage ratio captures every obligation, interest bearing or not, because whatever assets equity does not pay for are funded by all the liabilities, including accounts payable and deferred taxes.
+
+HEART: Read these together too. If one company has a higher long term debt to equity ratio than a peer but a lower total debt to equity ratio, the peer must be leaning more on short term debt.
+
+LEWIS: Last, the limits of balance sheet ratios. Comparisons with peers are weakened by differences in accounting standards and estimates. Ratios may not compare across industries, since a software company and a railroad will never look alike. Interpreting them takes significant judgment. And a balance sheet is a snapshot of a single day, which may not be typical of the rest of the year.
+
+HEART: The takeaway. A common size balance sheet divides every item by total assets. Liquidity runs from the current ratio to the quick ratio to the cash ratio, each stricter than the last. Solvency is measured with long term debt to equity, total debt to equity, the debt ratio and financial leverage, and higher means more risk.
 
 ## Recall check
 
-Q: Which is most likely applied prospectively, with no restatement of prior years: a voluntary change in inventory method, a change in the estimated useful life of equipment, or the correction of a prior period error?
+LEWIS Q: A retailer reports a large restructuring charge, and also the results of a division it has agreed to sell. Where does each go, and which one is shown before tax?
 
-Answer: The change in useful life. It is a change in accounting estimate, so it affects only the current and future periods. A voluntary policy change is applied retrospectively, and an error correction restates the prior periods.
+HEART: Answer. The restructuring charge stays in income from continuing operations, before tax, and the division goes below continuing operations, net of tax. Here is why. A restructuring charge is an unusual or infrequent item, part of the ongoing business, so it sits above the tax line and is taxed with everything else. The division is a discontinued operation, separated out because it will not be part of future earnings, and because it sits below the tax line it carries its own tax.
 
-Q: A company has options on 100,000 shares with an exercise price of 40 dollars, and the average share price for the year was 50 dollars. How many net new shares does the treasury stock method add?
+HEART Q: A company decides its delivery vans will last longer than it first thought. Does it restate prior years?
 
-Answer: 20,000 shares. Exercise raises 4 million dollars, which buys back 80,000 shares at the average price of 50 dollars. Issuing 100,000 shares and repurchasing 80,000 leaves 20,000 net new shares.
+LEWIS: Answer. No, it applies the change prospectively. Here is why. A new useful life is a change in accounting estimate, driven by new information. Estimates are judgments that get updated as facts change, so only current and future depreciation changes. Restatement is reserved for policy changes and error corrections.
 
-Q: Basic EPS is 2 dollars. A convertible bond would add 600,000 dollars of after tax interest to the numerator and 200,000 shares to the denominator. Should it be included in diluted EPS?
+LEWIS Q: Why are preferred dividends subtracted in basic EPS while common dividends are not?
 
-Answer: No. Its incremental effect is 600,000 dollars divided by 200,000 shares, or 3 dollars per new share, which is above basic EPS of 2 dollars. Including it would raise EPS, so it is antidilutive and is excluded.
+HEART: Answer. Preferred dividends belong to preferred shareholders, while common dividends are paid out of income that already belongs to common shareholders. Here is why. EPS measures the income available to each common share. Preferred holders are paid first, so their dividends are not available to common. Common dividends simply hand common shareholders part of what is already theirs, so they do not shrink the amount.
 
-Q: A company's operating margin is unchanged from last year, but its pretax margin has fallen. Which is the most likely cause: higher cost of goods sold, higher interest expense, or a higher tax rate?
+HEART Q: A company does a two for one split in the final month of the year. How are the shares outstanding before the split treated in the weighted average?
 
-Answer: Higher interest expense. Interest sits between operating profit and pretax income, so it can lower the pretax margin without touching the operating margin. Higher cost of goods sold would have lowered the operating margin too, and the tax rate does not affect pretax income at all.
+LEWIS: Answer. They are doubled as if the split happened at the start of the year, and prior years are restated too. Here is why. A split brings in no money and changes no one's share of ownership. It just cuts the same pizza into more slices. Applying it retroactively keeps EPS comparable instead of showing a false collapse, and only shares issued or bought back after the split date are left unadjusted.
 
-Q: Under IFRS, a company elects to measure an equity investment it does not hold for trading at fair value through other comprehensive income. Where do its unrealized gains go, and what happens to them when the shares are sold?
+LEWIS Q: What makes a convertible security antidilutive?
 
-Answer: Unrealized gains and losses go to other comprehensive income. When the shares are sold, those gains are not recycled into profit or loss. Dividends on the investment still go to profit or loss.
+HEART: Answer. It brings more earnings per new share than basic EPS. Here is why. Conversion adds earnings to the top, the dividends or after tax interest the company would no longer pay, and adds shares to the bottom. Like a new student who scores above the class average, a security bringing more than the current EPS per new share would raise the average. Antidilutive securities are left out, which is why diluted EPS never exceeds basic EPS.
 
-Q: On a common size balance sheet, inventory falls from 20 percent to 15 percent of total assets. Does this prove the company holds less inventory than a year ago?
+HEART Q: For a convertible bond, why is the interest added back after tax, while convertible preferred dividends are added back in full?
 
-Answer: No. Common size figures are shares of total assets. If total assets grew faster than inventory, the percentage can fall while inventory in dollars rises. Check the dollar amounts before drawing a conclusion.
+LEWIS: Answer. Because interest is tax deductible and preferred dividends are not. Here is why. If the bonds converted, the company would save the interest but lose the tax deduction on it, so its income rises only by the after tax amount. Preferred dividends are paid out of profit after tax, so removing them adds back the full dividend.
 
-## Recap
+LEWIS Q: A company's options have an exercise price above the stock's average market price for the year. Are they included in diluted EPS?
 
-Discontinued operations sit on a separate line, net of tax, below continuing operations, while unusual or infrequent items stay in continuing operations, before tax. Policy changes and error corrections are retrospective, and estimate changes, including a new depreciation method, are prospective. Basic EPS equals net income minus preferred dividends, divided by the weighted average common shares, with splits and stock dividends applied retroactively. Diluted EPS uses the if converted method for convertibles, adding back preferred dividends or after tax interest, and the treasury stock method for options, at the average market price.
+HEART: Answer. No, they are antidilutive. Here is why. Under the treasury stock method, the exercise cash would buy back more shares at the average price than the options create, so the share count would fall and EPS would rise. Options add nothing to the top, so they dilute only when they are in the money on average.
 
-Antidilutive securities are excluded, so diluted EPS is never above basic EPS. Common size statements divide every line by revenue on the income statement and by total assets on the balance sheet, and they feed the margins and the liquidity and solvency ratios. Internally generated intangibles are mostly expensed, and goodwill is not amortized but is tested for impairment at least annually. Financial assets sit at amortized cost, at fair value through other comprehensive income, or at fair value through profit or loss, and the category decides where unrealized gains land.
+HEART Q: The exercise price stays the same, but the average share price rises. Does the treasury stock method add more net new shares or fewer?
+
+LEWIS: Answer. More. Here is why. The exercise cash is fixed, and at a higher share price it buys back fewer shares. The net new shares are the free part of the options, the gap between the market price and the exercise price as a fraction of the market price, and that gap has grown.
+
+LEWIS Q: On a common size income statement, which expense is better judged against something other than revenue, and why?
+
+HEART: Answer. Income tax expense, judged against pretax income as the effective tax rate. Here is why. Tax is charged on profit, not on sales. Two companies facing the same tax rate but earning different margins would show very different tax as a share of revenue, so only the comparison with pretax income tells you how heavily profit is taxed.
+
+HEART Q: In an acquisition, a buyer assigns a low fair value to the target's equipment and more of the price to goodwill. What happens to its future net income?
+
+LEWIS: Answer. It is higher. Here is why. Equipment is depreciated over its life, but goodwill is not amortized. It is only tested for impairment. Shifting value from equipment into goodwill means less depreciation expense in future years, which is why analysts watch the price allocation when fair values are subjective.
+
+LEWIS Q: Interest rates rise, and a US GAAP company's available for sale bond portfolio falls in value. Where does the unrealized loss show up?
+
+HEART: Answer. In other comprehensive income, within equity, not in net income. Here is why. Available for sale securities are carried at fair value, so the balance sheet shows the lower value. But their unrealized gains and losses bypass the income statement and go to other comprehensive income. Had the bonds been held to maturity, the loss would stay off the balance sheet and out of income, showing up only in the notes, and had they been trading securities, it would hit net income.
+
+HEART Q: One company has a higher current ratio than a rival but a lower quick ratio. What most likely explains the difference?
+
+LEWIS: Answer. It holds more inventory. Here is why. The current ratio counts all current assets, while the quick ratio drops inventory and keeps only cash, marketable securities and receivables. A company that looks more liquid on the broad measure but less liquid once inventory is removed must be carrying more of its current assets as inventory.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: For nonrecurring items: unusual stays upstairs, before tax. Discontinued moves downstairs, after tax, with losses booked when foreseen and gains only when the sale is done.
+
+HEART: For accounting changes: policies and errors look back and restate, estimates look forward.
+
+LEWIS: For basic EPS: preferred dividends come out, common dividends never do. Splits and stock dividends rewind to the start of the year, since a split just cuts the pizza into more slices.
+
+HEART: For dilution, the class average test. A security bringing less earnings per new share than basic EPS pulls the average down, so it is dilutive and goes in. One that brings more is antidilutive and stays out. So diluted EPS never tops basic.
+
+LEWIS: What each security brings back to the top: bonds, their interest after tax. Convertible preferred, its dividends in full. Options and warrants, nothing.
+
+HEART: For the treasury stock method: only the free part dilutes. Options count only when the average price beats the exercise price, and a higher average price means more dilution. Average price, never year end price.
+
+LEWIS: For common size: income statement lines over revenue, except tax over pretax income. Balance sheet lines over total assets.
+
+HEART: For intangibles: finite lives are amortized, indefinite lives are tested every year.
+
+LEWIS: For goodwill: bought, never built. Price over the fair value of identifiable net assets, never amortized, tested at least yearly. Shift value from equipment into goodwill, and reported profit rises.
+
+HEART: For financial assets: amortized cost ignores market moves, fair value through other comprehensive income sends them to equity, and fair value through profit and loss sends them to net income. The US GAAP names are held to maturity, available for sale and trading.
+
+LEWIS: For liquidity, a ladder: current, then quick, which drops inventory, then cash, which drops receivables too. For solvency, higher means riskier, and the financial leverage ratio counts every liability.
+
+HEART: Now, how you would say the big ideas to a senior leader.
+
+LEWIS: On one time items: strip out results that will not repeat, but a one time charge that shows up every year is a cost of doing business. The jargon is unusual or infrequent items and discontinued operations.
+
+HEART: On per share earnings: we report profit per share as things stand, and again as if every right to new shares that would shrink each slice were used. The jargon is basic and diluted EPS, the if converted method and the treasury stock method.
+
+LEWIS: On acquisitions: whatever we pay above the value of what we can identify sits on the balance sheet as goodwill. If the deal disappoints, we write it down, which hits profit but not cash. The jargon is goodwill and goodwill impairment.
+
+HEART: On the investment portfolio: the same bond can show its market swings in profit, in equity, or nowhere at all, depending on how we classify it when we buy it. The jargon is amortized cost, fair value through other comprehensive income, and fair value through profit and loss.
+
+LEWIS: And on comparing companies: turn every line into a percentage so size drops out, then check whether short term assets cover short term bills and how much of the business runs on borrowed money. The jargon is common size statements, liquidity ratios and solvency ratios.

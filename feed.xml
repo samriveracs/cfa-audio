@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Wed, 07 Oct 2026 11:23:35 -0500</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 11:55:04 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -246,11 +246,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Financial Statement Analysis, Kaplan Modules 28.3 to 29.2. 28.3 Nonrecurring Items, 28.4 Earnings Per Share, 28.5 Ratios and Common-Size Income Statements, 29.1 Intangible Assets and Marketable Securities, 29.2 Common-Size Balance Sheets</description>
     <itunes:summary>Financial Statement Analysis, Kaplan Modules 28.3 to 29.2. 28.3 Nonrecurring Items, 28.4 Earnings Per Share, 28.5 Ratios and Common-Size Income Statements, 29.1 Intangible Assets and Marketable Securities, 29.2 Common-Size Balance Sheets</itunes:summary>
-    <content:encoded><![CDATA[<p>Financial Statement Analysis, Kaplan Modules 28.3 to 29.2.</p><ul><li>Module 28.3, Nonrecurring Items</li><li>Module 28.4, Earnings Per Share</li><li>Module 28.5, Ratios and Common-Size Income Statements</li><li>Module 29.1, Intangible Assets and Marketable Securities</li><li>Module 29.2, Common-Size Balance Sheets</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:13 The big picture</li><li>1:30 Module 28.3, Nonrecurring Items</li><li>5:29 Module 28.4, Earnings Per Share</li><li>13:26 Module 28.5, Ratios and Common-Size Income Statements</li><li>16:22 Module 29.1, Intangible Assets and Marketable Securities</li><li>25:05 Module 29.2, Common-Size Balance Sheets</li><li>28:54 Recall check</li><li>32:24 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E14.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E14_v2.mp3" length="10198462" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Financial Statement Analysis, Kaplan Modules 28.3 to 29.2.</p><ul><li>Module 28.3, Nonrecurring Items</li><li>Module 28.4, Earnings Per Share</li><li>Module 28.5, Ratios and Common-Size Income Statements</li><li>Module 29.1, Intangible Assets and Marketable Securities</li><li>Module 29.2, Common-Size Balance Sheets</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:32 Module 28.3, Nonrecurring Items</li><li>9:04 Module 28.4, Earnings Per Share</li><li>19:26 Module 28.5, Ratios and Common-Size Income Statements</li><li>24:00 Module 29.1, Intangible Assets and Marketable Securities</li><li>39:25 Module 29.2, Common-Size Balance Sheets</li><li>44:43 Recall check</li><li>52:05 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E14.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E14_v3.mp3" length="16821929" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e14</guid>
     <pubDate>Sat, 03 Oct 2026 12:14:00 -0500</pubDate>
-    <itunes:duration>2039</itunes:duration>
+    <itunes:duration>3364</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E14.txt" type="text/plain"/>
   </item>
