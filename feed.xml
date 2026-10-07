@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Wed, 07 Oct 2026 17:42:11 -0500</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 18:05:04 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -484,11 +484,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Fixed Income, Kaplan Modules 50.1 to 52.1. 50.1 Fixed-Income Markets for Corporate Issuers, 51.1 Fixed-Income Markets for Government Issuers, 52.1 Fixed-Income Bond Valuation: Prices and Yields</description>
     <itunes:summary>Fixed Income, Kaplan Modules 50.1 to 52.1. 50.1 Fixed-Income Markets for Corporate Issuers, 51.1 Fixed-Income Markets for Government Issuers, 52.1 Fixed-Income Bond Valuation: Prices and Yields</itunes:summary>
-    <content:encoded><![CDATA[<p>Fixed Income, Kaplan Modules 50.1 to 52.1.</p><ul><li>Module 50.1, Fixed-Income Markets for Corporate Issuers</li><li>Module 51.1, Fixed-Income Markets for Government Issuers</li><li>Module 52.1, Fixed-Income Bond Valuation: Prices and Yields</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:12 The big picture</li><li>1:23 Module 50.1, Fixed-Income Markets for Corporate Issuers</li><li>11:02 Module 51.1, Fixed-Income Markets for Government Issuers</li><li>16:24 Module 52.1, Fixed-Income Bond Valuation: Prices and Yields</li><li>26:29 Recall check</li><li>29:40 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E28.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E28_v2.mp3" length="9407165" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Fixed Income, Kaplan Modules 50.1 to 52.1.</p><ul><li>Module 50.1, Fixed-Income Markets for Corporate Issuers</li><li>Module 51.1, Fixed-Income Markets for Government Issuers</li><li>Module 52.1, Fixed-Income Bond Valuation: Prices and Yields</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:37 Module 50.1, Fixed-Income Markets for Corporate Issuers</li><li>16:37 Module 51.1, Fixed-Income Markets for Government Issuers</li><li>26:09 Module 52.1, Fixed-Income Bond Valuation: Prices and Yields</li><li>37:27 Recall check</li><li>43:24 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E28.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E28_v3.mp3" length="14110152" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e28</guid>
     <pubDate>Sat, 03 Oct 2026 12:28:00 -0500</pubDate>
-    <itunes:duration>1881</itunes:duration>
+    <itunes:duration>2822</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E28.txt" type="text/plain"/>
   </item>
