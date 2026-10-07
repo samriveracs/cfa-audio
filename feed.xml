@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Tue, 06 Oct 2026 23:56:16 -0500</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 00:26:08 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -178,11 +178,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Corporate Issuers, Kaplan Modules 20.1 to 22.1. 20.1 Features of Corporate Issuers, 21.1 Stakeholders and ESG Factors, 22.1 Corporate Governance</description>
     <itunes:summary>Corporate Issuers, Kaplan Modules 20.1 to 22.1. 20.1 Features of Corporate Issuers, 21.1 Stakeholders and ESG Factors, 22.1 Corporate Governance</itunes:summary>
-    <content:encoded><![CDATA[<p>Corporate Issuers, Kaplan Modules 20.1 to 22.1.</p><ul><li>Module 20.1, Features of Corporate Issuers</li><li>Module 21.1, Stakeholders and ESG Factors</li><li>Module 22.1, Corporate Governance</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>1:38 Module 20.1, Features of Corporate Issuers</li><li>8:52 Module 21.1, Stakeholders and ESG Factors</li><li>16:56 Module 22.1, Corporate Governance</li><li>27:32 Recall check</li><li>30:50 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E10.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E10_v2.mp3" length="9703252" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Corporate Issuers, Kaplan Modules 20.1 to 22.1.</p><ul><li>Module 20.1, Features of Corporate Issuers</li><li>Module 21.1, Stakeholders and ESG Factors</li><li>Module 22.1, Corporate Governance</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:34 Module 20.1, Features of Corporate Issuers</li><li>11:11 Module 21.1, Stakeholders and ESG Factors</li><li>24:20 Module 22.1, Corporate Governance</li><li>40:17 Recall check</li><li>47:23 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E10.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E10_v3.mp3" length="15325679" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e10</guid>
     <pubDate>Sat, 03 Oct 2026 12:10:00 -0500</pubDate>
-    <itunes:duration>1940</itunes:duration>
+    <itunes:duration>3065</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E10.txt" type="text/plain"/>
   </item>
