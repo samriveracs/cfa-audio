@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Tue, 06 Oct 2026 21:38:30 -0500</lastBuildDate>
+  <lastBuildDate>Tue, 06 Oct 2026 22:05:04 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -93,11 +93,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Quantitative Methods, Kaplan Modules 10.1 to 11.1. 10.1 Linear Regression Basics, 10.2 Analysis of Variance (ANOVA) and Goodness of Fit, 10.3 Predicted Values and Functional Forms of Regression, 11.1 Introduction to Fintech</description>
     <itunes:summary>Quantitative Methods, Kaplan Modules 10.1 to 11.1. 10.1 Linear Regression Basics, 10.2 Analysis of Variance (ANOVA) and Goodness of Fit, 10.3 Predicted Values and Functional Forms of Regression, 11.1 Introduction to Fintech</itunes:summary>
-    <content:encoded><![CDATA[<p>Quantitative Methods, Kaplan Modules 10.1 to 11.1.</p><ul><li>Module 10.1, Linear Regression Basics</li><li>Module 10.2, Analysis of Variance (ANOVA) and Goodness of Fit</li><li>Module 10.3, Predicted Values and Functional Forms of Regression</li><li>Module 11.1, Introduction to Fintech</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>1:49 Module 10.1, Linear Regression Basics</li><li>9:46 Module 10.2, Analysis of Variance (ANOVA) and Goodness of Fit</li><li>16:51 Module 10.3, Predicted Values and Functional Forms of Regression</li><li>21:43 Module 11.1, Introduction to Fintech</li><li>26:27 Recall check</li><li>29:40 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E05.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E05_v2.mp3" length="9356700" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Quantitative Methods, Kaplan Modules 10.1 to 11.1.</p><ul><li>Module 10.1, Linear Regression Basics</li><li>Module 10.2, Analysis of Variance (ANOVA) and Goodness of Fit</li><li>Module 10.3, Predicted Values and Functional Forms of Regression</li><li>Module 11.1, Introduction to Fintech</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:33 Module 10.1, Linear Regression Basics</li><li>11:18 Module 10.2, Analysis of Variance (ANOVA) and Goodness of Fit</li><li>20:36 Module 10.3, Predicted Values and Functional Forms of Regression</li><li>26:23 Module 11.1, Introduction to Fintech</li><li>35:50 Recall check</li><li>43:45 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E05.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E05_v3.mp3" length="14415727" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e05</guid>
     <pubDate>Sat, 03 Oct 2026 12:05:00 -0500</pubDate>
-    <itunes:duration>1871</itunes:duration>
+    <itunes:duration>2883</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E05.txt" type="text/plain"/>
   </item>

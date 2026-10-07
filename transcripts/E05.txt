@@ -1,181 +1,313 @@
-## The big picture
-
-This episode closes out Quantitative Methods. Simple linear regression takes tools you already have, means, variances, covariance, correlation, and hypothesis tests, and points them at one practical question. If I know X, what is my best estimate of Y, and how much should I trust that estimate? Then we finish with a short tour of fintech and Big Data, which is mostly vocabulary and easy points.
-
-Here is how the pieces connect. Module 10.1 builds the line. You will see how ordinary least squares picks the intercept and the slope, what each one means, and the four assumptions the model rests on.
-
-Module 10.2 asks how good the line is. It splits the variation in Y into an explained part and an unexplained part, and that split gives you the analysis of variance table, r squared, the F test, and the standard error of estimate. We will also cover t tests on the individual coefficients there. Module 10.3 uses the line to forecast, wraps a prediction interval around the forecast, and shows how logarithms let a straight line describe a curved relationship. Module 11.1 steps back to Big Data, artificial intelligence, and machine learning.
-
-Regression questions often hand you output and ask you to fill in a missing number, interpret a coefficient, or reach a conclusion. The arithmetic is light. The points are won or lost on interpretation, on degrees of freedom, and on knowing which number answers which question.
+LEWIS: Reading 10 covers simple linear regression: how a straight line is fitted through data, what its intercept and slope mean, the assumptions behind it, how to judge the fit with an analysis of variance, and how to forecast with the line and handle relationships that curve. Reading 11 covers fintech, Big Data, artificial intelligence and machine learning, and how they are put to work in investment management.
 
 ## Module 10.1, Linear Regression Basics
 
-Start with why regression exists. Correlation tells you whether two variables move together and how tightly. Regression goes one step further. It gives you an equation, so you can say how much Y tends to change when X changes, and what Y should be for a given value of X.
+HEART: Picture a ride share app. Every trip has a distance and a fare. Plot each trip as a dot, with distance along the bottom and fare up the side, and you get a cloud of dots drifting upward. Longer trips cost more, but not by any exact rule, because traffic, surge pricing and waiting time push each fare around. Simple linear regression draws the one straight line that best describes that cloud.
 
-First, the vocabulary. The variable you are trying to explain is the dependent variable. You will also see it called the explained variable, the endogenous variable, or the predicted variable. The variable doing the explaining is the independent variable, also called the explanatory variable, the exogenous variable, or the predictor.
+LEWIS: The idea is to account for why one variable swings around, using the swings in a second variable. Those swings have a precise name here, variation. Variation is the sum of the squared gaps between each observation and the mean. It sounds like variance, and the two are easy to mix up. The sample variance takes that total and divides it by the count less one. Variation is the raw total, before any dividing.
 
-The model says that each observation of Y equals an intercept, called b zero, plus a slope, called b one, times that observation of X, plus an error term. The intercept and slope are unknown population parameters, so we estimate them from a sample. The error term captures everything that moves Y other than X. Estimates carry a small hat on top, so a predicted value of Y is called Y hat.
+HEART: The variable you are trying to explain is the dependent variable. Here, that is the fare. It also goes by the explained variable, the endogenous variable or the predicted variable. The variable doing the explaining is the independent variable, here the distance. Its other names are the explanatory variable, the exogenous variable and the predicting variable. On a scatter plot, the dependent variable goes on the vertical axis and the independent variable on the horizontal one.
 
-So how is the line chosen? For any candidate line, each observation has a residual, which is the actual Y minus the Y that the line predicts. Ordinary least squares chooses the intercept and slope that make the sum of the squared residuals as small as possible. That sum is called the sum of squared errors.
+LEWIS: A quick way to keep them straight. The dependent variable depends. The fare depends on the distance, not the other way round.
 
-Why square the residuals? Two reasons. If you simply added them, positive and negative misses would cancel out. And squaring penalizes big misses much more than small ones.
+HEART: The model says that each observed value of the dependent variable, which we call Y, equals an intercept, plus a slope times the independent variable, which we call X, plus an error term. The error term, also called the residual or the disturbance term, holds everything that moves Y apart from X. In the ride share picture, it is the traffic jam, the surge price and the detour.
 
-Minimizing that sum produces two clean formulas. First, the slope. The estimated slope equals the covariance of X and Y divided by the variance of X. Second, the intercept. The estimated intercept equals the mean of Y minus the estimated slope times the mean of X. That second formula tells you the fitted line always passes through the point where X is at its mean and Y is at its mean.
+LEWIS: The true intercept and slope are unknown, so we estimate them from a sample, and the estimates wear a little hat. The fitted line is called the regression line, or the line of best fit, and the value it gives for Y at any X is the predicted value, called Y hat.
 
-Let us make it concrete, with Y as a company's sales growth and X as growth in gross domestic product, or GDP, both in percent. In your sample, average GDP growth is 2 percent and average sales growth is 7 percent. The covariance between the two is 3, and the variance of GDP growth is 1.5. The slope is 3 divided by 1.5, which is 2. The intercept is 7 minus 2 times 2, which is 3. So the fitted line says that predicted sales growth equals 3 percent plus 2 times GDP growth.
+HEART: So which line is best? Lay a ruler across the cloud. For each dot, measure the vertical gap between the actual fare and the fare the ruler predicts. That gap is the residual. Square each one, add them all up, and you have the sum of squared errors. The best line is the one that makes that total as small as it can possibly be.
 
-Now interpret those numbers. The slope of 2 means that for each 1 percentage point increase in GDP growth, sales growth is expected to rise by 2 percentage points. The intercept of 3 means that if GDP growth were zero, the model predicts sales growth of 3 percent. Zero may sit far outside the data, so the intercept may have no sensible economic meaning. For exam purposes, still read it as the predicted value of Y when X is zero.
+LEWIS: That is why the method is called ordinary least squares. Least squares, because it finds the smallest possible sum of squared errors. The fitted values it produces are called least squares estimates.
 
-You can run a small regression on the B A two plus. Press second, then DATA, above the 7 key, and clear old entries with second, then clear work, above the C E C key. Type the first X value, press enter, arrow down, type the first Y value, press enter, and arrow down to the next pair.
+HEART: Why vertical gaps? Because the line's job is to predict Y, so the misses that matter are misses in Y. And why square them? Two reasons. Plain gaps above and below the line would cancel each other out, so a terrible line could still score zero. And squaring punishes a big miss far more than a small one, so the line works hard to avoid wild misses.
 
-Try four pairs. X of 1 with Y of 4. X of 1 with Y of 6. X of 3 with Y of 8. X of 3 with Y of 10.
+LEWIS: The least squares math produces two clean relationships. First, the slope is the covariance of X and Y divided by the variance of X. In plain words, how much the two variables move together, scaled by how much X moves on its own.
 
-Now press second, then STAT, above the 8 key. If the display does not read L I N, press second, then SET, above the enter key, until it does. Arrow down past n, the means, and the standard deviations.
+HEART: Second, the intercept is the mean of Y minus the slope times the mean of X. Rearrange that and it tells you something worth remembering. The fitted line always passes through the point where both variables sit at their means. The average trip and the average fare land exactly on the line. Think of that point as the pivot the line turns on.
 
-Then a, the intercept, shows 3. Next, b, the slope, shows 2. Next, r, the correlation, shows about 0.89. That is the same line as our example. Right after r, type an X value at X prime, press enter, arrow down to Y prime, and press compute for the predicted Y. No sign convention applies, and the order of the pairs does not matter.
+LEWIS: Now interpretation. The slope is the expected change in Y for a one unit change in X. In the ride share example, it is the extra fare for each extra mile. It can be positive, negative or zero. A positive slope means Y tends to rise as X rises, and a negative slope means Y tends to fall.
 
-Here is a common confusion. The slope is not the correlation. Correlation is the covariance divided by the product of the two standard deviations, so it has no units and always sits between minus 1 and plus 1. The slope is the covariance divided by the variance of X, so it is measured in units of Y per unit of X, and it can be any size. They always share the same sign, because both take their sign from the covariance. If you need to link them, the slope equals the correlation times the standard deviation of Y divided by the standard deviation of X.
+HEART: The intercept is where the line crosses the vertical axis. It is the predicted value of Y when X is zero. For fares, that is roughly the charge for simply getting in the car. It too can be positive, negative or zero.
 
-A second trap. A significant slope shows association, not causation. Regression does not prove that X drives Y. In bank balance sheet work, analysts often regress changes in deposit rates on changes in market rates and read the slope as a rough pass through rate, but that slope describes past behavior, not a law.
+LEWIS: The trap with the intercept is taking it too literally. Regress home prices on floor area, and the intercept is the predicted price of a home with no floor space at all. That point sits far outside any real data, so it may have no sensible economic meaning. For the exam, still read it the same way, as the predicted value of Y when X is zero.
 
-Now the four assumptions. The estimates, and especially the hypothesis tests coming up next, rely on them, and you need to recognize violations from residual plots. A residual plot puts the residuals on the vertical axis against X, against the predicted Y, or against time. A well specified model gives a random cloud centered on zero with an even spread. Any shape is a clue.
+HEART: Here is where regression meets investing. Regress a stock's excess returns, meaning its returns above the risk free rate, on the excess returns of the whole market. The slope of that line is the stock's beta, a measure of its systematic risk. A beta of one means the stock has tended to move one for one with the market, which is average systematic risk. Above one, it tends to amplify the market's moves. Below one, it tends to move less than the market. Beta comes back in a big way in Portfolio Management.
 
-First, linearity. The relationship between X and Y is linear. If the true relationship curves, a straight line misses in a systematic pattern. The residual plot shows runs, for example positive residuals at both ends and negative residuals in the middle, a U shape. The usual fix is a transformation, which comes up in Module 10.3.
+LEWIS: Banks and credit unions run the same kind of regression on their own funding. Regress changes in the rate paid on savings accounts on changes in the central bank's policy rate, and the slope is what the industry calls a deposit beta, the share of each rate move that tends to get passed on to savers.
 
-Second, homoskedasticity. The variance of the residuals is the same for every observation. The violation is called heteroskedasticity. In a plot it looks like a fan or a funnel, with residuals spreading wider as X grows.
+HEART: Now a trap. A steep slope is not the same thing as a strong relationship, and a shallow slope is not the same thing as a weak one. Measure the trips in kilometers instead of miles and the slope changes, because a kilometer is shorter than a mile, so the fare per kilometer is smaller. Yet the trips, the fit and the strength of the relationship are exactly the same. Whether X really explains Y is a job for a hypothesis test or a confidence interval, and those come in the next module.
 
-Third, independence. The pairs of observations are independent of one another, which means the residuals are uncorrelated across observations. This is most often violated in time series data, where one period's error spills into the next. That is called autocorrelation or serial correlation. A plot of residuals over time shows long streaks above zero followed by long streaks below, or a repeating seasonal pattern.
+LEWIS: And a significant slope shows association, not causation. The line describes how the two variables have moved together. It does not prove that X drives Y.
 
-Fourth, normality. The residuals are normally distributed. This matters most for the t tests and F tests. Outliers are the usual warning sign. With a large sample, the central limit theorem helps, and the tests are approximately valid even if the residuals are not quite normal.
+HEART: Now the assumptions. Most of them are about the error term, and every test coming up in this reading leans on them. There are four.
 
-Here are the traps on assumptions. Normality is about the residuals, not about X or Y. Neither variable itself needs to be normally distributed. Homoskedasticity is about the spread of the residuals, not their average. A residual plot can be centered perfectly on zero and still violate homoskedasticity if the spread changes.
+LEWIS: One, the relationship between X and Y is linear. Two, the variance of the residuals is the same for every observation, which is called homoskedasticity. Three, the residuals are independent of each other, so one observation's error tells you nothing about another's. Put another way, the pairs of observations are independent. Four, the residuals are normally distributed.
 
-The rule to keep from this module. Least squares minimizes the sum of squared residuals. The slope equals the covariance of X and Y divided by the variance of X, and the intercept equals the mean of Y minus the slope times the mean of X, so the line passes through both means.
+HEART: You check them with a residual plot. Put the residuals on the vertical axis, against X or against time. A healthy model gives a shapeless band of dots centered on zero, with the same spread all the way across. Any shape at all is a clue that an assumption has failed.
+
+LEWIS: Start with linearity. Think about a car's fuel use per mile against its speed. Crawling in stop and go traffic burns a lot. A steady, moderate highway speed burns the least. Very high speed burns a lot again. That is a curve, and a straight line forced through it misses in a pattern. The actual values sit above the line at both ends and below it in the middle, so the residuals run positive, then negative, then positive again as X rises.
+
+HEART: When the residuals march in a pattern like that, the usual fix is to transform the data, which is exactly what the functional forms later in this episode do.
+
+LEWIS: Second, homoskedasticity, the constant variance assumption. Its violation is called heteroskedasticity. Picture household spending on vacations against household income. Families with modest incomes all spend fairly little, so their dots sit close to the line. High income families range from spending nothing to spending a great deal, so their dots scatter widely. The residual plot fans out as X grows, like a funnel lying on its side.
+
+HEART: Heteroskedasticity can also show up over time rather than across X. Plot the residuals against the date of each observation. During a calm stretch the misses are small, and during a crisis they balloon. Same violation, because the size of the errors keeps changing.
+
+LEWIS: Third, independence. Here the errors come in streaks. Take a model of a city's monthly home prices. If it underestimates prices in one month of a housing boom, it tends to underestimate them the next month too, and the month after that. A plot of residuals against time shows long runs above zero, then long runs below. A pattern that repeats every year is the same problem, such as a beach town's hotel bookings running above the model every summer.
+
+HEART: And the consequence matters. When the residuals are not independent, the estimated variances of the intercept and the slope are wrong, so every test built on them becomes unreliable.
+
+LEWIS: Fourth, normality. The tests of the fit and of the coefficients assume the residuals are normally distributed. A big sample gives you some slack here. Thanks to the central limit theorem, the estimates can still be trusted when the residuals are only roughly normal.
+
+HEART: Two traps on the assumptions. Normality is about the residuals, not about X or Y. Neither variable has to be normally distributed. And homoskedasticity is about the spread of the residuals, not their average. A plot can be perfectly centered on zero and still fail if the spread keeps changing.
+
+LEWIS: One more thing to watch for, outliers. These are a few observations far from the line, either because their errors are huge or because their X values sit far away from everyone else's. Least squares squares the errors, so a single wild point can drag the whole line toward itself, and then the line fits all the other points badly. Imagine one fare typed in with an extra zero. The line tilts to chase it.
+
+HEART: The takeaway. Least squares picks the line with the smallest sum of squared vertical misses. The slope is the covariance over the variance of X, the line passes through both means, and the four assumptions are linearity, constant variance, independence and normality of the residuals.
 
 ## Module 10.2, Analysis of Variance (ANOVA) and Goodness of Fit
 
-Once you have a line, the next question is how well it fits. The answer comes from splitting the variation in Y into two pieces, the part the line explains and the part it does not.
+LEWIS: You have a line. How good is it? Analysis of variance, or ANOVA, answers that by splitting the variation in Y into the part the line explains and the part it does not.
 
-Start with total variation. The total sum of squares, written S S T, adds up the squared differences between each actual Y and the mean of Y. It measures how much Y moves around before you use X at all.
+HEART: Picture a guessing game. Someone asks you to guess the fare of a random ride, and you know nothing else about it. Your best guess is the average fare. Square the misses from that guess and add them up, and you have the total sum of squares, S S T. It measures how much Y varies before X gets involved at all.
 
-Next, the regression sum of squares, written S S R, adds up the squared differences between each predicted Y and the mean of Y. That is the variation the line explains. Last, the sum of squared errors, written S S E, adds up the squared differences between each actual Y and its predicted Y. That is what is left unexplained.
+LEWIS: Now you are told each trip's distance, and you guess with the line instead. Part of your old miss disappears. The gap between each predicted value and the average is the part the line explains. Square those gaps and add them up, and you have the sum of squares regression, S S R, also called the regression sum of squares.
 
-The identity to know is that the total sum of squares equals the regression sum of squares plus the sum of squared errors. Total equals explained plus unexplained.
+HEART: The miss that is left, between each actual fare and the line's prediction, is the unexplained part. Square those and add them up, and you have the sum of squared errors, S S E, the very total that least squares made as small as possible. It also goes by the sum of squared residuals, or the residual sum of squares.
 
-From that split comes the coefficient of determination, r squared. R squared equals the regression sum of squares divided by the total sum of squares. Equivalently, it equals 1 minus the sum of squared errors divided by the total sum of squares. It is the fraction of the variation in Y that X explains.
+LEWIS: And the three fit together exactly. Total variation equals explained variation plus unexplained variation. The total sum of squares equals the regression sum of squares plus the sum of squared errors.
 
-In simple regression, with one independent variable, r squared is exactly the square of the correlation between X and Y. So a correlation of 0.6 gives r squared of 0.36. Going the other way, take the square root of r squared and give it the sign of the slope.
+HEART: That split gives you the most quoted measure of fit, the coefficient of determination, written R squared. It is the explained variation divided by the total variation. Equivalently, it is the total minus the unexplained, divided by the total. In plain words, it is the share of the swings in Y that X accounts for.
 
-These pieces are laid out in an analysis of variance table, or ANOVA table. It has a row for the regression, a row for the error, and a total row. Each row shows degrees of freedom and a sum of squares, and the first two rows also show a mean square. Degrees of freedom are where candidates slip.
+LEWIS: It runs from zero to one. Zero means the line does no better than simply guessing the average. One means every dot sits exactly on the line.
 
-The regression row has 1 degree of freedom, because there is one independent variable. The error row has n minus 2, because you estimated two parameters, the intercept and the slope. The total row has n minus 1. A mean square is a sum of squares divided by its degrees of freedom. So the mean square regression, M S R, equals the regression sum of squares divided by 1, and the mean squared error, M S E, equals the sum of squared errors divided by n minus 2.
+HEART: And in a simple regression, with just one independent variable, R squared is exactly the correlation coefficient squared. That has a sobering consequence. A correlation of one half sounds respectable, but it explains only a quarter of the variation in Y. Three quarters is still unexplained.
 
-The F statistic equals the mean square regression divided by the mean squared error. It tests whether the independent variable explains a significant share of the variation in Y. The null hypothesis is that the slope equals zero. The F test is one tailed. You reject the null when F exceeds the critical value with 1 degree of freedom in the numerator and n minus 2 in the denominator.
+LEWIS: Going the other way, the square root of R squared gives you the size of the correlation. Its sign comes from the slope, because R squared on its own cannot tell you which way the line tilts.
 
-The standard error of estimate is the square root of the mean squared error. In words, take the sum of squared errors, divide by n minus 2, and take the square root. It measures the typical distance between an actual Y and the line, in the units of Y. Watch the direction here. A higher r squared means a better fit, but a lower standard error of estimate means a better fit.
+HEART: The ANOVA results come laid out as a table, with a row for the regression, the explained part, a row for the error, the unexplained part, and a row for the total. Each row carries its degrees of freedom and its sum of squares, and the first two also carry a mean square.
 
-Let us fill a full table with round numbers. You have 27 observations. The total sum of squares is 400. The regression sum of squares is 300, so the sum of squared errors is 100. R squared is 300 divided by 400, which is 0.75, so 75 percent of the variation in Y is explained.
+LEWIS: Degrees of freedom are where candidates slip, so here is the logic. The regression row gets one degree of freedom, because there is one independent variable. The error row gets the sample size minus two, because two parameters were estimated from the data, the intercept and the slope, and each one uses up a piece of independent information. The total row gets the sample size minus one. And the first two add up to the third.
 
-Error degrees of freedom are 27 minus 2, which is 25. The mean squared error is 100 divided by 25, which is 4. The standard error of estimate is the square root of 4, which is 2.
+HEART: A mean square is a sum of squares divided by its degrees of freedom. The mean square regression, M S R, is the regression sum of squares divided by the number of independent variables. With only one independent variable, it simply equals the regression sum of squares. The mean squared error, M S E, is the sum of squared errors divided by the sample size minus two.
 
-The mean square regression is 300 divided by 1, which is 300. And F is 300 divided by 4, which is 75. That is far above the 5 percent critical value of about 4.2, so the slope is significant. The correlation is the square root of 0.75, about 0.87, with the same sign as the slope.
+LEWIS: Regression with several independent variables, called multiple regression, waits until Level II.
 
-Now the tests on individual coefficients. The t statistic for the slope equals the estimated slope minus the hypothesized slope, divided by the standard error of the slope. It has n minus 2 degrees of freedom. The standard error of the slope equals the standard error of estimate divided by the square root of the sum of the squared deviations of X from its mean. So the slope is pinned down more precisely when the line fits tightly and when the X values are widely spread.
+HEART: Next, the standard error of estimate, which we will call the S E E. It is the standard deviation of the residuals, and it equals the square root of the mean squared error. It tells you the typical size of a miss, in the same units as Y. If a fare model's S E E is a couple of dollars, a typical fare lands within a couple of dollars of the line.
 
-Here is an example. The estimated slope is 1.2 and its standard error is 0.3. To test whether the slope equals zero, t equals 1.2 divided by 0.3, which is 4. With 25 degrees of freedom, the two tailed critical value at 5 percent is about 2.06, so you reject the null. The slope is significantly different from zero.
+LEWIS: And here is a direction trap. A higher R squared means a better fit. A lower S E E means a better fit. One is the share you explain and the other is the size of the typical miss, so as the fit improves they move in opposite directions.
 
-Now the trap. Suppose that slope is a stock's beta, and the question asks whether beta is different from 1. Now t equals 1.2 minus 1, which is 0.2, divided by 0.3, which is about 0.67. You fail to reject. The same slope is significant against zero and not significant against 1. Always subtract the hypothesized value the question actually names.
+HEART: Now the formal test of fit, the F test. The F statistic is the mean square regression divided by the mean squared error. Think of it as explained variation per degree of freedom, over unexplained variation per degree of freedom. Signal over noise.
 
-The intercept is tested the same way, with its own standard error and n minus 2 degrees of freedom. One special case. If X is an indicator variable that equals 1 when some condition holds and zero otherwise, the intercept is the average Y when the condition does not hold, and the slope is the average Y when the condition holds minus the average Y when it does not.
+LEWIS: It asks whether the model, with all its independent variables taken together, explains a significant share of the variation in Y. With only one independent variable, that is the same as asking whether the slope is zero. So the null hypothesis says the slope equals zero, and the alternative says it does not.
 
-In simple regression, three tests always agree. The t test that the slope equals zero, the t test that the correlation equals zero, and the F test all reach the same conclusion. In fact, F equals the square of the slope's t statistic. In our ANOVA example, F was 75, so the t statistic on the slope has a magnitude equal to the square root of 75, about 8.7.
+HEART: Here is the subtle point. The alternative says not equal to zero, which sounds two tailed. But the F test is always one tailed. You reject only when F lands above the critical value, in the upper tail.
 
-The rule to keep from this module. Total variation equals explained plus unexplained. R squared is the regression sum of squares divided by the total sum of squares. F is the mean square regression divided by the mean squared error, with 1 and n minus 2 degrees of freedom. And the standard error of estimate is the square root of the mean squared error.
+LEWIS: Why only the upper tail?
+
+HEART: Because F is a ratio built from sums of squares, so it can never be negative. A clear upward relationship and a clear downward relationship both make the explained variation large compared with the unexplained variation, and both push F up. A small F means the line explains almost nothing. So evidence against the null only ever shows up as a large F.
+
+LEWIS: The degrees of freedom are one in the numerator and the sample size minus two in the denominator. And rejecting the null tells you that X and Y have a significant linear relationship.
+
+HEART: The other tool is a t test on the slope itself. Take the estimated slope, subtract the slope the null hypothesis claims, and divide by the standard error of the slope. The test has the sample size minus two degrees of freedom, and the usual decision rule is two tailed. You reject if t lands beyond either critical value.
+
+LEWIS: To test whether X has any explanatory power at all, the hypothesized slope is zero. But you can test against any value the question names.
+
+HEART: And that is the trap. Go back to beta. Suppose a question asks whether a stock's beta is different from one, in other words whether the stock is more or less sensitive than the market. Now you subtract one, not zero. A beta can be clearly different from zero and still not be distinguishable from one. Always subtract the value the question actually names.
+
+LEWIS: What makes the standard error of the slope small?
+
+HEART: A tight fit, meaning a small S E E, plenty of observations, and a wide spread in the X values. If every ride in your sample were about three miles long, you could barely tell what an extra mile costs. Mix short hops with long airport runs and the per mile rate is pinned down.
+
+LEWIS: You can also put a confidence interval around the slope. If the interval contains the hypothesized value, you fail to reject the null, and if it does not, you reject. The intercept can be tested the same way.
+
+HEART: In a simple regression, three tests always agree. The t test that the slope is zero, the t test that the correlation is zero, and the F test all reach the same verdict. In fact, the F statistic is the square of the t statistic for a slope of zero.
+
+LEWIS: Last idea in this module, the indicator variable, also called a dummy variable. It is a series that switches to one whenever some condition is true and sits at zero the rest of the time. Used as the independent variable, it lets you test whether that condition makes a significant difference to Y.
+
+HEART: Here is an example. Take a stock's daily returns, and build an indicator equal to one on days the central bank announces a rate decision and zero on every other day. Regress the returns on that indicator. The intercept is the average return on ordinary days, because on those days the indicator is zero. The slope is the average return on announcement days minus the average return on ordinary days.
+
+LEWIS: So testing whether that slope is zero is the same as testing whether the two groups of days have different average returns. It is a difference in means test dressed up as a regression.
+
+HEART: The takeaway. Total variation equals explained plus unexplained. R squared is the explained share, and in simple regression it is the correlation squared. The S E E is the typical miss, so lower is better. F is the mean square regression over the mean squared error, always one tailed, with one and the sample size minus two degrees of freedom. And when you test a slope, subtract the value the question names.
 
 ## Module 10.3, Predicted Values and Functional Forms of Regression
 
-Once the line is estimated, a point forecast is simple. The predicted value of Y equals the estimated intercept plus the estimated slope times the forecast value of X. Using our sales line, with an intercept of 3 and a slope of 2, if you expect GDP growth of 4 percent, predicted sales growth is 3 plus 2 times 4, which is 11 percent.
+LEWIS: Once the line is estimated, forecasting is the easy part. The predicted value of Y is the estimated intercept plus the estimated slope times your forecast of X. Tell the ride share model how long the trip will be, and it hands back a fare.
 
-A point forecast alone hides the uncertainty, so you wrap a prediction interval around it. The interval equals the predicted value, plus or minus the critical t value times the standard error of the forecast. The critical t uses n minus 2 degrees of freedom.
+HEART: But a single number hides the uncertainty, so you wrap a range around it. That range is called a prediction interval, or a confidence interval for the predicted value. It is the predicted value plus or minus a critical t value times the standard error of the forecast. The critical t is two tailed, with the sample size minus two degrees of freedom.
 
-The standard error of the forecast is larger than the standard error of estimate, because it reflects two sources of uncertainty. One is the normal scatter of actual values around the line. The other is that the line itself is estimated with error.
+LEWIS: You read it like this. Given the forecast of X, you can be, say, ninety five percent confident that the actual value of Y will land inside that range.
 
-Here is the formula, slowly. The variance of the forecast error equals the standard error of estimate squared, times the sum of three terms. The first term is 1. The second is 1 divided by n. The third is the squared distance between the forecast X and the mean of X, divided by the product of n minus 1 and the sample variance of X. The standard error of the forecast is the square root of that variance.
+HEART: The standard error of the forecast is bigger than the S E E, because it carries two kinds of uncertainty. One is the ordinary scatter of actual values around the line, which never goes away. The other is that the line itself was estimated from a sample, so its intercept and slope are a little off.
 
-What matters most is how it behaves. The 1 represents scatter around the line and never goes away. The 1 over n term shrinks as the sample grows. The last term grows as the forecast X moves away from the mean of X. So prediction intervals are narrowest at the mean of X and widen as you move away from it in either direction.
+LEWIS: You will rarely need to build it from scratch, so focus on how it behaves. In words, its variance is the squared S E E scaled up by the sum of three pieces. A one, for the scatter that never shrinks. A piece that shrinks as the sample gets bigger. And a piece that grows with the squared distance between your forecast of X and the mean of X.
 
-Now an interval example. The point forecast is 11 percent. Suppose the standard error of the forecast is 1.5 and you have 60 degrees of freedom, so the two tailed 5 percent critical t is about 2.0. The interval is 11 plus or minus 2 times 1.5, which is 11 plus or minus 3. The 95 percent prediction interval runs from 8 percent to 14 percent.
+HEART: That last piece is the one to picture. Remember that the line pivots on the point of the two means. A small error in the slope barely matters near the pivot, but it throws the line further and further off the farther out you go, like a seesaw that hardly moves near the middle and swings wide at the ends.
 
-Two traps here. The first is building the interval with the standard error of estimate instead of the standard error of the forecast. That makes the interval too narrow. The second is trusting forecasts far outside the range of the data. The interval is wider out there, and the linear relationship itself may not hold.
+LEWIS: So prediction intervals are narrowest at the mean of X and flare out in both directions, like an hourglass lying on its side. Even at the waist it stays fairly wide, because the scatter around the line never goes away.
 
-Now functional forms. Sometimes the raw relationship is curved, and a straight line leaves a pattern in the residuals. Taking natural logs of one or both variables can straighten it out. Three forms matter, and the naming rule is simple. The first word describes the dependent variable, and the second word describes the independent variable.
+HEART: Two traps. Using the S E E instead of the standard error of the forecast makes the interval too narrow, because it ignores the uncertainty in the line itself. And forecasting far outside the range of your data is doubly risky. The interval is wide out there, and the straight line relationship may not even hold. A fare model built on trips across town says very little about a four hour drive.
 
-The log lin model regresses the natural log of Y on X. The slope is the relative change in Y for an absolute change in X. A slope of 0.05 means Y rises by about 5 percent for each one unit increase in X. This is the natural fit when Y grows at a roughly constant rate over time, with time as the independent variable. When you forecast, the model gives you the natural log of Y, so you must raise e, the base of natural logs, to that power to get back to Y itself.
+LEWIS: Now functional forms. The first assumption was a linear relationship. What if the data curve?
 
-The lin log model regresses Y on the natural log of X. The slope is the absolute change in Y for a relative change in X. With a slope of 10, a 1 percent increase in X raises Y by about 10 times 0.01, which is 0.1 units.
+HEART: Picture a city whose population grows by a steady percentage every year. Plot population against the year and the dots curve upward, because each year's growth builds on a bigger base. A straight line misses in exactly the pattern from the linearity discussion.
 
-The log log model regresses the natural log of Y on the natural log of X. The slope is an elasticity, the percent change in Y for a 1 percent change in X. A slope of 0.8 means a 1 percent increase in X goes with about a 0.8 percent increase in Y.
+LEWIS: The fix is to transform one or both variables, most often with the natural logarithm. Take the log of the population and that upward curve becomes a straight line, because steady percentage growth turns into steady growth in the log.
 
-How do you choose among forms? Compare the goodness of fit measures from Module 10.2, and above all look at the residuals. The right form leaves residuals with no visible pattern.
+HEART: There are three forms to know, and the naming rule makes them easy. The first word describes the dependent variable, and the second word describes the independent variable. Log means that variable is in natural logs. Lin means it is left linear, just as it is.
 
-The trap is mixing up log lin and lin log. Remember that the first word is the dependent variable. Log lin logs Y. Lin log logs X.
+LEWIS: The log lin model takes the log of the dependent variable and leaves the independent variable alone. Its slope is the relative change in Y for an absolute change in X. In the population example, the slope is roughly the growth rate per year, a percentage change in Y for each one year step in X.
 
-The rule to keep from this module. The predicted value equals the intercept plus the slope times X. The prediction interval is the predicted value plus or minus the critical t times the standard error of the forecast, and it is narrowest at the mean of X.
+HEART: One forecasting trap with log lin. The model hands you the log of Y, not Y itself. You have to undo the log to get back to the actual population.
+
+LEWIS: The lin log model leaves the dependent variable alone and logs the independent variable. Its slope is the absolute change in Y for a relative change in X. Picture an online store and its advertising budget. The first dollars of advertising bring in lots of new sales, and later dollars bring in less and less. If every doubling of the budget adds the same number of extra sales, a lin log model fits. Y moves in units, while X moves in percentages.
+
+HEART: The log log model logs both. Its slope is the relative change in Y for a relative change in X, a percentage for a percentage. Economists call that an elasticity. Picture concert ticket prices and attendance. If raising the price by one percent tends to cut attendance by about two percent, the log log slope is about minus two.
+
+LEWIS: How do you choose a form? Start with the nature of the variables. Steady percentage growth over time points toward log lin. Then compare the goodness of fit measures from the analysis of variance, meaning the R squared, the S E E and the F statistic, and look at the residuals. The right form leaves no visible pattern.
+
+HEART: And the trap is mixing up log lin and lin log. The first word is always about Y. Log lin logs Y. Lin log logs X.
+
+LEWIS: The takeaway. A forecast is the intercept plus the slope times the forecast of X, wrapped in a prediction interval built on the standard error of the forecast, which is narrowest at the mean of X. When the data curve, logs straighten them, and the first word of the model's name tells you what happened to Y.
 
 ## Module 11.1, Introduction to Fintech
 
-The last module shifts from statistics to data and technology. Fintech is short for financial technology, meaning the use of new technology to create and provide financial products and services.
+HEART: The last module moves from statistics to technology. Fintech, short for financial technology, is technology put to work in finance, and the firms that build it are called fintech companies. For financial data, two developments stand out: coping with floods of data that arrive from everywhere in every format, and smarter analysis, led by artificial intelligence.
 
-Big Data refers to data sets that are very large and complex. They are described by three V words. Volume is the sheer quantity of data. Velocity is the speed at which data arrive, all the way up to real time. Variety is the range of forms the data take. When you use Big Data to draw conclusions, a fourth V word matters, veracity, meaning how accurate and reliable the data and their sources are.
+LEWIS: Which brings us to Big Data. It is the vast pool of information produced across the economy that could be useful to an analyst. Some of it comes from traditional sources: prices and trading in financial markets, companies' financial reports, and government economic statistics. The rest is alternative data, from nontraditional sources.
 
-Data also come in different structures. Structured data are organized in rows and columns, like price histories and financial statements. Unstructured data have no predefined format, such as text, social media posts, images, and audio. Semi structured data sit in between, with some organization but not a full table, such as web page code.
+HEART: Those alternative sources come in three groups. Individuals create data through what they post, review, search and click. Businesses create data as a byproduct of simply running their operations, such as an airline's booking records, a delivery firm's package scans or a payment processor's transaction logs. That kind of data is called corporate exhaust.
 
-Sources split into traditional and alternative. Traditional sources include markets, company filings, and government statistics. Alternative data come from three places. Individuals create it through social media, product reviews, and web searches. Businesses create it as a byproduct of their operations, sometimes called corporate exhaust, such as credit card transactions and store scanner data. And sensors create it, such as satellite images, smartphone location data, and the internet of things, which means everyday devices connected to the internet.
+LEWIS: And sensors create data around the clock. A shipping container that reports its location, a smart thermostat, a satellite photographing farmland. Link enough devices like these to the internet and you have what is called the Internet of Things.
 
-Data science combines computer science, statistics, and subject knowledge to pull insight out of data. Processing involves several steps. Capture is collecting the data. Curation is cleaning it, fixing errors, and handling missing values. Then come storage, search, and transfer.
+HEART: Big Data is described by three characteristics, the three V's. Volume, velocity and variety.
 
-Visualization helps people see the result. For text, a tag cloud shows the most frequent words in larger type, and a mind map shows how ideas connect. For numbers, a heat map uses color to show values.
+LEWIS: Volume is the sheer quantity, and it grows by orders of magnitude, meaning many times over, so the largest data sets now dwarf anything a home computer could hold.
 
-Artificial intelligence means computer systems that perform tasks that traditionally required human intelligence, such as recognizing patterns or understanding language. Machine learning is a branch of artificial intelligence in which algorithms learn patterns from data instead of following rules a programmer writes in advance. The data are typically split. The model learns on a training data set and is then judged on a separate validation or test set that it has never seen.
+HEART: Velocity is how quickly the data arrive. And here the jargon runs backward from what you might expect. Data that arrive in real time, like a live stream of card payments, are said to have low latency. Data that arrive only now and then, or with a delay, like a government report released once a quarter, have high latency. Latency is the delay, so low latency means fast.
 
-There are three flavors to know. In supervised learning, the training data are labeled with the correct answer, for example past loans tagged as defaulted or repaid, and the model learns to predict the label for new cases. In unsupervised learning, there are no labels, and the algorithm finds structure on its own, such as grouping companies into clusters with similar traits. Deep learning uses neural networks with many layers to capture very complex patterns, and it powers tasks like image and speech recognition.
+LEWIS: Variety is about how structured the data are. Structured data sit neatly in rows and columns, like a table of daily bond yields. Semistructured data have some organization but not a full table. An email is a good example, with labeled fields for the sender, the date and the subject, followed by a body of free text. Unstructured data have no set format at all, like the recorded audio of a conference call or a stack of satellite photos.
 
-Two failure modes are worth knowing cold. Overfitting means the model is too complex and learns the noise in the training data along with the signal. It looks excellent on the training data and performs poorly on new data. Underfitting means the model is too simple and misses real relationships, so it performs poorly even on the training data. The tempting wrong answer is that a near perfect fit to the training data is good news. More often it is a warning sign.
+HEART: Turning all that into insight is the job of data science, the methods for processing and visualizing data. Processing runs in five steps. Capture is collecting the data and converting it into a form you can use. Curation is quality control, cleaning out errors and dealing with gaps. Storage is archiving the data so they can be reached later. Search is digging through what is stored to find what you need. And transfer is delivering the data, straight from the source or out of storage, to the people and systems that will use them.
 
-In investment management, text analytics turns documents into usable data, and natural language processing lets computers interpret human language. Analysts use these tools to read earnings call transcripts, filings, and news at scale and to score sentiment. Other uses include fraud detection, risk monitoring, and algorithmic trading.
+LEWIS: Then comes visualization, helping people see the result. When data sit neatly in rows and columns, an ordinary bar chart or line graph does the job. Messier data need different pictures. A word cloud shows how often words appear in a body of text, with the most frequent words in the biggest type. A mind map shows how ideas connect to one another.
 
-One more trap. Big Data does not guarantee better answers. Alternative data can be messy, incomplete, or biased toward the people and businesses that generated it, so cleaning and judgment still matter.
+HEART: None of this is automatic. Big Data brings real quality problems: outliers, bad or missing values, and sampling bias. Posts on social media, for example, only reflect the people who post, not the whole population. And there has to be enough data, of the right kind, for the question being asked.
 
-The rule to keep from this module. Big Data is volume, velocity, and variety, plus veracity when you draw conclusions. Supervised learning uses labeled data and unsupervised learning does not. An overfit model shines on training data and fails on new data.
+LEWIS: Messy, unstructured data are where artificial intelligence earns its keep. Artificial intelligence means getting computers to do things that normally take human thinking, such as recognizing patterns or reading language. Neural networks are one example. They are built from layers of simple connected units, a design inspired by the way neurons in the brain pass signals.
+
+HEART: Machine learning is a branch of artificial intelligence in which nobody writes the rules. You feed an algorithm data and it works the rules out for itself, either learning to reproduce answers you supply or finding patterns on its own. It assumes no particular probability distribution, and it improves with experience, which is why it usually needs a great deal of data.
+
+LEWIS: The work typically uses three separate data sets. Think about how you are preparing for this exam. The training data set is like your practice questions, where the algorithm looks for relationships. The validation data set is like a progress quiz, used to refine and tune what it learned. And the test data set is like a mock exam it has never seen, used to judge how well it really predicts.
+
+HEART: There are two main ways to learn. In supervised learning, every input comes labeled with the right output, and the model learns to produce one from the other before it meets new data. A spam filter is the everyday case, trained on emails people have already marked as spam or not spam.
+
+LEWIS: In unsupervised learning, there are no labels. The algorithm gets only the inputs and has to describe their structure on its own. Give it the spending habits of thousands of customers, and it might sort them into groups that nobody defined in advance.
+
+HEART: Deep learning stacks neural networks in layers, each building on the one before. In a photo, the first layer might pick out edges, the next shapes, and a later one a whole face. It can work with labeled or unlabeled data, and it powers speech and image recognition.
+
+LEWIS: Then the two ways a model can go wrong. Overfitting means the model has studied its training data too closely. It mistakes random noise for real structure, so it ends up seeing relationships that are not really there. The model is more complex than the data justify. Picture a candidate who memorizes the answer to every practice question but never learns the concepts. Perfect on the practice set, lost on the real exam.
+
+HEART: Underfitting is the opposite failure. The model is too simple to capture what is really going on, so genuine patterns get dismissed as noise. That candidate skimmed a single summary page and did poorly everywhere, on the practice questions and on the exam.
+
+LEWIS: The trap is thinking that a near perfect fit to the training data is good news. More often, it is a warning sign of overfitting. And there is one more challenge. Machine learning can be a black box. It may produce answers that rest on relationships nobody can easily explain, which is uncomfortable when a client or a regulator asks why.
+
+HEART: Now the uses in investment management. There are four to know: text analytics, natural language processing, risk governance and algorithmic trading.
+
+LEWIS: Text analytics turns written or spoken material, which is unstructured, into something you can measure. The most basic version is counting. Picture scanning thousands of earnings call transcripts and tracking how often managers say uncertain, or headwinds. Work like that can take over chunks of routine reading.
+
+HEART: Natural language processing goes a step further, getting a machine to understand what people mean, not just count their words. Transcribing speech and translating between languages are both examples. An analyst might use it to score every speech by central bank officials and track whether the tone is drifting more hawkish, meaning more inclined to raise rates.
+
+LEWIS: Risk governance is the oversight of everything a firm is exposed to. Regulators expect firms to assess their risks and to stress test them, and the scenarios behind those tests consume enormous amounts of data, both hard numbers and softer judgment. Machine learning helps build and check those risk models, and it is most useful when exposures are tracked as they happen rather than at month end. For a bank, think of watching deposit outflows and loan stress day by day instead of quarter by quarter.
+
+HEART: And algorithmic trading is computerized trading that follows rules fixed in advance. An algorithm can decide how best to execute a trade using live price and volume data. It can break a very large order into smaller pieces and spread them across different trading venues, so the order does not push the price against itself. And high frequency trading uses algorithms to find and exploit tiny mispricings within the trading day.
+
+LEWIS: The takeaway. Big Data is volume, velocity and variety, and low latency means fast. Supervised learning has labels and unsupervised learning does not. Overfitting memorizes noise and underfitting misses the signal. And the four applications are text analytics, natural language processing, risk governance and algorithmic trading.
 
 ## Recall check
 
-Q: You plot the residuals against the independent variable and see the spread widen steadily as X increases. Which regression assumption is most likely violated?
+LEWIS Q: Two analysts regress the same fares on the same trips, one measuring distance in miles and the other in kilometers. Do they get the same slope, and do they find the same strength of relationship?
 
-Answer: Homoskedasticity. A fan shape means the variance of the residuals changes with X, which is heteroskedasticity. The residuals can still average zero, so a plot centered on zero does not rule it out.
+HEART: Answer. Different slopes, but exactly the same strength of relationship. Here is why. The slope is measured in units of Y per unit of X, so changing the unit of X rescales it, and the fare per kilometer is smaller than the fare per mile. But the trips, the residuals and the share of variation explained do not change at all. That is why the size of a slope never tells you how strong a relationship is.
 
-Q: A regression has a total sum of squares of 500 and a sum of squared errors of 100. What is r squared?
+HEART Q: A residual plot against X spreads wider and wider as X increases. Which assumption is violated, and what is the violation called?
 
-Answer: 0.8, or 80 percent. The regression sum of squares is 500 minus 100, which is 400, and r squared is 400 divided by 500.
+LEWIS: Answer. The constant variance assumption, homoskedasticity, is violated, and the violation is called heteroskedasticity. Here is why. Homoskedasticity requires every observation's error to have the same variance. A fan shape means the typical miss grows with X, so the variance is not constant. The plot can still be centered on zero, so a zero average does not rule it out.
 
-Q: An estimated beta is 1.4 with a standard error of 0.5, and the sample is large. At the 5 percent level, is beta significantly different from 1?
+LEWIS Q: Does simple linear regression require the dependent and independent variables themselves to be normally distributed?
 
-Answer: No. The t statistic is 1.4 minus 1, which is 0.4, divided by 0.5, which gives 0.8, well below a critical value near 2. Testing the same beta against zero gives a t of 2.8, which is significant, and that is the tempting wrong answer.
+HEART: Answer. No, the normality assumption applies to the residuals. Here is why. The tests of the fit and of the coefficients are built on how the errors are distributed around the line, not on how X or Y are distributed. And with a large sample, the central limit theorem means the estimates can still be valid even when the residuals are not quite normal.
 
-Q: Which forecast value of X produces the widest prediction interval: X equal to its sample mean, X slightly above its mean, or X far below its mean?
+HEART Q: In a simple regression, how is R squared related to the correlation between X and Y, and what does R squared measure?
 
-Answer: X far below its mean. The standard error of the forecast contains the squared distance between the forecast X and the mean of X, so the interval widens in either direction as you move away from the center. It is narrowest exactly at the mean.
+LEWIS: Answer. R squared is the correlation squared, and it measures the share of the variation in Y that X explains. Here is why. R squared is the explained variation divided by the total variation, and with a single independent variable that share works out to the squared correlation. Squaring a fraction such as one half gives a much smaller fraction, which is why a respectable looking correlation explains a surprisingly small share. The square root gives back the size of the correlation, and its sign comes from the slope.
 
-Q: A variable grows at a roughly constant percentage rate over time. Which functional form is most appropriate for regressing it on time: lin log, log lin, or log log?
+LEWIS Q: Why does the error row of the ANOVA table have the sample size minus two degrees of freedom?
 
-Answer: Log lin. Taking the natural log of the dependent variable turns constant percentage growth into a straight line against time, and the slope reads as the approximate growth rate per period. Lin log would log the independent variable instead, which is the common mix up.
+HEART: Answer. Because two parameters, the intercept and the slope, were estimated from the same data. Here is why. Each estimate uses up one piece of independent information. Once the line is fitted, the residuals are forced to satisfy two conditions, so only the sample size minus two of them are free to vary. That count is also the divisor in the mean squared error, and so in the S E E.
 
-Q: A machine learning model classifies past loans almost perfectly in its training data but does poorly on a new sample. What is the most likely problem, and what type of learning is this?
+HEART Q: The F test in a simple regression has a null that the slope is zero and an alternative that it is not. Why is it still a one tailed test?
 
-Answer: Overfitting, in a supervised learning setting. The model learned noise specific to the training data, so it does not generalize to new cases. It is supervised because the training loans carried labels, defaulted or repaid.
+LEWIS: Answer. Because only a large F counts as evidence against the null. Here is why. F is the mean square regression divided by the mean squared error, a ratio built from sums of squares, so it is never negative. A clear relationship in either direction, rising or falling, makes the explained part large relative to the unexplained part, and that pushes F up. So the rejection region sits only in the upper tail.
 
-## Recap
+LEWIS Q: A question asks whether a stock's beta is significantly different from one. What value do you subtract from the estimated slope in the t statistic?
 
-Ordinary least squares minimizes the sum of squared residuals, and the slope equals the covariance of X and Y divided by the variance of X, with the line passing through both means. The four assumptions are linearity, homoskedasticity, independence, and normality of the residuals, and residual plots expose violations as curves, fans, and streaks. Total variation equals explained plus unexplained, and r squared is the regression sum of squares divided by the total sum of squares, which in simple regression equals the correlation squared. The F statistic is the mean square regression divided by the mean squared error, with 1 and n minus 2 degrees of freedom, and the standard error of estimate is the square root of the mean squared error.
+HEART: Answer. One, the value the question names. Here is why. The t statistic measures how many standard errors the estimate sits from the hypothesized value. Testing against zero only asks whether the stock moves with the market at all. A beta can be far from zero and still be statistically indistinguishable from one, so testing against zero answers the wrong question.
 
-Test the slope against the value the question names, not automatically against zero. Prediction intervals use the standard error of the forecast and widen as X moves away from its mean. Log lin logs the dependent variable, lin log logs the independent variable, and the log log slope is an elasticity. Big Data means volume, velocity, and variety, supervised learning uses labeled data, and an overfit model shines on training data but fails on new data.
+HEART Q: You regress a stock's daily returns on an indicator equal to one on central bank announcement days and zero on all other days. What do the intercept and the slope tell you?
+
+LEWIS: Answer. The intercept is the average return on ordinary days, and the slope is how much higher or lower the average return is on announcement days. Here is why. On ordinary days the indicator is zero, so the prediction is just the intercept. On announcement days the indicator is one, so the prediction is the intercept plus the slope. Testing whether the slope is zero is the same as a difference in means test between the two groups of days.
+
+LEWIS Q: For which value of X is the prediction interval narrowest, and why does it widen elsewhere?
+
+HEART: Answer. At the mean of X. Here is why. The fitted line pivots on the point of the two means, so an error in the estimated slope barely matters there. The farther the forecast of X sits from the mean, in either direction, the more that slope error swings the prediction. So the standard error of the forecast grows and the interval flares out.
+
+HEART Q: A quantity grows by a steady percentage each year. Which functional form straightens it against time, and how do you read the slope?
+
+LEWIS: Answer. The log lin model, and the slope is roughly the growth rate per period. Here is why. Steady percentage growth multiplies the level by the same factor each year, and the natural log turns that multiplying into adding. So the log of Y rises by about the same amount each year, which is a straight line. The slope is a relative change in Y for an absolute, one period change in X.
+
+LEWIS Q: A data feed is described as having low latency. Is it fast or slow, and which characteristic of Big Data does that describe?
+
+HEART: Answer. Fast, and it describes velocity. Here is why. Latency is the delay between when something happens and when the data reach you. Low latency means very little delay, as with a live stream of transactions, while high latency means data that come periodically or with a lag, like a quarterly government report. Velocity is the characteristic about how quickly data are communicated.
+
+HEART Q: A machine learning model classifies its training data almost perfectly but does poorly on a test set it has never seen. What went wrong, and why is a near perfect training fit a warning sign?
+
+LEWIS: Answer. The model is overfitted. Here is why. It learned the training data too closely, mistaking random noise for real structure, so it is more complex than the data justify. Noise does not repeat in new data, so the patterns it memorized fail on the test set. A model that captured only the real signal would score a little lower on the training data and better on data it has never seen.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: The dependent variable depends. It is Y, the thing being explained, on the vertical axis. X is the explainer.
+
+HEART: Least squares makes the sum of the squared vertical misses as small as possible. The slope is covariance over the variance of X, and the line always runs through the point of the two means.
+
+LEWIS: For the assumptions, think LINE. Linear relationship. Independent residuals. Normal residuals. Equal variance of the residuals, which is homoskedasticity. On a residual plot, a curve means not linear, a fan means heteroskedasticity, and streaks over time mean the residuals are not independent.
+
+HEART: For the split: total equals explained plus unexplained. R squared is the explained share, and in simple regression it is the correlation squared, so a correlation of one half explains only a quarter. R squared up is good, S E E down is good.
+
+LEWIS: For degrees of freedom: one for the regression and the sample size minus two for the error, because the error row pays one for the intercept and one for the slope.
+
+HEART: For F: explained over unexplained, each per degree of freedom, and only the upper tail counts. For a t test on a slope, subtract the value the question names. Beta against one, not zero.
+
+LEWIS: For a dummy variable: the intercept is the average when the condition is off, and the slope is the difference when it switches on.
+
+HEART: For forecasts: the prediction interval is an hourglass on its side, pinched at the mean of X, and it is built on the standard error of the forecast, never the S E E alone.
+
+LEWIS: For log models: the first word is Y and the second is X. Log talks in relative changes, lin talks in units. Log log is percentage per percentage, an elasticity.
+
+HEART: For Big Data: three V's, volume, velocity and variety, and low latency is fast. For processing: catch it, clean it, keep it, find it, move it. That is capture, curation, storage, search and transfer.
+
+LEWIS: For machine learning: supervised learning comes with an answer key, and unsupervised learning finds its own groups. Overfitting memorizes the practice set, and underfitting never learned enough. And the four applications are text analytics, natural language processing, risk governance and algorithmic trading.
+
+HEART: Now, how you would say the big ideas to a senior leader.
+
+LEWIS: On regression: we fit a straight line through past data to estimate how much one thing tends to move when another moves, and before we rely on it, we check that a relationship this strong would rarely show up by chance if there were really none. It shows association, not cause. The jargon is simple linear regression, the slope coefficient and a t test on the slope.
+
+HEART: On fit: we report two things, the share of the swings the model explains and the size of its typical miss, because a model can explain a large share and still miss by too much to act on. The jargon is the coefficient of determination, R squared, and the standard error of estimate.
+
+LEWIS: On forecasts: every forecast comes with a range, and the range gets wider the further we push the model away from the conditions it learned from. The jargon is a prediction interval and the standard error of the forecast.
+
+HEART: On data: the new data sources are huge, fast and messy, and they only become useful after careful cleaning and a hard look at who is missing from them. The jargon is Big Data, alternative data and data curation.
+
+LEWIS: And on machine learning: these models can spot patterns no person would, but they can also memorize noise, so we always judge them on data they have never seen and ask whether we can explain what they found. The jargon is machine learning, overfitting, a test data set and the black box problem.
