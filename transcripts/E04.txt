@@ -1,169 +1,287 @@
-## The big picture
-
-Every test in this episode answers the same question. Is the pattern in my sample real, or could plain luck have produced it? Hypothesis testing is the formal way to decide. You state a claim about a population, you look at a sample, and you ask how surprising that sample would be if the claim were true. If it would be very surprising, you reject the claim.
-
-Three modules build the skill. Module 8.1 gives you the machinery every test shares: the null and alternative hypotheses, the test statistic, the significance level, the two kinds of error, power, and the p value. Module 8.2 is the toolbox of specific tests for means and variances, plus the difference between parametric and nonparametric tests. Module 9.1 asks whether two variables are related at all, using a test of correlation, a rank based version of it, and a chi square test on a table of counts.
-
-Exam questions on this material rarely need long arithmetic. They test whether you can pick the right test, the right distribution, the right degrees of freedom and the right conclusion. Three questions point to the right test almost every time. What is being tested, a mean, a variance or a relationship? How many samples are there? And are they independent or paired?
+LEWIS: Reading 8 covers how a hypothesis test works, the two kinds of error, power and the p value, then the specific tests for means and variances and when a nonparametric test fits better. Reading 9 covers testing whether a correlation is real, the rank based Spearman version of that test, and testing whether two characteristics are independent using a table of counts.
 
 ## Module 8.1, Hypothesis Testing Basics
 
-A hypothesis is a statement about a population parameter, such as a mean or a variance. You almost never see the whole population, so you test the statement with a sample. The logic works like a courtroom. You presume one thing is true, and you give up that presumption only when the evidence against it is strong.
+HEART: Every test in this episode answers one question. Is the pattern in my sample real, or could plain luck have produced it? A hypothesis test is the formal way to decide. A hypothesis is a statement about a population parameter, such as a population mean or a population variance. You almost never get to see the whole population, so you look at a sample and ask whether it is consistent with the statement.
 
-That presumption is the null hypothesis. The null is the claim you are trying to knock down, and it always contains the equality. It says equal to, less than or equal to, or greater than or equal to. The alternative hypothesis is what you conclude if you reject the null, and it is usually what the researcher hopes to show. If you want to show that a manager's mean return is above zero, the alternative says greater than zero and the null says less than or equal to zero.
+LEWIS: Picture a bank that promises its mortgage applications will close in thirty days on average. Nobody can check every loan the bank will ever make. But you can pull a sample of recent loans, see how long each one took, and ask a simple question. If the true average really were thirty days, would a sample like this one be believable, or would it be a real surprise?
 
-The process runs in six steps. First, state the hypotheses. Second, identify the test statistic and its distribution. Third, choose the significance level. Fourth, state the decision rule by finding the critical values. Fifth, calculate the statistic from the sample, and sixth, make the decision, both statistical and economic.
+HEART: The process runs in seven steps. State the hypotheses. Pick the test statistic. Set the significance level. State the decision rule. Collect the sample and calculate the statistic. Decide whether to reject the hypothesis. And finally, make the real world decision that the result points to.
 
-Tests come in two shapes. A two tailed test asks whether the parameter differs from the hypothesized value in either direction. The null says equal to and the alternative says not equal to, so the rejection region is split between both tails. A one tailed test looks in one direction only, in the tail that matches the alternative.
+LEWIS: That last step is easy to skip, and it matters. A result can pass the statistical test and still be too small to act on once costs are counted. The statistics tell you whether an effect is probably real. You still have to judge whether it is big enough to matter.
 
-Now the test statistic. Nearly every test in this reading has the same shape. The test statistic equals the sample statistic minus the hypothesized value, all divided by the standard error of the sample statistic. In plain terms, it counts how many standard errors your sample result sits away from what the null predicts. A large distance is evidence against the null.
+HEART: Now the two hypotheses. The null hypothesis is the statement you actually test, and it is the one the researcher is hoping to reject. Think of a courtroom. The defendant is presumed innocent, and that presumption is the null. The prosecution's case is the alternative hypothesis, the conclusion you reach only if the evidence is strong enough to throw out the null.
 
-The significance level, often called alpha, is the probability of rejecting the null when the null is actually true. You set it before looking at the data, usually at 10, 5 or 1 percent, and it fixes the critical values. When the standard normal distribution applies, a two tailed test at 5 percent rejects beyond plus or minus 1.96. A one tailed test at 5 percent puts the whole 5 percent in one tail, so its critical value is 1.645.
+LEWIS: Here is the rule the exam leans on. The null always contains the equal sign. It says equal to, less than or equal to, or greater than or equal to. The alternative is what the researcher really wants to show, and it gets the strict version: not equal to, less than, or greater than.
 
-A two tailed test at 1 percent uses plus or minus 2.58, and a one tailed test at 1 percent uses 2.33. Notice that 1.645 appears twice, as the one tailed 5 percent value and as the two tailed 10 percent value.
+HEART: So if a fund manager wants to show that her average excess return is positive, the alternative says it is greater than zero, and the null says it is less than or equal to zero. What you hope to prove goes in the alternative. What you hope to knock down, with the equal sign attached, goes in the null.
 
-The decision rule is simple. If the test statistic lands beyond the critical value, you reject the null. Otherwise you fail to reject it. Here is the trap. You never accept the null or say the test proved it true. Failing to reject only means the evidence was not strong enough.
+LEWIS: Between them, the two hypotheses cover every possible value of the parameter, and no value falls in both. In the jargon, they are mutually exclusive and exhaustive. That is why rejecting one leaves you with the other.
 
-Two kinds of error are possible. A Type 1 error is rejecting a null that is actually true, and its probability is the significance level. A Type 2 error is failing to reject a null that is actually false, and its probability is often called beta. In the courtroom, a Type 1 error convicts an innocent defendant and a Type 2 error lets a guilty one walk free. The power of a test equals one minus the probability of a Type 2 error. It is the probability that you correctly reject a false null.
+HEART: The alternative also decides the shape of the test. A two tailed test asks whether the parameter differs in either direction. Is the true closing time anything other than thirty days, faster or slower? The null says equal to, the alternative says not equal to, and evidence against the null can show up in either tail of the distribution.
 
-These errors trade off. Hold the sample size fixed and lower the significance level from 5 percent to 1 percent. Type 1 errors become rarer, but Type 2 errors become more common and power falls. The one way to reduce both errors at once is a larger sample. The same tradeoff appears when a bank validates a risk model, where a test strict enough to rarely flag a sound model will more often let a weak one pass.
+LEWIS: A one tailed test looks in one direction only. Is the true closing time longer than thirty days? Now the null says less than or equal to thirty, the alternative says greater than thirty, and only results in the upper tail count against the null. You choose the shape before you set the decision rule, because it changes where the cutoff sits.
 
-Here is a worked example. You have 100 months of returns for a strategy. The sample mean is 1 percent per month and the sample standard deviation is 5 percent. You test whether the true mean equals zero, two tailed, at 5 percent. The standard error is the standard deviation divided by the square root of the sample size, so 5 divided by 10, which is 0.5.
+HEART: Next, the test statistic. The basic recipe, and the one every test of a mean follows, has a simple shape. Take your sample statistic, subtract the value the null claims, and divide by the standard error of the sample statistic. In plain words, it counts how many standard errors your sample result sits away from what the null predicts.
 
-The test statistic is 1 minus zero, divided by 0.5, which equals 2. Two is beyond 1.96, so you reject the null and conclude the mean return is different from zero. With 100 observations, the t and normal critical values are nearly the same, so the conclusion holds either way.
+LEWIS: Think of it as signal over noise. The gap between your sample and the claim is the signal. The standard error is the noise, how much a sample result would wobble from one sample to the next just by chance. A big gap measured against a small wobble is hard to blame on luck.
 
-The same result comes from a confidence interval. A 95 percent interval is the sample mean plus or minus 1.96 standard errors. That is 1 plus or minus 0.98, so roughly 0.02 percent to 1.98 percent. Zero lies outside the interval, so you reject. The general rule is that in a two tailed test, you reject exactly when the hypothesized value falls outside the confidence interval built at one minus the significance level.
+HEART: For a sample mean, the standard error is the standard deviation divided by the square root of the sample size. If you know the population standard deviation, you use it. Usually you do not, so you use the sample standard deviation in its place. Either way, notice the direction. A bigger sample means a smaller standard error, so the same gap becomes more convincing.
 
-Now the p value. The p value is the smallest significance level at which you could reject the null. Another way to say it is the probability of getting a test statistic at least as extreme as yours, if the null were true. In our example, a statistic of 2 leaves about 2.3 percent in each tail, so the two tailed p value is about 4.6 percent.
+LEWIS: Which matches common sense. Average the closing times of five loans, and one stuck file can drag the average a long way. Average five hundred, and one odd file barely moves it.
 
-So you reject at 5 percent but not at 1 percent. The decision rule never changes. Reject when the p value is less than the significance level.
+HEART: When the null is true, the test statistic follows a known distribution, and which one depends on the test. This reading uses four: the z distribution, which is the standard normal, the t distribution, the chi square distribution and the F distribution. Each one supplies its own critical values.
 
-Two traps live here. First, the p value is not the probability that the null is true. It is a probability about the data, assuming the null is true. Second, a one tailed test counts only one tail. If the alternative had been greater than zero, the p value would be about 2.3 percent, not 4.6.
+LEWIS: The critical value is the cutoff. Every test compares two numbers, the test statistic you calculated from the sample and the critical value from the right distribution. If your statistic lands beyond the critical value, in what is called the rejection region, you reject the null. If it lands inside, you fail to reject.
 
-Next, statistical versus economic significance. A strategy with a statistically significant extra return may lose all of it to transaction costs, taxes or added risk. And with a very large sample, even a tiny effect becomes statistically significant. The economic decision weighs those practical costs and benefits.
+HEART: Where the cutoff sits depends on the significance level, written as alpha. The significance level is the probability of rejecting the null when the null is actually true. You set it before you look at the data, typically at ten, five or one percent, and it is the total size of the rejection region.
 
-Finally, a warning about running many tests. Suppose you run 100 tests at 5 percent and every null is true. You should still expect about 5 rejections by pure chance, because the significance level is the Type 1 error rate of each test. So treat one significant result found in a long search with suspicion.
+LEWIS: In a two tailed test, that area is split evenly, half in each tail. In a one tailed test, all of it sits in a single tail. That is why the same significance level gives different cutoffs for the two shapes.
 
-The rule to carry out of this module is this. The test statistic equals the sample statistic minus the hypothesized value, divided by its standard error. You reject the null when that statistic lands beyond the critical value, which is the same as the p value falling below the significance level.
+HEART: For the standard normal distribution, four cutoffs are worth knowing cold. One point six five is the cutoff for a one tailed test at five percent, and also for a two tailed test at ten percent, because both put five percent in a single tail. One point nine six is the cutoff for a two tailed test at five percent. Two point three three is a one tailed test at one percent. And two point five eight is a two tailed test at one percent.
+
+LEWIS: Now the language of the decision, which the exam polices. You either reject the null or fail to reject it. You never accept the null. A jury that acquits does not declare the defendant innocent. It says the evidence was not strong enough to convict. Failing to reject works the same way. It only means the sample was not surprising enough.
+
+HEART: And because you are deciding from a sample, you can be wrong in two ways. A Type one error is rejecting a null that is actually true. A Type two error is failing to reject a null that is actually false. In the courtroom, a Type one error convicts an innocent person, and a Type two error lets a guilty one walk free.
+
+LEWIS: A kitchen smoke alarm makes the same point. A Type one error is the alarm shrieking because you burned the toast. There was no fire, but the alarm rejected the idea that all is well. A Type two error is the alarm staying silent while something really is burning.
+
+HEART: The significance level is the probability of a Type one error. Set it at five percent, and when the null is true you will wrongly reject it about one time in twenty, purely by chance.
+
+LEWIS: Its partner is power. The power of a test is the probability of correctly rejecting a null that is false. It equals one minus the probability of a Type two error. Power is the alarm's ability to catch a real fire. If two different test statistics could check the same claim, you pick the one with more power, because at the same significance level it catches more false nulls.
+
+HEART: Here is the tradeoff. Hold the sample size fixed and make the significance level stricter. You get fewer false alarms, so Type one errors become rarer. But you have made the null harder to reject, so you also miss more real effects. The chance of a Type two error rises and power falls.
+
+LEWIS: It runs the other way too. With a fixed sample, the only way to buy more power is to accept a higher chance of a Type one error. Turn up the sensitivity on the alarm and it catches more real fires, but it also goes off at more toast.
+
+HEART: So how do you cut both errors at once? A bigger sample. More data shrinks the standard error, which sharpens the test in both directions. Leave the significance level where it is, and more data is the one lever that still lowers the Type two risk and lifts power. It is a better sensor, not just a different setting on the same one.
+
+LEWIS: The same tension shows up whenever a bank validates a risk model. A test strict enough to rarely flag a sound model will more often wave a weak one through.
+
+HEART: Last idea in this module, the p value. The p value is the smallest significance level at which you could reject the null. Another way to hear it: assuming the null is true, how likely is a test statistic at least as extreme as the one you got? A small p value means your sample would be a real surprise if the null were true.
+
+LEWIS: That gives you a decision rule without looking up any cutoff. Reject the null when the p value is below the significance level. A p value of two percent rejects at five percent, but not at one percent.
+
+HEART: And the trap. The p value is not the probability that the null is true. It is calculated by assuming the null is true. It tells you how surprising your data would be in that world, not how likely that world is.
+
+LEWIS: The takeaway. The null holds the equal sign and is what you try to reject. The test statistic counts standard errors between your sample and the claim. The significance level is the Type one error rate, power is one minus the Type two error rate, and only a bigger sample cuts both errors at once. Reject when the p value is below the significance level.
 
 ## Module 8.2, Types of Hypothesis Tests
 
-This module is the toolbox, five parametric tests and then nonparametric tests. For each parametric test, know the question it answers, the statistic, its distribution, and the degrees of freedom.
+HEART: The first module built the machine. This one is the set of tests you plug into it, and the map is short. A single mean uses a t test. Two means use a t test, in one of two forms depending on whether the samples are independent or linked. A single variance uses a chi square test. Two variances use an F test. Each comes in a two tailed form and in one tailed forms, and in every one of them the null keeps the equal sign.
 
-The first test is for a single mean. When the population variance is unknown, which is nearly always, you use the t statistic. The t statistic equals the sample mean minus the hypothesized mean, divided by the standard error, which is the sample standard deviation divided by the square root of n. It has n minus 1 degrees of freedom, where n is the sample size.
+LEWIS: Start with a single population mean. Go back to the bank promising thirty day closings. You sample recent loans, find their average closing time, and compare it with thirty. The t statistic is the gap between the sample mean and thirty, measured in standard errors, using the sample standard deviation because you do not know the population's. Its degrees of freedom are the sample size minus one.
 
-The test assumes the population is roughly normal or the sample is large. If you somehow know the population variance, you use the z statistic with the population standard deviation instead. With a large sample, z and t give nearly the same answer.
+HEART: Why t rather than the normal distribution? Because the standard error is itself estimated from the sample, which adds a layer of uncertainty. The t distribution allows for that with fatter tails, so its critical values sit further out than the z values. A small sample needs a bigger statistic before you can reject.
 
-This example shows why the distinction matters. You have 25 observations with a sample mean of 12, a hypothesized mean of 10 and a sample standard deviation of 5. The standard error is 5 divided by the square root of 25, which is 1. So t equals 12 minus 10, divided by 1, which is 2. With 24 degrees of freedom, the two tailed critical t at 5 percent is about 2.06. Two is inside that, so you fail to reject.
+LEWIS: But the gap closes as the sample grows. With a few hundred observations, the t and z critical values are almost identical, so a z test is acceptable for a large sample. The trap runs the other way. Use the z cutoff on a small sample and you reject too easily, because the true cutoff is further out than you think.
 
-Here is the trap. If you had used the z value of 1.96, you would have rejected. Small samples have fatter tails, so their critical values are larger. As the degrees of freedom grow, t critical values shrink toward the z values.
+HEART: Next, comparing two population means. Here the first question is always the same. Are the two samples independent, or are they linked?
 
-The second test compares the means of two independent populations. Independent means the two samples have nothing to do with each other, such as a sample of bank stocks and a separate sample of utility stocks. The Level 1 version assumes both populations are normal and that their variances, though unknown, are equal. So you pool the two sample variances into one estimate.
+LEWIS: Start with independent samples. Independent means the two groups have nothing to do with each other. Say you compare the average time to approve a small business loan at a lender in Ohio with the average at an unrelated lender in Oregon. Different loans, different staff, different customers. Neither sample tells you anything about the other.
 
-The pooled variance equals n one minus 1, times the first sample variance, plus n two minus 1, times the second sample variance, all divided by n one plus n two minus 2. It is simply a weighted average of the two sample variances, using degrees of freedom as the weights. The test statistic equals the difference between the two sample means minus the hypothesized difference, which is usually zero. You divide that by the square root of the pooled variance over n one plus the pooled variance over n two. Degrees of freedom are n one plus n two minus 2.
+HEART: That calls for the difference in means test. It is a t test on the gap between the two sample means. It assumes both populations are normally distributed and the samples are independent. And in the version you need, the two population variances are unknown but assumed to be equal.
 
-Take two samples of 50 each. Both sample standard deviations are 5 percent, so both variances are 25. The sample means are 7 percent and 4 percent. When the sample sizes are equal, the pooled variance is just the simple average of the two variances, so it is 25.
+LEWIS: Because the variances are assumed equal, you combine the two sample variances into one better estimate, called the pooled variance. It is a weighted average of the two sample variances, with each sample weighted by its size minus one. The degrees of freedom are the two sample sizes added together, minus two, one lost for each sample's mean.
 
-The standard error is the square root of 25 over 50 plus 25 over 50, which is the square root of 1, which is 1. The t statistic is 7 minus 4, divided by 1, which equals 3. With 98 degrees of freedom, the two tailed critical value at 5 percent is about 1.98. Three is beyond it, so you reject equal means.
+HEART: Picture what drives the answer. Suppose the two lenders' average approval times differ by a day, while individual loans at each lender swing by weeks. A one day gap is easy to blame on luck, so the statistic stays small and you fail to reject equal means. If the averages sit weeks apart while individual loans barely vary, luck is a poor explanation, the statistic is large, and you reject.
 
-The third test is the paired comparisons test, also called the test of mean differences. Use it when the two samples are dependent. Dependence shows up when you measure the same firms before and after an event, or two strategies over the same months, where both are hit by the same market moves. The difference in means test would be wrong here because it ignores that shared movement. Instead, you take the difference within each pair, and the data collapse into one sample of differences.
+LEWIS: Now the linked case, the paired comparisons test, also called the test of mean differences. Use it when the samples are dependent, meaning both sets of observations are pushed around by some common factor.
 
-The t statistic equals the mean of the differences minus the hypothesized mean difference, usually zero, divided by the standard error, which is the standard deviation of the differences divided by the square root of n. Here n is the number of pairs, and degrees of freedom are n minus 1.
+HEART: Here is a picture for anyone who runs. Twenty runners each run the same course twice, once in their old shoes and once in a new pair. The fast runners will be fast in either pair and the slow ones slow, so the two sets of times are tied together, runner by runner.
 
-Say two strategies are measured over the same 36 months. The mean monthly difference is 0.75 percent and the standard deviation of the differences is 1.5 percent. The standard error is 1.5 divided by 6, which is 0.25. The t statistic is 0.75 divided by 0.25, which equals 3. With 35 degrees of freedom, the two tailed critical value at 5 percent is about 2.03, so you reject and conclude the mean returns differ.
+LEWIS: So you do not compare the average old shoe time with the average new shoe time. You take each runner's own difference, new shoe time minus old shoe time, and now you have a single sample of differences. The test asks whether the mean of those differences equals zero, or some other hypothesized value.
 
-If you are handed raw pairs, the B A two plus can find the mean and standard deviation of the differences. Compute each difference first. Press second, then DATA, which sits above the 7 key, and clear it with second, then C L R WORK. Enter the first difference as X 01 and press ENTER. Press the down arrow twice to skip past Y 01, and continue with X 02 and the rest.
+HEART: Why bother pairing? Because the gaps between runners are huge compared with the effect of a shoe. In a difference in means test, all that runner to runner variation counts as noise, and it can bury a real shoe effect. Pairing compares each runner with themselves, so the shared factor drops out.
 
-Next, press second, then STAT, above the 8 key. If the display does not show 1 V, for one variable, press second, then SET, until it does. Arrow down past n to x bar, which is the mean difference, then to S x, which is the sample standard deviation of the differences. Use S x, not sigma x, because sigma x is the population version.
+LEWIS: Markets hand you this situation constantly. Two stock funds measured over the same months are both pushed around by the overall market. When a set of companies is measured before and after some event, each company carries its own traits into both measurements. Whenever the observations are matched by company, by time period, or by the same subject before and after, treat the samples as dependent and pair them.
 
-Here is the trap for choosing between the second and third tests. Look for a link between the observations. If they are the same companies, the same months, or before and after readings, the test is paired. If they are two unrelated groups, use the difference in means test.
+HEART: The paired statistic is the average difference minus the value the null claims, usually zero, measured in standard errors of that average difference. Degrees of freedom are the number of pairs minus one. And like the other t tests, it needs the data to be normally distributed.
 
-The fourth test is for a single variance. The test statistic is chi square. Chi square equals n minus 1, times the sample variance, divided by the hypothesized variance. It has n minus 1 degrees of freedom.
+LEWIS: Notice that once you pair the data, it really is a one sample t test on the differences. If you understand the single mean test, you already understand this one.
 
-The chi square distribution is bounded below by zero, it is skewed to the right, and its shape depends on the degrees of freedom. Because it is not symmetric, a two tailed test needs two different critical values, one in each tail, rather than a single plus or minus value. The test also relies heavily on normality.
+HEART: The trap is choosing between the two. Listen for a link. Same companies, same months, or before and after on the same subjects means paired. Two unrelated groups means difference in means. The choice also sets the degrees of freedom. Paired data use the number of pairs minus one, and two independent samples use the two sample sizes added together, minus two.
 
-Suppose you have 21 observations, so 20 degrees of freedom. The hypothesized variance is 100 and the sample variance is 200. Chi square equals 20 times 200, divided by 100, which is 40. You are testing whether the true variance is greater than 100 at 5 percent, so this is a one tailed test in the upper tail. The critical value with 20 degrees of freedom is about 31.4, and 40 is beyond it, so you reject and conclude the variance is higher than hypothesized.
+LEWIS: Now tests about variance, which in finance usually means tests about risk. Start with a single population variance. The test uses the chi square distribution, so lock in the first contrast. Means use t. A single variance uses chi square.
 
-The fifth test compares the variances of two independent populations. The statistic is F, and F equals the first sample variance divided by the second sample variance. By convention you put the larger sample variance on top, so F is at least 1 and you only need the upper critical value. Degrees of freedom are the numerator sample size minus 1 and the denominator sample size minus 1. Like chi square, the F distribution is bounded below by zero and skewed to the right. The test assumes both populations are normal and the samples are independent.
+HEART: Picture a credit union's treasury team. For years, the day to day swings in deposit outflows have had a known variance, and the liquidity buffer is sized for it. The team wants to know whether those swings have grown. That is a one tailed test. The null says the variance is less than or equal to the old level, and the alternative says it is greater.
 
-Suppose two samples of 31 observations each have sample variances of 50 and 20. F equals 50 divided by 20, which is 2.5, with 30 and 30 degrees of freedom. You run a two tailed test at 5 percent.
+LEWIS: The chi square statistic is the sample variance divided by the hypothesized variance, scaled up by the degrees of freedom, which are the sample size minus one. A helpful way to hear it: if the sample variance came in exactly at the hypothesized level, the statistic would equal its degrees of freedom, which is the average value of that chi square distribution. The further the sample variance strays above the claim, the bigger the statistic.
 
-Here is the trap. Because you placed the larger variance on top, you only look at the upper tail, so you use the critical value that leaves 2.5 percent in the upper tail, not 5 percent. That value is about 2.07. Since 2.5 is beyond it, you reject equal variances. A quick memory hook for the variance tests: chi square for one variance, F for two.
+HEART: One practical point. Claims about risk are often stated as a standard deviation. The test is about variance, so square the claimed standard deviation first.
 
-Now parametric versus nonparametric tests. Everything so far is parametric. A parametric test is about a parameter, like a mean or a variance, and it relies on assumptions about the population's distribution, usually normality. A nonparametric test either makes few assumptions about the distribution, or tests something that is not a parameter at all. Many nonparametric tests work on the ranks of the data instead of the raw values.
+LEWIS: The chi square distribution has a shape you need to know. It can never be negative, so it is bounded below by zero, and it is skewed to the right, with a long tail toward the high side. As the degrees of freedom rise, it becomes more symmetric and looks more and more like a normal distribution.
 
-Four situations call for a nonparametric test. First, the distribution assumptions fail, such as a small sample from a population that is clearly not normal. Second, there are large outliers that would distort a mean or a variance. Third, the data are ranks or ordered categories rather than true measurements. Fourth, the hypothesis is not about a parameter, such as whether a sequence of returns is random.
+HEART: Because it is lopsided, a two tailed test needs two different critical values. There is no single plus or minus number the way there is with z. You look up a lower cutoff that leaves half the significance level in the left tail, and a separate upper cutoff that leaves the other half in the right tail. Reject if the statistic falls below the lower one or above the upper one.
 
-The Wilcoxon signed rank test is a nonparametric counterpart for a single sample or for paired data. The Mann Whitney U test is a counterpart for two independent samples. The Spearman rank correlation, which comes up in the next module, is a counterpart for correlation.
+LEWIS: And one caution. The chi square test for a variance is built for a normally distributed population, and it leans heavily on that assumption. With skewed or fat tailed data, its conclusions get shaky.
 
-Here is the trap. Nonparametric is not simply better. When the parametric assumptions actually hold, the parametric test is more powerful, meaning it is more likely to catch a false null.
+HEART: To compare two population variances, you use the F test. Go back to the two unrelated lenders in Ohio and Oregon. This time the question is not which one approves loans faster on average, but which one is less predictable, with approval times that are more spread out. Take a sample of loans from each lender and compare the variances of their approval times.
 
-The rule to carry out of this module is the test map. One mean uses t with n minus 1 degrees of freedom. Two independent means use a pooled t with n one plus n two minus 2. Paired data use t on the differences with n minus 1. One variance uses chi square with n minus 1. Two variances use F, with the larger variance on top.
+LEWIS: The F statistic is simply one sample variance divided by the other. Its degrees of freedom come in a pair: the size of the sample on top minus one, and the size of the sample on the bottom minus one. The test assumes both populations are normal and the two samples are independent.
+
+HEART: If the two sample variances were identical, the ratio would be exactly one. So the question becomes whether the ratio is far enough from one to rule out chance.
+
+LEWIS: The F distribution looks a lot like chi square. It is a ratio of two positive quantities, so it is bounded below by zero and skewed to the right, and its exact shape depends on both degrees of freedom.
+
+HEART: Then comes the convention that saves you work. Always put the larger sample variance on top. That forces the ratio to be at least one, so you only ever need the upper critical value. Any lower tail cutoff is just the reciprocal of an upper tail cutoff with the two degrees of freedom swapped, so nothing is lost by checking only the top.
+
+LEWIS: And here is the trap that convention creates. For a two tailed test at five percent, you use the cutoff that leaves two and a half percent in the upper tail, not five percent. The other half of the significance level still belongs to the lower tail. You simply arranged the ratio so you never have to visit it.
+
+HEART: So the variance tests in one breath. Chi square for one variance, compared with a hypothesized value. F for two variances, as a ratio with the larger on top.
+
+LEWIS: Everything so far has been a parametric test. A parametric test is about a parameter of the population, like a mean or a variance, and it relies on assumptions about the population's distribution. Even the z test needs either a normal population or a sample large enough for the central limit theorem to make the sample mean approximately normal. The t, chi square and F tests are all parametric.
+
+HEART: A nonparametric test either is not about a particular parameter at all, or makes few assumptions about the population. Think of a parametric test as a precision instrument that needs the right conditions, and a nonparametric test as a sturdier tool that still works when conditions are rough.
+
+LEWIS: Three situations call for one. First, the assumptions behind the parametric test fail. The classic case is a small sample from a population that is clearly not normal. The sample is too small for the central limit theorem to rescue you, and the population is not normal, so there is nothing left to justify a t test or a z test.
+
+HEART: Second, the data are ranks rather than measured values. If all you know is that one fund placed first, another second and another third, you have an ordering, which is called an ordinal scale. The ranks do not tell you how far apart the funds were, so tests built on means and variances of the values do not fit.
+
+LEWIS: Third, the question is not about a parameter at all. Is this variable normally distributed? Is this sequence random? Those are questions about the shape or behavior of the data, not about a mean or a variance.
+
+HEART: The runs test is the example to know. Picture a record of whether a stock rose or fell each day, and look at the streaks. Each unbroken streak of up days or of down days is a run. If the moves are random, the number of runs should be close to what chance produces. Very few runs, meaning long streaks, or a great many runs, meaning the moves flip back and forth almost every day, both suggest the sequence is not random. The test works out how likely the observed pattern would be if the sequence really were random.
+
+LEWIS: One balancing point. Nonparametric is not automatically better. When the parametric assumptions really do hold, the parametric test is generally more powerful, so it is more likely to catch a false null.
+
+HEART: The takeaway. One mean uses t, with z acceptable for a large sample. Two means use t, as a difference in means test for independent samples or a paired comparisons test for dependent ones. One variance uses chi square, and two variances use F with the larger on top. Reach for a nonparametric test when the assumptions fail, the data are ranks, or the question is not about a parameter.
 
 ## Module 9.1, Tests for Independence
 
-This module asks whether two variables are linked at all. You get three tools: a parametric test of correlation, a nonparametric rank correlation, and a chi square test for a table of counts.
+LEWIS: This module asks whether two variables are related at all. It gives you three tools: a test of whether the population correlation is zero, a rank based version of that test, and a test of independence for data sorted into categories.
 
-The first tool tests whether the population correlation between two variables is zero. The null says the correlation equals zero and the alternative says it does not. The t statistic equals the sample correlation, r, times the square root of n minus 2, all divided by the square root of one minus r squared. It has n minus 2 degrees of freedom, and the test assumes both variables are normally distributed.
+HEART: Start with correlation. The correlation coefficient measures the strength of the linear relationship between two variables, from minus one to plus one, and a correlation of zero means no linear relationship. The ordinary version is called the Pearson correlation.
 
-Here is an example. The sample correlation is 0.6 with 27 observations. The square root of 27 minus 2 is the square root of 25, which is 5. One minus 0.6 squared is one minus 0.36, which is 0.64, and its square root is 0.8. So t equals 0.6 times 5, which is 3, divided by 0.8, which gives 3.75. With 25 degrees of freedom, the two tailed critical value at 5 percent is about 2.06, so you reject and conclude the correlation is not zero.
+LEWIS: The problem is that a sample correlation is almost never exactly zero, even when the true correlation is. Take monthly returns on gold and on an index of bank stocks over a few years. The sample correlation comes out slightly positive. Is there a real relationship in the population, or is that just sampling noise?
 
-Look at what drives that statistic. It rises with the size of the correlation, and it rises with the sample size. So a weak correlation can still be significant in a big sample. A correlation of 0.1 gives a t of only about 0.5 with 30 observations, but about 3.2 with 1,000 observations, which is easily significant.
+HEART: So the null says the population correlation equals zero, and the alternative says it does not. The test statistic follows a t distribution with degrees of freedom equal to the sample size minus two, and the test assumes both variables are normally distributed.
 
-Here is the trap. Significant does not mean strong. And watch the degrees of freedom, which are n minus 2, not n minus 1.
+LEWIS: Look at what drives the statistic. It rises as the sample correlation moves further from zero, which is no surprise. But it also rises with the sample size. With thirty observations, a correlation of one tenth is nowhere near significant. With a thousand observations, that same weak correlation clears the five percent bar easily.
 
-The second tool is the Spearman rank correlation. Use it when the data are not normal, when outliers would distort an ordinary correlation, or when the data are already ranks. You rank each variable separately, from 1 to n. For each observation, you take the difference between its two ranks.
+HEART: Which is the trap. Statistically significant does not mean strong. A significant result says the true correlation is probably not zero. It says nothing about whether the relationship is big enough to be useful.
 
-The Spearman correlation equals one minus a fraction. The fraction's numerator is 6 times the sum of the squared rank differences. Its denominator is n times the quantity n squared minus 1.
+LEWIS: And watch the degrees of freedom. The single mean test uses the sample size minus one. The correlation test uses the sample size minus two. That difference is a favorite exam point.
 
-Suppose ten observations have squared rank differences that add up to 33. The numerator is 6 times 33, which is 198. The denominator is 10 times 99, which is 990. The fraction is 198 over 990, which is 0.2, so the rank correlation is one minus 0.2, which equals 0.8. Like any correlation, it runs from minus 1 to plus 1.
+HEART: One more limit. The Pearson correlation only measures how well the points fit a straight line. If one variable keeps rising with the other but along a curve, Pearson understates how tight the link is, and other measures, including the rank correlation coming next, capture it better.
 
-To test whether a rank correlation is significant, small samples need a special table of critical values. With a large sample, often taken as more than 30 observations, you can use the same t formula as the ordinary correlation test, with n minus 2 degrees of freedom. The traps here are mechanical. Remember the minus 1 inside the denominator, and do not forget the one minus at the front.
+LEWIS: Which brings us to the second tool, the Spearman rank correlation. It is a nonparametric test of whether two sets of ranks are correlated. Instead of using the raw values, you rank each variable from top to bottom, then measure how closely the two rankings agree.
 
-The third tool is the chi square test of independence on a contingency table. A contingency table sorts observations along two dimensions, rows for one classification and columns for the other, and each cell holds a count. The null says the two classifications are independent, and the alternative says they are related. This is a nonparametric test, because it works with counts in categories rather than a parameter of a distribution.
+HEART: Picture a list of stock mutual funds. Rank them by fees, cheapest first. Then rank the same funds by their returns, best first. If the cheapest funds also tend to rank near the top on returns, the rank correlation is positive. Spearman answers the question using nothing but the two orderings.
 
-The method has three steps. First, find the expected count for every cell if the null were true. The expected count equals the row total times the column total, divided by the grand total. Second, compute the test statistic. Chi square equals the sum, over every cell, of the observed count minus the expected count, squared, divided by the expected count.
+LEWIS: When do you use it? When the data are ranks to begin with, when the variables are clearly not normal, or when a few outliers would distort an ordinary correlation. Ranking tames an outlier, because the most extreme value is simply ranked first or last, however far out it sits.
 
-Third, compare it to the critical value with degrees of freedom equal to the number of rows minus 1, times the number of columns minus 1. This test is always one tailed, in the upper tail. A large statistic means the observed counts stray far from what independence predicts.
+HEART: Ties share a rank. If three runners cross the line together in what would have been fourth, fifth and sixth place, each gets the average of those three places, which is fifth.
 
-Here is an example. You classify 100 funds by style, 50 growth and 50 value, and by whether they beat their benchmark. Forty did and 60 did not. If style and performance were independent, the expected number of growth funds that beat the benchmark is 50 times 40, divided by 100, which is 20. By the same logic, 20 value funds would beat it, and 30 funds of each style would not.
+LEWIS: The calculation rests on the gap between each item's two ranks. Square each gap, add them up, scale the total, and subtract it from one. You do not need the scaling to understand it. If the two rankings match exactly, every gap is zero and the rank correlation is plus one. If one ranking is the exact reverse of the other, it comes out at minus one.
 
-Suppose you actually observe 30 growth winners, 20 growth losers, 10 value winners and 40 value losers. Every cell is off by 10 from its expected count, so every squared gap is 100. In the two winner cells, 100 divided by 20 gives 5 each, for a total of 10. In the two loser cells, 100 divided by 30 gives about 3.3 each, for about 6.7.
+HEART: To test whether a Spearman correlation is significant, you use the same t statistic as the ordinary correlation test. When the sample is larger than thirty, that statistic follows a t distribution with the sample size minus two degrees of freedom.
 
-The chi square statistic is about 16.7. A 2 by 2 table has 1 degree of freedom, and the 5 percent critical value is about 3.84. You reject independence. Style and beating the benchmark appear to be related. A credit team could use the same kind of table to test whether loan delinquency is independent of the channel that originated the loan.
+LEWIS: The third tool handles categories. A contingency table, also called a two way table, counts how many items in a sample share each combination of two characteristics. One characteristic runs down the rows, the other across the columns, and each cell holds a count.
 
-Here are the traps. Degrees of freedom are rows minus 1 times columns minus 1, not the number of cells minus 1. A table with 3 rows and 3 columns has 2 times 2, or 4, degrees of freedom, not 8. The formula uses counts, not percentages, so convert any percentages to counts first. And because only large values signal a relationship, you reject only in the upper tail.
+HEART: Picture a bank sorting a sample of its customers two ways. Rows for age group: under thirty five, thirty five to sixty, and over sixty. Columns for how they mostly bank, on their phone or in a branch. Each cell counts the customers with that age and that habit. The question is whether age group and banking habit are independent.
 
-The rule to carry out of this module is the correlation test. The t statistic equals r times the square root of n minus 2, divided by the square root of one minus r squared, with n minus 2 degrees of freedom.
+LEWIS: The null says the two characteristics are independent. The alternative says they are related. The key move is to work out what each cell would hold if the null were true.
+
+HEART: Here is the intuition. If the two traits are unrelated, every row should split across the columns in the same proportions as the whole sample. If four in ten of all the customers bank mostly on their phone, then under independence, four in ten of the young customers should too, and four in ten of the middle group, and four in ten of the oldest.
+
+LEWIS: That is exactly what the expected count does. The expected count for a cell is its row total times its column total, divided by the grand total. In plain words, the size of the row times the column's share of the whole sample.
+
+HEART: Then you compare. For every cell, take the gap between the observed count and the expected count, square it, and divide by the expected count. Add those up across every cell, and the sum is the chi square statistic.
+
+LEWIS: Dividing by the expected count keeps each gap in proportion. Missing by twenty customers is a big miss in a cell that should hold thirty, and a small one in a cell that should hold three hundred.
+
+HEART: The degrees of freedom are the number of rows minus one, times the number of columns minus one. Here is why. Once the row totals and the column totals are fixed, only that many cells are free. In the banking table, fill in the phone count for two of the age groups, and every other cell is forced by the totals.
+
+LEWIS: And the decision. A big statistic means the observed counts stray far from what independence predicts, so this test rejects only in the upper tail. If the statistic is above the critical chi square value, you reject independence and conclude that the two characteristics are related.
+
+HEART: Two traps. The degrees of freedom are rows minus one times columns minus one, not the number of cells minus one. And the statistic works on counts. If a table gives you percentages, turn them back into counts first.
+
+LEWIS: Notice that the chi square distribution has now done two different jobs. Earlier it tested a single variance, and here it tests independence in a table of counts. Same distribution, different question.
+
+HEART: The takeaway. To test whether a correlation is real, use a t statistic with the sample size minus two degrees of freedom, and remember that significance grows with the sample, so significant is not the same as strong. Spearman does the same job with ranks. And a contingency table tests independence by comparing observed counts with the counts independence predicts, using chi square in the upper tail.
 
 ## Recall check
 
-Q: If you lower the significance level from 5 percent to 1 percent and keep the same sample size, what happens to the probability of a Type 2 error and to the power of the test?
+LEWIS Q: A researcher wants to show that a strategy's average return is above zero. What goes in the null hypothesis, and what goes in the alternative?
 
-Answer: The probability of a Type 2 error rises and power falls. A stricter significance level makes the null harder to reject, so you more often miss a null that is false. Only a larger sample can reduce both kinds of error at once.
+HEART: Answer. The null says the average return is less than or equal to zero, and the alternative says it is greater than zero. Here is why. The null is the statement you are trying to knock down, and it always holds the equal sign. What the researcher hopes to show goes in the alternative, which you can only conclude when the evidence rejects the null. Because only high results count against this null, it is a one tailed test in the upper tail.
 
-Q: An analyst compares the returns of the same 40 stocks in the month before and the month after they join an index. Which test is most appropriate?
+HEART Q: A test fails to reject the null. Can you say the null has been shown to be true?
 
-Answer: The paired comparisons test, also called the test of mean differences. The two sets of returns come from the same stocks, so the samples are dependent. You compute the difference for each stock and run a t test on the mean difference with 39 degrees of freedom.
+LEWIS: Answer. No, you can only say you failed to reject it. Here is why. Failing to reject means the sample was not surprising enough under the null. That can happen because the null is true, or because the sample was too small to detect a real effect. Like a jury's not guilty verdict, it says the evidence fell short, not that innocence was proven.
 
-Q: A two tailed test produces a p value of 3 percent. Do you reject the null at the 5 percent level, and at the 1 percent level?
+LEWIS Q: You make the significance level stricter and keep the same sample size. What happens to the chance of a Type two error and to the power of the test?
 
-Answer: You reject at 5 percent but not at 1 percent. The rule is to reject when the p value is below the significance level. Three percent is below 5 but above 1.
+HEART: Answer. The chance of a Type two error rises and power falls. Here is why. A stricter significance level pushes the cutoff further out, so the null is harder to reject. That cuts false alarms, but it also lets more false nulls slip through. With a fixed sample you trade one error for the other, and only a larger sample can reduce both.
 
-Q: A sample of 11 pairs has a correlation of 0.8. What is the t statistic for testing whether the population correlation is zero?
+HEART Q: A colleague says a p value of three percent means there is a three percent chance the null hypothesis is true. What is wrong with that?
 
-Answer: The t statistic is 4. The square root of 11 minus 2 is 3, and the square root of one minus 0.64 is 0.6. So t equals 0.8 times 3, divided by 0.6, which is 4, with 9 degrees of freedom. That is well beyond the 5 percent critical value of about 2.26, so you reject.
+LEWIS: Answer. The p value is calculated by assuming the null is true, so it cannot be the probability that the null is true. Here is why. The p value is the probability of a test statistic at least as extreme as yours if the null holds, so it measures how surprising your data would be in that world. Its proper use is to compare it with the significance level and reject when it is smaller. A p value of three percent rejects at five percent, but not at one percent.
 
-Q: A contingency table has 4 rows and 3 columns. How many degrees of freedom does the chi square test of independence have?
+LEWIS Q: Thirty runners each run the same course in old shoes and then in new ones. Which test compares the average times, and why not the difference in means test?
 
-Answer: Six. Degrees of freedom equal rows minus 1 times columns minus 1, so 3 times 2. The tempting wrong answer is 11, which is the number of cells minus 1.
+HEART: Answer. The paired comparisons test, also called the test of mean differences. Here is why. Both sets of times come from the same runners, so the samples are dependent, and a fast runner is fast in either pair of shoes. The difference in means test assumes independent samples and would treat all that runner to runner variation as noise. Pairing takes each runner's own difference, so the shared factor drops out, and the test runs on the mean difference with the number of pairs minus one degrees of freedom.
 
-Q: You want to test whether two independent, normally distributed populations have the same variance, two tailed at 5 percent. Which statistic do you use, and which critical value?
+HEART Q: When you compare the means of two independent samples, what do you assume about their population variances, and what do you do with the sample variances?
 
-Answer: Use the F statistic, the ratio of the two sample variances, with the larger variance on top. Because the larger one is on top, you compare F to the upper critical value that leaves 2.5 percent in the tail, not 5 percent. Degrees of freedom are each sample size minus 1.
+LEWIS: Answer. You assume the population variances are unknown but equal, and you pool the two sample variances. Here is why. If both populations share one variance, each sample gives an estimate of it, and combining them gives a better estimate than either alone. The pooled variance weights each sample variance by its size minus one, and the degrees of freedom are the two sample sizes added together, minus two. The test also assumes both populations are normal.
 
-## Recap
+LEWIS Q: Which distribution tests a single population variance, and why does a two tailed version need two different critical values?
 
-The null hypothesis always contains the equality, and you reject it or fail to reject it, but you never accept it. The test statistic counts standard errors between the sample result and the hypothesized value, and you reject when the p value is below the significance level. The significance level is the probability of a Type 1 error, power is one minus the probability of a Type 2 error, and only a bigger sample cuts both errors at once. Statistical significance is not economic significance, and running many tests produces some false positives by chance alone.
+HEART: Answer. The chi square distribution, and it needs two cutoffs because it is not symmetric. Here is why. Chi square is bounded below by zero and skewed to the right, so its lower and upper tails have different shapes. A single plus or minus cutoff only works for a symmetric distribution like z or t. So you look up a separate lower cutoff and upper cutoff, each leaving half the significance level in its own tail.
 
-For means, use t: n minus 1 degrees of freedom for one mean, a pooled t for two independent means, and a paired t on the differences for dependent samples. Chi square tests one variance, and F tests two, with the larger variance on top. Test a correlation with r times the square root of n minus 2, over the square root of one minus r squared, on n minus 2 degrees of freedom. Use Spearman ranks when data are not normal, and test a contingency table with chi square on rows minus 1 times columns minus 1 degrees of freedom, in the upper tail only.
+HEART Q: In an F test of two variances, why do you put the larger sample variance on top, and what does that mean for a two tailed test at five percent?
+
+LEWIS: Answer. It means you only need the upper critical value, and for a two tailed test at five percent you use the one that leaves two and a half percent in the upper tail. Here is why. With the larger variance on top, the ratio is at least one, so it can only land in the upper rejection region. But the test is still two tailed, so the significance level is split between the two tails, and the upper tail holds only half of it.
+
+LEWIS Q: All you have is a ranking of funds from first to last. Should you use a parametric or a nonparametric test, and why?
+
+HEART: Answer. A nonparametric test, such as the Spearman rank correlation if you are comparing two rankings. Here is why. Ranks are an ordinal scale. They give you the order but not how far apart the items are, so you cannot build means and variances of the underlying values. Parametric tests rest on parameters and distribution assumptions that ranks cannot support, while rank based tests are built for orderings.
+
+HEART Q: An analyst wants to know whether a sequence of daily up and down moves is random. Why is that a job for a nonparametric test?
+
+LEWIS: Answer. Because the question is not about a parameter. Here is why. Randomness is a property of the sequence, not a mean or a variance of a population. A runs test counts the streaks of up days and down days and asks whether there are about as many as chance would produce. Too few runs or too many both suggest the moves are not random.
+
+LEWIS Q: With a very large sample, a correlation of about one tenth turns out to be highly significant. Does that mean the two variables are strongly related?
+
+HEART: Answer. No, it means the true correlation is probably not zero, but the relationship is still weak. Here is why. The t statistic for a correlation rises with the sample size as well as with the correlation itself. With enough observations, even a weak correlation clears the cutoff. Significance tells you an effect is probably real, not that it is large.
+
+HEART Q: In a chi square test of independence, why are the degrees of freedom the rows minus one times the columns minus one, and in which tail do you reject?
+
+LEWIS: Answer. Because once the totals are fixed, only that many cells are free, and you reject only in the upper tail. Here is why. The expected counts come from the row and column totals, so after you fill in all but one row and all but one column, the remaining cells are forced. A large statistic means the observed counts stray far from what independence predicts, while a small one means they match it, so only large values count against independence.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: The null holds the equal sign, and you either reject it or fail to reject it. Never accept it, the same way a jury never declares anyone innocent.
+
+HEART: For the two errors: Type one cries wolf, Type two misses the wolf. The significance level is the chance of crying wolf when there is no wolf. Power is the chance of catching a wolf that really is there, which is one minus the Type two error rate. And only more data cuts both errors at once.
+
+LEWIS: For the p value: if the p is low, the null must go, where low means below the significance level. And because the p value assumes the null is true, it is never the probability that the null is true.
+
+HEART: For the z cutoffs: one point six five does double duty, one tail at five percent or two tails at ten. One point nine six is two tails at five. Two point three three is one tail at one, and two point five eight is two tails at one.
+
+LEWIS: For the test statistic: signal over noise. The gap between your sample and the claim, measured in standard errors.
+
+HEART: For the test map: means use t. One variance uses chi square. Two variances use F, which is a fraction, one variance over the other, with the bigger one on top and only the upper tail to check.
+
+LEWIS: For two means: same subjects, same periods, or before and after, so pair them. Two unrelated groups, so compare their means with a pooled variance.
+
+HEART: For degrees of freedom: one mean, one variance and paired data all use one less than the count, where the count for paired data is the number of pairs. Two independent means use the combined count minus two. Correlation and Spearman use the sample size minus two. F uses each sample's size minus one. A contingency table uses rows minus one times columns minus one.
+
+LEWIS: For when to go nonparametric, think ranks, wrecks and runs. Ranks: the data are only an ordering. Wrecks: the parametric assumptions are wrecked, like a small sample from a clearly non normal population. Runs: the question is not about a parameter, such as whether a sequence is random.
+
+HEART: For a contingency table: if the traits are unrelated, every row splits like the whole table. Big gaps from that pattern mean a big chi square, and you reject independence in the upper tail. Now, how you would say the big ideas to a senior leader.
+
+LEWIS: On testing a claim: before we act on a pattern, we ask how often luck alone would produce a pattern this strong, and if that would be rare enough, we treat the pattern as real. The jargon is hypothesis testing, the null hypothesis and the p value.
+
+HEART: On error tradeoffs: any screen strict enough to rarely raise a false alarm will miss more real problems, and the only way to improve on both counts is more data. The jargon is Type one and Type two errors, the significance level and power.
+
+LEWIS: On size versus significance: with enough data, even a tiny effect can pass the test, so we also ask whether it is big enough to matter. The jargon is statistical significance, which is not the same thing as a strong relationship.
+
+HEART: On before and after comparisons: when we measure the same branches before and after a change, we compare each branch with itself, so everything the two measurements share drops out. The jargon is a paired comparisons test, as opposed to a difference in means test.
+
+LEWIS: On volatility: to check whether risk has changed, we test a variance against a benchmark, or compare two variances directly. The jargon is the chi square test for one variance and the F test for two.
+
+HEART: And on whether two categories are linked: we compare the counts we actually see with the counts we would expect if the two had nothing to do with each other. The jargon is a contingency table and the chi square test of independence.
