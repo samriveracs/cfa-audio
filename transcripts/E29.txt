@@ -1,145 +1,271 @@
-## The big picture
-
-The last episode priced a bond from a single yield. This episode asks what that yield really means, how to compare yields that are quoted in different ways, and why one yield is not enough. The first covers yields and spreads for fixed rate bonds. The second covers floating rate notes and money market instruments, where quoting conventions are the whole game. The third replaces the single yield with a curve of spot rates, par rates and forward rates.
-
-One idea connects all three. Every yield is a benchmark rate plus a spread. The benchmark reflects economy wide forces such as expected inflation and central bank policy. The spread reflects what is special about this issuer and this bond, mainly credit risk, liquidity and sometimes taxes. Once you see yields this way, many exam questions become questions about which benchmark and which spread.
-
-Expect three kinds of questions. First, conversions between compounding frequencies and between money market quoting bases. Second, comparisons among spread measures, and between quoted margin and discount margin. Third, curve math with spot, par and forward rates.
+LEWIS: Reading 53 covers how to measure and compare the yield on a fixed rate bond, from yield to maturity and its quoting conventions to callable bond yields and the family of yield spreads. Reading 54 covers the margins on floating rate notes and the quoting conventions of the money market, and Reading 55 covers the spot, par and forward curves and how the three fit together.
 
 ## Module 53.1, Yield and Yield Spread Measures for Fixed-Rate Bonds
 
-A bond yields 4 percent. Compounded how often? A stated annual rate means little until you know its periodicity, the number of compounding periods in a year. A yield on a semiannual coupon bond is usually quoted as the semiannual rate times 2, which is called a semiannual bond basis yield.
+HEART: Start with the measure everything else in this reading gets compared against. The yield to maturity is the one discount rate at which all of a bond's promised payments, brought back to today, add up to exactly its price. Episode one called it the bond's internal rate of return. Picture a savings account paying one steady rate. The yield to maturity is the rate that account would need to pay to turn today's price into exactly the bond's stream of coupons and its final repayment.
 
-To compare yields with different periodicities, convert them so they produce the same effective annual return. Here is the rule. One plus the annual rate for m periods divided by m, raised to the power m, equals one plus the annual rate for n periods divided by n, raised to the power n. In plain terms, both rates must grow one dollar into the same amount over a year.
+LEWIS: And the last episode gave you its fine print. You earn the yield to maturity only if three things happen. You hold the bond all the way to maturity. The issuer makes every payment in full and on time. And every coupon you receive is reinvested at that same yield until the bond matures.
 
-Try it with round numbers. A yield of 4 percent with quarterly compounding means 1 percent per quarter. Two quarters at 1 percent grow one dollar to 1.0201, so the semiannual rate is 2.01 percent, and the semiannual bond basis yield is 4.02 percent. Four quarters grow one dollar to about 1.0406, so the effective annual rate is about 4.06 percent.
+HEART: Each of those can fail, and each failure is a different risk. Sell early and you take whatever price the market offers that day, which is interest rate risk. The issuer misses a payment, which is credit risk. And if rates fall after you buy, your coupons get reinvested at lower rates, so you end up short of the quoted yield. That is reinvestment risk. So a yield to maturity describes one scenario. It is not a guarantee about your return.
 
-Here is the trap. Candidates often think more frequent compounding always means a higher yield. That is true of the effective return for a given stated rate. But when the investment is fixed and only the quote changes, more frequent compounding needs a lower stated rate. So converting from semiannual to monthly lowers the number, and converting from quarterly to annual raises it.
+LEWIS: There is a quieter assumption too. The yield to maturity discounts every cash flow, near or far, at the same rate. That is a simplification, and later measures are built partly to fix it.
 
-On the B A two plus, the interest conversion worksheet does this. Press second, then the 2 key, which opens the worksheet labeled I conv. The first line is N O M, the nominal annual rate. Key in 4 and press enter. Arrow down twice to C Y, key in 4 and press enter.
+HEART: Now the quoting conventions. The number of coupon payments a bond makes each year is its periodicity. An annual pay bond has a periodicity of one, a semiannual bond two, a quarterly bond four.
 
-Arrow up once to E F F and press C P T. The display shows about 4.06, the effective annual rate. Now arrow down to C Y, key in 2 and press enter. Arrow up twice to N O M and press C P T. The display shows 4.02, the semiannual bond basis yield.
+LEWIS: And as the last episode warned, the convention for a semiannual bond trips people up. The market works out the yield per half year, then simply doubles it. That doubled number is called a yield on a semiannual bond basis. It is a stated annual rate, not an effective one. Doubling ignores the fact that the first half year's interest goes on to earn interest in the second half.
 
-Two quoting details come next. A street convention yield assumes every payment arrives on its scheduled date, even a weekend or holiday. A true yield uses the actual calendar, so it is never higher than the street convention yield and is usually slightly lower. A government equivalent yield restates a yield computed with 30 day months and a 360 day year onto the actual day count used for government bonds, so the two compare fairly.
+HEART: You have seen the same idea at the bank. A savings certificate at a bank or credit union often shows a stated rate and, next to it, a slightly higher annual percentage yield. That annual percentage yield is the effective annual yield. It counts the interest on interest that comes from crediting more than once a year.
 
-Now two simple yield measures that ignore time value. The current yield equals the annual coupon divided by the flat price. A bond with a 6 dollar annual coupon trading at 96 has a current yield of 6.25 percent. The current yield ignores the gain as the price pulls up to par, and it ignores reinvestment. The simple yield fixes the first problem. It equals the annual coupon plus the straight line amortization of a discount, or minus the amortization of a premium, all divided by the flat price.
+LEWIS: So the rule. For a given stated yield, the higher the periodicity, the more compounding, and the higher the effective annual yield. An annual pay bond is the special case. It compounds once a year, so its yield to maturity already is an effective annual yield.
 
-Take the same bond with 4 years left. The 4 dollar discount, spread evenly over 4 years, adds 1 dollar a year. So the simple yield is 6 plus 1, or 7, divided by 96, which is about 7.29 percent. Simple yield is a convention used mainly for Japanese government bonds. On the exam, remember that both measures divide by the flat price, not the full price and not par.
+HEART: Now flip the question, because this is where the trap hides. Suppose the investment stays exactly the same, and you only want to restate its yield for a different periodicity so you can compare it with another bond. The effective annual yield has to stay fixed, because the cash you earn has not changed. Restate it with more frequent compounding and the stated rate has to come down, since each period's interest now gets more chances to earn interest. Restate it with less frequent compounding and the stated rate goes up.
 
-Now callable bonds. The issuer can redeem a callable bond early, so you can compute a yield to each possible call date as well as the yield to maturity. The yield to first call uses the first call date as the end date and the first call price as the final cash flow. The yield to worst is the lowest of the yield to maturity and all the yields to call. It is the conservative quote, assuming the issuer acts in its own interest.
+LEWIS: So the direction depends on the question. Hold the stated rate fixed and add compounding, and the effective yield rises. Hold the investment fixed and add compounding, and the stated rate falls. Before you weigh a quarterly pay bond against a semiannual one, put both quotes on the same periodicity.
 
-Here is a worked case. A bond pays a 6 dollar annual coupon, matures in 5 years, trades at 104, and is callable in 2 years at 102. On the B A two plus, clear the time value of money worksheet by pressing second, then F V. Set P Y to 1 by pressing second, then I Y, keying 1 and pressing enter, which also sets C Y to 1. Quit with second, then C P T. Enter N as 2, P M T as 6, F V as 102, and P V as negative 104, by keying 104, pressing the plus minus key, then P V.
+HEART: One more convention is about the calendar. A yield computed as if every coupon arrives on its scheduled date follows the street convention. But when a scheduled date falls on a weekend or a holiday, the payment actually arrives on the next business day. A yield computed with those actual payment dates is the true yield.
 
-Press C P T, then I Y. The display shows about 4.83, the yield to first call. Now change N to 5 and F V to 100, and compute I Y again. The display shows about 5.07, the yield to maturity. The yield to worst is the lower number, 4.83 percent. With semiannual coupons you would enter half year periods and half year coupons, then double the computed rate.
+LEWIS: Payments can only slide later, never earlier, so the true yield can never come out above the street convention yield. Usually the gap is tiny, a few basis points or less. Same bond, the calendar just shaves a sliver off.
 
-The trap is relying on the yield to maturity for a callable bond trading at a premium. A premium usually means rates have fallen, which makes a call attractive to the issuer, so the yield to call is the more realistic expectation.
+HEART: Now two simple measures that skip the time value of money entirely. The current yield, also called the income yield or the running yield, is the annual coupon divided by the bond's flat price, the quoted price without accrued interest. It is the bond's version of a rental property's yearly rent measured against what you paid for the building. It tells you the income, and nothing else.
 
-The option adjusted yield goes further. Start from the bond's flat price and add the value of the embedded call, which gives the price of an otherwise identical bond with no option. Then compute the yield from that higher price. The result, the option adjusted yield, is lower than the callable bond's yield to maturity, because the extra yield that paid you for the call has been stripped out.
+LEWIS: Which means it misses two things. It ignores any gain or loss as the price drifts toward par by maturity, and it ignores the income from reinvesting the coupons. And it is blind to payment timing. Two bonds with the same coupon rate and the same price, one paying twice a year and one paying once, show exactly the same current yield.
 
-Now spreads. A yield spread, or benchmark spread, is the bond's yield minus a benchmark yield. The G spread uses a government bond yield as the benchmark, either an actual government bond of the same maturity or a yield interpolated between two of them. The I spread uses the swap rate for that maturity, interpolated if needed. Swap rates are tied to a market reference rate such as SOFR, the secured overnight financing rate.
+HEART: Here is when it misleads. Buy a bond well below par, and part of your return is the climb back to par. Current yield leaves that out, so for a discount bond it understates what you would earn by holding to maturity. For a premium bond it does the reverse. The price will sink toward par, current yield ignores that loss, and it overstates your return.
 
-Interpolation is a common calculation. Say the 2 year government yield is 3 percent and the 4 year is 4 percent. A corporate bond with 3 years left yields 5.1 percent. Three years sits halfway between, so the interpolated benchmark is 3.5 percent. The G spread is 5.1 minus 3.5, which is 1.6 percentage points, or 160 basis points.
+LEWIS: The simple yield patches the first gap. Picture the gap between price and par shrinking by the same amount every year until maturity. For a discount bond, one year's share of that shrinking counts as income on top of the coupon. For a premium bond, it counts as a loss against the coupon. The result is measured against the flat price.
 
-Spreads also drive matrix pricing. To value a bond that rarely trades, add a spread estimated from comparable bonds to the interpolated benchmark, and discount the cash flows at that yield.
+HEART: Still, it is a straight line, with no compounding and no reinvestment. Treat it as a rough guide, not a substitute for the yield to maturity.
 
-The G spread and the I spread share a weakness. Each compares one yield to maturity with one benchmark yield, which quietly assumes a flat curve. The Z spread, short for zero volatility spread, fixes this. A spot rate, covered later in this episode, is the yield on a zero coupon bond for one date. The Z spread is the single constant spread that, added to every government spot rate along the curve, makes the present value of the bond's cash flows equal its price.
+LEWIS: Now callable bonds. When the issuer can redeem a bond early, there is no single end date to plan around, so there is no single yield. You can compute a yield to call for each date on which the bond could be called, using that date as the end and that date's call price as the final payment, alongside the ordinary yield to maturity.
 
-Spoken as a formula, the price equals the sum of each cash flow divided by one plus the government spot rate for that date plus the Z spread, raised to the number of periods until that cash flow. For bonds with embedded options, take one more step. The option adjusted spread, or OAS, equals the Z spread minus the value of the option expressed in basis points per year. For a callable bond, the investor has sold a call, so part of the Z spread is really payment for that call. Take it out, and the OAS is smaller than the Z spread.
+HEART: The yield to worst is the lowest of all of them, the yield to maturity and every yield to call. It is the conservative quote. It assumes the issuer picks whichever ending is worst for you, which is what an issuer acting in its own interest would tend to do.
 
-For a putable bond the logic flips. The investor owns the put and pays for it by accepting a lower yield, so the OAS is larger than the Z spread. Here is the trap. Two bonds with the same Z spread are not equally attractive if one of them is callable. The callable bond's OAS is lower, so it pays you less for credit and liquidity risk. Compare bonds with options on OAS.
+LEWIS: And the worst case is not always a call. A bond trading well above its call price is where an early call hurts, because you paid more than the issuer will hand back, and you take that loss sooner. But when a bond trades at or below its call prices, an early call just returns your money sooner, at a price at least as good as the one you paid. Then the yield to maturity itself is the lowest, and it is the yield to worst.
 
-The rule to keep from this module is simple. A yield is a benchmark plus a spread. Put yields on the same compounding basis before you compare them, then pick the spread that fits the bond. Use the G spread or I spread for a quick comparison, the Z spread when the curve is not flat, and the OAS when there is an embedded option.
+HEART: Now the most subtle measure in this module, the option adjusted yield. Earlier in fixed income you saw that a callable bond is worth the same straight bond minus the value of the call the investor has sold to the issuer. Turn that around. Take the callable bond's price, add back the value of the call, and you get the price of an equivalent bond with no option. That is the option adjusted price.
+
+LEWIS: Then compute the yield from that higher price. The result is the option adjusted yield, the yield the bond would offer if it could not be called. A higher price means a lower yield, so for a callable bond the option adjusted yield sits below its ordinary yield. The extra yield that was paying you for the call has been taken out.
+
+HEART: And the name is the trap. Option adjusted sounds as if the option has been worked in. It is the opposite. Hear it as option stripped out. That is what makes it useful. Once every option is taken out, a callable bond, a putable bond and a bond with no options at all can be lined up and judged directly.
+
+LEWIS: The value of the call does not come off a quote screen. It comes from an option pricing model, so the option adjusted yield is only as reliable as that model's assumptions, especially about how volatile interest rates will be.
+
+HEART: Now spreads. Episode one built every interest rate as a stack: a real rate, plus expected inflation, plus premiums for the risks the lender carries. A yield spread splits that stack in two. The benchmark yield carries the part every borrower at that maturity faces, mainly the real risk free rate, expected inflation and the maturity premium. The spread carries what is particular to this bond, mainly its credit risk and its liquidity, and sometimes its tax treatment.
+
+LEWIS: The yield spread, also called the benchmark spread, is simply the bond's yield minus the yield on a benchmark, usually quoted in basis points. When the benchmark is a government bond, it is the G spread. The usual choice is the on the run government bond, the newest issue closest in maturity, because heavy trading keeps its price fresh and reliable.
+
+HEART: Often no government bond matures on exactly the right date. A corporate bond might have seven years left while the government bonds on either side mature in five and ten years. Then you interpolate, drawing a straight line between the two neighbors and reading off the yield at seven years, and you measure the spread from that.
+
+LEWIS: The I spread, short for interpolated spread, is measured against a different benchmark, the swap rate in the same currency and for the same tenor. Swap rates are built on the market reference rates that swap contracts pay, so the I spread is the bond's extra return over those reference rates. It is widely quoted for bonds issued in euros. And it suits any lender that funds itself at floating rates and hedges with swaps, because the swap rate is what that lender can actually lock in.
+
+HEART: Here is why splitting a yield into benchmark and spread is so useful. Say a corporate bond's yield rises by half a percentage point. Did the whole market move, or did something happen to this company? Look at the spread. If the yield rose but the spread held steady, the benchmark rose by the same amount, so the cause was economy wide, a macroeconomic factor such as higher expected inflation. If the spread widened, the cause was particular to the issuer or its industry, a microeconomic factor such as rising credit risk or thinner trading in the bond.
+
+LEWIS: Picture a regional bank's bonds in the week after a scare about its deposits. Treasury yields barely move, but the bank's bond yields jump. The spread did all the moving, and the spread is telling you the market has repriced that bank's credit and liquidity, not the economy.
+
+HEART: Now the weakness the G spread and the I spread share. Each compares one bond's single yield to maturity with one benchmark yield. But a bond's cash flows arrive on many different dates, and money due on different dates is priced at different rates. Each of those rates is a spot rate, the yield on a single payment due on one date, which is exactly what a zero coupon bond pays. The last module of this episode builds them out. For now, the point is that a coupon bond's yield to maturity is a weighted average of the spot rates for its payment dates.
+
+LEWIS: So when the curve is not flat, a spread built from yields to maturity blurs the shape of the curve. The zero volatility spread, or Z spread, fixes that. Take the whole government spot curve. Add the same number of basis points to every spot rate on it. Discount each of the bond's cash flows at its own spot rate plus that constant. Keep adjusting the constant until the discounted cash flows add up to the bond's market price. That constant is the Z spread.
+
+HEART: There is no shortcut formula for it. You find it by trial and error. Guess, check the price, nudge the guess, repeat. And the name hints at its blind spot. Zero volatility means it values the bond as if future rates will follow exactly the path today's curve implies, with no random swings around it. For an option free bond that is fine, because the cash flows are fixed whatever rates do.
+
+LEWIS: For a bond with an embedded option it is not fine, because whether the option is exercised depends on where rates go. A callable bond's Z spread pays you for two different things lumped together. One is the bond's credit risk, its liquidity and its tax treatment. The other is the call you have sold. That is where the option adjusted spread, or OAS, comes in.
+
+HEART: Take the option's share out of the spread over the government spot curve, and what remains is the OAS, the spread the bond would earn with no option attached. It is the spread version of the option adjusted yield, the same idea applied across the whole curve instead of to a single yield. For a callable bond, express the call's value in basis points and take it off the Z spread, and what remains is the OAS. So the OAS is the smaller of the two, and the gap between them is the option value.
+
+LEWIS: Picture two bonds from the same issuer with identical Z spreads, one callable and one not. They look equally rewarding, but they are not. Part of the callable bond's spread is payment for the call you gave the issuer, and that call tends to be exercised exactly when rates fall and you would least like your money back. Its OAS is lower, so it pays you less for the credit and liquidity risk you are actually carrying.
+
+HEART: For a putable bond the logic flips. The investor owns the put and pays for it by accepting a lower yield. Strip the put out and the spread goes up, so a putable bond's OAS is above its Z spread.
+
+LEWIS: And since the option value comes from a model, two analysts with different volatility assumptions can quote different OAS figures for the very same bond.
+
+HEART: So when does each measure mislead? The yield to maturity misleads when you will not hold to maturity, when coupons will be reinvested at different rates, or when the bond can be called. Current yield and simple yield mislead whenever time value matters, which is almost always. The G spread and the I spread mislead when the curve is steep, because they boil the whole curve down to one point. And the Z spread misleads for any bond with an embedded option, because it mixes the option's value in with credit risk.
+
+LEWIS: The takeaway. A yield is a benchmark plus a spread. Put yields on the same periodicity before comparing them, quote the yield to worst for callable bonds, and compare bonds with options on option adjusted measures, which take the option out.
 
 ## Module 54.1, Yield and Yield Spread Measures for Floating-Rate Instruments
 
-A floating rate note pays a coupon that resets with a market reference rate, such as SOFR, plus a fixed spread called the quoted margin. The quoted margin is set at issue to compensate investors for the issuer's credit risk as it looked on that day. Because the coupon tracks market rates, a floater's price stays close to par, and most of its interest rate risk disappears. What remains is the risk that the spread investors require changes.
+HEART: A floating rate note, or floater, pays a coupon that resets with the market. Each period's coupon is a market reference rate, such as a short term interbank rate, plus a fixed margin. The reference rate is treated as carrying very little credit risk. The margin is set on issue day, sized by how the issuer's credit compares with the credit already built into the reference rate.
 
-That required spread is called the discount margin, or required margin. It is the spread over the reference rate that investors demand today. Three cases matter, and they are heavily tested. If the discount margin equals the quoted margin, the floater prices at par on a reset date. If the discount margin is higher than the quoted margin, usually because the issuer's credit has weakened, the floater pays too little and trades at a discount. If the discount margin is lower than the quoted margin, the floater trades at a premium.
+LEWIS: So the margin can even be negative. If the issuer is safer than the banks behind the reference rate, the margin is subtracted rather than added. And the margin reflects more than credit. A floater that is hard to trade, or that is taxed differently, carries a different margin for that reason too.
 
-The pricing model treats the floater like a fixed rate bond, with one simplification. It assumes the reference rate stays at today's level for the life of the note. The coupon per period equals the reference rate plus the quoted margin, divided by the number of periods per year, times par. The discount rate per period equals the reference rate plus the discount margin, divided by the number of periods per year. Discount each coupon and the final par value at that rate, and add them up.
+HEART: Timing matters. At each reset date, the coupon for the coming period is set from the reference rate on that day, but the cash is paid at the end of the period. That is called paying interest in arrears. Think of a parking garage that posts its hourly rate when you drive in and charges you that rate when you leave.
 
-Take a 2 year floater that pays quarterly. The reference rate is 4 percent, the quoted margin is 100 basis points, and the issuer's credit has slipped, so the discount margin is now 120 basis points. The quarterly coupon is 4 percent plus 1 percent, or 5 percent, divided by 4, which is 1.25 per 100 of par. The quarterly discount rate is 4 percent plus 1.2 percent, or 5.2 percent, divided by 4, which is 1.3 percent.
+LEWIS: Why does a floater's price hold so steady? Because its coupon keeps catching up with the market. If market rates jump, the next coupon jumps too, so the investor never sits for long on a below market rate. A fixed rate bond of the same maturity has no such catch up, so its price has to absorb the whole move.
 
-On the B A two plus, clear the time value of money worksheet and keep P Y at 1. Enter N as 8, I Y as 1.3, P M T as 1.25, and F V as 100. Press C P T, then P V. The display shows about negative 99.62. The floater trades about 0.38 per 100 of face value below par, because it pays 20 basis points less than the market now requires.
+HEART: Now the two margins, which is what this module is really about. The quoted margin is the fixed margin written into the note, the one actually paid in every coupon. The discount margin, also called the required margin, is the margin the market demands today, the margin that would make the floater price at exactly par.
 
-The same logic applies to floating rate loans and deposits on a bank or credit union balance sheet. The rate resets, so repricing risk is small, but the spread is locked until maturity, so spread risk remains.
+LEWIS: On issue day the two margins usually match, which is why floaters are normally sold at par. As long as the market's view of the issuer holds steady, they keep matching, and on every reset date the price comes back to par.
 
-Now money market instruments, which are debt with a year or less to maturity. Their rates are simple interest, without compounding, quoted on one of two bases.
+HEART: Now suppose the issuer is downgraded. Investors want more compensation, so the discount margin rises above the quoted margin. But the quoted margin is locked in the contract. The note now pays less than the market requires, so it trades below par. If the issuer's credit improves instead, the discount margin falls below the quoted margin, the note pays more than the market requires, and it trades above par.
 
-A discount basis is used for instruments that are issued below face value and repay face value, such as Treasury bills, commercial paper and bankers' acceptances. To get the price, multiply the discount rate by the days to maturity divided by the days in the year, subtract that from one, and multiply by face value. Put the other way, the discount rate equals the days in the year divided by the days to maturity, times the dollar discount divided by face value.
+LEWIS: The parallel with a fixed rate bond is exact. The quoted margin plays the role of the coupon rate, and the discount margin plays the role of the yield. A coupon below the yield means a discount. A quoted margin below the discount margin means a discount. Same seesaw, just measured as a spread over a moving reference rate.
 
-An add on basis is used for instruments where interest is added to the principal at maturity, such as bank certificates of deposit, repurchase agreements and the reference rates themselves. To get the price, multiply the add on rate by the days to maturity divided by the days in the year, add one, and divide the amount repaid at maturity by that. Put the other way, the add on rate equals the days in the year divided by the days to maturity, times the interest earned divided by the price paid.
+HEART: And that is the trap. People hear floating rate and think the price cannot fall. The reference rate resets, but the margin does not. A floater protects you from changes in market rates, not from changes in the issuer's credit. A downgrade still pushes a floater below par, through the margin.
 
-Take a 180 day Treasury bill. It has a discount rate of 4 percent on a 360 day year. Half a year at 4 percent is a discount of 2 percent of face, so the price is 98 per 100 of face. As an add on rate, you earn 2 dollars on 98 dollars invested for 180 days, about 2.04 percent, which annualizes to about 4.08 percent on a 360 day year. On a 365 day year, the add on rate is about 4.14 percent. That 365 day add on rate is called the bond equivalent yield.
+LEWIS: Bank and credit union balance sheets show this every day. A variable rate loan reprices with the market, so its interest rate risk is small. But its margin was set for the borrower's credit when the loan was made. If the borrower weakens, that margin is too thin for the risk, and the loan is worth less than its balance.
 
-Here is the trap. A discount rate understates the investor's return for two reasons. It divides the discount by face value instead of by the lower price actually paid, and it usually annualizes using a 360 day year. So with the same day count, a 4 percent discount rate and a 4 percent add on rate are not the same return, and the add on instrument pays less. To compare money market instruments, put them on the same basis and the same day count first.
+HEART: How do you value a floater after issue? A simplified method works on a reset date. Assume the reference rate stays at today's level for the rest of the note's life. Set every future coupon at today's reference rate plus the quoted margin. Discount every cash flow at today's reference rate plus the discount margin. Add them up.
 
-The rule from this module has two parts. A floater trades at par when the discount margin equals the quoted margin, at a discount when the discount margin is higher, and at a premium when it is lower. For money market rates, a discount rate understates return, so convert before you compare.
+LEWIS: That is where the name discount margin comes from. It is the margin that goes into the discount rate, while the quoted margin goes into the cash flows. And the method's weak spot is that flat assumption. Real reference rates move, so more complex models that let the reference rate change over time give better values.
+
+HEART: Now the money market, which means debt that matures in a year or less. Money market yields are simple interest, annualized without compounding, and the quotes differ along two switches. Is it an add on yield or a discount yield? And does it assume a three hundred sixty day year or a three hundred sixty five day year?
+
+LEWIS: An add on yield works like a savings deposit. You put money in, you get it back with interest added at the end, and the yield is the interest measured against what you put in. Bank certificates of deposit, repurchase agreements and the market reference rates themselves are typically quoted this way.
+
+HEART: A discount yield works like buying a gift card for less than its face value. You pay less up front, you get the full face value at maturity, and the yield is that discount measured against the face value, then annualized. Treasury bills and commercial paper are quoted this way, on a three hundred sixty day year.
+
+LEWIS: And a discount yield understates what you actually earn, for two reasons. First, the denominator. Your return is the discount measured against the price you paid, but the quote measures it against the larger face value. Second, the calendar. Annualizing over a three hundred sixty day year instead of three hundred sixty five days makes the annual number smaller still.
+
+HEART: So the holding period yield on a Treasury bill, what you actually earn over its life, is a little more than its discount from face value. And the yield that puts everything on common ground is the bond equivalent yield, which means an add on yield annualized over a three hundred sixty five day year.
+
+LEWIS: The conversions follow from those definitions. To turn a discount yield into a bond equivalent yield, work out the price, measure the discount against that price instead of face, and annualize over three hundred sixty five days. To turn an add on yield quoted on a three hundred sixty day year into a bond equivalent yield, scale it up by three hundred sixty five over three hundred sixty, because the same daily interest is now counted over a longer year.
+
+HEART: One last comparison, with bonds. Suppose you want to set a three month Treasury bill against a two year note whose yield is quoted on a semiannual bond basis. The note's yield assumes compounding twice a year. The bill could be rolled over about four times a year, so its periodicity is higher. Turn the bill's holding period return into an equivalent six month return, then double it, and you have a yield on the note's basis.
+
+LEWIS: And the direction follows the periodicity rule from the first module. The bill's simple annual rate has more compounding hiding behind it, so it comes out a little below the equivalent semiannual bond basis yield. Restated on the note's basis, the bill's yield goes up slightly.
+
+HEART: The takeaway. A floater trades at par when the discount margin equals the quoted margin, below par when the market wants more than the note pays, and above par when it wants less. In the money market, a discount yield understates return, so convert every quote to the same basis before you compare.
 
 ## Module 55.1, The Term Structure of Interest Rates: Spot, Par, and Forward Curves
 
-So far each bond has had one yield. But a 3 year bond's cash flows arrive on three different dates, and money for different dates has different prices. The term structure handles this by giving each date its own rate. There are three ways to state that curve, as spot rates, par rates or forward rates, and they all carry the same information.
+LEWIS: Now the fix for that quieter assumption from the first module, one rate for every date. The term structure of interest rates gives each date its own rate, and this module states it three ways: spot rates, par rates and forward rates.
 
-A spot rate is the yield on a zero coupon bond for one specific maturity. The 2 year spot rate is the rate for money paid once, 2 years from today, with nothing in between. Plotting spot rates against maturity gives the spot curve, also called the zero curve. Spot rates are usually taken from government securities, so the spot curve serves as the default free benchmark.
+HEART: A spot rate is the discount rate for a single payment due on one future date, with nothing in between. A zero coupon bond is exactly that, one payment on one date, so its price reveals the spot rate. That is why spot rates also go by zero coupon rates, or zero rates. Plot spot rates against maturity for one kind of issuer, such as the Treasury, and you get the spot curve, also called the zero curve.
 
-To price a bond with spot rates, discount each cash flow at the spot rate for its own date. The price equals the first cash flow divided by one plus the 1 year spot rate, plus the second cash flow divided by one plus the 2 year spot rate, squared, and so on to the last cash flow. This gives the no arbitrage price. If the bond sold for anything else, you could trade it against a package of zero coupon bonds and lock in a profit.
+LEWIS: For Treasuries it has a third name, the strip curve. Stripped Treasuries are coupon bonds broken into their individual payments, each sold as its own zero coupon bond, and their prices reveal the spot rate for each date. And because spot rates are normally quoted on a semiannual bond basis, the same way coupon government yields are, the two can be set side by side without converting.
 
-Use one simple curve for the rest of this section. The 1 year spot rate is 2 percent, the 2 year is 3 percent, and the 3 year is 4 percent. Price a 3 year bond with a 5 percent annual coupon. The first 5 dollars, discounted at 2 percent, is worth about 4.90. The second 5 dollars, discounted 2 years at 3 percent, is about 4.71. The final 105 dollars, discounted 3 years at 4 percent, is about 93.34, so the price is about 102.96.
+HEART: To price a bond with spot rates, discount each cash flow at the spot rate for its own date and add them up. The first coupon gets the one year rate, the second gets the two year rate, and the final coupon plus par gets the spot rate for the maturity date.
 
-This bond's yield to maturity is about 3.93 percent, which shows a key idea. A coupon bond's yield to maturity is a blend of the spot rates for its cash flow dates, weighted toward the dates that carry the most value. Here most of the value arrives in year 3, so the yield sits close to the 4 percent 3 year spot rate, but a little below it.
+LEWIS: Think of a fruit basket. The fair price of the basket is the price of each piece of fruit, added up. A coupon bond is a basket of zero coupon bonds, one for each payment, which is the cash flow additivity idea from Episode one. Price each piece at its own spot rate and you have the price of the basket.
 
-This creates a trap called the coupon effect. On an upward sloping spot curve, a higher coupon bond gets more of its value early, at lower spot rates, so its yield to maturity is lower than that of a lower coupon bond with the same maturity. On our curve, a 3 year zero yields exactly 4 percent, and a 10 percent coupon bond yields about 3.88 percent.
+HEART: That is why it is called the no arbitrage price. If the bond sold for more than its pieces, a trader could buy the matching zeros, sell the bond, and lock in the difference without risk, because the zeros pay exactly what the bond pays. If it sold for less, the trade runs the other way. Either way, trading pulls the price back to the sum of its parts.
 
-Next, par rates. A par rate is the coupon rate that would make a bond price exactly at par, given the spot curve. The discount factor for a date equals one divided by one plus the spot rate for that date, raised to the number of years. The par rate equals one minus the final discount factor, divided by the sum of all the discount factors up to that maturity.
+LEWIS: This also tells you what a yield to maturity really is. It is a weighted average of the spot rates for the bond's payment dates, weighted toward the dates that carry the most value. For most bonds that is the final date, when par comes back, so the yield to maturity leans toward the spot rate for the maturity date.
 
-Plotting par rates by maturity gives the par curve. On our spot curve, the 1 year par rate is 2 percent, the same as the spot rate. The 2 year par rate is about 2.99 percent, and the 3 year par rate is about 3.95 percent. Each is slightly below the matching spot rate, because a par bond's coupons arrive early, at the lower short rates.
+HEART: And here is where the single yield can mislead. On an upward sloping curve, a high coupon bond gets more of its value early, at the lower short term rates, so its yield to maturity comes out lower than that of a low coupon bond with the same maturity. Same issuer, same maturity, different yields, purely because of when the cash arrives. So when the curve slopes, a yield to maturity is not a fair yardstick between bonds with very different coupons.
 
-You can also run the process in reverse. Starting from par rates, you solve for spot rates one maturity at a time, which is called bootstrapping. Say the 1 year par rate is 2 percent and the 2 year par rate is 3 percent. The 1 year spot rate is simply 2 percent. A 2 year par bond pays 3 dollars in year 1, worth about 2.94 today at 2 percent, so the remaining 97.06 of its 100 dollar price must be the value of the 103 dollars paid in year 2. Solving gives a 2 year spot rate of about 3.02 percent.
+LEWIS: Next, par rates. Ask what coupon a bond of a given maturity would have to pay, under today's spot curve, for its price to land exactly on par. That coupon is the par rate, or par yield. And since a bond priced at par yields exactly its coupon, the par rate is also that bond's yield to maturity. Line up the par rates for every maturity and you have the par curve.
 
-Now forward rates. A forward rate is an interest rate, agreed today, for a loan that starts on a future date. The notation names the start first and the length second. The 1 y 1 y rate is a 1 year rate starting 1 year from now. The 2 y 1 y rate is a 1 year rate starting 2 years from now, and the 1 y 2 y rate is a 2 year rate starting 1 year from now. Mixing up the start and the length is a common exam mistake.
+HEART: Why build a curve out of hypothetical bonds? The usual coupon bond yield curve plots the yields to maturity of actively traded government bonds, with straight lines drawn between the maturities that exist. But thinly traded bonds carry distorted yields. And when a bond trades at a discount or a premium, part of its return comes as a gain or loss rather than as interest, the two are often taxed differently, and that bends its yield too.
 
-Forward rates implied by the spot curve come from a no arbitrage argument. Investing for 2 years at the 2 year spot rate must give the same result as investing for 1 year at the 1 year spot rate and then rolling over at the 1 y 1 y forward rate. As a formula, one plus the 2 year spot rate, squared, equals one plus the 1 year spot rate, times one plus the 1 y 1 y forward rate. More generally, one plus the longer spot rate raised to its number of years equals one plus the shorter spot rate raised to its number of years, times one plus the forward rate raised to the number of years between them.
+LEWIS: The on the run bonds solve the liquidity problem, but there are only a handful of them, and they may not trade at par, so the tax distortion creeps back. The par curve sidesteps both. Derive the spot curve first, then work out the coupon that would price a bond at par at each maturity. Every point is a clean par bond.
 
-On our curve, one plus the 2 year spot rate, squared, is 1.0609. Divide by 1.02 and subtract one, and the 1 y 1 y forward rate is about 4.01 percent. The same steps give a 2 y 1 y rate of about 6.03 percent and a 1 y 2 y rate of about 5.01 percent per year. There is a fast approximation for checking answers. Multiply each spot rate by its years, subtract the shorter from the longer, and divide by the difference in years. For 2 y 1 y that is 3 times 4, minus 2 times 3, divided by 1, which is about 6 percent.
+HEART: The relationship also runs backward. Start with par rates and you can solve for spot rates one maturity at a time, each new spot rate unlocking the next. That process is called bootstrapping.
 
-Think of a forward rate as a breakeven rate. If you buy the 2 year zero, you earn 3 percent a year. If you buy the 1 year zero and roll it over, you need 4.01 percent in year 2 to do as well. If you expect a higher rate than that, rolling short looks better. In capital planning and funding work, the forward curve often serves as the market implied baseline path for rates when projecting future funding costs. But a forward rate is a breakeven, not a promise about where rates will go.
+LEWIS: Now forward rates, and here we build on Episode one. A forward rate is a rate agreed today for a loan that starts on a future date. The notation names the start first and the length second. One y one y is a one year loan starting one year from now. Two y three y is a three year loan starting two years from now. The letter can also be m, for months, in place of y for years.
 
-The relationship also runs the other way. A spot rate is a geometric average of the 1 year spot rate and the forward rates that follow it. One plus the 2 year spot rate equals the square root of the product of one plus the 1 year spot rate and one plus the 1 y 1 y rate. With 2 percent and 4.01 percent, that gives back 3 percent. Pricing with forward rates works the same way. Discount each cash flow by the product of one plus the 1 year spot rate and one plus each 1 year forward rate up to its date, and you get the same 102.96 price.
+HEART: Episode one gave you the two routes idea. Investing for two years at the two year spot rate has to end with the same money as investing for one year at the one year spot rate and then rolling into the one y one y forward rate. Both routes are locked in today and cover the same two years, so they must finish level, or there is an arbitrage.
 
-Finally, compare the three curves, which is heavily tested. Think of spot rates as averages and forward rates as the marginal rates being averaged. When the spot curve slopes upward, each new marginal rate must be above the average to pull it up, so the forward curve lies above the spot curve. The par curve lies below the spot curve, because par bonds collect coupons at the earlier, lower rates. On our curve, at year 3 the forward rate is about 6.03 percent, the spot rate is 4 percent, and the par rate is about 3.95 percent.
+LEWIS: Now stretch it to three years. Investing for three years at the three year spot rate has to match rolling one year at a time: the one year spot rate, then the one y one y rate, then the two y one y rate. The total growth along both routes must be identical.
 
-When the spot curve slopes downward, everything flips. The forward curve lies below the spot curve, and the par curve lies above it. When the spot curve is flat, all three curves are the same. The trap is to memorize only the upward case and guess the rest. Remember the logic instead. Forward rates are the marginal rates that move the average, and par rates tilt toward the short end because of early coupons.
+HEART: Which gives the first key relationship. A spot rate is a geometric average of the one year rates that make up its route, today's one year rate and each one year forward rate along the way. Geometric, because each year's growth builds on the last, the same geometric mean Episode one used for returns over several periods.
 
-The rule to keep is this. One plus the long spot rate raised to its years equals one plus the short spot rate raised to its years, times one plus the forward rate raised to the years between them. And with an upward sloping spot curve, forward rates sit above spot rates, which sit above par rates.
+LEWIS: In practice, a simple average of those one year rates comes very near the spot rate when rates are low, and that makes a handy check. The simple average never lands below the exact figure, and it lands a hair above it whenever the rates differ, because a simple average is never below a geometric one.
+
+HEART: Run the relationship the other way and you get forward rates from spot rates. The forward rate is whatever the later stretch has to earn so that the long route and the short route finish level. Take the long route's total growth, remove the growth the short route already delivered, and what is left, earned over the gap between the two maturities, sets the forward rate. It works the same way for a forward loan of several years, such as a two year loan starting in four years.
+
+LEWIS: You can also price a bond straight from forward rates. Discount the first cash flow at the one year spot rate. Discount the second through the one year spot rate and then the one y one y rate, one after the other, and so on down the line. Each chain of one year rates grows money exactly as the spot rate for that date does, so you get the same price as pricing with spot rates. For a semiannual bond, everything works the same with half year rates and half year periods.
+
+HEART: Now what a forward rate means. It is a break even rate. Say you need to invest for two years. If you think next year's one year rate will end up above today's one y one y forward rate, rolling short beats locking in the two year rate. If you think it will end up below, locking in wins. The forward rate is the dividing line.
+
+LEWIS: So a forward rate is not a guarantee of where rates will go, even though expectations about future rates do help shape the curve.
+
+HEART: In capital planning, the forward curve is one common baseline, along with holding today's rates flat, for estimating what it will cost to roll short term funding over the next few years. It is the market's break even path, not a forecast anyone has promised, so it belongs alongside rate shock scenarios, not in place of them.
+
+LEWIS: Now compare the three curves. The forward curve shows the one year forward rate for each future year, usually on a semiannual bond basis. And the three curves are linked by averaging. A spot rate is an average of the one year forward rates up to its date. A par rate is a weighted average of the spot rates for a par bond's payment dates. Par averages the spots, and the spots average the forwards.
+
+HEART: So why do forward rates sit above spot rates when the spot curve slopes up? Think of a grade point average. Your cumulative average only rises if this semester's grades come in above your average so far. The spot rate is the cumulative average. The forward rate for the next year is this semester's grade. If the two year spot rate is above the one year spot rate, the average went up, so the forward rate for the second year must sit above that new, higher average. Every rise along the spot curve requires a forward rate above it.
+
+LEWIS: That is the same conclusion Episode one reached with two years, now as a general rule. When the spot curve slopes upward, the forward curve lies above it. And if forward rates rise at a steady pace, the spot curve rises too, but more gently, because each spot rate still averages in all the earlier, lower years.
+
+HEART: Par rates sit just below spot rates on that same rising curve. A par bond pays coupons along the way, and those early coupons are discounted at the lower short term spot rates. So the par yield, an average weighted heavily toward the final date but pulled a little by those early dates, lands slightly below the spot rate for its maturity. Near, but below.
+
+LEWIS: So on an upward sloping curve, the order from top to bottom is forward, then spot, then par. When the curve slopes downward, everything flips. Each new forward rate must be below the average to pull it down, so the forward curve lies below the spot curve. And the par curve lies slightly above the spot curve, because a par bond's early coupons are discounted at the higher short term rates. When the curve is flat, every forward rate is the same, so spot rates and par rates all equal that one rate.
+
+HEART: What does each shape say? An upward sloping curve is called normal because it is the most common shape. Investors usually want a higher return for committing money for longer. A downward sloping, or inverted, curve is less common, and one common interpretation is that the market expects rates to fall. A flat curve says money costs the same for every period ahead.
+
+LEWIS: The trap is memorizing only the upward case and guessing at the rest. Rebuild it from the averaging instead. Forward rates are the new numbers being averaged in, so they sit furthest out in the direction the curve is moving. Par rates lean toward the short end through their early coupons, so they sit on the other side of the spot curve.
+
+HEART: The takeaway. Spot rates price each cash flow on its own date, par rates are the coupons that price bonds at par, and forward rates are the break even rates that link spot rates together. On a rising curve, forward rates sit above spot rates, which sit just above par rates, and a falling curve reverses the order.
 
 ## Recall check
 
-Q: A bond yields 5 percent on a semiannual bond basis. If you restate it with monthly compounding, is the stated annual rate higher, lower, or the same?
+LEWIS Q: You buy a bond at its yield to maturity. What three conditions have to hold for you to actually earn that yield?
 
-Answer: Lower. The investment and its effective annual return have not changed, and more frequent compounding needs a lower stated rate to produce the same effective return. The monthly equivalent is about 4.95 percent.
+HEART: Answer. You hold the bond to maturity, the issuer makes every payment in full and on time, and you reinvest every coupon at that same yield. Here is why. The yield to maturity is the one rate that links today's price to the full promised stream of payments. Sell early and the market sets your exit price. Miss a payment and the stream shrinks. Reinvest at a lower rate and your coupons grow more slowly than the yield assumed.
 
-Q: A callable bond and an option free bond from the same issuer have the same Z spread. Which one most likely has the higher option adjusted spread?
+HEART Q: A bond's yield is quoted on a semiannual bond basis. If you restate the same investment with monthly compounding, does the stated rate go up or down?
 
-Answer: The option free bond. For the callable bond, part of the Z spread is compensation for the call the investor has sold, so its OAS equals the Z spread minus the option value and comes out lower. For the option free bond, there is no option to remove, so its OAS equals its Z spread.
+LEWIS: Answer. Down. Here is why. The investment has not changed, so its effective annual yield has not changed either. Monthly compounding gives interest more chances to earn interest, so a smaller stated rate is enough to reach the same effective yield.
 
-Q: Since a floating rate note was issued, the issuer's credit rating has been cut and the discount margin has risen above the quoted margin. On the next reset date, does the note trade at, above, or below par?
+LEWIS Q: A bond trades well below par. Does its current yield overstate or understate the return you would earn by holding it to maturity?
 
-Answer: Below par. The coupon still pays the reference rate plus the old quoted margin, but investors now require the reference rate plus a higher discount margin. Discounting at a rate above the coupon rate gives a price below par, even right after a reset.
+HEART: Answer. It understates it. Here is why. Current yield counts only the annual coupon against the price. Holding a discount bond to maturity also earns the climb from today's price back to par, and current yield leaves that gain out entirely. For a premium bond the error runs the other way.
 
-Q: Which money market quote most likely understates the return an investor earns, a discount rate on a 360 day year, or a bond equivalent yield?
+HEART Q: For a callable bond, is the option adjusted yield above or below its yield to maturity?
 
-Answer: The discount rate. It divides the discount by face value rather than by the lower price paid, and it uses a 360 day year. The bond equivalent yield is an add on rate on a 365 day year, so it measures the return on the amount actually invested.
+LEWIS: Answer. Below. Here is why. Adding the call's value back to the callable bond's price gives the higher price of an equivalent bond with no call. A higher price means a lower yield. What remains is the yield on the bond alone, with the call's share removed, which is what option adjusted means.
 
-Q: The 1 year spot rate is 3 percent and the 2 year spot rate is 4 percent. Roughly what is the 1 y 1 y forward rate?
+LEWIS Q: A corporate bond's yield rises, but its G spread is unchanged. Was the cause economy wide or particular to the issuer?
 
-Answer: About 5 percent. Two years at 4 percent is roughly 8 percent in total, and the first year contributes 3, so the second year must contribute about 5. The exact answer, 1.04 squared divided by 1.03, minus one, is about 5.01 percent.
+HEART: Answer. Economy wide. Here is why. The yield is the benchmark plus the spread. If the spread held still, the whole rise came through the government benchmark, which moves with macroeconomic forces such as the real risk free rate and expected inflation. An issuer problem, such as weaker credit or poorer liquidity, would have shown up as a wider spread.
 
-Q: The spot curve slopes upward. Rank the 5 year spot rate, the 5 year par rate, and the 1 year forward rate starting 4 years from now, from highest to lowest.
+HEART Q: Why is the Z spread a more precise measure than the G spread when the yield curve is steep?
 
-Answer: The forward rate is highest, then the spot rate, then the par rate. A rising average requires marginal forward rates above it, and par rates sit below spot rates because coupons arrive at earlier, lower rates. If the curve sloped downward, the order would reverse.
+LEWIS: Answer. Because it measures the spread over the whole spot curve instead of over one benchmark yield. Here is why. The G spread compares two single yields to maturity, each an average across many dates, which blurs the curve's shape. The Z spread adds one constant to the spot rate for every payment date, so each cash flow is discounted at a rate that fits its own date. The steeper the curve, the more that matters.
 
-## Recap
+LEWIS Q: A callable bond has a Z spread and an option adjusted spread. Which is larger, and what does the difference represent?
 
-A stated yield means little without its periodicity, and the same investment shows a lower stated rate when compounding is more frequent. Current yield is the annual coupon divided by the flat price, and simple yield adds straight line amortization of a discount, or subtracts it for a premium. Yield to worst is the lowest of the yield to maturity and every yield to call, and the option adjusted yield on a callable bond is below its yield to maturity. The G spread uses a government benchmark, the I spread uses the swap curve, the Z spread is one constant spread over the whole government spot curve, and for a callable bond the OAS is the Z spread minus the option value, so it is smaller.
+HEART: Answer. The Z spread is larger, and the difference is the value of the call option, in basis points. Here is why. The Z spread pays the investor for everything at once: credit, liquidity, tax and the call they sold. The OAS strips out the payment for the call, leaving only the credit, liquidity and tax compensation. For a putable bond the order flips, because the investor owns the option.
 
-A floater trades at par when the discount margin equals the quoted margin, below par when it is higher, and above par when it is lower. A discount rate understates return, and the bond equivalent yield is the add on rate on a 365 day year. The no arbitrage price discounts each cash flow at its own spot rate, and a par rate is the coupon that prices a bond at par on that curve. Forward rates link spot rates, and when the spot curve slopes upward, forward rates sit above spot rates and par rates sit below them.
+HEART Q: A floating rate note's issuer is downgraded. On the next reset date, does the note trade at par, above par or below par?
+
+LEWIS: Answer. Below par. Here is why. The quoted margin is fixed in the contract, but after the downgrade the market demands a higher discount margin. The note now pays less over the reference rate than investors require, so they will only buy it at a lower price. The reset updates the reference rate part of the coupon, not the margin.
+
+LEWIS Q: A Treasury bill is quoted on a discount basis. Is its bond equivalent yield higher or lower than that quote?
+
+HEART: Answer. Higher. Here is why. The discount quote measures the discount against face value, but you only paid the lower price, so your return per dollar invested is larger. The quote also annualizes over three hundred sixty days, while the bond equivalent yield annualizes over three hundred sixty five. Both corrections push the number up.
+
+HEART Q: Which money market instruments are typically quoted on an add on basis, and which on a discount basis?
+
+LEWIS: Answer. Certificates of deposit, repurchase agreements and market reference rates are add on, while Treasury bills and commercial paper are discount. Here is why. Add on instruments start from a principal amount and pay interest on top of it at maturity, so the natural quote is interest over the amount invested. Discount instruments are sold below face and pay face at maturity, so the natural quote is the discount from face.
+
+LEWIS Q: The spot curve slopes upward. Is the one year forward rate starting four years from now above or below the five year spot rate?
+
+HEART: Answer. Above. Here is why. The five year spot rate is an average of the one year rates along its route, and the four y one y rate is the last one added to that average. Because the five year spot rate is above the four year spot rate, adding that final year pulled the average up, which can only happen if the new rate sits above the new average.
+
+HEART Q: On a downward sloping curve, how do forward rates, spot rates and par rates line up, from highest to lowest?
+
+LEWIS: Answer. Par rates are highest, then spot rates, then forward rates. Here is why. A falling average needs each new forward rate below it, so forward rates sit at the bottom. A par bond's early coupons are discounted at the higher short term rates, which lifts the par yield slightly above the spot rate for its maturity. It is the upward sloping order turned upside down.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: For yield to maturity, three promises. You hold it, they pay it, and you reinvest at the same rate. Break any one and your return can differ from the quote.
+
+HEART: For periodicity: same stated rate, more compounding, higher effective yield. Same investment, more compounding, lower stated rate.
+
+LEWIS: Current yield counts the coupon only. Simple yield adds the drift toward par in a straight line. Yield to worst is the lowest of every possible ending, maturity included. And option adjusted means option stripped out, so for a callable bond the OAS sits below the Z spread, and for a putable bond above it.
+
+HEART: For the spread alphabet: G for government, I for interpolated swap rates, Z for zero volatility, measured over the whole spot curve, and OAS for bonds with options. If the yield moves and the spread does not, look at the market. If the spread moves, look at the issuer.
+
+LEWIS: For floaters: quoted is what the note pays, discount is what the market wants. Want more than it pays, and the price drops below par. The reference rate resets, the margin never does.
+
+HEART: For the money market: discount yields shortchange you twice, with the wrong denominator and the short year. Bond equivalent yield means add on, three hundred sixty five days.
+
+LEWIS: For the curves: par averages the spots, and the spots average the forwards. On a rising curve, forward on top, par on the bottom. On a falling curve, flip it. And a forward rate is a break even rate, not a promise.
+
+HEART: Now, how you would say the big ideas to a senior leader.
+
+LEWIS: On quoted yields: a bond's yield is what we earn only if we hold it to maturity, get paid in full, and reinvest at the same rate. When rates fall, it is that last condition that breaks. The jargon is yield to maturity and reinvestment risk.
+
+HEART: On callable bonds: a callable bond pays more, but part of that extra is the price of an option we sold the issuer, who will exercise it when it hurts us most. Strip that out before comparing it with other bonds. The jargon is yield to worst, option adjusted yield and option adjusted spread.
+
+LEWIS: On spreads: if our bonds lost value but spreads held steady, it was the rate environment, not the issuer. If spreads widened, the market is repricing that issuer's credit or liquidity. The jargon is benchmark yield, G spread, I spread and Z spread.
+
+HEART: On floating rate holdings: they reset with market rates, so their values stay near par, but the credit margin is fixed, so a weaker borrower still costs us. The jargon is quoted margin and discount margin.
+
+LEWIS: On cash instruments: Treasury bill quotes understate what we earn, so we put every short term rate on the same basis before choosing. The jargon is discount yield, add on yield and bond equivalent yield.
+
+HEART: And on the curve: the forward curve is the market's break even path for future rates. It is a fair neutral baseline for funding cost plans, but not a forecast, so we still run rate scenarios around it. The jargon is the term structure, spot rates and forward rates.
