@@ -1,155 +1,287 @@
-## The big picture
-
-This episode is about how a firm decides how much to produce, when it should keep going while losing money, and how the structure of its market shapes the price it can charge. It is microeconomics, and it is very testable because the rules are crisp. Questions usually give you a few numbers or a short description of an industry and ask what the firm should do, or which market structure it most likely operates in.
-
-Three ideas hold the whole topic together. First, every firm in every market structure maximizes profit by producing where marginal revenue equals marginal cost. That rule never changes. What changes is how marginal revenue relates to price, which depends on how much pricing power the firm has.
-
-Second, costs come in two kinds. Fixed costs must be paid in the short run whether you produce or not, while variable costs disappear if you stop, and that split drives the shutdown decision. Third, entry decides whether economic profit can last. Where entry is easy, profits get competed away, and where barriers are high, they can persist.
-
-Module 12.1 covers breakeven, shutdown and economies of scale. Module 12.2 walks through the four market structures, which are perfect competition, monopolistic competition, oligopoly and monopoly. Module 12.3 asks how an analyst or a regulator tells which structure a real market resembles, using concentration measures. Keep the rule that marginal revenue equals marginal cost in your head the whole way through, because almost every question comes back to it.
+LEWIS: Reading 12 covers when a firm breaks even, when it should stop producing for now or leave an industry for good, and how its costs change as it grows. It then covers the four market structures from perfect competition to monopoly, the main models of oligopoly, and how analysts and regulators measure how concentrated a market is.
 
 ## Module 12.1, Breakeven, Shutdown, and Scale
 
-Start with economic profit, which differs from accounting profit. Accounting profit is total revenue minus the explicit costs a firm actually pays, like wages, materials and rent. Economic profit also subtracts implicit opportunity costs, such as the return the owners could have earned by putting their money and time to work somewhere else. So economic profit equals total revenue minus total economic cost, where total economic cost is explicit costs plus implicit opportunity costs.
+HEART: Picture a small ski hill in a winter with thin snow. The owners still owe payments on the chairlift and the lodge, whether a single skier shows up or not. But the lift crew, the electricity to run the lifts and the snowmaking only cost money on the days the hill is open. The question for this module is simple. When is it worth opening for the day, and when is it time to sell the hill?
 
-When economic profit is exactly zero, the firm earns a normal profit, meaning the owners earn just enough to keep their capital in this business. Here is the first trap. A firm can report a healthy accounting profit and still have an economic loss, if that profit is smaller than what the owners could earn in their next best use. In this topic, cost means economic cost, so breakeven means zero economic profit.
+LEWIS: The answer depends on time, so start with two definitions. The short run is the stretch of time in which at least some inputs are fixed. Usually that means the plant and equipment, the scale of the operation. The long run is long enough that every input can change. Given enough time, the owners could sell the chairlift and the lodge, so every cost becomes variable.
 
-The breakeven point is where total revenue equals total cost. Divide both sides by the number of units and you get the per unit version, where price equals average total cost. Average total cost is simply total cost divided by output. For a firm in perfect competition, the breakeven price is the lowest point on its average total cost curve. Above that price it earns an economic profit, and below it, an economic loss.
+HEART: So costs come in two kinds. Fixed costs have to be paid in the short run whatever the firm does, like the chairlift payments. Variable costs rise and fall with output, and they disappear if the firm stops producing, like the lift crew's wages.
 
-Now the shutdown decision, which is the heart of this module. The key is time. In the short run, at least one input is fixed, usually the plant and equipment, and those fixed costs must be paid whether the firm produces or not. In the long run, every input can change and the firm can leave the industry entirely, so no cost is fixed.
+LEWIS: One more word before the rules. In economics, cost means economic cost. That includes the bills a firm actually pays plus the opportunity cost of the owners' money and time, what they could have earned in their next best use. Economic profit is total revenue minus all of that. Accounting profit subtracts only the costs on the books, so it is never smaller than economic profit. Zero economic profit is not failure. It means the owners earn exactly what they could earn elsewhere, which is called a normal profit.
 
-That gives three cases. First, if total revenue covers total cost, the firm operates in both the short run and the long run. Second, if total revenue covers total variable cost but not total cost, the firm keeps operating in the short run, because revenue pays all the variable costs and leaves something over to chip away at fixed costs. In the long run, though, it should exit unless prices rise or costs fall. Third, if total revenue does not even cover total variable cost, the firm shuts down in the short run and exits in the long run.
+HEART: Now the first key point. The breakeven point is where total revenue just equals total cost, so economic profit is zero. Per unit, that is where price equals average total cost. Average total cost is total cost divided by the number of units, and price is the same thing as average revenue, the revenue per unit sold.
 
-In per unit terms, the same three cases compare price with average total cost and average variable cost. Price at or above average total cost means stay. Price between average variable cost and average total cost means stay for now and plan to leave. Price below average variable cost means shut down now. For a firm in perfect competition, the shutdown point is the price equal to the minimum of average variable cost.
+LEWIS: Then the shutdown decision. In the short run, compare price with average variable cost, which is variable cost per unit. As long as price at least covers average variable cost, keep producing, even if the firm is losing money.
 
-Let me make this concrete with round numbers. A firm sells 500 units at 10 dollars each, so total revenue is 5,000 dollars. Average variable cost is 8 dollars, so total variable cost is 4,000 dollars. Fixed costs are 2,000 dollars, which makes total cost 6,000 dollars and average total cost 12 dollars. If it operates, it loses 1,000 dollars. If it shuts down, revenue and variable cost both drop to zero, but it still owes the 2,000 dollars of fixed costs, so it loses 2,000.
+HEART: Why keep going at a loss?
 
-Operating is the smaller loss, so the firm keeps producing in the short run. The reason is that each unit sells for 2 dollars more than its variable cost, and across 500 units that 1,000 dollars of contribution covers half the fixed costs.
+LEWIS: Because shutting down does not make the fixed costs go away. If the ski hill shuts its lifts for the season, it still owes the chairlift payments, so its loss equals its fixed costs. If it opens, and ticket sales more than pay the crew and the power, the leftover goes toward those payments. The loss is smaller than the fixed costs. Operating is the cheaper way to lose money.
 
-Now drop the price to 7 dollars and, to keep the arithmetic simple, hold output and costs where they were. Revenue falls to 3,500 dollars, less than the 4,000 dollars of variable cost. Operating now loses 2,500 dollars, while shutting down loses only the 2,000 dollars of fixed costs. Price is below average variable cost, so the firm shuts down.
+HEART: And when price falls below average variable cost, the logic flips. Now every day of operating adds to the loss, because ticket sales do not even pay the crew. The loss from operating would be bigger than the fixed costs, so the firm keeps its loss as small as possible by shutting down. That boundary, where price just equals average variable cost, is the short run shutdown point.
 
-Here is the trap. Shutting down is not the same as exiting. A firm that shuts down stops producing but still carries its fixed costs, and it can restart if the price recovers. Exit is a long run decision to leave the industry and shed the fixed costs too.
+LEWIS: In the long run, the test gets stricter. Nothing is fixed, so the firm can escape every cost by leaving. If price is expected to stay below average total cost, the firm should leave the industry, and covering average variable cost no longer saves it. You will hear that called exiting the market, or shutting down in the long run, and both phrases mean leaving for good. The point where price just equals average total cost is the long run shutdown point.
 
-A second trap is the idea that a firm losing money should always stop. Fixed costs are sunk in the short run, so they are irrelevant to whether you produce this period. The only question is whether producing adds more to revenue than it adds to cost. In bank and credit union work, the same logic says a branch that covers its variable costs and contributes to fixed overhead is worth keeping open in the short run, even if it should close in the long run because it never covers its full cost.
+HEART: Put together, there are three cases. If price covers average total cost, stay in both the short run and the long run. If price covers average variable cost but not average total cost, stay in the short run and exit in the long run unless conditions improve. If price is below average variable cost, shut down in the short run and exit in the long run.
 
-A few cost curve facts help here. The marginal cost curve cuts through both the average variable cost curve and the average total cost curve at their lowest points. For a firm in perfect competition, the short run supply curve is its marginal cost curve above the minimum of average variable cost.
+LEWIS: The same rules work in totals. Total revenue at least equal to total cost, stay. Total revenue below total cost but above total variable cost, operate now and plan to exit. Total revenue below total variable cost, shut down now.
 
-For firms in imperfect competition, meaning any firm facing a downward sloping demand curve, the decision rules are the same. The only difference is that price falls as the firm sells more, so total revenue traces a curve rather than a straight line. The firm picks the output where marginal revenue equals marginal cost, then applies the same revenue and cost tests.
+HEART: Here is the trap. A short run shutdown is not an exit. The firm that shuts down stops producing but keeps paying its fixed costs, and it can restart if the price recovers. Shutting the lifts for a bad season is a shutdown. Selling the hill is an exit.
 
-Now scale. Short run average cost curves are U shaped partly because fixed costs get spread over more units and partly because of diminishing marginal returns. With the plant fixed, each additional worker eventually adds less output than the one before, so marginal cost rises. The long run is different, because the firm can change its plant size. The long run average total cost curve shows the lowest average cost possible at each level of output when every input can be adjusted.
+LEWIS: A second trap. Fixed costs feel important, but they do not decide whether to produce this period, because they get paid either way. The only short run question is whether producing brings in more than it adds to cost. A bank branch that pays its own staff and running costs and chips in toward overhead may be worth keeping open for now, even if it never earns its full share and should eventually be shut for good.
 
-When long run average total cost falls as output grows, the firm enjoys economies of scale. Common sources are specialization, larger and more efficient equipment, and bulk discounts on inputs. When long run average total cost rises as output grows, the firm suffers diseconomies of scale. The usual causes are bureaucracy and coordination problems in a very large organization, and rising input prices as the firm bids up scarce resources. In between, a flat stretch of the curve is called constant returns to scale.
+HEART: Now picture the cost curves for a firm in perfect competition, which takes the market price as given. Breakeven is the price at the lowest point of the average total cost curve. Above that price the firm earns economic profit. Below it, losses. Between that price and the lowest point of the average variable cost curve, the firm loses money but keeps producing. Below the lowest point of average variable cost, it shuts down.
 
-The minimum efficient scale is the smallest output at which long run average total cost reaches its lowest level. In perfect competition, entry pushes the long run price down to that minimum cost, so a firm that cannot reach minimum efficient scale loses money and is forced out. Under imperfect competition, pricing power can let a firm survive with average cost above the minimum. And if minimum efficient scale is large relative to the whole market, only a few firms can fit, which pushes the industry toward oligopoly or even a single firm.
+LEWIS: Two related facts are worth knowing. The marginal cost curve crosses both average cost curves at their lowest points. And for a firm in perfect competition, the short run supply curve is its marginal cost curve above the lowest point of average variable cost, because below that price it supplies nothing at all.
 
-Here is the classic confusion. Diminishing marginal returns is a short run idea, where at least one input is fixed. Economies and diseconomies of scale are long run ideas, where all inputs can vary. If a question says cost per unit rises because a giant firm has become hard to manage, that is diseconomies of scale, not diminishing returns.
+HEART: Now firms in imperfect competition, meaning any firm with a downward sloping demand curve. These are called price searchers.
 
-So the rule to carry out of this module is this. Breakeven is where price equals average total cost. Shutdown is where price falls below average variable cost. Cover your variable costs to keep operating now, and cover your total costs to stay in the business for good.
+LEWIS: To sell more, a price searcher has to lower its price, so marginal revenue no longer equals price. You can still compare average revenue with the average cost curves, but the cleaner tool is the totals. Total revenue equal to total cost is breakeven. Total revenue between total variable cost and total cost means operate in the short run and leave in the long run. Total revenue below total variable cost means shut down in both.
+
+HEART: And those same total rules work for price takers too.
+
+LEWIS: It helps to picture the totals on one graph. For a price taker, total revenue is a straight line rising from zero, because every unit sells for the same price. Total cost starts above zero because of the fixed costs, and later bends upward as each extra unit gets more expensive to make. Think of a bakery. At a tiny output, the rent swamps the sales. At a huge output, overtime and a crowded kitchen push costs up fast. So total cost sits above revenue at low output, dips below it in the middle, and climbs back above it at high output.
+
+HEART: That gives two breakeven quantities, a low one and a high one, where the two curves cross. Profit is positive in between, and it is largest at the quantity where revenue sits furthest above cost. And if total cost sits above total revenue at every output, so there is no breakeven point at all, the firm looks for the output where its loss is smallest. It keeps producing there in the short run only if revenue still covers its variable costs.
+
+LEWIS: The last part of the module is scale. In the short run, the plant is fixed. In the long run, the firm can choose its plant size, small, medium or large. Each plant size has its own short run average cost curve. The long run average total cost curve traces the lowest average cost available at each level of output once the plant size can be adjusted.
+
+HEART: That long run curve is usually drawn as a U. On the way down, as the firm gets bigger, cost per unit falls. That is economies of scale, also called increasing returns to scale. Think of a pizza chain that opens a central dough kitchen. Workers specialize, machines run around the clock, and the chain buys cheese by the truckload at a lower price per pound than any single shop could get.
+
+LEWIS: So the sources are specialization of labor, mass production, more efficient equipment and technology, and lower input prices negotiated with suppliers as the firm buys more. A firm on that falling stretch of the curve gets stronger against its rivals simply by getting bigger.
+
+HEART: On the way up the right side of the U, cost per unit rises as the firm grows. That is diseconomies of scale. Picture a company so large that a simple decision needs approval from five layers of managers. The causes are bureaucracy and the inefficiency it brings, the difficulty of motivating a huge workforce, and barriers to innovation and entrepreneurial energy. A firm in that range wants to cut its output back toward a better size.
+
+LEWIS: Along the flat bottom of the U, if there is one, cost per unit stays roughly the same across a range of plant sizes. That is constant returns to scale.
+
+HEART: And the lowest point on the long run curve is the minimum efficient scale, the scale at which average total cost is as low as it gets. In perfect competition, every firm that survives the long run ends up at that scale. Entry pushes the price down to that lowest average cost, so economic profit is zero, and any firm stuck at a costlier scale loses money until it either changes size or leaves.
+
+LEWIS: One link forward. When the minimum efficient scale is large compared with the whole market, there is only room for a few firms. That is a common reason a market ends up with only a handful of big players.
+
+HEART: The trap here is mixing up two different reasons that costs rise. Diminishing marginal returns is a short run idea. With the plant fixed, each extra worker adds less output than the one before, so marginal cost rises. Diseconomies of scale is a long run idea about the whole firm growing, with every input free to change. If costs rise because the company has grown too big to manage, that is diseconomies of scale.
+
+LEWIS: The takeaway. Breakeven is where price equals average total cost. In the short run, keep producing as long as price covers average variable cost, and in the long run, stay only if price covers average total cost. The long run cost curve falls with economies of scale, bottoms out at the minimum efficient scale, and rises with diseconomies.
 
 ## Module 12.2, Characteristics of Market Structures
 
-Economists sort markets into four structures, and five features separate them. First is the number of sellers and their size relative to the market. Second is how differentiated the product is. Third is how hard it is for new firms to enter. Fourth is how much control each firm has over its price, and fifth is how much firms compete on things other than price, like advertising, branding and quality.
+HEART: Economists line markets up on a spectrum. At one end is perfect competition, with countless small sellers and no pricing power. At the other end is monopoly, a single seller. In between sit monopolistic competition and oligopoly. Five features place a market on that line.
 
-Perfect competition sits at one end. There are many small firms selling an identical product, barriers to entry are very low, and no single firm has any pricing power. There is little point in advertising, because buyers see every seller's product as the same. Think of a commodity crop grown by thousands of farmers.
+LEWIS: First, the number of firms and their relative sizes. Second, how much the firms differentiate their products. Third, how much power the firms have over the price. Fourth, the barriers to entering or leaving the industry. And fifth, how much firms compete on things other than price, like advertising, features and quality.
 
-The key consequence is the demand curve the individual firm faces. The market demand curve still slopes down, but each firm is so small that it can sell all it wants at the market price and nothing at a higher price. So the firm's own demand curve is horizontal, which means perfectly elastic, at the market price. Selling one more unit adds exactly the price to revenue, so price, average revenue and marginal revenue are all the same number. The firm is a price taker.
+HEART: One rule holds across all four structures. Every firm maximizes profit by producing the quantity where marginal revenue equals marginal cost. What changes from one structure to the next is the demand curve the firm faces. When that curve slopes down, marginal revenue is less than price.
 
-Apply the universal rule. Since marginal revenue equals price, the competitive firm produces where price equals marginal cost. In the short run it can earn an economic profit or take a loss. In the long run, profits attract entry, which pushes the price down, and losses cause exit, which pushes the price up. The process stops when price equals the minimum of average total cost and economic profit is zero, with price equal to marginal cost and firms producing at the lowest possible average cost.
+LEWIS: Start with perfect competition. Picture thousands of farms growing the same grade of soybeans. Every bushel is like every other, no farm is big enough to move the market price, and each can sell as much as it likes at the price the market sets. Ask a penny more than that price, and nobody buys from you.
 
-Monopolistic competition comes next. There are many firms, but each sells a product that is differentiated by brand, features, location or service. Barriers to entry are low. Each firm has some pricing power because its customers prefer its version, and spending on advertising and branding is heavy. Think of restaurants in a big city, or competing brands of shampoo.
+HEART: So each farm's own demand curve is horizontal at the market price. That is called perfectly elastic demand. The market demand curve for soybeans still slopes down, but each farm sees only the flat line. Each extra bushel adds exactly the market price to revenue, so price, average revenue and marginal revenue are all the same. The firm is a price taker.
 
-Because the product is a little different, each firm faces a downward sloping demand curve, quite elastic because of close substitutes, but not perfectly elastic. Marginal revenue now lies below price, because to sell one more unit the firm has to cut the price on the units it was already selling. The firm produces where marginal revenue equals marginal cost, then charges the highest price its demand curve allows at that quantity. In the short run, that can mean an economic profit.
+LEWIS: The features to remember. Many firms, each small relative to the market. Identical products that are perfect substitutes. Very low barriers to entry and exit. Competition on price alone, with no point in advertising or branding. And no pricing power.
 
-The long run is where this structure gets tested. Low barriers mean profits attract new competitors offering close substitutes. Each existing firm loses customers, so its demand curve shifts left and becomes more elastic, until it just touches the average total cost curve and economic profit is zero.
+HEART: Next, monopolistic competition. Picture the coffee shops in a busy neighborhood. There are many of them, and opening one more is not hard. But each one is a little different. One has better pastries, another has a quieter room, a third is on your walk to the train. If your favorite raises its price a little, some regulars grumble and stay, and some walk next door.
 
-Here is the twist. Because the demand curve slopes down, it touches average total cost on the falling part of the cost curve, to the left of the minimum. So in long run equilibrium, price equals average total cost but sits above marginal cost, and the firm produces less than the output that would minimize average cost. That shortfall is called excess capacity.
+LEWIS: So each firm faces a downward sloping demand curve. It is fairly elastic, because good substitutes are nearby, but it is not flat. The products are differentiated by quality, features and marketing, much of it in the minds of customers, and prices differ from shop to shop because buyers perceive real differences.
 
-The trap is to treat monopolistic competition as perfect competition with brand names. Both end with zero economic profit in the long run, but only perfect competition ends with price equal to marginal cost and production at minimum average cost. As for pricing strategy, these firms use differentiation and advertising to make demand for their brand larger and less elastic, which gives them more room on price.
+HEART: The features. Many independent sellers, each with a small slice of the market, so none of them can move the market price much. A shop keeps an eye on what coffee generally costs around the neighborhood, not on what one particular rival charges. With so many players, collusion, an agreement to fix prices, could never hold together. The products are differentiated, but any shop's coffee can stand in for another's. The rivalry runs more through advertising, image and features than through price, so marketing budgets are heavy. Getting in and getting out are cheap, so barriers to entry and exit are low. And each firm has some pricing power, but not much.
 
-Oligopoly has the richest set of models. There are only a few sellers, so each firm's decisions affect its rivals and each must anticipate their response. Products can be identical, like cement, or differentiated, like cars. Barriers to entry are high, often because of large economies of scale or huge capital requirements, and firms can have significant pricing power, limited by what rivals do. Because the outcome depends on how firms expect each other to behave, there is no single oligopoly model, and you need to know five.
+LEWIS: Now oligopoly. Picture the handful of national wireless carriers. There are only a few, each is large, and every one of them watches the others. When one launches a new unlimited plan, the others answer within weeks.
 
-The first is the kinked demand curve model. A firm assumes that if it raises its price, rivals will not follow, so it loses many customers, but if it cuts its price, rivals will match, so it gains few. Demand is therefore relatively elastic above the current price and relatively inelastic below it, which puts a kink in the demand curve at the current price.
+HEART: The defining feature is the small number of firms, and it brings interdependence. Each firm's pricing and output decisions affect the others, so each must think about how its rivals will respond.
 
-The kink creates a gap in the marginal revenue curve at that quantity. Marginal cost can move up or down within that gap without changing the profit maximizing price or output. That is the model's explanation for sticky prices. Its weakness is that it does not explain how the price at the kink was set in the first place.
+LEWIS: The products are usually good substitutes. They can be nearly identical, like cement from different plants, or differentiated by brand, features and quality, like phone plans. And barriers to entry are high. Economies of scale are a common reason. The incumbents make and market so much that a small newcomer cannot match their costs.
 
-The second is the Cournot model. In the basic version, two firms with the same costs choose how much to produce at the same time, each treating the other's output as fixed. Each keeps adjusting until neither wants to change, and the result lands between monopoly and perfect competition.
+HEART: Which is exactly why only a few big firms fit. They compete on price, marketing and features, and their pricing power ranges from some to significant.
 
-Here is a simple illustration. Suppose the market price equals 100 dollars minus total quantity, and marginal cost is a constant 10 dollars. A monopolist would produce 45 units and charge 55 dollars. Perfect competition would drive price down to marginal cost of 10 dollars, with 90 units sold. Two Cournot firms each produce 30 units, 60 in total, and the price settles at 40 dollars.
+LEWIS: Last, monopoly. A single seller of a product with no good substitutes. Because it is the whole market, its demand curve is the market demand curve, which slopes down, and it chooses the price it charges. Very high barriers to entry protect it.
 
-That is more output and a lower price than monopoly, but less output and a higher price than perfect competition. As the number of firms in a Cournot market grows, the outcome moves closer to the competitive one.
+HEART: Where do those barriers come from? Patents and copyrights, which give an inventor or an author the sole right to sell for a set period. Control over a resource needed to make the product.
 
-The third is Nash equilibrium, from game theory. A Nash equilibrium is a set of choices where each firm does the best it can given what the others are doing, so no firm can gain by changing its own choice alone. The classic example looks like the prisoner's dilemma. Two firms each choose a high or a low price. If both choose high, each earns 10 million dollars, and if both go low, each earns 5 million. If one goes low while the other stays high, the low price firm earns 15 million and the high price firm only 2 million.
+LEWIS: And most often, laws or government regulation, such as a city that grants one company the exclusive right to collect its trash.
 
-Look at it from one firm's seat. If the rival goes high, going low earns 15 instead of 10. If the rival goes low, going low earns 5 instead of 2. So going low is better either way, and both firms end up earning 5 million when cooperating would have paid each of them 10.
+HEART: A related case is the natural monopoly, where economies of scale are so large that one firm can serve the whole market more cheaply than two could.
 
-That gap explains the temptation to collude, meaning to agree on prices or output, for example through a cartel. Explicit collusion is illegal in many countries, and cartels tend to be unstable because each member gains by secretly cheating. Collusion is more likely to hold when there are few firms, when their products and costs are similar, when cheating can be detected and punished, and when the threat from outsiders and new entrants is low.
+LEWIS: A monopoly still advertises, which surprises people. It has no direct rivals, but it competes with substitute products. The only passenger railroad between two cities still advertises, because travelers can drive or fly instead.
 
-The fourth is the Stackelberg model, which is like Cournot but with an order of play. A leader chooses its output first, and the followers then react. Moving first is an advantage. The leader commits to a larger output, the followers respond by producing less, and the leader ends up with a bigger share and more profit than the followers.
+HEART: A rule of thumb for the demand curves. The monopoly's is usually the steepest, the monopolistic competitor's is fairly flat and elastic, and the oligopolist's tends to sit between the two. Do not lean on it too hard, since an oligopolist's demand can be more or less elastic than a monopolistic competitor's.
 
-The fifth is the dominant firm model. One firm holds a large share of the market, often because its costs are lower, and a fringe of small competitors follows its lead. The dominant firm sets the price by producing where its own marginal revenue equals its marginal cost, and the small firms act as price takers at that price. A dominant firm can also start a price war to push weaker competitors out.
+LEWIS: A quick summary across the spectrum. Number of sellers: many, many, few, one. Barriers to entry: very low, low, high, very high. Substitutes: very good, good but differentiated, good or differentiated, and none that are good. Competition: price only, then price plus marketing and features for both middle structures, then advertising for monopoly. Pricing power: none, some, some to significant, significant.
 
-Here is the exam habit to build, which is matching the assumption to the model. Rivals matching price cuts but not increases points to the kinked demand curve. Simultaneous quantity choices point to Cournot, and one firm choosing first points to Stackelberg. One large low cost firm surrounded by small price takers points to the dominant firm model. In the long run, oligopoly firms can keep an economic profit because barriers protect them, though entry and price wars can erode it.
+HEART: Now the price and output decision in monopolistic competition. In the short run, the coffee shop picks the quantity where marginal revenue equals marginal cost, then charges the highest price its demand curve allows for that quantity. Marginal revenue is below price, because to sell one more cup the shop has to cut the price on all the cups it was already selling. If that price is above average total cost, the shop earns an economic profit.
 
-Monopoly sits at the far end. A single firm sells a product with no close substitutes, and barriers to entry are very high. Those barriers can be legal, such as patents, licenses and government franchises, or they can come from control of a key resource. They can also come from economies of scale so large that one firm can serve the whole market more cheaply than two, which is a natural monopoly, typical of utilities. Natural monopolies are often regulated, for example by setting price near average cost so the firm earns a normal profit. A monopolist has considerable pricing power, though it may still advertise to compete with distant substitutes.
+LEWIS: But low barriers mean that profit is an invitation. New shops open nearby. Each existing shop loses some customers, so its demand curve shifts down, until price just equals average total cost and economic profit is zero. With the profit gone, so is the lure for newcomers, and the market settles into long run equilibrium. Each shop still picks the output where marginal revenue meets marginal cost, but now it earns only a normal profit.
 
-The monopolist's demand curve is the market demand curve, so marginal revenue lies below price. There is a neat link to elasticity. Marginal revenue equals price, multiplied by the quantity one minus one divided by elasticity. Here price is what the firm charges, and elasticity is the price elasticity of demand taken as a positive number, which measures how sensitive quantity demanded is to price. So if elasticity is 2, marginal revenue is half the price, and if elasticity is below 1, marginal revenue is negative.
+HEART: There is a second route to the same place, even if no new shop opens. Each existing shop spends more on marketing to win customers or defend its share. Loyalty apps, local ads, nicer cups. Marketing is part of average total cost, so if every shop does this, average total cost rises until it equals the price, and economic profit is again zero.
 
-Since marginal cost is positive, and the monopolist sets marginal revenue equal to marginal cost, a profit maximizing monopolist always produces on the elastic part of its demand curve. That is a favorite trap, because the inelastic part looks like where pricing power would be greatest. The monopolist then charges the price its demand curve allows at that quantity, which is above marginal cost. Because barriers keep competitors out, economic profit can persist in the long run.
+LEWIS: So in long run equilibrium, price equals average total cost and economic profit is zero, just as in perfect competition. Here is where they differ. In monopolistic competition, price is above marginal revenue, which equals marginal cost. That gap between price and marginal cost is a markup, a sign of some pricing power, but it is not an economic profit, because the price only just covers average total cost. And the firm does not produce at the lowest point of its average total cost curve. Because its demand curve slopes down, it touches the cost curve on the falling part, before the bottom.
 
-Let me pull the long run results together, because that is where questions cluster. Perfect competition and monopolistic competition both end with zero economic profit because entry is easy. Oligopoly and monopoly can keep positive economic profit because entry is hard. Price equals marginal cost only in perfect competition, and in every other structure price is above marginal cost. The one rule that holds across all four is that the firm produces where marginal revenue equals marginal cost.
+HEART: That shortfall is called excess capacity. Picture a coffee shop with empty tables for much of the afternoon. It could serve more customers at a lower cost per cup, but the neighborhood's business is split among many shops. Compared with perfect competition, the price is a little higher and the scale is less efficient.
+
+LEWIS: So how much product differentiation is economically efficient? Fewer versions of everything would mean longer production runs and lower average costs. Yet buyers value choice, so lower cost alone does not make a market better. Running shoes are a good example. Different feet and different runners want different shoes, and for some runners another brand is not a good substitute at all. Where products suit some buyers far better than others, demand for each one is steeper, and differentiation is doing real work for customers.
+
+HEART: The trap. Monopolistic competition is not perfect competition with logos. Both end with zero economic profit in the long run, but only perfect competition ends with price equal to marginal cost and production at the lowest average cost. One more point. Firms in monopolistic competition, in oligopoly and in monopoly have no well defined supply curve, because the quantity they offer at a given price depends on the shape of their own demand curve, not on the price alone.
+
+LEWIS: Now oligopoly pricing, where the models multiply. Because rivals react, a firm's own demand curve depends on what the others do. A model has to assume how rivals respond, and different assumptions give different answers. There are five models to know.
+
+HEART: The first is the kinked demand curve model. Picture a few airlines flying the same route. If one raises its fare alone, travelers book with the others, so it loses a lot of business. If it cuts its fare, the others match within hours, so it gains very few extra passengers. The model assumes rivals ignore a price increase and match a price cut.
+
+LEWIS: That gives each firm a demand curve with a bend at the current price. Above it, demand is relatively elastic, so the curve is flatter. Below it, demand is less elastic, so the curve is steeper. The quantity at the kink is the profit maximizing output.
+
+HEART: The kink also creates a gap in the marginal revenue curve, a vertical break right at that quantity. If the marginal cost curve passes anywhere through that gap, the profit maximizing price stays at the kink. So costs can rise or fall a fair amount and the price does not move. That is the model's explanation for sticky prices.
+
+LEWIS: And its weakness. The model explains why a price stays put, but not how the price at the kink was set in the first place.
+
+HEART: The second is the Cournot model, named for a French economist. It describes a duopoly, a market with two firms, and the two have identical marginal costs. In the classic version, the choice is how much to produce. Each period, each firm picks its output assuming the other will produce what it did the period before. Picture two gravel quarries supplying one town, each adjusting its output to the other's, round after round, until neither wants to change. You may also hear the model told in terms of prices, and the results to remember do not change.
+
+LEWIS: Where does it end? In long run equilibrium, the two firms sell the same quantity and split the market equally. The price is below what a single monopolist would charge, but above the price under perfect competition. And as more firms join, the equilibrium price moves toward the competitive price.
+
+HEART: The third is the Stackelberg model. It changes one rule. Instead of deciding at the same time, the firms decide in sequence. One firm, the leader, commits first, in the classic version to how much it will produce. The other, the follower, makes its choice after it sees what the leader did.
+
+LEWIS: Moving first is an advantage. The leader commits, and the follower has to make the best of what is left. In equilibrium, the leader keeps the larger share of the market and of the total profits, even in the long run. That is the first mover advantage, and it is the result to remember whichever way the model is told.
+
+HEART: These early models belong to a wider family called strategic games, decision models where a firm's best choice depends on how it expects the others to react. The general idea behind them is the fourth model, the Nash equilibrium, named for the mathematician John Nash, who won a Nobel Prize.
+
+LEWIS: A Nash equilibrium is a set of choices where each firm is doing the best it can, given what the others are doing. No firm can raise its profit, or shrink its loss, by changing its own choice alone. The Cournot outcome is a Nash equilibrium, because neither firm wants to move.
+
+HEART: Picture two gas stations at the same intersection. Each morning, each one chooses a high price or a low price. If both stay high, both do well.
+
+LEWIS: But whatever the other station does, each one does a bit better by going low, because it wins customers when the other is high and avoids losing them when the other is low. So both go low.
+
+HEART: And neither can gain by raising its price alone, so that is a Nash equilibrium. Yet both would earn more if both stayed high. This pattern is called the prisoner's dilemma.
+
+LEWIS: Which explains the temptation of collusion. Collusion is an agreement among competitors to charge a set price or to limit output. If the firms could agree on the high price and stick to it, total profit would rise, and each firm could end up better off than at the Nash equilibrium. In fact, perfect collusion produces the monopoly price.
+
+HEART: Two problems. First, explicit collusion is illegal in many countries, because it reduces competition. Second, it is unstable. A formal agreement like that is called a cartel. Picture four regional cement makers who agree to cap their shipments so the price stays high. Each one is tempted to quietly ship extra loads at that high price, a price that only exists because the others are holding back. When enough of them cheat, the deal falls apart.
+
+LEWIS: So when does collusion hold up? Six conditions help. Fewer firms, so there are fewer parties to keep in line. Products that are more alike, so there is less to argue about. Cost structures that are more alike, so the firms want similar prices. Purchases that are small and frequent, so cheating on any one sale gains little and gets noticed quickly. Retaliation for cheating that is more certain and more severe. And less competition, actual or potential, from firms outside the agreement.
+
+HEART: The fifth model is the dominant firm model. One firm holds a large share of the market because of its greater scale and lower costs. Picture a very large, low cost steel producer with a fringe of small mills around it. In effect, the giant names the market price, and the small mills simply accept it as given.
+
+LEWIS: How does the big firm choose? It knows the small firms supply less when the price is lower. So at each possible price, its own demand is what the whole market wants minus what the small firms will supply. It produces where its own marginal revenue equals its own marginal cost and charges the price that goes with that quantity. The small firms each produce where their marginal cost equals that price.
+
+HEART: And if a small firm tries to grab share by undercutting, the dominant firm cuts its price too. The undercutter may win some sales at first, but a price war hurts the small, higher cost mills most. Over time they shrink or drop out, and the dominant firm's share grows.
+
+LEWIS: Pulling oligopoly together. Firms are interdependent, so the best price depends on assumptions about rivals' costs and reactions. Without collusion, the long run outcome is a Nash equilibrium. Price is above marginal revenue, which equals marginal cost. The price lands somewhere between two limits, the price under perfect collusion, which is the monopoly price, and the price under perfect competition. Economic profit can stay positive in the long run, because barriers keep entrants out, though it may drift toward zero over time.
+
+HEART: The trap is matching the story to the model. Rivals match price cuts but ignore increases, that is the kinked demand curve. Two identical firms choosing their output at the same time, each taking the other's last move as given, that is Cournot. One firm moves first, that is Stackelberg. One big low cost firm with a fringe of price takers, that is the dominant firm model. And no firm can do better by changing alone, that is a Nash equilibrium.
+
+LEWIS: The takeaway. Every structure produces where marginal revenue equals marginal cost, but only perfect competition ends with price equal to marginal cost. Easy entry drives long run economic profit to zero in perfect and monopolistic competition, while high barriers can let oligopoly and monopoly keep it.
 
 ## Module 12.3, Identifying Market Structures
 
-Knowing the theory is one thing. Deciding which structure a real industry resembles is another, and it matters both for analysts judging whether margins can last and for regulators reviewing mergers.
+HEART: Knowing the theory is one thing. Looking at a real industry and saying which structure it is, and how much pricing power its firms really have, is harder. Analysts care because pricing power decides whether margins can last. Regulators care because they decide whether mergers can go ahead.
 
-In principle, the best evidence would be statistical estimates of how elastic demand is for a firm's product. In practice that is hard. Reliable data can be scarce, elasticity changes over time so old data may not apply, and observed prices and quantities reflect supply and demand moving together, which makes the demand curve hard to isolate. So analysts and regulators usually fall back on simpler measures of how concentrated a market is.
+LEWIS: The starting point is the checklist of features. For pricing power, focus on the number of firms, the barriers to entry, the nature of the substitutes, and the nature of competition, including how much firms compete on things other than price. Then compare what you see with the profile of each structure.
 
-The first is the N firm concentration ratio. It equals the sum of the market shares of the largest N firms, where N is a number you pick, often 4. If the four largest firms hold 40 percent, 20 percent, 10 percent and 10 percent of sales, the four firm concentration ratio is 80 percent. A ratio near zero suggests many small competitors, and a ratio near 100 percent suggests a few firms dominate.
+HEART: One clue deserves a flag. Every oligopoly shows strong interdependence, with firms watching and answering each other's prices and output. But interdependence alone does not prove you are looking at an oligopoly. A milder version can turn up in monopolistic competition, where there are many more sellers. Two pizza places on the same block may watch each other carefully, even in a city with hundreds of them.
 
-The concentration ratio is simple, but it has two weaknesses. First, it is not sensitive to mergers among the top firms. If two of the top four merge, their combined share is still counted in the total, so the ratio barely moves, even though competition among the leaders has clearly dropped. Second, it says nothing about barriers to entry. A market with one firm can still behave competitively if new firms could enter quickly and cheaply, so a high ratio does not prove pricing power.
+LEWIS: Here is the limit of the checklist. Knowing that a market is an oligopoly, say, does not tell you how much pricing power one particular firm has, or how far its prices sit above what perfect competition would give. Two markets with the same label can differ a lot in costs, substitutes and differentiation.
 
-The second measure is the Herfindahl Hirschman index, spelled H H I. It equals the sum of the squared market shares of the largest N firms. Write each share as a decimal, square it, and add up the squares. With decimal shares, a monopoly scores 1, and a market made up of N equal sized firms scores one divided by N, so four equal firms give 0.25. Regulators often use whole percentage numbers instead, which puts a monopoly at 10,000, and either way a higher H H I means a more concentrated market.
+HEART: The ideal gauge is the elasticity of each firm's demand, how much its sales fall when it raises its price. That is the direct measure of pricing power. But it is hard to pin down. The statistics are difficult, the results are imprecise, and the errors can be large.
 
-Squaring is the whole point, because it gives large firms far more weight. Compare two markets, each with a four firm concentration ratio of 80 percent. In market A, the top four firms each hold 20 percent. Each squared share is 0.04, and four of them sum to 0.16.
+LEWIS: So regulators fall back on a rougher gauge, market share, meaning each firm's percentage of the market's sales, as a stand in for market power. A merger between rivals in the same market is often blocked if the combined share looks high enough to hurt competition and the wider economy.
 
-In market B, one firm holds 50 percent and three hold 10 percent each. The big firm contributes 0.25, the three small ones contribute 0.01 each, and the H H I is 0.28. Same concentration ratio, very different market, and the H H I picks up the dominant player.
+HEART: The first measure is the N firm concentration ratio. Pick a number of firms, often four, and add up the market shares of that many of the largest firms. A four firm ratio near zero means many small competitors. Near one hundred percent, the top four have almost the whole market. It is easy to work out and easy to explain, but it is only a tally of shares, not a direct reading of market power or of how elastic any firm's demand is.
 
-The H H I also responds to mergers. Go back to market A and suppose two of the 20 percent firms merge, while the remaining 20 percent of the market is spread across many tiny firms. The four firm ratio barely moves from 80 percent. The H H I jumps from 0.16 to about 0.24, because the merged firm's 40 percent share squares to 0.16 on its own. This is one reason bank merger reviews often look at the H H I of deposit shares in local markets.
+LEWIS: It also has a blind spot for mergers. Picture a city's grocery market and imagine the two biggest chains merge. Both were already counted among the top four, so the ratio rises only a little, by the share of the next largest chain, which moves up into the top four. Yet the leading firm just got much bigger, and competition at the top clearly fell.
 
-Here are the traps. Square each share before adding, not after, because squaring the 80 percent total gives 0.64, which is wrong. Keep units consistent, either decimals or whole percentage numbers, never a mix. And remember that the H H I shares the concentration ratio's biggest blind spot. Neither measure accounts for barriers to entry or potential entrants, and both depend on how you define the market, so draw the market too narrowly and almost anything looks like a monopoly.
+HEART: That is the problem the Herfindahl Hirschman index fixes, usually called the H H I. It is the sum of the squared market shares of the largest firms in the market. Write each share as a fraction of the market, square it, and add up the squares.
 
-Now put identification together. Many firms, low concentration and identical products point to perfect competition. Many firms, low concentration and differentiated, heavily advertised products point to monopolistic competition. A few large firms, high concentration and high barriers point to oligopoly, and one firm with no close substitutes is a monopoly.
+LEWIS: Squaring is the whole trick, because it gives big firms extra weight. Double a firm's share and its contribution to the index becomes four times as big. So when the two big grocery chains merge, the H H I jumps, because one big share squared is worth much more than two smaller shares squared and added together. That sensitivity is one reason bank merger reviews often look at the H H I of deposit shares in each local market.
 
-The rule for this module is this. The H H I equals the sum of the squared market shares of the largest firms. It beats the concentration ratio because it weights big firms more heavily, but neither measure sees barriers to entry.
+HEART: A few anchors. With shares written as fractions, a monopoly scores one, because the whole market squared is still one. A market split among many tiny firms scores near zero. A market of equal sized firms scores one divided by the number of firms, so ten equal firms score one tenth. Higher means more concentrated. You may also see the index on a scale up to ten thousand, when the shares are written as whole percentages instead of fractions. Same ranking, different units.
+
+LEWIS: And the trap in computing it. Square each share first, then add. Do not add the shares and then square the total. And keep the units consistent, all fractions or all whole percentages, never a mix.
+
+HEART: Now the limitation both measures share. Neither one looks at barriers to entry. A firm with a big share may still have little pricing power if entry is easy, because outsiders could pile in the moment it raises prices.
+
+LEWIS: Picture a town with one bike repair shop. It has the whole market, but if it doubled its prices, a mechanic with a van could set up shop the following week.
+
+HEART: That threat is called potential competition, and it keeps the demand facing the existing firm elastic despite its high share.
+
+LEWIS: So a high reading on either measure is not proof of pricing power, and it misleads most when the threat of entry is what really holds prices down. One more caution beyond the measures themselves. Both depend on where you draw the market's boundaries. Define the market narrowly enough and almost any firm looks like a monopoly.
+
+HEART: The takeaway. The concentration ratio adds the top firms' shares, and the H H I adds their squared shares, which makes it far more sensitive to mergers and to big players. But market share is only a stand in for market power, and neither measure sees barriers to entry or potential competition.
 
 ## Recall check
 
-Q: A firm's price is above its average variable cost but below its average total cost. What should it do in the short run, and what should it do in the long run?
+LEWIS Q: A firm's price covers its average variable cost but not its average total cost. What should it do in the short run, and what in the long run?
 
-Answer: In the short run it should keep operating, because revenue covers all variable costs and contributes something toward fixed costs, so it loses less than it would by shutting down. In the long run it should exit unless prices rise or costs fall, because it is not covering total cost.
+HEART: Answer. Keep producing in the short run, and exit in the long run unless conditions improve. Here is why. Its fixed costs must be paid whether it produces or not, so shutting down would lose all of them. Revenue above variable cost pays part of those fixed costs, which makes operating the smaller loss. In the long run every cost can be avoided, and a price that never covers average total cost means a permanent economic loss.
 
-Q: A firm sells 1,000 units at 20 dollars each. Its average variable cost is 22 dollars and its fixed costs are 5,000 dollars. Should it operate or shut down in the short run?
+HEART Q: A seasonal business shuts for the winter. Has it shut down or exited, and which costs does it still carry?
 
-Answer: Shut down. Revenue is 20,000 dollars and variable cost is 22,000 dollars, so operating loses 7,000 dollars, while shutting down loses only the 5,000 dollars of fixed costs. Price below average variable cost is the shutdown signal.
+LEWIS: Answer. It has shut down, and it still carries its fixed costs. Here is why. A shutdown is a short run decision to stop producing while the plant and its obligations remain. The firm still pays its rent, loans and insurance, and it can restart when demand returns. Exit is the long run decision to leave the industry, which is the only way to escape the fixed costs too.
 
-Q: A very large firm finds that its long run average cost rises as it grows, because management layers and coordination problems multiply. Is this most likely diminishing marginal returns or diseconomies of scale?
+LEWIS Q: Long run average cost falls as a firm moves to a bigger plant. What is that called, and what typically causes it?
 
-Answer: Diseconomies of scale. Rising long run average cost as the whole firm gets bigger, with all inputs variable, is the definition. Diminishing marginal returns is a short run idea that applies when at least one input, such as the plant, is fixed.
+HEART: Answer. Economies of scale, also called increasing returns to scale. Here is why. A larger operation lets workers specialize, supports mass production and more efficient equipment, and gives the firm the buying power to negotiate lower input prices. Each of those lowers the cost per unit. When growth instead raises cost per unit, through bureaucracy and a workforce that is harder to motivate, that is diseconomies of scale.
 
-Q: Which market structure is most likely to show zero economic profit in the long run, price above marginal cost, and excess capacity?
+HEART Q: Under perfect competition in the long run, at what scale do surviving firms operate, and what economic profit do they earn?
 
-Answer: Monopolistic competition. Easy entry drives economic profit to zero, but each firm's demand curve slopes down, so it touches average total cost to the left of the cost minimum. Price ends up above marginal cost and output ends up below the level that minimizes average cost.
+LEWIS: Answer. At the minimum efficient scale, with zero economic profit. Here is why. Entry and exit push the price to the lowest possible average total cost. A firm at that lowest point just covers all its economic costs, including a normal return to its owners. Any firm at a costlier scale loses money at that price, so it must change its scale or leave.
 
-Q: An oligopolist believes rivals will match any price cut but ignore any price increase. Which model is this, and what does it predict about prices?
+LEWIS Q: In long run equilibrium under monopolistic competition, how does price compare with average total cost and with marginal cost?
 
-Answer: The kinked demand curve model. The kink at the current price creates a gap in marginal revenue, so marginal cost can change within that gap without changing the profit maximizing price. The model predicts sticky prices, though it does not explain how the original price was set.
+HEART: Answer. Price equals average total cost, but it is above marginal cost. Here is why. Easy entry keeps shifting each firm's demand curve down until economic profit is zero, so price equals average total cost. But that demand curve slopes down, so it touches the cost curve before the bottom, where marginal revenue and marginal cost sit below the price. The result is excess capacity, with output short of the lowest cost level.
 
-Q: Three firms make up an entire market, with shares of 50 percent, 30 percent and 20 percent. What is the H H I, using decimal shares?
+HEART Q: How can firms in monopolistic competition end up with zero economic profit even if no new firm enters?
 
-Answer: 0.38. Square each share to get 0.25, 0.09 and 0.04, then add them. The tempting wrong method adds the shares first and then squares, which gives 1 for any complete market and tells you nothing about concentration.
+LEWIS: Answer. Through rising marketing spending. Here is why. Each firm advertises and adds features to win customers or defend its share. That spending is part of average total cost. If every firm does it, average total cost climbs until it equals the price, and economic profit disappears without a single new rival.
 
-## Recap
+LEWIS Q: Why does the kinked demand curve model predict sticky prices?
 
-Every firm in every market structure maximizes profit where marginal revenue equals marginal cost. Breakeven is where price equals average total cost, which means zero economic profit and a normal profit for the owners. Keep operating in the short run while price covers average variable cost, and stay in the long run only if price covers average total cost. Diminishing marginal returns shape short run costs, while economies and diseconomies of scale shape the long run average cost curve, and minimum efficient scale is where that curve first reaches bottom.
+HEART: Answer. Because the kink creates a gap in the marginal revenue curve, and marginal cost can move within that gap without changing the best price. Here is why. Rivals ignore a price increase but match a cut, so demand is more elastic above the current price and less elastic below it. That break in demand opens a vertical gap in marginal revenue at the current output. As long as marginal cost passes through the gap, the profit maximizing price stays at the kink.
 
-Perfect competition and monopolistic competition both end at zero long run economic profit, but only perfect competition gets price equal to marginal cost at minimum average cost, while monopolistic competition leaves price above marginal cost and excess capacity. Oligopoly has five models to match to their assumptions, which are kinked demand, Cournot, Nash equilibrium, Stackelberg and dominant firm. A monopolist prices above marginal cost, always produces on the elastic part of its demand curve, and can keep economic profit behind high barriers. The concentration ratio adds the top firms' shares, the H H I adds their squared shares and weights big firms more, and neither measure captures barriers to entry.
+HEART Q: In the Cournot model with two identical firms, how is the market split, and where does the price land?
+
+LEWIS: Answer. The firms split the market equally, and the price lands between the monopoly price and the competitive price. Here is why. Each firm keeps adjusting its output to the other's last move until neither wants to change, and with identical costs they end up at the same quantity. Two firms compete enough to push the price below the monopoly level, but not all the way down to the competitive level. Adding more firms moves the price toward the competitive price.
+
+LEWIS Q: What makes an outcome a Nash equilibrium, and why can collusion beat it?
+
+HEART: Answer. Each firm is doing its best given the others' choices, so no firm can gain by changing alone, and collusion can beat it because firms acting together can reach a higher total profit. Here is why. In a Nash equilibrium each firm reacts sensibly to its rivals, but nobody is maximizing the group's profit. If they agree to charge more or produce less together, total profit rises toward the monopoly level, and each can be better off. The catch is that each one is then tempted to cheat on the deal.
+
+HEART Q: Do small, frequent purchases by customers make a cartel easier or harder to hold together?
+
+LEWIS: Answer. Easier. Here is why. When each sale is small, a member who secretly cuts its price wins very little from any single order. Because orders come often, the other members notice lost business quickly and can retaliate. Big, rare orders are the opposite, a large prize for cheating and a long wait before anyone finds out.
+
+LEWIS Q: The two largest firms in a market merge. Which measure reacts more strongly, the four firm concentration ratio or the H H I, and why?
+
+HEART: Answer. The H H I. Here is why. Both firms were already in the top four, so the concentration ratio only picks up the share of the next firm that moves into the top four, which is a small change. The H H I squares each share before adding, and one large share squared is much bigger than two smaller shares squared. So the merger shows up as a big jump in the H H I.
+
+HEART Q: A market has a very high H H I, but a new competitor could enter quickly and cheaply. Does the leading firm necessarily have strong pricing power?
+
+LEWIS: Answer. No. Here is why. Concentration measures only count today's market shares and ignore barriers to entry. If the leader raised its prices, new firms could move in and take its customers. That potential competition makes the demand facing the leader elastic, even though its share is high.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: For shutdown: cover the variable costs to stay open today, cover the total costs to stay in business for good. Price below average variable cost, shut down now. Price expected to stay below average total cost, plan the exit.
+
+HEART: Shutting down is closing the lifts for a season. Exiting is selling the hill. After a shutdown, the fixed costs are still yours.
+
+LEWIS: Short run, the plant is fixed. Long run, nothing is fixed.
+
+HEART: Picture the long run cost curve as a valley. Downhill is economies of scale, uphill is diseconomies, a flat floor is constant returns, and the lowest point is the minimum efficient scale. Diminishing returns belong to the short run, diseconomies to the long run.
+
+LEWIS: For the four structures, think of a dial of pricing power: none, some, some to significant, significant. Barriers to entry turn on the same dial: very low, low, high, very high.
+
+HEART: One rule everywhere: marginal revenue equals marginal cost. Only perfect competition adds price equals marginal cost. Everyone else charges more than marginal cost.
+
+LEWIS: For monopolistic competition in the long run: zero economic profit, but not at the bottom. The demand curve touches the cost curve on its way down, which leaves excess capacity.
+
+HEART: For the oligopoly models: the kink sticks, Cournot splits, Stackelberg moves first, Nash stays put, and the dominant firm sets the price. And oligopoly price sits between the collusion price, which is the monopoly price, and the competitive price.
+
+LEWIS: For collusion that holds: few firms, similar products, similar costs, small frequent orders, sure and severe punishment, and little competition from outsiders. Each one makes the deal easier to agree on, easier to police, or harder for outsiders to undercut.
+
+HEART: For concentration: square before you add. Double the share, four times the weight. And neither measure sees the competitor waiting outside the door.
+
+LEWIS: Now, how you would say the big ideas to a senior leader.
+
+HEART: On a losing business line: keep it running while it pays its own running costs and chips in toward overhead, but if it can never cover its full costs, plan an orderly exit. The jargon is the short run shutdown point at average variable cost and breakeven at average total cost.
+
+LEWIS: On growth: getting bigger lowers our unit costs only up to a point, and past that point the cost of coordinating everything eats the savings. The jargon is economies and diseconomies of scale and the minimum efficient scale.
+
+HEART: On margins: profits last only where rivals cannot easily copy us or come in. Where entry is easy, today's excess profits attract the competition that erases them. The jargon is barriers to entry and zero long run economic profit.
+
+LEWIS: On competitors: in a market with a few big players, every pricing move invites a response, so plan for the reaction, not just the move. The jargon is oligopoly, interdependence and Nash equilibrium.
+
+HEART: And on mergers: regulators look at how much of the market the biggest players would control, and they give the biggest players the most weight. But a big share means little if new rivals could walk in. The jargon is the concentration ratio, the Herfindahl Hirschman index and potential competition.
