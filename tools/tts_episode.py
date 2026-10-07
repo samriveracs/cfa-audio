@@ -65,6 +65,7 @@ PRON = [
  (r"\b([Bb])reakevens\b",r"\1reak evens"),(r"\b([Bb])reakeven\b",r"\1reak even"),
  (r"\bMacaulay\b","McCauley"),
  (r"\b([Ll])iens\b",r"\1eens"),(r"\b([Ll])ien\b",r"\1een"),(r"\bEnron\b","En ron"),
+ (r"\bMae\b","May"),(r"\b([Nn])ovation\b",r"\1o vation"),
  (r"\bMAD\b","M A D"),(r"\bCournot\b","Coor no"),(r"\bHerfindahl\b","Herfin dahl"),(r"\b[Mm]onopsony\b","mo nopsony"),(r"\bKeynesians\b","Kaynzians"),(r"\bKeynesian\b","Kaynzian"),(r"\bKeynes\b","Kaynz"),(r"\bexcise\b","eksize"),(r"\b([Mm])onetarist",r"\1onitterist"),(r"\bquota rents?\b",lambda m: "kwohtuh "+m.group(0).split()[1]),(r"\bhegemony\b","hejemoany"),(r"\b[Ss]upervisory\b","supervizery"),(r"\bNOPAT\b","no pat"),(r"\bModigliani\b","Mohdilyani"),(r"\b([Ll])essees\b",r"\1e sees"),(r"\b([Ll])essee\b",r"\1e see"),(r"\b([Ll])essors\b",r"\1ess ors"),(r"\b([Ll])essor\b",r"\1ess or"),(r"\b([Ee])xternalit",r"\1ksternalit"),(r"\b(the|of|its|their|cheap|cheaper|more|fewer|less|on|for|foreign|total|net|than|domestic|rising|falling|higher|lower|and|minus|plus|exceed|over) imports\b",r"\1 im ports"),(r"(^|(?<=[.!?] ))Imports\b","Im ports"),(r"\bimports (and|minus|exceed|rise|fall|grow|shrink)\b",r"im ports \1"),(r"\bPlaty\b","Platty"),
  (r"\bANOVA\b","ANOVA"),(r"\bGAAP\b","gap"),(r"\bMM\b","M and M"),(r"’","'"),(r"‘","'"),(r"[“”]",'"'),
 ]
@@ -72,11 +73,15 @@ ROMAN={"VII":"seven","VI":"six","IV":"four","V":"five","III":"three","II":"two",
 RN=r"(VII|VI|IV|V|III|II|I)"
 def norm(t, header=False):
     t=re.sub(r"\b"+RN+r"\(([A-E])\)", lambda m: ROMAN[m.group(1)]+" "+m.group(2), t)
-    t=re.sub(r"(^|(?<=[.?!:] ))A (?=[A-Z] [a-z]|U\.S\.)", "a ", t)   # sentence start article before a capital, e.g. A T bill, A U.S. company
+    t=re.sub(r"(^|(?<=[.?!:] ))A (?=[A-Z] [a-z]|U\.S\.|[A-Z]{2,}s?\b)", "a ", t)   # sentence start article before a capital, e.g. A T bill, A U.S. company
     if header:
         t=t.replace("/"," and ").replace("(","").replace(")","")
         t=re.sub(r"(\w)-(\w)",r"\1 \2",t)
     for a,b in PRON: t=re.sub(a,b,t)
+    # Plural acronyms: say the letters, then the last letter's plural sound (E T effs, C M ohs, D T eighs)
+    LP={"A":"eighs","B":"bees","C":"sees","D":"dees","E":"ees","F":"effs","G":"gees","H":"aitches","I":"eyes","J":"jays","K":"kays","L":"ells","M":"ems","N":"ens","O":"ohs","P":"pees","Q":"cues","R":"ars","S":"esses","T":"tees","U":"yous","V":"vees","X":"exes","Y":"wise","Z":"zees"}
+    t=re.sub(r"\b((?:[A-Z] )+)([A-Z])s\b", lambda m: m.group(1)+LP[m.group(2)], t)
+    t=re.sub(r"\b([A-Z]{2,4})s\b", lambda m: " ".join(m.group(1)[:-1])+" "+LP[m.group(1)[-1]], t)
     t=re.sub(r"\b(Level|Standard|Standards|Type|Tier|Part|Basel)\s+"+RN+r"\b", lambda m: m.group(1)+" "+ROMAN[m.group(2)], t)
     t=re.sub(r"\b(VII|VI|IV|III|II)\b", lambda m: ROMAN[m.group(1)], t)
     t=re.sub(r"\b(?:[A-Z] )+[A-Z]\b", lambda m: " ".join("eigh" if c=="A" else c for c in m.group(0).split()), t)

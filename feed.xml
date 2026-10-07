@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Wed, 07 Oct 2026 14:23:58 -0500</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 14:49:07 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -365,11 +365,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Financial Statement Analysis, Kaplan Modules 37.4 to 38.1. 37.4 DuPont Analysis, 37.5 Industry-Specific Financial Ratios, 38.1 Financial Statement Modeling</description>
     <itunes:summary>Financial Statement Analysis, Kaplan Modules 37.4 to 38.1. 37.4 DuPont Analysis, 37.5 Industry-Specific Financial Ratios, 38.1 Financial Statement Modeling</itunes:summary>
-    <content:encoded><![CDATA[<p>Financial Statement Analysis, Kaplan Modules 37.4 to 38.1.</p><ul><li>Module 37.4, DuPont Analysis</li><li>Module 37.5, Industry-Specific Financial Ratios</li><li>Module 38.1, Financial Statement Modeling</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:14 The big picture</li><li>2:11 Module 37.4, DuPont Analysis</li><li>10:30 Module 37.5, Industry-Specific Financial Ratios</li><li>16:17 Module 38.1, Financial Statement Modeling</li><li>28:08 Recall check</li><li>31:55 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E21.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E21_v2.mp3" length="10069992" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Financial Statement Analysis, Kaplan Modules 37.4 to 38.1.</p><ul><li>Module 37.4, DuPont Analysis</li><li>Module 37.5, Industry-Specific Financial Ratios</li><li>Module 38.1, Financial Statement Modeling</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:42 Module 37.4, DuPont Analysis</li><li>10:19 Module 37.5, Industry-Specific Financial Ratios</li><li>20:33 Module 38.1, Financial Statement Modeling</li><li>38:09 Recall check</li><li>45:57 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E21.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E21_v3.mp3" length="14955019" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e21</guid>
     <pubDate>Sat, 03 Oct 2026 12:21:00 -0500</pubDate>
-    <itunes:duration>2014</itunes:duration>
+    <itunes:duration>2991</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E21.txt" type="text/plain"/>
   </item>
