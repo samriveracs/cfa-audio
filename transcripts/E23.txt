@@ -1,185 +1,293 @@
-## The big picture
-
-This episode covers how markets are measured and how well they process information. Security market indexes come first. An index is a single number that stands for a whole market or a slice of one, and the way it is built decides what it actually tells you. Market efficiency comes second. It asks whether prices already reflect what is known, and therefore whether anyone can beat those indexes after costs and risk.
-
-The two ideas connect directly. If markets are efficient, the index is hard to beat, and a low cost index fund becomes the sensible default. If they are not, active managers have room to add value, and the index becomes the yardstick that shows whether they did.
-
-Expect three kinds of exam questions. First, small calculations, above all the return on the same stocks under different weighting methods. Second, classification, such as which index type, which form of efficiency, and which anomaly or bias. Third, implications, meaning what each form of efficiency says about technical analysis, fundamental analysis and passive investing.
+LEWIS: Reading 40 covers how a security market index is built, what each weighting method rewards and penalizes, how indexes are maintained and used, and the main kinds of stock, bond and alternative investment indexes. Reading 41 covers market efficiency: what it means, what makes a market more or less efficient, the weak, semi strong and strong forms, the anomalies and behavioral explanations that challenge it, and what it all implies for active versus passive investing.
 
 ## Module 40.1, Index Weighting Methods
 
-A security market index represents a target market, or a segment of one, using a set of securities called constituents. The index value is one number calculated from the constituents' prices.
+HEART: A security market index boils a whole market, an asset class or one corner of a market down to a single number. Think of it as a portfolio on paper, and its members are called the constituent securities. Its value comes from what those members trade for, with an estimated price standing in for anything that has not traded lately. The index return is just how much that value changed, in percent, over a period.
 
-Every index comes in two versions. A price return index reflects only changes in the constituents' prices. A total return index reflects price changes plus income, meaning dividends or interest, assumed to be reinvested. Both start at the same base value, but the total return index pulls ahead over time whenever the constituents pay income.
+LEWIS: So the market move on the evening news is the return on one portfolio built by one set of rules. Change the rules and the same stocks can give a different answer.
 
-Here are the formulas. The price return of an index equals the ending index value minus the beginning index value, divided by the beginning index value. The total return equals the ending value minus the beginning value, plus the income received, all divided by the beginning value. So total return is price return plus income return.
+HEART: Every index comes in two versions. A price index counts only the constituents' prices, and its return is called the price return. A return index, often called a total return index, counts the prices plus the income the constituents pay, such as dividends or interest, treated as reinvested. Its return is called the total return.
 
-A quick example. An index starts the year at 500 and ends at 520. The constituents paid dividends worth 10 index points. The price return is 20 divided by 500, which is 4 percent. The income return is 10 divided by 500, which is 2 percent. The total return is 6 percent.
+LEWIS: Picture two people who buy the same basket of stocks on the same day. One spends every dividend check on dinner out. The other puts every check into more shares. Both baskets rise and fall with the same prices, but the second keeps pulling ahead, because each dividend starts earning a return of its own. The price index follows the first person. The total return index follows the second.
 
-Here is the trap. A question that hands you the dividends and asks for the price return wants you to leave the dividends out.
+HEART: So whenever the constituents pay any income, the total return beats the price return, and the gap widens over time. The trap: if a question asks for the price return and hands you the dividends, leave them out. And to get a return over several periods, you link the period returns by compounding them, the way you did in Module 1.1, rather than adding them.
 
-Building an index means choosing the target market, the securities, the weights, how often to rebalance the weights and how often to review the membership. The weighting choice gets the most exam attention, and there are four main methods.
+LEWIS: Before any weighting, a provider makes five decisions. The target market to measure, which might be broad, like every listed stock in a country, or narrow, like small companies in one industry. Which securities to include, either all of them or a representative sample, picked by an objective rule or by a committee. How to weight them. How often to rebalance the weights. And when to review which securities belong and how they are weighted.
 
-The first method is price weighting. Each stock's weight equals its price divided by the sum of the prices of all the stocks in the index. The index value equals the sum of the constituents' prices divided by a number called the divisor. At launch, the divisor is typically the number of stocks, so the starting value is just the average price. The best known example is the Dow Jones Industrial Average.
+HEART: Now the core of the module. Every weighting method decides whose moves count the most. For each one, ask what earns weight, what costs weight, which way the index tilts, and what trading a fund needs to keep up.
 
-So a stock trading at 100 dollars has five times the weight of a stock trading at 20 dollars, no matter how large either company is. A 10 percent move in the 100 dollar stock moves the sum of prices by 10 dollars, while the same move in the 20 dollar stock moves it by only 2 dollars. That is arbitrary, because a share price depends partly on how many shares a company happens to have.
+LEWIS: Start with price weighting, the oldest and simplest. A price weighted index is the arithmetic average of the constituents' share prices. You add up the prices and divide by a number called the divisor, which starts out equal to the number of stocks.
 
-The divisor exists to handle stock splits and membership changes. Suppose three stocks trade at 20, 30 and 100 dollars. The sum is 150, the divisor is 3, and the index is 50.
+HEART: What earns weight? A high share price, and nothing else. Picture a giant whose shares trade at a modest price because it has billions of them, next to a much smaller business that has never split its stock, so each share costs a lot. In a price weighted index, the smaller company counts for more. The same percentage move in a high priced stock moves the sum of prices by more dollars, so the high priced stocks steer the index.
 
-Now the 100 dollar stock splits two for one, so it trades at 50. Nobody gained or lost anything, but the sum of prices drops to 100. To keep the index at 50, the divisor must change to 100 divided by 50, which is 2. So after a stock split, the divisor goes down.
+LEWIS: And a share price is close to arbitrary. Cut a pizza into eight slices or twelve and you still have the same pizza, but each slice weighs less. Price weighting judges the company by the weight of one slice, not by the size of the pizza.
 
-Notice the side effect. Before the split, the 100 dollar stock was two thirds of the sum of prices. After the split it is one half. The split company's weight fell and every other stock's weight rose, even though no value changed hands. A split changes the weights in a price weighted index. Also note that a price weighted index behaves like a portfolio holding one share of each stock, so it needs no rebalancing as prices move.
+HEART: Which brings us to splits. A two for one split halves the share price without changing what the company is worth. Left alone, the index would drop for no real reason, so the provider lowers the divisor just enough that the index value is unchanged at the moment of the split. The divisor is also adjusted when members change, for the same reason.
 
-The second method is equal weighting. Each stock gets the same weight, which is one divided by the number of stocks. With 50 stocks, each one is 2 percent. The index return is simply the average of the constituents' returns.
+LEWIS: So a split pushes the divisor down. But notice the side effect. After the split, that company's weight is lower and every other member's weight is a little higher. Nobody gained or lost a cent, yet the index now cares less about that company. A stock dividend also cuts the price per share, so it cuts the weight in just the same way. So price weighting rewards high share prices and penalizes companies that split, which has nothing to do with economic importance.
 
-Equal weighting has two drawbacks. First, it gives a small company the same weight as a giant, so compared with weighting by market value, it overweights small stocks and underweights large ones. Small stocks are often less liquid, which makes the index harder to replicate. Second, the weights drift the moment prices move, so a tracking fund must rebalance often, and every rebalance costs money.
+HEART: To copy it, a fund buys the same number of shares of each stock. A fixed number of shares moves with exactly the prices the index is built on, so no rebalancing is needed as prices move. The famous examples are the Dow Jones Industrial Average, with thirty large United States companies, and Japan's Nikkei average, with two hundred twenty five. The advantage is simplicity. The drawback is that every weight comes from an accident of share price.
 
-Here is the drift in round numbers. Put 500 dollars in each of two stocks. One rises 50 percent to 750. The other falls 50 percent to 250. The portfolio is still worth 1,000 dollars, but the weights are now 75 percent and 25 percent. To get back to equal weights, you sell 250 dollars of the winner and buy 250 dollars of the loser.
+LEWIS: Second, equal weighting. Every constituent gets the same weight, whatever its price or size, so the index return is the simple average of the members' returns. A fund copies it by putting the same dollar amount into every stock.
 
-The third method is market capitalization weighting, usually called cap weighting. Each stock's weight equals its market capitalization, meaning price times shares outstanding, divided by the total market capitalization of all the constituents. The index value equals the current total market value of the constituents divided by their total market value on the base date, times the base index value.
+HEART: Here is the trap. Same number of shares in each stock is price weighting. Same number of dollars in each stock is equal weighting.
 
-Most major equity indexes use this method with a float adjustment, counting only the float, meaning the shares actually available to the public. Shares held by controlling shareholders, such as a founding family or a government, are left out. Say a company has 100 million shares at 10 dollars, and a founding family holds 40 million that never trade. Its full market cap is 1 billion dollars, but its float adjusted cap is 600 million.
+LEWIS: What earns weight? Simply being a member. Think of a homeowners association where every household gets one vote, studio apartment or mansion. So measured against market value, equal weighting rewards small companies and penalizes giants. Compared with a cap weighted index of the same stocks, it is overweight small companies and underweight large ones. Its tilt is toward small caps.
 
-Cap weighting has a big practical advantage. As prices change, the weights change exactly the way a buy and hold portfolio's weights do, so a tracking fund trades mainly for share issuance, buybacks and membership changes. The drawback is the flip side. A stock whose price has risen gets a bigger weight, so if some of those stocks are overvalued, the index is overweight in overvalued stocks. Cap weighting behaves like a momentum strategy, and a few very large companies can dominate.
+HEART: Its advantage is simplicity. Its problem is that the weights do not stay equal. The moment prices move, winners become bigger slices and losers smaller ones. To keep matching the index, a fund has to rebalance, selling some of what went up and buying some of what went down. Every rebalance costs commissions and bid ask spreads, and those transaction costs eat into returns. Notice the direction, too. Selling winners and buying losers is a contrarian habit built into the method.
 
-The fourth method is fundamental weighting. Weights are based on a measure of company size that does not come from the share price, such as sales, earnings, book value, cash flow or dividends. Each company's weight equals its share of that measure across all the constituents.
+LEWIS: Third, market capitalization weighting, also called value weighting. Market capitalization is share price times shares outstanding, and each stock's weight is its share of the members' total market cap. The index value compares the members' total market value today with their total on the base date, scaled to a starting value, often one hundred.
 
-The point is to break the link between price and weight. Picture two companies with equal earnings and equal market caps of 500 million dollars each. Both a cap weighted index and an earnings weighted index hold them 50 and 50. Now one stock's price doubles while its earnings stay flat. Its market cap is now 1 billion out of a total of 1.5 billion, so its cap weight is two thirds. Its earnings weight stays at one half.
+HEART: What earns weight? Being big, measured by market value. Because market value is what investors collectively own, a cap weighted index tracks the change in total investor wealth more faithfully than price weighting. Splits stop mattering too. When a stock splits, the price halves and the share count doubles, so market cap is unchanged and there is nothing to adjust.
 
-At each rebalance, a fundamental index trims stocks whose prices have outrun their fundamentals and adds to the laggards. That is a contrarian effect, and it gives fundamental weighting a value tilt, meaning a lean toward stocks with low prices relative to earnings or book value.
+LEWIS: Copying it is easy. Hold each stock in proportion to its market cap, and as prices move, the holdings move in exactly the same proportions. The fund mainly needs to trade when a company issues or buys back shares, or when the membership changes.
 
-Now put the methods side by side, because this is where the exam lives. Stock X trades at 80 dollars with 1 million shares, a market cap of 80 million dollars. Stock Y trades at 20 dollars with 16 million shares, a market cap of 320 million dollars. Over the period, X rises 10 percent and Y falls 10 percent.
+HEART: Now the penalty side, which the exam loves. Every rally makes a stock a bigger slice, and every slide a smaller one. When enthusiasm lifts some stocks above their value, the index owns the most of them, and the least of stocks unfairly beaten down. So tracking a cap weighted index behaves like a momentum strategy, with the most money behind recent winners.
 
-Price weighted, X is 80 out of 100 in the sum of prices, so it carries 80 percent of the weight. The index return is 80 percent of plus 10, which is 8, plus 20 percent of minus 10, which is minus 2. That makes plus 6 percent.
+LEWIS: At the peak of the technology bubble in early two thousand, technology was the biggest slice of the major cap weighted indexes, just before it collapsed. And in the mid twenty twenties, a handful of giant technology companies made up a historically large share of the biggest United States indexes. That is the momentum bias at work.
 
-Equal weighted, the return is the average of plus 10 and minus 10, which is zero. Cap weighted, the weights flip. X is 80 out of 400 million, or 20 percent, and Y is 80 percent. The return is 2 minus 8, which is minus 6 percent.
+HEART: Then a refinement. A company's market float is the value of the shares actually available to the investing public. It leaves out shares held by controlling holders unlikely to sell, such as a founding family, a parent company or a government. A float adjusted cap weighted index counts only those available shares. Free float goes one step further and also leaves out shares that foreign investors are not allowed to buy.
 
-Same two stocks, same period, and the answers are plus 6, zero and minus 6. So first identify the method, then build the weights from the right input, which is price, nothing at all, or market value.
+LEWIS: Picture a company spun off from a parent that still keeps half the shares. Index funds can only ever buy the other half, so a float adjusted index counts only that half. Companies with large locked up stakes get less weight than in a plain cap weighted index. Float adjustment rewards widely held companies, penalizes tightly held ones, and matches the index to what investors can actually buy. Most major stock indexes work this way, and the S and P five hundred is the best known example.
 
-Two maintenance terms finish the module. Rebalancing means resetting the weights to their targets on a schedule, such as quarterly. Equal weighted indexes need it most, and fundamental weighted indexes need it too. Reconstitution means reviewing the membership, removing securities that no longer meet the rules and adding ones that do. It creates turnover, and stocks being added tend to see buying pressure from tracking funds.
+HEART: Fourth, fundamental weighting. Here the weights come from measures of business size that ignore the share price: earnings, dividends, cash flow, sales or book value, alone or blended. A company with a tenth of the members' total earnings gets a tenth of the weight in an earnings weighted index.
 
-So remember the core rule. Price weighting uses price, equal weighting uses one over the number of stocks, cap weighting uses market value, and fundamental weighting uses a measure like sales or earnings. A price weighted index equals the sum of prices divided by the divisor, and after a stock split, the divisor goes down.
+LEWIS: The point is to cut the link between price and weight. A stock's price can surge, but its target weight does not follow unless the business itself grows.
+
+HEART: What earns weight? Big fundamentals relative to price. Picture two companies with the same earnings, one priced cheaply against those earnings and one priced richly. Cap weighting gives the expensive one more weight. Earnings weighting gives them the same weight. So relative to cap weighting, a company with a high earnings yield, meaning high earnings compared with its market value, gains weight by construction.
+
+LEWIS: That is the value tilt. A fundamental weighted index overweights stocks that look cheap on measures like earnings yield or book to market, and it avoids the cap weighted bias toward overvalued stocks. Each time it resets its weights, it trims stocks whose prices have run ahead of their fundamentals and adds to the laggards. Contrarian again. But a tilt is not a promise. Value stocks went through long dry spells, including much of the twenty tens.
+
+HEART: The takeaway. Price weighting tilts toward high priced shares, equal weighting toward small companies, cap weighting toward large companies and recent winners, float adjustment away from tightly held companies, and fundamental weighting toward value.
 
 ## Module 40.2, Uses and Types of Indexes
 
-Indexes are used in five main ways. First, as gauges of market sentiment, the number quoted when people say the market rose today.
+LEWIS: Two maintenance ideas come first, and they are easy to mix up. Rebalancing means resetting the weights to their targets once price moves have knocked them off, usually every quarter. Price weighted and cap weighted indexes keep their own weights in line as prices move, so rebalancing is mainly a job for equal weighted indexes, though any index whose targets are not set by price, such as a fundamental index, also needs a scheduled reset.
 
-Second, as proxies for measuring and modeling returns, systematic risk and risk adjusted performance. In the capital asset pricing model, or CAPM, the true market portfolio cannot be observed, so a broad index stands in for it, and a stock's beta is measured against that index.
+HEART: Reconstitution means changing the membership: removing securities that no longer meet the index rules and adding ones that do. A company might shrink below the size cutoff, go bankrupt or be delisted. In a bond index, bonds simply mature. Reconstitution is often a committee's judgment call. Think of a sports team. Rebalancing evens out the playing time among the players. Reconstitution changes who is on the roster.
 
-Third, as proxies for asset classes in asset allocation. An allocator needs each class's historical return, risk and correlation with the others, and those numbers come from indexes.
+LEWIS: Reconstitution moves prices. Once a stock is named to a widely tracked index, every fund copying it must buy, which tends to lift the price. A dropped stock faces a wave of selling that tends to push it down. And each swap means the other members' weights must be reset to fit the rule.
 
-Fourth, as benchmarks for active managers. The benchmark must match the manager's style and universe. A small cap value manager measured against a large cap index will look brilliant or terrible for reasons that have nothing to do with skill.
+HEART: A preview of Reading 41. Research published in twenty twenty five found the price jump on joining the S and P five hundred has shrunk from several percent in the nineteen nineties to almost nothing. The authors credit mainly a more liquid market that absorbs the index buying, not traders acting early.
 
-Fifth, as model portfolios for investment products. Index mutual funds and exchange traded funds, or ETFs, are built to replicate an index.
+LEWIS: Now the five uses of indexes. First, a reflection of market sentiment, one quick number for investor confidence. The trap is that a narrow index, like a thirty stock price weighted average, may not reflect the broad market's mood.
 
-Now the types, starting with equity. A broad market index represents an entire market and usually covers the large majority of its total value. A multi market index combines several countries, built by region, such as Europe or Asia, or by level of economic development, such as developed or emerging markets. Some multi market indexes weight each country by a fundamental measure like GDP rather than by market value, so that one very large stock market does not dominate.
+HEART: Second, a benchmark for judging managers. The benchmark has to match the manager's style and the securities the manager actually chooses from. Judge a small company emerging markets manager against a large company index, and you mostly measure the gap between those markets, not her skill.
 
-Sector indexes track one industry group, such as health care or financials. They help an analyst see whether a manager's results came from choosing sectors or from choosing stocks within sectors, and they serve as model portfolios for sector funds.
+LEWIS: Third, a measure of market return and risk for asset allocation. An allocator needs an expected return and a standard deviation for each asset class, and those usually come from the history of an index representing it.
 
-Style indexes group stocks by investment style. Size is one style, split into large, mid and small cap. Value versus growth is another, usually sorted on ratios like price to book, price to earnings or dividend yield.
+HEART: Fourth, a measure of beta and risk adjusted return. In the capital asset pricing model, CAPM, the true market portfolio cannot be observed, so a broad index stands in for it, first to measure a stock's beta and then to compute the return that beta implies. Compare that expected return with what the stock actually earned, and you have a return adjusted for systematic risk.
 
-Here is the trap. Stocks migrate between style categories as their prices and fundamentals change. A small cap stock that rises a lot becomes a mid cap stock. So style indexes tend to have higher turnover than broad market indexes.
+LEWIS: Fifth, a model portfolio for index funds, whether an index mutual fund, an index ETF or a private account built to match an index. By the mid twenty twenties, index funds in the United States held more money than active funds.
 
-Fixed income indexes are harder to build, and three things drive this. First, the universe is enormous and varied. Second, most bonds trade in dealer markets, and many trade rarely, so there is often no recent price, and values must be estimated from comparable bonds. Third, the universe changes constantly as bonds mature, get called and are newly issued, so turnover is high. Together, these make a bond index more difficult and expensive to replicate than an equity index.
+HEART: Now the types of stock indexes. A broad market index measures a whole market and usually covers more than nine tenths of its total value. A multi market index combines the indexes of several countries, covering a region such as Latin America, a stage of development such as emerging markets, or the whole world.
 
-Fixed income indexes are classified by type of issuer, such as government or corporate, and by sector, maturity, credit quality, currency and geography. There are also inflation linked bond indexes, and aggregate indexes that combine many of these. In bank and credit union balance sheet work, an investment portfolio is often compared with a bond index of similar duration, so knowing how that index is built matters for interest rate risk discussions.
+LEWIS: A multi market index with fundamental weighting is a hybrid. Within each country it applies cap weighting, but it weights the countries themselves by a fundamental such as GDP. Picture a country whose stock market soared for years. Cap weighting would hand it an ever larger slice of the global index. Weighting by GDP ties its slice to the size of its economy, so a strong run of past returns does not leave it overweighted.
 
-Alternative investments have their own index problems. Commodity indexes are built from futures contracts, not from the physical commodities. So an index return is not the same as the change in spot prices. It also includes roll return, from replacing expiring contracts with new ones, and the interest earned on the collateral that backs the futures positions. Weighting methods also differ widely, so two commodity indexes can have very different exposure to energy, metals or agriculture.
+HEART: A sector index tracks one industry group, such as health care or financials, in one country or globally. Sectors take turns doing well through the business cycle, with utilities tending to hold up in recessions and industrials tending to shine in recoveries. So sector indexes help with cycle analysis, and they are used to evaluate managers and as model portfolios for sector funds.
 
-Real estate indexes come in three kinds. Appraisal indexes are based on periodic professional estimates of property values, so they tend to be smoothed and to lag the market. Repeat sales indexes use the price changes of properties that sold more than once. REIT indexes, meaning indexes of real estate investment trusts, use the prices of REIT shares that trade on exchanges, so they reflect new information most quickly.
+LEWIS: A style index measures the returns to strategies based on company size, on value versus growth, or on a combination, such as small cap value. There is no agreed definition of large, mid or small. Some providers set fixed market cap cutoffs, others go by rank, such as treating a set number of the biggest companies as large caps. Value and growth are usually sorted with ratios like price to earnings or dividend yield.
 
-Hedge fund indexes have a different weakness. Hedge funds are not required to report their returns publicly, so index providers rely on what funds choose to report. Different indexes therefore contain different funds and can show very different results. Funds with poor results are the most likely to stop reporting or to close, and they drop out of the data. The usual effect is an upward bias, called survivorship bias, meaning hedge fund indexes tend to overstate what investors actually earned.
+HEART: The trap with style indexes is migration. A small company that succeeds grows into a mid cap, and a value stock that rallies can start to look like growth. Each time a stock crosses a line, it leaves one index and joins another. So style indexes have higher turnover than broad market indexes.
 
-So remember the key rule for this module. Indexes serve as sentiment gauges, risk and return proxies, asset class proxies, benchmarks and model portfolios. The hard cases are bonds, which trade rarely and turn over constantly, and alternatives, where futures, appraisals and voluntary reporting each distort the picture.
+LEWIS: Across all of them, indexes are classified by geography, sector, level of economic development, and fundamental factors such as value or growth. Among stock indexes, the notable exceptions to float adjusted cap weighting are the price weighted Dow and the Nikkei, with its modified price weighting.
+
+HEART: Now bonds. Bonds differ in coupon, maturity, credit rating and embedded options, so bond indexes come in enormous variety. They can be built around the issuer, the collateral, the coupon, the maturity, the credit risk, such as investment grade versus high yield, and inflation protection, and they can be broad market, sector, style or specialized.
+
+LEWIS: Bond indexes are harder to build, for three reasons. First, the universe is far larger than the stock universe. A company may have one class of shares but dozens of bonds, and governments and agencies issue bonds too. Bonds keep maturing and new ones keep being issued, so turnover is high. Second, bonds trade mainly in dealer markets, so providers depend on dealers for prices. Third, many bonds are illiquid. A bond may not trade for days or weeks, so its value has to be estimated from recent prices of similar bonds.
+
+HEART: So bond indexes differ hugely in how many bonds they hold, and thin trading, high costs and constant turnover make one hard and costly to copy exactly. Bond index funds usually hold a sample matched on duration, credit quality and sector instead. A bank or credit union portfolio judged against a bond index is compared on those same risks.
+
+LEWIS: Last, the alternative investments, valued mainly for diversification. The three most widely held are commodities, real estate and hedge funds, and each has its own index problem.
+
+HEART: Commodity indexes are built from futures contracts on grains, livestock, metals and energy, not from the physical goods. First issue, weighting. Some weight equally, some by the value of global production, some by fixed weights the provider picks. So two commodity indexes can differ sharply in risk and return, one led by crude oil, another by gold. Second issue, futures versus the real thing. A futures position earns from changes in futures prices, the risk free return on the collateral behind it, and the roll yield from replacing expiring contracts with new ones. So a coffee index can move quite differently from the price of a bag of coffee beans.
+
+LEWIS: Real estate indexes come in three kinds. Appraisal indexes are built on professional valuations, which tend to be smoothed and to lag. Repeat sales indexes track the price changes of properties that have sold more than once. And REIT indexes follow the share prices of real estate investment trusts, which work much like closed end funds holding properties or mortgages. The buildings are illiquid, but REIT shares trade on exchanges like any stock, so a REIT index takes in news much faster.
+
+HEART: A hedge fund is a pool of investor money that can buy nontraditional assets, enlarge its bets with leverage, and hold both long and short positions. Most hedge fund indexes give each fund equal weight. The big problem is reporting. Lightly regulated hedge funds choose whether and where to share results, so a fund can appear in one index but not another, and two hedge fund indexes can tell very different stories.
+
+LEWIS: Worse, the funds that report tend to be the successful ones. Funds with poor results prefer not to publicize them, and funds that once reported often go quiet after a bad stretch. Picture a class reunion where only the classmates who got rich show up. The room makes the whole class look wealthier than it is. That gives hedge fund indexes an upward bias. Funds that drop out after bad results add what is called survivorship bias.
+
+HEART: The takeaway. Rebalancing resets weights and matters most for equal weighting, while reconstitution changes members and moves prices. The hard cases are bonds, which trade rarely and turn over constantly, and alternatives, where futures, appraisals and voluntary reporting each distort the picture.
 
 ## Module 41.1, Market Efficiency
 
-An informationally efficient market is one where prices adjust quickly and rationally to new information, so the current price fully reflects all available information. The consequence is that nobody can consistently earn abnormal returns by trading on that information, after costs. An abnormal return is a return above what the investment's risk warrants.
+LEWIS: An informationally efficient market is one where a security's price reflects all available information fully, quickly and rationally. Put statistically, prices are unbiased. On average they are neither too high nor too low, so the return you expect on any security is just the fair return for its risk. The everyday version: you cannot beat the market.
 
-Two details sharpen the definition. First, only unexpected information moves prices. Earnings exactly in line with forecasts barely move an efficient market, because the expected news was already in the price. Second, speed matters. In a highly efficient market, trading after you hear the news is too late.
+HEART: And beating the market does not mean earning a high return, which anyone can do by taking more risk. It means earning a positive risk adjusted return, also called an abnormal return, more than the risk warrants, consistently and after costs.
 
-This drives the choice between active and passive management. If a market is efficient, active management cannot beat the index on average after its higher costs, so a low cost index fund is the better choice.
+LEWIS: That drives the practical choice. If a market were perfectly efficient, passive investing would be the sensible choice, buying a broad index and holding it, since active strategies would trail it by their fees and trading costs. The less efficient a market, the more room active managers have to earn positive risk adjusted returns.
 
-Next, separate two kinds of value. Market value is the price at which an asset can be bought or sold right now. Intrinsic value, also called fundamental value, is what the asset is truly worth once its expected cash flows and their risk are fully understood. It can only be estimated. In an efficient market, market value is the best available estimate of intrinsic value. Active investors are betting that it is not, buying when they estimate intrinsic value to be above market value and selling when it is below.
+HEART: One gauge of efficiency is the lag between news coming out and prices reflecting it. In major currency markets it is a matter of moments. If it is long, informed traders can act before the price catches up.
 
-Four factors determine how efficient a market is. First, the number of market participants. More investors and analysts hunting for mispricing means it gets found and traded away faster. Restrictions that keep investors out, such as limits on foreign ownership, reduce efficiency.
+LEWIS: And only new information moves prices. Picture a retailer reporting strong holiday sales. If investors expected even stronger sales, the shares can fall on what sounds like good news. If they expected exactly that, the price barely moves. What moves prices is the surprise.
 
-Second, the availability of information and financial disclosure. Markets are more efficient when accurate information is timely and widely available. Rules against trading on material nonpublic information, and rules requiring companies to release information to all investors at the same time, both support efficiency.
+HEART: Next, two kinds of value. Market value is the asset's current price, what you could buy or sell it for right now. Intrinsic value, also called fundamental value, is what a rational buyer who fully understood the asset would pay. For a small apartment building, that buyer would weigh the rents, the chance of empty units, the upkeep and the returns available elsewhere.
 
-Third, limits to trading. Arbitrage and short selling push mispriced securities back toward value. If short selling is restricted or expensive, overpriced securities can stay overpriced, because pessimists cannot act on their view.
+LEWIS: In a highly efficient market, market value reflects intrinsic value. Where it may not, active managers buy what they believe is worth more than its price and sell what they believe is worth less. But intrinsic value is never known for certain. Investors arrive at different answers, it is harder to pin down for complex assets, and it shifts as unexpected news arrives. Valuing a Treasury bill is easy. Valuing a young biotech company with one drug in trials is not.
 
-Fourth, transaction costs and the costs of gathering information. This one is heavily tested. Investors will spend money on research only while the expected benefit covers the cost. So prices can differ from intrinsic value by a small amount without the market being inefficient, as long as the gap is too small to exploit after costs.
+HEART: Markets are neither perfectly efficient nor completely inefficient, and efficiency varies across countries, over time and by type of market. Four factors drive it.
 
-Say a stock looks mispriced by 0.5 percent, but buying it and later selling it costs 1 percent in total. No one can profit, and the market is efficient within the bounds of its costs. Here is the trap. A pattern that looks profitable before costs but not after costs is not evidence of inefficiency.
+LEWIS: First, the number of market participants. The more investors, analysts and traders following a market, the faster a mispricing gets spotted and traded away. A country that bars foreigners from its market reduces its own efficiency.
 
-Now the three forms of efficiency, each defined by which information is already in the price. Weak form efficiency says prices reflect all past market data, meaning past prices and trading volume. If a market is weak form efficient, technical analysis, which looks for patterns in past prices and volume, cannot consistently earn abnormal returns. Tests look for patterns such as serial correlation in returns, and in developed markets the evidence largely supports weak form efficiency.
+HEART: Second, the availability of information. Large developed stock markets have plenty, and many emerging markets have less, so their prices are less efficient. Many assets traded over the counter, such as bonds, swaps and money market instruments, also come with less public information. Access must be fair too. Fair disclosure rules, known in the United States as Regulation F D, require a company that tells analysts something material to tell the public at the same time, and trading on material inside information is prohibited.
 
-Semi strong form efficiency says prices reflect all publicly available information. That includes past market data plus financial statements, announcements and economic news. If a market is semi strong efficient, neither technical analysis nor fundamental analysis based on public information can consistently earn abnormal returns. In developed markets, the evidence generally supports this form, while some emerging markets look less efficient.
+LEWIS: Third, impediments to trading. Arbitrage, in its classic form, means buying an asset in one market while simultaneously selling it for more in another, until the two prices meet. Anything that blocks arbitrage, such as high transaction costs or missing information, lets mispricing survive. Short selling matters too. Short sellers sell what they think is too expensive, and that selling holds prices down toward value. Restrict short selling, or make borrowing shares expensive, and overpriced assets can stay overpriced.
 
-Semi strong efficiency is usually tested with event studies of price reactions to announcements. The abnormal return equals the actual return minus the expected return, where the expected return comes from a model such as the market model or CAPM. Suppose a company announces a surprise contract. The stock returns 8 percent that day, and the model says it should have returned 2 percent given what the market did. The abnormal return is 6 percent. In a semi strong efficient market, that abnormal return shows up right at the announcement and does not keep building in the days that follow.
+HEART: Fourth, and a favorite exam point, transaction and information costs. Gathering information, analyzing it and trading all cost money. Where those costs exceed the profit from fixing a mispricing, nobody bothers, and prices can sit a little away from intrinsic value. So the working test builds the costs in. If no one can turn public information into abnormal returns once every cost is paid, the market counts as efficient.
 
-Strong form efficiency says prices reflect all information, public and private. That would mean even insiders with material nonpublic information could not earn abnormal returns. The evidence rejects this form, because insiders trading on private information have been shown to earn abnormal returns. Such trading is also illegal in most markets.
+LEWIS: Picture a jacket priced a little lower across town. If the bus fare costs more than the saving, the gap survives and nobody is missing a bargain. So a pattern profitable before costs but not after costs is not evidence of inefficiency.
 
-The forms are nested, and that is a common exam point. Strong form includes everything in semi strong, and semi strong includes everything in weak form. So if a market is semi strong efficient, it must also be weak form efficient. The reverse is not true. A market can be weak form efficient while public information is still slow to get into prices.
+HEART: Now the three forms of efficiency, laid out by the economist Eugene Fama. They differ only in which information is assumed to be in the price already.
 
-What does this imply for practice? If markets are weak form efficient, technical analysis cannot consistently earn abnormal returns. Under semi strong efficiency, fundamental analysis based on public information cannot either.
+LEWIS: Weak form efficiency says prices fully reflect all past market data, meaning past prices and trading volume. Price changes are independent from one period to the next, so past patterns cannot predict future prices. What it rules out is earning positive risk adjusted returns, on average, from technical analysis, meaning trading on charts and patterns in past prices and volume.
 
-But here is the twist. Fundamental analysis is what makes markets efficient in the first place. Prices reflect public information because many analysts value companies and trade on what they find. An analyst can still earn abnormal returns, but only by doing the work better or faster than everyone else.
+HEART: Semi strong form efficiency says prices adjust rapidly and without bias to all new public information. Prices reflect all past market data plus everything else public: financial statements, earnings and dividend announcements, economic releases, news. What it rules out is fundamental analysis based on public information, studying earnings, ratios and forecasts to find mispriced stocks, and technical analysis along with it.
 
-And portfolio management? If markets are efficient, passive management is the logical default. But a portfolio manager still has a job, which is setting an asset allocation that fits the client's objectives, risk tolerance, taxes and constraints, and keeping the portfolio diversified.
+LEWIS: Strong form efficiency says prices reflect all information, public and private, including inside information. No group would have a monopoly on information that matters, so no one, not even a corporate insider, could consistently earn abnormal returns. What it rules out is profit from any information at all, which means no form of active management could consistently win.
 
-Now anomalies. A market anomaly is a pattern in returns that seems to offer abnormal returns, contradicting efficiency.
+HEART: The evidence says markets are not strong form efficient. Studies show insiders trading on private information earn abnormal returns. And since most markets outlaw that kind of trading, private information cannot be expected to find its way fully into prices.
 
-Before you accept one as real, ask three questions. Could it be data mining, meaning someone searched enough data to find a pattern by chance? Could the extra return be compensation for a risk the model left out? And would it survive transaction costs? Many anomalies fade once they become known.
+LEWIS: The forms are nested, like Russian dolls. Public information includes past market data, and all information includes public information. So a semi strong efficient market must also be weak form efficient. But a market can be weak form efficient without being semi strong, and semi strong without being strong form efficient.
 
-Anomalies fall into three groups. The first is time series anomalies, which are patterns over time. The best known is the January effect, also called the turn of the year effect. Small company stocks historically earned unusually high returns in the first days of January. The usual explanations are tax loss selling in December, and window dressing, where managers dump embarrassing holdings before year end reports. Later research found the effect inconsistent, and much of it disappears after adjusting for risk.
+HEART: How are the forms tested? With abnormal returns. A model such as CAPM or a multifactor model sets the return a strategy deserved for the risk it carried. If the strategy earns more than that on average, you reject efficiency with respect to the information the strategy used. One subtlety worth carrying: every efficiency test is also a test of the risk model. If the model misses a risk, a strategy that simply carries that risk will look like it is beating the market.
 
-Also in this group are overreaction and momentum. Overreaction means stocks that did very poorly over several years tend to do better in the following years, and big winners tend to do worse. Momentum points the other way over a shorter horizon. Stocks that did well recently tend to keep doing well for a while. Both are often explained with behavioral biases.
+LEWIS: The weak form evidence: on the whole, trading rules built on charts have not delivered abnormal profits, so the tests cannot reject weak form efficiency. Two caveats. Chart based rules have done better in some emerging markets, and the possible rules are endless, so no one can test them all.
 
-The second group is cross sectional anomalies, which compare different kinds of stocks over the same period. The size effect is the finding that small cap stocks outperformed large cap stocks, but later studies did not find it persistent. The value effect is the finding that value stocks, with low price to earnings, low price to book or high dividend yields, outperformed growth stocks. It largely disappears when the model includes a value factor alongside size and the market, which suggests the extra return may be compensation for risk.
+HEART: For the semi strong form, the main tool is the event study, which tracks a stock's abnormal returns before and after news such as an earnings announcement or a dividend change. The starting assumption is that trading on such events earns no abnormal return on average, because prices absorb news quickly. In developed markets the evidence generally supports semi strong efficiency, while some emerging markets show signs of inefficiency.
 
-The third group collects other anomalies. Closed end investment funds often trade at a discount to net asset value, the per share value of their holdings minus liabilities. Fees, taxes on unrealized gains and illiquid holdings help explain it, and after transaction costs the discount is generally not profitable to arbitrage. After earnings surprises, prices sometimes keep drifting in the direction of the surprise, but the apparent profits largely disappear after costs and risk adjustment.
+LEWIS: Here is the twist. If prices already reflect public information, why do fundamental analysis at all? Because it is what makes prices efficient. Prices reflect public information only because many analysts dig into it and trade on what they find. And it can still pay off for a rare, exceptionally skilled analyst, and for anyone who trades before the price catches up.
 
-Initial public offerings are often underpriced, so they jump on the first day, yet they tend to underperform over the longer term. The first day gain is hard to capture, because shares at the offer price are hard to get. Finally, some predictability of returns from interest rates and inflation may simply reflect risk premiums that change over the business cycle. The bottom line is that most anomalies do not persist, cannot be exploited after costs, or can be explained by risk.
+HEART: There is a paradox there. If everyone stopped researching and simply bought the index, nobody would be doing the work that keeps prices efficient. So some inefficiency has to remain to pay the people who make markets efficient. Economists call it the Grossman Stiglitz paradox.
 
-The last topic is behavioral finance, which studies how investor psychology affects decisions and possibly prices. Traditional finance assumes investors are rational, while behavioral finance documents biases that may explain some anomalies.
+LEWIS: Now active versus passive. Semi strong efficiency points investors toward passive management, simply holding a portfolio that replicates a market index. The evidence agrees. Over long stretches, most mutual fund managers have not beaten a plain index strategy. In the S and P scorecards through the end of twenty twenty five, roughly nine in ten active large company United States stock funds trailed the S and P five hundred over fifteen years.
 
-Loss aversion means disliking a loss more than enjoying a gain of the same size, and it may help explain overreaction. Herding means trading in the same direction as other investors, sometimes ignoring one's own analysis. Overconfidence means overestimating one's own ability to process information, which leads to too much trading and can push prices away from value. Information cascades happen when investors follow the trades of others they believe are better informed, which can actually speed price adjustment when those traders really are informed.
+HEART: For balance, a twenty twenty six study sponsored by a group representing active managers argued that weighting by dollars invested rather than counting funds makes the odds look more like a coin flip. Either way, the typical active fund has struggled to beat the index after fees.
 
-Representativeness means judging by resemblance, such as assuming a good company must be a good investment. Mental accounting means keeping money in separate mental buckets instead of viewing the portfolio as a whole. Conservatism means being slow to update beliefs when new information arrives, which can lead to underreaction. Narrow framing means looking at each event or investment in isolation.
+LEWIS: So does efficiency put portfolio managers out of work? No. Even with fully efficient prices, a manager adds value by working out the client's risk and return objectives and building the portfolio to meet them, and by handling diversification, asset allocation and taxes.
 
-Here is the key exam point. Markets do not need every investor to be rational in order to be efficient. Biases matter for efficiency only if they are systematic and persistent enough to create mispricing that is not arbitraged away. Behavioral finance offers explanations for some anomalies, but it does not prove that markets are inefficient.
+HEART: Now anomalies. In the efficient markets literature, a market anomaly is a pattern that would make you reject efficiency, a way to earn abnormal returns from information that should already be in the price.
 
-So remember the central rule of this module. Weak form means prices reflect past market data, semi strong means all public information, and strong form means all information, public and private. Each stronger form includes the weaker ones, and the evidence supports weak and semi strong efficiency in developed markets but rejects strong form.
+LEWIS: Before you believe one, worry about data mining, also called data snooping. The significance level of a test is the chance of a false alarm on each try, so search through enough useless variables and a few will look related to returns by luck alone. Think of someone who sorts their socks by which ones they wore when their team won. With enough socks and enough games, some socks look lucky. The pattern is real in the past data and worthless going forward.
+
+HEART: The defense has two steps. First ask whether there is an economic reason for the relationship. Then test it on a large sample and check that it holds across different subperiods, not just the stretch where it was found.
+
+LEWIS: Anomalies come in three groups. The first is time series anomalies, patterns over time, starting with calendar effects. The best known is the January effect, also called the turn of the year effect: stock returns, especially for small companies, were found to be much higher in the first several days of January than in the rest of the year.
+
+HEART: In an efficient market, traders would exploit that and wipe it out. Two explanations were offered. Tax loss selling, where investors sell losers in December to claim the tax loss and buy back in January. And window dressing, where managers sell risky or embarrassing stocks before year end statements and buy them back in January. Neither story accounts for the whole effect, and once returns are adjusted for risk, the pattern does not seem to hold up over time.
+
+LEWIS: Other calendar patterns were found once but no longer seem to hold: the turn of the month effect, with higher returns around month end, the day of the week effect, with negative average Monday returns, the weekend effect, with positive Fridays followed by negative Mondays, and the holiday effect, with higher returns just before holidays.
+
+HEART: The other time series anomalies are overreaction and momentum. Overreaction is the finding that stocks with poor returns over the previous three to five years go on to beat the prior winners. It is usually explained as investors overreacting to unexpected good and bad news. Momentum runs the other way over a shorter horizon. Stocks with high short term returns tend to keep earning high returns for a while.
+
+LEWIS: The classification point: both would violate weak form efficiency, because each is a profitable strategy built only from past market data. But there is pushback. Some researchers say the overreaction evidence comes from how the statistical tests were built, and that momentum may reflect rational behavior.
+
+HEART: The second group is cross sectional anomalies, which compare different stocks over the same period. The size effect is the early finding that small cap stocks beat large caps. Later studies failed to find it again. Either investors exploited it until it disappeared, or the first result was a fluke of the years examined.
+
+LEWIS: The value effect is the finding that value stocks, with low price to earnings, low market to book and high dividend yields, beat growth stocks. That would violate semi strong efficiency, because everything needed to sort value from growth is public. But some researchers argue value stocks carry extra risk the studies did not capture, so the extra return is pay for risk.
+
+HEART: The third group is other anomalies, four of them. First, closed end funds often trade at large discounts to net asset value, the per share value of the fund's holdings, although by arbitrage a pool of assets should be worth its contents. Management fees, taxes on future capital gains and illiquid fund shares are offered as reasons, but none fully explains the gap, and transaction costs would wipe out any profit from the unexplained part.
+
+LEWIS: Second, earnings surprises. An earnings surprise is the part of reported earnings the market did not expect. Positive surprises tend to be followed by positive risk adjusted returns and negative surprises by negative ones, so the price does not finish adjusting on announcement day. Critics say the drift comes from measuring risk adjusted returns incorrectly, and that transaction costs would eat any profit.
+
+HEART: Third, initial public offerings are typically underpriced, so the shares jump once trading begins, yet as a group they perform below average over the long term. One explanation is that investors start out too optimistic. Others say it is just a product of how abnormal returns were measured.
+
+LEWIS: Fourth, economic fundamentals. Stock returns have been linked to dividend yields, stock volatility and interest rates. But you would expect returns to relate to fundamentals in an efficient market, since they carry information about risk, and the link with dividend yields has not held consistently over time.
+
+HEART: So where does that leave efficiency? Most of the evidence says reported anomalies are artifacts of the tests, from data mining or weak risk adjustment, not real breaks in efficiency. Markets show both underreaction and overreaction, so prices look right on average. And the patterns that hold up tend to be fleeting, too small to profit from after costs, or a reward for risk the researchers missed.
+
+LEWIS: Later research backs that up. A widely cited study published in twenty sixteen found anomaly returns fell by more than half after academic journals published them, much of that from investors trading on the findings. So chasing known anomalies is unlikely to pay, and a strategy resting on anomalies alone has no solid economic footing.
+
+HEART: The last topic is behavioral finance, the study of how investors actually make decisions. Traditional finance assumes investors are rational and fully informed. Behavioral finance observes that real investors show biases, copy others, and weigh risk differently than the models assume.
+
+LEWIS: Four behaviors to know. Loss aversion means investors are more risk averse facing possible losses than facing possible gains, so a loss hurts more than an equal gain pleases. Overconfidence means overestimating your own ability to analyze information and spot gaps between price and intrinsic value. Herding means investors trading on the same side of the market, copying others instead of acting on their own analysis.
+
+HEART: And an information cascade happens when less informed traders watch better informed traders and follow them. Here is the twist. If the people being copied really do know more, the copying spreads their information into prices faster, pulling prices toward intrinsic value and making the market more efficient.
+
+LEWIS: So do these biases prove markets inefficient? Whether irrationality really causes the reported anomalies is an open question. Efficiency does not require every investor to be rational.
+
+HEART: So the answer turns on the definition. Demand that every investor be rational, and markets fail the test. Ask only that nobody can keep earning abnormal risk adjusted returns, and the research says markets pass.
+
+LEWIS: The takeaway. Developed markets look weak and semi strong efficient but not strong form efficient, most anomalies fade or fail after costs and risk, and biased investors do not by themselves make an inefficient market.
 
 ## Recall check
 
-Q: A price weighted index holds two stocks priced at 30 and 70 dollars, with a divisor of 2. If the 70 dollar stock rises 10 percent and the other is unchanged, what is the index return?
+LEWIS Q: A stock in a price weighted index splits two for one. What happens to the divisor, and what happens to that company's weight in the index?
 
-Answer: 7 percent. The sum of prices goes from 100 to 107, so the index rises from 50 to 53.5. The higher priced stock carries 70 percent of the weight, so its 10 percent gain becomes a 7 percent gain for the index.
+HEART: Answer. Both go down. Here is why. The split halves the share price without changing the company's value, so the provider lowers the divisor to keep the index from dropping. But the index still counts each company by its share price, which is now half what it was. So the splitting company counts for less from then on, and every other member counts for a little more.
 
-Q: Which weighting method most likely requires the most frequent rebalancing to stay on target: price weighted, equal weighted, or market cap weighted?
+HEART Q: One fund holds the same number of shares of every stock, and another holds the same dollar amount of every stock. Which index does each one track?
 
-Answer: Equal weighted. Every price change pushes the weights away from one over the number of stocks, so a tracking portfolio must keep selling winners and buying losers. Price weighted and cap weighted portfolios adjust automatically.
+LEWIS: Answer. The first tracks a price weighted index, the second an equal weighted index. Here is why. A fixed number of shares makes each holding move with its share price, which is exactly how a price weighted index assigns weight. Equal dollars gives every stock the same weight. The second fund must keep rebalancing to stay equal, while the first does not need to trade as prices move.
 
-Q: A stock starts with the same weight in a cap weighted index and an earnings weighted index. Its price then doubles while its earnings and every other stock stay unchanged. After the next rebalance, which index holds more of it?
+LEWIS Q: Why is tracking a market cap weighted index said to resemble a momentum strategy?
 
-Answer: The cap weighted index. Its cap weight rises with the price, while the rebalance resets the earnings weighted index to the stock's unchanged share of earnings. Trimming stocks whose prices outrun their earnings is the contrarian effect behind the value tilt.
+HEART: Answer. Because the stocks that have risen the most automatically get the biggest weights. Here is why. A stock's weight is its market value, so it grows as the price climbs and shrinks as it falls. If some climbers are overvalued, the index holds the most of the stocks most likely to be overpriced, just as momentum investing backs recent winners.
 
-Q: Which type of real estate index is most likely to reflect new information most quickly: an appraisal index, a repeat sales index, or a REIT index?
+HEART Q: Relative to a cap weighted index, which kind of stock gains weight in an earnings weighted index, and what is that tilt called?
 
-Answer: The REIT index. REIT shares trade continuously on exchanges, so their prices respond to news quickly. Appraisal indexes are smoothed and lag, and repeat sales indexes depend on properties happening to sell.
+LEWIS: Answer. Stocks that are cheap relative to their earnings, and the tilt is called a value tilt. Here is why. An earnings weighted index gives each company weight in proportion to its earnings, whatever its price. A company with a high earnings yield has a lot of earnings for its market value, so it gets more weight than its market value alone would give it.
 
-Q: Studies show that corporate insiders earn abnormal returns trading on material nonpublic information. Which form of market efficiency does this evidence contradict?
+LEWIS Q: Which weighting method needs the most rebalancing, and what kind of trades does that rebalancing require?
 
-Answer: The strong form, which says prices reflect all information, public and private. It does not contradict the semi strong form, because insider information is not public.
+HEART: Answer. Equal weighting, which requires selling some winners and buying some losers. Here is why. As soon as prices move, the risers become bigger slices and the fallers smaller ones. Restoring equal weights means trimming what went up and adding to what went down. Price weighted and cap weighted indexes adjust automatically with prices.
 
-Q: A trading rule based on past prices earns abnormal returns before transaction costs, but not after costs. Is this evidence against weak form efficiency?
+HEART Q: A stock is announced as a new member of a widely tracked index. Which way does its price tend to move, and why?
 
-Answer: No. Efficiency means you cannot earn abnormal returns after costs, and prices can sit within the bounds set by transaction costs. A pattern that cannot be exploited profitably is consistent with weak form efficiency.
+LEWIS: Answer. Up. Here is why. Every fund that copies the index has to buy the stock, and that wave of buying pushes the price higher. A dropped stock tends to fall as those funds sell. Recent research finds the effect has shrunk to almost nothing, mostly because today's more liquid market absorbs that buying more easily.
 
-## Recap
+LEWIS Q: Why do style indexes have higher turnover than broad market indexes?
 
-An index's price return uses only price changes, while its total return adds income such as dividends. A price weighted index equals the sum of prices divided by the divisor, the highest priced stocks dominate, and a split lowers both the divisor and the split stock's weight. An equal weighted index earns the simple average return, overweights small stocks and needs frequent rebalancing. A cap weighted index, usually float adjusted, adjusts automatically to price changes but leans toward stocks that have run up, while fundamental weighting is contrarian with a value tilt.
+HEART: Answer. Because stocks migrate between style categories. Here is why. A style index draws lines by size or by value versus growth. A small company that grows becomes a mid cap, and a value stock that rallies can start to look like growth. Each crossing moves a stock from one style index to another, while a broad market index keeps it the whole time.
 
-Bond indexes are hard to replicate because bonds trade rarely and turn over constantly. Commodity index returns include roll return and collateral return, REIT indexes are the most current real estate measure, and hedge fund indexes carry an upward survivorship bias. Weak form efficiency covers past market data, semi strong covers all public information, and strong form covers all information, and the evidence rejects only the strong form in developed markets. Most anomalies fade, vanish after costs or reflect risk, and markets can be efficient even when many investors are not rational.
+HEART Q: Give the three main reasons a bond index is harder to replicate than a stock index.
+
+LEWIS: Answer. A huge and constantly changing universe, dealer markets, and illiquidity. Here is why. There are far more bonds than stocks, and they keep maturing and being replaced, so turnover is high. Bonds trade mainly through dealers, so providers rely on dealer prices. And many trade rarely, so their values must be estimated from similar bonds.
+
+LEWIS Q: Which way are hedge fund index returns biased, and why?
+
+HEART: Answer. Upward. Here is why. Hedge funds report voluntarily. Funds with good results are happy to report, while funds with poor results tend never to report or to stop after a bad stretch. So the index is built mostly from winners and makes hedge funds look better than they really were.
+
+HEART Q: Corporate insiders are shown to earn abnormal returns trading on private information. Which form of efficiency does that contradict, and does it contradict the semi strong form?
+
+LEWIS: Answer. It contradicts the strong form only. Here is why. Strong form efficiency says prices already reflect all information, including private information, so even insiders could not profit. Semi strong efficiency covers only public information, and inside information is by definition not public, so semi strong efficiency is left intact.
+
+LEWIS Q: Overreaction and momentum are both trading patterns. Which form of market efficiency would they violate, and why that form?
+
+HEART: Answer. The weak form. Here is why. Both strategies are built only from past prices, which is past market data. Weak form efficiency says that data is already in the price and cannot predict future returns. If either pattern earned consistent abnormal returns after costs and risk, past prices would be predicting the future.
+
+HEART Q: Many investors are loss averse, overconfident and prone to herding. Does that prove markets are inefficient?
+
+LEWIS: Answer. No, not by itself. Here is why. Market efficiency does not require every investor to be rational. It requires that investors cannot consistently earn abnormal risk adjusted returns, and the evidence in developed markets largely supports that. Biases explain how prices can stray from intrinsic value, but unless that creates mispricing someone can exploit after costs, the market still counts as efficient.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: For weighting, ask what earns a vote. Price weighting listens to the price tag. Equal weighting gives every member one vote. Cap weighting follows the money. Fundamental weighting follows the business.
+
+HEART: For the tilts, in the same order: high priced shares, small companies, recent winners, and cheap stocks. Cap weighting rides momentum, fundamental weighting leans to value, and float adjustment shrinks companies with big locked up stakes.
+
+LEWIS: For copying an index: same shares for price weighting, same dollars for equal weighting, same proportions as market value for cap weighting. And for a split in a price weighted index: split the stock, shrink the divisor, shrink the weight.
+
+HEART: For maintenance: rebalancing resets the weights, reconstitution changes the roster. Rebalancing matters most for equal weighting. Additions tend to rise, deletions tend to fall.
+
+LEWIS: Price return is price only. Total return adds the income, so it is never lower. And hedge fund indexes are the reunion where only the rich classmates show up, which means an upward bias.
+
+HEART: For the three forms of efficiency, say past, public, private. Weak form covers past market data, semi strong covers everything public, strong covers private information too. Like Russian dolls, each stronger form contains the weaker ones. Weak form defeats the chart reader, semi strong defeats the public researcher, strong defeats even the insider.
+
+LEWIS: For anomalies, think chance, costs and compensation. Many are chance patterns found by data mining. Many vanish after costs. And many are compensation for risk the model missed. The ones that remain tend to fade once they are published.
+
+HEART: And for behavioral finance: biased investors do not automatically mean an inefficient market.
+
+LEWIS: Now, how you would say the big ideas to a senior leader.
+
+HEART: On indexes: an index is a portfolio built by rules, and the rules decide what it tells you. Most major indexes weight companies by the value of their publicly available shares, so they put the most money behind whatever has already gone up. The jargon is float adjusted market capitalization weighting and its momentum bias.
+
+LEWIS: On benchmarks: judge any manager against an index that matches what the manager actually buys, or you are measuring the market, not the skill. The jargon is a benchmark consistent with the manager's style and investment universe.
+
+HEART: On bond benchmarks: a bond index is hard to copy exactly because many bonds rarely trade and the list keeps changing, so our portfolio should match its key risks rather than every holding. The jargon is fixed income index replication, illiquidity and turnover.
+
+LEWIS: On efficiency: in big developed markets, public information gets into prices quickly, so beating the index after fees is hard, and most active funds have not managed it over long periods. The jargon is semi strong form market efficiency and the case for passive management.
+
+HEART: And on anomalies: most patterns that seem to beat the market are chance, disappear after costs, or are payment for extra risk, and the rest tend to fade once they are widely known. The jargon is data mining, transaction costs and risk adjusted abnormal returns.
