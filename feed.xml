@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Tue, 06 Oct 2026 22:30:45 -0500</lastBuildDate>
+  <lastBuildDate>Tue, 06 Oct 2026 23:02:56 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -127,11 +127,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Economics, Kaplan Modules 13.1 to 15.2. 13.1 Business Cycles, 14.1 Fiscal Policy Objectives, 14.2 Fiscal Policy Tools and Implementation, 15.1 Central Bank Objectives and Tools, 15.2 Monetary Policy Effects and Limitations</description>
     <itunes:summary>Economics, Kaplan Modules 13.1 to 15.2. 13.1 Business Cycles, 14.1 Fiscal Policy Objectives, 14.2 Fiscal Policy Tools and Implementation, 15.1 Central Bank Objectives and Tools, 15.2 Monetary Policy Effects and Limitations</itunes:summary>
-    <content:encoded><![CDATA[<p>Economics, Kaplan Modules 13.1 to 15.2.</p><ul><li>Module 13.1, Business Cycles</li><li>Module 14.1, Fiscal Policy Objectives</li><li>Module 14.2, Fiscal Policy Tools and Implementation</li><li>Module 15.1, Central Bank Objectives and Tools</li><li>Module 15.2, Monetary Policy Effects and Limitations</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:12 The big picture</li><li>1:39 Module 13.1, Business Cycles</li><li>9:00 Module 14.1, Fiscal Policy Objectives</li><li>12:58 Module 14.2, Fiscal Policy Tools and Implementation</li><li>19:08 Module 15.1, Central Bank Objectives and Tools</li><li>23:17 Module 15.2, Monetary Policy Effects and Limitations</li><li>28:58 Recall check</li><li>32:13 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E07.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E07_v2.mp3" length="10068015" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Economics, Kaplan Modules 13.1 to 15.2.</p><ul><li>Module 13.1, Business Cycles</li><li>Module 14.1, Fiscal Policy Objectives</li><li>Module 14.2, Fiscal Policy Tools and Implementation</li><li>Module 15.1, Central Bank Objectives and Tools</li><li>Module 15.2, Monetary Policy Effects and Limitations</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:33 Module 13.1, Business Cycles</li><li>12:43 Module 14.1, Fiscal Policy Objectives</li><li>19:02 Module 14.2, Fiscal Policy Tools and Implementation</li><li>29:09 Module 15.1, Central Bank Objectives and Tools</li><li>37:34 Module 15.2, Monetary Policy Effects and Limitations</li><li>47:49 Recall check</li><li>55:30 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E07.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E07_v3.mp3" length="17806882" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e07</guid>
     <pubDate>Sat, 03 Oct 2026 12:07:00 -0500</pubDate>
-    <itunes:duration>2013</itunes:duration>
+    <itunes:duration>3561</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E07.txt" type="text/plain"/>
   </item>
