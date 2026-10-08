@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Wed, 07 Oct 2026 19:09:34 -0500</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 19:30:19 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -552,11 +552,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Fixed Income, Kaplan Modules 60.1 to 62.1. 60.1 Credit Risk, 61.1 Credit Analysis for Government Issuers, 62.1 Credit Analysis for Corporate Issuers</description>
     <itunes:summary>Fixed Income, Kaplan Modules 60.1 to 62.1. 60.1 Credit Risk, 61.1 Credit Analysis for Government Issuers, 62.1 Credit Analysis for Corporate Issuers</itunes:summary>
-    <content:encoded><![CDATA[<p>Fixed Income, Kaplan Modules 60.1 to 62.1.</p><ul><li>Module 60.1, Credit Risk</li><li>Module 61.1, Credit Analysis for Government Issuers</li><li>Module 62.1, Credit Analysis for Corporate Issuers</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>1:36 Module 60.1, Credit Risk</li><li>12:46 Module 61.1, Credit Analysis for Government Issuers</li><li>18:08 Module 62.1, Credit Analysis for Corporate Issuers</li><li>26:41 Recall check</li><li>29:50 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E32.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E32_v2.mp3" length="9471656" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Fixed Income, Kaplan Modules 60.1 to 62.1.</p><ul><li>Module 60.1, Credit Risk</li><li>Module 61.1, Credit Analysis for Government Issuers</li><li>Module 62.1, Credit Analysis for Corporate Issuers</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:37 Module 60.1, Credit Risk</li><li>18:27 Module 61.1, Credit Analysis for Government Issuers</li><li>27:04 Module 62.1, Credit Analysis for Corporate Issuers</li><li>37:22 Recall check</li><li>44:04 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E32.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E32_v3.mp3" length="14343123" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e32</guid>
     <pubDate>Sat, 03 Oct 2026 12:32:00 -0500</pubDate>
-    <itunes:duration>1894</itunes:duration>
+    <itunes:duration>2868</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E32.txt" type="text/plain"/>
   </item>

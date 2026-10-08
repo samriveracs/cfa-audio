@@ -1,165 +1,291 @@
-## The big picture
-
-Every bond you have studied so far is a promise to pay. This episode is about the chance that the promise is broken, and what that chance does to a bond's yield and price. Credit risk is the risk of economic loss because a borrower fails to make full and timely payments of interest or principal. Interest rate risk asked what happens when market yields move for everyone. Credit risk asks what happens when one borrower's ability or willingness to pay changes.
-
-The three modules build in a clean line. The first builds the framework. It covers probability of default, loss given default and expected loss, then credit ratings and their limits, then the forces that move yield spreads. The second applies the framework to governments, both national governments and the smaller public bodies below them. The third applies it to companies, with financial ratios and the ranking of claims in bankruptcy.
-
-On the exam, expect a quick expected loss calculation, a spread change turned into a price change, questions on where the investment grade line sits and why ratings lag the market, ratio interpretation, and seniority questions on notching and recovery. One idea ties it all together. Credit risk has two parts, how likely the borrower is to default and how much you lose if it does. Every topic in this episode feeds one part or the other.
+LEWIS: Reading 60 covers what credit risk is, how expected loss is built from the chance of default and the loss if it happens, what credit ratings are good for and where they fall short, and what moves credit spreads. Readings 61 and 62 apply that thinking to governments, from national governments down to cities, and then to companies, covering credit ratios, the ranking of claims in bankruptcy and how individual bonds get rated above or below their issuer.
 
 ## Module 60.1, Credit Risk
 
-Start with the two building blocks. The first is the probability of default. It is the likelihood that the borrower misses a scheduled payment of interest or principal over a given period, usually one year. The second is loss given default, which is how much you actually lose if default happens. Default rarely means losing everything. Bondholders usually recover something, through a restructuring, a sale of assets, or a share of whatever value is left in the business.
+HEART: Every bond so far has been a promise to pay. Credit risk is the risk of losing money because a borrower fails to pay interest or principal in full and on time. Paying what you owe on schedule is called servicing the debt, and a borrower that fails to service its debt is in default.
 
-Loss given default can be stated two ways. As a percentage of what you are owed, it is called loss severity, and it equals one minus the recovery rate. As a dollar amount, it equals the exposure, meaning the amount owed, times one minus the recovery rate. So if you expect to recover 40 percent of what you are owed, loss severity is 60 percent.
+LEWIS: Picture a member asking a credit union for a loan to open a bakery. Before saying yes, the loan officer works through what credit analysts call the C's of credit. There are eight, in two groups.
 
-Multiply the two building blocks and you get the central formula of this episode. Expected loss equals the probability of default times the loss given default. Say it once more slowly. Expected loss is the chance that default happens, times what you lose when it does.
+HEART: The first group is five bottom up factors, about the borrower itself. Capacity is the ability to make each payment on time from the cash the business generates, and it is the heart of credit analysis. Capital means other resources, such as savings or equity in the business, so the borrower does not lean entirely on debt. Collateral is the value of assets pledged to the lender, the ovens and the delivery van, which the lender can claim if the loan goes bad.
 
-Here is a worked example. You hold a bond with 1,000 dollars of exposure. The probability of default over the next year is 2 percent. The expected recovery rate is 40 percent, so loss severity is 60 percent and loss given default is 600 dollars. Expected loss is 2 percent of 600 dollars, which is 12 dollars, or 1.2 percent of the exposure. The same logic, probability of default times loss severity times exposure, is the backbone of how a bank or credit union sizes its loan loss reserves and plans its capital.
+LEWIS: Covenants are the legal terms the borrower and lender agree to, the rules the borrower promises to follow. And character is the borrower's integrity and commitment to paying. For a company, character means management.
 
-Why does this matter for pricing? An investor who expects to lose 1.2 percent a year on average needs at least that much extra yield over a default free bond just to break even. So a useful first approximation is that the credit spread is roughly equal to expected loss, here about 120 basis points. Real spreads are usually wider than expected loss. Investors also want to be paid for poor liquidity, and for the uncertainty around both of their estimates.
+HEART: The second group is three top down factors, about the world the borrower operates in. Conditions means the general economy, which hits every borrower at once. Country means the political, legal and geopolitical setting that governs the debt. Currency means exchange rate swings, which matter when a borrower owes in a currency other than the one it earns. A company that sells in pesos but borrowed in dollars sees its debt get heavier every time the peso slides.
 
-Two refinements are easy to miss. First, all of an issuer's bonds usually share the same probability of default. Bond contracts typically include cross default clauses, so a missed payment on one obligation counts as a default on the others. What differs from bond to bond is loss given default, which depends on seniority and collateral. You will use that idea again in the corporate module.
+LEWIS: So the split is easy to hold. Bottom up is the borrower. Top down is the backdrop.
 
-Second, the two parts matter differently across the rating scale. For high yield borrowers, default is a real possibility, so the probability of default and the expected recovery dominate the analysis. For investment grade borrowers, default is remote. The bigger everyday risk is that the spread widens or the rating is cut, which lowers the bond's price even though every payment is still made on time.
+HEART: Underneath all eight sits one question. Will the borrower's sources of repayment produce enough cash to service the debt? For secured corporate debt, the main source is the cash flow from running the business and its investments, plus whatever the collateral pledged to that debt would bring in. Unsecured debt relies on operating cash flow and investments alone, plus secondary sources, such as selling assets, selling off a subsidiary, or raising new debt or equity. A company's credit risk rises with a weak economy, tougher competition, thin profits or simply too much debt.
 
-Where does credit risk come from? Three broad sources. First, the economy. In a downturn, revenues and tax receipts fall for many borrowers at once. Second, a mismatch between a borrower's resources and its obligations, such as long term assets funded with short term debt that must keep being rolled over, or revenue in one currency and debt in another. Third, issuer specific factors, such as weak management, an aggressive strategy, or heavy borrowing to fund an acquisition.
+LEWIS: A government repays from taxes, tariffs and other fees. Its secondary sources are borrowing more and selling public assets to private owners, called privatization. Its credit risk rises with a weak economy, political uncertainty, fiscal deficits, meaning it spends more than it collects, and debt that is large compared with its economy.
 
-Analysts often organize their judgment with a set of words that start with the letter C. Five of them look from the bottom up, at the borrower itself. Capacity is the borrower's ability to pay from its own cash flow, and it is the heart of credit analysis. Capital is the cushion of other resources, such as equity, that reduces reliance on debt. Collateral means the assets pledged to lenders, and it drives recovery.
+HEART: Now a distinction the exam likes. Picture a family whose house is worth far more than its mortgage. A job loss empties the checking account just as a payment comes due. The family is illiquid, unable to raise the cash right now. But it is not insolvent, because what it owns is still worth more than what it owes. Insolvent means the assets are worth less than the debt.
 
-Covenants are the contract terms that protect lenders, and character is the integrity and track record of management. Three more Cs look from the top down, at the world the borrower operates in. Conditions are the state of the economy and the industry, country covers political and legal risk, and currency covers exposure to exchange rate moves. So remember the split. Five Cs describe the borrower, and three describe its environment.
+LEWIS: And the trap. An illiquid borrower can be perfectly solvent and still miss a payment, and a missed payment is a default. A bank with sound loans facing a sudden run on its deposits is the classic case. Its problem is cash today, not value.
 
-Now credit ratings. Most bonds in developed markets carry ratings from the major agencies, Moody's, S and P, and Fitch. A rating is an opinion about relative credit risk. A rating on the issuer focuses mainly on the likelihood of default, while a rating on a particular bond also reflects its expected recovery.
+HEART: Once a default happens, two clauses in the bond indenture matter. A cross default clause says a default on any one of the issuer's bonds counts as a default on all of them. A pari passu clause, Latin for on an equal footing, says bonds of the same type rank equally when the money is divided up.
 
-The top rating is triple A at S and P and Fitch, and A a a at Moody's. Ratings then step down through double A, single A and triple B. S and P and Fitch add plus and minus signs to rank within each category, while Moody's adds the numbers 1, 2 and 3.
+LEWIS: Put them together for unsecured bonds. One missed payment puts every issue in default, and every unsecured bondholder shares a claim on the issuer's general assets. A secured bondholder gets access to the general assets and to the collateral pledged to that bond. So the secured holder only loses money if the collateral is worth less than all the secured debt ranking equally with it. It is like a repossessed car. If the car is worth more than the loan balance, the lender loses nothing. If the loan is underwater, the shortfall is what the lender has at risk.
 
-Now the line that matters most. Investment grade means triple B minus or higher at S and P and Fitch, or B a a 3 or higher at Moody's. High yield, also called speculative grade or junk, means double B plus or lower, or B a 1 or lower. Many institutions can hold only investment grade bonds. So a downgrade across that line, which creates what is called a fallen angel, can trigger forced selling and a sharp jump in the spread.
+HEART: Now measuring credit risk. Expected loss equals the probability of default times the loss given default. In plain words, the chance it happens times the damage if it does. The probability of default is the likelihood that the borrower fails to pay interest or principal when due, usually stated per year. Loss given default is how much you lose if the issuer does default, and it can be stated in dollars or as a percentage.
 
-Why do investors rely on ratings? First, they give a common, quick language for comparing thousands of issuers. Second, they are written into investment mandates, regulations, index rules and loan agreements. Third, they have tracked default experience reasonably well over time. Lower rated bonds have defaulted far more often than higher rated bonds, which is why spreads tend to widen as ratings fall.
+LEWIS: Two more terms feed into it. The recovery rate is the share of your claim you get back after a default. Loss severity is the share you do not get back, so it is one minus the recovery rate. Recover sixty cents on the dollar, and the loss severity is forty cents on the dollar.
 
-Ratings also have real limitations. First, ratings lag the market. Agencies aim for stable ratings that look through the cycle, and they move deliberately, while bond prices react to news within minutes. So spreads often widen well before a downgrade arrives.
+HEART: And exposure, sometimes called exposure at default, is what you have at stake when the default arrives. That is the principal plus accrued interest you are owed, beyond whatever pledged collateral already covers. Loss given default in dollars is that exposure times the loss severity.
 
-Second, ratings can miss risks that are hard to model, such as litigation, natural disasters, fraud, or a sudden debt financed acquisition. These are often called event risks. Third, agencies make mistakes. The best known example is the many mortgage related securities that carried top ratings before the 2008 financial crisis and then suffered heavy losses. Fourth, ratings change over time, so today's rating does not lock in tomorrow's. That last point is called credit migration risk, or downgrade risk.
+LEWIS: Here is a terminology trap. Strictly, loss given default is a dollar amount and the rate is called loss severity. But people often quote loss given default as a percentage, and when they do, it means the same thing as loss severity, one minus the recovery rate. So when a question hands you loss given default, check whether it is dollars or a rate before you do anything with it.
 
-Here is the trap. A question may describe a bond whose spread has jumped while its rating is unchanged, and ask what this shows. The tempting answer is that the market has overreacted. The better answer is usually that the rating lags, because market prices absorb new information faster than agencies update their opinions. That is why analysts treat a rating as a starting point, not a substitute for their own work.
+HEART: Why does this matter for pricing? Expected loss, stated as a percentage per year, is a guide to the credit spread an investor should demand over a risk free benchmark. Roughly, that spread is the probability of default times the loss given default as a rate. Double the probability of default and the guide doubles. Double the loss severity and it doubles too.
 
-Now yield spreads. A corporate bond's yield equals a benchmark government yield plus a spread. The spread pays for credit risk and for liquidity risk. It widens when either gets worse and narrows when either improves. Three groups of factors drive both the level of spreads and how much they move.
+LEWIS: Then you compare. If the bond's actual spread is wider than that guide, investors are being more than fairly paid for the credit risk. If the actual spread is narrower, they are not being paid enough, and they should avoid the bond. A lender whose loan spread does not even cover expected loss should expect to lose money on that loan.
 
-First, macroeconomic factors, above all the credit cycle. In an expansion, profits are strong, defaults are low and spreads narrow. As the economy weakens, expected defaults rise and spreads widen. Spreads on lower rated bonds widen far more than spreads on higher rated bonds, because their default risk is much more sensitive to the economy. In a flight to quality, investors sell risky bonds and buy government bonds, so credit spreads widen even as government yields fall.
+HEART: The same chance times damage logic sits behind a lender's allowance for credit losses. And one forward pointer. Later in this module the yield spread gets split into a liquidity part and a credit part, and expected loss is the guide to the credit part.
 
-Second, market factors. Liquidity matters most. Bonds that trade rarely, come from small issues, or have wide bid offer spreads need a higher yield to attract buyers. Dealers matter too, because when dealers are less willing to hold inventory, liquidity gets worse in a sell off. Supply and demand also play a role. A heavy wave of new issuance can push spreads wider for a while, and strong investor demand can compress them.
+LEWIS: So where do the two inputs come from? The probability of default comes from capacity. A company with a high EBIT margin, earnings before interest and taxes that cover its interest bill many times over, low leverage multiples such as debt relative to EBITDA, and strong cash flow relative to its net debt is a high quality credit with a low probability of default.
 
-Third, issuer specific factors. Spreads respond to the issuer's own results, its leverage, its management decisions, and any change in its rating or rating outlook. A company that announces a large debt financed acquisition will usually see its spreads widen right away.
+HEART: Loss given default comes from where the bond sits. Is it secured or unsecured, and how senior is it? More senior, secured debt loses less in a default than junior, unsecured debt.
 
-Notice how volatility follows quality. Lower rated bonds do not just have wider spreads. Their spreads also move much more. That ties back to the earlier point. For high yield bonds, credit news drives returns. For investment grade bonds, moves in benchmark rates usually matter more than moves in the spread.
+LEWIS: Here is a twist. Investment grade issuers default less often than high yield issuers. But high yield issuers often borrow on a secured basis, which gives the lender a second source of repayment. So a secured high yield bond can have a lower loss given default than an unsecured bond from an investment grade issuer. That tells you what really worries a holder of unsecured investment grade bonds. Not a rise in loss given default, but a slow deterioration that makes the probability of default creep up. Think of a big retailer losing customers year after year. The danger is a slide, not a sudden collapse.
 
-Finally, turn a spread change into a price change. You met this tool in the previous episode, so here it is briefly in credit terms. For a bond without embedded options, the percentage change in price is approximately negative modified duration times the change in spread, plus one half times convexity times the change in spread squared. Write the change in spread as a decimal.
+HEART: Now credit ratings. The three major agencies, Moody's, S and P and Fitch, assign forward looking ratings both to issuers and to the individual bonds they issue, based on qualitative and quantitative factors. Ratings are good for three things. First, a common yardstick, so a utility's bonds can be set beside a retailer's or a bank's, and so analysts can watch credit conditions improve or worsen over time. Second, credit migration risk, the chance that a downgrade cuts a bond's price and sets off other clauses written around the rating. Third, rules. Regulators, laws, investment policies and contracts often require a minimum rating.
 
-Here is an example. A corporate bond has a modified duration of 5 and a convexity of 40. Its issuer is placed on review for downgrade, and the spread widens by 100 basis points, which is 0.01. The duration effect is negative 5 times 0.01, or negative 5 percent. The convexity effect is one half times 40 times 0.01 squared, and since 0.01 squared is 0.0001, that gives 0.002, or positive 0.2 percent. Add them, and the estimated price change is negative 4.8 percent.
+LEWIS: The scale. The top rating is triple A at all three agencies. Then come double A, single A and triple B. S and P and Fitch fine tune most categories with a plus or a minus, though never the top one. Moody's writes its categories a little differently and adds the numbers one, two and three to most of them, with one the strongest.
 
-Two traps here. First, the same spread change hurts a long duration bond more than a short one, so long dated, low rated bonds carry the most spread risk. Second, a wider spread hurts today's price but raises the yield you earn from here on. Over a long holding period, that extra income can make up part of the price loss.
+HEART: And the line that matters most. Investment grade means triple B minus or higher at S and P and Fitch, or B double A three or higher at Moody's. Non investment grade, also called high yield or junk, means double B plus or lower, or B A one or lower at Moody's. Below the double B category come single B, triple C, double C and C.
 
-If you hold one rule from this module, hold this one. Expected loss equals the probability of default times the loss given default. And loss given default equals the exposure times one minus the recovery rate.
+LEWIS: Default has its own treatment. S and P and Fitch rate a bond in default D. Moody's has no D, so defaulted debt sits in its lowest category, C.
+
+HEART: A bond cut from investment grade to high yield is called a fallen angel, and holders whose rules allow only investment grade may be forced to sell it.
+
+LEWIS: Now the limits of ratings, and there are three. First, ratings lag the market. Prices and spreads react to news continuously, while agencies move deliberately. A bond's spread can widen sharply weeks before any downgrade.
+
+HEART: The lag has a second side. Two bonds with the same rating can trade at quite different yields. A rating is built around expected loss, but when a bond is distressed, the market prices it on when the default might come and how much holders will recover.
+
+LEWIS: Second, some risks are hard to assess. Think of a surprise lawsuit, a hurricane, an environmental cleanup, a large acquisition, or a share buyback paid for with new debt. Events like these are hard to forecast, and a rating rarely reflects them before they happen. Agencies can also judge such risks differently, which produces split ratings, one bond with different ratings from different agencies.
+
+HEART: Third, agencies make mistakes. The best known example came before the financial crisis of two thousand eight, when many securities backed by subprime mortgages were rated triple A and then cut to junk in large numbers once mortgage losses mounted. Fraud is another blind spot. Enron kept investment grade ratings until four days before it filed for bankruptcy in December two thousand one.
+
+LEWIS: So do your own due diligence and treat a rating as a starting point. The rewards go to investors who see a rating change coming and act early, not to those who wait for the announcement and then trade. And the exam trap: a bond's spread has blown out, but its rating has not moved. The tempting answer is that the market is overreacting. The better answer is usually that the rating lags.
+
+HEART: That brings us to yield spreads. Credit spread risk is the risk that spreads widen as conditions worsen, so the bond's price falls even though every payment is still arriving on time. For investment grade investors this is the main everyday concern, because a sudden default is unlikely. Three groups of factors drive spreads: macroeconomic, issuer specific and market factors, meaning the mechanics of trading.
+
+LEWIS: Start with the economy, because credit risk moves largely with the business cycle. When growth is strong and profits are high, the probability of default falls and spreads narrow. In a recession, it rises and spreads widen.
+
+HEART: The cycle also changes the shape of spreads across maturities. A credit spread curve plots spread against maturity. It usually slopes upward, because the longer you lend, the more time there is for something to go wrong, the way a storm sometime this year is far more likely than a storm tomorrow.
+
+LEWIS: In a recession, credit spread curves for both investment grade and high yield rise and flatten. The whole curve moves up, and the short end jumps the most, because a near term default suddenly looks more likely. The high yield curve may even invert, with short spreads above long ones. If a struggling company gets through the next couple of years, its odds improve a great deal, so the danger sits up front.
+
+HEART: In an expansion, it runs the other way. Credit curves fall and steepen as the chance of a near term default fades, and they are lowest and steepest at the peak of the cycle.
+
+LEWIS: Compare the two groups. Investment grade spreads are lower, because expected loss is lower. High yield spreads differ more from one issuer to the next, so their dispersion is greater, and they swing much more as the economy changes. In a crisis, investors dump risky assets and buy safe ones, a flight to quality, and high yield spreads can blow out. Dealers also grow wary of holding bonds that are hard to sell, so the bid offer spreads they quote on high yield can stretch further than on investment grade.
+
+HEART: Which brings a trap about the word spread. The yield spread is the extra yield over a risk free benchmark. The bid offer spread is the gap between the price at which a dealer will buy a bond and the price at which it will sell. Two different spreads, so check which one a question means.
+
+LEWIS: Why own high yield at all? The bigger spread, first of all, plus three more reasons. Diversification, because high yield prices have low or even negative correlation with investment grade bonds. Capital appreciation, because high yield spreads tighten the most in a recovery. And equity like returns, since some research finds high yield has delivered returns near those of stocks, with less volatility.
+
+HEART: Other market wide forces can push spreads wider. Dealers need money to carry an inventory of bonds, and stricter rules on broker dealers and market makers have made that money more expensive. When funding markets come under strain, investors turn cautious across the board. And when issuers bring a flood of new bonds faster than buyers appear, spreads have to rise to attract them.
+
+LEWIS: Then issuer specific factors. The issuer's own results drive the level and the volatility of its spreads. A useful check is to compare an issuer's spread with the average for its rating. If one double B company keeps missing its earnings targets, its bonds will trade wider than the double B average, the market flagging a problem the rating has not caught.
+
+HEART: Then the market factors, chiefly market liquidity risk, the cost of trading a bond, judged from the bid offer spread. The bid is the price at which an investor can sell to a dealer. The offer is the price at which an investor can buy. Think of the currency booth at an airport. The bigger the gap between what it pays you and what it charges you, the more each trade costs you.
+
+LEWIS: Issuers with more debt outstanding, or higher ratings, have bonds that trade more actively, with narrower bid offer spreads. Rarely traded bonds, lower quality issuers and small issuers carry more liquidity risk. Under financial stress, high yield bid offer spreads can widen sharply, and the fear can spill over to investment grade.
+
+HEART: You can even split a yield spread into its two parts. Work out the bond's yield at the bid price and at the offer price. The bid price is lower, so the bid yield is higher. The bid yield minus the offer yield is treated as the liquidity spread, the pay for trading costs, and whatever is left of the yield spread is the credit spread. Subtract the other way around and you get a negative liquidity spread, a sure sign of a slip.
+
+LEWIS: Last piece. To turn a spread change into a price change, you apply the duration and convexity tools from the last few episodes, with the change in spread in place of the change in yield. In words, the percentage change in the full price is roughly minus modified duration times the spread change, plus a small convexity adjustment, one half of convexity times the spread change squared.
+
+HEART: Which gives you the directions. A wider spread means a lower price. And the same widening hurts a long duration bond far more than a short one, so long dated, lower rated bonds carry the most spread risk. A credit union's investment portfolio feels this as a drop in market value, even when every bond in it keeps paying.
+
+LEWIS: The takeaway. Expected loss is the probability of default times the loss given default, and as a rate it guides the credit spread an investor should demand. Ratings give a common language but lag the market, and spreads widen with recessions, poor liquidity and bad issuer news, most of all for high yield.
 
 ## Module 61.1, Credit Analysis for Government Issuers
 
-Governments borrow for a different reason than companies do. They do not borrow to earn a profit. They borrow to fund public services and fiscal policy, and they repay from taxes and other government revenue. So the core question changes. Instead of asking whether operating cash flow covers the debt, you ask whether the government can raise enough revenue, and whether it is willing to pay.
+LEWIS: Governments repay their debts mainly from their power to tax the economic activity within their borders. So analyzing a government borrower comes down to one big question. Does this country have what it takes for stable economic growth with low inflation, which keeps the tax base healthy? The factors split into five qualitative and three quantitative.
 
-Willingness is the twist. A national government, called a sovereign, cannot be forced into a bankruptcy court, and bondholders usually cannot seize its assets. If it decides not to pay, the result is a negotiated restructuring. Sovereign defaults are not rare, even though the power to tax gives a sovereign a strength no company has. So sovereign analysis looks at both the ability and the willingness to repay.
+HEART: The first qualitative factor is institutions and policy. Picture what a careful lender would want to find. Courts that enforce contracts and protect property. A habit of paying debts. Official statistics that are published openly and measured the same way year after year. Policies that welcome business. And on the political side, a stable political system and peace with neighboring countries.
 
-Start with the qualitative factors. Institutional strength means political stability, rule of law, protected property rights, low corruption, checks and balances, and a track record of honoring debts. Fiscal flexibility means the willingness and ability to raise taxes or cut spending to keep debt under control. Economic and monetary flexibility means an independent central bank with credibility on inflation, an exchange rate that can absorb shocks, and a diversified economy.
+LEWIS: Willingness to pay belongs here too, and it is where a government differs most from a company. National governments have what is called sovereign immunity. They generally cannot be taken to court and forced to pay, so if one simply refuses, bondholders usually have no legal recourse. With a company you ask whether it can pay. With a sovereign, you ask whether it can and whether it will.
 
-Reserve currency status is a special advantage. When a currency is freely convertible and widely held by foreign central banks, as the United States dollar is, its issuer can borrow more, and more cheaply, than its other numbers alone would suggest.
+HEART: The second factor is fiscal flexibility, a government's ability to collect more tax or cut public spending so that its debt payments keep flowing. A household that can pick up extra shifts or cancel subscriptions has the same kind of flexibility.
 
-Then the quantitative factors, in three groups. First, fiscal strength. The debt burden is measured by government debt to GDP, and debt affordability by interest payments to government revenue. Second, economic growth and stability, meaning the size of the economy, GDP per capita, the trend growth rate, and how volatile growth is. Third, external stability, meaning foreign currency reserves, the current account balance, and debt owed to foreigners relative to the economy or to export earnings.
+LEWIS: The third is monetary effectiveness. Can the central bank adjust the money supply and interest rates credibly, in a way that supports stable growth? Independence matters a great deal. A central bank that takes orders from the government can be pressed to create money to cover the government's bills, and that road leads to high inflation and a falling currency. An independent one can say no, which makes both risks smaller.
 
-Now the distinction the exam loves. A sovereign that borrows in its own currency can, in the extreme, create money to pay. That may cause inflation and a weaker currency, but it makes an outright default less likely. Debt in a foreign currency is different. The government must earn or borrow that currency, through exports, reserves or new loans, and it cannot print it.
+HEART: The fourth is economic flexibility, meaning growth trends, income per person, and how diverse the economy's sources of growth are. An economy built on many industries absorbs a shock far better than one leaning on a single industry.
 
-That is why agencies give sovereigns separate ratings for local currency debt and for foreign currency debt, and why the foreign currency rating is often the lower of the two. Picture two countries with the same debt to GDP. One borrows in its own currency and has a credible central bank. The other borrows mostly in dollars and has thin reserves. The second is riskier, because a currency slump makes its dollar debt more expensive at exactly the moment its revenue weakens.
+LEWIS: The fifth is external status, the standing of the country's currency in international markets. A reserve currency is one that central banks around the world hold as part of their foreign exchange reserves. Issuing one is a big advantage. The country can sell more of its debt to foreign investors in its own currency, and it can run larger budget deficits and carry more debt than its other numbers alone would allow. Geopolitical risk, such as the chance of international conflict, belongs under this heading as well.
 
-Below the sovereign sit the non sovereign issuers. Agencies and other quasi government entities often carry explicit or implied support from the national government. Supranational organizations, such as multilateral development banks, are backed by their member countries and are usually highly rated. Regional and local governments, such as states, provinces and cities, are often called municipal issuers.
+HEART: The United States is the obvious example. The dollar is the world's most widely held reserve currency. As of twenty twenty six, all three of the largest agencies rate the United States one step below the top, yet Treasury securities remain the benchmark safe asset that other bonds are priced against.
 
-Municipal debt comes in two main forms. General obligation bonds are backed by the issuer's taxing power. You analyze them much like a sovereign, with one key difference. A local government cannot print money, and many must balance their operating budgets. So the strength of the local economy and tax base, budget discipline, and long term obligations such as pensions matter a great deal.
+LEWIS: Now the three quantitative factors. The first is fiscal strength. The debt burden is measured by government debt relative to GDP and relative to government revenue. Debt affordability is measured by interest payments relative to GDP or relative to revenue. Lower is better on all of them.
 
-Revenue bonds are backed only by the cash flows of a specific project, such as a toll road, an airport or a water system. You analyze them like a business. The key ratio is the debt service coverage ratio. It equals the net revenue available for debt service, divided by the debt service due, meaning scheduled principal plus interest.
+HEART: It is what a lender checks on a mortgage application. How big is the debt compared with income, and how much of the income goes to interest? And the affordability ratios can worsen even when the debt stands still, simply because interest rates rise.
 
-Here is an example. A toll road earns 30 million dollars a year of net revenue, and its annual debt service is 20 million dollars. The coverage ratio is 30 divided by 20, or 1.5 times. Net revenue could fall by a third before coverage drops to 1 times, the point where the project only just covers its payments. Higher coverage is safer.
+LEWIS: The second is economic growth and stability, and here higher is better. High real GDP growth, a large real economy and high GDP per person all count in a country's favor, along with low volatility in its growth.
 
-Here is the trap. A city's revenue bonds are generally riskier than its general obligation bonds, because only the project's revenue stands behind them, not the city's full taxing power. And do not assume that a local government is as safe as its national government. It lacks the option to create its own money.
+HEART: The third is external stability, how well a country can meet what it owes to the rest of the world. Analysts want high foreign exchange reserves relative to GDP and relative to external debt, low long term external debt relative to GDP, and low external debt coming due in the next twelve months relative to GDP.
 
-The rule to keep from this module is this. A sovereign's local currency debt is generally safer than its foreign currency debt, because a government can create its own currency but not someone else's.
+LEWIS: Reserves are usually built up by exporting more than you import, which means running a current account surplus. And if a country's exports are concentrated in one commodity, its credit risk becomes tied to that commodity's price. Picture a country that earns most of its foreign currency from oil. When the oil price collapses, its reserves, its revenue and its credit standing can all fall together.
+
+HEART: One point that sits alongside these factors. A government that borrows in its own currency can, in an extreme, create the money to pay. That risks inflation and a weaker currency, but it makes an outright default less likely. Debt in a foreign currency has to be earned through exports or borrowed, never printed. That is why agencies give many sovereigns separate ratings for local currency and foreign currency debt, and when the two differ, the foreign currency rating is usually the lower one.
+
+LEWIS: Below the national government sit the non sovereign government issuers, and there are four kinds. First, agencies. These are quasi government entities set up by law to carry out a role the government sponsors. In the United States, the Federal Home Loan Banks, which lend to member banks and credit unions, are a familiar example. Backed by law and implicit government support, agency debt usually carries a rating similar to the sovereign's.
+
+HEART: Second, government sector banks and financing institutions, set up with a specific public mission. Germany's KfW, a development bank whose debt is guaranteed by the federal government, is a well known case. Implied or explicit government support again means ratings near the sovereign's.
+
+LEWIS: Third, supranational issuers, created by groups of countries to pursue shared goals such as development or reducing poverty. The European Investment Bank and the Asian Development Bank are examples. Their ratings depend on the support of the governments and institutions that sponsor them.
+
+HEART: Fourth, regional governments, such as states, provinces, counties and cities. In the United States, their bonds are called municipal bonds, and most fall into two types.
+
+LEWIS: General obligation bonds are unsecured bonds backed by the full faith and credit of the issuing government, which really means its power to tax. Revenue bonds are issued to finance one specific project and are repaid only from what that project earns. Think of a city water utility or a public parking garage.
+
+HEART: Regional governments differ from national ones in two ways that matter. They have no monetary policy of their own, so printing money is not an option. And they usually must balance their operating budgets. So a city's ability to pay its general obligation debt rests ultimately on the local economy, its tax base.
+
+LEWIS: Revenue bonds are often riskier than general obligation bonds, because the project is the only source of money to pay them. If the parking garage sits half empty, the bondholders cannot turn to the city's tax collections. That is the trap: the same city's two kinds of bonds do not carry the same risk. And a state or a city is not automatically as safe as its national government, because it cannot create its own money.
+
+HEART: So revenue bonds are analyzed much like corporate bonds, starting from the cash the project generates. The key measure is the debt service coverage ratio, the revenue left after operating costs, compared with the interest and principal that must be paid. Higher is safer. Below one, the project cannot cover its payments from its own revenue. It is the test a lender applies to a rental property, comparing the rent left after expenses with the mortgage payment.
+
+LEWIS: The takeaway. Sovereigns are judged on five qualitative factors and three quantitative ones, and their willingness to pay matters because of sovereign immunity. Below them, agencies and government banks borrow on the strength of government support, while general obligation bonds rest on a tax base and revenue bonds rest on a single project.
 
 ## Module 62.1, Credit Analysis for Corporate Issuers
 
-For companies, the question returns to capacity. Can operating cash flow cover interest and principal, in good years and in bad? The analysis has a qualitative half and a quantitative half. Then comes a look at where each bond sits in the capital structure, which drives recovery.
+LEWIS: For companies, the analysis answers the same two questions, how likely default is and how much it would cost, using both qualitative and quantitative factors.
 
-Start with the qualitative half, in four parts. First, the business model, meaning how the company makes money and how stable and diversified its revenue is. Second, the industry and the company's competitive position, including barriers to entry, market share, pricing power, and how cyclical the industry is. Third, business risks, such as heavy fixed costs, dependence on a few customers or suppliers, regulation, technology change, and environmental, social and governance risks, known as ESG risks. Fourth, corporate governance, meaning management's track record, its financial policy, and the quality of its accounting.
+HEART: The qualitative side has four parts. The first is the business model. A high quality credit has a model that produces stable, predictable cash flows. For long term debt, analysts also ask how the model must change for the company to stay competitive, because a changing model adds business risk. Picture a maker of printed road maps with twenty year bonds outstanding, just as phones began giving directions for free.
 
-Financial policy deserves a sentence of its own. A management team that keeps adding debt to pay shareholders is a warning sign for bondholders, even when today's numbers look fine. Bondholders gain nothing from that extra payout, but they bear more of the risk.
+LEWIS: The second is industry competition. Less intense competition is better for credit quality, and the analyst looks ahead at how the landscape might shift over the life of the bond. The third is business risk, the risk of unexpected swings in revenue and margins. It can come from the issuer itself, from its industry, or from outside, such as a new regulation or a sudden tariff.
 
-Now the quantitative half. Four families of ratios do most of the work. They are profitability, coverage, leverage and liquidity. For each one, know which direction is good.
+HEART: The fourth is corporate governance, meaning processes that treat debtholders fairly and legally. Two concerns stand out, covenants and accounting policies.
 
-Profitability shows how much operating income the business generates. A common measure is the EBIT margin, which is earnings before interest and taxes divided by revenue. EBITDA, which is earnings before interest, taxes, depreciation and amortization, adds back those non cash charges. It serves as a rough stand in for operating cash flow before investment.
+LEWIS: Affirmative covenants are things the issuer must do, such as comply with laws, maintain its assets and pay its taxes. Negative covenants are things it may not do, such as pay dividends beyond a limit or take on more debt. Unsecured investment grade issuers mostly have affirmative covenants, which leaves the door open. So the analyst judges how likely management is to pile on more debt and dilute the existing bondholders' claims. High yield issuers usually have negative covenants as well.
 
-Coverage shows how comfortably income covers interest. The standard measures are EBIT divided by interest expense, and EBITDA divided by interest expense. Higher is better.
+HEART: Either way, check management's history of favoring shareholders over lenders. Borrowing heavily to buy back stock, and taking a downgrade for it, is the classic warning sign.
 
-Leverage shows how much debt sits on the business. Debt to EBITDA tells you roughly how many years of EBITDA it would take to repay the debt, and lower is better. Funds from operations to debt flips the view around, so higher is better. Funds from operations is net income from continuing operations plus depreciation, amortization, deferred taxes and other non cash items. Debt to capital, where capital is debt plus equity, gives a balance sheet view, and lower is better.
+LEWIS: On accounting, fraud is the obvious concern. The quieter warning signs are a revolving door of auditors or finance chiefs, aggressive revenue recognition that books sales before they are truly earned, heavy off balance sheet financing, and capitalizing spending as an asset instead of expensing it, which flatters today's profit. Each one says something about management's character.
 
-Liquidity shows whether the company can meet near term obligations. Look at cash and marketable securities, the current ratio, and undrawn committed bank lines, compared with the debt coming due soon.
+HEART: The quantitative side means forecasting the company's financial statements and cash flows to find what drives its probability of default and loss given default, and how those drivers shift through the cycle. Holders of unsecured investment grade debt worry mainly about the probability of default rising. Holders of secured high yield debt also care about loss given default, because default is a real possibility for them.
 
-Here is a worked example. A company has EBITDA of 200 million dollars, EBIT of 160 million dollars and interest expense of 40 million dollars. It has total debt of 600 million dollars, equity of 900 million dollars, and funds from operations of 150 million dollars. Debt to EBITDA is 600 divided by 200, or 3 times. EBIT coverage is 160 divided by 40, or 4 times, and EBITDA coverage is 5 times.
+LEWIS: The forecasting can be top down, bottom up or a hybrid. Top down inputs are the economic cycle, the size of the industry and the company's potential market share, and event risk from outside shocks. Bottom up inputs are the company's own revenue and costs, its assets and liabilities, and its cash flows.
 
-Funds from operations to debt is 150 divided by 600, or 25 percent. Debt to capital is 600 divided by 1,500, or 40 percent.
+HEART: All else equal, a company is a stronger credit when it has four things. Strong operating profits and recurring revenue. Low leverage. High coverage of its debt payments by its regular income. And plenty of liquidity for short term debt payments.
 
-Now suppose the company borrows another 200 million dollars to buy back shares. Its interest expense rises to 50 million dollars, while EBITDA and EBIT stay the same. Debt to EBITDA rises to 4 times, and EBITDA coverage falls to 4 times. The buyback cuts equity to 700 million dollars, so debt to capital rises to 800 divided by 1,500, or about 53 percent. Every ratio has moved against the bondholder.
+LEWIS: To measure those, analysts lean on ratios, so first some vocabulary. EBITDA is earnings before interest, taxes, depreciation and amortization, calculated as operating income plus depreciation and amortization. It is popular, but for lenders it has a real drawback. It ignores capital spending and changes in working capital, which a going concern has to fund, and cash spent there is not available to repay debt.
 
-Ratios describe the past, but bondholders are paid from future cash. So analysts also project cash flows under a base case and a downside case. Watch EBITDA in particular. It ignores capital spending, working capital needs and taxes, so a company can show strong EBITDA and still burn cash. Measures based on free cash flow, such as free cash flow to debt, give a more conservative picture.
+HEART: Cash flow from operating activities comes from the cash flow statement. It is net income plus noncash charges, minus any increase in working capital. Funds from operations is net income from continuing operations plus depreciation, amortization, deferred taxes and other noncash items. It is like cash flow from operations, but leaves out working capital changes.
 
-Here is the trap. Some ratios improve when they rise, and some improve when they fall. Coverage ratios and funds from operations to debt should be high. Debt to EBITDA and debt to capital should be low. Exam questions often mix the two types in one table, so check the direction of each ratio before you compare companies. Also compare ratios with industry peers and with the company's own trend, because a stable utility can safely carry more debt than a volatile tech company.
+LEWIS: Free cash flow is cash flow from operations minus spending on fixed assets, measured before interest, so it is the discretionary cash that could go to all the providers of financing. And retained cash flow is operating cash flow minus dividends. It is an analyst's measure, so the analyst picks the version of operating cash flow, usually cash flow from operations or funds from operations. In plain words, it is the cash kept after paying shareholders, the cash available to chip away at debt.
 
-Now seniority. A company's debt is ranked by the order in which it gets paid. At the top sits secured debt, in order first lien or first mortgage, senior secured, and junior secured. Below that is unsecured debt, in order senior unsecured, senior subordinated, subordinated, and junior subordinated. Shareholders come last. Bonds of the same rank are called pari passu, meaning they share equally.
+HEART: Four ratios do most of the work. For profitability, the EBIT margin, earnings before interest and taxes relative to revenue. For coverage, EBIT relative to interest expense, how many times over operating earnings cover the interest bill. Higher is better for both.
 
-In bankruptcy, the basic rule is that higher ranked claims are paid in full before lower ranked claims receive anything. Secured creditors look first to their collateral. If the collateral is worth less than the claim, the shortfall becomes an unsecured claim. For example, if secured lenders are owed 100 million dollars and the collateral is worth 70 million dollars, they take the 70 million and claim the other 30 million alongside the unsecured creditors.
+LEWIS: Leverage has two. Debt relative to EBITDA, roughly how many years of EBITDA it would take to repay the debt, where lower is better. And retained cash flow relative to net debt, where net debt is total debt minus cash and marketable securities. That one says what share of the net debt a year of retained cash flow could pay off, so higher is better.
 
-In practice, the priority rule is not always strictly followed, especially in a reorganization. To avoid long and costly legal fights, senior creditors often accept settlements that give something to junior creditors, or even to shareholders, before the seniors are paid in full. So treat the ranking as a strong guide to recovery, not a guarantee.
+HEART: Ratios earn their keep in comparison, over time to spot trends, and against the industry average and direct peers. And the picture is often mixed. A grocery chain with thin margins and little debt, against a luxury brand with fat margins that borrowed heavily to buy a rival. Profitability favors the luxury brand, leverage favors the grocer, and the analyst has to weigh which matters more for the bond.
 
-This ties straight back to the first module. Recovery rates are highest for senior secured debt and fall as you move down the ranking. Because all of an issuer's bonds share one probability of default, seniority changes only loss given default. That is why a company's senior secured bonds yield less than its subordinated bonds.
+LEWIS: The trap is direction. Debt on top, as in debt relative to EBITDA, means lower is better. Debt on the bottom, as in retained cash flow relative to net debt, means higher is better. Questions love to mix the two in one comparison.
 
-Now ratings within one company. The issuer rating, sometimes called a corporate family rating, reflects the company's overall creditworthiness and normally applies to its senior unsecured debt. Ratings on individual bonds are then moved up or down from that anchor to reflect seniority and expected recovery. That adjustment is called notching. Secured debt may be notched above the issuer rating, and subordinated debt notched below it.
+HEART: Now seniority, which drives loss given default. Each type of bond has a place in the priority of claims if the issuer defaults, called its seniority ranking. The first split is secured versus unsecured. Secured debt is backed by collateral that can be sold to repay bondholders. Unsecured debt is a general claim on the issuer's assets and cash flows. Secured ranks ahead.
 
-Here is the rule on how much notching to expect. For investment grade issuers, notching is usually small, because when default is unlikely, differences in recovery matter little. For high yield issuers, notching is wider, because default is a real possibility, so the recovery gap between secured and subordinated debt matters much more.
+LEWIS: Here is the full ladder, from the top. First lien or first mortgage debt, where a specific asset or property is pledged. Then senior secured debt, also called second lien. Then junior secured. Below the secured rungs come senior unsecured, senior subordinated, subordinated and junior subordinated. Shareholders come after all of them.
 
-One more structural point. Many companies borrow at a holding company, while the cash flows are earned by operating subsidiaries. Each subsidiary pays its own creditors first, and only what is left flows up to the parent as dividends. So the parent's bondholders effectively stand behind the subsidiary's creditors, even if both sets of bonds are labeled senior unsecured. This is called structural subordination, and it can justify a lower rating for the holding company's debt.
+HEART: Debt on the same rung ranks pari passu, so every holder on that rung is treated alike. And when collateral falls short, the uncovered part of a senior secured claim drops down and ranks alongside the senior unsecured claims. It is the underwater car loan again. The lender takes the car, and for the rest of the balance it becomes a general creditor.
 
-The rule to keep from this module is this. Seniority affects how much you recover, not whether the issuer defaults. Higher seniority means higher recovery, lower loss given default and a lower yield, and notching is wider for high yield issuers than for investment grade issuers.
+LEWIS: Recovery rates are highest at the top of the ladder and fall with each rung down, so the lower a bond's seniority, the higher its credit risk. And connect that to the cross default clause. One missed payment puts every bond of the issuer in default together, so they share one probability of default. What seniority changes is how much you get back, which is why an issuer's secured bonds yield less than its subordinated bonds.
+
+HEART: In theory, the priority of claims is absolute. In practice, junior creditors, and sometimes shareholders too, may receive something even when seniors are not paid in full, to speed things along. Seniors accept it because bankruptcy is slow and costly. While it drags on, customers drift away, key employees leave, the business loses value and legal fees mount.
+
+LEWIS: Now the issuer versus the issue. Agencies rate the company itself and each of its bonds. The issuer rating, also called the corporate family rating, reflects overall creditworthiness and is typically based on the senior unsecured debt. The rating on a specific bond is the issue rating, also called a corporate credit rating.
+
+HEART: Assigning an issue a rating above or below the issuer rating is called notching. The main reasons are the bond's seniority and its covenants, including any collateral pledged. A first lien bond may be notched up, a subordinated bond notched down.
+
+LEWIS: Agencies also notch for structural subordination. Many companies are a parent holding company that owns operating subsidiaries, and both may borrow. A subsidiary's covenants may block it from sending cash or assets up to the parent until its own debt has been serviced. So the parent's bonds, though not formally junior, are effectively behind the subsidiary's bonds for the subsidiary's cash. Picture a family business where each shop must pay its own bank before sending any profit home.
+
+HEART: Last, how much notching to expect. It is less common for highly rated issuers, because when default is remote, recovery differences between bonds matter little, and the bonds may not be notched at all. For lower rated issuers, default is a real possibility, recovery differences matter, and notching is more likely.
+
+LEWIS: The takeaway. Judge a company on its business model, competition, business risk and governance, then on profitability, coverage, leverage and liquidity. Seniority changes how much you recover, not whether the issuer defaults, and agencies notch bonds away from the issuer rating more often for lower rated issuers.
 
 ## Recall check
 
-Q: A bond has a 3 percent annual probability of default and an expected recovery rate of 50 percent. What is its expected loss as a percentage of exposure?
+LEWIS Q: Which three of the eight C's of credit are top down factors, and why are they called that?
 
-Answer: 1.5 percent. Loss severity is one minus the recovery rate, which is 50 percent. Expected loss is 3 percent times 50 percent, which is 1.5 percent, or about 150 basis points of spread needed just to cover expected loss.
+HEART: Answer. Conditions, country and currency. Here is why. They describe the environment around the borrower, not the borrower itself: the general economy, the political and legal setting, and exchange rate risk on debt owed in another currency. The other five, capacity, capital, collateral, covenants and character, are bottom up because they describe the borrower.
 
-Q: A company's bond spread has widened sharply over two weeks, but its credit rating has not changed. Which limitation of credit ratings does this most likely show?
+HEART Q: A company owns valuable property but cannot raise the cash for a coupon due this week. Is it illiquid or insolvent, and can it default?
 
-Answer: Ratings lag market pricing. Agencies aim for stable ratings and update them deliberately, while bond prices respond quickly to new information. A widening spread is often an early warning that a downgrade may follow.
+LEWIS: Answer. It is illiquid, and yes, it can default. Here is why. Insolvent means the assets are worth less than the debts, and this company's assets may be worth plenty. Illiquid means it cannot turn what it owns into cash in time. A missed payment is a default either way.
 
-Q: A bond has a modified duration of 4. Ignoring convexity, what is its approximate price change if its spread narrows by 50 basis points?
+LEWIS Q: An issuer's probability of default stays the same, but the expected recovery rate on its bond rises. What happens to loss severity, expected loss and the spread an investor should demand?
 
-Answer: About positive 2 percent. Negative 4 times negative 0.005 is positive 0.02, or 2 percent. A narrower spread means a lower yield, so the price rises.
+HEART: Answer. All three fall. Here is why. Loss severity is one minus the recovery rate, so a higher recovery shrinks it. Expected loss is the probability of default times that loss, so it shrinks too. And since expected loss as a rate guides the spread investors should demand, the fair spread narrows.
 
-Q: Is a sovereign's foreign currency debt usually rated higher or lower than its local currency debt, and why?
+HEART Q: A bond's actual credit spread is narrower than its probability of default times its loss given default as a rate. Is the investor fairly paid?
 
-Answer: Lower, or at most the same. A sovereign can create its own currency to pay local currency debt, though at the cost of inflation. Foreign currency must be earned or borrowed, so default risk on that debt is higher.
+LEWIS: Answer. No, the investor is underpaid and should avoid the bond. Here is why. That product is the expected loss per year, the guide to what the spread should pay for credit risk. A spread below it does not even cover the losses you expect. A spread above it means you are more than fairly paid.
 
-Q: Which issuer most likely has the wider rating gap between its senior secured bonds and its subordinated bonds, one rated single A or one rated single B?
+LEWIS Q: For an investor in unsecured investment grade bonds, what is usually the bigger threat, a rise in loss given default or a rise in the probability of default?
 
-Answer: The single B issuer. When default is a real possibility, differences in recovery matter more, so agencies notch more widely for high yield issuers. For an investment grade issuer, default is remote, so recovery differences get less weight.
+HEART: Answer. A rise in the probability of default. Here is why. Investment grade issuers rarely default suddenly, so the realistic danger is a gradual deterioration that pushes up the chance of default. That shows up as wider spreads and downgrades, which cut the bond's price even while every payment arrives.
 
-Q: A holding company and its operating subsidiary each issue senior unsecured bonds. Whose bondholders most likely have the stronger claim on the subsidiary's cash flows?
+HEART Q: A company's bond spread has widened sharply over two weeks, but all three agencies have left its rating unchanged. What does this most likely show?
 
-Answer: The subsidiary's bondholders. The subsidiary pays its own creditors before it sends cash up to the parent as dividends. So the parent's bonds are structurally subordinated, even though both carry the senior unsecured label.
+LEWIS: Answer. That ratings lag market prices. Here is why. Agencies change ratings deliberately, while bond prices react to news right away. A widening spread with no rating change is often an early warning of a downgrade to come.
 
-## Recap
+LEWIS Q: The economy slides into recession. What typically happens to the level and shape of the high yield credit spread curve?
 
-Credit risk has two parts, the probability of default and the loss given default. Expected loss equals the probability of default times the loss given default, and loss given default equals the exposure times one minus the recovery rate. The credit spread roughly compensates for expected loss, but it is usually wider because investors also want to be paid for liquidity and uncertainty. Investment grade means triple B minus or B a a 3 and higher. Ratings are useful, but they lag the market, can miss event risk, and can be wrong. Spreads widen in downturns, when liquidity dries up, and on bad issuer news, and lower rated spreads widen the most.
+HEART: Answer. It rises and flattens, and it may even invert. Here is why. The chance of a near term default jumps, so short maturity spreads rise the most. If they climb above long spreads, the curve slopes downward, because the market sees the danger concentrated in the next few years. In an expansion, the curve falls and steepens instead.
 
-A spread change moves price by about negative modified duration times the change in spread, plus the convexity adjustment. Sovereigns are judged on ability and willingness to pay, and local currency debt is generally safer than foreign currency debt. General obligation bonds rest on taxing power, while revenue bonds rest on project cash flows and the debt service coverage ratio. For companies, high coverage and high funds from operations to debt are good, while high debt to EBITDA and high debt to capital are bad. Seniority changes loss given default, not the probability of default. Notching is wider for high yield issuers, and holding company debt can be structurally subordinated.
+HEART Q: How can you split off the liquidity part of a bond's yield spread from the credit part?
+
+LEWIS: Answer. Take the yield at the bid price minus the yield at the offer price, and treat the rest of the spread as credit. Here is why. The bid offer spread is the cost of trading, so the gap between the two yields measures the pay for that cost. The bid price is lower, so its yield is higher, which keeps the difference positive. What remains is the reward for credit risk.
+
+LEWIS Q: Why does a government's willingness to pay get attention in sovereign analysis when it barely comes up for a company?
+
+HEART: Answer. Because of sovereign immunity. Here is why. A company that can pay but refuses can be taken to court, and its creditors can claim its assets. A national government generally cannot be forced to pay, so bondholders usually have no legal recourse, which makes political will part of the credit question.
+
+HEART Q: The same city issues general obligation bonds and revenue bonds for a new parking garage. Which are usually riskier, and why?
+
+LEWIS: Answer. The revenue bonds. Here is why. General obligation bonds are backed by the city's power to tax the whole local economy. Revenue bonds are repaid only from what the garage earns, so if it underperforms, there is no other source of money.
+
+LEWIS Q: Comparing two companies, is a higher debt to EBITDA ratio better or worse, and what about a higher ratio of retained cash flow to net debt?
+
+HEART: Answer. Higher debt to EBITDA is worse, and higher retained cash flow to net debt is better. Here is why. Debt to EBITDA puts debt on top, so a higher number means more years of earnings needed to repay it. Retained cash flow to net debt puts debt on the bottom, so a higher number means more of the debt could be repaid from one year's cash.
+
+HEART Q: One issuer is rated single A and another is rated single B. Which is more likely to have its individual bonds notched away from its issuer rating?
+
+LEWIS: Answer. The single B issuer. Here is why. Notching reflects differences in expected recovery between bonds. For a single A issuer, default is remote, so recovery differences barely matter. For a single B issuer, default is a real possibility, so where each bond sits in the ladder matters much more.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: For the eight C's: bottom up is the borrower, top down is the backdrop. Capacity, capital, collateral, covenants and character describe the borrower. Conditions, country and currency describe its world.
+
+HEART: For expected loss: chance times damage. The probability of default times the loss given default. Loss severity is one minus the recovery rate, and as a rate, expected loss is the guide to a fair credit spread.
+
+LEWIS: Illiquid is a cash problem, insolvent is a value problem, and either one can produce a missed payment.
+
+HEART: For the rating line: triple B minus is the last step of investment grade, double B plus is the first step of high yield. At Moody's, B double A three and B A one.
+
+LEWIS: For rating limits: they lag, they miss hard to model events, and they can be wrong. Prices move first.
+
+HEART: For credit curves: a recession lifts and flattens them, and high yield may invert. An expansion lowers and steepens them.
+
+LEWIS: For liquidity: bid yield minus offer yield is the liquidity slice, and the rest is credit.
+
+HEART: For sovereigns, the five qualitative factors in order: In Fact, Money Explains Everything. Institutions, fiscal flexibility, monetary effectiveness, economic flexibility and external status. The three quantitative factors are fiscal strength, economic growth and stability, and external stability.
+
+LEWIS: For local governments: general obligation leans on the whole tax base, a revenue bond leans on one project.
+
+HEART: For the four ratios: debt on top, lower is better. Every other ratio in the set, higher is better.
+
+LEWIS: For seniority: seniority changes how much you get back, not whether the issuer defaults. Notching matters more the nearer an issuer is to default. And a parent's lenders wait behind its subsidiaries' lenders for the subsidiaries' cash.
+
+HEART: Now, how you would say the big ideas to a senior leader.
+
+LEWIS: On credit risk: the loss we should expect from any borrower is how likely it is to fail times how much we would lose if it did, and the extra yield we earn should at least cover that. The jargon is probability of default, loss given default, expected loss and the credit spread.
+
+HEART: On ratings: they give everyone a common yardstick, but they move slowly and are sometimes wrong, so market prices usually flag trouble first. The jargon is credit ratings, credit migration risk and rating lag.
+
+LEWIS: On markets: in a downturn the extra yield on risky bonds jumps and trading them gets more expensive, most of all for lower quality issuers. The jargon is credit spread risk, flight to quality, and market liquidity risk measured by the bid offer spread.
+
+HEART: On governments: a national government's debt rests on its power to tax and its own central bank, while a city bond backed by a single facility depends entirely on that facility. The jargon is sovereign and non sovereign credit, general obligation bonds, revenue bonds and the debt service coverage ratio.
+
+LEWIS: And on companies: where our bond sits in the line for repayment matters almost as much as who the borrower is. The jargon is seniority ranking, priority of claims, recovery rate, notching and structural subordination.
