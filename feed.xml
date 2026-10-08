@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Thu, 08 Oct 2026 01:44:33 -0500</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 02:11:45 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -824,11 +824,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Ethical and Professional Standards, Kaplan Modules 92.1 to 93.1. 92.1 Introduction to GIPS, 93.1 Ethics Application</description>
     <itunes:summary>Ethical and Professional Standards, Kaplan Modules 92.1 to 93.1. 92.1 Introduction to GIPS, 93.1 Ethics Application</itunes:summary>
-    <content:encoded><![CDATA[<p>Ethical and Professional Standards, Kaplan Modules 92.1 to 93.1.</p><ul><li>Module 92.1, Introduction to GIPS</li><li>Module 93.1, Ethics Application</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:12 The big picture</li><li>2:14 Module 92.1, Introduction to GIPS</li><li>11:50 Module 93.1, Ethics Application</li><li>27:22 Recall check</li><li>30:30 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E48.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E48_v2.mp3" length="9632705" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Ethical and Professional Standards, Kaplan Modules 92.1 to 93.1.</p><ul><li>Module 92.1, Introduction to GIPS</li><li>Module 93.1, Ethics Application</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:42 Module 92.1, Introduction to GIPS</li><li>11:58 Module 93.1, Ethics Application</li><li>37:53 Recall check</li><li>45:34 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E48.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E48_v3.mp3" length="14837652" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e48</guid>
     <pubDate>Sat, 03 Oct 2026 12:48:00 -0500</pubDate>
-    <itunes:duration>1926</itunes:duration>
+    <itunes:duration>2967</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E48.txt" type="text/plain"/>
   </item>
