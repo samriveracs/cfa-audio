@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Wed, 07 Oct 2026 22:49:03 -0500</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 23:13:55 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -705,11 +705,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Portfolio Management, Kaplan Modules 85.1 to 86.1. 85.1 Portfolio Management Process, 85.2 Asset Management and Pooled Investments, 86.1 Portfolio Planning and Construction</description>
     <itunes:summary>Portfolio Management, Kaplan Modules 85.1 to 86.1. 85.1 Portfolio Management Process, 85.2 Asset Management and Pooled Investments, 86.1 Portfolio Planning and Construction</itunes:summary>
-    <content:encoded><![CDATA[<p>Portfolio Management, Kaplan Modules 85.1 to 86.1.</p><ul><li>Module 85.1, Portfolio Management Process</li><li>Module 85.2, Asset Management and Pooled Investments</li><li>Module 86.1, Portfolio Planning and Construction</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:13 The big picture</li><li>1:45 Module 85.1, Portfolio Management Process</li><li>9:09 Module 85.2, Asset Management and Pooled Investments</li><li>15:33 Module 86.1, Portfolio Planning and Construction</li><li>28:23 Recall check</li><li>31:40 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E41.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E41_v2.mp3" length="9971496" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Portfolio Management, Kaplan Modules 85.1 to 86.1.</p><ul><li>Module 85.1, Portfolio Management Process</li><li>Module 85.2, Asset Management and Pooled Investments</li><li>Module 86.1, Portfolio Planning and Construction</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:43 Module 85.1, Portfolio Management Process</li><li>11:56 Module 85.2, Asset Management and Pooled Investments</li><li>22:43 Module 86.1, Portfolio Planning and Construction</li><li>40:13 Recall check</li><li>47:20 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E41.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E41_v3.mp3" length="15316603" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e41</guid>
     <pubDate>Sat, 03 Oct 2026 12:41:00 -0500</pubDate>
-    <itunes:duration>1994</itunes:duration>
+    <itunes:duration>3063</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E41.txt" type="text/plain"/>
   </item>
