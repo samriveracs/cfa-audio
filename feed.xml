@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Wed, 07 Oct 2026 19:30:19 -0500</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 20:03:16 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -569,11 +569,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Fixed Income, Kaplan Modules 63.1 to 65.1. 63.1 Fixed-Income Securitization, 64.1 Asset-Backed Security (ABS) Instrument and Market Features, 65.1 Mortgage-Backed Security (MBS) Instrument and Market Features</description>
     <itunes:summary>Fixed Income, Kaplan Modules 63.1 to 65.1. 63.1 Fixed-Income Securitization, 64.1 Asset-Backed Security (ABS) Instrument and Market Features, 65.1 Mortgage-Backed Security (MBS) Instrument and Market Features</itunes:summary>
-    <content:encoded><![CDATA[<p>Fixed Income, Kaplan Modules 63.1 to 65.1.</p><ul><li>Module 63.1, Fixed-Income Securitization</li><li>Module 64.1, Asset-Backed Security (ABS) Instrument and Market Features</li><li>Module 65.1, Mortgage-Backed Security (MBS) Instrument and Market Features</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:12 The big picture</li><li>1:41 Module 63.1, Fixed-Income Securitization</li><li>7:08 Module 64.1, Asset-Backed Security (ABS) Instrument and Market Features</li><li>15:48 Module 65.1, Mortgage-Backed Security (MBS) Instrument and Market Features</li><li>27:16 Recall check</li><li>30:31 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E33.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E33_v2.mp3" length="9618832" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Fixed Income, Kaplan Modules 63.1 to 65.1.</p><ul><li>Module 63.1, Fixed-Income Securitization</li><li>Module 64.1, Asset-Backed Security (ABS) Instrument and Market Features</li><li>Module 65.1, Mortgage-Backed Security (MBS) Instrument and Market Features</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:42 Module 63.1, Fixed-Income Securitization</li><li>8:34 Module 64.1, Asset-Backed Security (ABS) Instrument and Market Features</li><li>21:45 Module 65.1, Mortgage-Backed Security (MBS) Instrument and Market Features</li><li>39:10 Recall check</li><li>46:16 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E33.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E33_v3.mp3" length="15062939" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e33</guid>
     <pubDate>Sat, 03 Oct 2026 12:33:00 -0500</pubDate>
-    <itunes:duration>1924</itunes:duration>
+    <itunes:duration>3012</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E33.txt" type="text/plain"/>
   </item>
