@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Thu, 08 Oct 2026 01:18:54 -0500</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 01:44:33 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -807,11 +807,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Ethical and Professional Standards, Kaplan Modules 91.8 to 91.9. 91.8 Guidance for Standard VI, 91.9 Guidance for Standard VII</description>
     <itunes:summary>Ethical and Professional Standards, Kaplan Modules 91.8 to 91.9. 91.8 Guidance for Standard VI, 91.9 Guidance for Standard VII</itunes:summary>
-    <content:encoded><![CDATA[<p>Ethical and Professional Standards, Kaplan Modules 91.8 to 91.9.</p><ul><li>Module 91.8, Guidance for Standard VI</li><li>Module 91.9, Guidance for Standard VII</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:14 The big picture</li><li>2:15 Module 91.8, Guidance for Standard VI</li><li>16:59 Module 91.9, Guidance for Standard VII</li><li>25:04 Recall check</li><li>28:49 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E47.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E47_v2.mp3" length="9174948" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Ethical and Professional Standards, Kaplan Modules 91.8 to 91.9.</p><ul><li>Module 91.8, Guidance for Standard VI</li><li>Module 91.9, Guidance for Standard VII</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:43 Module 91.8, Guidance for Standard VI</li><li>21:46 Module 91.9, Guidance for Standard VII</li><li>36:15 Recall check</li><li>44:17 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E47.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E47_v3.mp3" length="14419855" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e47</guid>
     <pubDate>Sat, 03 Oct 2026 12:47:00 -0500</pubDate>
-    <itunes:duration>1835</itunes:duration>
+    <itunes:duration>2884</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E47.txt" type="text/plain"/>
   </item>

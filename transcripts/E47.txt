@@ -1,155 +1,323 @@
-## The big picture
-
-This episode finishes the seven Standards of Professional Conduct. Standard six is Conflicts of Interest, and it has three parts. Six A is Avoid or Disclose Conflicts, six B is Priority of Transactions, and six C is Referral Fees.
-
-Standard seven is Responsibilities as a CFA Institute Member or CFA Candidate, and it has two parts. Seven A is Conduct as Participants in CFA Institute Programs. Seven B is Reference to CFA Institute, the CFA Designation, and the CFA Program.
-
-The two Standards look different, but one idea joins them. Standard six protects the people who rely on your judgment, your clients and your employer, from incentives they cannot see. Standard seven protects the credential itself, so that the exam means something and the letters after a name mean something. In both cases the harm is the same kind of harm. Someone is misled about what is really going on, either about why you made a recommendation or about what your credential proves.
-
-Here is how the pieces connect. Six A is the general rule for any conflict. Six B and six C are two specific conflicts that come up so often they get their own Standards, your own trading and payments for referrals. Seven A covers how you behave inside CFA Institute programs, including the exam you are about to sit. Seven B covers how you describe your membership, your charter or your candidacy to the outside world.
-
-Expect short scenarios. A typical question describes what someone did and asks whether it violates a Standard, which Standard it violates, or what the person should have done. The method is the same every time. Spot the conflict or the misstatement, ask who could be harmed, and then ask whether the person avoided the problem, disclosed it properly, or did neither.
+LEWIS: This episode covers Standard six, Conflicts of Interest, on avoiding or disclosing conflicts, letting clients trade before you do, and referral fees, and Standard seven, Responsibilities as a CFA Institute Member or CFA Candidate, on how you behave in the exam and its programs and how you describe the designation and your candidacy. For each part you will hear what it requires, why it exists, the procedures that prevent violations, the classic traps, and short cases that each end in a verdict.
 
 ## Module 91.8, Guidance for Standard VI
 
-Start with first principles. A conflict of interest is any situation where something you stand to gain, or a relationship you have, could pull your judgment away from the interests of the people you serve. Having a conflict is not, by itself, a violation. Almost everyone in the investment business has some. The danger is a conflict that operates in the dark, where a client or an employer cannot see it and cannot weigh it.
+HEART: Standard six is titled Conflicts of Interest, and it has three parts. Standard six A, Avoid or Disclose Conflicts. Standard six B, Priority of Transactions. And Standard six C, Referral Fees.
 
-Standard six A is Avoid or Disclose Conflicts. In plain terms, if something could reasonably be expected to cloud your independent judgment, or to get in the way of what you owe your clients, your prospective clients or your employer, you must either steer clear of it or tell the people affected about it, completely and honestly. Before 2024, this Standard was titled Disclosure of Conflicts. The current title adds the word avoid, and that word sets the order of preference. The first choice is to stay out of the conflict when that is reasonably possible. Disclosure is the fallback when avoiding it is not practical.
+LEWIS: Start with what a conflict of interest is. It is any situation where something you stand to gain, or a relationship you have, could pull your judgment away from the people who rely on it. Picture a referee with a bet on the game. He might call every play perfectly straight. But nobody watching can know that, and the doubt is the damage.
 
-When you do disclose, the disclosure has to work. The Standard requires disclosures that are prominent, written in plain language, and effective at getting the relevant facts across. A sentence buried deep in a long legal document, written in dense jargon, does not meet that bar even if every word is accurate. The test is whether an ordinary client would actually notice it and understand it. One more expectation. When a conflict cannot be avoided, you should also reduce it as far as you reasonably can, and your disclosure should explain what you did to reduce it.
+HEART: Having a conflict is not, by itself, a violation. Almost everyone in this business has some. What the Standard goes after is a conflict that could have been sidestepped and was not, or one that stays hidden from the people it affects.
 
-You judge how often to disclose based on the situation, and you update the disclosure when the conflict changes in a meaningful way. When you are unsure, disclose. And disclose to both audiences. Your employer needs to know about conflicts that could bias your advice, and about conflicts that could lead you to act against the firm's interests. Your clients and prospects need to know about anything that could bias the advice you give them. Telling only one of those audiences is a common gap.
+LEWIS: Standard six A, Avoid or Disclose Conflicts. In plain words, anything likely to bend your judgment, or to pull you away from what you owe clients, prospects or your employer, is something to stay out of when you reasonably can. When you cannot, the people it touches hear the whole story, told straight.
 
-Four kinds of conflict come up again and again. The first is stock ownership. If you own shares in a company you recommend, that ownership must be avoided or disclosed. Not owning it is the cleanest choice. A blanket ban on owning anything you cover is not required, but any holding you keep must be disclosed.
+HEART: Notice the order built into the title. Avoid comes first. Avoidance was already best practice, and the twenty twenty four revision wrote it into the Standard itself. It is the preferred route wherever that is reasonably possible. Disclosure is the fallback, for the conflicts you cannot reasonably avoid.
 
-The second is board service. A manager who sits on a company's board owes duties to that company's shareholders, may be paid in that company's stock, and is likely to see material nonpublic information. Each of those can collide with duties to clients. The usual safeguards are disclosure and a firewall that keeps the board member away from any decisions about that company.
+LEWIS: Why does it exist? Disclosure lets clients and prospects decide for themselves how much a conflict might be coloring your advice. A client who knows you earn more on one product than another can weigh your enthusiasm for it. A client who does not know has nothing to weigh.
 
-The third is the firm's own business with an issuer. Investment banking work, underwriting, market making and other financial relationships with a company must be disclosed alongside research and recommendations on that company. This is where research analysts feel pressure, from their own firm's bankers and from the companies they cover, to write favorable reports.
+HEART: Then the quality of the disclosure, which the Standard spells out. Having the words somewhere is not enough. The disclosure has to be prominent, meaning easy to find rather than buried. It has to be in plain language, meaning words an ordinary client understands. And it has to get the relevant facts across, meaning the client actually comes away knowing what the conflict is.
 
-The fourth is compensation. Bonus plans that reward short term results, special fee deals, subadvisory agreements and fee rebates can all tilt behavior. Those arrangements must be disclosed to clients and to the employer, and so must meaningful changes to them.
+LEWIS: Think of an allergy warning on a snack. A line saying the bar contains peanuts, printed in tiny gray type inside the fold of the wrapper, is technically a warning. The same line in bold on the front, where a parent sees it before buying, is the kind of disclosure the Standard has in mind.
 
-Now three short cases. In the first, an equity analyst at a brokerage firm is assigned to cover a retailer whose chief financial officer is her husband. She tells no one and starts writing research. That is a violation of six A, because the relationship could reasonably be expected to impair her objectivity, and she neither avoided it nor disclosed it. Given how close the conflict is, the right move was to ask to be reassigned. Disclosure alone is a weak cure when the conflict is that personal.
+HEART: One more expectation sits beside that. When a conflict cannot be avoided, reduce it as far as you reasonably can, and say in the disclosure what you did to reduce it.
 
-In the second case, a portfolio manager is invited to join the board of a regional manufacturer. He tells his employer and gets approval, and he discloses the board seat to clients in a short, clearly worded notice. The firm walls him off from any trading or research in the manufacturer's securities. No violation. He could not take the seat and avoid the conflict at the same time, so he disclosed it plainly, and the firm built a barrier around it.
+LEWIS: Who has to hear? Two audiences. Clients and prospects need to know about anything that could bias the advice they get. And your employer is owed three habits. Steer clear of conflicts where you reasonably can, speak up promptly when one appears anyway, and give enough detail for the firm to weigh how serious it is. Telling one audience and not the other is a classic gap.
 
-In the third case, an adviser earns a higher commission when clients buy her firm's own funds than when they buy outside funds. She mentions this only in a footnote, in small type, near the end of a 60 page agreement. That is most likely a violation. The information is technically there, but it is not prominent, it is not in plain language, and it is unlikely to reach the client. A disclosure that no one can find is not fair disclosure.
+HEART: Now the usual sources of conflict. The one you will meet most often is personal stock ownership. Holding shares in a company you are recommending, or in one that sits in your clients' portfolios, means your own money rides on the same story you are telling clients. So that stake has to be avoided or disclosed.
 
-Here is the trap for six A. Many candidates assume that disclosure fixes everything. It does not. You avoid the conflict when you reasonably can, you disclose when you cannot, and the disclosure must be prominent and understandable.
+LEWIS: But ownership does not have to be banned. A firm may choose to forbid it, and avoiding it is the cleaner path, but a holding you keep satisfies the Standard when it is properly disclosed.
 
-A second trap runs the other way. Owning a stock you cover, or sitting on a board, is not automatically a violation. The violation is failing to avoid it or failing to disclose it properly.
+HEART: A case. Margaret covers airline stocks at a research firm. She has owned shares in one of the carriers since long before she took the job. She writes a strong buy report on that carrier and tells nobody about her shares. Violation?
 
-Now Standard six B, Priority of Transactions. The rule is a ranking. Trades for clients and for your employer go to the front of the line, and any trade in something you beneficially own waits behind them. The reason is simple. Your job gives you an early look at what clients are about to do. If you could trade ahead of them, you would be profiting from their orders, often at their expense, because your trade can move the price they pay.
+LEWIS: Yes, of Standard six A. Her holding could reasonably be expected to affect her objectivity, and she neither avoided it nor disclosed it. She had clean paths available. Avoid the conflict, for example by handing the coverage to a colleague. Or, if she keeps both the shares and the coverage, tell her employer and put a clear, prominent statement of her ownership in the report.
 
-Two terms matter. Beneficial ownership means you own a security, control it, have the power to direct it, or have a material interest in it. So your personal account counts, an account held by your immediate family counts, and any account in which you have a direct or indirect financial interest counts. Front running means trading for yourself just ahead of a client or employer trade that you know is coming.
+HEART: The next source is compensation. Pay structures tilt behavior. A bonus that rewards this quarter's numbers can tempt someone toward moves that look good now and cost clients later. So if you advise clients, tell them about any pay feature that could pull on your judgment, whether a commission, a bonus plan, a sales incentive or a special arrangement, and bring that account up to date when your pay changes in a big way.
 
-The Standard does not ban personal investing. You may own the same securities as your clients, as long as three conditions hold. First, clients are not disadvantaged by your trades. Second, you do not benefit personally from client trades, for example by trading ahead of them. Third, you follow the applicable laws and regulations.
+LEWIS: A case. Dominic is a wealth adviser who earns a large upfront commission when clients buy an annuity, and a much smaller yearly fee when they buy index funds. The only mention of it is one dense paragraph of legal wording in a regulatory brochure posted on the firm's website, which clients are never pointed to. Violation?
 
-Trading on material nonpublic information is a separate problem, covered under Standard two A, and it is prohibited whether or not a client order is involved. Family accounts get their own guidance. If a family member is a genuine fee paying client of the firm, that account is treated exactly like every other client account. It must not get special treatment, and it must not be disadvantaged because of the family tie either. Candidates often remember the first half and forget the second.
+HEART: Yes. The fact technically exists, but it is neither prominent nor plain, and almost no client would ever take it in. Compare a one page summary handed to each client before they choose, in large type, saying that Dominic earns far more when they choose an annuity, and roughly how much more. That version meets the Standard.
 
-The recommended procedures for compliance fall into five groups. First, limit participation in equity initial public offerings, or I P Os. When investment staff buy shares of a popular new issue for themselves, it can look as if they are taking shares that clients wanted, so many firms prohibit it or require preclearance. Second, restrict private placements for the same reason, with strict limits, preclearance and ongoing oversight. A private deal offered to a manager can also work like a favor from a company that hopes to win that manager's business for clients later.
+LEWIS: And a case about change. Winifred manages money for individual clients and has always been paid a flat salary. Her firm switches her to a share of the commissions her clients' trades generate. She keeps advising as before, and her clients still have the old description of how she is paid. Violation?
 
-Third, set blackout periods, also called restricted periods, so staff cannot trade a security in a window around the firm's trades in it for clients. Fourth, reporting. Staff disclose their holdings when they join and on a regular schedule afterward, their brokers send the firm duplicate confirmations of personal trades, and personal trades are cleared in advance. Fifth, when investors ask, the firm explains its personal trading policies clearly, not in boilerplate.
+HEART: Yes. A significant change in how she is paid is exactly when the disclosure must be updated. Commission pay gives her a reason to trade client accounts more often, and her clients have no way to know it.
 
-Now four cases. In the first, a portfolio manager decides on Monday morning to buy 200,000 shares of a small company across his client accounts. Before he enters the client orders, he buys 1,000 shares for his own account. The client buying pushes the price up, and he sells his shares a week later at a profit. That is a clear violation of six B. He traded ahead of client orders he knew were coming, which is front running, and he benefited from the price impact of his clients' own trades.
+LEWIS: Two more sources. The first is board service. A manager who sits on a company's board owes duties to that company's shareholders, may be paid in its stock, and may well learn material nonpublic information. Each of those can pull against what the manager owes clients.
 
-In the second case, a manager wants shares in a popular initial public offering. Her clients wanted shares as well, and their orders were cut back because demand exceeded supply. She takes an allocation for her own account anyway. That is a violation. Client transactions must have priority, and she took shares her clients wanted.
+HEART: A case. Edmund, a portfolio manager, is invited onto the board of a small software company that some of his clients own. He tells his employer, which approves. The firm walls him off from every decision about the company's securities, and his clients receive a short, clearly worded notice about the seat. Violation?
 
-In the third case, a manager's father is a fee paying client of the firm with the same mandate as several other clients. When the manager buys a bond for all of those accounts, she leaves her father out because she is worried about how it might look. That is also a violation, because she breached her duty to him as a client. As a regular fee paying client, her father is entitled to the same treatment as everyone else. If she has a beneficial interest in his account, she simply runs the trade through the firm's usual preclearance and reporting steps.
+LEWIS: No. Board service is allowed, and once he took the seat the conflict was built in. So he worked behind a wall that kept him out of decisions on the stock, disclosed the seat plainly to clients, and kept his employer fully informed.
 
-The fourth case tests the definition of beneficial ownership. An analyst's wife has her own brokerage account at another firm, but the analyst chooses what she buys. Knowing that his firm will buy a stock for clients tomorrow, he buys it in her account today. That is a violation. He controls the account, so he is a beneficial owner, and the trade jumped ahead of client orders just as if it were in his own name.
+HEART: The last source is the firm's own business with a company. A broker dealer that makes a market in a stock stands ready to buy and sell it from its own inventory, so the firm often holds a position, earns money from the trading, and may fill a client's order from its own account. That market making has to be disclosed alongside research or recommendations on the stock. The same holds for investment banking, underwriting and other financial ties with a company the firm writes about. Those ties are also where analysts feel pressure, from their own bankers or from the companies they cover, to be kind in their reports.
 
-Here is the trap for six B. The tempting wrong answer says the Standard forbids owning what your clients own. It does not. It forbids putting yourself first. A manager who buys a stock for clients, lets those orders finish, and then buys the same stock for herself, within firm policy, has done nothing wrong.
+LEWIS: The traps for Standard six A. Trap one says disclosure fixes everything. Avoidance comes first, and disclosure covers what you cannot reasonably avoid. Trap two says any disclosure counts. It has to be prominent, plain and effective. Trap three says owning a stock you cover is automatically a violation. It is not, when the conflict is avoided or properly disclosed. Trap four forgets the employer. Clients, prospects and the employer all need to know.
 
-Now Standard six C, Referral Fees. If you get anything of value from someone for steering business their way, or give anything of value to someone for steering business to you, the right people must be told. Depending on the situation, that means your employer, your clients and your prospective clients. The logic is the same as six A. A referral payment is a reason to recommend something that has nothing to do with whether it suits the client. Disclosure lets the client judge whether the recommendation is biased and understand the full cost of the service, and it lets the employer judge the conflict too.
+HEART: The takeaway for Standard six A. Avoid conflicts when you reasonably can. When you cannot, reduce them and disclose them to clients, prospects and your employer, prominently and in plain language.
 
-Three details make this Standard testable. The first is what you disclose. You state the nature of the consideration, such as a flat fee or a percentage, a one time payment or a continuing one, a payment tied to performance, or a noncash benefit such as free research. You also give an estimate of its dollar value.
+LEWIS: Standard six B, Priority of Transactions. In plain words, there is a queue. Client trades go first. Trades for your employer come next. Trades in anything you beneficially own come last.
 
-The second detail is timing. Disclosure comes before the client or prospect enters into any formal agreement for services, and telling them afterward is too late. The third detail is direction. The Standard covers fees you receive and fees you pay, so if your firm pays an outside party for sending you clients, that must be disclosed too. Payments between departments of the same firm for internal referrals count as well, and must be disclosed the same way.
+HEART: Why does it exist? Your job gives you an early look at what clients and your firm are about to do. A large buy program is coming, or a downgrade is about to go out. If you could trade ahead of that, you would profit from your clients' own orders, and your trade could move the price against them. Trading for yourself ahead of a client or employer trade you expect is called front running.
 
-The recommended procedures are short. A firm should have a policy on referral fees, which may restrict them or require formal approval. Staff who take part in approved arrangements should give the employer regular updates, at least quarterly, on the amount and nature of what they receive.
+LEWIS: Think of a restaurant. The guests are served first, the house gets what it needs next, and the cook eats last. The cook may eat the very same dish, just not before the guests.
 
-Here is a worked example with round numbers. An adviser refers clients to an outside money manager, who pays her one quarter of one percent per year of the assets she refers. A prospect is about to place 400,000 dollars with that manager. One quarter of one percent of 400,000 dollars is 1,000 dollars per year. Before the prospect signs anything, the adviser explains that she receives a continuing fee based on assets, worth about 1,000 dollars a year on this account, and she has already told her employer about the arrangement. No violation.
+HEART: That last point matters. The Standard does not ban personal investing, and it does not stop you from owning what your clients own. Your own trade waits until clients and your firm have had a fair shot at acting. Knowing an order is coming is never a reason to trade for yourself. And the question that settles every case is whether your trade leaves a client worse off.
 
-Now three cases that go wrong. In the first, a financial planner and an estate attorney regularly send clients to each other. No money changes hands, and the planner never mentions it. That is a violation, because a steady stream of referred clients is a benefit, even without cash.
+LEWIS: Next, beneficial ownership, because the Standard reaches well beyond the account in your own name. You are a beneficial owner if any one of four links holds: the investment is yours, you control it, you can decide what happens to it, or you have a meaningful financial stake in it, even indirectly. That covers your own accounts, accounts of your immediate family, and any account you can steer or profit from.
 
-In the second case, an adviser tells a client about a referral fee only after the client has signed the advisory agreement. That is also a violation, because the disclosure came after the formal agreement instead of before it.
+HEART: A case. Malcolm is a portfolio manager. He handles his elderly mother's brokerage account under a power of attorney, and none of her money is his. On Tuesday his firm decides to start buying a mid sized chemical company for clients the next morning. That afternoon, Malcolm buys the stock in his mother's account. Violation?
 
-In the third case, a charterholder who runs a small advisory firm pays a local accountant 500 dollars for every new client the accountant sends its way. The firm's client agreement and its conversations with new clients say nothing about it. That is a violation as well. A fee paid for referrals must be disclosed just like a fee received, so each referred client should hear about it before signing.
+LEWIS: Yes, of Standard six B. He has the power to direct that account, so he counts as a beneficial owner even though the money is not his. The purchase jumped ahead of client orders he knew were coming.
 
-Here is the trap for six C. The tempting wrong answers are that no cash means no problem, and that only fees received count. Both are wrong. Noncash benefits count, fees paid count, and the timing rule is strict.
+HEART: Another case. Desmond trades bonds at a broker dealer. A pension fund client phones in a large order to sell a thinly traded corporate bond, to be worked through the afternoon. Desmond owns some of the same bond, and before he starts on the client's order, he sells his own. Violation?
 
-So, the rules to carry out of this module. Avoid conflicts when you reasonably can, and disclose them prominently and in plain language when you cannot. Put client and employer transactions ahead of your own. Disclose any referral benefit, paid or received, with its nature and estimated value, before the client signs.
+LEWIS: Yes. He turned his knowledge of a pending client trade into a better price for himself, and his sale could push the price down against his client. His own order had to wait until the client's was done.
+
+HEART: Now family accounts. Suppose a relative is an ordinary, fee paying client of your firm. That account is treated exactly like every other client account. It gets no head start because of the family tie, and it must not be pushed to the back of the line either. Candidates tend to remember the first half and forget the second.
+
+LEWIS: A case. Conrad's sister is a fee paying client with the same balanced mandate as forty of his other accounts. When his team decides to trim its bank stocks across that mandate, her account goes into the same sell order as everyone else's, at the same price and the same moment. Violation?
+
+HEART: No. Had he kept her account out of the sale to protect appearances, that would be a violation, because she would be disadvantaged as a client. Had he sold her shares ahead of the block, that would be a violation too.
+
+LEWIS: A case where nothing goes wrong. Adele runs model portfolios at a fund firm, and she has just added a broad bond index fund to every model. She waits until the client trades are finished and the firm's blackout window has passed, gets approval from compliance, and buys the same fund for her own retirement account. Violation?
+
+HEART: No. She owns what her clients own, but she bought after they did, inside the firm's rules, and her trade could not disadvantage them. Priority is about the order of the line, not about who may own what.
+
+LEWIS: Now the recommended procedures. For members, the cleanest way to sidestep the conflicts around initial public offerings, or IPOs, is to stay out of them altogether. And members should encourage their firms to adopt the procedures that follow, if they have not already.
+
+HEART: For firms, there are four groups. First, limit staff participation in equity IPOs. Shares in a popular new issue are scarce. A staff member who takes them may be taking shares clients wanted, or accepting a favor from whoever handed them out.
+
+LEWIS: Second, restrict private placements, meaning shares sold privately rather than offered to the public. Staff purchases should be tightly capped and watched by a supervisor, for much the same reasons as with IPOs. A private stake can work as a gift meant to win your goodwill. And if the company later raises more money or goes public, you may be tempted to steer client money toward it, which would lift the value of your own stake.
+
+HEART: Third, blackout periods, also called restricted periods. People involved in investment decisions are barred from trading a security for a window before the firm trades it for clients, which shuts the door on front running. A firm sets the length and strictness of that window to fit its own size and the kinds of securities it trades.
+
+LEWIS: Fourth, reporting. Staff disclose their personal holdings and the positions they beneficially own. Their brokers send the firm duplicate confirmations of every personal trade, so compliance sees the trades independently. And personal trades are approved in advance, which is called preclearance, so a clash with client trading is caught before it happens.
+
+HEART: One more duty, and it falls on you, not the firm. If an investor asks about your firm's personal trading policies, give the full picture. A vague line of boilerplate does not count.
+
+LEWIS: A case about a private placement. Rosalind runs a technology fund. The founder of a promising private startup offers her a personal stake in the company's next funding round, a chance she could not get any other way. She invests without telling her employer. A year later, when the startup raises more money at a higher price, she has her fund buy in, and that new round marks up the value of her own stake. Violation?
+
+HEART: Yes. The personal stake was an undisclosed conflict under Standard six A. And when she put client money into the round, she profited personally from her clients' trade, which breaks Standard six B. Private placement limits exist to stop exactly this.
+
+LEWIS: The traps for Standard six B. Trap one says the Standard bans owning what clients own. It does not. It bans getting in front of them. Trap two says only accounts in your own name count. Any account you own, control, can direct or profit from counts. Trap three says a relative's client account should be left out to avoid appearances. A family member who is a fee paying client is treated like any other client. Trap four says the employer comes before the client. The order is clients, then the employer, then you.
+
+HEART: The takeaway for Standard six B. Clients first, the firm second, you last, in every account you beneficially own. Personal trading is fine once clients and the firm have had their chance, as long as it disadvantages no one.
+
+LEWIS: Standard six C, Referral Fees. In plain words, if you receive anything of value for recommending someone's product or service, or pay anything of value to someone for recommending yours, tell the people affected. Depending on the situation, that means your employer, your clients and your prospective clients.
+
+HEART: Why does it exist? A referral payment gives you a reason to recommend something that has nothing to do with whether it suits the client. Once clients know about the payment, they can ask whether the advice is slanted and work out what the service really costs them. Your employer can weigh the conflict too.
+
+LEWIS: Three details make it testable. First, every kind of consideration counts. Cash, a share of commissions, free research, services in kind, a steady stream of clients sent back your way. If it has value, it is covered.
+
+HEART: Second, what you say. Spell out the nature of the benefit: cash or something else, a set amount or a percentage, paid once or year after year, and whether it depends on performance. Then put an estimated dollar value on it.
+
+LEWIS: Third, timing. The disclosure has to reach the client or prospect before they enter any formal agreement for the service. Telling them after they have signed is too late.
+
+HEART: And direction does not matter. Fees you pay others for sending you clients count just as much as fees you receive. Payments between departments of the same firm count too, so an internal referral bonus is disclosed the same way.
+
+LEWIS: A link to balance sheet work. Many banks and credit unions partner with an outside brokerage or insurance firm and earn a share of the revenue when they send customers over. The same logic applies. The customer should know about the arrangement before signing up.
+
+HEART: A case that goes right. Gregory is a financial planner. When clients need life insurance, he refers them to an outside insurance broker, who pays him a one time share of the first year's commission. Before any client signs anything, Gregory hands over a one page letter. It says he receives a one time payment from the broker, roughly what that comes to in dollars on this client's policy, and that his employer has approved the arrangement. He also reports these payments to his employer every quarter. Violation?
+
+LEWIS: No. The client learns the nature and rough dollar value before agreeing to anything, the employer approved it, and the quarterly reports follow the recommended procedure.
+
+HEART: Now three that go wrong. Vivian sends clients to a tax accountant. No money changes hands, but every spring the accountant prepares Vivian's own tax return for free. Vivian never mentions it. Violation?
+
+LEWIS: Yes. Free tax preparation is a benefit with real value, and she gets it because of her referrals. Consideration that is not cash is still consideration, so her clients and her employer should know about it.
+
+HEART: Rupert runs a small advisory firm and pays a popular personal finance blogger a share of the first year's fee for every reader who becomes a client. Nothing about the arrangement appears in what new clients are told. Violation?
+
+LEWIS: Yes. A payment made for a referral must be disclosed just like one received. Every client who arrived through the blogger should hear about the arrangement, its nature and roughly what it is worth, before signing.
+
+HEART: And Agnes receives a fee from an estate planning law firm for every client she refers. She tells one new client about the fee in an email sent after the client has signed the law firm's engagement letter. Violation?
+
+LEWIS: Yes. The description may be perfect, but the timing is wrong. The disclosure has to come before the client enters the formal agreement.
+
+HEART: The recommended procedures for Standard six C are short. Members should encourage their firms to set clear procedures on referral compensation, and members in approved arrangements should update their employer at least quarterly on the amount and nature of what they receive. And a firm that permits referral payments at all, rather than banning them, should spell out who signs off on each arrangement and which kinds and sizes of payment are acceptable.
+
+LEWIS: The traps for Standard six C. Trap one says no cash means nothing to disclose. Every kind of consideration counts. Trap two says only fees received count. Fees paid count too. Trap three says disclosure at any point is fine. It has to come before the client signs. Trap four says telling the client is enough. The employer needs to know as well.
+
+HEART: The takeaway for Standard six C. Any benefit paid or received for a referral, cash or not, is disclosed with its nature and estimated dollar value, to clients and prospects before they sign, and to your employer.
 
 ## Module 91.9, Guidance for Standard VII
 
-Start with why this Standard exists. A credential is worth something only because people trust what it signals. When an employer sees the CFA designation, it assumes the holder passed a demanding exam honestly and committed to a code of conduct. If people cheat on the exam, leak its content, or exaggerate what the credential means, that signal weakens for everyone who earned it fairly.
+LEWIS: Standard seven is titled Responsibilities as a CFA Institute Member or CFA Candidate. It has two parts. Standard seven A, Conduct as Participants in CFA Institute Programs. And Standard seven B, Reference to CFA Institute, the CFA Designation, and the CFA Program.
 
-Standard seven protects the signal, and it has two halves. Seven A covers your conduct inside CFA Institute programs. Seven B covers the words you use about CFA Institute, the designation and the program.
+HEART: Why would a whole Standard protect a credential? Because a credential is a signal. An employer or a client who sees the designation assumes the holder passed demanding exams honestly and signed up to a code of ethics. If people cheat, leak the exam or stretch what the letters mean, the signal weakens for everyone who earned it fairly.
 
-Standard seven A is Conduct as Participants in CFA Institute Programs. The core idea is that you must not do anything that damages the good name or trustworthiness of CFA Institute and the designation, or that undermines how fair, meaningful and secure its programs and exams are. That reaches candidates sitting the exam, members, and volunteers who help run the programs.
+LEWIS: Think of a currency. Fake banknotes do not just cheat the person who takes them. They make every honest note worth a little less. And this Standard already binds you as a candidate, and the duty to keep the exam confidential lasts long after exam day.
 
-Four kinds of conduct fall clearly inside it. First, cheating, which means giving or receiving help on an exam. Second, breaking the exam rules and testing policies, such as using an unapproved calculator, bringing notes into the testing room, or trying to take exam content out of it. Third, disclosing confidential exam information. That includes specific questions, and it also includes the broad topic areas and formulas that were or were not tested. Fourth, giving false information to CFA Institute about any of its programs, for example on your enrollment or on a request to postpone your exam.
+HEART: Standard seven A, Conduct as Participants in CFA Institute Programs. In plain words, do nothing that tarnishes CFA Institute or the charter, or that chips away at whether its exams and programs are fair, valid and secure. It binds members as well as candidates.
 
-Volunteers, such as people who write or grade exam questions, are also bound to keep what they see confidential. Members are covered as well, so a charterholder who helps a candidate cheat violates seven A. And the duty of confidentiality does not end when you leave the testing room. It continues after the exam, and after results come out, whether you passed or not.
+LEWIS: The conduct it reaches falls into four families. The exam itself: no cheating, meaning giving or getting help, and no breaking the program's rules. Secrecy: reveal nothing about what was tested, whether specific questions, broad topic areas, or formulas that were or were not needed, and pass no confidential program information to candidates or the public. Honesty: give CFA Institute no false information, for example on the annual Professional Conduct Statement or in its continuing education program. And no improper leaning on the designation, or your link to CFA Institute, to get ahead personally or professionally.
 
-Just as important is what seven A does not cover. You are free to express opinions about CFA Institute, its policies, its fees, the curriculum and the exam, and you can disagree loudly and in public. You can study in groups and discuss material that is not confidential, such as the curriculum itself. The line is between your experience and the exam's content. Saying the exam was long and hard is fine. Saying what was on it is not.
+HEART: Start with exam confidentiality, because it is the part people break by accident. The line runs between your experience and the exam itself. How it felt is yours to share. What was on it is not.
 
-Here are four quick cases. A candidate posts after the exam that it was brutal and she has no idea whether she passed. No violation, because she shared her experience, not the content. A second candidate posts that everyone should study option strategies, because there were far more of those questions than expected, and almost nothing on currency exchange rates. That is a violation, because he disclosed broad topic areas that were and were not tested.
+LEWIS: So after the exam, you may say it was long, that it was harder than you expected, that you feel good or terrible about it, and that you are glad it is over. You may not say which questions appeared, which topics carried a lot of weight or hardly showed up, or which formulas you needed or never touched. And that duty does not end when you walk out, or when results arrive, whether you passed or failed.
 
-A third candidate slips a card of formulas into his pocket and carries it into the testing room. That is a violation, because breaking exam rules undermines the validity of the exam for every honest candidate. Finally, a charterholder writes an article arguing that CFA Institute's membership dues are too high. No violation. Criticism of policy is protected.
+HEART: The broad topic point is the trap. Saying there was a lot of one topic feels harmless, because it names no question. But it tells future candidates where to aim, which is exactly the edge the rule exists to prevent.
 
-Now Standard seven B, Reference to CFA Institute, the CFA Designation, and the CFA Program. Whenever you speak or write about CFA Institute, your membership, the charter or your place in the program, you must describe it truthfully and must not inflate what it says about you. Three areas follow from that.
+LEWIS: A case. Fiona sits Level one. A month later, at a family dinner, her cousin mentions he plans to sit the next exam. Fiona tells him not to bother memorizing the formulas from one particular topic, because none of them were needed. Violation?
 
-The first area is membership. Membership is renewed every year. A member completes a membership agreement, pays dues, and files the Professional Conduct Statement, which renews the commitment to the Code and Standards. If a charterholder lets membership lapse, the right to use the designation goes with it, and that person must stop using the designation until the membership is restored.
+HEART: Yes, of Standard seven A. She revealed formulas that were not required. It was a private conversation rather than a public post, but the rule covers any disclosure, to anyone.
 
-The second area is the designation itself. Only charterholders who are members in good standing may place the letters CFA after their name. The letters work as an adjective that describes something else, such as a CFA charterholder, the CFA designation or the CFA Program. They are never a noun, so a person is not "a CFA," and never a verb.
+LEWIS: The contrasting case. Imogen posts, the evening after her exam, that it was the longest day of her life, that she has no idea whether she passed, and that she plans to sleep for a week. Violation?
 
-Here is a quick test. Drop the letters from the phrase and see what is left. A CFA charterholder becomes a charterholder, which still makes sense, so that usage is right. The phrase a CFA becomes just the single word a, which makes no sense, so that usage is wrong.
+HEART: No. That is her experience, not anything about what was tested.
 
-There is no partial designation. Passing a level is an achievement, but it gives you no letters. So a line such as CFA Level two after your name is improper, and so is the designation followed by an expected completion year.
+LEWIS: Next, the exam rules themselves. Exam day comes with its own rulebook: what you may carry into the room, which devices are approved, and the pledge you accept before you start. Break any piece of it and you have broken Standard seven A.
 
-The third area is candidacy. You are a candidate in the CFA Program only when CFA Institute has accepted your enrollment and you are either registered for an upcoming exam or waiting for results. If you passed Level one and have not registered for Level two, you are no longer a candidate, though you can still say, accurately, that you passed Level one of the CFA Program. And even a current candidate must not suggest that being in the program already gives special expertise, or that earning the charter is guaranteed.
+HEART: A case. Stanley walks into the testing room still wearing his smartwatch, although wearable technology has to stay outside. He never once looks at it during the exam. Violation?
 
-What may you say about the program? Accurate, factual statements. You can say the program is rigorous and demanding, that it improved your skills, and that you passed all three levels on your first attempt, or in three consecutive years, if that is true. What you cannot say is that holding the charter makes you a better investment manager, or that charterholders earn higher returns for clients. Those claims tie the credential to performance, and nothing about the credential guarantees performance.
+LEWIS: Yes. Breaking a testing policy is a violation on its own. He did not need to look at the watch, or mean to cheat, for the rule protecting the exam's security to be broken.
 
-Here are four cases. A candidate who is registered for the next exam writes on her profile that she is a Level two candidate in the CFA Program. No violation, because that is accurate. Someone who just passed Level two adds the words CFA Level two after his name on a business card. That is a violation, because it implies a partial designation that does not exist.
+HEART: Then opinions. Members and candidates are free to express their views about the exam program and about CFA Institute, including sharp criticism. The limit is that an opinion cannot carry confidential information along with it.
 
-A charterholder approves a firm brochure saying that because its managers are CFA charterholders, clients can expect superior returns. That is a violation, because it claims the designation produces better results. Finally, a charterholder stops paying dues but keeps signing emails with the letters after his name. That is a violation, because his right to use the designation lapsed with his membership.
+LEWIS: A case. Russell, a charterholder, writes a column in a trade magazine arguing that the exam fees are too high and that the published curriculum spends too long on some subjects and too little on others. Violation?
 
-Here are the traps for Standard seven. In seven A, the tempting wrong answer treats any comment about the exam as a violation. Opinions and feelings are allowed, but content, including broad topic areas, is not. In seven B, the tempting wrong answer treats any positive statement about the program as exaggeration. Accurate facts about the program and about your own exam history are allowed, but claims of superior ability or results are not.
+HEART: No. That is criticism of policy and of the published curriculum, which is not confidential, so it is allowed. Now change one fact. A candidate posts that the exam was unfair because it hammered one narrow topic he had barely studied, and he names the topic. His complaint now reveals a broad topic area that was heavily tested, and that is a violation. The opinion was fine. The detail riding along with it was not.
 
-Also watch the timing of candidacy. A person between levels who has not registered for the next exam is not a candidate.
+LEWIS: Volunteers carry their own version of the rule. If you help write, review or grade the exam, you see the machinery behind it: draft questions, questions already set, and how answers are marked and points awarded. None of it leaves with you, and you may not fish for it from other volunteers either.
 
-So, the rule for this module. Protect the exam by keeping its content confidential and following its rules, while staying free to share opinions. Describe the designation and your candidacy accurately, as facts, never as a promise of better performance.
+HEART: A case. Josephine, a charterholder, volunteers to review draft questions for a future exam. At a networking event, a group of candidates asks how to prepare, and she tells them that many of the drafts she saw focused on one area. Violation?
+
+LEWIS: Yes. She revealed information about questions under consideration. Her volunteer role made her a keeper of confidential material, not a source of tips.
+
+HEART: And a case about honesty with CFA Institute. Warren, a charterholder, is the subject of a written complaint from a former client. His annual Professional Conduct Statement asks about exactly that, and he answers no. Violation?
+
+LEWIS: Yes. He gave false information to CFA Institute on the statement it relies on to oversee its members, which falls squarely within Standard seven A.
+
+HEART: The traps for Standard seven A. Trap one treats any comment about the exam as a violation. Feelings and opinions are fine. Trap two treats broad topics as safe because they are not specific questions. Broad topics, and formulas needed or not needed, are confidential too. Trap three says a broken rule does not count without intent to cheat. Breaking a testing policy is a violation by itself. Trap four says confidentiality ends once results are out. It does not.
+
+LEWIS: The takeaway for Standard seven A. Do not cheat, follow every exam rule, never reveal anything about what was on the exam, and tell CFA Institute the truth. Your opinions, even harsh ones, stay free.
+
+HEART: Standard seven B, Reference to CFA Institute, the CFA Designation, and the CFA Program. In plain words, whenever you mention CFA Institute, your membership, the designation or your candidacy, describe it truthfully, and never misrepresent it or stretch what it says about you.
+
+LEWIS: Why does it exist? The designation tells the world that someone passed three demanding exams, built the required work experience and committed to a code of ethics. That is valuable, and the temptation is to stretch it into something it is not, a promise of superior skill or of results.
+
+HEART: Which gives the first rule. Never turn the designation into a sales promise. So you cannot hold up the charter as proof that someone is more skilled than other professionals, or as a sign that clients will earn more or risk less.
+
+LEWIS: A case. Hector earns his charter in the spring. On a call with a nervous prospective client whose last adviser lost her money, he says that with a charterholder now running her portfolio, she will not see losses like that again. Violation?
+
+HEART: Yes, of Standard seven B. The charter says nothing about future losses or returns, and promising lower risk because of it exaggerates what it means. A compliant version would say he holds the CFA charter and describe what earning it requires.
+
+LEWIS: Then the membership rules. Membership is renewed every year. Each year a member signs the annual Professional Conduct Statement and pays dues, along with completing the yearly membership agreement. Let that lapse, and the person is no longer an active member. A charterholder who is not an active member must stop showing the designation until membership is restored.
+
+HEART: A case. Ambrose let his membership lapse years ago when he left finance to run a bakery. Now back in the industry, his firm biography says he was a CFA charterholder earlier in his career, and his name carries no letters. Violation?
+
+LEWIS: No. A former charterholder may truthfully say he held the charter in the past. What he may not do is put the letters after his name, or describe himself as a current charterholder, until he reactivates his membership.
+
+HEART: Now the letters themselves. The letters CFA are a certification mark, and they work as an adjective, never as a noun. They describe something: a CFA charterholder, the CFA designation, the CFA Program, the CFA exam. A person is never a CFA.
+
+LEWIS: Here is a quick test. Drop the letters and see whether the sentence still works. She is a CFA charterholder becomes she is a charterholder, which still makes sense, so the usage is right. She is a CFA becomes she is a, which makes no sense, so the usage is wrong.
+
+HEART: A charterholder who is a member in good standing may also put the letters after their name, set off with a comma. What nobody may do is turn the letters into a job title or a piece of a firm's name.
+
+LEWIS: Then the partial designation trap. There is no partial designation. Passing Level one or Level two is a real achievement, but it earns no letters. So writing CFA Level one after your name is improper, and so is the designation followed by an expected completion year.
+
+HEART: A case. Edwina passes Level one and updates her networking profile so that her name is followed by the words CFA, expected twenty twenty eight. Violation?
+
+LEWIS: Yes. It shows a designation she does not hold, as if it were partly earned and on its way. What she can write is that she passed Level one of the CFA Program.
+
+HEART: Next, candidacy, where timing is everything. You are a candidate in the CFA Program only while CFA Institute has accepted you into the program and you are either registered for an upcoming exam or waiting for the results of one you sat. Between levels, if you have not registered for the next exam, you are not a candidate.
+
+LEWIS: A case. Esther passed Level one last year and has not registered for Level two. Her biography in a conference program describes her as a Level two candidate in the CFA Program. Violation?
+
+HEART: Yes. Until she registers for the Level two exam, she is not a candidate. Accurate wording would be that she passed Level one of the CFA Program, and the day she registers, she may call herself a Level two candidate.
+
+LEWIS: And even a current candidate must not suggest that being in the program already brings special expertise, or that the charter is sure to follow.
+
+HEART: So what may you say? Accurate facts. You may say the program is rigorous, that the exams are demanding, that charterholders commit to a code of ethics, and, as your own view, that earning the charter sharpened your skills. You may also state true facts about your own exam history, such as passing all three levels in consecutive years, or each on the first attempt.
+
+LEWIS: But not the leap. A case. Philippa's biography says she passed all three levels while working full time as a trader, which is true. The next sentence says this proves she reads markets better than anyone else on her team. Violation?
+
+HEART: The first sentence is fine. The second violates Standard seven B, because it claims superior ability on the strength of her exam history.
+
+LEWIS: One recommendation for members rounds out the Standard. Firms get these references wrong all the time, so check that your own firm describes your charter or your candidacy correctly. The usual slips are marketing copy that refers to the firm's CFAs, and business cards that put the letters after a candidate's name.
+
+HEART: A case. Gideon, a charterholder, notices that his firm's new website says the investment team includes three CFAs. He sends the marketing team the correct wording, three CFA charterholders, and they fix it. Violation?
+
+LEWIS: No. That is the recommended procedure in action.
+
+HEART: The traps for Standard seven B. Trap one treats any positive statement about the program as exaggeration. Accurate facts and clearly stated opinions are fine, and only promises of skill or results cross the line. Trap two allows a partial designation for passing a level. There is none. Trap three assumes you stay a candidate between levels. You are a candidate only while registered for an exam or awaiting results. Trap four assumes the letters last forever. They last as long as active membership does. And trap five makes the letters a noun.
+
+LEWIS: The takeaway for Standard seven B. Describe the designation, your membership and your candidacy as plain facts. The letters are an adjective, there is no partial charter, and the credential never promises results.
 
 ## Recall check
 
-Q: An analyst is told to cover a company whose chief executive is her sister. Which action best follows Standard six A: disclose the relationship in a footnote, ask to be reassigned, or sell any shares of the company she owns?
+LEWIS Q: An analyst owns shares in a company she covers. Her only mention of the holding is a line in the fine print of a long legal appendix on her firm's website. Has she satisfied Standard six A?
 
-Answer: Asking to be reassigned is best. Six A puts avoiding the conflict first whenever that is reasonably possible, and a family tie this close is hard to cure with disclosure alone. A footnote also fails the test of prominent, plain language disclosure, and selling shares does nothing about the family relationship.
+HEART: Answer. No, because the disclosure is neither prominent nor plain. Here is why. Standard six A asks you to avoid the conflict where you reasonably can, and when you disclose instead, the disclosure must be prominent, in plain language and effective. A line buried in fine print does not reach the people relying on her research. Avoiding the conflict, or a clear statement in the report itself plus telling her employer, would have met the Standard.
 
-Q: A manager plans to buy a stock for all of his clients this afternoon, and he wants some for himself as well. Under Standard six B, what is the correct sequence?
+HEART Q: Another analyst keeps a small holding in a stock she covers. Every report on it opens with a plain sentence saying so, and her employer knows about it. Violation?
 
-Answer: Client orders go first, and his personal order comes only after they are complete, subject to any firm blackout period and preclearance rule. Owning the same stock as his clients is allowed. Buying before them would be front running.
+LEWIS: Answer. No. Here is why. Ownership is a conflict, and the most common one, but the Standard asks you to avoid it or disclose it properly, not to own nothing. Her disclosure is prominent and plain, and it reaches both her readers and her employer. Her firm could choose to ban the holding, but the Standard itself is met.
 
-Q: An adviser receives one half of one percent per year of any assets she refers to an outside manager. A prospect plans to place 300,000 dollars. What estimated annual value should she disclose, and when?
+LEWIS Q: A portfolio manager will buy a stock across his client accounts this morning, and he would like some for himself. May he buy it, and when?
 
-Answer: One half of one percent of 300,000 dollars is 1,500 dollars per year. Under six C she must disclose the nature of the fee, a continuing fee based on assets, along with that estimated value, before the prospect enters a formal agreement. Her employer must know about the arrangement too.
+HEART: Answer. Yes, but only after the client orders are done and clients have had an adequate chance to act, within any blackout and preclearance rules. Here is why. Standard six B puts clients first, the employer next and the manager's own accounts last. Owning what clients own is allowed. Buying before them would be front running, because his order could profit from theirs and push up the price they pay.
 
-Q: A financial planner and an accountant send clients to each other, but no money ever changes hands. Is disclosure required under Standard six C?
+HEART Q: A manager trades his adult son's account. The money is the son's, and the manager gets nothing from it. Do his trades in that account fall under Standard six B?
 
-Answer: Yes. Six C reaches anything of value tied to a recommendation, not just cash. A reliable flow of referred clients is a benefit, so the arrangement must be disclosed to the employer, clients and prospects.
+LEWIS: Answer. Yes, because he is a beneficial owner of that account. Here is why. Beneficial ownership covers owning an investment, controlling it, having the power to direct it, or having a material interest in it, and immediate family accounts are covered as well. Control alone is enough. So his trades there wait behind client and employer trades, like any personal trade.
 
-Q: Which post made after the exam is most likely a violation of Standard seven A: the exam was much harder than I expected, CFA Institute should lower its fees, or study ethics hard because there were more ethics questions than I expected?
+LEWIS Q: A manager's daughter is a fee paying client in his growth strategy. When the strategy adds a new holding, he buys it for every account except hers, so that nobody can say he favors family. Violation?
 
-Answer: The third post. It discloses a broad topic area and how heavily it was tested, which is confidential exam information. The first post shares a personal experience and the second is an opinion about policy, and both are allowed.
+HEART: Answer. Yes. Here is why. A family member who is a client is treated like every other client, with no special favor and no penalty. Leaving the daughter out disadvantages her as a client, which is just as wrong as buying for her first. Her account belonged in the same order as everyone else's.
 
-Q: Which description is acceptable under Standard seven B for someone who passed Level one and is registered for the next Level two exam: CFA Level two, a CFA, or Level two candidate in the CFA Program?
+HEART Q: A friend who founded a private company offers a portfolio manager a stake in its private funding round. Her firm requires approval for private placements. What should she do?
 
-Answer: Level two candidate in the CFA Program is acceptable, because the person is registered for an upcoming exam. CFA Level two implies a partial designation that does not exist. Calling someone a CFA uses the letters as a noun, which is never proper, and only charterholders may put the letters after their name.
+LEWIS: Answer. Ask her firm for approval before investing, or turn the stake down. Here is why. Private placements raise the same kind of conflict as IPOs, so firms set strict limits and supervise them. A private stake can work as a favor meant to win her goodwill, and it could later tempt her to steer client money toward the company to lift the value of her own stake. Preclearance lets the firm judge that conflict before it exists.
 
-## Recap
+LEWIS Q: An adviser takes no money for sending clients to a mortgage broker, but the broker lets her hold client meetings in his office conference room free of charge. Must she disclose this under Standard six C, and when?
 
-Standard six A, Avoid or Disclose Conflicts, puts avoidance first and disclosure second, and any disclosure must be prominent, in plain language and effective, delivered to both clients and the employer. Standard six B, Priority of Transactions, ranks client and employer trades ahead of any trade in which you are the beneficial owner, and that includes your family's accounts and any account you control or have an interest in. Personal investing is allowed, but front running and taking shares clients wanted are not, and a family member who is a fee paying client gets exactly the same treatment as any other client.
+HEART: Answer. Yes, and before a client enters a formal agreement for services. Here is why. Standard six C covers every kind of consideration, not just cash, and free office space has real value. Clients need its nature and estimated dollar value up front to judge whether her referrals might be partial and what the service really costs. Her employer needs to know as well.
 
-Standard six C, Referral Fees, requires disclosure of any benefit paid or received for a referral, cash or not, including its nature and estimated dollar value, before the client signs. Standard seven A, Conduct as Participants in CFA Institute Programs, forbids cheating, breaking exam rules, revealing exam content, including broad topics tested or not tested, and giving false information to CFA Institute, while opinions and criticism stay free. Standard seven B, Reference to CFA Institute, the CFA Designation, and the CFA Program, allows accurate facts but forbids partial designations, using the letters as a noun, using them after membership lapses, and any claim that the charter means better performance. You are a candidate only while registered for an upcoming exam or awaiting results.
+HEART Q: A charterholder who runs an advisory firm pays a local accountant for every client the accountant sends over. Does Standard six C apply when the charterholder pays rather than receives?
+
+LEWIS: Answer. Yes. Here is why. The Standard covers benefits paid to others as well as benefits received. A client who arrives through a paid referral should know the referrer had a financial reason to praise the firm. So the arrangement, its nature and its estimated value are disclosed before that client signs.
+
+LEWIS Q: The morning after her exam, a candidate tells her manager it was exhausting and she has no idea whether she passed. He asks whether there was much fixed income, and she says it barely came up. Which part, if any, violates Standard seven A?
+
+HEART: Answer. Only her answer about fixed income. Here is why. Describing how tiring the exam felt, or how she thinks she did, reveals nothing about what was tested. Saying a topic area barely came up reveals how heavily a broad topic was tested, which is confidential exam information. That holds even though no specific question was named and her own manager asked.
+
+HEART Q: A candidate leaves her phone, switched off, in her jacket pocket in the testing room, and never touches it. Violation?
+
+LEWIS: Answer. Yes, of Standard seven A. Here is why. Phones are not allowed in the testing room, and breaking any exam policy, including the rules on personal belongings, is a violation in itself. The policies protect the security and validity of the exam for every candidate. Intent to cheat is not part of the test.
+
+LEWIS Q: A charterholder is asked to approve a press release saying the firm's new hire is a CFA. Should she approve it as written?
+
+HEART: Answer. No, it should say the new hire is a CFA charterholder. Here is why. The letters are a certification mark meant to work as an adjective, describing a charterholder, the designation or the program. Drop the letters from the right version and the new hire is still a charterholder, which makes sense. Drop them from the press release and the sentence ends at is a, which makes none. That shows the original wording treats the letters as a noun, which is never proper.
+
+HEART Q: Someone sat the Level two exam last month, is still waiting for her result, and has not registered for anything else. May she describe herself as a candidate in the CFA Program?
+
+LEWIS: Answer. Yes, as a Level two candidate in the CFA Program, until her result arrives. Here is why. You are a candidate only while CFA Institute has accepted you and you are registered for an upcoming exam or waiting for results. Once her result arrives, she stops being a candidate unless she registers for another exam, and calling herself one after that would misstate her status under Standard seven B.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: For Standard six A, avoid first, disclose second. A disclosure has to be prominent, plain and effective, so think front page, plain words, actually understood. It goes to clients, prospects and your employer.
+
+HEART: The conflicts to listen for are what you own, how you are paid, the boards you sit on, and the firm's own business with the company, such as market making and investment banking. A big change in pay means an updated disclosure.
+
+LEWIS: For Standard six B, guests, then the house, then the cook. Clients trade first, the employer second, and you last. The cook may eat the same dish, just never first.
+
+HEART: For beneficial ownership, if you own it, control it, can direct it or share in it, it counts as yours. And a relative who is a client is simply a client, never first in line and never last.
+
+LEWIS: The firm's personal trading toolkit: limit IPOs, restrict private placements, set blackout windows, and require reporting, meaning holdings reports, duplicate confirmations and preclearance.
+
+HEART: For Standard six C, paid or received, cash or kind, name it and value it before they sign. Keep your employer posted at least quarterly.
+
+LEWIS: For Standard seven A, share the experience, never the exam. How it felt is yours. What was on it, down to broad topics and formulas, is not, and that duty outlasts results day. Opinions are free. And a broken testing rule counts even if you never meant to cheat.
+
+HEART: For Standard seven B, the letters are an adjective, so run the drop test. No partial charter and no expected years. A candidate is registered or waiting for results, nothing in between. Lapse the membership, lose the letters. And state facts, never promises. Passing on the first try is a fact you may state. Claiming it makes you better is a violation.
+
+LEWIS: Now, how you would say the big ideas to a senior leader.
+
+HEART: On conflicts: when we have a stake in what we recommend, we step away if we can, and if we cannot, we tell clients and the firm plainly and up front, where they will see it. The jargon is avoid or disclose conflicts, with prominent, plain language disclosure.
+
+LEWIS: On personal trading: our people never trade ahead of clients or the firm, and we check that with advance approval, blackout windows and copies of their personal trades. The jargon is priority of transactions, front running, beneficial ownership, blackout periods and preclearance.
+
+HEART: On referral fees: if we pay anyone, or anyone pays us, for sending business, the client learns what kind of payment it is and roughly what it is worth before signing. The jargon is referral fees and consideration, with its nature and estimated dollar value.
+
+LEWIS: On the exam: candidates can say the exam was hard, but never what was on it, and anyone can criticize the program as long as they keep its secrets. The jargon is conduct as participants in CFA Institute programs and exam confidentiality.
+
+HEART: And on the credential: the charter shows that someone passed three hard exams and committed to an ethics code. It is not a promise of better returns, and only charterholders with current membership may put the letters after their names. The jargon is reference to the CFA designation, the certification mark and candidacy in the CFA Program.
