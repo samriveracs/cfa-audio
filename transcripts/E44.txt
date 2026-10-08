@@ -1,177 +1,305 @@
-## The big picture
-
-Standard one, Professionalism, is the foundation for everything else in the Standards of Professional Conduct. It has five parts.
-
-Standard one A is Knowledge of the Law. Standard one B is Independence and Objectivity. Standard one C is Misrepresentation. Standard one D is Misconduct. Standard one E is Competence.
-
-This episode takes them in two modules. The first covers the law and independence. The second covers misrepresentation, misconduct and competence. Every Standard applies to CFA Institute members and to candidates in the CFA program, so all five apply to you right now.
-
-Here is the thread that ties the five together. A client hires you because they cannot check everything you do. They have to trust that you follow the rules, that your opinion is really yours, that what you tell them is true, that you deal honestly, and that you actually know what you are doing. Each part of Standard one protects one piece of that trust.
-
-On the exam, ethics questions are short stories. Someone does something, and you decide whether it is a violation, which Standard it touches, or what the person should do next. The wrong answers tempt you because they sound reasonable in everyday life. Following local law sounds fine. Accepting a thank you gift sounds polite. Rewording someone else's research sounds like your own work.
-
-The Standards often ask for more than ordinary good manners do, and the exam lives in that gap. Keep two questions in your head for every vignette. First, what did the person know, or what should they have known? Second, did their action, or their silence, weaken the client's ability to trust them? Those two questions settle most Standard one problems.
+LEWIS: This episode covers Standard one, Professionalism, in its five parts: knowing and following the law, keeping your judgment independent, never misrepresenting your work, avoiding misconduct, and keeping up your competence. For each part you will hear what it requires, why it exists, the procedures that prevent violations, the classic traps, and short cases that each end in a verdict.
 
 ## Module 91.1, Guidance for Standards I(A) and I(B)
 
-Standard one A is Knowledge of the Law. In plain words, it asks three things of you. First, understand and follow every law, rule and regulation that governs your professional work. That means securities law, rules from regulators and licensing bodies, rules from professional associations, and the Code and Standards themselves. Notice that last item. The Code and Standards count as one of the rule sets you must obey.
+HEART: Ethics questions on this exam are short stories. Someone does something, and you decide whether it breaks a Standard, which one, or what the person should do next. Ethics, together with the short reading on the Global Investment Performance Standards, carries roughly fifteen to twenty percent of the exam, and nearly all of it comes down to applying a small set of rules to situations like these.
 
-Second, when the rules conflict, follow the stricter one. Third, never knowingly take part in a violation or help someone commit one, and if you find yourself connected to one, separate yourself from it. That separation is called dissociation.
+LEWIS: The Standards of Professional Conduct come in seven groups, Standard one through Standard seven, and between them they hold twenty three subsections, each one an individual Standard. They bind every CFA Institute member and every candidate in the program, so they apply to you now, and every person in this episode's cases is one of them. Standard one, Professionalism, holds five of the subsections, and this episode covers all five. Standard one A, Knowledge of the Law. Standard one B, Independence and Objectivity. Standard one C, Misrepresentation. Standard one D, Misconduct. And Standard one E, Competence.
 
-Why does the stricter rule exist? Investment work crosses borders all the time. A rule that simply said obey the local law would let people shop for the loosest jurisdiction. The stricter rule closes that door. Wherever you work, the Code and Standards set a floor, and any applicable law that is tougher than the Code raises the floor.
+HEART: Three habits will carry you through these questions. First, many Standards turn on judgment words, such as reasonable or token, that come with no exact line. Exam stories are built so the facts land well clear of that line, on one side or the other. When you hear lavish, luxury, first class or all expenses paid, the story is telling you the line was crossed.
 
-Here is how to apply it without getting lost. Step one, identify which laws actually govern the activity. Depending on how those laws are written, that could be the law where the business is done, the law of your home country, or both. Step two, compare the toughest applicable law with the Code and Standards. Step three, follow whichever demands more.
+LEWIS: Second, the codes matter less than the ideas. You will seldom need to recall that a rule is one B rather than six A. What you do need is to spot the duty at stake and match it to the right Standard by name. And one act can break more than one Standard at the same time.
 
-Put more simply, there are three outcomes. If the law is looser than the Code, follow the Code. If the law is tougher than the Code, follow the law. If there is no relevant law at all, the Code still applies in full.
+HEART: Third, and this is the big one, watch for the excuse built into the story. My boss told me to. The client agreed. It is legal here. Everyone does it. It was a small amount. Almost always, the excuse changes nothing. When the act itself is off limits, a sympathetic reason for doing it is no defense. The exception is a Standard where intent is part of the test, such as knowingly misleading someone. There, what the person knew does matter.
 
-Two quick vignettes. Theo works in a country with no law against trading on inside information. A banker friend tells him about an unannounced takeover, and Theo buys the target's shares for himself. That is a violation. Local law was silent, but the Code prohibits acting on material nonpublic information, so the Code governed. You will study that prohibition properly in the next episode.
+LEWIS: Standard one A, Knowledge of the Law. In plain words, it asks three things. Know and obey every law, rule and regulation that governs your professional work, whether it comes from a government, a regulator, a licensing body or a professional association. When two of those rules disagree, follow the stricter one. And never knowingly take part in or help with a violation, and if you find yourself connected to one, step away from it. That stepping away is called dissociation.
 
-Ines works in a country whose regulator bars investment advisers from accepting any gift from a broker, however small. The Code is looser here, because it tolerates modest gifts. Ines accepts a small gift card from a broker, reasoning that the Code allows it. That is also a violation. The local rule was stricter, so the local rule governed. Notice the symmetry, because you never get to pick the looser of the two.
+HEART: Notice one item hiding in that list. The Code and Standards themselves count as one of the rule sets you must obey. So, technically, a violation of any other Standard is also a violation of Standard one A. That is why it sits first, like an umbrella over everything that follows. On the exam, though, the answer wanted is usually the specific Standard that was broken.
 
-Now dissociation, which is a heavily tested piece of this Standard. Suppose you discover that colleagues are doing something illegal or unethical. The expected response is a sequence. First, try to stop it. Raise it with your supervisor or the compliance department.
+LEWIS: Why does the stricter rule principle exist? Picture two neighboring countries. One bans a practice, and the other has no rule about it at all. If professionals only had to follow local law, anyone could move the questionable business across the border and carry on. Laws also lag behind new products, and they differ widely from place to place. The Code and Standards set a floor that travels with you wherever you work, and any law that is tougher than the Code raises that floor.
 
-Second, if that fails, separate yourself. Refuse to work on the matter, ask to have your name removed from the report or the marketing piece, decline to use the misleading numbers, or ask for a different assignment. Third, in extreme cases, dissociation may mean leaving the firm. Throughout, it is wise to document what you saw and what you did about it.
+HEART: You can answer to three rulebooks at once: the Code and Standards, the law of the country you live in, and the law of the country where the business happens. Run your action past all three. If it passes every one, you are fine, which in practice means the toughest of the three decides.
 
-Here is the key idea behind all of this. Silence is not neutral. If you know about a violation and simply keep working alongside the people involved without acting, you can be treated as having taken part in it.
+LEWIS: So there are three outcomes to keep straight. If the law is looser than the Code, follow the Code. If the law is tougher than the Code, follow the law. And if there is no relevant law at all, the Code still applies in full.
 
-A vignette. Felix, a junior analyst, notices that the performance table in his firm's sales presentation leaves out several accounts that were closed after heavy losses. He mentions it to his manager, who tells him not to worry. Felix keeps updating the presentation each quarter, and his name stays on it. That is a violation. He knew the presentation was misleading, his first step failed, and he stayed associated with it.
+HEART: A case for the first outcome. Rafael manages money in a country whose securities law says nothing about trading ahead of clients. He learns that his firm is about to buy a large block of a thinly traded stock for client accounts, and he buys some for himself first, knowing the client orders will push the price up. Is that a violation?
 
-What should Felix have done? He should have gone to compliance, refused to keep working on the piece and had his name removed. If the firm still refused to fix it, leaving could become the right call.
+LEWIS: Yes. Local law was silent, but the Code and Standards require client trades to come before your own, so the Code was the stricter rule and it governed. You will meet that rule properly later as Standard six B, Priority of Transactions. For now, the point is that legal does not mean allowed.
 
-Notice what Felix was not required to do. The Standards do not require you to report a violation to a government regulator unless the law itself requires that report. Voluntary reporting can be appropriate in some situations, but it is not the default duty. Reporting suspected violations of the Code by other members and candidates to the CFA Institute Professional Conduct Program is strongly encouraged, but this Standard does not require it either.
+HEART: Now the mirror image. Paula works where the regulator bars investment advisers from accepting any meal or entertainment from a broker, however modest. The Code would tolerate an ordinary business dinner. A broker invites her to one, and she goes, reasoning that the Code allows it. Violation?
 
-Two more points. First, you are not expected to be a legal expert in everything. You must know the laws and rules that relate to your own responsibilities, and the depth depends on your role. A portfolio manager does not need to master the detailed audit rules that the finance department handles, while a senior manager who supervises many functions needs broader knowledge than a junior analyst. Second, when you are unsure, ask your compliance department or legal counsel. Getting advice is sensible, but relying on that advice does not remove your own duty to comply.
+LEWIS: Yes again. This time the local rule was stricter, so the local rule governed. You never get to pick the looser of the two, in either direction.
 
-The recommended procedures are practical. Stay informed about changes in the rules that apply to you, through firm training or regular updates. Keep current reference copies of the key laws and regulations, or know exactly where to find them. Document any violation you see and every step you take in response. Firms, in turn, should maintain written compliance procedures, share them with employees and give people a clear way to raise concerns.
+HEART: How much law are you expected to know? Not every law in existence. You must understand the rules that relate to your own responsibilities, and the depth grows with your role. A junior analyst needs the rules that touch research. Someone who supervises many functions needs much broader knowledge. And when you are unsure whether something is legal, ask a supervisor, the compliance department or a lawyer. Getting advice is sensible, but advice never takes away your own duty to comply.
 
-Here are the exam traps for Standard one A. The first trap is the answer that says the member followed local law, so there is no problem. If the Code is stricter, local law is not enough. The second trap is the answer that says the member must immediately report to the regulator. Usually the correct answer is to dissociate, unless the vignette says the law requires a report.
+LEWIS: Now dissociation, the part of Standard one A that generates the most questions. Suppose you discover that colleagues, or a client, are breaking the rules. The expected response comes in steps.
 
-The third trap is the answer that says the member must resign at once. Resignation is the last resort, after trying to stop the conduct and after separating yourself from it. The fourth trap is staying quiet and calling it neutrality.
+HEART: Step one, try to get it fixed. Raise it with your supervisor or the compliance department. Step two, if they will not or cannot fix it, step away. Stop working on the matter, ask for your name to come off the report or the pitch book, decline to pass the material along, ask for a different assignment, or end your work for that client. Step three, only in an extreme case where you cannot otherwise get clear of it, you may have to leave the firm.
 
-So the rule to hold onto for Standard one A is this. Follow the stricter of the applicable law and the Code and Standards. Never knowingly participate in or assist a violation. If you are connected to one, try to stop it, and then dissociate.
+LEWIS: Throughout, keep written notes of what you saw and what you did about it, and keep encouraging the firm to put an end to the problem. Those notes protect you, and they make clear you were not part of it.
 
-Now Standard one B, Independence and Objectivity. In plain words, it asks two things. First, work actively and sensibly to keep your professional judgment unbiased and your own, not just once but all the time. Second, never give, request or take anything of value, whether a present, a perk, a payment or a favor, if a reasonable person would expect it to bend your judgment or someone else's.
+HEART: Here is the idea underneath. Silence is not neutral. If you know about a violation and simply carry on working alongside it, you can be treated as having taken part. Knowingly is the key word. You are not responsible for wrongdoing you had no way to see. But once you know, or plainly should have known, the clock starts.
 
-Two details in that wording deserve attention. The test is whether the benefit could reasonably be expected to compromise you. It does not matter that you personally feel uninfluenced. The question is how it would look to a reasonable outsider. And the prohibition runs in both directions. Offering a lavish benefit to sway someone else's judgment is just as much a violation as accepting one.
+LEWIS: A case. Kenji works in operations at an asset manager. He notices that his team has been skipping the identity checks the law requires before opening new accounts, to speed things up for the sales team. He tells his manager, who shrugs and says the deadline matters more. Kenji keeps processing the accounts. Violation?
 
-Why does this exist? Clients pay for an honest opinion. Every analyst and manager works amid pressures that push the opinion away from the evidence. Standard one B names those pressures so you can recognize them. Six of them come up again and again.
+HEART: Yes. He knew the process broke the law, his first step failed, and he kept helping. The right path was to go to compliance next, stop processing accounts that skip the checks, and keep notes of what happened. If the firm still would not fix it, leaving could become the right call.
 
-The first pressure is gifts and entertainment. Modest gifts and ordinary business entertainment are acceptable. Lavish ones are the problem. The source of the gift matters a great deal. A gift from an existing client is treated more leniently, because a client thanking you for good work is not trying to turn you against your other clients.
+LEWIS: Now, what Kenji was not required to do. The Standards do not require you to report wrongdoers to a government regulator. Local law sometimes does, and then you must. Members and candidates are strongly encouraged to report violations of the Code by other members and candidates to the CFA Institute Professional Conduct Program, but encouraged is not the same as required.
 
-Even so, you must disclose a client gift to your employer, ideally before you accept it, and otherwise afterward. That disclosure lets your employer check whether the generous client is getting special treatment. A gift from someone who wants your business, or wants to shape your opinion, deserves far more caution. Think of a broker who wants your trades, a company you cover or an outside manager who wants a mandate. Anything beyond token value from those sources should be declined. Many firms set a dollar cap on gifts, which makes the line easy to apply.
+HEART: The recommended procedures for Standard one A are practical. For members, keep up with rule changes that touch your work, and push your firm to have a system that tells everyone when the rules move. Go back over the firm's compliance manual from time to time, or press the firm to do it. Make sure up to date copies of the rules that matter are on hand. Ask for help when in doubt. And when you dissociate, write down what went wrong and keep pressing your employer to stop it.
 
-The second pressure is travel. When you visit a company or a property, the best practice is that you or your employer pay for commercial travel and hotels. Accepting a company's private transport is acceptable only when commercial travel is not practical, such as a remote site, and the arrangements stay modest.
+LEWIS: For firms, put a code of ethics in place, make sure staff know which laws and rules apply to their jobs, and give people a clear channel for flagging suspected violations.
 
-The third pressure is on the sell side, from investment banking. Banking fees are large, and a negative research rating can cost the bank a client. Firms manage this by separating research from banking and by making sure analyst pay is not tied to banking deals. If a firm is unwilling to let negative opinions about a banking client be published, the better course is to put that company on a restricted list and publish only factual information about it, rather than publish a falsely positive opinion. Companies can also pressure analysts directly, for example by threatening to cut off access to management after a negative report. The analyst's duty is to keep the opinion honest anyway.
+HEART: Now the traps for Standard one A. Trap one is the answer that says it was legal locally, so there is no problem. If the Code is stricter, local law is not enough. Trap two is the answer that says the member must immediately report to the regulator. Unless the story says the law requires a report, the expected path is to raise it internally and then dissociate.
 
-The fourth pressure is on the buy side. A portfolio manager who already owns a stock may lean on the in house analyst for a favorable view. A manager whose fees depend on a strategy may resist an honest negative assessment of it.
+LEWIS: Trap three is the answer that says resign at once. Resignation is the last resort, after trying to get it fixed and after trying to step away. Trap four is the answer that treats doing nothing as staying neutral. Staying silent while you keep working on the problem counts as taking part.
 
-The fifth pressure is issuer paid research, where a company pays an independent analyst to cover it. This is allowed, but the pay structure must not reward a particular conclusion. The analyst should receive a flat fee set in advance, regardless of what the report concludes. Payment in the company's stock or warrants, or bonuses tied to the share price or a favorable rating, are not acceptable. The arrangement must be disclosed in the research.
+HEART: The takeaway for Standard one A. Follow the stricter of the law and the Code. Never knowingly take part in a violation. If you are connected to one, speak up, then step away, and leave only in an extreme case.
 
-The sixth pressure appears when people hire outside managers, rate credit or measure performance. Someone choosing outside managers must not accept gifts or benefits from the managers competing for the mandate, and those managers must not offer gifts or political contributions to win it. That practice is often called pay to play. Credit rating analysts face pressure from issuers who want a better rating, and performance analysts may be pressed to soften results for a powerful colleague. The duty is the same in each case. Keep the analysis honest.
+LEWIS: Standard one B, Independence and Objectivity. In plain words, it asks two things. First, take reasonable care to keep your professional judgment unbiased and your own, and keep it that way over time. Second, never offer, ask for or accept anything of value, whether a present, a perk, a payment or a favor, if it could reasonably be expected to bend your judgment or someone else's.
 
-Four vignettes. Owen, a portfolio manager, receives a pair of concert tickets from a long standing client after a strong year. He tells his supervisor and accepts. That is not a violation. It is a modest client gift, and he disclosed it to his employer.
+HEART: Two details in that. The test is what a reasonable outsider would expect, not how you feel. Saying the gift did not influence you does not answer the question. And the ban runs three ways. Offering a compromising benefit to someone else is a violation, just as asking for one or accepting one is.
 
-Mila is a buy side analyst. Her firm is choosing which brokers will receive its trading business, and one broker offers Mila an all expenses paid weekend at a golf resort. She accepts and tells her supervisor. That is a violation. The benefit is lavish, it comes from a party seeking business, and it could reasonably be expected to affect her judgment. Disclosure does not cure it.
+LEWIS: Why does it exist? A client pays for an honest opinion. If that opinion can be steered by whoever offers the nicest perk, the client is paying for an advertisement. The pressure takes familiar forms. Someone wants a stock rated higher, or a particular fund manager or supplier chosen, or a report tilted kinder or harsher than the evidence supports. Letting any of that pressure shape your analysis is a violation.
 
-Arjun is a sell side analyst with a sell rating on a company. His firm's bankers are pitching that company for a bond deal and ask him to soften the rating. With no new information, he moves the rating to hold. That is a violation. The rating changed because of internal pressure, not evidence. He should keep his view, and if the firm will not publish it, the company belongs on the restricted list rather than under a false opinion.
+HEART: Start with gifts and entertainment. Ordinary business entertainment is fine, such as a working lunch or a modest dinner with a broker you already deal with. What crosses the line is anything that could reasonably be expected to influence you. The Standards give no dollar figure for a token gift. Firms are encouraged to set their own limit, which makes the rule easy to apply day to day. On the exam, the story will tell you which side of the line you are on.
 
-Talia, an independent analyst, writes paid research on a small company. She receives a flat fee agreed in advance, not linked to her conclusions, and the report discloses who paid and how. That is not a violation. Had part of her pay been warrants in the company, or a bonus if the rating were positive, it would be.
+LEWIS: The source of the gift matters a great deal. A gift from a client is treated as less likely to compromise you than a gift from anyone else. A client thanking you for good service wants more of the same, so the gift pulls in the same direction as your duty to that client. The real risk is favoritism, where a generous client gets better treatment than other clients. So the rule is disclosure. Tell your employer about a client gift before you accept it if you can, and promptly afterward if you cannot.
 
-The recommended procedures follow directly. Keep a written policy on independence and objectivity. Use restricted lists. Separate research from banking and keep analyst pay independent of deals. Pay your own way on commercial travel. Limit gifts to token items with a clear value cap, require disclosure of client gifts, and review research for signs of pressure.
+HEART: Gifts from everyone else, such as brokers, companies you cover, or managers who want your business, should be limited to token items. Those are the givers most likely to want something back.
 
-Here are the exam traps for Standard one B. The first trap is believing disclosure fixes everything. Disclosure is required for client gifts, but it does not make a lavish gift from a party seeking influence acceptable. The second trap is believing all gifts are banned. Modest gifts are fine, and client gifts are fine with disclosure.
+LEWIS: A case. Marcus is a wealth adviser. After a strong year, a long standing client who owns a small vineyard sends him a few bottles of her wine. Marcus emails his compliance officer before accepting, and then keeps them. Violation?
 
-The third trap is assuming issuer paid research is forbidden. It is allowed when the fee is flat, set in advance and disclosed. The fourth trap is forgetting that offering a compromising benefit is a violation too.
+HEART: No. It is a modest client gift, and he told his employer before accepting it. If the wine had arrived while he was away, telling his employer promptly once he found it would also satisfy the Standard.
 
-So the rule to hold onto for Standard one B is this. Do not offer, ask for or accept anything that could reasonably be expected to compromise independence and objectivity. Client gifts are acceptable with disclosure to your employer. Gifts from parties seeking influence are judged far more strictly.
+LEWIS: Compare that with Elena, a buy side analyst at a pension fund that is choosing which brokers will receive its trading business. One competing broker offers Elena and her husband a long weekend at a luxury golf resort abroad, with business class flights and every expense covered. She accepts, and she tells her supervisor about it. Violation?
+
+HEART: Yes. The benefit is lavish, it comes from a party that wants something from her, and it could reasonably be expected to affect her judgment about which brokers to choose. Telling her supervisor does not cure it. Disclosure is the rule for client gifts. It is not a permission slip for lavish gifts from people seeking influence.
+
+LEWIS: Now the offering side. Tomas sells a fund to pension plans. He tells a consultant who advises plans on which managers to hire that his firm will make a generous donation to the consultant's favorite charity if the consultant recommends the fund. Violation?
+
+HEART: Yes, by Tomas. He offered a benefit designed to compromise someone else's objectivity. A donation to a charity is still something of value when it is meant to buy a recommendation. Gifts or political contributions aimed at winning a mandate are often called pay to play, and they are a violation whether you are the one offering or the one asking.
+
+LEWIS: Next, travel. When you visit a company or tour a property, the best practice is for you or your firm to pay for your own travel and hotel, and to ride on the company's own aircraft only when commercial travel is not a realistic alternative.
+
+HEART: A case. Iris covers renewable energy companies. One company invites analysts to see a wind farm it has just built on a remote island that no airline serves. The company flies the group out on its own small plane, and her firm pays for her room at the island's only guesthouse. Violation?
+
+LEWIS: No. Commercial travel was not a real option, and the arrangement was modest and tied to the research. Had the company instead offered her a first class flight to a major city with plenty of commercial service, plus a spa weekend, that would be a violation.
+
+HEART: Now pressure on research. Sell side analysts work at firms that also earn large fees from investment banking, and a negative rating can cost the bank a client. Companies can also lean on analysts directly, for example by cutting off access to management after a critical report. The duty is the same either way. The rating follows the evidence.
+
+LEWIS: A case. Wen is a sell side analyst with a sell rating on a retailer. After the report, the retailer's chief executive phones her boss to complain and tells reporters that her work is careless. Nothing in the company's results has changed. Wen keeps the rating and keeps covering the company. Violation?
+
+HEART: No. That is exactly what the Standard asks. Had she raised the rating to make peace with the company, with no new evidence, that would be a violation. And if her own firm ever refused to publish a negative view of a banking client, the better course is for the firm to put the company on a restricted list and limit what it says about the company to facts, rather than publish an opinion nobody actually holds.
+
+LEWIS: Then issuer paid research. Sometimes a company pays an independent analyst to write research on it, often because no large firm follows the stock. That is allowed, under two conditions. The pay must be a flat fee agreed in advance, not tied to the report's conclusions, its recommendation or its effect on the share price. And the report must disclose that the company paid for it.
+
+HEART: A case. Andre runs a small independent research shop. A young biotech company hires him to write a report for a flat fee agreed up front, and the report states clearly who paid and how. Violation?
+
+LEWIS: No. Now change one fact. The contract adds a bonus if the share price climbs after the report comes out. That is a violation, because his pay now depends on the report's market impact, which rewards a favorable conclusion. Leaving out the disclosure would be a violation on its own, too.
+
+HEART: One more item that surprises people. An IPO, an initial public offering, is oversubscribed when investors ask for more shares than are on offer. Putting shares of an oversubscribed IPO into your own personal account is a violation. Those shares are scarce and valuable, handing them out is a classic way to win favor, and taking them for yourself puts your interest ahead of clients who wanted them.
+
+LEWIS: A case. Sofia is a portfolio manager. A broker her firm trades with calls to say a much anticipated technology IPO is heavily oversubscribed, but he can find a few hundred shares for her personal account. She takes them. Violation?
+
+HEART: Yes. It is a valuable benefit from a party that wants her firm's business, and allocating oversubscribed IPO shares to a personal account is treated as a violation. Firms guard against this by restricting employee participation in IPOs and private placements and requiring approval in advance.
+
+LEWIS: The recommended procedures for Standard one B, briefly. Members should fund their own trips to see companies wherever they reasonably can, and treat a company plane as the exception, for trips where commercial travel is not a real option. Firms should limit how far staff can take part in IPOs and private placements and make them get approval first. They should name a compliance officer, put their independence rules in writing along with a clear way to report breaches, and cap gifts from anyone other than clients at token value.
+
+HEART: The traps for Standard one B. Trap one is believing disclosure fixes everything. Disclosure is the rule for client gifts, but it does not make a lavish gift from someone seeking influence acceptable. Trap two is believing every gift is banned. Ordinary entertainment and token gifts are fine, and client gifts are fine with disclosure. Trap three is assuming issuer paid research is forbidden. It is allowed with a flat fee and disclosure. Trap four is forgetting the offering side. Trying to buy someone else's judgment is a violation too.
+
+LEWIS: The takeaway for Standard one B. Do not offer, ask for or accept anything that could reasonably be expected to compromise judgment. Client gifts are fine with disclosure to your employer. Everyone else gets token items at most, and the opinion always follows the evidence.
 
 ## Module 91.2, Guidance for Standards I(C), I(D), and I(E)
 
-Standard one C is Misrepresentation. In plain words, never knowingly give anyone a false picture of your analysis, your recommendations, the actions you take or any other part of your professional work. A false picture can come from saying something untrue, from leaving out a fact that matters, or from wording that is technically accurate but still misleads. It does not matter whether it appears in a research report, a pitch book, a phone call, an email or a social media post.
+HEART: Standard one C, Misrepresentation. In plain words, never knowingly give anyone a false picture of your investment analysis, your recommendations, the actions you take, or any other part of your professional work. A false picture can come from an untrue statement, from leaving out a fact that matters, from showing only the data that flatter you, or from passing off someone else's work as your own.
 
-Why does it exist? Clients make decisions based on what you tell them. If what you say is false, or technically true but misleading, the decision is built on sand. Five areas cause most of the trouble.
+LEWIS: Why does it exist? Clients make decisions based on what you tell them. A false statement, a missing fact or a borrowed idea corrupts that decision in the same way. And it does not matter where it appears, whether in a research report, a pitch book, a phone call, an email or a social media post.
 
-First, qualifications and services. Do not overstate your credentials, your experience or what your firm can deliver. Second, guarantees. You cannot promise a return, or promise no loss, on an investment that is inherently risky. You may accurately describe a genuine guarantee, such as a structured product whose principal is contractually guaranteed by its issuer, or a deposit covered by government insurance up to the legal limit. The key is accuracy about who guarantees what, and up to what amount.
+HEART: The ways it happens fall into a few families. The first is claims about yourself and your firm, meaning overstated qualifications, experience, or services your firm cannot actually deliver.
 
-Third, omissions. Leaving out a fact can mislead as much as stating a false one. Presenting model output as if it were certain, dropping the downside scenario, or showing only your winning accounts are all misleading omissions. Fourth, plagiarism. Fifth, presenting work done by others, such as outside managers or third party research, as if it were your own.
+LEWIS: A case. Ingrid writes the text for her firm's website, which says a team of fifteen analysts covers markets around the world. In fact the firm has four analysts, and two of them follow only domestic stocks. Violation?
 
-Plagiarism deserves a closer look. It means using someone else's reports, ideas, forecasts, quotations, charts, models or methods without giving credit. Rewording the material does not fix it, so a paraphrase of another analyst's thesis still needs credit. Citing your source is always the safe habit, and there is some flexibility only for plain factual data from recognized financial and statistical reporting services. If you distribute research written by an outside firm, make clear where it came from and do not imply you did the analysis. Likewise, if you hire outside managers, do not present their track record or their work as your own.
+HEART: Yes. That is false information about the firm's capabilities and expertise, and she knew it when she wrote it.
 
-Here is an honest error case. A brochure shows a return of 15 percent when the true figure was 1.5 percent. Nobody intended it, and when the error is spotted the firm corrects it immediately. That is generally not a violation, because the Standard covers knowing misrepresentation and the error was promptly fixed. The lesson is to correct mistakes as soon as you find them.
+LEWIS: The second family is guarantees. You cannot promise a specific return on an investment that is inherently risky. A guarantee is acceptable only when one really exists, made explicitly by a government body or a financial institution, and you describe it accurately.
 
-Three vignettes. Lena posts on a professional networking site that her firm offers full wealth planning, including tax and estate work. In fact the firm only manages portfolios. That is a violation, because she misrepresented the firm's services.
+HEART: A case. Bella tells a retired client that a dividend stock fund will pay six percent a year, guaranteed. Violation?
 
-Bram tells a prospect that his balanced fund will not lose money over any three year period. That is a violation. He guaranteed the outcome of a risky investment. Had he said that a bank deposit is protected by government insurance up to the legal limit, that would be an accurate description of a real guarantee and not a violation.
+LEWIS: Yes. Nobody stands behind that return, so she guaranteed the outcome of a risky investment. Compare that with explaining that a certificate of deposit is protected by government deposit insurance up to the legal limit, or that a structured note's principal is explicitly guaranteed by the bank that issued it. Those describe real guarantees accurately, so they are not violations.
 
-Rosa reads a competitor's industry report, rewrites its argument in her own words, adds a few new numbers and publishes it under her name with no credit. That is a violation. Plagiarism covers ideas and paraphrase, not just copied sentences.
+HEART: The third family is selective data and omissions. Leaving out a fact can mislead as surely as stating a false one. Showing performance that quietly drops some accounts, or an attribution analysis that leaves out a variable that matters, is a misrepresentation.
 
-One link to balance sheet work. In a bank or credit union, an interest rate risk report that shows only the base case and quietly drops the rising rate scenario is the same kind of misleading omission.
+LEWIS: Two quieter versions of the same idea. One is choosing a benchmark that does not match the strategy. A case. Greta runs a fund of small emerging market companies. In a year when large domestic stocks did badly, she compares her fund with a large company domestic index and calls the result a big outperformance. Violation?
 
-The recommended procedures are simple. Write down the qualifications, experience and services that you and your firm can actually offer, so marketing stays accurate. Keep copies of the research and data you rely on. Attribute quotations, paraphrases, forecasts and models to their sources. Review your website and social media content regularly so it stays current.
+HEART: Yes. The benchmark is not comparable to the strategy, so the comparison gives a false picture of skill. The other quiet version is shopping for valuations. A case. Oskar runs a fund that holds loans which never trade. Three pricing services quote values for them, and Oskar picks the service that gives the highest values, because it lifts his reported performance. Violation?
 
-The traps for Standard one C come in three forms. One tempting wrong answer says paraphrasing is not plagiarism, but it is. Another says any use of the word guaranteed is a violation. It is not, if a real guarantee exists and you describe it accurately. A third says an honest typo is automatically a violation. It is not, as long as it was not knowing and you correct it promptly.
+LEWIS: Yes. Choosing a valuation service because it puts the highest value on untraded holdings misrepresents what the portfolio is worth. The choice of service has to rest on quality and method, not on which answer flatters you.
 
-Now Standard one D, Misconduct. It has two prongs. First, in your professional dealings, never lie, cheat, defraud or deceive. Second, do nothing that casts a bad light on your professional reputation, your integrity or your competence.
+HEART: A link to balance sheet work. In a bank or credit union, an interest rate risk report that shows the board only the friendly rate scenarios and quietly drops the painful one is the same kind of misleading omission.
 
-Why does it exist? An investment professional handles other people's money and information. Dishonesty anywhere in professional life tells clients they cannot rely on you. The focus is your professional life. That includes the workplace, dealings with clients, industry events, volunteer work for professional organizations and public writing about investments. Purely personal behavior with no link to your professional activities generally falls outside this Standard, even when others might disapprove of it.
+LEWIS: The fourth family is plagiarism. Plagiarism means taking someone else's ideas, reports, forecasts or models, or even their charts and spreadsheets, without giving them credit. Putting it into your own words does not fix it. A paraphrase of another analyst's argument still needs credit.
 
-Three vignettes. Ivo submits an expense claim for a client dinner that was actually a family birthday. That is a violation. It is dishonesty in professional conduct, and the small amount does not matter.
+HEART: A case. Callum hears a strategist at an industry conference lay out an original argument for why shipping rates will fall. The next week, Callum writes that argument up in his own words in a client note, with no mention of where it came from. Violation?
 
-Sela regularly drinks heavily at lunch and returns to the office unable to work properly, and she misses errors in a client report. That is a violation. Her behavior reflects adversely on her professional competence and reputation.
+LEWIS: Yes. The idea belonged to someone else, and rewording does not change that. One line crediting the strategist would have made it fine.
 
-Joel joins a peaceful weekend protest and is arrested for refusing to leave a public square. The protest has nothing to do with his work. That is not a violation. It is personal conduct with no link to his professional integrity or competence.
+HEART: There are two sensible exceptions. First, you do not need to credit projections, statistics and tables taken from recognized financial and statistical reporting services. If Callum drops a standard table of bond yields from a widely known financial data service into his note, no credit is required, though citing it is still a good habit.
 
-The recommended procedures sit mostly with firms. A firm should adopt a code of ethics that every employee commits to, and make clear which behaviors are unacceptable and what the consequences are.
+LEWIS: Second, research and models built inside your own firm. When a colleague who built a model has since left, you may leave that person's name off as the firm keeps relying on the model, as long as you do not claim the work as yours alone.
 
-The trap here is overreach in both directions. Not every arrest or legal problem is misconduct. And professional dishonesty does not need a criminal conviction to be a violation. Lying on an expense report is misconduct whether or not anyone is ever charged.
+HEART: A case. Hugo's team still runs a valuation model built by a colleague who left two years ago. Their reports describe it as the team's model, without naming him. Violation?
 
-Now Standard one E, Competence. In plain words, you must have the competence your job demands when you do the work, and you must keep that competence up to date. Competence has three parts. Knowledge is what you know about the subject. Skills are your ability to perform the tasks your role demands. Abilities are the broader capacities and attitudes that turn knowledge and skills into good work.
+LEWIS: No. The firm's work stays the firm's work, and nobody is claiming to have built it single handed. If Hugo told a client he had designed the model himself, that would be a violation.
 
-Why does it exist? A client cannot judge whether you understand the product you recommend, so they rely on you to know. Two features matter for the exam. First, competence is not a one time achievement. It must be kept up as markets, products and rules change, and it must grow when your role changes.
+HEART: The last family is passing off other people's work. Presenting research written by an outside firm as your own, without saying where it came from, is a violation. So is handing clients marketing material from an outside adviser, such as a manager you hire, when you know or should know it is misleading.
 
-Second, the Standard does not prescribe a specific program or a number of hours. You can build and keep competence through courses, certifications, conferences, employer training, self study or work with experts.
+LEWIS: One more point. The Standard says knowingly. An honest mistake, such as a brochure that still shows last year's fee schedule by accident, is not a knowing misrepresentation. But once you find it, fix it promptly and stop handing it out. Keep using it after you know, and it becomes knowing.
 
-Three vignettes. Hana has managed large company stock portfolios for years. She is handed a private credit allocation and starts committing client money within weeks, without learning how private loans are structured, valued or exited. That is a violation. She acted without the competence the new responsibility required.
+HEART: The recommended procedures for Standard one C. Keep a short written profile of your own background, credentials and what you can actually do for clients, and hand clients a written list of what the firm offers and who is qualified to deliver it. Push your firm to check any marketing that outside managers or vendors supply about themselves before it reaches clients. Name your source whenever you summarize another person's work. Hold on to everything you drew on when you built a research report. And have the firm look back over its communications from time to time for claims that oversell its people or itself.
 
-Quinn is moving from equity research to covering municipal bonds. Before issuing any recommendation, she completes a course on municipal credit and works alongside the senior municipal analyst for a quarter. That is not a violation. She built the competence before she relied on it.
+LEWIS: The traps for Standard one C. Trap one says paraphrasing is not plagiarism. It is. Trap two says any use of the word guarantee is a violation. It is not, when a real guarantee from a government body or financial institution exists and you describe it accurately. Trap three says an honest typo is automatically a violation. It is not, if it was not knowing and you correct it promptly. Trap four says data from a recognized statistical service always needs a citation. It does not.
 
-Uma researches an insurance company thoroughly and recommends it to clients. A year later the insurer collapses because its managers concealed a fraud that no reasonable analysis could have caught. That is not a violation of Competence. The Standard judges your knowledge and process, not the outcome.
+HEART: The takeaway for Standard one C. Never knowingly say anything false, never leave out what changes the picture, and give credit for every borrowed idea, except standard data from recognized services.
 
-Here is the trap. A credential alone does not prove competence. Passing an exam does not satisfy this Standard if you never learned the rules or products your job requires. Also, keep Competence apart from the later Standard on diligence and reasonable basis. Competence asks whether you have the knowledge and skills your role requires. That later Standard asks whether, for a specific recommendation, you did the research and had a reasonable basis.
+LEWIS: Standard one D, Misconduct. It has two parts. First, your professional dealings must be free of dishonesty, fraud and deceit. Second, you must not do anything that damages your standing as a professional, meaning your reputation, your integrity or your competence.
 
-One more wording trap. The word competence also appears in Misconduct, which bans acts that cast a bad light on your professional competence. Showing up impaired is the Misconduct angle. Failing to learn what your job requires is the Competence angle.
+HEART: Why does it exist? An investment professional handles other people's money and private information. Dishonesty in professional life tells clients they cannot rely on you, and conduct that damages your professional standing chips away at the trust the whole profession depends on.
 
-So the rules to hold onto from this module are these. Never knowingly say anything false or misleading, never leave out what changes the picture, and always give credit for other people's work. Keep dishonesty out of your professional life. And act with, and maintain, the competence your role requires, building it before you take on something new.
+LEWIS: The first part is clear cut. A case. Felipe takes his family to the coast for a weekend and submits the hotel bill as research travel for a client account. The amount is small. Violation?
+
+HEART: Yes. That is dishonesty in professional conduct, and the small amount does not matter. Notice that no criminal charge is needed. Misconduct is about dishonesty, not about whether anyone is ever prosecuted.
+
+LEWIS: The second part needs more care. It is not limited to what happens at your desk. It can reach conduct away from the office, but only when the act reflects on you as a professional, and that takes a real link to your professional life. Think of conduct tied to the investment profession or the markets, to your workplace or to teaching, or anything where you lean on your CFA designation, your membership or your candidacy. Without that link, even a dishonest act in your private life falls outside this Standard, however wrong it is, and even if it breaks the law.
+
+HEART: A case. On weekday evenings, Yara teaches a personal finance class at a community college, and she introduces herself as a candidate in the CFA Program. To impress the students, she makes up stellar returns from her own investing. Violation?
+
+LEWIS: Yes. The class is about investing, she leans on her candidacy for credibility, and she lies. That dishonesty reflects directly on her professional integrity, even though it happens outside her day job. It is also a misrepresentation, which is a good reminder that one act can break more than one Standard.
+
+HEART: Now the other side. Nils gets into a shouting match with his landlord over the return of his rental deposit, and it ends up in small claims court. Nothing about it touches his job, the markets or his candidacy. Violation?
+
+LEWIS: No. It is purely personal conduct with no link to his professional life. Others may disapprove, but the Standard is not a general code of private behavior. The same logic applies to money trouble. A personal bankruptcy caused by medical bills does not, by itself, say anything about integrity. If it grew out of fraudulent or deceitful business dealings, the answer could change.
+
+HEART: On the competence side of Misconduct, the classic pattern is behavior that impairs your work, even when nothing illegal is involved. Someone who keeps turning up to work unfit to do the job, so that clients and colleagues cannot rely on them, damages their professional reputation and competence. That is a violation.
+
+LEWIS: One more point. The Standard is not a weapon. Using a conduct complaint to pursue a private grudge, a political quarrel or any other fight that has nothing to do with professional ethics is itself an abuse of the process. A case. Two analysts argue bitterly about politics online. One files a complaint with the CFA Institute Professional Conduct Program claiming the other's political posts are misconduct. Has the poster violated the Standard?
+
+HEART: No. Political views unrelated to professional ethics are not misconduct. The improper act here is the complaint itself, an attempt to turn the conduct process into a weapon in a personal fight.
+
+LEWIS: The recommended procedures for Standard one D sit mostly with firms. Adopt a code of ethics and leave no doubt that unethical behavior carries consequences. Spell out for employees which acts count as violations and what happens for each, with dismissal at the top of the scale. And check references before anyone is hired.
+
+HEART: The trap here runs in both directions. Not every arrest, lawsuit or embarrassing moment is misconduct. And professional dishonesty does not need a conviction to be a violation. Ask two questions. Does the act have a link to your professional life? And if it does, does it involve dishonesty, or damage your reputation, integrity or competence?
+
+LEWIS: The takeaway for Standard one D. No dishonesty, fraud or deceit in professional dealings, and nothing that damages your professional reputation, integrity or competence. Purely personal matters with no professional link fall outside it.
+
+HEART: Standard one E, Competence. In plain words, have the competence your job demands when you do the work, and keep it up as the job and the markets change.
+
+LEWIS: Competence has three parts. Knowledge is what you know. Skills are your ability to carry out the specific tasks your role involves. Abilities are the broader capacities that turn knowledge and skills into good work. What counts as enough depends on the role. A pension fund's chief investment officer needs a different mix from a junior credit analyst.
+
+HEART: Why does it exist? A client usually cannot judge whether you understand the product you recommend. They rely on you to know. Competence is the promise underneath every other piece of advice.
+
+LEWIS: Three features matter for the exam. First, competence is not a one time achievement. It has to be maintained. Second, a new or unfamiliar role puts the burden on you to get up to speed on what it demands, before clients or colleagues depend on it. A promotion that adds supervising other people counts as a new role too. Third, a bad outcome does not by itself prove a lack of competence. Competent people still make calls that go wrong.
+
+HEART: A case. Mateo has spent years as an equity analyst. He is moved onto a team that manages mortgage backed securities, and within days he starts buying them for clients without learning how prepayments change their cash flows. Violation?
+
+LEWIS: Yes. He acted for clients without the competence the new role required. Experience in one area does not carry over automatically to another.
+
+HEART: The contrasting case. Lena is moving from retail banking into a team that hedges interest rate risk with derivatives. Before she approves a single hedge, she completes a course on derivatives, studies the firm's hedging policy, and works alongside a senior colleague for a quarter. Violation?
+
+LEWIS: No. She built the competence before she relied on it, which is exactly what the Standard asks. The same applies at a bank or credit union when someone takes over the interest rate risk model for the first time. Learn it first, then sign off on it.
+
+HEART: Now a bad outcome. Victor researches a food company thoroughly, visits its plants and recommends the stock. Months later, a flood shuts its largest factory and the share price drops sharply. Violation?
+
+LEWIS: No. The loss came from a sudden event, not from a gap in what he knew or how he worked. The Standard judges whether you had the knowledge and skills the role requires and applied them, not whether the result was good.
+
+HEART: And continuing education. The Standard recommends it but does not require it, and it does not set a number of hours or a specific program. A case. Maya has managed the same bond portfolios for years. She has not taken a formal course in a while, but she follows regulatory updates and the research in her field closely and attends her firm's internal briefings. Violation?
+
+LEWIS: No. She is keeping her competence current through self study and employer training. Formal continuing education is a recommendation, not a requirement.
+
+HEART: The recommended ways to build and keep competence are what you would expect: formal courses and training from your firm, further professional designations, conferences in your field, an active role in professional bodies, and informal self study.
+
+LEWIS: Two traps. First, a credential alone does not prove competence. Passing an exam does not satisfy the Standard if you never actually learned what your job requires. Second, keep Competence apart from Misconduct. The word competence appears in both. Turning up unfit to work is the Misconduct angle. Failing to learn what your role requires is the Competence angle.
+
+HEART: And a look ahead. You will later meet a Standard on diligence and a reasonable basis for each recommendation. Competence asks whether you have the knowledge and skills your role requires. That later Standard asks whether you did the work behind a specific recommendation.
+
+LEWIS: The takeaway for Standard one E. Act with, and keep up, the competence your role requires. Build it before you take on something new, and never mistake a bad outcome for a lack of competence.
 
 ## Recall check
 
-Q: A member works where local law permits a practice that the Code and Standards prohibit. Which rule must she follow?
+LEWIS Q: An analyst works where local law allows a practice that the Code and Standards prohibit, and she follows local law. Is that a violation, and of what?
 
-Answer: She must follow the Code and Standards, because when rules conflict a member follows the stricter one. Local law permitting something does not make it acceptable. If the local law had been the stricter rule, she would follow the local law instead.
+HEART: Answer. Yes, it violates Standard one A, Knowledge of the Law. Here is why. When the law and the Code disagree, a member follows the stricter rule, and here the Code is stricter. Legal does not mean allowed. Had local law been the stricter one, she would have to follow local law instead.
 
-Q: An analyst tells his supervisor that a sales presentation omits large losing accounts, and nothing changes. What is his most appropriate next step: report the firm to the regulator, resign immediately, or escalate to compliance and refuse to keep working on the presentation?
+HEART Q: A junior analyst finds that a report he helps prepare overstates how easily a fund's holdings can be sold. His supervisor will not fix it, and neither will compliance. Should he report the firm to the regulator, resign, or remove himself from the report?
 
-Answer: Escalate to compliance and refuse to keep working on it, which is dissociation. He should also have his name removed from the presentation and document what he did. Reporting to a regulator is not required unless the law requires it, and resignation is a last resort for extreme cases.
+LEWIS: Answer. He should remove himself from the report and keep notes of what happened. Here is why. Once raising it internally has failed, Standard one A requires him to dissociate, which means stopping work on it and getting his name off it. The Standards do not require a report to a regulator unless the law does. Resignation is reserved for an extreme case where he cannot otherwise get clear of the problem.
 
-Q: Which gift is most likely acceptable: modest concert tickets from an existing client, disclosed to the employer, an all expenses paid resort weekend from a broker seeking trades, or a first class flight paid for by a company the analyst covers?
+LEWIS Q: A portfolio manager receives a gift basket of fruit from a long time client after a good year, and tells her employer the next day. Is that a violation?
 
-Answer: The concert tickets. Client gifts are treated more leniently because they are unlikely to turn the member against other clients, and disclosure lets the employer monitor them. The other two are lavish benefits from parties trying to win business or influence an opinion.
+HEART: Answer. No. Here is why. Gifts from clients are treated as less likely to compromise independence, because the gift rewards the very service she owes that client. The rule is disclosure to the employer, before accepting if possible and promptly afterward if not. A modest client gift, disclosed, satisfies Standard one B.
 
-Q: An analyst rewrites a competitor's industry thesis in her own words and publishes it without credit. Does the rewording avoid a violation?
+HEART Q: A buy side analyst accepts a luxury cruise from a broker competing for her firm's trades, and tells her supervisor about it. Is that a violation, and of what?
 
-Answer: No. Plagiarism covers ideas and paraphrases, not only copied sentences, so she violates Standard one C, Misrepresentation. She needed to credit the original source.
+LEWIS: Answer. Yes, it violates Standard one B, Independence and Objectivity. Here is why. The benefit is lavish and comes from a party seeking her firm's business, so a reasonable person would expect it to affect her judgment. Disclosure is the rule for client gifts, but it does not make a lavish gift from someone seeking influence acceptable.
 
-Q: A portfolio manager is arrested during a peaceful weekend protest that has nothing to do with his work. Is this most likely a violation of Standard one D, Misconduct?
+LEWIS Q: An independent analyst is paid by the company she covers. Her fee is flat and agreed in advance, but the report never mentions who paid. Is that a violation?
 
-Answer: Most likely not. Misconduct targets dishonesty, fraud or deceit in professional conduct, and acts that damage professional reputation, integrity or competence. Personal conduct with no link to his professional life generally falls outside the Standard.
+HEART: Answer. Yes, it violates Standard one B. Here is why. Issuer paid research is allowed only when two conditions both hold, a flat fee not tied to the conclusions and disclosure that the company paid. The flat fee keeps her conclusions free of pressure, and the disclosure lets readers judge the relationship for themselves. Missing either one is a violation.
 
-Q: An adviser is assigned a complex product line she has never worked with. What does Standard one E, Competence, require of her?
+HEART Q: An analyst rewrites a rival firm's industry thesis in her own words and publishes it with no credit. Does the rewording avoid a violation?
 
-Answer: She must build the necessary knowledge and skills before acting for clients, through training, study or working with experts. The Standard does not prescribe a particular program or number of hours. Acting first and learning later would be a violation.
+LEWIS: Answer. No, it violates Standard one C, Misrepresentation. Here is why. Plagiarism covers ideas, forecasts and models, not just copied sentences. Publishing someone else's thinking as your own misleads readers about whose work they are relying on. A credit to the original source would have fixed it.
 
-## Recap
+LEWIS Q: An analyst drops a table of standard index returns from a widely known financial data service into a report without citing the source. Is that a violation?
 
-Standard one, Professionalism, has five parts: Knowledge of the Law, Independence and Objectivity, Misrepresentation, Misconduct and Competence. Under Knowledge of the Law, follow the stricter of the applicable law and the Code and Standards, and remember that the Code itself counts as one of the rule sets. If you learn of a violation, first try to stop it, then dissociate, and leave the firm only in extreme cases. Reporting to regulators is not required unless the law requires it, and staying quiet while you keep working alongside a violation can count as taking part in it.
+HEART: Answer. No. Here is why. Projections, statistics and tables from recognized financial and statistical reporting services are an exception to the credit requirement. That data is standard and widely available, so nobody is misled about whose analysis they are reading. Citing it anyway is still a good habit.
 
-Under Independence and Objectivity, never offer, ask for or accept anything that could reasonably be expected to compromise judgment. Modest client gifts are fine with disclosure to your employer, lavish gifts from parties seeking influence are not, you pay your own commercial travel, and issuer paid research needs a flat fee set in advance and disclosed. Under Misrepresentation, make no false statements, no misleading omissions and no guarantees of risky outcomes, and give credit for every idea you borrow, including paraphrases. Misconduct covers dishonesty, fraud or deceit in professional life and acts that damage your professional reputation, integrity or competence, but not purely personal conduct unrelated to the profession. Competence means acting with and maintaining the knowledge, skills and abilities your role requires, and building them before you take on something new.
+HEART Q: An adviser tells a client that a certificate of deposit is protected by government deposit insurance up to the legal limit. Is that a prohibited guarantee?
+
+LEWIS: Answer. No. Here is why. Standard one C bars guaranteeing a return that nobody actually stands behind. Here a government body explicitly provides the protection, and the adviser described it accurately, limit included. The violation would be promising a set return on something inherently risky.
+
+LEWIS Q: A charterholder pads an expense claim at work by a small amount. Is that a violation, and of what?
+
+HEART: Answer. Yes, it violates Standard one D, Misconduct. Here is why. The first part of Misconduct bans dishonesty, fraud and deceit in professional conduct, whatever the size. No criminal charge is needed for it to count. Dishonesty in professional dealings tells clients and employers they cannot rely on you.
+
+HEART Q: An analyst is locked in a long running dispute with a neighbor over a fence, with no link to her work, the markets or her designation. Is that misconduct?
+
+LEWIS: Answer. No. Here is why. Standard one D reaches conduct outside the office only when it has a real link to your professional life, for example conduct tied to the investment profession or to your designation. A purely personal dispute has no such link, and that would hold even if she stretched the truth in it. Filing a complaint to settle a quarrel like that would itself be a misuse of the conduct process.
+
+LEWIS Q: A bond analyst is reassigned to run a commodity futures program and starts trading for clients right away, planning to learn as he goes. Is that a violation, and of what?
+
+HEART: Answer. Yes, it violates Standard one E, Competence. Here is why. A new or unfamiliar role puts the burden on you to build the knowledge and skills it requires before you act for clients. Experience with bonds does not carry over automatically to futures. Learning on the job with client money is exactly what the Standard rules out.
+
+HEART Q: Does Standard one E require a set number of continuing education hours each year?
+
+LEWIS: Answer. No. Here is why. The Standard recommends continuing education but does not require it or prescribe any program. What it does require is the result, competence that matches your role and stays current. Courses, designations, conferences, employer training and self study are all ways to get there.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: Standard one in five short instructions, in order. Obey the law. Stay independent. Tell the truth. Act with integrity. Stay able. That is Knowledge of the Law, Independence and Objectivity, Misrepresentation, Misconduct and Competence.
+
+HEART: For Standard one A, stricter wins, in either direction, and legal does not mean allowed. When you find wrongdoing, speak up, step back, and step out only in an extreme case. Speak up means your supervisor or compliance. Step back means dissociate. Step out means leave the firm. Reporting to a regulator is not required unless the law demands it, while reporting a fellow member to CFA Institute is strongly encouraged.
+
+LEWIS: For Standard one B, clients may thank you, as long as your employer knows, before if possible and after if not. Everyone else gets a token at most. Fly commercial when you can. Issuer paid research is fine when the fee is flat, fixed in advance and disclosed. A hot IPO for your own account is off limits. And buying someone else's judgment is as bad as selling your own.
+
+HEART: For Standard one C, only a real guarantor can guarantee. New words, same idea, still needs credit. The exceptions are standard data from recognized services, and models from colleagues who have left, as long as you never claim them as yours alone. Pick benchmarks and pricing services for accuracy, not flattery.
+
+LEWIS: For Standard one D, dishonesty at work is misconduct at any size. Off the clock counts only when it touches your professional life. And the conduct process is not a weapon for personal fights.
+
+HEART: For Standard one E, learn first, then act. A loss is not proof of incompetence, and a credential is not proof of competence. Continuing education is recommended, not required.
+
+LEWIS: And across all five, the excuse built into the story rarely changes the answer.
+
+HEART: Now, how you would say the big ideas to a senior leader.
+
+LEWIS: On the law: we follow whichever rule is tougher, the law or our professional code, and when we see wrongdoing we raise it and then step away from it. The jargon is Knowledge of the Law, the stricter rule and dissociation.
+
+HEART: On independence: our opinions are not for sale. Gifts stay small, client gifts get disclosed, we pay our own travel, and research a company pays for carries a flat fee and a clear disclosure. The jargon is independence and objectivity, token gifts and issuer paid research.
+
+LEWIS: On communication: everything we tell clients is accurate and complete, including what we choose to leave out, and we credit other people's work. The jargon is misrepresentation, misleading omissions and plagiarism.
+
+HEART: On conduct: dishonesty in our professional dealings ends trust, whatever the amount, while purely private matters stay private unless they reflect on someone as a professional. The jargon is misconduct.
+
+LEWIS: And on capability: people learn a job before they do it and keep learning as it changes, and a bad result alone does not mean someone was not up to it. The jargon is competence, meaning knowledge, skills and abilities.

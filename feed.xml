@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Thu, 08 Oct 2026 00:01:33 -0500</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 00:26:28 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -756,11 +756,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Ethical and Professional Standards, Kaplan Modules 91.1 to 91.2. 91.1 Guidance for Standards I(A) and I(B), 91.2 Guidance for Standards I(C), I(D), and I(E)</description>
     <itunes:summary>Ethical and Professional Standards, Kaplan Modules 91.1 to 91.2. 91.1 Guidance for Standards I(A) and I(B), 91.2 Guidance for Standards I(C), I(D), and I(E)</itunes:summary>
-    <content:encoded><![CDATA[<p>Ethical and Professional Standards, Kaplan Modules 91.1 to 91.2.</p><ul><li>Module 91.1, Guidance for Standards I(A) and I(B)</li><li>Module 91.2, Guidance for Standards I(C), I(D), and I(E)</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:12 The big picture</li><li>2:05 Module 91.1, Guidance for Standards I(A) and I(B)</li><li>15:58 Module 91.2, Guidance for Standards I(C), I(D), and I(E)</li><li>25:56 Recall check</li><li>29:19 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E44.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E44_v2.mp3" length="9341386" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Ethical and Professional Standards, Kaplan Modules 91.1 to 91.2.</p><ul><li>Module 91.1, Guidance for Standards I(A) and I(B)</li><li>Module 91.2, Guidance for Standards I(C), I(D), and I(E)</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:33 Module 91.1, Guidance for Standards I(A) and I(B)</li><li>20:09 Module 91.2, Guidance for Standards I(C), I(D), and I(E)</li><li>37:16 Recall check</li><li>44:42 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E44.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E44_v3.mp3" length="14487893" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e44</guid>
     <pubDate>Sat, 03 Oct 2026 12:44:00 -0500</pubDate>
-    <itunes:duration>1868</itunes:duration>
+    <itunes:duration>2897</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E44.txt" type="text/plain"/>
   </item>
