@@ -1,151 +1,277 @@
-## The big picture
-
-Every portfolio decision in this part of the curriculum rests on two numbers. One is how much an asset is expected to earn. The other is how widely its returns swing around that expectation. This episode turns those two numbers into a portfolio choice, and it lays the foundation for the capital asset pricing model in the next episode.
-
-Module 83.1 looks at the historical record. Across asset classes, higher average returns have come with higher volatility, and actual return distributions are not as tidy as a normal curve suggests. Module 83.2 asks how an investor decides how much risk to accept. That is where risk aversion, the utility function and indifference curves come in, along with the capital allocation line.
-
-Module 83.3 is the main calculation module. It shows how to measure the risk of a portfolio, and why combining assets that do not move perfectly together lowers risk without lowering expected return. Module 83.4 puts everything on one graph. It finds the efficient frontier of risky portfolios, picks the best risky portfolio once a risk free asset exists, and then picks the point that suits a particular investor.
-
-Expect three kinds of exam questions. First, calculations, such as utility, portfolio standard deviation and points on a capital allocation line. Second, interpretation, such as what a correlation does to risk or what a steep indifference curve says about an investor. Third, graph questions about which portfolios are efficient and which are optimal. Keep one idea in mind throughout. Return is a weighted average, but risk is not.
+LEWIS: Reading 83 opens Portfolio Management with the long history of risk and return across asset classes, and with how investors differ in their appetite for risk, from utility and indifference curves to the capital allocation line. It then covers covariance, correlation and portfolio standard deviation, why assets that do not move in lockstep cut risk, and the efficient frontier that every optimal portfolio starts from.
 
 ## Module 83.1, Historical Risk and Return
 
-Start with the record. Over the long United States history, the ranking of the major asset classes has been consistent. Small company stocks have earned the highest average returns and shown the highest volatility. Large company stocks come next, then bonds, and Treasury bills sit at the bottom on both measures. Higher average return has come with higher risk, which is what you would expect if most investors dislike risk and must be paid to carry it.
+HEART: Portfolio Management starts with the question every investor asks first. If I take more risk, do I actually get paid for it? The way to find out is to look at how the major asset classes have behaved over many decades, judging each one by two numbers. Its average return, and how widely its yearly returns swung around that average.
 
-Three refinements matter. The first is nominal versus real. A nominal return is what you earn in currency, and a real return is what you earn in purchasing power. The exact link is that one plus the nominal return equals one plus the real return, times one plus the inflation rate. So a nominal return of 8 percent with inflation of 3 percent gives a real return of 1.08 divided by 1.03, minus one, which is about 4.85 percent. The quick subtraction says 5 percent, and it slightly overstates the real return.
+LEWIS: Picture a ladder. On the bottom rung sit Treasury bills, short term government debt. One rung up are long term bonds, both government and corporate. Above them are large company stocks, and on the top rung, small company stocks. Over nearly a century of United States data, each step up the ladder has come with a higher average return and a wider spread of yearly results. Small company stocks earned the most and swung the most. Treasury bills earned the least and barely swung at all.
 
-The same multiplication extends to a full expected return. One plus the expected nominal return equals one plus the real risk free rate, times one plus expected inflation, times one plus the risk premium. With a real risk free rate of 1 percent, expected inflation of 2 percent and a risk premium of 5 percent, adding gives 8 percent and multiplying gives about 8.2 percent.
+HEART: And it is not a quirk of one country. Markets around the world tell a similar story. Wherever the long run reward has been biggest, the yearly swings have been biggest too.
 
-The second refinement is the shape of the distribution. If returns were normal, the mean and the variance would describe them completely. Real world returns, equity returns in particular, tend to show negative skewness and excess kurtosis, which means fatter tails than a normal curve. In plain terms, large losses happen more often than a normal model predicts. An investor who looks only at mean and standard deviation is understating crash risk.
+LEWIS: That pattern is the risk return tradeoff, and it is what theory predicts. If most investors dislike risk, a risky asset has to offer a higher expected return, or nobody would hold it instead of something safer. Its price settles at the level where the extra expected return is just enough to persuade cautious investors to own it. Notice what the ladder does not promise. In any single year, or even over a full decade, stocks can trail Treasury bills. The higher average comes with a real chance of a bad stretch, and that chance is exactly the risk being paid for.
 
-The third refinement is liquidity. Thinly traded assets, such as small company shares and many corporate bonds, carry trading costs that can eat into the return an index history shows.
+HEART: One wrinkle on the middle rung. The two long bond groups sit near each other, and corporate bonds have not always been the riskier of the pair. So what the exam cares about is the big steps. Stocks above bonds, bonds above bills, and small company stocks above large ones.
 
-Now the calculation skill. To estimate risk and return from history, you use the arithmetic mean of past returns and the sample variance. The mean is the sum of the returns divided by the number of periods. The sample variance is the sum of the squared deviations from the mean, divided by the number of periods minus one. The standard deviation is the square root of the variance, and it is in the same units as the returns.
+LEWIS: A few return measures come back here, briefly, since Episode 1 covered them. Long history tables often report the average annual return as a geometric mean, the single steady rate that would have turned the starting value into the ending value. That is the honest description of what a dollar actually grew to.
 
-Here is a tiny example. An asset returned 10 percent, 20 percent and 0 percent over three years, so the mean is 10 percent. The deviations from the mean are zero, positive 10 and negative 10. Squared, they are 0, 100 and 100, which sum to 200. Divide by 2, which is three periods minus one, and the variance is 100 in percent squared units. The standard deviation is the square root of 100, or 10 percent.
+HEART: The arithmetic mean of the same years would come out higher, and the gap widens with volatility. So it is widest for small company stocks, the asset with the biggest swings. The old rule still holds. For the expected return in a single future year, reach for the arithmetic mean. For growth over the whole stretch, the geometric mean.
 
-Here is the trap. If you divide by 3 instead of 2, you get the population variance, about 66.7, and a standard deviation of about 8.2 percent. Historical returns are a sample, so divide by the number of periods minus one unless the question clearly says you have the whole population.
+LEWIS: And the standard deviations in these tables are often measured on monthly returns, then scaled up to a yearly figure, so that risk and return are quoted for the same length of time.
 
-On the B A two plus, use the data and statistics worksheets. Press second, then the 7 key, which is data, and clear old entries with second, then the C E C key, which is clear work. Type 10 and press enter to store X zero one. Press the down arrow twice to skip the Y value, which acts as a frequency and defaults to 1, then type 20 and press enter. Do the same for the 0.
+HEART: Year by year, stocks have been anything but smooth. Their nominal returns, meaning returns in dollars with no adjustment for inflation, have ranged from brutal losses in the worst years to spectacular gains in the best.
 
-Now press second, then the 8 key, which is stat. Press second, then enter, which is set, until the display shows one V, for one variable. Scroll down with the down arrow. You will see n of 3, x bar of 10, S X of 10, which is the sample standard deviation, and sigma X of about 8.16, which is the population version. For historical data, S X is the one you want.
+LEWIS: Which brings back the real return, growth in purchasing power. The quick way to get it is to subtract inflation from the nominal return. Episode 1 showed that the exact version divides, and that when your return beats inflation, simple subtraction comes out slightly too high.
 
-The rule to keep from this module is simple. Higher average return has historically come with higher volatility, and one plus the nominal return equals one plus the real return, times one plus inflation.
+HEART: Real returns tell a sobering story about the bottom rung. Over the long run, Treasury bills only just beat inflation. Money parked in bills kept its purchasing power and not much more. Large company stocks, after inflation, still left a solid real return. So the safest asset was safe from swings, but it was never much of a wealth builder.
+
+LEWIS: And because inflation itself swung widely over the decades, from high inflation stretches to very low ones, comparing periods in real terms is the fairer test of what investors actually gained.
+
+HEART: Now the shape of returns. If returns followed a normal distribution, the bell curve, two numbers would describe everything. The mean and the variance. Actual returns are not normal, so sizing up an investment by its mean and variance alone is only a simplification.
+
+LEWIS: Two departures matter. Return distributions are negatively skewed, with a longer tail on the losing side. And they have excess kurtosis, meaning fatter tails than a bell curve. In Episode 2's language, they are leptokurtic.
+
+HEART: In plain English, negative skew says large drops are more likely than equally large jumps. Excess kurtosis says extreme moves of either kind, up or down, turn up more often than a normal model allows. A bell curve has a skewness of zero and a kurtosis of three, so any departure from those two benchmarks is a signal that mean and variance are not the whole story.
+
+LEWIS: Think of a weather report that only gives the average temperature and the typical daily swing. Useful, but it would never warn you about the occasional ice storm. Mean and standard deviation are that report. Skewness and kurtosis are the storm warning.
+
+HEART: Here is the trap. An analyst who looks only at mean and standard deviation will understate the chance of a crash. Everything else in this reading assumes those two numbers are enough, so keep in mind that it is a simplification.
+
+LEWIS: The last characteristic is liquidity, how quickly you can sell at a fair price. An asset that is hard to sell costs you something, either a wide gap between the buying and selling price, or a markdown when you are in a hurry. Investors pay less for that kind of asset, and a lower price today means a higher expected return. The worry is sharpest in emerging markets and in thinly traded securities, with low quality corporate bonds a classic case.
+
+HEART: A bank or credit union investment portfolio shows why it matters. Much of it sits in Treasury and similar securities precisely because the institution may need cash quickly, and a thinly traded bond might only sell at a steep discount on the very day the cash is needed.
+
+LEWIS: The takeaway. Across asset classes, higher average returns have come with higher volatility. Real returns measure what you really gained. And mean and standard deviation leave out negative skew, fat tails and liquidity.
 
 ## Module 83.2, Risk Aversion
 
-Start with a choice. You can take 50 dollars for certain, or flip a coin that pays 100 dollars or nothing. Both have an expected value of 50 dollars. A risk averse investor takes the sure 50 dollars. A risk neutral investor does not care which one she gets. A risk seeking investor flips the coin, because the uncertainty itself has value to her.
+HEART: Start with a choice. You win a prize in a charity raffle. The organizer offers you a fixed check, or one spin of a wheel where half the slots pay double the check and half pay nothing. The spin has exactly the same expected value as the check. Which do you take?
 
-Risk aversion does not mean refusing risk. It means requiring payment for it. A risk averse investor will buy a risky asset if its expected return is high enough to make up for the uncertainty. When two investments have the same expected return, she picks the one with lower risk. When they have the same risk, she picks the one with higher expected return.
+LEWIS: A risk averse person takes the check. Same average, no uncertainty, so why gamble? A risk neutral person does not care either way, because only the average matters to them. A risk seeking person, also called risk loving, spins the wheel, because the chance at double is worth more to them than the certainty.
 
-To compare investments that differ in both risk and return, we use a utility function. Here it is, slowly. Utility equals expected return minus a penalty for risk, and the penalty is one half times A times the variance of returns. A is the investor's coefficient of risk aversion. Expected return and variance are written as decimals, so 10 percent is 0.10, and a 20 percent standard deviation becomes a variance of 0.04.
+HEART: Everyday life is full of these choices. Buying home insurance is risk aversion in action. You pay a premium that is larger, on average, than the losses the insurer expects to cover, just to remove a small chance of a ruinous loss. A lottery ticket is the opposite. Its expected payout is less than its price, and the buyer pays anyway for the thrill of a long shot.
 
-The sign of A tells you the attitude. A positive A means risk averse, because variance subtracts from utility. An A of zero means risk neutral, so utility is simply expected return. A negative A means risk seeking, because variance adds to utility. The larger A is, the more each unit of variance costs, so the more risk averse the investor.
+LEWIS: Risk neutral behavior shows up when each bet is small next to the bettor. A large rental car company may skip buying damage coverage for each car and simply absorb the repairs, because across thousands of cars the costs average out. It judges each small risk by its expected cost alone.
 
-Two more properties. Utility numbers rank choices for one investor, but they cannot be compared across investors. And a risk free asset's utility simply equals its return, because its variance is zero.
+HEART: Here is the definition to hold onto. Risk aversion does not mean refusing risk. It means needing to be paid for it. Offer a risk averse investor two investments with the same expected return, and she picks the one with less risk, measured by standard deviation. But she will happily own a risky asset if its extra expected return is enough to make up for the extra risk.
 
-Now a worked example. Take an investor with an A of 4. Asset X has an expected return of 10 percent and a standard deviation of 20 percent. Its utility is 0.10 minus one half times 4 times 0.04, which is 0.10 minus 0.08, or 0.02. Asset Y has an expected return of 6 percent and a standard deviation of 10 percent. Its utility is 0.06 minus one half times 4 times 0.01, which is 0.06 minus 0.02, or 0.04.
+LEWIS: The standard models take risk aversion as their starting assumption, and it is the preferences of risk averse investors that set market prices. That is the link back to Module 83.1. Riskier asset classes have to offer higher expected returns, because the people setting the prices insist on being paid for risk.
 
-So Y wins for this investor, even though X has the higher expected return. Now lower A to 2, a less risk averse investor. X's utility becomes 0.10 minus 0.04, or 0.06, and Y's becomes 0.06 minus 0.01, or 0.05. Now X wins. Same assets, different investor, different choice.
+HEART: To compare investments that differ in both risk and return, we need one score. That score is utility, and the rule that produces it is a utility function. Think of it as a satisfaction score for an investment.
 
-Here are the traps. The first is plugging in the standard deviation instead of the variance. The second is mixing units, such as using 10 for 10 percent next to 0.04 for the variance, so stay in decimals throughout. The third is assuming a higher expected return always wins. With a positive A, extra return only wins if it more than pays for the extra variance.
+LEWIS: The standard version reads naturally in words. Utility is the expected return minus a penalty for risk. The penalty is one half, times the investor's risk aversion coefficient, times the variance of returns. So the more risk averse you are, the bigger the coefficient, and the more each unit of variance costs you.
 
-Next, indifference curves. An indifference curve joins all the combinations of risk and expected return that give one investor the same utility. Put expected return on the vertical axis and standard deviation on the horizontal axis. For a risk averse investor, the curves slope upward, because more risk must be paid for with more return. They also get steeper as risk rises, because each extra unit of risk needs a bigger reward than the last.
+HEART: The coefficient's sign tells you the type. Positive means risk averse, because risk subtracts from satisfaction. Zero means risk neutral. The penalty disappears and utility is simply the expected return. Negative means risk seeking, because risk actually adds to satisfaction. Portfolio theory generally assumes the coefficient is positive.
 
-A more risk averse investor has steeper curves, and a less risk averse investor has flatter ones. A risk neutral investor has horizontal lines, since only return matters. A risk seeking investor has curves that slope downward, since she will give up some return in exchange for more risk. Curves higher and further to the left carry more utility. One investor's curves never cross each other.
+LEWIS: Two details hide in that penalty. It is charged on variance, the square of the standard deviation, not on the standard deviation itself. And a risk free asset has zero variance, so its utility is just its return.
 
-Now the capital allocation line. Give the investor two things to combine, a risk free asset and one risky portfolio, and call the weight in the risky portfolio w. The expected return of the mix equals the risk free rate, plus w times the gap between the risky portfolio's expected return and the risk free rate. The standard deviation of the mix equals w times the risky portfolio's standard deviation. That is true because the risk free asset has no variance and no covariance with anything.
+HEART: That is why the same pair of investments can rank differently for two people. Take a steady bond fund and a volatile stock fund with a higher expected return. For a very cautious investor, the stock fund's extra return may not cover its much bigger variance penalty, so the bond fund scores higher. For a relaxed investor, the same stock fund comes out ahead. One caution, though. Utility scores rank choices for one investor only. They cannot be compared between two people, because each person's scale is their own.
 
-Both results are straight line functions of w, so every mix lies on one straight line. The line starts at the risk free rate on the vertical axis and runs through the risky portfolio. Its slope is the risky portfolio's expected return minus the risk free rate, divided by the risky portfolio's standard deviation. That slope is the extra expected return you earn for each extra unit of risk.
+LEWIS: Now turn that score into a picture. Draw a graph with risk, the standard deviation, on the horizontal axis, and expected return on the vertical axis. Every investment becomes a dot. An indifference curve connects all the dots that give one investor exactly the same utility. Anywhere along the curve, she is indifferent. She would swap any point on it for any other.
 
-Here is an example. The risk free rate is 3 percent, and the risky portfolio has an expected return of 11 percent and a standard deviation of 20 percent. The slope is 8 divided by 20, or 0.4. A half and half mix earns 7 percent with a standard deviation of 10 percent. A weight of 150 percent in the risky portfolio, which means borrowing at the risk free rate, earns 15 percent with a standard deviation of 30 percent.
+HEART: Think of a hiking map with contour lines. Each line joins places at the same altitude. Indifference curves are contour lines of satisfaction, and uphill is up and to the left, toward more return and less risk. A curve higher up and further left always beats one below it.
 
-Which point does the investor choose? The one where the highest reachable indifference curve just touches the line. For this utility function there is a direct answer. The best weight in the risky portfolio equals its expected return minus the risk free rate, divided by A times its variance. With an A of 4, that is 0.08 divided by 4 times 0.04, which is 0.08 divided by 0.16, or 0.5.
+LEWIS: For a risk averse investor the curves slope upward. Take on more risk, and she needs more return to feel just as well off. They also get steeper as they move right, because each extra slice of risk demands a bigger reward than the slice before. Picture a curve that starts fairly flat near the vertical axis and bends upward as it heads right.
 
-Check it. At a weight of 0.5, utility is 0.07 minus one half times 4 times 0.01, which is 0.05. All in the risky portfolio gives 0.11 minus 0.08, or 0.03, and all in the risk free asset also gives 0.03. The half and half mix beats both ends. A more risk averse investor with an A of 8 would hold only 25 percent in the risky portfolio, and one with an A of 2 would hold 100 percent.
+HEART: Now the comparison the exam wants. A more risk averse investor has steeper indifference curves. For the same added risk, she demands a larger added return. A less risk averse investor has flatter curves. A risk neutral investor's curves are flat, horizontal lines, because only return matters. And a risk seeking investor's curves slope downward. She would give up some return to get more risk.
 
-The rule to keep is this. Utility equals expected return, minus one half times A times variance, all in decimals. A higher A means steeper indifference curves and a smaller weight in risky assets.
+LEWIS: Two more properties. One investor's indifference curves never cross, because a single point cannot carry two different levels of satisfaction. And drawing these curves on a graph of mean and standard deviation assumes investors care only about those two numbers, which is exactly the simplification Module 83.1 warned about.
+
+HEART: Here is the trap. Steep does not mean adventurous. A steep curve means each unit of risk is expensive to this investor, so the steep curve belongs to the cautious one.
+
+LEWIS: Next, the menu. Take a risk free asset, such as a Treasury bill, and one risky portfolio, say a broad stock fund. Picture a dial that slides from all risk free to all risky.
+
+HEART: The expected return of any mix is the weighted average of the two returns. The risk is even simpler. The risk free asset has no standard deviation and no correlation with anything, so the mix's standard deviation is just the share in the risky portfolio times that portfolio's standard deviation. Hold a quarter in the stock fund, and you carry a quarter of its volatility.
+
+LEWIS: Because risk grows in direct proportion to the dial, and expected return climbs by the same amount for every notch, every possible mix lies on one straight line. It starts at the risk free rate on the vertical axis, where risk is zero, and runs up through the risky portfolio. That line is the capital allocation line. Its slope is the risky portfolio's extra return over the risk free rate, for each unit of its standard deviation. In plain words, the reward you are offered for every unit of risk you take.
+
+HEART: The line can keep going past the risky portfolio. If an investor can borrow at the risk free rate and put more than all of her own money into the risky portfolio, she moves further out along the same line, with more expected return and proportionally more risk. Borrowing comes back in the next reading.
+
+LEWIS: That straight line carries a big idea, the two fund separation theorem. Every investor's best portfolio can be built from just two ingredients. One is the optimal risky portfolio, the single best mix of risky assets. The other is the risk free asset. Investors do not need different risky portfolios. They need different amounts of the same one.
+
+HEART: Now lay the indifference curves over the line. The investor wants the highest curve she can reach. Higher curves would be lovely, but no available mix touches them. Lower curves cut across the line, which means she could slide along it to a better spot. The best she can do is the one curve that just touches the line at a single point. That point of tangency is her optimal portfolio, the mix that maximizes her expected utility.
+
+LEWIS: Picture two savers looking at the same line. A cautious retiree with steep curves touches it low down, with most of her money in the risk free asset. A young engineer with flatter curves touches it much further up, with most or all of her money in the risky portfolio. Same menu, different meals.
+
+HEART: That is the result to lock in. A less risk averse investor has flatter curves, so the point of tangency lands further right, at a portfolio with more risk and more expected return. More in the risky portfolio, less in the risk free asset.
+
+LEWIS: And the trap. The optimal portfolio is neither the one with the highest return nor the one with the lowest risk. It is the best trade for one investor's appetite, and it moves when that appetite changes.
+
+HEART: The takeaway. Risk averse investors need to be paid for risk, and a more risk averse investor has steeper indifference curves. Mixing a risky portfolio with a risk free asset traces a straight capital allocation line, and each investor's optimal portfolio is where her highest indifference curve touches that line.
 
 ## Module 83.3, Portfolio Standard Deviation
 
-The expected return of a portfolio is easy. It is the weighted average of the assets' expected returns. A portfolio that is half in an asset earning 10 percent and half in an asset earning 6 percent expects 8 percent. Risk is different, because it depends on how the assets move together. That joint movement is measured by covariance and correlation.
+LEWIS: Module 83.2 mixed a risky portfolio with something riskless, and the risk was easy. This module mixes two risky assets, and now the risk depends on something new: how the two move together.
 
-Covariance comes first. With historical data, the sample covariance of two assets works like this. For each period, multiply asset one's deviation from its mean by asset two's deviation from its mean. Add up those products and divide by the number of periods minus one. If the two assets tend to sit above their means at the same time, the products are mostly positive and covariance is positive, and if one tends to be high when the other is low, covariance is negative. The covariance of an asset with itself is its variance.
+HEART: First, the risk of one asset measured from history. Variance is the average squared distance of each return from the mean, and standard deviation is its square root, back in the same units as the returns. With the whole population of returns, you divide by the number of periods. With a sample, which is what history almost always hands us, you divide by the number of periods minus one, exactly as in Episode 2.
 
-The problem with covariance is scale. Its units are percent squared, and its size depends on how volatile each asset is, so a covariance on its own tells you little. Correlation fixes that. Correlation equals the covariance divided by the product of the two standard deviations. It always lies between negative 1 and positive 1. Positive 1 means the assets move in perfect lockstep, negative 1 means perfectly opposite, and zero means no linear relationship.
+LEWIS: Now two assets at once. Covariance measures how two returns move together over time. Picture two stalls on the same seaside boardwalk, one selling sunscreen and one selling rain ponchos. In sunny weeks, sunscreen flies off the shelf and the ponchos sit unsold. In rainy weeks, the reverse. Their sales have negative covariance. They tend to move in opposite directions.
 
-Here is a worked example. Reuse the asset from Module 83.1, with returns of 10, 20 and 0 percent, a mean of 10 and a standard deviation of 10. Add asset B with returns of 6, 2 and 4 percent. B's mean is 4, its deviations are positive 2, negative 2 and zero, and its standard deviation is 2 percent. Multiply the deviations year by year. Zero times 2 is 0, 10 times negative 2 is negative 20, and negative 10 times zero is 0.
+HEART: Two airlines are the opposite case. Fuel prices, travel demand and the economy push both in the same direction, so their stock returns have positive covariance. And two businesses with nothing in common, say a dentist in one town and a ski shop in another, would likely show covariance near zero, meaning no straight line relationship between them.
 
-The sum is negative 20, and dividing by 2 gives a covariance of negative 10 in percent squared units. Correlation is negative 10 divided by 10 times 2, which is negative 0.5. On the B A two plus, enter the first asset as the X values and B as the Y values in the data worksheet. Then set the statistics worksheet to L I N and scroll down to r, which shows negative 0.5. The calculator does not show covariance, but you can rebuild it as r times S X times S Y, which gives negative 10.
+LEWIS: From historical data, the sample covariance works like this. For each period, take how far the first asset sat from its own mean, and how far the second sat from its own mean, and multiply. Add those products up and divide by the number of periods minus one. When the two tend to sit above their means at the same time, and below at the same time, the products are mostly positive. When one tends to be high while the other is low, they are mostly negative.
 
-Now the core formula. For two assets, portfolio variance equals three terms added together. The first is the first weight squared times the first asset's variance. The second is the second weight squared times the second asset's variance. The third is two, times the first weight, times the second weight, times the covariance. You can write that covariance as the correlation times the two standard deviations, and portfolio standard deviation is the square root of the total.
+HEART: Covariance has a problem. A big number could mean the two move together tightly, or simply that both are very jumpy, and you cannot tell which. Its units are squared returns, which nobody can picture, and it has no fixed scale, which is why it is called an absolute measure. So a covariance on its own tells you the direction of the relationship, but not its strength.
 
-Here is the classic example. A stock fund has an expected return of 10 percent and a standard deviation of 20 percent. A bond fund has an expected return of 6 percent and a standard deviation of 10 percent. Hold half of each, so the expected return is 8 percent whatever the correlation is. The first two terms are 0.25 times 0.04, which is 0.01, and 0.25 times 0.01, which is 0.0025. The cross term is 2 times 0.5 times 0.5, times the correlation, times 0.2 times 0.1, which works out to 0.01 times the correlation.
+LEWIS: Correlation fixes that. Divide the covariance by the product of the two standard deviations, and the units cancel out. What is left is the correlation coefficient, a pure number with no units, always between minus one and plus one. Turn the relationship around, and the covariance equals the correlation times the two standard deviations.
 
-Now vary the correlation. At positive 1, the variance is 0.0225 and the standard deviation is 15 percent, which is exactly the weighted average of 20 and 10. At 0.5, the standard deviation is about 13.2 percent. At zero, it is about 11.2 percent. At negative 1, the variance is 0.0025 and the standard deviation is just 5 percent. The expected return stayed at 8 percent the whole time.
+HEART: Here is the scale. Plus one is perfect positive correlation. Whenever one asset is above its mean, the other is above its own mean too, by a proportional amount, every single period. Minus one is perfect negative correlation, the same proportional link with the direction flipped, so whenever one is above its mean the other is below its own. Zero means uncorrelated, with no straight line relationship, so one asset's return gives you no straight line clue about the other's.
 
-That is diversification. Whenever the correlation is below positive 1, the portfolio's standard deviation is below the weighted average of the individual standard deviations. You do not need negative correlation to benefit, because any correlation short of perfectly positive helps, and the lower it is, the more it helps. With a correlation of exactly negative 1, you can remove risk entirely. Here, one third in stocks and two thirds in bonds gives a standard deviation of zero and an expected return of about 7.3 percent.
+LEWIS: Does a strong positive correlation mean two assets always rise and fall together?
 
-Here are the traps. First, the tempting answer for portfolio risk is the weighted average of the standard deviations. That is only right when the correlation is exactly positive 1, so it is the upper limit, not the answer. Second, correlation changes risk, never expected return. Third, candidates forget to square the weights or drop the 2 in the cross term. Fourth, if a question hands you the covariance, do not multiply it by the standard deviations again.
+HEART: No. Correlation describes a tendency, not a rule for every period, unless it sits exactly at plus one or minus one. Two assets with a strong positive correlation can still move apart in a given month. And one family fact while we are here. An asset's covariance with itself is simply its own variance.
 
-Now spread money equally across many assets. Portfolio variance then equals the average variance divided by the number of assets, plus a second term. That second term is the number of assets minus one, divided by the number of assets, times the average covariance. As the number of assets grows, the first term shrinks toward zero and the second approaches the average covariance. So in a large portfolio, each asset's own risk barely matters, and what matters is how the assets move together.
+LEWIS: Now build the portfolio. The expected return is easy. It is the weighted average of the two expected returns, always, whatever the correlation. The risk, in general, is not a weighted average, and that is the whole point of this module.
 
-Suppose every asset has a standard deviation of 20 percent and every pair has a correlation of 0.25. The average covariance is 0.25 times 0.2 times 0.2, or 0.01. One asset alone has a standard deviation of 20 percent, and ten of them, equally weighted, have about 11.4 percent. With a very large number, the standard deviation approaches the square root of 0.01, which is 10 percent, and it can never fall below that. The same logic drives concentration limits in a loan book, where a large book's risk comes mainly from borrowers who tend to default together.
+HEART: Portfolio variance has three pieces. One piece for the first asset's own variance and one for the second asset's own variance, each scaled by the square of how much of it you hold. Then a third piece, called the cross term, for how the two move together, built from both weights and the covariance, or equivalently the correlation times both standard deviations. Take the square root of the total and you have the portfolio standard deviation. Notice where correlation shows up. Only in that third piece.
 
-The formula to own is the two asset variance. It is the first weight squared times the first variance, plus the second weight squared times the second variance, plus two times both weights times the covariance. And the covariance equals the correlation times the two standard deviations.
+LEWIS: Here is the picture to carry. You are walking two lively dogs, one leash in each hand. Each dog lunges about on its own schedule. How hard you get yanked depends on whether they lunge together.
+
+HEART: At a correlation of plus one, they always lunge the same way at the same moment, in proportion. Nothing cancels. Your sway is simply the weighted average of the two dogs' lunges. That is the worst case. At plus one, and only at plus one, the portfolio standard deviation equals the weighted average of the two standard deviations. It is the ceiling on portfolio risk.
+
+LEWIS: Drop the correlation below one, and sometimes one dog pulls left while the other pulls right. Those pulls partly cancel, so you sway less than the weighted average. Any correlation short of plus one gives some cancellation, and the lower it goes, the more cancels. That cancellation is diversification.
+
+HEART: At zero, the cross term disappears entirely. The dogs ignore each other. Over many lunges, some line up and some offset, and on balance you sway noticeably less than the weighted average of the two dogs. But not zero. Uncorrelated does not mean riskless.
+
+LEWIS: When the correlation turns negative, the cross term turns negative too, so it subtracts risk. Each dog tends to pull against the other. And at minus one the dogs always pull in exactly opposite directions, in proportion. Hold more of the steadier asset and less of the more volatile one, in exactly the right proportion, and every lunge is cancelled. Your sway falls to zero.
+
+HEART: Through all of this, the expected return never moved. Changing the correlation changes the risk, never the expected return. That is why diversification is often called the closest thing in finance to a free lunch. Lower risk, same expected return.
+
+LEWIS: Now the traps. First, the tempting answer for portfolio risk is the weighted average of the standard deviations. It is right only at plus one, so treat it as the upper limit, never the answer. Second, correlation changes risk, not expected return. Third, zero correlation does not mean zero risk. And fourth, if a question hands you the covariance, it already contains both standard deviations, so do not multiply them in a second time.
+
+HEART: Lenders face the same mathematics. Picture a credit union whose borrowers mostly work at one local factory. If the factory shuts down, many of those borrowers fall behind at once. Their loans are highly correlated, so adding more of them does little to spread the risk. That is the logic behind concentration limits.
+
+LEWIS: The takeaway. Correlation is covariance scaled to run from minus one to plus one. Portfolio return is a weighted average, but portfolio risk is not. Risk equals the weighted average of the standard deviations only at a correlation of plus one, and every step below that cuts risk without touching expected return.
 
 ## Module 83.4, The Efficient Frontier
 
-Now widen the menu to every risky asset and every possible mix of them. Plot each portfolio with its standard deviation on the horizontal axis and its expected return on the vertical axis. For each level of expected return, find the portfolio with the lowest possible variance. Join those points and you get the minimum variance frontier, a curve that bulges to the left like the nose of a bullet. Most individual assets sit inside it, to the right, because a single asset carries risk that a mix could remove.
+HEART: Take the two asset story and draw it. On the same risk and return graph, risk across and expected return up, holding only the first asset is one dot, and holding only the second is another. Slide the weights from all of one to all of the other, and every mix traces a path between the dots. The shape of that path depends entirely on the correlation.
 
-The leftmost point on that curve is the global minimum variance portfolio. No portfolio of risky assets has lower risk. Above it, the frontier rises, so each extra unit of risk buys more expected return. Below it, the frontier bends back down, and those portfolios are a bad deal. For every portfolio on the lower part, there is one directly above it with the same risk and a higher expected return.
+LEWIS: At plus one, the path is a straight line between the two dots. Every mix's risk is the weighted average, so there is no bend at all. As the correlation falls, the path bends to the left, toward lower risk, like a rope pulled sideways toward the vertical axis. The lower the correlation, the deeper the bend.
 
-So the efficient frontier is only the upper part of the minimum variance frontier, starting at the global minimum variance portfolio and running upward. Each portfolio on it has the highest expected return for its level of risk, and the lowest risk for its level of return. A risk averse investor would never choose a risky portfolio off this curve. If there were no risk free asset, the investor's best choice would be where the highest indifference curve touches the efficient frontier.
+HEART: At minus one, the bend goes all the way. The path touches the vertical axis at a point of zero risk, and it looks like two straight lines meeting there, a sideways V pointing left.
 
-Here is the trap. The tempting answers are that every point on the minimum variance frontier is efficient, or that the global minimum variance portfolio is best for everyone. Neither is true. Portfolios below the global minimum variance point are inefficient, even though each has the lowest variance for its own expected return. The global minimum variance portfolio is just one efficient portfolio, and which one suits an investor depends on that investor's risk aversion.
+LEWIS: And here is a surprise worth knowing. With a low enough correlation, the bend carries part of the path to the left of the calmer asset's own dot. A mix of the two can be less risky than even the less risky asset held alone.
 
-One more point about the frontier. Adding a new asset class can only improve the frontier or leave it where it is, because you are always free to hold none of it. An asset with low correlation to what you already own tends to push the frontier up and to the left. That is the case for diversifying across asset classes and countries.
+HEART: That is the core case for owning many kinds of assets. Rather than keeping everything in her home stock market, an investor spreads into bonds, overseas shares, property and more, because each addition that does not move in lockstep with the rest can bend the path further left.
 
-Now add the risk free asset. From Module 83.2, combining it with any risky portfolio gives a straight line from the risk free rate through that portfolio. You could draw such a line to every portfolio on the efficient frontier. The best one is the steepest, because it pays the most expected return per unit of risk. Rotate the line upward until it just touches the efficient frontier. The touching point is the optimal risky portfolio, and the line through it is the optimal capital allocation line.
+LEWIS: But diversification has limits. Spread your money equally across more and more assets. Each asset's own ups and downs, the part unique to it, gets diluted, because each one is a smaller and smaller slice. What does not dilute is the part they share, their tendency to move together. So as long as the holdings share some movement, portfolio risk does not fall toward zero as the count grows. It levels off at a floor set by how much the holdings move together on average.
 
-Here is a worked example. The risk free rate is 3 percent. Portfolio P expects 9 percent with a standard deviation of 15 percent, so its line has a slope of 6 divided by 15, or 0.4. Portfolio Q expects 13 percent with a standard deviation of 20 percent, so its slope is 10 divided by 20, or 0.5. To see why the steeper line matters, take on exactly 15 percent risk using Q, by putting 75 percent in Q and 25 percent in the risk free asset. That earns 3 plus 0.75 times 10, or 10.5 percent, which beats P's 9 percent at the same risk.
+HEART: Think of a choir. One singer slightly off key is obvious when she sings alone, and lost in a choir of a hundred. But if the whole choir drifts flat together, adding more singers does not fix it. Stocks drift together with the economy, so even a very broad stock portfolio still swings. The next reading names that remaining part systematic risk.
 
-Every point on the optimal line, except the touching point itself, lies above the efficient frontier. So once a risk free asset exists, investors do best by holding just two things, the risk free asset and the optimal risky portfolio. This is called two fund separation, and it splits the problem into two decisions. The investment decision, which risky portfolio to hold, is the same for every investor who shares the same expectations. The allocation decision, how much to put in that portfolio versus the risk free asset, depends on each investor's risk aversion.
+LEWIS: Two more limits. Correlations are not fixed. In a crisis many assets fall together, so correlations tend to rise exactly when diversification is wanted most. And among ordinary asset classes, perfect negative correlation is practically unheard of, so a zero risk mix is a textbook limit rather than something diversification delivers in practice.
 
-The investor's own optimal portfolio is where her highest reachable indifference curve touches the optimal capital allocation line. A very risk averse investor touches it near the risk free end, so she lends, putting much of her money in the risk free asset. An investor with low enough risk aversion touches it beyond the optimal risky portfolio, so she borrows at the risk free rate to hold more than 100 percent in it. Using the direct formula from Module 83.2 with Q, an investor with an A of 5 holds 0.10 divided by 5 times 0.04, which is 50 percent in Q. An investor with an A of 2 holds 0.10 divided by 0.08, which is 125 percent, borrowing the extra 25 percent.
+HEART: Now widen the menu to every risky asset and every possible mix of them. On the graph that is a whole cloud of dots. Pick any target return. Among all the mixes that hit it, one carries the least risk, and that one is a minimum variance portfolio. Repeat for every target return, join the winners, and you get the minimum variance frontier.
 
-Here is a trap on graphs, because questions like to swap two different points. The optimal risky portfolio is where the line touches the efficient frontier, and it is the same for everyone. The optimal investor portfolio is where an indifference curve touches the line, and it differs from investor to investor. When every investor shares the same expectations, the optimal risky portfolio becomes the market portfolio and the line gets a new name, which is the next episode.
+LEWIS: Its shape is a curve that bulges toward the vertical axis, like the nose of a bullet pointing left. Individual assets and most portfolios sit inside it, to the right, because a single asset carries risk that some mix could remove.
 
-The rule to remember has three parts. The efficient frontier runs from the global minimum variance portfolio upward. The optimal risky portfolio is where the steepest capital allocation line touches it. Each investor's optimum is where her highest indifference curve touches that line.
+HEART: The region to the left of the curve is simply out of reach. With the assets available, no mix offers that little risk for that much return. The curve is bent rather than straight for the same reason the two asset path bends. The assets do not move in lockstep, so mixing them cancels some risk. The leftmost point on that curve is the global minimum variance portfolio. No portfolio of risky assets has less risk.
+
+LEWIS: From that point the frontier splits in two. The upper half rises to the right, so each extra unit of risk buys more expected return. The lower half falls away to the right, and those portfolios are a bad deal. For any point on the lower half, there is a point directly above it on the upper half with the same risk and a higher expected return.
+
+HEART: So the efficient frontier is only the top portion of the minimum variance frontier, starting at the global minimum variance portfolio and running upward. Each efficient portfolio offers the highest expected return available for its level of risk. When the menu holds only risky assets, a risk averse investor never needs to look below the frontier. Whatever portfolio she might pick there, an efficient one with the same risk offers a higher expected return.
+
+LEWIS: Now the traps. First, not every minimum variance portfolio is efficient. A point on the lower half has the lowest risk for its own expected return, yet it is still inefficient, because the point above it beats it. Second, the global minimum variance portfolio is efficient, but it is not the best choice for everyone. It is simply the least risky efficient portfolio. Which efficient portfolio suits an investor depends on her risk aversion.
+
+HEART: Without a risk free asset, that choice is where the investor's highest indifference curve touches the efficient frontier. A cautious investor touches it near the global minimum variance end. A bolder one touches it higher up.
+
+LEWIS: One more feature of the frontier. Adding a new asset class can only improve the frontier or leave it where it was, because you are always free to hold none of the new asset. Add one with low correlation to what you already own, and the frontier generally shifts up and to the left. More return for the same risk, or less risk for the same return.
+
+HEART: Now bring back the risk free asset and the capital allocation line from Module 83.2. From the risk free rate on the vertical axis, you could draw a straight line to any portfolio on the efficient frontier, and each would be a possible capital allocation line. Which is best? The steepest, because it offers the most extra return for each unit of risk.
+
+LEWIS: Picture a ruler pinned at the risk free rate. Swing it upward until it just grazes the efficient frontier. Swing it any higher and it misses the frontier entirely, so no available risky portfolio sits on it. Leave it any lower and it cuts through the frontier, which means a steeper line was still available. The grazing point is the optimal risky portfolio, and the line through it is the optimal capital allocation line.
+
+HEART: Every point on that line, apart from the grazing point itself, lies above the efficient frontier. So mixing that one risky portfolio with the risk free asset beats holding any other risky portfolio with the same level of risk.
+
+LEWIS: This is where the separation idea pays off. The investor's problem splits into two decisions. The first is which risky portfolio to hold. The answer is the grazing portfolio, and it is the same for every investor who shares the same expectations about returns, risks and correlations. The second is how much to put in it and how much in the risk free asset, and that depends on each investor's risk aversion.
+
+HEART: Think of a coffee shop with one house blend. Every customer gets the same blend. Each one decides how strong to make it by how much hot water goes in. The blend is the optimal risky portfolio, the water is the risk free asset, and the strength is the investor's choice.
+
+LEWIS: That choice is the second tangency. Each investor's optimal portfolio is where her highest indifference curve touches the optimal capital allocation line. Steeper curves touch it nearer the risk free end, so the cautious investor lends, keeping much of her money risk free. Flatter curves touch it further out, and an investor with low enough risk aversion goes past the risky portfolio itself, borrowing at the risk free rate to hold more than all of her money in it.
+
+HEART: Here is the graph trap, because questions like to swap the two touching points. Where the line touches the frontier, you find the optimal risky portfolio, and it is the same for everyone. Where an indifference curve touches the line, you find the optimal investor portfolio, and it differs from person to person.
+
+LEWIS: When every investor shares the same expectations, that common risky portfolio becomes the market portfolio, and the line gets a new name. That is the next episode.
+
+HEART: The takeaway. Lower correlation bends the risk and return path further left, but shared movement puts a floor under risk. The efficient frontier is the top of the minimum variance frontier, from the global minimum variance portfolio upward. The steepest capital allocation line picks one risky portfolio for everyone, and each investor's risk aversion picks the mix.
 
 ## Recall check
 
-Q: Compared with a normal distribution, are equity returns most likely normal, positively skewed with thin tails, or negatively skewed with fat tails?
+LEWIS Q: Over the long United States history, which asset class had the highest average return and the highest volatility, and which had the lowest of both?
 
-Answer: Negatively skewed with fat tails, which means excess kurtosis. Large losses show up more often than a normal model predicts. So mean and standard deviation alone understate the risk of extreme outcomes.
+HEART: Answer. Small company stocks had the highest of both, and Treasury bills the lowest of both. Here is why. Investors dislike risk, so assets with bigger swings must offer higher expected returns before anyone will hold them. Small company stocks swing the most, so they have had to pay the most. Bills barely move, so they pay the least, and the same ordering shows up in markets around the world.
 
-Q: An investor has a risk aversion coefficient of 3. A risky asset offers an expected return of 10 percent with a standard deviation of 20 percent, and a risk free asset pays 5 percent. Which does the investor prefer?
+HEART Q: A long history table reports each asset class's average return as a geometric mean. Would the arithmetic means be higher or lower, and for which asset class is the gap widest?
 
-Answer: The risk free asset. The risky asset's utility is 0.10 minus one half times 3 times 0.04, which is 0.10 minus 0.06, or 0.04. The risk free asset's utility equals its return, 0.05, which is higher.
+LEWIS: Answer. Higher, and the gap is widest for small company stocks. Here is why. The geometric mean captures compounding, and swings drag compound growth below the simple average of the yearly returns. The bigger the swings, the bigger that drag. Small company stocks are the most volatile class, so their two averages sit furthest apart.
 
-Q: The risk free rate is 4 percent. A risky portfolio expects 12 percent with a standard deviation of 20 percent. If you put 75 percent in the risky portfolio and the rest in the risk free asset, what are the expected return and the standard deviation?
+LEWIS Q: Compared with a normal distribution, how do actual return distributions differ in skewness and kurtosis, and why does it matter?
 
-Answer: The expected return is 10 percent and the standard deviation is 15 percent. The return is 4 plus 0.75 times the 8 point excess return, which is 4 plus 6. The standard deviation is just 0.75 times 20, because the risk free asset adds no risk.
+HEART: Answer. They are negatively skewed with excess kurtosis, meaning fat tails. Here is why. Negative skew means big losses are more likely than equally big gains, and excess kurtosis means extreme moves in either direction happen more often than a bell curve allows. Mean and standard deviation alone miss both effects, so they understate the risk of a crash.
 
-Q: Two assets each have a standard deviation of 20 percent, you hold half of each, and their correlation is 0.3. Is the portfolio's standard deviation most likely above 20 percent, exactly 20 percent, or below 20 percent?
+HEART Q: Why would two otherwise similar bonds offer different expected returns if one trades every day and the other rarely trades?
 
-Answer: Below 20 percent. The weighted average of the standard deviations, 20 percent, is the portfolio's risk only when the correlation is positive 1. Any lower correlation pulls risk below that average, here to about 16.1 percent, while the expected return is unchanged.
+LEWIS: Answer. The rarely traded bond should offer a higher expected return. Here is why. An illiquid security is costly to sell quickly, through wide price gaps or a forced markdown. Investors pay less for it to make up for that, and a lower price today means a higher expected return. The effect is strongest in emerging markets and in low quality corporate bonds.
 
-Q: A portfolio lies on the minimum variance frontier, below the global minimum variance portfolio. Is it efficient?
+LEWIS Q: An investor is offered a sure amount or a gamble with exactly the same expected value, and she genuinely does not care which she gets. What is her risk attitude, and what do her indifference curves look like?
 
-Answer: No. It does have the lowest variance for its expected return, but a portfolio directly above it on the frontier has the same risk and a higher expected return. Only the part of the frontier from the global minimum variance portfolio upward is efficient.
+HEART: Answer. She is risk neutral, and her indifference curves are flat, horizontal lines. Here is why. A risk neutral investor cares only about expected return, so her risk aversion coefficient is zero and the risk penalty in her utility vanishes. Adding risk without changing the expected return leaves her exactly as satisfied, so a line of equal satisfaction runs straight across the graph.
 
-Q: Two investors share the same expectations, and a risk free asset is available. One is far more risk averse than the other. Which most likely differs between them, the risky portfolio they hold or how much they put into it?
+HEART Q: In the standard utility function, is the risk penalty charged on standard deviation or on variance, and what sign does the coefficient take for a risk seeking investor?
 
-Answer: How much they put into it. Under two fund separation, both hold the same optimal risky portfolio, where the steepest capital allocation line touches the efficient frontier. The more risk averse investor puts more in the risk free asset, while the other may borrow to hold more than 100 percent in the risky portfolio.
+LEWIS: Answer. On variance, and the coefficient is negative for a risk seeker. Here is why. Utility is the expected return minus one half times the risk aversion coefficient times the variance. A positive coefficient makes risk subtract from utility, which is risk aversion. A negative coefficient flips the penalty into a bonus, so more risk raises utility, which is risk seeking.
 
-## Recap
+LEWIS Q: Two investors face the same capital allocation line. One has much steeper indifference curves. Which one holds more in the risky portfolio?
 
-Historically, higher average returns have come with higher volatility, from small company stocks down to Treasury bills. One plus the nominal return equals one plus the real return, times one plus inflation. With historical data, sample variance and covariance divide by the number of periods minus one. Utility equals expected return minus one half times A times variance, in decimals, and a larger A means steeper indifference curves and less money in risky assets.
+HEART: Answer. The one with flatter curves holds more in the risky portfolio. Here is why. Steep curves mean each extra unit of risk must be paid for with a large extra return, which is high risk aversion. Such curves touch the line low down, near the risk free end. Flatter curves touch the line further right, at a mix with more risk, more expected return and more in the risky portfolio.
 
-Combining a risk free asset with a risky portfolio gives a straight line whose slope is the excess return per unit of standard deviation. Two asset portfolio variance is the two weighted variances plus two times both weights times the covariance, and any correlation below positive 1 cuts risk without cutting expected return. In a large, equally weighted portfolio, variance approaches the average covariance. The efficient frontier runs upward from the global minimum variance portfolio, every investor with the same expectations holds the same optimal risky portfolio where the steepest line touches it, and risk aversion only decides how much goes into it.
+HEART Q: Why is the capital allocation line straight, when combinations of two risky assets usually trace a curve?
+
+LEWIS: Answer. Because the risk free asset has zero standard deviation and zero correlation with the risky portfolio. Here is why. With nothing for the risky portfolio to offset, the mix's standard deviation is simply the risky weight times the risky portfolio's standard deviation. Expected return is also a weighted average, so both rise at a steady rate as the risky weight grows. Two risky assets bend away from a straight line only because their imperfect correlation cancels some risk.
+
+LEWIS Q: When does a two asset portfolio's standard deviation equal the weighted average of the two assets' standard deviations?
+
+HEART: Answer. Only when the correlation is exactly plus one. Here is why. At plus one, the two assets always move together in proportion, so nothing cancels and risk simply averages. At any lower correlation, some of their movements offset, so portfolio risk falls below the weighted average. That makes the weighted average the ceiling, not the usual answer.
+
+HEART Q: The correlation between two assets falls from positive to zero while their weights stay fixed. What happens to the portfolio's expected return and to its standard deviation?
+
+LEWIS: Answer. The expected return stays the same, and the standard deviation falls. Here is why. Expected return is a weighted average of the assets' expected returns, and correlation plays no part in it. Correlation only enters the cross term of portfolio variance, the piece for how the assets move together. At zero correlation that term disappears, so the variance shrinks while the return is unchanged.
+
+LEWIS Q: A portfolio sits on the minimum variance frontier, below the global minimum variance portfolio. Is it efficient?
+
+HEART: Answer. No. Here is why. It does have the lowest risk for its own expected return, which is what puts it on the minimum variance frontier. But a portfolio directly above it, on the upper half, has the same risk and a higher expected return. Only the part of the frontier from the global minimum variance portfolio upward is efficient.
+
+HEART Q: Two investors share the same expectations and can lend and borrow at the risk free rate. One is far more risk averse. Do they hold different risky portfolios, or the same one in different amounts?
+
+LEWIS: Answer. The same risky portfolio in different amounts. Here is why. Both find the steepest capital allocation line, which touches the efficient frontier at one optimal risky portfolio. Under two fund separation, each then mixes that portfolio with the risk free asset. The more risk averse investor holds more of the risk free asset, and the other holds more of the risky portfolio, perhaps even borrowing to hold more than all of her money in it.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: For the asset class ladder: the higher the rung, the bumpier the ride. Small company stocks at the top, then large company stocks, then bonds, then Treasury bills at the bottom.
+
+HEART: For the shape of returns: actual returns have their long tail on the losing side, and fat tails at both ends. Negative skew and excess kurtosis mean crashes come more often than a bell curve promises. And illiquid assets must pay extra to be held.
+
+LEWIS: For attitudes to risk: the averse pay for certainty, the neutral count only the average, and the seekers pay for the thrill. Insurance buyers are acting risk averse. Lottery players are acting risk seeking.
+
+HEART: For utility: expected return minus a penalty, and the penalty is on variance, never on standard deviation. The coefficient is positive for averse, zero for neutral and negative for seeking.
+
+LEWIS: For indifference curves: steeper curves, more cautious investor. Flatter curves, bolder investor. Perfectly horizontal lines, risk neutral. Uphill is up and to the left. And for the capital allocation line: the risk free asset brings no risk of its own, so a quarter in the risky portfolio means a quarter of its risk, and every mix sits on one straight line.
+
+HEART: For portfolio risk: return averages, risk does not. At plus one there is no help, and risk is the weighted average. At zero the cross term vanishes. At minus one the right mix erases risk.
+
+LEWIS: For diversification: what is unique dilutes, what is shared stays. Adding holdings shrinks each asset's own risk, but not the risk they share.
+
+HEART: For the frontier: efficient means the top of the bullet, starting at its leftmost point, the global minimum variance portfolio.
+
+LEWIS: For separation: one house blend for everyone, and each investor chooses the strength. Two tangencies. The line touching the frontier picks the risky portfolio. The indifference curve touching the line picks the mix.
+
+HEART: Now, how you would say the big ideas to a senior leader.
+
+LEWIS: On history: riskier assets have paid more over long periods, but with much bigger swings, and the bad years are worse than a bell curve suggests. Cash has roughly kept pace with inflation and not much more. The jargon is the risk return tradeoff, real returns, negative skewness and excess kurtosis.
+
+HEART: On risk appetite: people differ in how much extra return they need before accepting more volatility, and that appetite should set the mix. The jargon is risk aversion, utility and indifference curves.
+
+LEWIS: On diversification: combining holdings that do not move in lockstep lowers risk without lowering expected return, but the risk they share never goes away, and it tends to show up in a crisis. The jargon is correlation, covariance and the diversification benefit.
+
+HEART: On portfolio choice: build the best risky mix once, then decide how much of it to hold versus safe assets based on appetite. The jargon is the efficient frontier, the capital allocation line and two fund separation.
