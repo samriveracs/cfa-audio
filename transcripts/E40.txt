@@ -1,169 +1,251 @@
-## The big picture
-
-The previous episode built the efficient frontier, the set of risky portfolios that offer the most expected return for each level of risk. This episode adds two ingredients. The first is a risk free asset. The second is the assumption that every investor sees the same frontier. Together, those two ingredients turn a picture of portfolios into a pricing model for every asset in the market.
-
-Two modules do the work. The first starts with the capital market line, which shows what happens when you mix a risk free asset with the market portfolio. It then splits total risk into the part you can diversify away and the part you cannot, and it introduces beta, the measure of the risk you cannot escape. The second module turns beta into a required return through the capital asset pricing model, or CAPM. It draws the security market line, or SML, uses it to spot mispriced securities, and ends with four ways to grade a manager. Those are the Sharpe ratio, the Treynor ratio, M squared and Jensen's alpha.
-
-One idea runs through both modules. Markets pay you for risk you cannot diversify away, and only for that risk. Hold onto that sentence and most questions on this material answer themselves. Expect calculation questions on beta, CAPM expected returns and the four performance measures. Expect concept questions that test whether you can tell the capital market line from the security market line, and whether a stock above the line is cheap or expensive.
+LEWIS: Reading 84 finishes portfolio risk and return with the capital market line and the market portfolio, the split between risk you can diversify away and risk you cannot, and beta as the measure of the risk that remains. It then covers the capital asset pricing model and its assumptions, the security market line and how to spot a mispriced stock with it, and four ways to grade a manager: the Sharpe ratio, the Treynor measure, M squared and Jensen's alpha.
 
 ## Module 84.1, Systematic Risk and Beta
 
-Start with a risky portfolio on the efficient frontier and add one new asset, a risk free asset such as a short term government bill. Its return is known in advance, so its standard deviation is zero. Its correlation with any risky asset is zero as well. When you mix a zero risk asset with a risky portfolio, the curve disappears and you get a straight line.
+HEART: The last reading ended with a ruler pinned at the risk free rate, swung upward until it just grazed the efficient frontier. Because the risk free asset brings no volatility and no correlation of its own, every mix of it with a risky portfolio lies on a straight line, and the steepest such line picked out the optimal risky portfolio.
 
-Here is why. Put some fraction of your money, call it the weight, in the risky portfolio, and the rest in the risk free asset. The expected return of the mix equals the risk free rate, plus the weight times the risky portfolio's expected return in excess of the risk free rate. The standard deviation of the mix equals the weight times the risky portfolio's standard deviation, and nothing more, because the risk free asset adds no variance and no covariance.
+LEWIS: This reading adds one assumption, homogeneous expectations. Every investor works from the same forecasts of expected returns, standard deviations and correlations for every risky asset. Same inputs, same efficient frontier, same grazing point. So every investor holds the very same risky portfolio, just in different amounts. Without that assumption, investors with different forecasts would each find a different grazing point and a different capital allocation line.
 
-Return and risk both scale with the same weight, so every possible mix lies on one straight line. That line is called a capital allocation line. It starts at the risk free rate on the vertical axis and runs through the risky portfolio.
+HEART: And that forces something remarkable. Picture a town where every household fills its basket of risky assets from the same recipe card, some buying a big basket and some a small one. Every risky asset in town has to be owned by somebody, so all the baskets added together are the whole market. If every basket follows one recipe, that recipe must match the whole market, each asset held in proportion to its total market value. The shared risky portfolio has to be the market portfolio, the portfolio of all risky assets.
 
-The slope of that line is the risky portfolio's excess return divided by its standard deviation. That ratio is the Sharpe ratio. An investor wants the steepest capital allocation line available, because a steeper line gives more expected return for every unit of risk. The steepest line you can draw from the risk free rate just touches the efficient frontier at a single point. That tangency portfolio is the best risky portfolio to combine with the risk free asset.
+LEWIS: In theory, the market portfolio holds every risky asset there is. In practice, nobody can buy all of that, so investors hold a broad index of risky assets as a stand in, called a proxy for the market.
 
-Now add homogeneous expectations. Every investor uses the same estimates of expected returns, standard deviations and correlations, so every investor finds the same tangency portfolio. If everyone holds the same risky portfolio, then all investors together hold every risky asset in proportion to its market value. So the tangency portfolio must be the market portfolio. The capital allocation line that runs through the market portfolio gets a special name, the capital market line, or CML.
+HEART: Under homogeneous expectations, the best capital allocation line for everyone is the one through the market portfolio, and it gets its own name, the capital market line, or CML. It starts at the risk free rate, where risk is zero, and runs up through the market portfolio. Along it, expected return rises in a straight line with total risk, measured by standard deviation.
 
-In theory the market portfolio holds every risky asset, even human capital. In practice, analysts use a broad equity index as a stand in. Investing along the CML, by holding an index fund plus T bills, is a passive strategy. An active manager who believes some securities are mispriced builds a different risky portfolio, and so ends up on a different capital allocation line.
+LEWIS: Its slope is worth knowing in words. The market's expected return minus the risk free rate is called the market risk premium, the extra reward for holding the market instead of riskless bills. The slope of the capital market line is that market risk premium divided by the market's standard deviation. In plain words, the reward the market offers for each unit of total risk.
 
-Here is the CML formula, said slowly. The expected return of a portfolio on the CML equals the risk free rate, plus a slope times the portfolio's standard deviation. The slope equals the expected return on the market minus the risk free rate, all divided by the standard deviation of the market. In words, the slope is the market's Sharpe ratio, its reward per unit of total risk.
+HEART: Which gives a neat way to hear any point on the line. Every portfolio on it earns the risk free rate, plus a share of the market risk premium equal to its share of the market's risk. Take on half the market's volatility, and you earn the risk free rate plus half the market risk premium.
 
-Here is an example. The risk free rate is 3 percent. The market's expected return is 9 percent and its standard deviation is 20 percent. The market risk premium is 6 percent, so the slope of the CML is 6 divided by 20, or 0.3.
+LEWIS: Points to the left of the market portfolio are lending portfolios. Part of your money sits in the risk free asset, which amounts to lending at the risk free rate. Points to the right are borrowing portfolios, also called leveraged portfolios. You borrow at the risk free rate, the way an investor borrows through a margin account, and put more than all of your own money into the market portfolio. That stretch of the line exists only because the model assumes investors can borrow, as well as lend, at the risk free rate.
 
-Want a portfolio with a standard deviation of 10 percent? Its expected return is 3 plus 0.3 times 10, or 6 percent. That portfolio is half market and half T bills. Check it directly. Half of 9 plus half of 3 is 6.
+HEART: In real life most investors borrow at a higher rate than the government pays, so beyond the market portfolio the line bends and flattens, and leverage buys a little less than the model promises.
 
-Points to the left of the market portfolio are lending portfolios. You are lending at the risk free rate by holding bills. Points to the right are borrowing portfolios, also called leveraged portfolios. You borrow at the risk free rate and put more than 100 percent of your own money into the market.
+LEWIS: Now the two strategies this sets up. An investor who trusts that market prices are informationally efficient, meaning they already reflect what is known, sees no point in hunting for a better risky mix. She buys a broad index fund as her proxy for the market, keeps the rest in Treasury bills, and decides only the split between them. That is a passive investment strategy.
 
-Want a standard deviation of 30 percent? The expected return is 3 plus 0.3 times 30, or 12 percent. That is 150 percent in the market, financed by borrowing 50 percent. Check it. 1.5 times 9 is 13.5. Subtract the borrowing cost of 0.5 times 3, which is 1.5, and you are left with 12.
+HEART: Now picture an investor who trusts her own research over the market's prices. She tilts toward the stocks she judges undervalued, holding more of each than its share of the market, and away from the ones she judges overvalued, holding less. That tilting is active portfolio management. Her risky portfolio is no longer the market, so she ends up on a capital allocation line of her own.
 
-Real investors usually borrow at a higher rate than they lend. Suppose you can lend at 3 percent but must borrow at 5 percent. To the left of the market portfolio, nothing changes. To the right, the line gets flatter, because the slope becomes 9 minus 5, divided by 20, or 0.2. The same 150 percent position now earns 13.5 minus 2.5, or 11 percent instead of 12. The CML bends at the market portfolio, and leverage buys less extra return than before.
+LEWIS: Now the second big idea, and the one the rest of this reading hangs on. Why is the market portfolio the right yardstick for risk? Because of what diversification can and cannot remove.
 
-How does each investor pick a point on the line? By risk aversion. A very risk averse investor sits close to the risk free rate. A risk tolerant investor sits at the market portfolio or beyond it. So everyone holds the same risky portfolio, and only the mix with the risk free asset differs. Splitting the choice of risky portfolio from the choice of how much of it to hold is called the two fund separation theorem.
+HEART: Think about everything that could hurt a regional chain of coffee shops. A kitchen fire at one location, a falling out with its main bean supplier, a rival opening across the street. Those are its own problems. Now think of a recession, when people everywhere cut back, or a jump in interest rates that raises every company's borrowing costs. Those hit the coffee chain and almost every other business at the same time.
 
-Here is the trap. This framework does not assume everyone has the same risk aversion. It assumes everyone has the same expectations. Same beliefs, same risky portfolio, different mixes.
+LEWIS: The first kind is unsystematic risk, also called nonsystematic, unique, diversifiable or firm specific risk. The second kind is systematic risk, also called market risk or nondiversifiable risk. It comes from economy wide forces such as GDP growth, inflation and changes in interest rates. A stock's total risk, measured by its standard deviation, is made of both.
 
-Now the second half of the module. Why is the market portfolio the right yardstick for risk? Because of diversification. The total risk of any single stock has two parts.
+HEART: Hold many stocks across different industries and the firm specific surprises tend to cancel. One company's fire is offset by another company's lucky contract. The last reading showed the result. Portfolio risk falls quickly as you add holdings, then levels off at a floor. That floor is systematic risk. It does not cancel, because the recession reaches every holding at once.
 
-Systematic risk comes from economy wide forces such as recessions, inflation surprises and interest rate changes. It hits nearly every asset at the same time, so it cannot be diversified away. It is also called market risk or nondiversifiable risk. Nonsystematic risk comes from events specific to one company or industry, such as a failed product, a lawsuit or a strike. It is also called unique risk, specific risk or diversifiable risk.
+LEWIS: And you do not need every security in the market to get there. Studies differ on the exact count, but a few dozen stocks or even fewer, spread across industries, remove most of the unique risk. The market portfolio goes all the way, holding every risky asset, so it carries no unique risk at all. Its risk is entirely systematic.
 
-As you add stocks to a portfolio, the company specific surprises start to cancel. One firm's bad news is offset by another firm's good news. Portfolio standard deviation falls quickly at first and then levels off. The floor it approaches is systematic risk. A fully diversified portfolio, like the market itself, carries systematic risk only. A lender's loan book behaves the same way, since one large borrower is a concentration you can diversify, while a recession reaches every borrower at once.
+HEART: The same split applies to a single stock. Some companies are highly sensitive to the economy. A homebuilder sells many more houses in a boom and far fewer in a slump, so a large part of its risk is systematic. Others barely notice the business cycle. People buy toothpaste in good years and bad, so a toothpaste maker carries little systematic risk.
 
-So why should an investor expect no extra return for bearing nonsystematic risk? Because it can be eliminated for free, by holding more securities. Imagine a stock that offered a high expected return just because of its unique risk. Diversified investors would buy it, absorb the unique risk at no cost to themselves, and collect the extra return. Their buying would push the price up and the expected return down until the extra reward was gone.
+LEWIS: A lender's loan book shows the same split. One borrower failing for reasons of its own is unique risk, and spreading loans across many borrowers dilutes it. A recession touches nearly every borrower at once, and no amount of spreading removes that.
 
-In equilibrium, only systematic risk earns a premium. The consequence is very testable. Two stocks with the same total risk can have very different expected returns, and a stock with high total risk can still have a low expected return.
+HEART: Now the key question. Why should an investor expect no extra return for bearing unsystematic risk?
 
-To measure systematic risk, you need a return generating model, which describes how an asset's returns are driven by one or more factors. The general version is a multifactor model. It says an asset's expected return in excess of the risk free rate equals a sum of terms, where each term is the asset's sensitivity to a factor times that factor's expected premium.
+LEWIS: Because it can be removed for free. Diversification costs almost nothing, especially through a low cost index fund, and the model assumes it costs nothing at all. Picture an employer setting pay. It pays extra for work on an offshore oil rig, because that hardship comes with the job and anyone doing it must bear it. It will not pay you extra for a two hour commute you chose, because that burden was yours to avoid. Markets work the same way. They pay for the burden nobody can avoid, systematic risk, and nothing for the burden you could have shed by diversifying.
 
-Factor models come in three types. Macroeconomic models use factors such as surprises in GDP growth, inflation or interest rates. Fundamental models use company characteristics such as size or the book to market ratio. Statistical models let patterns in historical returns pick the factors. A well known example is the Fama French three factor model, which uses the market, firm size and value. Add momentum as a fourth factor and you get the Carhart four factor model.
+HEART: Here is the mechanism. Suppose a stock offered a high expected return just because it carried a lot of unique risk. Diversified investors would see a bargain. Inside their broad portfolios, that unique risk mostly cancels, so they would take on little extra risk while collecting the extra return. They would buy, the price would rise, and the expected return would fall until the extra reward was gone.
 
-The simplest case has one factor, the market. In this single index model, an asset's expected excess return equals its beta times the market's expected excess return. The version used to estimate beta from data is called the market model. It says the asset's return in each period equals an intercept, plus beta times the market's return in that period, plus an error term. The error term captures the firm specific surprise. Regress the asset's returns on the market's returns and the slope of the fitted line is beta.
+LEWIS: So prices are set by investors who diversify, and all they care about is how much a stock adds to the risk of a broad portfolio. That added risk is its systematic risk. In equilibrium, then, the return investors require is set by systematic risk alone, and the unique part of a stock's risk adds nothing to it.
 
-The market model gives a clean split of risk. The total variance of an asset equals beta squared times the market's variance, which is the systematic part, plus the variance of the error term, which is the nonsystematic part. Notice that the split adds variances, not standard deviations.
+HEART: That has a striking consequence. The stock with the highest standard deviation does not necessarily have the highest expected return. Picture a small company whose whole future rides on one large patent lawsuit. Win, and the stock soars. Lose, and it collapses. Enormous total risk. But a courtroom verdict has almost nothing to do with the economy, so nearly all of that risk is unique.
 
-Now beta itself. Beta measures how sensitive an asset's return is to the market's return. Here is the formula, said slowly. Beta equals the covariance between the asset's return and the market's return, divided by the variance of the market's return.
+LEWIS: Now picture a large trucking company. Its stock is much calmer overall, but its shipments rise and fall with the economy, so most of its risk is systematic. The calm trucking company can therefore offer the higher expected return. That is the trap to hold onto. High total risk does not mean a high required return. Only the systematic part is paid.
 
-A second form is often quicker. Covariance equals the correlation times the two standard deviations. So beta also equals the correlation between the asset and the market, times the asset's standard deviation, divided by the market's standard deviation.
+HEART: To measure systematic risk, we need a model of what drives returns. A return generating model builds a security's expected return from a few underlying drivers, called factors. Its sensitivity to each factor is called a factor sensitivity or factor loading, in effect a beta for that one factor.
 
-Try it with round numbers. A stock has a standard deviation of 30 percent and a correlation of 0.6 with the market. The market's standard deviation is 20 percent. Beta equals 0.6 times 30, divided by 20, which is 0.9.
+LEWIS: Factors come in three families. Macroeconomic factors are economy wide forces, such as the growth of the economy, unexpected inflation or shifts in interest rates. Fundamental factors are traits of the company itself, such as its size, its earnings growth, its debt load or its spending on research. Statistical factors are patterns pulled out of past returns by number crunching, often with no economic story behind them, and they deserve suspicion. Test the same data enough times and something will appear to work by luck alone, which is called data mining, so such a pattern may hold only for the stretch of history that was searched.
 
-Now check it the covariance way. The covariance is 0.6 times 0.30 times 0.20, which is 0.036. The market's variance is 0.20 squared, or 0.04. And 0.036 divided by 0.04 is 0.9 again.
+HEART: The general multifactor model is simple in words. A security's expected return above the risk free rate equals the sum, across all the factors, of its sensitivity to each factor times that factor's expected value. Often the first factor is the expected return on the market above the risk free rate.
 
-Now split this stock's risk. Its systematic standard deviation is beta times the market's standard deviation, 0.9 times 20, or 18 percent. Its total standard deviation is 30 percent.
+LEWIS: The best known example is the Fama and French model, with three factors: the market's excess return, firm size, and the ratio of book value to market value. Carhart added a fourth factor, momentum, based on how a stock performed in the recent past. The four together account for much of why some United States stocks have earned more than others, at least over the years the model was tested on.
 
-Work in variances, measured in percent squared. Total variance is 30 squared, or 900. Systematic variance is 18 squared, or 324. That leaves 576 as nonsystematic variance, which is 24 squared. So the nonsystematic standard deviation is 24 percent, not the 12 percent you would get by subtracting 18 from 30.
+HEART: The simplest case keeps just one factor, the market. That is a single factor model, also called a single index model. In words, a security's expected return above the risk free rate equals its beta times the market's expected return above the risk free rate. Beta is the only sensitivity that matters.
 
-Also, 324 divided by 900 is 36 percent, which is the correlation squared, 0.6 times 0.6. In general, the share of an asset's variance that is systematic equals its correlation with the market, squared.
+LEWIS: A simplified working version, the market model, is what analysts fit to data to measure beta. It says a stock's return in any period equals an intercept, plus beta times the market's return in that period, plus an error term. The intercept and beta both come from historical data.
 
-Keep a few anchor values in mind. The market's beta is exactly 1, because the market's covariance with itself is its own variance. The risk free asset has a beta of 0. The value weighted average beta of all assets is 1. A beta above 1 means the asset tends to amplify market moves, and a beta below 1 means it tends to dampen them. Beta can even be negative, for an asset that tends to rise when the market falls.
+HEART: The error term is the interesting part. It is the abnormal return, the piece of the stock's return that the market's move does not explain. Say the market rises in a given month, and given the stock's beta the model expected it to rise by a certain amount. Then the company announces a surprise contract and the stock jumps by more. That extra jump is the abnormal return, the firm specific surprise for that period.
 
-Here are the traps. First, beta is not total risk. A volatile stock with a low correlation can have a low beta. Second, when you start from covariance, divide by the market's variance, not the market's standard deviation. Third, diversification removes nonsystematic risk, but it does not drag a portfolio's beta toward zero. A portfolio's beta is simply the weighted average of the betas of its holdings.
+LEWIS: One technical detail. The market model is written in plain returns, while the single index model is written in returns above the risk free rate. For the two to agree, the intercept has to equal the risk free rate times one minus beta.
 
-On the exam, you will almost always be handed the covariance or the correlation, so beta is a short calculation rather than a regression. Keep this one formula. Beta equals the covariance of the asset with the market, divided by the market's variance. That is the same as the correlation, times the asset's standard deviation, divided by the market's standard deviation.
+HEART: Now beta itself, by picture. Imagine a stock that tends to rise further than the market in good months and fall harder in bad ones. A stock that tends to move twice as much as the market, in the same direction, has a beta near two. One that tends to move half as much has a beta near one half. Beta is the stock's sensitivity to the market.
+
+LEWIS: That makes the benchmark values easy. The market's own beta is exactly one, since the market moves one for one with itself. The average beta across all stocks, weighting each by its market value, is also one. A beta above one means the stock tends to amplify market moves. Below one, it tends to dampen them. A beta of zero means the stock's returns are uncorrelated with the market's, which is why the risk free asset has a beta of zero. And a beta can even be negative, for an asset that tends to rise when the market falls.
+
+HEART: Formally, beta is a standardized version of covariance. It equals the stock's covariance with the market, divided by the market's variance. Dividing by the market's variance scales things so that the market itself lands at exactly one.
+
+LEWIS: A second form shows what beta is really made of. Beta equals the stock's correlation with the market, times the ratio of the stock's standard deviation to the market's. So beta blends two things. How closely the stock tracks the market, and how big its swings are compared with the market's swings.
+
+HEART: That second form explains a common surprise. A stock can be very volatile and still have a low beta, if its swings have little to do with the market. Many gold mining stocks swing hard with the price of gold yet move only loosely with the stock market, so their betas are usually far lower than their swings alone would suggest. Big total risk, with only a modest share of it systematic.
+
+LEWIS: Here are the traps. First, beta is not total risk. Second, when you start from covariance, divide by the market's variance, the squared figure, not by the market's standard deviation. Third, diversification does not drag a portfolio's beta toward zero. A portfolio's beta is simply the weighted average of the betas of its holdings, so a broad portfolio of high beta stocks still has a high beta. Diversification strips out the unique risk and leaves the beta behind.
+
+HEART: Now how beta is measured in practice. Take a few years of monthly data. For each month, plot one dot, with the market's return above the risk free rate on the horizontal axis and the stock's return above the risk free rate on the vertical axis. Then draw the line of best fit through the cloud, using least squares regression, which picks the line that makes the sum of the squared vertical distances from the dots as small as possible.
+
+LEWIS: The slope of that line is the estimated beta. If both axes are drawn to the same scale and the line is steeper than a forty five degree diagonal, the slope is above one, and the stock responds more strongly to systematic factors than the market does. That fitted line has a name, the security characteristic line, and its slope works out to exactly the covariance over the market's variance from before.
+
+HEART: And because beta comes from a regression on past data, it is measured with error, not a fixed fact. Choose a different index, a different stretch of years, or weekly instead of monthly returns, and the figure can change.
+
+LEWIS: The takeaway. Under homogeneous expectations, everyone holds the market portfolio, and the line through it is the capital market line. Diversification removes unique risk for free, so only systematic risk is rewarded. Beta measures that systematic risk as the stock's sensitivity to the market, its covariance with the market over the market's variance.
 
 ## Module 84.2, The CAPM and the SML
 
-The capital asset pricing model turns the last module's insight into a number. If only systematic risk is rewarded, and beta measures systematic risk, then an asset's expected return should depend on its beta and nothing else. The CAPM is the equilibrium model that says exactly that.
+HEART: The last module gave us two facts. Only systematic risk is rewarded, and beta measures systematic risk. Put them together and you get a pricing rule. An asset's required return should depend on its beta and nothing else. That rule is the capital asset pricing model, the CAPM.
 
-The model rests on a set of simplifying assumptions. Investors are rational, risk averse and seek to maximize their utility. Markets are frictionless, with no transaction costs and no taxes. All investors plan for the same single holding period.
+LEWIS: In words, the CAPM says the expected return on any asset equals the risk free rate, plus the asset's beta times the market risk premium. And the market risk premium, again, is the market's expected return minus the risk free rate.
 
-Investors share homogeneous expectations about returns, risks and correlations. Every investment can be divided into pieces of any size. Investors are price takers, so no single trade moves prices. The model also lets every investor borrow and lend at the risk free rate. Again, investors do not need the same risk aversion.
+HEART: Think of a taxi fare. There is a flat charge the moment you get in, then a rate per mile, times the number of miles you ride. The risk free rate is the flat charge, the return even a riskless investment pays. The market risk premium is the rate per mile, the price the market sets on one unit of systematic risk. And beta is the number of miles, how much systematic risk this particular asset carries.
 
-Here is the CAPM, said slowly. The expected return on an asset equals the risk free rate, plus the asset's beta times the market risk premium. The market risk premium is the expected return on the market minus the risk free rate. So the reward for risk has two pieces. The market risk premium is the price of systematic risk, and beta is the quantity of it that the asset carries.
+LEWIS: So the directions are easy. A stock with a beta of one gets exactly the market's expected return. A beta above one means a required return above the market's. A beta below one, below the market's. A beta of zero earns just the risk free rate. And a negative beta implies an expected return below the risk free rate, because an asset that tends to rise when the market falls works like insurance, and investors accept a lower return for that protection.
 
-Run it with the same numbers as before. The risk free rate is 3 percent and the market's expected return is 9 percent, so the market risk premium is 6 percent. A stock with a beta of 1.5 has an expected return of 3 plus 1.5 times 6, or 12 percent. A stock with a beta of 0.5 has 3 plus 3, or 6 percent.
+HEART: In equilibrium, an asset's expected return and the return investors require from it are one and the same, which is why the CAPM figure doubles as a required return.
 
-The market itself, with a beta of 1, gets 9 percent. An asset with a beta of 0 gets the risk free rate. An asset with a negative beta would have an expected return below the risk free rate, because it behaves like insurance against market losses. And the stock from the beta example, with a beta of 0.9, gets 3 plus 5.4, or 8.4 percent, even though its 30 percent standard deviation is well above the market's 20 percent.
+LEWIS: Where does beta come from inside the model? Since covariance with the market is the only risk that is priced, you could draw the security market line with that covariance itself along the horizontal axis. Rescale the covariance by dividing it by the market's variance, and the axis becomes beta, which gives the familiar version of the line.
 
-Portfolios work the same way, because beta is additive. A portfolio's beta is the weighted average of the betas of its holdings. Put 60 percent in the stock with a beta of 1.5 and 40 percent in the stock with a beta of 0.5. The portfolio's beta is 0.9 plus 0.2, or 1.1.
+HEART: The CAPM rests on a set of simplifying assumptions, and the exam likes them. First, investors are risk averse. They need a higher expected return to accept more risk. Second, they are rational and maximize their expected utility, each choosing the mix of risk and return that suits their own preferences.
 
-Its CAPM expected return is 3 plus 1.1 times 6, or 9.6 percent. Check it directly. 60 percent of 12 is 7.2, and 40 percent of 6 is 2.4. Together that is 9.6.
+LEWIS: Third, markets are frictionless, with no taxes, no transaction costs and nothing else standing in the way of trading. Fourth, everyone plans over the same single period. Fifth, homogeneous expectations, the same forecasts of expected returns, standard deviations and correlations for every asset.
 
-Graph the CAPM and you get the security market line. Beta goes on the horizontal axis and expected return goes on the vertical axis. The line starts at the risk free rate where beta is zero. It passes through the market portfolio at a beta of 1. Its slope is the market risk premium.
+HEART: Sixth, assets are infinitely divisible, so you can buy any slice of any investment, however small. Seventh, markets are competitive. Every investor is a price taker, and nobody's trades are big enough to move prices.
 
-If the risk free rate rises and the premium stays the same, the whole line shifts up. If investors grow more risk averse and demand a larger market risk premium, the line gets steeper.
+LEWIS: And notice what is not on the list. The model does not assume everyone has the same risk aversion. Investors share one view of the world, and each still picks a different mix of the market portfolio and the risk free asset.
 
-Now comes the most tested comparison in this material. The CML and the SML look alike, since both are straight lines that start at the risk free rate, but they measure different things. First, the horizontal axis. The CML uses total risk, measured by standard deviation. The SML uses systematic risk, measured by beta.
+HEART: Now graph the CAPM, and you get the security market line, or SML. Beta runs along the horizontal axis and expected return up the vertical axis. The line starts at the risk free rate, where beta is zero, and passes through the market portfolio at a beta of one. Its slope is the market risk premium.
 
-Second, what plots on each line. Only efficient portfolios, meaning mixes of the market portfolio and the risk free asset, plot on the CML. Every correctly priced asset or portfolio plots on the SML, including a single stock. Third, the slope. The slope of the CML is the market's Sharpe ratio. The slope of the SML is the market risk premium.
+LEWIS: Two shifts to know. If the risk free rate rises and the premium stays the same, the whole line moves up in parallel. If investors grow more risk averse and demand a larger market risk premium, the line gets steeper, so high beta assets need even more return than before.
 
-Here is the trap. A single stock with unique risk lies on the SML if it is fairly priced, but it lies below the CML. It carries nonsystematic risk that the market does not reward, so on a total risk chart it looks like a poor deal, even though its price is fair for its beta.
+HEART: Now the most tested comparison in this reading, the capital market line against the security market line. They look alike. Both are straight, both start at the risk free rate, and both pass through the market portfolio. But they measure risk differently.
 
-Next, the applications, and there are four. The first is estimating a required return. Companies use the CAPM to estimate their cost of equity, which feeds the hurdle rate for capital budgeting decisions. In bank capital planning, a CAPM style cost of equity is one common input for the return a business line must earn on the capital it uses.
+LEWIS: First, the horizontal axis. The capital market line measures risk as total risk, standard deviation. The security market line measures only systematic risk, beta. Second, what plots on each. Only efficient portfolios plot on the capital market line, meaning the market portfolio combined with lending or borrowing at the risk free rate. Every properly priced security and portfolio plots on the security market line, diversified or not, including a single stock. Third, the slopes. The capital market line's slope is the market's reward per unit of total risk, its Sharpe ratio. The security market line's slope is the market risk premium itself.
 
-The second application is security selection. The CAPM tells you the return a stock should offer, given its beta. Your own analysis, built on your price target and expected dividends, tells you the return you actually forecast. Compare the two.
+HEART: Here is a picture that ties the two together. Take a handful of stocks and portfolios that all have a beta of exactly one, but very different amounts of unique risk. On the capital market line chart, they all sit at the same height, the market's expected return, but spread out to the right, because the ones with more unique risk have bigger standard deviations. Only the market portfolio sits on the line. The rest sit below it, inside the efficient frontier, carrying risk the market does not pay for.
 
-Suppose the stock with a beta of 1.5 has a CAPM required return of 12 percent, but your forecast is 14 percent. The stock plots 2 percentage points above the SML. Its forecast return is too high for its risk, which means its price today is too low. It is undervalued, so you buy. A stock whose forecast return plots below the SML is overvalued, so you sell it or avoid it.
+LEWIS: On the security market line chart, all of them collapse into a single dot, at a beta of one and the market's expected return. The security market line does not see unique risk at all, because the market does not pay for it.
 
-Here is the trap, and it catches many candidates. Above the line sounds like too high, and too high sounds like overpriced. But the vertical axis is return, not price. A high expected return for a given beta means a low price today. Above the SML is undervalued. Below the SML is overvalued.
+HEART: Which gives the trap. A fairly priced single stock sits on the security market line, but below the capital market line. Its expected return is right for its beta. It just carries unique risk that earns nothing, so on a total risk chart it looks like a poor deal. And low beta is not the same as safe. A stock can barely move with the market and still swing wildly on its own news. Its low beta tells you only that it adds little risk once it sits inside a broad portfolio.
 
-The third application is portfolio construction. The CAPM suggests a simple design. Hold a passive market index as the core. Then add the securities your research says have positive alpha. Give each one more weight when its alpha is large relative to its nonsystematic risk, because that unique risk is the cost of chasing the alpha.
+LEWIS: Now the applications. The first is the required return itself. Plug in an asset's beta and the CAPM gives the return investors should demand for holding it. Companies treat it as a cost of equity, a hurdle that projects funded by shareholders must clear. A bank's capital planners might set a CAPM style cost of equity as the minimum return a business line has to earn on the capital it ties up.
 
-The fourth application is performance evaluation, and it brings four measures. Use one set of numbers for all four. The risk free rate is 3 percent. The market returned 9 percent with a standard deviation of 20 percent. A manager's portfolio returned 11 percent, with a beta of 1.0 and a standard deviation of 40 percent. So the portfolio's excess return is 8 percent and the market's is 6 percent.
+HEART: The second application is spotting mispriced securities. The CAPM tells you what a stock should earn given its beta. Your own research gives you a forecast of what it will actually earn, from where you think its price will be in a year plus the dividends it should pay along the way, all compared with today's price. Then you plot your forecast against the line.
 
-The Sharpe ratio equals the portfolio's return minus the risk free rate, divided by the portfolio's standard deviation. It is excess return per unit of total risk. The portfolio's Sharpe ratio is 8 divided by 40, or 0.2. The market's is 6 divided by 20, or 0.3. On total risk, the manager lost.
+LEWIS: If your forecast return plots above the security market line, the stock offers more return than its systematic risk requires. That means its price today is too low. It is undervalued, and you buy it. If your forecast plots below the line, the stock offers too little return for its risk, so its price is too high. It is overvalued, and you sell it or sell it short. If it plots right on the line, it is properly priced, and you can buy it, sell it or ignore it.
 
-M squared restates the Sharpe comparison as a percentage return. Picture scaling the portfolio, by mixing it with T bills or by borrowing, until its standard deviation matches the market's. Here that means half in the portfolio and half in bills. That mix returns half of 11 plus half of 3, which is 5.5 plus 1.5, or 7 percent. That 7 percent is M squared. Compare it with the market's 9 percent, and the gap, minus 2 percentage points, is called M squared alpha.
+HEART: Picture two rental houses on the same street, alike in every way that matters for risk. One is expected to bring in much more rent relative to its asking price. That higher expected return is telling you the asking price is low. For a given stream of future cash, expected return and price move in opposite directions.
 
-As a formula, M squared equals the portfolio's Sharpe ratio times the market's standard deviation, plus the risk free rate. Here, 0.2 times 20 is 4, and 4 plus 3 is 7 percent. M squared alpha equals M squared minus the market's return, so 7 minus 9 is minus 2. Some sources call that gap M squared itself, so if the answer choices sit near zero rather than near the market's return, the question wants the gap. Either way, M squared ranks portfolios the same way the Sharpe ratio does, and a positive M squared alpha means the portfolio beat the market on total risk.
+LEWIS: And here is the trap that catches many candidates. Above the line sounds like too high, and too high sounds like overpriced. But the vertical axis is expected return, not price. A high return for the risk means a low price. Above the line is undervalued. Below the line is overvalued. The graph and the formula always give the same verdict.
 
-The Treynor ratio equals the portfolio's return minus the risk free rate, divided by the portfolio's beta. It is excess return per unit of systematic risk. The portfolio's Treynor ratio is 8 divided by 1, or 8. The market's is 6 divided by 1, or 6. On systematic risk, the manager won.
+HEART: And a stock off the line should not stay there. Investors who spot one above the line buy it, the price rises, and the expected return from that higher price falls back to the line. In equilibrium, every asset sits on the security market line.
 
-Jensen's alpha equals the portfolio's actual return minus its CAPM required return. The required return is 3 plus 1.0 times 6, or 9 percent. Alpha is 11 minus 9, or plus 2 percentage points. On a chart, alpha is the vertical distance between the portfolio and the SML. It is also the intercept when you regress the portfolio's excess returns on the market's excess returns. That fitted line is called the security characteristic line, and its slope is beta.
+LEWIS: The third application is grading performance, and it brings four measures. Beating the benchmark is not enough on its own. A manager who loads up on extra risk, above all extra beta, should outrun the benchmark in the long run just by doing that, so performance evaluation has to weigh return against risk. Breaking down where an active portfolio's return differed from a passive benchmark, and why, is called attribution analysis, and it is one part of that evaluation. These risk adjusted measures are the usual way to compare an actively managed fund with a passive one.
 
-So which verdict is right? It depends on the role the portfolio plays. Here is the rule. If the portfolio is the investor's entire wealth, the investor bears its total risk, so use the Sharpe ratio or M squared. If the portfolio is one piece of a larger, well diversified portfolio, its unique risk gets diversified away, so use the Treynor ratio or Jensen's alpha.
+HEART: The first measure is the Sharpe ratio. It is the portfolio's return above the risk free rate, divided by its standard deviation. In plain words, excess return per unit of total risk. Higher is better. It rewards return earned with as little total volatility as possible, and it charges for every kind of risk, unique risk included.
 
-This manager took a lot of nonsystematic risk. That risk washes out inside a diversified fund, but it hurts an investor who holds nothing else.
+LEWIS: On a chart of expected return against standard deviation, a portfolio's Sharpe ratio is the slope of its own capital allocation line, the line from the risk free rate through that portfolio. So you compare it with the slope of the capital market line, which is the market's Sharpe ratio. A portfolio that sits above the capital market line has a higher Sharpe ratio than anything on the line.
 
-Two more points on the measures. The Sharpe ratio and M squared always rank portfolios the same way. For portfolios with positive betas, the Treynor ratio and Jensen's alpha always agree on whether a portfolio beat the SML, but their rankings can differ when betas differ. That is because alpha is measured in percentage points, while Treynor is measured per unit of beta.
+HEART: Two details. A Sharpe ratio by itself tells you little. It earns its keep only when set beside another portfolio's. And it can be worked out before the fact, from expected returns and expected risk, which is called ex ante, or after the fact, from average past returns and their sample standard deviation, which is called ex post.
 
-Finally, the limits of the CAPM. It is a single factor, single period model. The true market portfolio cannot be observed, so every application uses a proxy, and results depend on the proxy chosen. Beta estimates shift with the index, the length of the sample and whether you use daily, weekly or monthly returns.
+LEWIS: The second measure is M squared. It carries the same information as the Sharpe ratio, but as a percentage return instead of a slope. Picture a volume knob. Turn the portfolio up or down until it is exactly as loud as the market, meaning it has the same standard deviation as the market. If the portfolio is calmer than the market, you turn it up by borrowing at the risk free rate and investing more in it. If it is wilder, you turn it down by putting part of the money in the risk free asset. The return of that risk matched portfolio is M squared.
 
-Homogeneous expectations are not realistic. And in practice, beta alone has been a weak predictor of realized returns. Those limits led to extensions such as arbitrage pricing theory and the multifactor models from the first module, which add priced factors like size, value and momentum.
+HEART: Then you compare it with the market's return. The difference, M squared minus the market's return, is called M squared alpha. A positive M squared alpha means the manager beat the market after adjusting for total risk, and that happens exactly when the portfolio's Sharpe ratio is above the market's. Because M squared is built from the Sharpe ratio, the two always rank portfolios in the same order.
 
-Keep this one rule. Under the CAPM, expected return equals the risk free rate plus beta times the market risk premium. A stock that plots above the SML is undervalued, and a stock that plots below it is overvalued.
+LEWIS: Keep the two names straight. M squared is a return in its own right, the return of the risk matched portfolio. M squared alpha is the gap between that return and the market's. Mixing them up is the trap.
+
+HEART: The other two measures look only at systematic risk. The Treynor measure is the portfolio's return above the risk free rate, divided by its beta. In plain words, excess return per unit of systematic risk. It rewards return earned per unit of beta, and it ignores unique risk completely.
+
+LEWIS: On the security market line chart, the Treynor measure is the slope of a line from the risk free rate to the portfolio. The market's own Treynor measure is the slope of the security market line, the market risk premium. A portfolio that plots above the security market line has a steeper line from the risk free rate than the security market line itself, so its Treynor measure beats the market's and that of every fairly priced asset.
+
+HEART: The fourth is Jensen's alpha. It is the portfolio's actual return minus the return the CAPM says it should have earned for its beta. In plain words, how far the portfolio sits above or below the security market line, in percentage points. A positive alpha means it beat the line. It is also the intercept you get when you regress the portfolio's excess returns on the market's excess returns, the same regression that produces beta. That holds for the excess return version only. In the plain return market model from the last module, even a fairly priced asset can show an intercept other than zero, so that intercept is not Jensen's alpha.
+
+LEWIS: Notice the pairings. The Sharpe ratio and the Treynor measure are slopes, reward per unit of risk. M squared and Jensen's alpha are stated as percentage returns. The Sharpe ratio and M squared count total risk, while the Treynor measure and Jensen's alpha count only beta. So Sharpe is to M squared what Treynor is to Jensen's alpha, at least in form. One difference. M squared always ranks portfolios the same way as the Sharpe ratio, but Jensen's alpha is not divided by beta, so it can rank two portfolios differently from the Treynor measure.
+
+HEART: Which measure do you reach for? It depends on whether the portfolio carries unique risk that matters to the investor. If a single manager runs the money, or the portfolio is all the investor holds, its total risk is what the investor actually bears. So judge it on total risk, with the Sharpe ratio or M squared.
+
+LEWIS: If a fund spreads its money across several managers, so that the overall fund is well diversified, each manager's unique risk washes out in the whole. Then the risk that matters is systematic, and the right measures are the Treynor measure and Jensen's alpha. The Sharpe ratio still works for any portfolio, concentrated or diversified, because it counts all the risk there is.
+
+HEART: Picture a manager who holds a handful of stocks with modest betas but a great deal of unique risk, and earns a solid return. Judged on beta, she looks excellent, with a positive Jensen's alpha and a strong Treynor measure. Judged on total risk, the same portfolio can show a poor Sharpe ratio, because all that unique risk inflates its standard deviation.
+
+LEWIS: If she is one manager among many in a diversified fund, her unique risk washes out, and the beta view is fair. If she runs a client's entire savings, the client bears every bit of that unique risk, and the total risk view is the honest one.
+
+HEART: One final caution. Every one of these numbers rests on inputs measured with error. The market's expected return, and with it the premium, cannot be observed, and its long run historical average is only a rough guide. Betas come from noisy data. And the CAPM itself is a simplification, one factor over one period. The multifactor models from the last module are one response, adding drivers beyond the market.
+
+LEWIS: The takeaway. The CAPM says required return equals the risk free rate plus beta times the market risk premium, and its graph is the security market line. Above the line is undervalued, below it is overvalued. Sharpe and M squared judge total risk, for a portfolio that stands alone. Treynor and Jensen's alpha judge beta, for one piece of a diversified whole.
 
 ## Recall check
 
-Q: Two investors accept every CAPM assumption. One is very risk averse and the other is very risk tolerant. How do their portfolios differ?
+LEWIS Q: Under homogeneous expectations, why must the risky portfolio that every investor holds be the market portfolio?
 
-Answer: They hold the same risky portfolio, the market portfolio, in different amounts. The risk averse investor mixes it with a lot of risk free lending and sits near the low end of the CML. The risk tolerant investor may borrow to hold more than 100 percent in the market and sits to the right of the market portfolio. Shared expectations make the risky portfolio identical, and risk aversion sets only the mix.
+HEART: Answer. Because when everyone holds the same risky mix, that mix has to add up to everything available. Here is why. Same forecasts give everyone the same efficient frontier and the same tangency portfolio. Every risky asset must be owned by someone, so when every investor holds the identical mix, all holdings together equal the whole market. The only mix that fits is each asset in proportion to its market value, which is the market portfolio.
 
-Q: A stock has a standard deviation of 30 percent and a correlation of 0.5 with the market. The market's standard deviation is 15 percent. What is the stock's beta?
+HEART Q: What is the slope of the capital market line, and what does it tell you?
 
-Answer: Beta equals the correlation times the stock's standard deviation, divided by the market's standard deviation. That is 0.5 times 30, divided by 15, which is 1.0. The stock is twice as volatile as the market, but its systematic standard deviation is only 15 percent, half of its total.
+LEWIS: Answer. The market risk premium divided by the market's standard deviation, which is the market's Sharpe ratio. Here is why. The line runs from the risk free rate to the market portfolio. Its rise is the market's expected return above the risk free rate, and its run is the market's standard deviation. So the slope is the extra return the market offers for each unit of total risk, and every portfolio on the line earns that same reward per unit of risk.
 
-Q: A stock has a very high standard deviation but a beta of 0.4. Under the CAPM, is its expected return most likely above the market's, equal to the market's, or below the market's?
+LEWIS Q: Why does the market pay no premium for unsystematic risk?
 
-Answer: Below the market's. The CAPM prices only systematic risk, and a beta of 0.4 means less systematic risk than the market's beta of 1. Most of the stock's high standard deviation is nonsystematic risk, which diversified investors can eliminate, so it earns no premium.
+HEART: Answer. Because it can be diversified away at essentially no cost. Here is why. If a stock offered extra return for its unique risk, diversified investors would buy it, since that risk mostly cancels in their portfolios. Their buying would push the price up and the expected return down until the extra reward disappeared. Prices are set by diversified investors, who only care about the risk a stock adds to a broad portfolio, which is its systematic risk.
 
-Q: The risk free rate is 4 percent, the expected market return is 10 percent and a stock's beta is 1.5. Your forecast return for the stock is 12 percent. Is the stock undervalued or overvalued?
+HEART Q: Stock A is extremely volatile with a beta of one half. Stock B is far calmer with a beta of one and a half. Under the CAPM, which has the higher required return?
 
-Answer: The CAPM required return is 4 plus 1.5 times 6, or 13 percent. Your forecast of 12 percent is below that, so the stock plots below the SML. Its price is too high for the return it offers, so it is overvalued and you would sell it or avoid it.
+LEWIS: Answer. Stock B, the calmer one. Here is why. The CAPM prices only systematic risk, measured by beta, and Stock B has three times Stock A's beta. Most of Stock A's volatility is unique risk, which diversified investors can remove, so it earns no premium. Total risk does not set the required return.
 
-Q: Which is most likely to plot on the security market line but below the capital market line, a fairly priced individual stock, the market portfolio, or a mix of the market portfolio and T bills?
+LEWIS Q: A stock's correlation with the market falls, while its own standard deviation and the market's stay the same. What happens to its beta?
 
-Answer: The fairly priced individual stock. It plots on the SML because its expected return matches its beta. It plots below the CML because it also carries nonsystematic risk, which raises its standard deviation without raising its expected return. The market portfolio and any mix of it with T bills plot on both lines.
+HEART: Answer. Beta falls. Here is why. Beta equals the correlation with the market times the ratio of the stock's standard deviation to the market's. With both standard deviations unchanged, beta moves in proportion to the correlation. The stock is just as volatile as before, but less of its movement is tied to the market, so it carries less systematic risk.
 
-Q: A client's only investment is a concentrated fund that holds a handful of stocks. Which measure is most appropriate for judging the manager, the Treynor ratio, Jensen's alpha, or the Sharpe ratio?
+HEART Q: In the market model, what does the error term capture?
 
-Answer: The Sharpe ratio. Because the fund is the client's entire portfolio, the client bears its total risk, including the unique risk of a few concentrated holdings. The Treynor ratio and Jensen's alpha use only beta, so they ignore that unique risk, which is appropriate only when the fund is a small part of a well diversified portfolio.
+LEWIS: Answer. The abnormal return, the firm specific part of the period's return. Here is why. The market model splits a period's return into an intercept, beta times the market's return in that period, and an error term. The first two pieces are what the market's move predicts for the stock. Whatever is left over, such as a jump on surprise company news, is the abnormal return, the unique piece that diversification washes out.
 
-## Recap
+LEWIS Q: What is on the horizontal axis of the capital market line and of the security market line, and what plots on each?
 
-Mixing a risk free asset with a risky portfolio gives a straight line, because the risk free asset adds no variance and no covariance. With homogeneous expectations, everyone's best risky portfolio is the market portfolio, and the line through it is the CML, whose slope is the market's Sharpe ratio. When the borrowing rate is above the lending rate, the CML gets flatter to the right of the market portfolio. Total variance splits into systematic variance, which is beta squared times the market's variance, plus nonsystematic variance. Only systematic risk earns a premium, because unique risk can be diversified away for free.
+HEART: Answer. Standard deviation for the capital market line and beta for the security market line, with only efficient portfolios on the first and every properly priced asset on the second. Here is why. The capital market line measures total risk, and only combinations of the market portfolio with the risk free asset earn the best possible return for their total risk. The security market line measures only systematic risk, the risk that is priced, so every fairly priced stock or portfolio lands on it, diversified or not.
 
-Beta equals the covariance with the market divided by the market's variance, or the correlation times the asset's standard deviation divided by the market's standard deviation. The CAPM says expected return equals the risk free rate plus beta times the market risk premium, and a portfolio's beta is the weighted average of its holdings' betas. The SML plots expected return against beta and holds every fairly priced asset, while the CML plots it against standard deviation and holds only efficient portfolios. A stock above the SML is undervalued, and a stock below it is overvalued. For an investor's whole portfolio, use the Sharpe ratio or M squared, and for one piece of a diversified portfolio, use the Treynor ratio or Jensen's alpha.
+HEART Q: A fairly priced individual stock plots on the security market line. Where does it plot relative to the capital market line?
+
+LEWIS: Answer. Below it. Here is why. Its expected return is set by its beta, so it is fair for its systematic risk. But it also carries unique risk, which raises its standard deviation without adding any expected return. On a chart of return against total risk, that pushes it to the right, below the capital market line.
+
+LEWIS Q: Your forecast return for a stock plots above the security market line. Is the stock undervalued or overvalued, and what do you do?
+
+HEART: Answer. Undervalued, so you buy it. Here is why. Plotting above the line means the stock is expected to earn more than its beta requires. Expected return and price move in opposite directions, so a high expected return for the risk means today's price is too low. As investors buy, the price rises and the expected return falls back toward the line.
+
+HEART Q: Investors become more risk averse and demand a larger market risk premium. What happens to the security market line?
+
+LEWIS: Answer. It gets steeper. Here is why. The slope of the security market line is the market risk premium. The line still starts at the risk free rate at a beta of zero, but each unit of beta now commands more return, so high beta assets see their required returns rise the most. A rise in the risk free rate with no change in the premium would instead shift the whole line up in parallel.
+
+LEWIS Q: A portfolio's M squared comes out above the market's return. What does that say about its Sharpe ratio, and what is the sign of its M squared alpha?
+
+HEART: Answer. Its Sharpe ratio is above the market's, and its M squared alpha is positive. Here is why. M squared is the return of the portfolio after scaling it, with borrowing or lending at the risk free rate, to the market's standard deviation. At the same risk as the market, it can only out earn the market if it earns more per unit of total risk, which means a higher Sharpe ratio. M squared alpha is the gap between M squared and the market's return, so it is positive.
+
+HEART Q: A client's entire savings sit with one manager who runs a concentrated portfolio. Which measures fit, and why not the others?
+
+LEWIS: Answer. The Sharpe ratio or M squared. Here is why. Because this portfolio is everything the client holds, the client bears its total risk, including the unique risk of a few concentrated positions. The Sharpe ratio and M squared charge for that total risk. The Treynor measure and Jensen's alpha count only beta, so they would ignore the unique risk, which suits a portfolio that is one piece of a well diversified fund.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: For the market portfolio: same beliefs, same basket, so the basket must be the whole market. The line through it is the capital market line.
+
+HEART: For risk: the market pays for the risk you cannot shed, not the risk you chose to keep. Systematic risk comes from the economy and stays. Unique risk comes from the company and diversifies away.
+
+LEWIS: For beta: how hard a stock tends to echo the market. Twice the market's move, a beta near two. Half the move, near one half. The market is one and the risk free asset is zero. From covariance, divide by the market's variance, never its standard deviation. And a portfolio's beta is the weighted average of its holdings' betas.
+
+HEART: For the CAPM, think of a taxi fare. The flat charge when you get in is the risk free rate, the rate per mile is the market risk premium, and the miles are beta.
+
+LEWIS: For the assumptions: same view, same horizon, no frictions, no giants, any size slice, and every investor risk averse and maximizing utility. Same view, not the same appetite for risk.
+
+HEART: For the two lines: the capital market line counts total risk and holds only efficient portfolios. The security market line counts only beta and holds every fairly priced asset. A fairly priced single stock sits on the security market line and below the capital market line.
+
+LEWIS: For mispricing: above the line, a bargain. Below the line, too dear. The vertical axis is return, not price.
+
+HEART: For grading managers: Sharpe and Treynor are slopes, M squared and Jensen's alpha are percentages. Sharpe and M squared see total risk, Treynor and Jensen see only beta. A portfolio that stands alone is judged on total risk, and a portfolio in a crowd is judged on beta. M squared is the return after turning the volume knob to the market's level, and M squared alpha is the gap to the market.
+
+LEWIS: Now, how you would say the big ideas to a senior leader.
+
+HEART: On reward for risk: investors get paid for exposure to the economy as a whole, not for company specific bets they could have spread away. The jargon is systematic risk, unsystematic risk and diversification.
+
+LEWIS: On sensitivity: this stock tends to move about one and a half times as much as the market, so it needs a higher return to be worth holding. The jargon is beta.
+
+HEART: On hurdle rates: demand the safe rate plus a charge for how much the investment moves with the broader market. The jargon is the capital asset pricing model, the security market line and the cost of equity.
+
+LEWIS: On valuation: if our forecast says a stock will earn more than its market risk calls for, it is cheap, and if less, it is expensive. The jargon is positive or negative alpha, above or below the security market line.
+
+HEART: On performance: a raw return means little until we adjust for the risk taken, and the right adjustment depends on whether this portfolio is all the client owns or one piece of a diversified whole. The jargon is the Sharpe ratio, M squared, the Treynor measure and Jensen's alpha.
