@@ -1,179 +1,295 @@
-## The big picture
-
-The last episode described what derivatives are and who uses them. This episode asks the next question. What should a derivative cost? The answer comes from one idea, called no arbitrage. If two portfolios produce exactly the same cash flows in every possible future, they must cost the same today. If they do not, traders buy the cheap one, sell the expensive one, and collect a riskless profit until the gap closes.
-
-Four modules grow out of that idea. The first builds the toolkit and gives you the core forward pricing formula. The second values a forward at the start, during its life, and at expiration, then extends the idea to interest rates. The third shows that futures are priced almost exactly like forwards, and explains when the two prices differ. The fourth treats an interest rate swap as a bundle of forwards, which tells you how to set its fixed rate and how to value it later.
-
-Exam questions here are short and mechanical, and they are full of direction traps. Does a dividend raise or lower the forward price? Which side gains when interest rates rise? Is the value of a brand new contract zero, or is its price zero?
-
-Keep one distinction in your head for the whole episode. The price of a forward is the fixed number written into the contract. The value is what the contract is worth to one side right now. At the start, the price is chosen so that the value is zero.
+LEWIS: Reading 69 covers arbitrage and replication, the risk neutral idea, and how financing, storage, income and convenience yield push a forward price up or down. Readings 70 through 72 cover the price versus the value of a forward, forward rates and forward rate agreements, why futures and forward prices can differ, and an interest rate swap as a strip of forwards.
 
 ## Module 69.1, Arbitrage, Replication, and Carrying Costs
 
-Start with arbitrage. An arbitrage is a set of trades that requires no money of your own, carries no risk, and still produces a profit. The law of one price is the rule that keeps arbitrage from lasting. Two assets or portfolios with identical future cash flows must have the same price today, whatever anyone forecasts for the market.
+HEART: In Episode 1 you met the law of one price. Two routes to the same destination must cost the same toll, or traders take the cheap route, sell the expensive one, and pocket the difference. This reading turns that one idea into the engine that prices every derivative in the course.
 
-A derivative's payoff depends on an underlying asset. That means you can often build the same payoff yourself, using the underlying asset plus borrowing or lending at the risk free rate. That is replication. If you can replicate a derivative, its price must equal the cost of the replicating portfolio. If it does not, there is an arbitrage. Pricing a derivative this way is called arbitrage free pricing.
+LEWIS: Start with how it differs from what you have done so far. To value a stock, you forecast its cash flows and discount them at a rate that reflects how risky they are. That takes judgment, and two analysts can disagree by a mile. Derivatives are priced another way. You never forecast where the underlying is headed. You find a combination of things whose prices you already know that pays exactly what the derivative pays, and the derivative must cost the same. That is called no arbitrage pricing.
 
-Real markets have limits to arbitrage. Transaction costs, restrictions on short selling and limits on borrowing can let small mispricings survive. On the exam, assume these frictions away unless the question brings them up.
+HEART: First, the term. Arbitrage starts with two things that will pay exactly the same in every possible future, yet carry different prices today. You buy the cheap one and sell the dear one at the same moment. You lock in a profit with no risk and none of your own money, because the sale pays for the purchase.
 
-Here is the key replication. Buy one unit of the underlying asset today and, at the same moment, sell a forward contract on it. At expiration you deliver the asset and receive the forward price, a number you knew on day one. Whatever happens to the asset's price, your payoff is fixed.
+LEWIS: Picture one Treasury note showing two different prices on two dealers' screens. Buy it on the cheap screen and sell it on the dear one in the same instant. Same note, same future payments, no risk, free money.
 
-A position with a known payoff and no risk is a synthetic risk free bond, so it must earn the risk free rate. That single argument prices every forward contract. Rearrange the pieces and buying the asset with borrowed money creates a synthetic long forward, because at expiration you own the asset and owe a fixed amount.
+HEART: Which is exactly why it rarely lasts. The moment traders spot it, they pile in. Their buying lifts the cheap price, their selling pushes down the dear one, and the gap shuts. So we can assume prices settle where no arbitrage is possible, and solve for a derivative's price from that.
 
-Notice what is missing from that argument. We never asked how risky the asset is, or what return investors expect from it. Because the hedged position has no risk, attitudes toward risk drop out. This is why derivatives can be priced as if every investor were risk neutral, with expected payoffs discounted at the risk free rate.
+LEWIS: One real world caveat. Trading costs money. Commissions, bid offer spreads, the fee for borrowing a security so you can sell it. If a gap is smaller than those costs, nobody can profit from it, so small mispricings can survive. The no arbitrage price is really a narrow band, not a knife edge.
 
-That leads to a classic trap. The forward price is not a forecast of the future spot price. It is today's spot price carried forward at the risk free rate, adjusted for the costs and benefits of holding the asset.
+HEART: Now the second idea, replication. Replication means copying a derivative with ordinary cash market trades, buying, selling, borrowing and lending, so the copy pays the same as the derivative wherever the underlying ends up. If you can build it, you know what the derivative must cost. It must cost whatever your homemade copy costs.
 
-Here is the formula with no costs or benefits. The forward price equals the spot price times one plus the risk free rate, raised to the power T, where T is the time to expiration in years. Take an asset priced at 100, a risk free rate of 5 percent, and a one year forward. The forward price is 100 times 1.05, which is 105.
+LEWIS: Let us price a forward that way. Take a share of a young company that pays no dividend. You want to own it one year from now, and there are two routes.
 
-Why 105? The buyer pays later instead of today, so her 100 earns 5 dollars of interest in the meantime. The seller, who holds the asset until delivery, gives up that interest, so the seller charges 105 to break even.
+HEART: Route one. Buy the share today and hold it for the year. Your cost today is the share price.
 
-Now suppose the one year forward trades at 108 instead of 105. The forward is too expensive, so you sell it and buy the asset. Borrow 100 at 5 percent, buy the asset, and sell the forward at 108. In a year you deliver the asset, collect 108, and repay 105 on the loan. You keep 3 dollars, with no risk and none of your own money. This is called cash and carry arbitrage, because you buy the asset with cash and carry it to expiration.
+LEWIS: Route two. Agree today, through a forward contract, to buy the share in a year at the forward price. Entering the forward costs nothing. Then, also today, buy a zero coupon Treasury bond that will pay exactly the forward price in a year. Your cost today is the price of that bond, which is the present value of the forward price.
 
-Suppose instead the forward trades at 102. Now the forward is too cheap, so you buy it and sell the asset. Short sell the asset for 100, invest the 100 at 5 percent, and buy the forward at 102.
+HEART: In a year, both routes leave you holding one share, whatever that share is worth by then. Identical payoffs in every outcome. So the two routes must cost the same today. The bond's price must equal the share price, which means the forward price is simply today's share price grown at the risk free rate until delivery.
 
-In a year your investment has grown to 105. You pay 102 under the forward, receive the asset, and return it to close the short sale. You keep 3 dollars. This is reverse cash and carry arbitrage.
+LEWIS: That has a very human logic. Look at it from the seller's side. The seller holds the share for a year so she can hand it over. Her money is tied up the whole time, money that could have sat in Treasury bills earning interest. So she charges for the wait. The buyer, meanwhile, keeps his cash in the bank for the year and earns that same interest. The forward price balances the two exactly.
 
-Here is the memory hook. Whatever is overpriced, you sell. Forward too high, sell the forward and buy the asset. Forward too low, buy the forward and sell the asset short.
+HEART: Now break it. Suppose the forward price is quoted too high, above the share price grown at the risk free rate. What do you do?
 
-Holding an asset is rarely free, and it often pays you something. These are the carrying costs and benefits. Benefits include cash income, such as dividends on a stock or coupons on a bond. For physical commodities, there is also the convenience yield. That is the nonmonetary benefit of having the physical good on hand, such as keeping a factory running when supplies are tight.
+LEWIS: Sell what is dear and buy what is cheap. Sell the forward. Borrow at the risk free rate and buy the share today. Hold it, and at delivery hand it over for the high forward price. Then repay the loan, which has grown only at the risk free rate. The forward price beats the loan balance, and the difference is yours, with no risk and nothing put up at the start.
 
-Costs include storage, insurance and spoilage. Financial assets have essentially no storage cost.
+HEART: Now flip it. When the forward price is too low, the forward is the cheap thing, so you buy it, and you sell the share short. Borrow a share, sell it today, and invest the cash at the risk free rate. At delivery your investment has grown to more than the low forward price. You pay the forward price, take delivery of the share, hand it back to the lender, and keep the difference.
 
-Here is the direction of each effect. Benefits go to whoever holds the asset. The forward buyer does not hold it until delivery, so she misses the dividends and coupons. She should pay less, so benefits lower the forward price. Costs fall on whoever holds the asset, which is the seller. The seller passes those costs on, so costs raise the forward price.
+LEWIS: Either way, those trades push the prices together. Selling forwards drags a high forward price down. Buying forwards lifts a low one. The arbitrageurs stop only when the forward sits at its no arbitrage level.
 
-In words, the forward price equals the spot price, minus the present value of the benefits, plus the present value of the costs, with that total multiplied by one plus the risk free rate, raised to the power T. The present values are taken at the risk free rate.
+LEWIS: Notice the replications hiding inside those trades. Borrow money and buy the share, and at delivery you own the share and owe a fixed loan balance. That is a long forward, built from cash market pieces. Sell the share short and lend the proceeds, and at delivery you are owed a fixed amount but owe back a share. That is a short forward. Positions built this way are often called synthetic.
 
-Use the same asset at 100, with 5 percent and one year. Suppose it pays income with a present value of 3. Subtract to get 97, then multiply by 1.05 to get a forward price of 101.85. Now suppose instead it has storage costs with a present value of 2. Add to get 102, then multiply by 1.05 to get 107.10.
+HEART: Here is the part that surprises people. Look at what we never needed. We never asked what return investors expect from the share, or how risky it is. A bullish analyst and a gloomy one would agree on the forward price.
 
-Some questions use continuously compounded rates. Then you replace one plus r, raised to the power T, with the number e raised to the power r times T. If costs and benefits are given as continuous rates, add the cost rate to r and subtract the benefit rate in that exponent. On the B A two plus, enter r times T, then press second and the L N key to get e raised to that power. For 5 percent over one year, the display shows about 1.0513, so a 100 dollar asset with no carry has a forward price of about 105.13.
+LEWIS: That is the difference between the forward price and the expected future spot price. Investors who own a risky share expect to earn more than the risk free rate. That extra is their risk premium, so the price they expect a year out sits above the share price grown at the risk free rate. The forward price ignores that premium entirely. It reflects only the spot price, the risk free rate, and the costs and benefits of holding the asset.
 
-When the forward price sits above the spot price, the market is in contango. When it sits below the spot price, the market is in backwardation. In the cost of carry model, backwardation appears when the benefits of holding the asset, such as a high dividend yield or a high convenience yield, outweigh the risk free rate plus any costs.
+HEART: So here is the trap. The forward price is not the market's forecast of where the price is going. It can still hint at what the market expects, but what pins it down is a carrying calculation. Today's price, plus the cost of holding the asset until delivery, minus whatever holding it pays you.
 
-A currency forward uses the same logic. Holding a foreign currency earns that currency's interest rate, which works like a carry benefit. The forward exchange rate equals the spot exchange rate times one plus the interest rate of the price currency, divided by one plus the interest rate of the base currency, with that ratio raised to the power T.
+LEWIS: Why can the forecast drop out? Because the arbitrage portfolio has no risk. Own the share and sell it forward, and your payoff is fixed whatever the share does. When the risk has been hedged away completely, investors' feelings about risk cannot affect the price. So you can price the derivative as if every investor were indifferent to risk. Grow the underlying at the risk free rate, and discount payoffs at the risk free rate. That shortcut is called risk neutral pricing.
 
-Say the spot rate is 1.10 dollars per euro, the dollar rate is 5 percent and the euro rate is 3 percent. The forward rate for one year is 1.10 times 1.05, divided by 1.03, or about 1.12 dollars per euro. The currency with the lower interest rate, here the euro, trades at a forward premium. The trap is flipping the ratio. The interest rate of the currency in which the price is quoted goes on top.
+HEART: And the plain way to say it. Risk neutral pricing does not claim that investors ignore risk. It says the hedge has already removed the risk, so the answer comes out the same as if they did.
 
-Here is the core rule again. The forward price equals the spot price, minus the present value of benefits, plus the present value of costs, all grown at the risk free rate to expiration. Benefits lower it. Costs raise it. Expected returns do not enter at all.
+LEWIS: Now carrying costs and benefits. So far the only cost of holding the share was the money tied up in it, the financing cost, which is the risk free rate. Real assets come with more. Some cost money to hold, and some pay you for holding them.
+
+HEART: Start with costs. Picture a vault full of gold bars. Someone has to pay for the vault, the guards and the insurance. Grain silos cost money to run, and stored wheat can spoil. These are storage costs, insurance and spoilage, and they matter mostly for commodities. For financial assets like shares and bonds, holding costs are tiny, so they are usually ignored.
+
+LEWIS: Which way do costs push the forward price? Ask who pays them. The seller holds the asset until delivery, so the seller pays for the vault. An arbitrageur who copies the forward must buy the asset today and pay for its storage as well. The forward buyer pays none of that. So the seller charges more, and costs raise the forward price.
+
+HEART: Then benefits. The first kind is cash. A utility share pays dividends. A bond pays coupon interest. Whoever holds the asset during the contract collects that income, and that is the seller, not the forward buyer. So the buyer pays less for the forward to make up for the missed income. Benefits lower the forward price.
+
+LEWIS: The second kind of benefit is not cash at all. It is called convenience yield, the nonmonetary benefit of having a physical commodity on hand. Picture a bakery during a flour shortage. The bakery with flour in its storeroom keeps its ovens running, while the one waiting for a delivery date sits idle. That security is worth something, and a forward contract does not provide it, because you do not have the flour until delivery.
+
+HEART: A related benefit. When an asset is hard to borrow, nobody can short it, so the only way to cash in on a brief jump in its price is to own it already. Holding it gives you that choice of when to sell, and the forward buyer does not get it. Like cash income, convenience yield lowers the forward price.
+
+LEWIS: So here is the whole carry picture as one relationship in words. The forward price equals the spot price, plus the present value of the costs of holding the asset, minus the present value of the benefits, with that total grown at the risk free rate until delivery.
+
+HEART: And the direction rules, which are what the exam wants. A higher risk free rate raises the forward price, because financing the asset costs more. Higher storage, insurance or spoilage costs raise it. Higher dividends, coupons or convenience yield lower it.
+
+LEWIS: You will also hear all of this rolled into one phrase, the cost of carry, which nets what holding the asset pays you against what holding it costs you. Measured as the benefits minus the costs, a bigger number means a lower forward price. Some sources run that subtraction the other way round, so anchor on the two directions, which never change. Costs push the forward price up, and benefits push it down.
+
+HEART: When the benefits are big enough, the forward price can even sit below the spot price. That happens with a commodity in short supply, where convenience yield runs high. A forward price below spot is called backwardation. The more usual case, a forward price above spot, is called contango.
+
+LEWIS: Some questions state the rates as continuously compounded. The logic does not change. The forward price grows from the spot price at the risk free rate, plus any storage cost rate, minus any benefit rate, such as a dividend yield. The only difference is that the growth happens every instant instead of once a year.
+
+HEART: The last application is currencies, which you also met in Episode 1. A currency forward is a carry calculation in miniature. The thing being bought is the base currency. Holding it earns the base currency's interest rate, and that works like a dividend, a benefit to whoever holds it. Paying for it in the price currency means giving up that currency's interest, and that works like the financing cost.
+
+LEWIS: So the forward exchange rate is the spot rate scaled by the two interest rates, with the price currency's rate on top and the base currency's rate underneath. In a quote of dollars per pound, the dollar is the price currency and the pound is the base currency, so the dollar rate goes on top.
+
+HEART: Now the direction. Suppose British rates are above American rates. Holding pounds earns more interest. If the forward rate matched the spot rate, everyone would borrow dollars, change them into pounds, earn the higher rate, and lock in the conversion back at no loss. So the forward rate has to give back that extra interest. There are fewer dollars per pound in the forward market than in the spot market. The higher rate currency trades at a forward discount.
+
+LEWIS: And the trap is flipping the ratio. If the price currency's rate is the higher one, the forward rate sits above spot. If the base currency's rate is higher, the forward sits below spot.
+
+HEART: The takeaway. A derivative costs whatever it costs to build the same payoff from cash market pieces. The forward price is the spot price carried forward at the risk free rate, pushed up by holding costs and down by holding benefits, and it is not a forecast.
 
 ## Module 70.1, Forward Contract Valuation
 
-This module separates price from value at three points in a forward's life. The price is fixed. The value moves.
+LEWIS: This module separates two words that sound alike and are not. The forward price is the number written into the contract, the amount the buyer will pay at delivery. The value of the forward is what the contract is worth to one side right now, the amount someone would pay you to take it over, or that you would pay them if it has turned against you.
 
-At initiation, the forward price is set by the cost of carry formula, so the contract's value to both sides is zero. Neither side pays anything to enter. A new, fairly priced forward has a value of zero even though its price might be 105.
+HEART: Picture a friend who is moving abroad. You agree to buy his car in three months, at a price you both agree on today. That agreed price is the forward price. On the day you agree, nobody pays anybody, because the price was set at the fair level. The deal is worth exactly zero to each of you.
 
-At expiration, the value to the long equals the spot price at expiration minus the forward price. The short gets the negative of that. If the forward price was 105 and the asset ends at 112, the long gains 7 and the short loses 7. A forward is a zero sum game between its two parties.
+LEWIS: That is the rule at initiation. The forward price is chosen to make the contract's value zero. Not the price, the value. A fairly priced new forward can have a price well above today's spot price and still be worth nothing to either side.
 
-During the life of the contract, think of the long forward as owning the asset, paid for with a promise to pay the forward price later. Its value is what you have minus the present value of what you owe. So the value of a long forward equals the current spot price minus the present value of the forward price, discounted at the risk free rate for the time remaining. If the asset has carry, subtract the present value of any benefits still to come before expiration, and add the present value of any costs still to come. The long misses those benefits and avoids those costs.
+HEART: Then the market shifts. A chip shortage slashes new car production, as happened in twenty twenty one, and used car prices jump. Your agreement is suddenly valuable. You get the car at the old price while everyone else pays the new one. Your friend's side of the deal has lost exactly what yours has gained. The price in the agreement never moved. The value did.
 
-A one year forward was set at 105 on an asset priced at 100, with a 5 percent risk free rate. Six months later, the asset trades at 110. Discount the forward price of 105 for the remaining half year. One plus 5 percent, raised to the power one half, is about 1.0247. On the B A two plus, enter 1.05, press the y to the x key, enter 0.5, and press equals.
+LEWIS: So how do we measure value during the contract's life? Think of the long position as two pieces. You will receive the asset at delivery, and right now that is worth the spot price, since you could own the asset today for that amount. And you owe the forward price at delivery, a fixed bill due later, so today it is worth the present value of the forward price.
 
-Divide 105 by 1.0247 and you get about 102.47. The value to the long is 110 minus 102.47, or about 7.53. The value to the short is about negative 7.53.
+HEART: The value of a long forward is what you will get minus what you will owe. The spot price, minus the present value of the forward price, discounted at the risk free rate for the time remaining.
 
-There is a second way to see the same number. Value equals the present value of the gap between today's forward price for the same expiration date and the original forward price. Today's forward price for delivery in six months is 110 times 1.0247, or about 112.72. You locked in 105, so you are 7.72 better off at expiration, and the present value of that is again about 7.53. This second view helps when a question gives you a new forward price instead of a spot price.
+LEWIS: And you could actually bank that value. Sell the asset short today at the spot price. Set aside the present value of the forward price in a zero coupon bond. At delivery, the bond pays the forward price, you buy the asset under the forward, and you hand it back to cover your short sale. Every future cash flow nets to nothing, and what you kept today is the value.
 
-Three traps show up here. First, subtracting the full forward price instead of its present value. Second, forgetting to remove dividends still to be paid before expiration. Third, flipping the sign for the short.
+HEART: The trap here is subtracting the full forward price. That treats a bill due in six months as if it were due today. Always discount the forward price back to now.
 
-The second half of this module covers forwards on an interest rate for a period that starts in the future. Pricing them requires implied forward rates, which come from spot rates, the yields on zero coupon bonds of different maturities.
+LEWIS: Two directions follow. If the spot price rises, the long's value rises dollar for dollar. And with the spot price held still, a rise in interest rates also helps the long a little, because a fixed bill due later is worth less in today's money when rates are higher.
 
-The logic is no arbitrage again. Investing for two years at the two year spot rate must give the same result as investing for one year at the one year spot rate and then rolling over for a second year at a rate you lock in today. In words, one plus the two year spot rate, squared, equals one plus the one year spot rate, times one plus the one year forward rate starting one year from now.
+HEART: For assets with carry, adjust for whatever is still to come before delivery. The long misses any remaining income, so subtract its present value. The long avoids any remaining storage costs, so add their present value.
 
-Say the one year spot rate is 2 percent and the two year spot rate is 3 percent. Square 1.03 to get 1.0609, divide by 1.02, and subtract one. The implied one year forward rate, one year from now, is about 4.01 percent. A quick check is to take twice the two year rate and subtract the one year rate, which gives about 4 percent.
+LEWIS: The short's value is the mirror image. It is the present value of the forward price minus the spot price, with the carry adjustments reversed. Every dollar one side gains, the other side loses. A forward is a zero sum agreement between two parties.
 
-The forward rate is a breakeven rate. If the one year rate a year from now turns out above about 4 percent, rolling short would have paid more. Below it, locking in the two year rate would have paid more.
+HEART: At expiration there is no time left to discount, so the value to the long is simply the spot price minus the forward price. The short's value is the forward price minus the spot price. So a forward's value has three stages. Zero at the start. Spot minus the present value of the forward price along the way. Spot minus the forward price at the end.
 
-A forward rate agreement, or F R A, is an over the counter forward contract on an interest rate. One side pays a fixed rate, the F R A rate, and the other pays a floating market reference rate, such as SOFR, on a notional principal for a future period. The notional is never exchanged. Only the net interest difference changes hands.
+LEWIS: Now forwards on interest rates. A forward rate is a yield for a future period, a rate agreed today on money lent or borrowed later. The notation names the start first and the length second, as in Episode 1. One y one y is a one year rate starting in one year. Two y three y is a three year rate starting in two years. Money market rates follow the same pattern in months, so six m three m is a three month rate starting six months from now.
 
-The long position pays fixed and receives floating, so the long gains when rates rise. A company that plans to borrow at a floating rate later can go long an F R A to lock in its cost. A lender who wants to lock in a future investment rate goes short. A three by nine F R A starts in 3 months, ends in 9 months, and covers a 6 month rate.
+HEART: The building blocks are spot rates, the yields on zero coupon bonds of each maturity. The implied forward rate comes from the same two routes idea. Route one, put the money in a single investment that runs all the way to the end of the forward period. Route two, invest only until the forward period begins, then reinvest everything at the forward rate. The implied forward rate is the one that makes both routes end with the same money.
 
-The payoff equals the reference rate at settlement minus the F R A rate, times the notional, times the fraction of a year the period covers. Take a notional of 1 million dollars, a 6 month period, an F R A rate of 3 percent, and a reference rate that sets at 4 percent. The rate gap is 1 percent, times 1 million, times one half, which is 5,000 dollars owed to the long. That amount relates to the end of the period, but F R As usually settle at the start, so it is discounted at the reference rate for that period. Divide 5,000 by one plus 4 percent times one half, which is 1.02, and the long receives about 4,902 dollars.
+LEWIS: That makes the forward rate a breakeven rate. If the actual rate for that future period turns out higher than the implied forward rate, rolling over would have earned more. If it turns out lower, locking in the longer rate would have earned more.
 
-The fair F R A rate at initiation is the implied forward rate for that period, which makes the contract's value zero. Later, the value of the long equals the present value of the gap between the current implied forward rate for the same period and the original F R A rate, times the notional and the period fraction.
+HEART: Which brings us to the forward rate agreement, or F R A. Picture a credit union that knows it will need to borrow a block of funding in six months, for three months, at whatever the market reference rate is then. It worries that rates will rise first. Few lenders will commit today to a fixed rate on a loan that only begins six months from now, but an F R A delivers the same lock.
 
-To close the module, here is the rule to keep. The value of a long forward during its life equals the spot price, minus the present value of remaining benefits, plus the present value of remaining costs, minus the present value of the forward price. At initiation it is zero. At expiration it is the spot price minus the forward price.
+LEWIS: An F R A is a forward contract on an interest rate. The long, also called the buyer, agrees to pay a fixed rate, the contract rate. The short, the seller, agrees to pay the floating market reference rate, such as SOFR. Both rates apply to a notional principal that never changes hands. Only the net difference is paid.
+
+HEART: Now watch the hedge work. If the reference rate rises above the contract rate, the long receives a payment, and that payment offsets the higher interest on the actual loan. If the reference rate falls below the contract rate, the long pays, but the actual loan got cheaper by the same amount. Either way, the borrower's cost is locked at the contract rate. The long F R A gains when rates rise.
+
+LEWIS: Who takes the short side? Someone who wants to lock in a rate on money they will lend or invest later, and who would be hurt if rates fell. The short F R A gains when rates fall.
+
+HEART: One timing detail. The interest difference belongs to the end of the loan period, since that is when interest is due. But an F R A usually settles at the start of the period, as soon as the reference rate is known. So the payment is the present value of the interest difference, discounted at the reference rate that just set. These money market rates are simple annual rates on a three hundred sixty day year, so a three month period counts as one quarter of a year.
+
+LEWIS: And how is the contract rate chosen? Like any forward, it is set so the F R A is worth zero at the start. That makes it the implied forward rate for that future period. Later, as rates move, the F R A takes on value, positive for the long if the expected rate for that period rises.
+
+HEART: An F R A is really a swap that lasts a single period, and stringing several periods together gives you a full interest rate swap, the tool investors and issuers lean on most for rate risk. The F R A on its own is mainly a tool for banks, credit unions and other financial institutions, whose interest income and interest costs both move with rates, and it lets them steady those swings one period at a time.
+
+LEWIS: The takeaway. A forward's price is fixed and its value moves. The value starts at zero, equals the spot price minus the present value of the forward price along the way, and ends as spot minus forward. A long F R A pays fixed, receives floating, and gains when rates rise.
 
 ## Module 71.1, Futures Valuation
 
-A futures contract is a standardized forward that trades on an exchange, clears through a central counterparty, or CCP, and settles gains and losses every day. The pricing logic is the same cost of carry formula. Two things change, how value behaves and, in some cases, the price itself.
+LEWIS: A futures contract makes the same promise as a forward, to buy or sell later at a price agreed today. The difference, which you met in the last episode, is how gains and losses get paid.
 
-Start with value. At the end of each trading day, every position is marked to market. Gains are credited and losses are debited to margin accounts, and the contract is effectively rewritten at the new settlement price. So right after each daily settlement, a futures contract's value is zero.
+HEART: A forward runs a tab that is settled once, at the end. A futures contract settles up every single day.
 
-During the day, the value to the long equals the current futures price minus the last settlement price, times the contract size. Suppose yesterday's settlement price was 50 and the futures now trades at 51. The long's value is 1 per unit. At today's close that gain is paid into the long's margin account, and the value resets to zero.
+LEWIS: With an ordinary forward, nothing is paid along the way. The agreed price stays put for the whole contract while what the contract is worth rises and falls with the underlying, and then a single payment at delivery, the difference between spot and the agreed price, settles everything.
 
-A forward, by contrast, builds up gains and losses until expiration. Here is the trap. The value of a futures contract is not its price. The price might be 51 while the value is zero, or 1, depending on whether the day's settlement has happened.
+HEART: With futures, every position is marked to market each day. The exchange sets a settlement price at the end of the day. Whoever gained has cash added to their margin account, whoever lost has cash taken out, and the contract price resets to that settlement price. Gains above the initial margin can be withdrawn. If losses push the account below the maintenance margin, the trader must deposit enough to bring it back up to the initial margin.
 
-Now the price. If interest rates are constant, or move independently of the futures price, the futures price equals the forward price, ignoring credit risk. The difference appears when futures prices and interest rates are correlated, because daily settlement creates cash flows that must be reinvested or financed.
+LEWIS: Here is the consequence. Right after each daily settlement, a futures contract has a value of zero. The day's gain or loss has been paid, and the contract has in effect been rewritten at the new price. During the next day, value builds up again as the price moves away from the last settlement price.
 
-Suppose futures prices tend to rise when interest rates rise, a positive correlation. Then a long futures holder receives cash just when rates are high and can reinvest it at those high rates. The long pays cash when rates are low, so it can be borrowed cheaply. That makes a long futures position more attractive than a long forward, so buyers will pay more. The futures price is above the forward price.
+HEART: The trap is mixing up price and value again. A futures contract can trade at a high price and still be worth zero to its holder, because yesterday's gains were already paid out. Both the price and the value change at each settlement. And if a forward happens to be marked to market daily, its price resets in just the same way.
 
-With negative correlation, the reverse holds, and the futures price is below the forward price. Keep it simple. Positive correlation, futures higher. Negative correlation, futures lower.
+LEWIS: Now interest rate futures. Think of them as F R A contracts standardized for an exchange. The quote is where they part company. An F R A is quoted as a rate. An interest rate future is quoted as a price, equal to one hundred minus the annualized reference rate, stated in percent.
 
-Credit risk also differs. A forward depends on the other party paying at the end, while daily settlement through the CCP keeps futures counterparty risk very small.
+HEART: Which makes the quote run backward. When the rate goes up, the futures price goes down. So a long position in interest rate futures gains when rates fall, the exact opposite of a long F R A, which gains when rates rise. A borrower who fears rising rates can go long an F R A or go short interest rate futures. Same protection, opposite labels.
 
-Interest rate futures have quotes that run backward. The quoted price equals 100 minus the annualized interest rate, in percent. A quote of 97.50 means a rate of 2.50 percent. If the rate rises to 2.75 percent, the price falls to 97.25. So price and rate move in opposite directions, and a long interest rate futures position gains when rates fall.
+LEWIS: Each contract also has a basis point value, the money gained or lost for each one basis point move in the rate. It equals the notional principal, times the length of the rate's period as a fraction of a year, times one basis point. A bigger contract or a longer rate period means more money per basis point. And because that amount is fixed, the futures payoff moves in a straight line with the rate.
 
-That is the exact opposite of a long F R A, which gains when rates rise. This is one of the most tested traps in the topic. A borrower worried about rising rates can go long an F R A, or go short interest rate futures.
+HEART: Now the question the exam loves. Should a futures price and a forward price on the same underlying, for the same date, be the same?
 
-Interest rate futures also have a fixed value per basis point. The basis point value equals the notional, times one basis point, times the fraction of a year the rate covers. For a 3 month contract on 1 million dollars, that is 1 million, times 0.0001, times one quarter, or 25 dollars per basis point. If rates rise 25 basis points, a long loses 25 times 25, or 625 dollars per contract.
+LEWIS: If interest rates never changed, yes. And if rates move but have nothing to do with the futures price, still yes. Any difference comes from daily settlement. Those daily cash flows have to be invested when you receive them, or financed when you pay them, and that only matters if rates tend to move with the futures price.
 
-Because that dollar amount per basis point never changes, the futures payoff is linear in the rate. An F R A payoff is discounted at the settlement rate, so it is not quite linear. That difference, together with daily settlement, creates a small gap between the rate implied by a futures price and the matching forward rate. That gap is called the convexity bias.
+HEART: Take positive correlation first. The futures price tends to rise when interest rates rise. Then the long receives cash on the days rates are high, and can invest it at those high rates. The long pays cash on the days rates are low, when tying up money costs little. On average, the timing works in the long's favor.
 
-Here is the module in one line. Futures are priced with the same cost of carry formula as forwards, their value resets to zero at every daily settlement, and a long interest rate futures position gains when rates fall.
+LEWIS: So at the same contract price, a long futures position would be worth more than an otherwise identical long forward, which settles only at the end and gets none of that benefit. Buyers will accept a higher futures price to get it, so the futures price tends to sit above the forward price, and each contract still starts at zero value.
+
+HEART: With negative correlation, everything flips. Think of futures on Treasury bonds. Bond prices fall when rates rise, so the long pays margin when rates are high and money is expensive, and receives cash when rates are low and it earns little. A long futures position is now less attractive than a long forward, and the futures price tends to sit below the forward price.
+
+LEWIS: So the rule is short. No correlation, same price. Positive correlation, futures higher. Negative correlation, futures lower.
+
+HEART: In practice you rarely see the gap. The effect needs time to build, and most forwards are over within months. Big institutions also borrow and invest at rates near the risk free rate, so the daily cash flows cost them little. And where trades are centrally cleared, dealers have to post margin themselves and may pass daily margin calls on to their clients, which makes a forward behave much like a futures contract.
+
+LEWIS: One more wrinkle, specific to interest rates. Remember that an F R A settles with a discounted payment, and the discount rate is the reference rate that just set. When rates rise, the long receives a payment discounted at a higher rate. When rates fall by the same amount, the long pays an amount discounted at a lower rate. So the payment received after a rise is slightly smaller than the payment owed after an equal fall.
+
+HEART: Seen from the short's side, the side receiving the fixed rate, that looks just like a bond. A rise in rates hurts by a little less than an equal fall helps. For the long it is the reverse. A rise helps by a little less than an equal fall hurts. That curved shape is convexity, the same idea you met with bond prices and yields. The futures contract has no such curve. It pays the same fixed amount per basis point in either direction.
+
+LEWIS: That difference is called the convexity bias. It is small for short periods and grows as the period lengthens, so for longer term rates, interest rate futures and the matching forward rates can differ by a meaningful amount.
+
+HEART: The takeaway. Futures go back to zero value at every daily settlement. Their prices match forward prices unless rates move with the futures price, and positive correlation puts futures higher. A long interest rate future gains when rates fall.
 
 ## Module 72.1, Swap Valuation
 
-A plain vanilla interest rate swap is an agreement in which one side pays a fixed rate and the other pays a floating rate, on the same notional principal, at regular dates. Only the net payment changes hands.
+LEWIS: A plain interest rate swap is an agreement to exchange interest payments on the same notional principal at regular dates. One side pays a fixed rate. The other pays a floating rate tied to a market reference rate. Only the net amount changes hands, paid to whichever side is owed more.
 
-The key insight is that a swap is a series of forward contracts. Each payment date works like an F R A. The fixed payer pays the swap's fixed rate and receives whatever the floating rate turns out to be. A real series of F R As would each have its own fixed rate, the implied forward rate for that period. A swap uses one fixed rate for every period.
+HEART: Picture a credit union that has made lots of fixed rate car loans, funded by member deposits whose rates float with the market. If rates rise, its funding costs rise while its loan income stays put. It can enter a swap to pay fixed and receive floating. The floating payments it receives rise along with its deposit costs, and the fixed payments it makes are covered by its fixed loan income.
 
-So each embedded forward is off market. When the yield curve slopes upward, forward rates rise with time. The single swap rate sits above the early forward rates and below the later ones. The early embedded forwards therefore have negative value to the fixed payer, and the later ones have positive value. The swap rate is chosen so that these values sum to exactly zero at inception.
+LEWIS: On each payment date, the fixed rate payer receives the floating rate minus the fixed rate, applied to the notional for that period. Positive when floating is above fixed, negative when it is below. Now look at that payoff. Floating minus fixed, on a notional amount, for one future period. That is exactly the payoff of a long F R A.
 
-So the swap rate is the fixed rate that makes the present value of the fixed payments equal the present value of the expected floating payments. There is a neat shortcut. A floating rate note that resets to market is worth its par value on each reset date. So the swap rate is the coupon rate that would make a fixed rate bond with the same payment dates sell at par.
+HEART: So a swap is a series of forward contracts, a strip of F R A contracts, one for each payment date. Paying fixed is like being long every one of them, with the swap's fixed rate as the contract rate.
 
-In words, the periodic swap rate equals one minus the discount factor for the final payment date, divided by the sum of the discount factors for all the payment dates. Each discount factor is one divided by one plus that date's spot rate, with the denominator raised to the number of periods.
+LEWIS: With one exception at the front. The floating rate for each period is set at the start of that period and paid at the end. So the first floating payment is based on today's reference rate, which is already known when the swap is signed. The first payment is certain. Only the later ones behave like forwards.
 
-Use the same spot rates as before, 2 percent for one year and 3 percent for two years, with annual payments. The one year discount factor is about 0.9804. The two year discount factor is about 0.9426. One minus 0.9426 is 0.0574. The sum of the two discount factors is about 1.923. Divide and the two year swap rate is about 2.99 percent.
+HEART: And a small timing point. A standalone F R A settles at the start of its period with a discounted payment, while a swap pays at the end of each period. The two are equal in value, so the strip of forwards picture holds.
 
-The first year's forward rate is the spot rate, 2 percent. The second year's forward rate is about 4.01 percent. The swap rate lands between them. In fact the swap rate is a weighted average of the forward rates, with the discount factors as weights.
+LEWIS: Now the important difference. If you bought a separate F R A for each period, each would carry its own contract rate, the implied forward rate for that period, so each would start with zero value. A swap does not do that. It applies one fixed rate to every period.
 
-After inception, rates move. The fixed payer gains when rates rise, because it is locked into paying the old, lower rate while receiving a floating rate that has gone up. The receiver of fixed gains when rates fall.
+HEART: Picture a gym that charges members one flat monthly fee for a year, while its own costs rise every month. Early in the year the flat fee more than covers the costs. Late in the year it falls short. The fee is set so that, over the full year, it balances out.
 
-On a payment date, the value to the fixed payer equals the current swap rate for the remaining term, minus the original swap rate, times the notional, times the sum of the discount factors for the remaining payment dates. Suppose you pay fixed at 3 percent on 10 million dollars. One year later, two annual payments remain, and the market swap rate for two years is 4 percent, with spot rates of 4 percent for both years. You save 1 percent of 10 million, or 100,000 dollars, in each of the next two years. The discount factors add up to about 1.886, so the swap is worth about 189,000 dollars to you, and about negative 189,000 dollars to the receiver.
+LEWIS: That is a swap when the yield curve slopes upward. Implied forward rates rise period by period. The single fixed rate sits above the early forward rates and below the later ones. So for the fixed payer, the early embedded forwards have negative value, because the payer is paying more than the forward rate, and the later ones have positive value. Individually, the forwards are off market. Together, their values sum to zero at the start.
 
-Another way to see the direction is through bonds. Paying fixed and receiving floating is like issuing a fixed rate bond and buying a floating rate note. Receiving fixed is like owning a fixed rate bond funded with floating rate borrowing, so the receiver gains when rates fall, just as a bondholder does. A lender holding fixed rate loans funded by short term deposits can pay fixed on a swap, so that its net income from those loans floats with its funding costs.
+HEART: The fixed rate that makes the whole swap worth zero at initiation is called the par swap rate. Put another way, it sets the present value of the fixed payments equal to the present value of the expected floating payments.
 
-Other swaps follow the same logic. The terms make the two legs equal in present value at inception, and later value is the difference between the two legs.
+LEWIS: And how do you find it? Same toolkit as before. From today's spot rates, work out the implied forward rate for each period. Treat those forward rates as the expected floating payments. Discount each payment at its own spot rate. Then find the single fixed rate whose payments, discounted the same way, add up to the same total.
 
-The exam traps here are predictable. First, saying the fixed payer gains when rates fall. Second, confusing the swap rate with today's floating rate. Third, assuming each embedded forward is fairly priced just because the whole swap is. Here is the rule to keep. The swap rate equals one minus the final discount factor, divided by the sum of all the discount factors, and it makes the swap's value zero at inception.
+HEART: There is also a replication. Paying fixed and receiving floating is the same as borrowing at a fixed rate and lending the money out at a floating rate. Each period you owe fixed interest and collect floating interest, which are exactly the swap's cash flows.
+
+LEWIS: Now price versus value, the same distinction as with forwards. The price of a swap is the fixed rate written into it, the par swap rate set at the start. The value is what the swap is worth to one side now. At initiation the value is zero, by design.
+
+HEART: After that, value comes from changes in expected future floating rates. The value to the fixed payer at any point is the present value of the expected floating payments still to come, minus the present value of the fixed payments still to come, both measured with the current curve.
+
+LEWIS: So the direction. Suppose expected future rates rise after you agree to pay fixed. You are locked into paying the old, lower rate, while the floating payments you expect to receive have gone up. Your swap now has positive value. If expected rates fall, the fixed payer loses value. The fixed receiver has the mirror image and gains when rates fall.
+
+HEART: A bond comparison helps. Receiving fixed and paying floating is like owning a fixed rate bond funded with floating rate borrowing. Like any bondholder, the fixed receiver gains when rates fall. The fixed payer is like the issuer of that bond, and gains when rates rise.
+
+LEWIS: That value is not just a number on paper. Many swaps require mark to market payments, collateral passed back and forth as the value changes, and this calculation sets how much moves.
+
+HEART: Three traps. First, the swap rate is not today's floating rate. It is a blend of all the implied forward rates over the swap's term. Second, a swap worth zero overall does not mean each embedded forward is worth zero. Third, the fixed payer gains when rates rise, not when they fall.
+
+LEWIS: The takeaway. A swap is a strip of forwards sharing one fixed rate, the par swap rate, chosen so the swap starts at zero value. The price stays fixed, and the value moves with expected rates, in the fixed payer's favor when they rise.
 
 ## Recall check
 
-Q: A one year forward on a stock with no dividends trades above the spot price grown at the risk free rate. What arbitrage do you run?
+LEWIS Q: A one year forward on a share that pays no dividend is quoted above the share price grown at the risk free rate. What trades capture the arbitrage?
 
-Answer: Cash and carry arbitrage. The forward is overpriced, so you sell it. You borrow at the risk free rate, buy the stock, and sell the forward. At expiration you deliver the stock, collect the forward price, repay the loan, and keep the difference.
+HEART: Answer. Sell the forward, borrow at the risk free rate, and buy the share. Here is why. The forward is the expensive side, so you sell it and buy the cheap side, the share. At delivery you hand over the share for the high forward price and repay the loan, which has grown only at the risk free rate. The difference is a riskless profit made with none of your own money.
 
-Q: An asset trades at 100, the risk free rate is 5 percent, and the asset pays income with a present value of 4 over the next year. What is the one year forward price?
+HEART Q: Why does the expected return on the underlying play no part in a forward price?
 
-Answer: About 100.80. Subtract the present value of the income to get 96, then multiply by 1.05. The income lowers the forward price because the forward buyer does not receive it.
+LEWIS: Answer. Because the forward is priced by replication with a riskless hedge, not by forecasting. Here is why. Owning the asset and selling it forward locks in a payoff that does not depend on where the price goes. A riskless position must earn the risk free rate, so the risk premium and everyone's forecasts drop out. That is why derivatives can be priced as if investors were risk neutral, and why the forward price is not a forecast of the future spot price.
 
-Q: A new forward contract is fairly priced at 105. What is its value to the long at initiation?
+LEWIS Q: Dividends, storage costs and convenience yield. Which of them raise the forward price, and which lower it?
 
-Answer: Zero. The forward price is set so that neither side has value at the start. Price is the fixed number in the contract. Value is what the contract is worth to one side, and it changes only as the market moves.
+HEART: Answer. Storage costs raise it, while dividends and convenience yield lower it. Here is why. The seller holds the asset until delivery, so the seller pays the storage bill and charges for it in the forward price. The seller also collects the dividends and enjoys the convenience of having the goods on hand, which the forward buyer misses, so the buyer pays less.
 
-Q: Futures prices on an asset are positively correlated with interest rates. Is the futures price most likely higher than, lower than, or equal to the forward price?
+HEART Q: The pound interest rate is above the dollar interest rate. In a dollars per pound quote, does the forward rate sit above or below the spot rate?
 
-Answer: Higher. With positive correlation, the long futures holder receives daily gains when rates are high and can reinvest them at those rates, and pays losses when rates are low and borrowing is cheap. That makes the futures position more valuable to a buyer than the matching forward.
+LEWIS: Answer. Below, so the pound trades at a forward discount. Here is why. Holding pounds earns the higher rate. If the forward matched the spot rate, you could borrow dollars, earn the higher pound rate, and convert back at no loss for a riskless gain. The forward has to give back that extra interest, which means fewer dollars per pound for future delivery.
 
-Q: An interest rate futures contract is quoted at 97. If the annualized rate rises half a percentage point, what is the new quote, and does the long gain or lose?
+LEWIS Q: A new forward is fairly priced well above the current spot price. What is its value to the long on the day it is signed?
 
-Answer: The quote starts at 100 minus 3, so the rate rises from 3 percent to 3.5 percent and the new quote is 96.50. The long loses. A long interest rate futures position gains when rates fall, the opposite of a long F R A.
+HEART: Answer. Zero. Here is why. The forward price is set precisely so that neither side gains by entering, which is why nothing changes hands at the start. The price is the fixed number in the contract. Value is what the contract is worth to one side, and it only moves away from zero as the market moves.
 
-Q: Six months after entering a pay fixed interest rate swap, market swap rates for the remaining term have risen. Which side has gained value?
+HEART Q: Halfway through a forward's life, the value to the long is the spot price minus what, and why?
 
-Answer: The fixed rate payer. It is locked into paying the old, lower fixed rate while receiving floating payments that are now expected to be higher. On a payment date, its value equals the rise in the swap rate, times the notional, times the sum of the remaining discount factors.
+LEWIS: Answer. Minus the present value of the forward price. Here is why. The long will receive the asset, worth the spot price today, and will pay the forward price at delivery. A payment due later is worth less now, so it has to be discounted at the risk free rate for the time remaining. Subtracting the full forward price would treat a future bill as if it were due today.
 
-## Recap
+LEWIS Q: A company will borrow at a floating rate in three months and fears that rates will rise. Which side of an F R A should it take?
 
-No arbitrage pricing says that two positions with identical future cash flows must cost the same today, so a derivative's price equals the cost of the portfolio that replicates it. Owning an asset and selling it forward is a synthetic risk free bond, which is why the forward price equals the spot price, minus the present value of benefits, plus the present value of costs, grown at the risk free rate to expiration. Expected returns and risk preferences never enter, and the forward price is not a forecast. When a forward is overpriced, run cash and carry, and when it is underpriced, run reverse cash and carry.
+HEART: Answer. The long side, paying the fixed contract rate and receiving the floating rate. Here is why. If the reference rate rises, the F R A pays the long the difference, which offsets the higher interest on the loan. If the rate falls, the long pays the difference, but the loan costs less. Either way, the borrower has locked in the contract rate.
 
-A long forward's value is zero at initiation and equals the spot price minus the forward price at expiration. In between, it equals the spot price minus the present value of the forward price, adjusted for any carry still to come. Implied forward rates come from spot rates by no arbitrage, and a long F R A gains when rates rise. Futures use the same pricing formula, but their value resets to zero at every daily settlement, and with positive correlation between futures prices and rates, the futures price sits above the forward price. A long interest rate futures position gains when rates fall. A swap is a series of off market forwards, its fixed rate equals one minus the final discount factor divided by the sum of the discount factors, and the fixed payer gains when rates rise.
+HEART Q: What is the value of a futures contract right after the daily settlement, and why?
+
+LEWIS: Answer. Zero. Here is why. Marking to market pays the day's gain or loss in cash through the margin accounts, and the contract price resets to the settlement price. Nothing is left owing between the two sides, so the contract carries on worth nothing, just as a brand new contract would.
+
+LEWIS Q: Futures prices on an asset tend to rise when interest rates rise. Is the futures price likely to be above, below or equal to the forward price?
+
+HEART: Answer. Above. Here is why. With daily settlement, the long receives cash when rates are high and can invest it at those rates, and pays cash when rates are low and money is cheap. A forward settles only at the end and gets none of that benefit. So at the same price the futures contract is more attractive to a buyer, and buyers will accept a higher futures price to get it.
+
+HEART Q: An interest rate futures quote rises. Did the reference rate rise or fall, and who gained, the long or the short?
+
+LEWIS: Answer. The rate fell, and the long gained. Here is why. The quote is one hundred minus the rate, so a lower rate means a higher price. The long gains when the price rises, which makes a long interest rate future the opposite of a long F R A, which gains when rates rise.
+
+LEWIS Q: A new swap has zero value overall. Does that mean each embedded forward has zero value?
+
+HEART: Answer. No. Here is why. Each embedded forward carries the same fixed swap rate, not its own implied forward rate. With an upward sloping curve, the fixed payer pays more than the forward rate in the early periods and less in the later ones, so the early forwards have negative value and the later ones positive value. The par swap rate is chosen so those values cancel, not so each one is zero.
+
+HEART Q: After you enter a pay fixed swap, expected future rates rise. Has your position gained or lost value?
+
+LEWIS: Answer. It has gained value. Here is why. You are locked into paying the old fixed rate, while the floating payments you expect to receive have gone up. The value to the fixed payer is the present value of the expected floating receipts minus the present value of the fixed payments, and higher expected rates lift the first relative to the second. The fixed receiver has lost the same amount.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: Two routes, one toll. Same payoff in every outcome, same price today. That is the law of one price from Episode 1, and every price here comes from it.
+
+HEART: For arbitrage, sell what is dear and buy what is cheap. Forward too high, sell it and buy the asset with borrowed money. Forward too low, buy it, sell the asset short and lend the cash.
+
+LEWIS: For replication, borrow and buy is a long forward. Short and lend is a short forward.
+
+HEART: A forward is a carry calculation, not a crystal ball. Price it as if nobody cared about risk, because the hedge has already removed it.
+
+LEWIS: For carry, costs carry it up and benefits bring it down. Financing, storage, insurance and spoilage push the forward price up. Dividends, coupons and convenience yield pull it down.
+
+HEART: For currencies, the high rate currency gives back its extra interest, so it trades at a forward discount. Keep the price currency's rate on top.
+
+LEWIS: For the long's forward value, born at zero, spot minus the present value of the forward price along the way, spot minus the forward price at the end. The price is set, the value moves.
+
+HEART: For rate forwards, start first, length second. A long F R A pays fixed, like a borrower locking in a loan, and gains when rates rise. Rate futures are quoted as one hundred minus the rate, so a long future gains when rates fall.
+
+LEWIS: For futures, back to zero value after every daily settlement. No correlation, same price. Positive correlation, futures higher. Negative correlation, futures lower. And forward rate agreements curve while futures run straight, which is the convexity bias.
+
+HEART: For swaps, a strip of forwards sharing one rate. Born at zero, with some pieces above zero and some below. The fixed payer profits when rates rise.
+
+LEWIS: Now, how you would say the big ideas to a senior leader.
+
+HEART: On pricing: a derivative is worth whatever it costs to build the same exposure with cash and borrowing, and if the market price strays from that, traders trade the gap away. The jargon is no arbitrage pricing, replication and the law of one price.
+
+LEWIS: On forward prices: a forward price is not a forecast. It is today's price plus the cost of holding the asset until delivery, minus what holding it pays. The jargon is the cost of carry, convenience yield and risk neutral pricing.
+
+HEART: On hedges: a new forward or swap has no value the day we sign it. Gains and losses appear only as markets move. The jargon is forward price versus forward value, and mark to market.
+
+LEWIS: On rate risk: we can lock in a future borrowing rate today, and a swap does that for many periods with one fixed rate. If rates rise after we agree to pay fixed, the swap gains value. The jargon is forward rate agreement, par swap rate and fixed rate payer.
+
+HEART: And on futures: exchange contracts settle gains and losses daily, so their prices can differ slightly from an equivalent forward when the underlying moves with interest rates. The jargon is daily settlement, correlation with interest rates, and convexity bias.
