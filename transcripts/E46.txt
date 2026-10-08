@@ -1,157 +1,293 @@
-## The big picture
-
-This episode covers two Standards that shift the focus from markets and clients to two working relationships. Standard four, Duties to Employers, is about what you owe the firm that pays you. Standard five, Investment Analysis, Recommendations, and Actions, is about the quality of the work you deliver to clients.
-
-The two connect through trust. An employer pays for your skill, your time and your judgment, and it hands you its clients and its confidential information. So Standard four asks for loyalty, written consent before you take outside pay that could conflict with the job, and real supervision of the people who report to you. Clients, in turn, rely on what you analyze and recommend. So Standard five asks you to do the research properly, to tell clients clearly what you do, what it costs and what could go wrong, and to keep records that prove the work was sound.
-
-Module 91.6 covers the three parts of Standard four. Module 91.7 covers the three parts of Standard five, including a disclosure requirement about services and costs that took effect at the start of 2024.
-
-On the exam, these Standards appear as short scenarios. You decide whether there is a violation, which Standard applies, or what the member should have done. The tempting wrong answers usually describe a sensible action that skips one required step, such as written consent, a prompt investigation, or a disclosure.
+LEWIS: This episode covers Standard four, Duties to Employers, on loyalty to the firm, outside pay and the duties of supervisors, and Standard five, Investment Analysis, Recommendations, and Actions, on doing the research properly, communicating clearly with clients and keeping records.
 
 ## Module 91.6, Guidance for Standard IV
 
-Start with why these duties exist. When a firm hires you, it pays for your skills and effort, and it gives you access to its clients, its research and its business plans. That access is valuable, and it could be turned against the firm. Standard four sets three rules around it. The first is Standard four A, Loyalty. The second is Standard four B, Additional Compensation Arrangements, and the third is Standard four C, Responsibilities of Supervisors.
+HEART: Standards two and three looked outward, to the market and to clients. Standard four turns to the firm you work for. Its title is Duties to Employers, and it has three parts. Standard four A, Loyalty. Standard four B, Additional Compensation Arrangements. And Standard four C, Responsibilities of Supervisors.
 
-Here is what Loyalty requires, in plain terms. On anything connected with your job, you act in the firm's interest. You do not hold back your skills and effort from it, you do not reveal its confidential information, and you do not do other things that damage it. In short, while you work there, you work for them.
+LEWIS: Think of a job as a trade. The firm pays you, and it also hands you things it cannot easily take back: its clients, its research, its systems and its plans. Standard four is your side of that trade. Give the firm your skills honestly, do not turn what it gave you against it, and if you manage people, make sure they follow the rules too.
 
-Loyalty is not blind obedience, though. Firm policies bind you only when they do not conflict with the law or with the Code and Standards. Your duty to clients and to the integrity of markets comes ahead of your duty to the employer, so an instruction to do something illegal or unethical does not bind you. Loyalty also does not require you to give up important personal and family obligations. And the duty runs both ways, because employers are expected to keep an ethical workplace.
+HEART: Standard four A, Loyalty. In plain words, while you work for a firm, you are on its side in everything to do with the job. It gets your full effort and talent, its secrets stay secret, and you do nothing that hurts it, such as damaging the business or quietly costing it profit.
 
-The first applied topic is independent practice, meaning outside work that competes with your employer. You are allowed to have outside activities. But if you plan to offer, for pay, the kind of service your employer sells, you must first tell the employer what services you will provide, how long the arrangement will last, and what you will be paid. Then you wait until the employer has consented to all of those terms before you begin.
+LEWIS: Why does it exist? A firm can only trust its people with clients and secrets if it can count on them not to walk off with those things or compete behind its back. Without that trust, firms would share less, and clients would get worse service.
 
-Here is a vignette. A portfolio manager at a wealth management firm is asked by a family friend to manage a 2 million dollar account for a fee, on weekends. She agrees and tells no one at work. That is a violation of four A, because she is selling the same service as her employer, in competition with it, without notice or consent. The fix is a written notice describing the service, the duration and the pay, and waiting for approval before taking the account.
+HEART: Notice the scope. This duty is owed by employees. A contractor's obligations are whatever the contract says, so both sides should spell them out clearly at the start, and the contractor then sticks to them.
 
-The second topic is leaving an employer, and it is one of the most commonly tested parts of four A. Your duty of loyalty lasts until your employment actually ends. Before that day, you are allowed to prepare to compete. You can look for a new job, register a new company, or lease office space, as long as you do not breach your duty along the way. What you cannot do before leaving is solicit the firm's clients or prospective clients, take client lists or other firm records, use confidential information or trade secrets, engage in self dealing, or run the firm down in a way that could harm it. Even after you give notice, follow the firm's procedures for telling clients, and do not urge them to follow you or promote your new firm until you are gone.
+LEWIS: And loyalty has limits, which is where many exam questions sit. First, clients still come first. Loyalty to your employer never justifies harming clients, and it never requires you to break the law or the Code and Standards. Within those limits, you should still weigh what your actions do to the firm's integrity and its long run health.
 
-After you leave, the picture changes. The general skills, experience and knowledge you built are yours to use. Simply knowing who your former clients are is generally not treated as confidential information. So you may contact former clients, using public sources rather than firm records, unless an agreement you signed, such as a noncompete, says otherwise.
+HEART: Second, loyalty does not swallow your private life. Your employer does not automatically outrank your family or your other personal commitments. When the two pull against each other, the answer is an honest conversation with your employer and a workable balance. A manager who leaves early on Thursdays to care for a parent, by agreement with her boss, is not being disloyal.
 
-Two vignettes show the line. First, two weeks before resigning, an analyst emails his largest clients from his work account, says he is leaving, and invites them to move with him. That is a violation of four A, because he is still an employee and he is soliciting the firm's clients. Now change the facts. He resigns, has no noncompete, and after his last day he looks up former clients in a public directory and calls them. That is not a violation, because he is no longer employed and he used public information, not firm records.
+LEWIS: Now the applied topics. First, independent practice, which means outside work for pay that competes with your employer. It is allowed, with conditions. Before you start, give your employer a notice that fully describes the arrangement: the services, the pay, how long it will run and the nature of the work. Then wait until the employer consents to all of those terms. Only then can you begin.
 
-Here is a related trap. Suppose a departing employee copies the client database to a personal drive but never uses it. That is still a violation, because taking the firm's records is itself the breach, whether or not they are ever used. Firm records kept on a home computer or a personal phone should be returned or erased when you go, unless the firm gives permission to keep them.
+HEART: A case. Tobias is a financial planner at a regional wealth firm. A neighbor who runs a small dental practice asks him to design retirement plans for the practice's staff, for a monthly fee, on evenings and weekends. Planning is exactly what Tobias's employer sells. He takes the work and plans to mention it at his next annual review. Violation?
 
-Social media has its own guidance. You must follow your firm's policies on using social media with clients. A business account the firm approved is treated as firm property, so when you leave, you transfer or delete it as the firm's procedures require, and you do not use it to take clients with you. The cleanest practice is to keep personal and professional accounts separate from the start.
+LEWIS: Yes, of Standard four A. He is competing with his employer for pay without first describing the arrangement and getting consent to its terms. Doing the work on his own time does not change that. The fix was a full notice to his employer before taking the work, and consent to every term before starting.
 
-The next topic is whistleblowing. Protecting clients and the integrity of markets outranks loyalty to an employer. So if your firm is doing something illegal or unethical, actions that would normally breach loyalty, such as sharing confidential records with a regulator, can be justified. The motive matters. The action must be taken to protect clients or markets, not for personal gain.
+HEART: Next, leaving an employer, the most heavily tested part of Loyalty. The core rule is that your duty lasts until your resignation takes effect.
 
-Picture an operations associate who finds that her firm is hiding trading losses from clients. She copies the relevant records and takes them to the regulator. That is not a violation, because she acted to protect clients and markets. Now picture a colleague who finds the same problem and tells his manager he will go to the regulator unless he gets a larger bonus. That is not protected whistleblowing, because his motive is personal gain, and using firm information as leverage breaches his loyalty.
+LEWIS: That does not mean you cannot plan. Preparing to compete is allowed, as long as the preparations themselves do not breach your duty. You can look for a new job, arrange financing, find office space, or set up a new company on your own time. What you cannot do before you leave is the list of classic violations. Taking trade secrets, such as the firm's proprietary models or methods. Misusing confidential information. Soliciting the firm's clients. Self dealing, which means using your position to benefit yourself at the firm's expense, such as quietly steering a piece of business the firm was pursuing toward your own new venture. And taking client lists.
 
-Last, the nature of employment matters. The loyalty duty applies to employment relationships. If you work as an independent contractor, your duties come mainly from your contract, so both sides should define responsibilities clearly at the start.
+HEART: A case. Delia, a portfolio manager, decides to open her own advisory firm. While still employed, and on her own time, she arranges a business loan, signs a lease on a small office and hires a lawyer to draft client agreements for the new firm. She tells no clients and takes nothing from her employer. Violation?
 
-On the firm side, the recommended procedures are practical. Firms should have a clear policy on outside work that competes with the firm. They should have a termination policy covering what departing staff must return, how clients are informed, and how business social media accounts are handled. They should offer a confidential way to report suspected misconduct, with protection for those who report it, and they should be clear about who is an employee and who is a contractor.
+LEWIS: No. Those are preparations, not competition. Now change one fact. A week before she resigns, Delia announces her new firm on her professional networking profile, where dozens of her clients are among her contacts, and invites them to move their accounts. That is a violation of Standard four A. She is still an employee, and the post solicits her employer's clients.
 
-Now Standard four B, Additional Compensation Arrangements. It deals with money or benefits from someone other than your employer. In plain terms, if an outside party offers you anything of value, whether cash, a gift or a perk, and it competes with your employer's interest or could reasonably be expected to set up a conflict with it, you cannot take it until every party involved has agreed in writing.
+HEART: And even after you give notice, follow the firm's procedures for telling clients about your departure. Urging them to follow you, or promoting your new firm, waits until you are gone.
 
-Why does this exist? Your employer decides how your time and attention are spent, and it pays you on that basis. If a client or another outside party is also paying you, your incentives change. You might favor that client's account, or spend time that belongs to the firm. The employer can only judge that risk if it knows the terms.
+LEWIS: Records are the next trap. Firm records stay firm property wherever they sit, in a desk drawer, on a laptop at home or in a personal cloud account, and that includes files you created yourself. So taking them without permission is a violation in itself. Picture a departing analyst who forwards the firm's client contact spreadsheet to his personal email the night before he resigns and never opens it again. Still a violation. The breach is taking the records, whether or not they are ever used.
 
-Three details are tested. First, the consent must be written. Email counts, but a hallway conversation does not. Second, consent must come from all parties involved, which always includes your employer, not just the person offering the benefit. Third, noncash benefits count. A club membership, a trip, or shares in a company are compensation just as cash is.
+HEART: Once you have actually left, the picture changes. The names you carry in your head are generally not a secret, and neither is your know how. The experience and skill you built at the old firm come with you. So after your last day you may contact former clients, as long as you find them through public sources rather than the old firm's records, and you do not break a valid agreement you signed, such as a noncompete.
 
-Here is a vignette. A client tells her portfolio manager that if her account beats its benchmark this year, he can spend a week at her beach house. The correct step is to report the offer to his employer in writing before accepting, and to accept only with written consent. If he accepts and mentions it to his boss only in passing, that is a violation of four B, because a verbal mention is not written consent.
+LEWIS: One wrinkle. Some firms sign agreements with each other that let a departing broker take limited client information, typically names and contact details. In the United States, many brokerage firms belong to one called the Protocol for Broker Recruiting. Acting within the terms of an agreement like that is not a violation.
 
-A second vignette. A research analyst is invited to join the board of a private technology company, paid in cash plus shares. He accepts without telling his employer. That is a violation of four B, because the pay could conflict with his employer's interest, both through the time the board takes and through any dealings between his firm and that company. He needed written consent first.
+HEART: Social media has its own rules. Whatever your firm says about contacting clients online binds you, and it matters most on the way out, because the firm decides how and when clients hear that someone is leaving. The cleanest habit is two accounts from day one, one personal and one for work.
 
-Here is the trap, and it links back to Standard one B, Independence and Objectivity. A gift from a client for results already delivered is mainly an independence question, and the usual step is to disclose it to your employer. A benefit that depends on future performance is additional compensation under four B, and it needs written consent before you accept. So remember the pairing. Future performance plus a reward means written consent first.
+LEWIS: Now whistleblowing. Normally, handing the firm's confidential information to an outsider would breach loyalty. In rare cases, though, going against the firm is the right call, when the aim is to protect clients or keep the market honest and you stand to gain nothing from it.
 
-The recommended procedure is an immediate written report to your supervisor or compliance officer. It should state the nature of the compensation, the approximate amount, and how long the arrangement will last, along with any performance terms. That gives the employer what it needs to judge the conflict and decide.
+HEART: A case. Farah works in fund accounting at a real estate fund manager. She finds that the firm has been billing its investors for property appraisals that were never carried out. She raises it internally and nothing changes, so she copies the invoices and sends them to the securities regulator. Violation?
 
-Now Standard four C, Responsibilities of Supervisors. If anyone works under your supervision or authority, it is your job to make reasonable efforts to keep that person within the law, the rules and regulations that apply, and the Code and Standards. The duty reaches every person you oversee, whether or not they are charterholders or candidates.
+LEWIS: No. She broke the usual confidentiality, but to protect clients from fraud, with nothing in it for herself. Now picture a colleague who finds the same invoices and tells management he will keep quiet in exchange for a larger severance package. That is not whistleblowing. He is using the firm's secrets for personal gain, which breaches loyalty.
 
-Reasonable efforts have two halves, prevention and detection. Adopting a code of ethics by itself is not enough. A supervisor needs written compliance procedures, regular training, and monitoring that would actually catch problems. If those systems are reasonable and enforced, a subordinate's violation does not automatically mean the supervisor violated four C. But a violation can be a sign that the procedures need work.
+HEART: Many firms run a channel where staff can report wrongdoing without giving their names, and for some firms it is a legal requirement. Know how yours works, and push your firm toward good practice if it falls short.
 
-When a violation is found or suspected, three steps follow. First, promptly start an investigation. Second, while it runs, increase supervision or limit the employee's activities, so the problem cannot continue. Third, review the procedures to see what failed. Accepting the employee's promise that it will not happen again is never enough.
+LEWIS: The recommended procedures for Standard four A are short. A good habit is handing your employer a copy of the Code and Standards, so the firm knows the rules you follow. And on the firm side, pay plans should never make cutting ethical corners the profitable choice. A bonus based only on how much client money someone moves into the firm's own products is the kind of design that invites trouble.
 
-Here is a vignette. A trading desk head is told that one of her traders may be buying ahead of large client orders. She speaks to the trader, he says it was a one time mistake, and she takes no further action. That is a violation of four C, because she relied on his word. She should have opened an investigation, restricted or closely watched his trading in the meantime, and checked the controls that let it happen.
+HEART: The traps for Standard four A. Trap one says any planning to leave is disloyal. Preparing is fine, while soliciting, taking records and misusing confidential information are not. Trap two says the records were never used, so there is no harm. Taking them is the violation. Trap three says you can never contact former clients. After you leave, you can, through public sources and absent a noncompete.
 
-Now a different situation. You are offered a supervisory role and find that the firm has no real compliance system, so you could not supervise effectively. The right response is to decline the supervisory responsibility until the firm adopts reasonable procedures. You should also tell senior management what is missing and recommend fixes, and putting your refusal in writing is good practice. Taking the role anyway and doing your best inside a broken system is the tempting wrong answer.
+LEWIS: Trap four says outside work on your own time is your own business. If it competes with the firm for pay, it needs notice and the employer's consent to every term before it begins. And trap five says loyalty means doing whatever the employer asks. Clients, the law and the Code come first, and whistleblowing to protect clients is not a breach.
 
-You may delegate supervisory duties to people below you, but delegation does not remove your own responsibility. You still need to make sure those delegates know how to prevent and detect violations.
+HEART: The takeaway for Standard four A. Work for your employer's benefit until your last day. Prepare to compete if you like, but take nothing and solicit no one before you go, and never let loyalty override clients, markets or the law.
 
-On recommended procedures, keep two documents apart. A code of ethics states broad principles in plain language. Compliance procedures are the detailed rules that put those principles into practice. Adequate procedures are clearly written, name a compliance officer with real authority, describe the chain of supervision, build in checks and balances, spell out permitted conduct, and set out how violations are reported and punished. Implementation means sharing the procedures with staff, updating them, training regularly, building ethical conduct into performance reviews, monitoring, and enforcing the rules when someone breaks them.
+LEWIS: Standard four B, Additional Compensation Arrangements. In plain words, if someone other than your employer offers you something of value, whether pay, a perk or a gift, and it could compete with your employer's business or reasonably be expected to pull you into a conflict with it, you need written consent from all parties involved before you take it.
 
-So here is the core of Standard four in one breath. Loyalty lasts until your last day, and preparing to compete is fine, but soliciting clients or taking records is not. Outside pay that could conflict with your employer needs written consent from everyone involved. And a supervisor must prevent, detect, and promptly investigate, never just accept a promise.
+HEART: Why does it exist? Your employer pays you for your time and your judgment. If someone else is also paying you, your incentives can drift, toward that person's account or toward work the firm is not paying for. The employer can only judge that risk if it knows the terms.
+
+LEWIS: Three details are tested. First, the word compensation is broad. It includes direct and indirect pay from a client and benefits from any third party, and it does not have to be cash. Free travel, a club membership or shares in a company all count. Second, consent has to be in writing, and email counts. A nod in the hallway does not. Third, consent comes from all parties involved, and that always includes your employer, not just the person making the offer.
+
+HEART: Now the distinction that decides most questions here, because it links back to Standard one B. Picture two notes from the same client. The first says, thank you for a great year, here is a gift. That rewards past performance. It is a gift, governed by Standard one B, Independence and Objectivity, and the rule is disclosure to your employer.
+
+LEWIS: The second note says, if my account beats its benchmark next year, I will give you something. That depends on future performance. It is an additional compensation arrangement under Standard four B, and you need written consent before you accept. The reason for the difference is incentives. A reward for what already happened is far less likely to change how you work. A reward for what happens next can tilt your effort toward that one account at other clients' expense, or tempt you to take more risk than the client should be taking.
+
+HEART: A case. Ivan manages money for a client who recently sold her family business. She tells him that if her portfolio beats its benchmark this year, she will personally pay him a cash bonus equal to a small slice of the extra gain. Ivan mentions it to his manager in a quick phone call, the manager says it sounds fine, and Ivan accepts. Violation?
+
+LEWIS: Yes, of Standard four B. The reward depends on future performance, so it is additional compensation, and a casual spoken okay is not written consent. An email laying out the offer, and a written reply from the firm approving it, would have done the job.
+
+HEART: The recommended procedures for Standard four B. The moment an outside offer appears, put it in writing to your employer: what you would be paid, what you would do for it, roughly how much it is worth and how long it would run. If you are hired part time, raise any outside work that could compete at the hiring stage, and then respect whatever limits the employer sets.
+
+LEWIS: And on the firm side, whoever is offering the extra pay should confirm its terms, performance incentives included, so the employer knows exactly what it is approving.
+
+HEART: The traps for Standard four B. Trap one says telling your boss is enough. It must be written consent. Trap two says only cash counts. Benefits of any kind count. Trap three mixes up the two client offers. Past performance means a gift and disclosure under Standard one B. Future performance means additional compensation and written consent first under Standard four B.
+
+LEWIS: The takeaway for Standard four B. If outside pay or perks could compete with your employer or create a conflict with its interest, get written consent from everyone involved before you accept, and email counts.
+
+HEART: Standard four C, Responsibilities of Supervisors. In plain words, if people report to you or act under your authority, you must make reasonable efforts to keep them within the law and within the Code and Standards.
+
+LEWIS: Why does it exist? Rules only work if someone checks that they are followed, and a firm whose managers only react after the damage is done invites the next scandal. And the duty reaches everyone you supervise, whether or not they are CFA Institute members or candidates.
+
+HEART: Reasonable efforts have two halves. Prevention, meaning systems that stop violations before they happen. And detection, meaning monitoring that would actually catch them when they do. The compliance system behind both has to be adequate, which means it meets industry standards, regulatory requirements and the Code and Standards.
+
+LEWIS: Here is a point that surprises people. If you supervise with a reasonable system that is actually enforced, and someone still breaks the rules, you have not automatically violated Standard four C. Determined people can get around good controls. The test is whether your efforts were reasonable, not whether the outcome was perfect, although violations that keep happening can be a sign the system is not adequate after all. You may also hand supervisory tasks to others, but you must still make sure they know how to prevent and detect violations, so delegating does not end your own responsibility.
+
+HEART: Now, what to do when a violation turns up. Respond promptly. Investigate thoroughly. And while the investigation runs, step up supervision of the person involved or limit what they are allowed to do, so the problem cannot continue. What never satisfies the Standard is taking the person's word that it will not happen again.
+
+LEWIS: A case. Clive heads a team of client advisers. Firm policy says advisers may send clients text messages only through an approved system that keeps a copy. Clive learns that one adviser, Wade, has been texting clients trade ideas from his personal phone. Wade apologizes and promises to stop. Clive takes him at his word and moves on. Violation?
+
+HEART: Yes, of Standard four C. A promise is not an investigation. Clive should have looked promptly into what Wade sent and to whom, limited or closely watched his client contact in the meantime, and checked how the firm's controls missed it. Those texts are also records the firm is supposed to keep, which links ahead to Standard five C.
+
+LEWIS: Now the other classic situation. What if you are asked to supervise inside a firm whose compliance system is inadequate, or missing altogether? Two steps. First, bring the problem to senior management and recommend corrective action. That part is not optional. Second, if the gaps mean you cannot supervise properly, decline the supervisory responsibility until the firm adopts adequate procedures, and put that refusal in writing so there is a clear record of what you turned down and why.
+
+HEART: A case. Hazel is asked to take charge of the advisers at a small branch her firm has just bought. She finds no written rules on personal trading, no review of what advisers send to clients, and no compliance officer covering the branch. She writes to senior management listing the gaps and the fixes she recommends, and she declines in writing to take on supervision of the branch until those procedures are adopted. Violation?
+
+LEWIS: No. That is exactly the path. The tempting wrong answer is to accept the role and do your best inside a broken system.
+
+HEART: The recommended procedures for Standard four C come in two sets. For members, recommend that your employer adopt a code of ethics, and encourage it to share that code with clients. Once a program is running, the supervisor's job is to keep it alive: make sure the right people have it, refresh it as rules change, train and remind staff, build an ethics review into performance reviews, and watch what people actually do so that violations surface.
+
+LEWIS: For firms, keep the code of ethics and the compliance procedures as separate documents. The code states broad principles. The procedures are the detailed rules that put them into practice. Mixing the two tends to dilute the ethical message, because the principles get lost among operational detail.
+
+HEART: What do adequate procedures look like? Plain language that anyone at the firm can follow. A named compliance officer who knows exactly what powers the job carries. Checks and balances, so no one person polices themselves. A clear statement of what the rules cover and what behavior is allowed. A known route for reporting violations, and known penalties. And pay that never rewards bad conduct.
+
+LEWIS: The traps for Standard four C. Trap one says a violation by someone you supervise proves you failed. Not if your system was reasonable and enforced. Trap two says a promise or a warning is enough. It takes a prompt investigation, with tighter supervision or limits in the meantime. Trap three says a supervisor facing an inadequate system should simply do the best they can. Raise it with management, recommend fixes, and decline supervision in writing until adequate procedures exist. Trap four says a code of ethics is enough. A code without detailed procedures, training and monitoring is not a compliance system.
+
+HEART: The takeaway for Standard four C. Supervisors must make reasonable efforts to prevent and detect violations, investigate promptly while tightening supervision, and when the system is inadequate, report it, recommend fixes and decline the role, in writing, until it is fixed.
 
 ## Module 91.7, Guidance for Standard V
 
-Standard five is about the investment work itself. Clients cannot see inside your analysis, so they depend on three things. Was the work done carefully? Were they told the truth about it? Can it be proven later?
+LEWIS: Standard five is about the work itself, and its title is Investment Analysis, Recommendations, and Actions. It has three parts, and a simple way to hear them is think, tell and keep. Standard five A, Diligence and Reasonable Basis, is about thinking carefully. Standard five B, Communication with Clients and Prospective Clients, is about telling clients honestly. And Standard five C, Record Retention, is about keeping the proof.
 
-Those questions map to the three parts. Standard five A, Diligence and Reasonable Basis, is about thinking. Standard five B, Communication with Clients and Prospective Clients, is about telling, and Standard five C, Record Retention, is about keeping.
+HEART: Standard five A, Diligence and Reasonable Basis. In plain words, two duties. First, do the work properly, carefully, thoroughly and with your own independent judgment, whether you are analyzing, recommending or acting. Second, every analysis, recommendation and action needs a reasonable and adequate basis, which means real research and investigation behind it.
 
-Start with five A. It has two requirements. First, when you analyze an investment, recommend one or act on one, the work must be careful, thorough and independent. Second, every analysis, recommendation or action must rest on a reasonable and adequate basis, meaning appropriate research and investigation stand behind it.
+LEWIS: Why does it exist? A client cannot see inside your work. They see a recommendation and a confident tone. This Standard is the promise that real thinking sits behind both.
 
-Diligence means careful, consistent, thorough work. A reasonable basis means a rational, well considered process that fits the situation. The bar is reasonable, not perfect, and the depth of research depends on the investment and on your role. The factors you might weigh include economic conditions, the company's financial history, its industry, a fund's fees and track record, the limits of any model you use, the quality of the assets behind a securitized product, and whether a peer comparison is appropriate.
+HEART: How much diligence is enough? It depends. It depends on your firm's investment philosophy, on your role in the decision, and on the resources and support your employer gives you. An analyst building the case from scratch carries a different load from a portfolio manager who leans on the firm's research team. And it depends on the product. Researching a large utility's bonds is a different job from evaluating a private credit fund.
 
-You may rely on research from others, such as a broker, an outside provider or a colleague. But you must make reasonable and diligent efforts to confirm it is sound. Check its assumptions, how rigorous the analysis is, how current it is, and whether the source is objective and independent. Material from blogs or social media deserves extra scrutiny. If you have reason to suspect the research is biased or unreliable, you cannot rely on it.
+LEWIS: Before you recommend or act, work from the outside in. The economy, at home and around the world. The business itself, meaning its results, its track record and where it stands in the business cycle. If it is a mutual fund, what it charges and how it has done. Where any model you lean on can break. And whether the peer group you are valuing it against is a fair comparison at all. A cruise line valued against hotel chains may look cheap or expensive for reasons that have nothing to do with its own prospects.
 
-Here is a vignette. An analyst receives a third party report recommending a mining stock. The recommendation rests on a reserve estimate more than two years old, and the report was paid for by the mining company. The analyst passes the recommendation to clients without checking either point. That is a violation of five A, because he did not test the research's assumptions, timeliness or independence before relying on it.
+HEART: Now relying on someone else's research, which is common and allowed. You may use research from a broker, an outside provider or a colleague, but you have to make reasonable and diligent efforts to confirm it is sound. Four questions do most of the work. Are its assumptions reasonable? How rigorous was the analysis? Is it current? And is the source objective and independent, or does it have a reason to be cheerful? If you have reason to suspect the research is not sound, you cannot rely on it.
 
-Models get the same treatment. Before you use a quantitative model, you must understand its inputs, assumptions and limits, and you must test its output. If you build the model, the bar for diligence is higher than if you only use it. The testing should include scenarios with bad outcomes and conditions outside the historical data, because history may not contain the next crisis.
+LEWIS: A case. Garrett runs a small advisory firm. He subscribes to a newsletter he found through a social media post. Its author promises huge winners in tiny companies, will not explain his methods, and will not say who pays him. Garrett buys the newsletter's top pick for every client account, with no research of his own. Violation?
 
-A vignette. A manager builds a high yield bond strategy and tests it only over a period when defaults kept falling. She launches it without running a recession scenario. That is a violation of five A, because she never tested the model beyond a favorable sample. In bank and credit union balance sheet work, the same discipline shows up when an interest rate risk model is run under rate shocks larger than anything in the recent data.
+HEART: Yes, of Standard five A. He had no way to judge the newsletter's assumptions, rigor or independence, and secrecy about who pays the author is a reason for suspicion in itself. Material found online and on social media deserves more scrutiny, not less.
 
-When you hire external advisers or subadvisers, review them as carefully as you would any investment, using consistent and objective criteria. Look at their code of ethics, their compliance procedures and internal controls, the quality of their published performance figures, and whether they actually follow the strategy they claim.
+HEART: Next, quantitative models. Many recommendations now come out of a model, and a model is only as good as its inputs and assumptions. Before you rely on one, understand what goes in, what it assumes and where it breaks. Test it across a range of scenarios, including bad ones and conditions the historical data never showed. Someone who builds a model carries a heavier burden than someone who only uses it, but users still have to understand its assumptions and limits.
 
-Group research is a classic trap. Suppose your firm's investment committee rates a stock a buy, and you think it should be a hold. If the committee's process gave the conclusion a reasonable and adequate basis, you do not have to dissociate from it, and your name can stay on the report. You may record your dissent. The tempting wrong answer is that you must remove your name or refuse to take part. Dissociation becomes the issue only if you believe the process itself lacked a reasonable and adequate basis.
+LEWIS: A case. Saul, a credit analyst at a private credit fund, adopts a vendor's model that scores small business loans. The model was built on data from a long economic expansion, and Saul never asks how it behaves in a recession. When a member of the investment committee asks what drives the scores, he cannot say. Violation?
 
-For firms, the recommended procedures include a policy that every recommendation must have a basis that can be substantiated. They also include written guidance on proper research and due diligence, measurable criteria for judging research quality, and minimum scenario testing for computer models. Finally, firms should use consistent criteria for choosing and reviewing outside research providers and advisers, including how often each one is reviewed.
+HEART: Yes. He relied on a model without understanding its inputs and assumptions, and without testing it against the kind of downturn that matters most for credit. The same discipline applies when a bank or credit union runs its balance sheet through interest rate shocks larger than anything in recent history. The scenario the past never showed is often the one that hurts.
 
-Now Standard five B, Communication with Clients and Prospective Clients. Since 2024 it has five requirements. First, tell clients and prospects what services you provide and what those services will cost them. Second, explain in broad terms how you analyze investments, choose securities and build portfolios, and tell them promptly about any change that could materially affect that process. Third, tell them about the significant risks and limitations of that process. Fourth, use judgment to decide which factors really matter to your analysis or recommendation and include them when you communicate, and fifth, keep facts and opinions clearly apart.
+LEWIS: The same care applies when you hire outside managers, called external advisers or subadvisers, to run part of a portfolio. Review them as you would any investment, with consistent and objective criteria. Look at their code of ethics, their compliance procedures and internal controls, the quality of the returns they report, and whether they actually follow the strategy they claim. Then review them again on a regular schedule, not just once.
 
-Start with the newest piece, costs. You must disclose the costs the client will pay for your services, including amounts that go to affiliates and third parties, not just your own fee. Exact dollar amounts are not required, but reasonable detail is. Disclose at the start of the relationship, and update the client when the services or costs change. You also cannot skip this because a client is sophisticated.
+HEART: Now group research, a favorite trap. Many firms reach recommendations through a committee. If the committee's process gave a recommendation a reasonable and adequate basis, a member who disagrees does not have to step away from it. Reasonable people differ on the same evidence. She may ask to have her name taken off, but she is not required to. Stepping away becomes the question only if you believe the process itself lacked a reasonable and adequate basis.
 
-Here is the kind of clarity that works. Suppose the fee is 0.25 percent of assets each quarter. On a 400,000 dollar account, that is 1,000 dollars a quarter, or 4,000 dollars a year, which is 1 percent annually. Telling the client how the fee is calculated and how often it is charged gives reasonable detail without a bill to the penny.
+LEWIS: A case. Priya sits on a five person research committee that spent weeks on a hotel chain, with property visits, a debt review and a full valuation, and voted to rate it a buy. Priya thought the valuation ignored a coming wave of new hotel supply and voted hold. She asks that her dissent be noted in the committee's file, and her name stays on the published report. Violation?
 
-A vignette. An adviser onboarding a retired finance executive skips the fee discussion, saying someone with that background surely understands how the fees work. That is a violation of five B, because a client's sophistication does not excuse the cost disclosure.
+HEART: No. The process had a reasonable and adequate basis, and she made her view known in writing. She did not have to take her name off the report. Disagreeing with a sound group decision is not the same as lending your name to an unsupported one.
 
-Next, process changes. Clients chose you partly for how you invest, so a material change must be disclosed promptly. Examples include moving from in house stock selection to an outside subadviser, raising the size limit on stocks a small cap fund can buy, replacing a valuation model with a very different one, shifting decisions from one analyst to a committee, or expanding into new countries.
+HEART: The recommended procedures for Standard five A. Members should push their firms to grade outside research on a regular cycle, using those same four questions. Firms, in turn, should insist that every report can show its basis is reasonable and adequate, put their research and due diligence process in writing, and grade research quality with measurable yardsticks that feed into analysts' pay.
 
-A vignette. A small cap manager quietly hands stock selection to an outside subadviser. Performance stays fine, so she sees no reason to mention it. That is a violation of five B, because a change in who makes the decisions could materially affect the process clients signed up for. Good results do not cure a missing disclosure.
+LEWIS: They should also write down a minimum level of stress testing for computer models, covering how wide the scenarios go, how well the model has tracked reality over time, and how much its cash flows move when an assumption or input changes. Data vendors get checked for reasonableness and accuracy on a set cycle. And external advisers are judged against set criteria, again on a set schedule.
 
-On risks and limitations, disclose the significant ones you know about when you communicate. These can include leverage, counterparty risk, credit risk, country and sector risk, and limits such as illiquidity or capacity, meaning the size beyond which new money would hurt returns. You cannot be expected to disclose a risk you did not know about at the time, although missing a significant risk can point to a diligence failure under five A. But when the risk profile of a strategy changes significantly, you update clients.
+HEART: The traps for Standard five A. Trap one says you may never rely on someone else's research. You may, after reasonable checks, unless you have reason to doubt it. Trap two says a reasonable basis means being right. A well researched call that loses money is not a violation, and a lucky guess that wins is not diligence. Trap three says a dissenter must take her name off a group report. Not when the group's process was sound. Trap four says a model's output speaks for itself. You have to understand its assumptions and test it.
 
-On important factors, you use judgment about what to include. A report can focus on the key issues and skip minor ones, as long as it is clear about its scope. A short format, such as a one page list of buy rated stocks, is acceptable if clients are told that the full analysis is available. If your conclusion changes in a significant way, you follow up.
+LEWIS: The takeaway for Standard five A. Be diligent, independent and thorough, have a reasonable and adequate basis for every call, check other people's research and models before you lean on them, and know that you can dissent from a sound group decision without stepping away from it.
 
-The fact versus opinion rule is heavily tested. Earnings forecasts, dividend projections, price targets, and model outputs such as a value at risk estimate are opinions or estimates, not facts, so present them that way. If a note says the company will earn 3 dollars a share next year, that is a violation of five B. If it says the analyst estimates earnings of 3 dollars a share, it is not.
+HEART: Standard five B, Communication with Clients and Prospective Clients. In plain words, five duties. One, tell clients and prospects what services you provide and what those services will cost them. Two, describe the basic shape of your investment process, and tell them promptly about any change that could materially affect it. Three, point out the significant limitations and risks of that process. Four, exercise reasonable judgment about which factors really drive your analysis or recommendation, and make sure clients hear about them. Five, keep fact and opinion clearly apart.
 
-Finally, the manner of disclosure is your choice, as long as it is appropriate, accurate, timely and complete. Putting disclosures in writing is best practice. If your firm's standard disclosures fall short, you are still responsible, so you alert the firm and supplement them where you can. This Standard mainly affects people who deal directly with clients.
+LEWIS: Why does it exist? Clients choose an adviser partly for how the adviser invests and what it costs. If the process changes quietly, or the costs are buried, the client is no longer getting what they signed up for, and they cannot tell.
 
-Now Standard five C, Record Retention. The requirement is to build and keep proper records behind two things, your investment decisions and what you tell clients and prospects about investments. That covers the support for every analysis, recommendation and action. The logic is simple. A reasonable basis means little if no one can see it later. Records let you, your firm, clients and regulators reconstruct why a decision was made.
+HEART: The Standard covers every way you communicate with clients, not only research reports and other written material. A phone call, a meeting, a video update and a text message all count.
 
-Records can take any form. Research notes, models, spreadsheets, emails, text messages and social media posts all count when they support your investment work or your client communications. In capital planning, the same habit means keeping the assumptions behind a funding or capital forecast so that someone else can rebuild the numbers later.
+LEWIS: Start with services and costs, the part added in twenty twenty four. If you deal with clients directly, tell them what you will do for them and what it will cost them, both when the relationship begins and again whenever the service or the price changes.
 
-Three points are tested. First, the records belong to the firm, not to you. Second, when you leave, you may not take originals or copies without the firm's permission. Third, if you want to make the same recommendation at a new firm, you must recreate the supporting research there, from public information or new work, not from your old firm's files. Your knowledge and experience go with you, but the documents stay behind.
+HEART: You do not have to quote exact dollar figures. A fee set as a share of assets cannot be known in advance anyway. What you owe is a reasonably detailed picture of every cost the client will bear, including charges from outside parties whose services the client ends up paying for.
 
-How long should records be kept? Follow the law and your firm's policy. When neither sets a period, the recommended minimum is 7 years. Firms usually run the record system, but you should still keep your own research notes and support so the firm can comply.
+LEWIS: A case. Joanna signs up a new client at a wealth firm. She explains her advisory fee clearly. She does not mention that the client will also pay the running expenses of the funds she uses, or a quarterly fee charged by the outside platform that holds the assets. Violation?
 
-A vignette. An analyst who covered a retailer for five years joins a competitor. She wants to restart coverage with the same buy rating, so before leaving she emails her old models to her personal address. That is a violation of five C. It also breaches loyalty under four A, because the models belong to her former employer. The compliant path is to rebuild the analysis at the new firm from public filings and fresh research, and to document it there.
+HEART: Yes, of Standard five B. The disclosure covers the client's cost for the services, including third party costs, not just the adviser's own fee. She did not need exact figures, but she did need reasonable detail about every layer.
 
-So Standard five comes down to three verbs. Think carefully, with a reasonable and adequate basis. Tell clients about your services and costs, your process and its changes, the significant risks, the key factors, and what is fact versus opinion. And keep the records, which belong to the firm, for at least 7 years when no other rule applies.
+LEWIS: Next, the investment process. Clients do not need every formula, but they need the basic shape: what you look for, how you choose, and how you build the portfolio. When something changes that could materially affect that process, tell them promptly. Material changes include handing stock selection to an outside subadviser, starting to use leverage or derivatives, or a change in who makes the decisions.
+
+HEART: A case. Daphne runs a global bond fund that has always hedged its foreign currency exposure back to dollars, and clients bought it for that steadiness. She decides to stop hedging and start taking active currency positions to add return. She tells investors in the annual report, eight months later. Violation?
+
+LEWIS: Yes. Dropping the hedge changes the fund's risk in a way that could materially affect what clients own, so it needed prompt disclosure. Mentioning it eight months later in an annual report is not prompt. And good results in the meantime would not cure it.
+
+HEART: Then risks and limitations. Point out the significant risks and limitations of your process. With structured products, allocation strategies and other nontraditional investments, spell out the risks peculiar to that kind of product. And always frame outcomes in total return terms, gains and losses together, so the client sees the whole result. A note paying a generous coupon can still lose money overall if its principal falls.
+
+LEWIS: Two limitations get named specifically. Liquidity is whether you can get your money out quickly without taking a real hit on price or fees. Capacity is how big a fund or strategy can grow before new money starts to hurt its returns. Think of a strategy that buys tiny companies. It may work beautifully with modest assets and stall once it grows, because it can no longer buy enough of each idea without pushing up the price.
+
+HEART: Two more duties sit here. If an investment or a strategy becomes meaningfully riskier, or risky in a new way, clients hear about it. And changes to the process, including risks and limits you have only just spotted, go into regular updates.
+
+LEWIS: Models come up again. If you give a client a projection from a quantitative model, explain the model's assumptions and limits. Without that context, the client cannot judge how uncertain the projection really is, and leaving it out can be a violation in itself.
+
+HEART: Next, the important factors. Deciding which factors belong in a report is a judgment call. You are not expected to include everything, but you must include what matters to the conclusion, and a research report should always describe the basic characteristics of the security being analyzed. A short format, such as a one page list of rated stocks, can be fine if clients know fuller analysis is available. Because the choice is a judgment call, keep notes on what research you did, so you can give a client more on request.
+
+LEWIS: Finally, fact versus opinion, which is heavily tested. Earnings forecasts, price targets and anything produced by statistical modeling are expectations, not facts. Label them as views.
+
+HEART: A case. Otto, a biotech analyst, writes in a client note that a company's new drug will be approved next spring and that the shares will double. Violation?
+
+LEWIS: Yes, of Standard five B. Approval and the price move are his opinions, written as facts. Had he written that he expects approval next spring and sets a price target of twice the current price, the same view would be properly labeled as opinion.
+
+HEART: The traps for Standard five B. Trap one says cost disclosure means the adviser's own fee. It means the client's costs for the service, including third party costs, in reasonable detail rather than exact dollars. Trap two says process changes can wait for the next annual review. Material changes are disclosed promptly. Trap three says only written reports are covered. Every means of communication is. Trap four says a model's output is a fact. It is an expectation, and its assumptions and limits need explaining.
+
+LEWIS: The takeaway for Standard five B. Tell clients what they get and what it costs, how you invest and when that changes, what the risks and limits are, which factors matter, and which parts are fact and which are opinion.
+
+HEART: Standard five C, Record Retention. In plain words, leave a trail. Every analysis, recommendation and action, and every other investment conversation with clients and prospects, should be backed by records you create and keep.
+
+LEWIS: Why does it exist? A reasonable basis means little if nobody can see it later. Records let you, your firm, your clients and regulators rebuild why a decision was made. Think of them as the receipts for your reasoning.
+
+HEART: Three points carry most questions. First, the research records behind your conclusions and actions are the property of the firm, not of you. Second, the format does not matter. Anything you send a client, whether a letter, an email or a text message, has to be kept.
+
+LEWIS: Third, when you change firms, the old support stays behind, and memory is no substitute for it. Rebuild the support at the new firm from public sources or from the company itself. Your expertise goes with you. The documentation behind a specific recommendation does not.
+
+HEART: A case. Cedric covered a group of railroad stocks for five years at one firm and moves to a rival. In his first week, he types his old earnings model back in from memory, adds no new research, and reissues his buy rating under the new firm's name. Violation?
+
+LEWIS: Yes, of Standard five C. His recommendation needs support created at the new firm, from public filings, information from the companies and fresh analysis, not a rebuild of the old firm's work from memory.
+
+HEART: How long should records be kept? Follow the law and your firm's policy. When neither sets a period, the recommended minimum is seven years.
+
+LEWIS: And who keeps them? Keeping the records is generally the firm's job. But you still have to create the support for your own work and hand it over, so the firm has something to keep. In capital planning work, the same habit means keeping the assumptions behind a funding or capital forecast so that someone else can rebuild it later.
+
+HEART: The traps for Standard five C. Trap one says your research belongs to you because you built it. It belongs to the firm. Trap two says only formal reports count. Emails, texts and every other client communication count. Trap three says you may rebuild your old analysis from memory at the new firm. You must recreate it from public or company information. And trap four guesses a number of years. When no law or firm rule applies, the answer is seven.
+
+LEWIS: The takeaway for Standard five C. Keep the support for every analysis, recommendation, action and client communication, in any medium. It belongs to the firm, it stays when you leave, and when no other rule applies you keep it at least seven years.
 
 ## Recall check
 
-Q: An analyst plans to open a competing advisory firm. Before resigning, she registers the company and signs an office lease, but she contacts no clients and takes no files. Has she violated Standard four A, Loyalty?
+LEWIS Q: An analyst who plans to start a rival firm spends her evenings meeting investors to fund it and interviewing people from outside the firm to hire later. She contacts no clients and takes nothing. Has she violated Standard four A?
 
-Answer: No. Preparing to compete is allowed while still employed, as long as she does not solicit clients, take firm records, or misuse confidential information. Her duty of loyalty continues until her employment ends, and nothing she did breaches it.
+HEART: Answer. No. Here is why. Preparing to compete is allowed while you are still employed, as long as the preparations do not breach the duty of loyalty. Soliciting clients, taking records or misusing confidential information before leaving would be violations, and she did none of those.
 
-Q: A client offers her portfolio manager a vacation if the account beats its benchmark this year. Which action is most appropriate?
+HEART Q: The week before she leaves, a portfolio manager copies the client presentations she designed herself onto her personal laptop, reasoning that her own work belongs to her. Violation?
 
-Answer: Report the offer to the employer in writing, including its nature, value and duration, and accept only after getting written consent. The reward depends on future performance, so it is additional compensation under Standard four B, and it could conflict with the employer's interest. A verbal okay from the boss is not enough.
+LEWIS: Answer. Yes, of Standard four A, Loyalty. Here is why. Work you produce on the job belongs to the firm in any format, even when you created it yourself, so taking it without permission is the breach, whether or not it is ever opened again. After she leaves, she may still contact former clients she finds through public sources, unless she signed a noncompete.
 
-Q: A supervisor learns that an employee may have misused client information. The employee apologizes and promises it will not happen again. Has the supervisor met the duty under Standard four C?
+LEWIS Q: An employee finds that her firm is overcharging clients, and after internal complaints go nowhere, she gives copies of the billing files to the regulator. Is that a breach of loyalty?
 
-Answer: No. The supervisor must promptly start an investigation and, while it runs, increase monitoring or limit the employee's activities. Relying on the employee's promise does not meet the reasonable efforts requirement.
+HEART: Answer. No. Here is why. Loyalty to the employer ranks below protecting clients and the integrity of the market. Breaking confidentiality is justified in isolated cases when the purpose is to stop wrongdoing that harms clients or markets. It would not be justified if she were using the information for personal gain.
 
-Q: An analyst disagrees with her research committee's buy rating, but she believes the committee's process was sound and well researched. Which response is most consistent with Standard five A?
+HEART Q: A research analyst wants to manage a few private accounts for a fee on weekends, offering the same service his firm sells. What must he do first?
 
-Answer: She may leave her name on the report and record her disagreement. A group conclusion with a reasonable and adequate basis does not require a dissenting member to dissociate. Asking to remove her name is allowed, but it is not required.
+LEWIS: Answer. Give his employer a notice fully describing the services, the pay, the duration and the nature of the work, and wait for consent to all the terms before starting. Here is why. Paid outside work that competes with the employer is independent practice under Standard four A. It is allowed only when the employer knows exactly what is involved and agrees before it begins.
 
-Q: An adviser's client agreement lists her own advisory fee but leaves out a platform fee that her firm's affiliate charges the same clients. Is that a violation, and of which Standard?
+LEWIS Q: A client says she will pay for her adviser's evening finance course if her account beats its benchmark next year. What must the adviser do, and under which Standard?
 
-Answer: Yes, it violates Standard five B, Communication with Clients and Prospective Clients. The cost disclosure covers the costs the client bears for the services, including amounts paid to affiliates and third parties. Exact dollar amounts are not required, but the cost must be disclosed in reasonable detail.
+HEART: Answer. Get written consent from all parties involved, including the employer, before accepting, under Standard four B, Additional Compensation Arrangements. Here is why. The perk depends on future performance, so it could change how the adviser treats that account compared with others. A thank you gift for a year already finished would instead be a gift under Standard one B, handled by disclosure to the employer.
 
-Q: An analyst who is leaving her firm wants to take copies of models she built herself. Is that allowed, and when no law or firm policy sets a retention period, how long should records be kept?
+HEART Q: A supervisor learns that a trader made personal trades without the approval firm policy requires. The trader apologizes and promises it will not happen again. Is the supervisor's duty met?
 
-Answer: She may not take them without her firm's permission, because records created on the job belong to the employer. At the new firm she must recreate the support from public information or new work. When no other rule sets a period, the recommended minimum is 7 years.
+LEWIS: Answer. No. Here is why. Standard four C requires a prompt and thorough investigation, with tighter supervision or limits on the trader's activities while it runs. A promise neither tells the supervisor what happened nor stops it from continuing. Reasonable efforts mean finding out and controlling the risk.
 
-## Recap
+LEWIS Q: Someone offered a supervisory role finds the firm's compliance procedures inadequate. What does Standard four C call for?
 
-Standard four A, Loyalty, means acting for your employer's benefit until your employment ends, but never ahead of clients, markets or the law. Before leaving, you may prepare to compete, but you may not solicit clients, take records or use confidential information. Competing outside work for pay needs notice and the employer's consent before you start. Standard four B, Additional Compensation Arrangements, requires written consent from all parties before you accept any benefit that could conflict with your employer's interest.
+HEART: Answer. Bring the gaps to senior management, recommend corrective action, and decline the supervisory responsibility until adequate procedures are adopted, putting that refusal in writing. Here is why. A supervisor cannot make reasonable efforts to prevent and detect violations without an adequate system. Accepting the role anyway and hoping for the best is the tempting wrong answer.
 
-Standard four C, Responsibilities of Supervisors, requires reasonable efforts to prevent and detect violations, and a prompt investigation rather than trust in a promise. Standard five A, Diligence and Reasonable Basis, requires a reasonable and adequate basis and real checks on outside research and models, and it lets you stay on a sound group report you disagree with. Standard five B, Communication with Clients and Prospective Clients, requires disclosure of services and costs, the process and its changes, significant risks and key factors, with a clear line between fact and opinion. Standard five C, Record Retention, requires supporting records that belong to the firm and are kept at least 7 years when no other rule applies.
+HEART Q: Before relying on a broker's research, what four qualities should an analyst check?
+
+LEWIS: Answer. Its assumptions, the rigor of the analysis, how timely it is, and the objectivity and independence of the source. Here is why. Standard five A lets you use other people's research only after reasonable and diligent efforts to confirm it is sound. Those four checks show whether it can bear the weight of your recommendation. Any reason to doubt its soundness means you cannot rely on it.
+
+LEWIS Q: An analyst disagrees with her committee's buy rating, but the committee's process was thorough and well supported. Must she remove her name from the report?
+
+HEART: Answer. No, she may keep her name on it and note her dissent. Here is why. A group conclusion with a reasonable and adequate basis satisfies Standard five A even when one member sees it differently. Stepping away is called for only if she believes the process itself lacked a reasonable and adequate basis.
+
+HEART Q: An adviser discloses her own advisory fee but not the platform fee and fund expenses the client will also pay. Violation?
+
+LEWIS: Answer. Yes, of Standard five B, Communication with Clients and Prospective Clients. Here is why. The cost disclosure covers what the client pays for the services, including costs from third parties, not just the adviser's own fee. Exact dollar amounts are not required, but reasonably detailed information about each cost is, at the start and whenever costs change.
+
+LEWIS Q: A research note says a company will double its profit next year. What is the problem, and how is it fixed?
+
+HEART: Answer. It states an opinion as a fact, which violates Standard five B, and it is fixed by labeling the forecast as the analyst's expectation. Here is why. Earnings forecasts and model outputs are expectations, not facts. Clients need to know which statements are verified facts and which are judgments that may prove wrong.
+
+HEART Q: An analyst joins a new firm and wants to keep recommending a stock she covered before. How must she support the recommendation, and when no law or firm rule applies, how long should records be kept?
+
+LEWIS: Answer. She must recreate the support at the new firm from public information or information from the company, and records should be kept for at least seven years. Here is why. Research records belong to the old firm, so her files stay behind, and memory is no substitute for documented support. Seven years is the recommended minimum when no regulation or firm policy sets a period.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: For Standard four A: loyal until the last day. Prepare, do not poach. Soliciting clients, taking records, misusing secrets and self dealing are poaching. After you leave, the names in your head are fine, and the firm's files are not.
+
+HEART: For independent practice: describe it, then wait for a yes. Services, pay, duration and nature, and the employer consents to every term before you start. For whistleblowing: protect the clients, not your pocket.
+
+LEWIS: For Standard four B: a reward for the past is a gift, a reward for the future needs paper. The gift is disclosed under Standard one B. The future reward needs written consent from everyone involved, and email counts.
+
+HEART: For Standard four C: prevent, detect, investigate. A promise is not an investigation. And no system, no supervision. Raise the gaps, recommend fixes, and decline in writing until they are fixed.
+
+LEWIS: For Standard five: think, tell, keep.
+
+HEART: For Standard five A, check outside research with four questions: sound assumptions, real rigor, still current, truly independent. Understand a model before you trust it, and test it in the storm, not just the sunshine. A sound committee can outvote you without pushing you out. You may note your dissent and keep your name on.
+
+LEWIS: For Standard five B, five things to tell: services and costs, the process and its changes, risks and limits, the key factors, and fact versus opinion. Costs means every layer the client pays, in reasonable detail. Material process changes go out promptly. Forecasts are opinions. Liquidity is getting out quickly and cheaply. Capacity is room for more money without hurting returns.
+
+HEART: For Standard five C: receipts for your reasoning. The firm owns them, emails and texts included, they stay when you leave, and seven years is the floor when no other rule applies.
+
+LEWIS: Now, how you would say the big ideas to a senior leader.
+
+HEART: On departures: people can plan their exit, but until they leave they work for us, and our client lists and files stay here. The jargon is the duty of loyalty, solicitation and misappropriation of client lists.
+
+LEWIS: On outside pay: if anyone else pays our people in a way that could conflict with their work for us, especially for future results, we approve it in writing first. The jargon is additional compensation arrangements and written consent.
+
+HEART: On managing people: supervisors need real systems to stop and catch problems, and when something goes wrong they investigate rather than accept a promise. The jargon is responsibilities of supervisors, reasonable efforts and an adequate compliance system.
+
+LEWIS: On research quality: every recommendation needs homework we can show, including checks on outside research and stress tests of our models. The jargon is diligence and reasonable basis, third party research and scenario testing.
+
+HEART: On talking to clients: they hear what they pay, how we invest, what can go wrong and when any of that changes, and opinions are labeled as opinions. The jargon is communication with clients, cost disclosure and distinguishing fact from opinion.
+
+LEWIS: And on documentation: if the reasoning is not in the file, we cannot defend it, and the file belongs to the firm. The jargon is record retention.
