@@ -1,179 +1,277 @@
-## The big picture
-
-This episode opens the derivatives topic, and it is about vocabulary and mechanics. Before you can price a derivative, which starts in the next episode, you need to know what each contract promises, who pays whom, when, and why anyone would sign it.
-
-The first module defines a derivative, lists the terms every contract must specify, and contrasts exchanges with the over the counter market. The next two modules walk through the instruments, first forwards and futures, then swaps, options and credit default swaps. The last module covers why derivatives exist, what can go wrong, and how issuers and investors use them.
-
-Expect three kinds of exam questions. First, features, such as which contract settles gains and losses every day. Second, calculations, mostly option payoffs and profits and futures margin. Third, uses, such as which hedge accounting label applies or which risk a hedger faces.
-
-One idea ties the episode together. A forward commitment obligates both sides and has a symmetric payoff. A contingent claim gives one side a right and has an asymmetric payoff.
+LEWIS: Reading 66 covers what a derivative is, the basic vocabulary of a contract, and how exchange traded and over the counter markets differ. Reading 67 covers forwards, futures, swaps, credit default swaps and options, including what each option position gains or loses, and Reading 68 covers the benefits and risks of derivatives and how issuers and investors put them to work.
 
 ## Module 66.1, Derivatives Markets
 
-Start with the definition. A derivative is a financial contract whose value derives from something else, called the underlying. The contract creates no new real asset. It is simply an agreement about how cash or goods change hands, depending on what the underlying does.
+HEART: Picture a small brewery in the spring. It will need a big load of barley in October and has no idea what barley will cost by then. So it shakes on a deal with a farmer. In October the farmer will deliver the barley, and the brewery will pay a price they agree on today. Nobody pays anything now.
 
-Why do derivatives exist? Some people carry risks they would rather not hold, and others will take those risks for a price. A wheat farmer fears falling prices before harvest, and a baker fears rising prices. Hedgers use derivatives to reduce an exposure they already have. Speculators take on new exposure in pursuit of profit, often taking the other side of a hedger's trade and adding liquidity.
+LEWIS: That handshake is a derivative, the simplest kind, called a forward contract. A derivative is a contract whose value comes from something else, and that something else is called the underlying. Here the underlying is barley. It can be an asset, like a stock, a bond or a barrel of oil, or a variable, like an interest rate or the level of a stock index. What the contract is worth depends on where the underlying stands on a specific future date.
 
-Ignoring transaction costs, a derivative is zero sum. Whatever one party gains, the other loses, so the contract moves risk rather than creating it.
+HEART: Every derivative spells out a few basic features. The underlying, defined precisely. The price in the contract, which for a forward is called the forward price. The contract size, meaning how much of the underlying is covered. And the settlement date, also called the maturity date, when the deal is completed.
 
-Every contract spells out its key terms. First, the underlying, stated precisely, such as a specific stock index or grade of oil. Second, the size, called the contract size or notional amount, which says how much of the underlying the contract covers. Third, the price, such as the forward price or an option's exercise price. Fourth, the expiration date. Fifth, the settlement method.
+LEWIS: When the underlying cannot be counted in bushels or shares, like an interest rate, the size is stated as a notional amount. It is a reference figure that the payments are calculated on, the way a tip is calculated on the bill.
 
-Settlement comes in two forms. With physical delivery, the seller hands over the underlying and the buyer pays the agreed price. With cash settlement, no goods move, and the losing party pays the winning party the net difference. Some underlyings, such as a stock index or an interest rate, cannot practically be delivered, so those contracts settle in cash.
+HEART: The forward price is set so that, on the day the deal is signed, the contract is worth zero to both sides. Neither side gets a bargain at the start, which is exactly why nobody pays anything up front.
 
-Underlyings fall into six broad classes. Equities, meaning stocks and stock indexes. Fixed income and interest rates, meaning bonds and reference rates such as the Secured Overnight Financing Rate, or SOFR. Currencies, meaning exchange rates. Commodities, which split into hard commodities that are mined or extracted, such as oil and gold, and soft commodities that are grown or raised, such as wheat, coffee and cattle. Then credit, meaning the risk that a borrower defaults, and a catch all group of other underlyings, such as weather.
+LEWIS: Then barley moves. If it ends up above the agreed price, the brewery comes out ahead, because it buys for less than the market price, and the farmer loses the same amount. If barley ends up below the agreed price, the farmer wins and the brewery loses.
 
-Derivatives trade in two venues, and the contrast is heavily tested. Exchange traded derivatives are standardized contracts listed on an organized exchange. The exchange, not the traders, sets all the terms. Because every contract is identical, many traders hold the same instrument, which builds liquidity, and you can exit by making the opposite trade.
+HEART: So the buyer has long exposure to the underlying, meaning it gains when the underlying rises, just as if it owned it. The seller has short exposure, meaning it gains when the underlying falls. At settlement, one side's gain is exactly the other side's loss. Ignoring costs, it is zero sum.
 
-The key institution is the clearinghouse. Once a trade is matched, the clearinghouse becomes the buyer to every seller and the seller to every buyer. You face the clearinghouse, not the stranger on the other side, and it protects itself by requiring margin from both sides and settling gains and losses every day. That nearly removes counterparty credit risk, the risk that the party on the other side fails to pay. Exchange trading also brings transparency, because prices and volumes are reported publicly, and close regulatory oversight.
+LEWIS: Completing the deal is called settlement, and there are two ways to do it. In a deliverable contract, the barley and the money actually change hands. In a cash settled contract, only the difference is paid, so if barley finishes above the agreed price, the farmer simply pays the brewery the gap. Ignoring transaction costs, the two methods leave each side in the same economic position. Cash settlement is the natural choice when the underlying is awkward to hand over, like a stock index made of hundreds of companies.
 
-Over the counter derivatives, or OTC derivatives, are private contracts negotiated directly between two parties. Usually one party is a dealer, typically a large bank, that acts as a market maker, taking the other side of customer trades and then managing the risk it picks up. Most OTC contracts use a standard master agreement from the International Swaps and Derivatives Association, or I S D A, which sets out what happens on default and how amounts owed are netted.
+HEART: Now ask what the brewery really did. It handed its barley price risk to the farmer. A derivative is a way to move risk from one party to another. Moving a risk you already have is called hedging, meaning offsetting or reducing it. If the contract matches the existing risk exactly, the risk is fully hedged. If the brewery locks in only half the barley it needs, it is partially hedged.
 
-The great advantage of OTC contracts is customization. Every term can be tailored to match the exposure being hedged. The costs are more counterparty credit risk, less transparency, and less liquidity, because a custom contract is hard to exit except through the original dealer.
+LEWIS: But picture a trader with no brewery and no farm who signs the very same contract, hoping barley rises. Taking on a risk you did not already have is speculating. Same contract, opposite purpose, and the difference lies in what else the party owns.
 
-The OTC market has changed since the 2008 global financial crisis. Regulators in major markets now require many standardized OTC contracts, such as plain interest rate swaps, to be cleared through a central counterparty, or CCP. The two parties still negotiate the trade, but the CCP then steps between them and collects margin, much as an exchange clearinghouse does. Trades must also be reported to trade repositories, so regulators can see who owes what.
+HEART: Why bother with a contract at all, rather than simply buying or selling the barley, which is called a cash market transaction? Derivatives offer three advantages. You can get exposure for very little money up front, which makes the position highly leveraged. Transaction costs can be much lower. And a derivative trade may move the underlying's market price less than trading the real thing.
 
-Here are the traps. First, central clearing reduces counterparty credit risk for the two original parties, but it does not make that risk vanish. It concentrates the risk in the CCP, which must itself be strong. Second, exchange trading removes most counterparty risk but none of the market risk. If prices move against you, you still lose. Third, if a question asks for the main advantage of OTC trading, the answer is customization, not liquidity or transparency.
+LEWIS: Now the range of underlyings. Bonds, where the risk is a bond's future price. Indexes, which can be stock indexes or bond indexes. And currencies. An American software company that will be paid in Japanese yen three months from now can sell the yen forward today, locking in the dollar value of the payment.
 
-So the rule to carry from this module is this. Exchange traded contracts are standardized, cleared, transparent and liquid, while OTC contracts are customized and carry counterparty credit risk unless they are centrally cleared.
+HEART: Interest rates, and this one hides a trap. The buyer of a forward on an interest rate gains when that rate rises. But the buyer of a forward on a bond loses when rates rise, because higher rates mean lower bond prices. Same news, opposite results.
+
+LEWIS: Commodities come in two kinds. Hard commodities are mined or extracted, like copper or natural gas. Soft commodities are grown or raised, like sugar, soybeans or livestock. And here is a rule for any hedger. Lock in now the trade you will have to make later. An airline that must buy jet fuel next year buys fuel forward. A natural gas producer that will sell next winter's output sells gas forward.
+
+HEART: Credit is an underlying too. In a credit default swap, one party makes fixed payments on a schedule, and the other pays only if a particular borrower defaults and its debt loses value. Then come the less obvious ones. Weather, for a ski resort worried about a warm winter. Cryptocurrencies. And longevity, the risk that people survive longer than expected, which matters to life insurers and annuity providers.
+
+LEWIS: Now, where derivatives trade. The first venue is the organized exchange, home to futures, some options and a few other contracts. The busiest exchanges, counted by contracts traded, are in India, Brazil and the United States. Exchange traded derivatives are standardized. Every term is fixed in advance by the exchange, which also sets the trading rules.
+
+HEART: Behind every trade stands a central clearinghouse. Once a buyer and seller agree, the clearinghouse steps into the middle. It becomes the seller to the buyer and the buyer to the seller, and it guarantees the payments the contract promises. Taking the opposite side to each party like this is called novation. Think of a ticket resale site that guarantees your ticket is real and guarantees the seller gets paid. You never have to trust the stranger, only the site.
+
+LEWIS: A guarantee needs money behind it. So both sides put cash on deposit with the clearinghouse the moment they trade, and anyone whose position moves against them must add more. That keeps counterparty credit risk, the risk that the other side fails to pay what it owes, to a minimum. Exchange members act as dealers, also called market makers. They quote a price to buy and a slightly higher price to sell, and earn mainly from that gap, the bid ask spread, rather than from betting on direction.
+
+HEART: Standardization makes the market more liquid and more transparent, and it lowers trading costs. Getting out is easy. You enter the opposite position to the one you hold, and the two cancel. It also simplifies clearing and settlement, two words that mean different things. Clearing is the processing of a trade: confirming it, noting who is on each side, and handling any payments it requires. Settlement is the final exchange at maturity, either the underlying asset or the final amount due.
+
+LEWIS: The other venue is the dealer market. Dealers, usually large banks, write custom contracts, with no central place where trading happens. Forwards, most swaps and some options trade this way. That is the over the counter market, or OTC. It is far more lightly regulated than an exchange, and outsiders see much less of what trades. Dealers trade with end users who want a particular exposure, and with each other to lay off the risk they pick up.
+
+HEART: The great advantage of OTC is customization. The contract size, the exact underlying, the settlement date, whether it is deliverable or cash settled, all of it can be tailored, and the deal stays private. It is a tailored suit next to one off the rack, a perfect fit that is hard to pass on to anyone else.
+
+LEWIS: The cost of that fit is counterparty credit risk. With no clearinghouse in the middle, each side depends on the other to pay. Uncleared OTC contracts are also less liquid, cost more to trade, are harder to clear and settle, and lack the clearinghouse deposits that back exchange trades.
+
+HEART: That changed for much of the swap market after the financial crisis of two thousand eight, when regulators imposed a central clearing mandate. Dealers enter their swap trades on a swap execution facility, and then a central counterparty, or CCP, replaces each trade between two dealers with two trades, one with each dealer, taking on the counterparty risk of both sides. The result is less counterparty risk, more reporting of trades and simpler clearing and settlement, while the dealer can still tailor the terms.
+
+LEWIS: Now the traps. Central clearing does not make counterparty risk vanish. It concentrates it in the CCP, which then has to be very strong. A clearinghouse removes most of the risk that the other side fails to pay, but none of the market risk. And if a question asks for the main reason to choose an OTC contract, the answer is customization, not liquidity and not transparency.
+
+HEART: The takeaway. A derivative takes its value from an underlying and moves risk between the parties, worth zero to both at the start. Exchange traded contracts are standardized, cleared, liquid and transparent, while OTC contracts are tailored and carry counterparty risk unless they are centrally cleared.
 
 ## Module 67.1, Forwards and Futures
 
-A forward contract is an OTC agreement in which one party agrees to buy, and the other agrees to sell, an underlying on a future date at a price fixed today. The buyer is the long. The seller is the short. The forward price is chosen so that the contract is worth zero to both sides at the start, so normally no money changes hands when it is signed. Everything happens at the end.
+LEWIS: Formally, a forward contract is an agreement in which one party, the buyer, commits to buy, and the other party, the seller, commits to sell, a physical or financial asset at a set price on a set future date. The buyer is long and profits if the underlying's price on the settlement date is above the forward price. The seller is short, with exactly the opposite result.
 
-Know the payoff cold. The payoff to the long at expiration equals the spot price of the underlying at expiration minus the forward price. The payoff to the short equals the forward price minus the spot price at expiration. Every dollar the underlying ends above the forward price is a dollar gained by the long and lost by the short, and every dollar below it works the other way. That one for one, straight line payoff is what symmetric means.
+HEART: Notice what happens between signing and settlement in a forward. Nothing. No money moves until the end. So if prices swing hard in one direction, one side builds up a large gain that it collects only on the final day, and that gain is only as good as the other side's promise to pay. It is like a bar tab you settle once a year. The longer it runs, the more the bartender is trusting you.
 
-Take a farmer who agrees today to sell 10,000 bushels of wheat in six months at a forward price of 5 dollars a bushel. If wheat ends at 4 dollars, the farmer, who is short, earns 5 minus 4, or 1 dollar a bushel, which is 10,000 dollars, and the buyer loses exactly that. If wheat ends at 6 dollars, the farmer's payoff is 5 minus 6, a loss of 1 dollar a bushel, or 10,000 dollars, but his crop is worth more. Either way, crop and contract together lock his revenue at 50,000 dollars. That is what a hedge does. It removes the downside and gives up the upside.
+LEWIS: A futures contract makes the same basic promise, but it is built to stop that risk from piling up. It is a standardized contract traded on an exchange, which brings three differences from a forward. A liquid secondary market makes getting in and out easy. Regulation is heavier. And more disclosure makes the market more transparent.
 
-Because a forward is a private contract settled only at the end, both parties carry counterparty credit risk. Whichever side the price has moved in favor of is owed money, and is exposed to the other side's default. That risk can build quietly for the whole life of the contract.
+HEART: And two features do the heavy lifting. A central clearinghouse stands behind every contract, and each day's gains and losses are settled in cash at the end of that day. Together they keep counterparty credit risk to a minimum, because nobody is allowed to run up a large unpaid debt.
 
-A futures contract makes the same basic promise, but it is built to stop that quiet build up of credit risk. Four differences matter. First, futures are standardized by the exchange. Second, they trade on an exchange and are cleared through a clearinghouse, which guarantees performance. Third, they are marked to market daily, meaning each day's gain or loss, measured from the prior settlement price, is paid in cash through the trader's margin account. Fourth, both sides must post margin.
+LEWIS: That daily settlement runs through margin. In futures, margin means the cash, or other collateral the exchange accepts, that the buyer and the seller each have to put up. And here is a trap in the vocabulary. In a stock account, buying on margin means borrowing from your broker and paying interest. Futures margin involves no loan and no interest. It is a good faith deposit, a performance bond, and it protects the clearinghouse. Think of the security deposit on an apartment. It is still your money, sitting there to show you can cover what you owe.
 
-Unlike margin on a stock purchase, futures margin is not a loan. It is a good faith deposit, a performance bond, that shows you can cover daily losses. Initial margin is the deposit required to open a position. Maintenance margin is the minimum balance you must keep. If your balance falls below the maintenance margin, you get a margin call, and you must deposit variation margin that brings the balance all the way back to the initial margin, not just back to maintenance.
+HEART: At the end of each trading day, the exchange adjusts every margin account for that day's gain or loss, based on the new settlement price. That process is called marking to market. The settlement price is not simply the last trade of the day. It is an average of the prices traded during the final stretch of the session.
 
-Here is an example. You go long one crude oil futures contract on 1,000 barrels at 80 dollars a barrel, with initial margin of 5,000 dollars and maintenance margin of 4,000 dollars. On day one, the settlement price falls 50 cents to 79.50, a 500 dollar loss, so your balance is 4,500 dollars. That is still above 4,000, so there is no call.
+LEWIS: So instead of a year long bar tab, futures are like friends who split the bill after every dinner. Nobody ever owes anybody very much.
 
-On day two, the settlement price falls another dollar, to 78.50. That is a 1,000 dollar loss, and your balance drops to 3,500 dollars, below maintenance. You must deposit 1,500 dollars to restore the account to 5,000. Meanwhile, the short's account is credited 500 dollars on day one and 1,000 dollars on day two.
+HEART: There are two margin levels to know. Initial margin is the amount you must deposit before you can trade at all. It is relatively small, roughly the largest price move you would expect in one day on the full value the contract covers.
 
-Here is the trap. The tempting answer is 500 dollars, just enough to get back to maintenance. Maintenance is the trigger. Initial is the target. And if you do not meet the call, your position can be closed out.
+LEWIS: Maintenance margin is the minimum balance you must keep. As losses come out day by day, your balance drifts down. If it falls below the maintenance margin, you must deposit enough to bring the balance all the way back up to the initial margin. If you do not, the exchange liquidates your position.
 
-Two more points round out futures. Most futures positions are closed before expiration with an offsetting trade, rather than by making or taking delivery. And as expiration approaches, the futures price converges to the spot price, because a contract to buy at the moment of expiration is the same as buying in the spot market.
+HEART: Picture the fuel gauge in your car. Maintenance margin is the warning light. Initial margin is a full tank. When the light comes on, futures rules make you fill the tank completely, not just nudge the needle back above the warning line.
 
-So the rule to carry from this module is this. The long's payoff on a forward equals the spot price at expiration minus the forward price. On a futures contract, if your margin balance falls below the maintenance margin, you must deposit enough variation margin to bring it back to the initial margin.
+LEWIS: And that is exactly where the trap sits, because a margin call in a stock account works differently. There, you only have to bring the balance back up to the maintenance level. In futures, maintenance is the trigger and initial is the target. Futures margin requirements are set by the exchange.
+
+HEART: Walk through it in words. You are short stock index futures, and the market climbs all week. The first two days' losses leave your balance above maintenance, so nothing happens. The third day's loss drops it below, and now you must top up to the full initial amount. Meanwhile, the long's account has been credited exactly what yours lost.
+
+LEWIS: One more exchange feature. Many futures contracts have price limits, which set a band around the previous day's settlement price, and no trade may take place outside that band. So if big news moves the price buyers and sellers would agree on beyond the band, no trades can happen at all. Some exchanges add circuit breakers, which pause trading briefly when a futures price hits its limit.
+
+HEART: Now line the two contracts up. A forward is private and customized, settles once at the end, and leaves both sides exposed to each other's default the whole way through. A futures contract is standardized and exchange traded, settles every day through margin, and puts the clearinghouse between the two sides. But daily settlement does nothing to protect you from the price moving against you. A futures position can lose just as much as a forward. You simply pay it a day at a time.
+
+LEWIS: The takeaway. Futures are standardized forwards with a clearinghouse and daily marking to market. Margin is a deposit, not a loan, and when the balance falls below maintenance, you refill it to the initial level.
 
 ## Module 67.2, Swaps and Options
 
-A swap is an OTC agreement to exchange a series of cash flows on set dates. The most common is the plain interest rate swap. One party pays a fixed rate and the other pays a floating rate, both calculated on the same notional principal. The floating rate is tied to a market reference rate, such as SOFR, and resets each period.
+HEART: A swap is an agreement to trade payments back and forth on a schedule of settlement dates, perhaps every quarter for five years. On each date the two amounts are set against each other, which is called netting, and only the side that owes more pays. Swaps are dealer market contracts, so each side is exposed to the other's default unless a central counterparty stands in the middle, and that counterparty may also demand margin deposits and mark to market payments.
 
-Three features matter. First, the notional principal is not exchanged in an interest rate swap. It exists only to calculate the payments. Second, payments due on the same date in the same currency are netted, so only the party that owes more pays the difference. Third, like a forward, a swap is usually worth zero to both sides at the start. You can think of a swap as a bundle of forward contracts, one for each settlement date, all at the same fixed rate.
+LEWIS: The workhorse is the fixed for floating interest rate swap. One party pays a fixed rate of interest. The other pays a floating rate tied to a market reference rate, such as the Secured Overnight Financing Rate, or SOFR. Both sets of payments are calculated on the same notional principal, and in an interest rate swap that notional principal never changes hands. It is only the yardstick for the interest payments.
 
-Here is the netting rule in words. The net payment to the fixed rate payer equals the floating rate minus the fixed rate, times the notional principal, times the fraction of a year the period covers. If the result is positive, the fixed rate payer receives it. If it is negative, the fixed rate payer pays it.
+HEART: The fixed rate is called the swap rate, and like a forward price, it is set so the swap is worth zero to both sides at the start. As expectations about future reference rates change, the swap takes on value, positive for one side and negative for the other. One timing convention to match: the floating payment for each period is set by the reference rate at the start of that period and paid at the end. So on the day the swap is signed, both of the first period's payments are already known.
 
-Take a swap with a notional principal of 10 million dollars, a fixed rate of 4 percent and annual payments. In year one the reference rate is 3 percent, so the fixed payer owes 400,000 dollars, the floating payer owes 300,000 dollars, and the fixed payer pays the net 100,000 dollars. In year two the reference rate is 5 percent, so the floating side owes 500,000 dollars, and the fixed payer receives a net 100,000 dollars. The pattern to remember is that the fixed rate payer gains when rates rise, and the fixed rate receiver gains when rates fall.
+LEWIS: Now the direction. The fixed rate payer gains when rates rise, because its own payment stays put while the floating payments it receives grow. The fixed rate receiver gains when rates fall. In fact, paying fixed and receiving floating is economically like borrowing at a fixed rate and spending the money on a floating rate bond.
 
-A company with a floating rate loan that fears rising rates can pay fixed and receive floating on a swap. The floating receipts cover the loan's floating payments, leaving a fixed cost. A bank or credit union holding fixed rate loans, funded by deposits whose rates follow the market, can pay fixed for a similar reason, so that swap receipts rise when its funding costs rise.
+HEART: That tells you how hedgers apply it. A company with a floating rate loan worries that rates will climb. It enters a swap as the fixed rate payer. The floating payments it receives cover the floating interest on its loan, and what is left is a fixed cost. It has turned a floating rate liability into a fixed rate one.
 
-In a currency swap, the two parties pay interest in two different currencies, and they usually exchange the principal amounts at the start and exchange them back at the end. Here is the trap. In an interest rate swap the notional never moves. In a currency swap it usually does.
+LEWIS: A credit union faces a version of the same problem. Its assets are mostly fixed rate car loans and mortgages, while its funding comes from share certificates, money market accounts and short term borrowing, whose rates rise and fall with market rates. When rates rise, its funding costs climb while its loan income stays flat. So it pays fixed and receives floating on a swap. If rates rise, the floating payments it receives rise too, offsetting the higher funding costs.
 
-Now options. An option gives its buyer the right, but not the obligation, to buy or sell an underlying at a fixed price, called the exercise price or strike price, on or before a set expiration date. A call is the right to buy. A put is the right to sell. The buyer, also called the holder or the long, pays a premium up front. The seller, also called the writer or the short, keeps the premium and takes on the obligation to perform if the holder exercises.
+HEART: But notice the price of that protection. If rates fall, the credit union keeps paying the fixed rate while receiving less, so the swap loses money just as its funding gets cheaper. A swap locks in an outcome in both directions. It does not let you keep the good news.
 
-There are two styles of exercise. A European option can be exercised only at expiration. An American option can be exercised at any time up to expiration. The names have nothing to do with where the options trade.
+LEWIS: Here is another way to see a swap. It can be built from a series of forward contracts, one for each settlement date, each a forward on the floating rate with the fixed rate playing the part of the forward price. Think of a year of monthly deliveries at one fixed price. That is really twelve forward contracts bundled into one agreement. Interest rate forwards often settle at the start of the period rather than the end, for an amount equivalent in value to the swap's payment.
 
-Moneyness describes where the underlying price sits relative to the strike. A call is in the money when the underlying price is above the strike, at the money when they are equal, and out of the money when the underlying price is below the strike. A put is the reverse. It is in the money when the underlying price is below the strike.
+HEART: The credit default swap, or CDS, is a swap with a twist. One side, the protection buyer, pays a fixed amount on each settlement date. The other side, the protection seller, pays nothing unless the reference bond hits a credit event, meaning a default on the bond, a bankruptcy, or an involuntary restructuring, where bondholders are forced to accept worse terms. If that happens, the seller makes up the bond's loss in value. So the everyday picture is an insurance policy against default.
 
-Now the payoff formulas. The payoff of a call at expiration equals the greater of zero and the underlying price minus the exercise price. The payoff of a put at expiration equals the greater of zero and the exercise price minus the underlying price. The writer's payoff is the negative of the holder's. To get profit, subtract the premium from the holder's payoff, and add the premium to the writer's payoff.
+LEWIS: Those regular payments reflect the reference bond's yield premium, its credit spread, the extra yield bondholders demand to cover the losses they expect from default. That expected loss depends on how likely default is and how much would be lost if it happened. A bondholder who buys protection has hedged its default risk. The protection seller earns that spread and pays out if the borrower fails, so its position works like owning the bond itself. In market language, the protection buyer is short credit risk, gaining if the borrower's credit worsens, and the seller is long credit risk, gaining if it holds up.
 
-Take a call with a strike of 50 dollars and a premium of 4 dollars. If the stock ends at 60, the payoff is 10 and the holder's profit is 10 minus 4, or 6. The writer loses 6. If the stock ends at 45, the call expires worthless, the holder loses the 4 dollar premium, and the writer keeps it as profit. The breakeven price for a call holder is the strike plus the premium, here 54.
+HEART: Now options. An option gives its buyer a right but not an obligation. A call option is the right to buy the underlying at a set price, called the exercise price or strike price, over a set period, the time to expiration. A put option is the right to sell the underlying at the exercise price. The other side is the seller, also called the writer, and the writer has no choice. If the buyer exercises a call, the writer must sell. If the buyer exercises a put, the writer must buy.
 
-Here is a trap. If the stock ends at 52, should the holder exercise, even though the profit is negative? Yes. The payoff is 2, which cuts the loss from 4 dollars to 2 dollars, because the premium is already spent. At expiration, you exercise whenever the option is in the money.
+LEWIS: So an option only ever cuts one way. The holder exercises only when exercising pays. If you hold the right to buy at the exercise price but the market is selling for less, you simply buy in the market. So a call whose underlying finishes below its exercise price is left to expire, and the writer keeps what it was paid.
 
-Now a put with a strike of 50 dollars and a premium of 3 dollars. If the stock ends at 40, the payoff is 50 minus 40, or 10, and the profit is 10 minus 3, or 7. The breakeven price for a put holder is the strike minus the premium, here 47.
+HEART: Two everyday pictures. A call is like a nonrefundable holding fee that locks in a price. You pay a car dealer a small fee to hold a car at today's price for a month, and the fee does not count toward the price. If prices jump, you buy at the agreed price. If not, you walk away and lose only the fee.
 
-Know the extremes. A call holder can lose at most the premium, and the upside has no limit. So a call writer who does not own the stock faces unlimited potential loss. A put holder can also lose at most the premium, but the gain is capped, because the stock cannot fall below zero. The maximum gain is the strike minus the premium, here 47, and that is also the put writer's maximum loss.
+LEWIS: A put is like insurance on what you own. You pay a premium, and if the value collapses, the policy pays out. The put writer is the insurer. And that premium is the big difference from everything before it. Forwards, futures and swaps start at zero value. Options are bought for a price, the option premium, which the buyer pays the writer on day one.
 
-One more direction trap. A long call and a short put both profit when the underlying rises, but the call holder risks only the premium, while the put writer can lose much more. Likewise, a long put and a short call both profit when the underlying falls. These formulas give values at expiration. Before expiration, an option usually trades above its exercise value, which a later episode covers.
+HEART: Now the payoffs, all in words. The payoff, or value, of a call at expiration is the amount by which the underlying's price is above the exercise price, or zero if it finishes at or below. The payoff of a put at expiration is the amount by which the underlying's price is below the exercise price, or zero if it finishes at or above.
 
-Next, credit derivatives, mainly the credit default swap, or C D S. The protection buyer makes regular payments, called the premium, to the protection seller. In return, if a specified borrower, called the reference entity, suffers a credit event such as default or bankruptcy, the seller compensates the buyer for the loss. Say protection is bought on 10 million dollars of a company's bonds at a premium of 1 percent a year, which is 100,000 dollars a year. If the company defaults and its bonds are then worth 40 percent of face value, the seller pays the buyer about 6 million dollars, the loss on the bonds.
+LEWIS: Profit is a separate idea, and the exam keeps them apart. For the buyer of either option, profit is the payoff minus the premium paid. For the writer, profit is the premium received minus the payoff it must hand over. So a call buyer breaks even when the underlying finishes above the exercise price by exactly the premium, and a put buyer breaks even when it finishes below the exercise price by exactly the premium.
 
-Think of a C D S as insurance against default, except that the buyer does not have to own the bonds. The protection buyer is short credit risk and benefits if the borrower's credit worsens. The protection seller is long credit risk, much like holding the bond's credit exposure. Despite the word swap in its name, a C D S is a contingent claim, because the seller's large payment happens only if the credit event happens.
+HEART: Then the extremes, the best and worst case for each side. The most an option buyer can lose is the premium. A call buyer's potential gain has no ceiling, because the underlying's price has no ceiling, so the call writer faces a potential loss with no limit.
 
-That leads to the central contrast between two families. Forward commitments, also called firm commitments, are forwards, futures and swaps. Contingent claims are options and credit derivatives such as the C D S. Three differences separate them.
+LEWIS: A put is different, because a price cannot fall below zero. The most a put can ever be worth is the exercise price, reached only if the underlying becomes worthless. So the put buyer's maximum gain is the exercise price minus the premium, and that same amount is the put writer's maximum loss. For either option, the writer's best case is keeping the whole premium. And every dollar one side makes, the other loses. Options are a zero sum game.
 
-First, obligation. In a forward commitment, both parties must perform, while in a contingent claim, one party holds a right and the other performs only if that right is exercised or the triggering event occurs. Second, upfront cost. A forward commitment is usually worth zero at the start, and futures margin is a deposit, not a price, while a contingent claim costs its buyer a premium. Third, payoff shape. Forward commitments have symmetric, straight line payoffs, while contingent claims have asymmetric payoffs, with the option holder's loss limited to the premium.
+HEART: Now a trap about exercising. Say a call finishes above its exercise price, but by less than the premium you paid. Overall you have lost money. Should you exercise? Yes. The premium is gone either way, and exercising collects the payoff and shrinks your loss. The call holder exercises whenever the underlying finishes above the exercise price.
 
-So the rule to carry from this module is this. A call's payoff at expiration is the greater of zero and the underlying price minus the strike. A put's payoff is the greater of zero and the strike minus the underlying price. Profit subtracts the premium for the holder and adds it for the writer.
+LEWIS: Where the underlying sits relative to the exercise price is called moneyness. An option that would pay something if exercised right now is in the money, so a call is in the money when the underlying is above the exercise price, and a put when it is below. When the two are equal, the option is at the money, and an option that would pay nothing is out of the money.
+
+HEART: Now the direction of each position. The call buyer gains when the underlying rises, and so does the put writer, who keeps the premium as long as the price holds up. Both have long exposure. The put buyer gains when the underlying falls, and so does the call writer. Both have short exposure.
+
+LEWIS: And here is the trap inside that. A call buyer and a put writer both want the price to rise, but their risks are nothing alike. The call buyer can lose only the premium. The put writer can lose up to the exercise price minus the premium if the underlying collapses.
+
+HEART: Now the classification that ties this module together. A forward commitment is a legally binding promise to do something in the future, to buy, sell or make a payment. Forwards, futures and most swaps are forward commitments. A contingent claim is a claim to a payoff that depends on a particular event. Options are contingent claims, and the event is the underlying finishing above or below the exercise price. A credit default swap is one too, despite the word swap in its name, because the protection seller pays only if a credit event occurs. That is why the rule says most swaps, not all swaps.
+
+LEWIS: So three contrasts. A forward commitment binds both sides, while a contingent claim gives one side a right. A forward commitment starts at zero value, while a contingent claim costs a premium. And a forward commitment's gains and losses move one for one with the underlying in both directions, while a contingent claim's payoff is lopsided, with the buyer's loss limited to the premium.
+
+HEART: The takeaway. A swap is a bundle of forwards on a reference rate, and the fixed rate payer gains when rates rise. A credit default swap is insurance against default and counts as a contingent claim. And an option buyer pays a premium for a right, risks only that premium, and profits once the payoff beats it.
 
 ## Module 68.1, Uses, Benefits, and Risks of Derivatives
 
-Start with the benefits. Four stand out.
+LEWIS: Why do derivatives exist at all, when you could simply buy and sell the assets themselves? The benefits fall into four groups. The first is the ability to change, transfer and manage risk without buying or selling a single share or bond. Many of this episode's examples belong here. The brewery passing its barley risk to the farmer, the software company fixing the dollar value of its yen, and the credit union swapping floating funding costs for fixed ones all change who bears a risk without a single cash market trade.
 
-First, risk allocation, transfer and management. Derivatives let you separate a risk from the asset that carries it, and move that risk to whoever is most willing to bear it.
+HEART: Derivatives can also create risk profiles that simply do not exist in cash markets. A shareholder who buys puts sets a minimum price for selling the shares and pays the premium for that floor. A buyer of calls gets the gains from a rally while risking only the premium if prices slide.
 
-Second, information discovery. Futures markets often react to news quickly, and option prices reveal how much volatility the market expects.
+LEWIS: The second benefit is information discovery, meaning derivatives prices tell you things the cash market cannot. Most of what goes into an option's price is out in the open: the interest rate, the underlying's price, the time to expiration and the exercise price. One input cannot be observed directly, how much the market expects the underlying to swing. So you take the option's market price and the open inputs and solve backward for the hidden one, the volatility the market expects.
 
-Third, operational advantages. Derivatives often have lower transaction costs and more liquidity than the underlying. Shorting is easy, because selling a futures contract is no harder than buying one, while shorting a stock requires borrowing shares. And because you put up only a small amount of cash, derivatives are capital efficient.
+HEART: Futures and forward prices give a sense of where the market thinks the underlying is heading. Line up interest rate futures that expire month after month, and they trace out the path of rates the market expects, right down to how many moves it expects from the central bank. When you hear that markets are pricing in two rate cuts, that figure comes from derivatives.
 
-Fourth, market efficiency. Because trading is cheap and fast, mispricings between derivatives and their underlyings get traded away quickly, which pulls prices toward fair value.
+LEWIS: The third benefit is a group of operational advantages. Short selling is easier, because selling a forward or a futures contract is as simple as buying one, while shorting the asset itself means borrowing it first. Transaction costs are lower. Owning a commodity outright means paying to ship it, store it and insure it, and a futures position skips all of that. Changing a loan's rate with a swap also costs far less than repaying the loan and borrowing again. Leverage is greater, since a little cash buys a lot of exposure. And liquidity is greater, because when so little cash is tied up, even very large positions are easy to take on.
 
-Now the risks. Six are worth knowing by name.
+HEART: The fourth benefit is improved market efficiency. Low costs, high liquidity, leverage and easy short selling make it cheap to trade against a mispriced security, and that trading pushes prices back toward fair value.
 
-First, high implicit leverage. A small amount of cash controls a large exposure. In the oil futures example, a 5,000 dollar deposit controlled 80,000 dollars of oil. A 5 dollar drop in price, just over 6 percent, would wipe out the whole deposit. Leverage magnifies gains too, which is why it tempts people to take too much risk.
+LEWIS: Now the other side of the ledger, the risks. The first is implicit leverage. Because a small deposit controls a large exposure, a derivative position carries far more risk than a cash market position with the same money down. Put down one twentieth of a contract's value as margin, and a price move of one twentieth against you wipes out the entire deposit. Leverage magnifies gains just as surely, which is exactly what tempts people to take too much risk.
 
-Second, lack of transparency. OTC contracts are private, and complex products, such as structured notes with embedded derivatives, can hide how much risk the buyer is really taking, which leads to unexpected losses.
+HEART: Riding alongside leverage is a lack of transparency. Some securities blend a cash market investment with derivatives built inside them, called structured securities, and their buyers may not understand how much risk they are really taking.
 
-Third, basis risk. This is the risk that the hedge and the exposure being hedged do not move together perfectly. An airline that hedges jet fuel with crude oil futures is exposed if the gap between jet fuel and crude oil prices changes. A hedge whose dates do not match the exposure creates the same problem.
+LEWIS: Next is basis risk. It arises when the underlying of the derivative is not quite the same as the position being hedged. Picture an airline hedging jet fuel with crude oil futures, because there is far more trading in crude. The hedge helps, but jet fuel and crude oil do not move in perfect step. Basis risk also arises when the dates do not line up, say a fund that will sell bonds in the middle of March hedged with a contract that settles at the end of March.
 
-Fourth, liquidity risk. This comes from a mismatch in the timing of cash flows. A futures hedge can demand cash today through margin calls, while the position it protects produces cash only later, as when a farmer who is short futures must post margin as prices rise, long before selling the crop. Banks and credit unions that hedge with swaps face the same issue, because a sharp move in rates can trigger collateral calls that must be met from liquid assets.
+HEART: Then liquidity risk, and derivatives carry a special kind. It arises when the cash flows from the hedge do not match the cash flows of the position being hedged. Picture a gold miner that sells gold futures to lock in the price of next year's output. Then gold rallies. The hedge is doing its job, because the futures losses offset the higher price the miner will get for its gold. But those losses are paid in cash every day through margin calls, while the extra revenue arrives only when the gold is sold. If the miner cannot meet those calls, the futures are liquidated, and it is left unhedged from then on.
 
-Fifth, counterparty credit risk, the risk that the other side fails to pay what it owes. This matters most for OTC contracts that are not centrally cleared.
+LEWIS: The same thing can happen at a credit union that pays fixed on a centrally cleared swap. If rates fall, the swap loses value and margin has to be posted now, while the benefit of cheaper funding shows up only slowly over the coming years. A sound hedge can still drain cash in the short run.
 
-Sixth, destabilization and systemic risk. When large, interconnected firms take excessive risk with derivatives, losses at one firm can spread and threaten the whole financial system. Heavy use of credit derivatives played a role in the 2008 crisis.
+HEART: Next is counterparty credit risk, and it depends on the position. An option writer is paid in full on day one and from then on can only owe, never be owed, so it carries none. The option buyer is the one waiting to collect if the option finishes in the money, so it carries the risk. And a forward can end up in either side's favor, so both sides may carry it.
 
-Now issuers, meaning companies, governments and other entities that issue securities. They mostly use derivatives to hedge risks from running or financing the business, such as interest rates on their debt, foreign currency revenue and costs, and commodity inputs.
+LEWIS: In futures markets, three things shrink that risk: the initial margin deposit, the daily marking to market, and the clearinghouse guarantee. Forwards may have no such protections, but the parties can write them in, with margin deposits, periodic marking to market and central clearing.
 
-A problem arises. Derivatives are carried at fair value, so their gains and losses could swing reported earnings, even when they offset a hedged item whose changes are recorded differently or later. To fix that mismatch, International Financial Reporting Standards, or IFRS, and U.S. generally accepted accounting principles, or GAAP, allow hedge accounting when a company formally designates a derivative as a hedge. There are three kinds.
+HEART: The last risk is systemic risk. Excessive speculation with derivatives can spread losses widely across financial markets and institutions. Regulators try to limit it with rules such as the central clearing requirement for swaps.
 
-A fair value hedge offsets changes in the fair value of an asset or liability. For example, a company issues fixed rate bonds and enters a swap to receive fixed and pay floating, effectively turning its debt into floating rate debt. Gains and losses on the swap, and the offsetting change in the value of the hedged debt, both go through profit or loss, where they largely cancel.
+LEWIS: Now the two groups that turn to derivatives. Companies that hold derivatives to manage their business risks are called issuers in this context. A nonfinancial company faces changes in the values of its assets and liabilities, and swings in earnings caused by moves in prices, exchange rates and interest rates.
 
-A cash flow hedge offsets the variability of future cash flows, from a floating rate asset or liability, or from a forecast transaction. For example, a company with floating rate debt pays fixed on a swap. The effective portion of the swap's gains and losses goes to other comprehensive income, and is moved into profit or loss when the hedged cash flows affect earnings.
+HEART: Three pictures. A toy maker based in the United States earns euros from its European sales, and it sells euros forward to smooth the dollar value of those earnings when it reports them. A company that carries its fixed rate bonds at fair value sees their reported value swing every time rates move, so it enters a swap as the floating rate payer, receiving fixed. In effect, the bonds now behave like floating rate debt, whose duration is far shorter, so the combined value on the balance sheet barely reacts to rates.
 
-A net investment hedge protects the value of an investment in a foreign operation against currency moves, using a currency derivative or debt issued in the foreign currency. Its gains and losses go to other comprehensive income, alongside the currency translation adjustment for that foreign operation.
+LEWIS: And a copper wire maker carries its copper inventory at market value, so its balance sheet bounces around with copper prices. It sells copper forwards, and when copper falls, the forward gains offset the drop in inventory value.
 
-Here is the trap, and a way to remember it. A fixed rate item has a changing value, so swapping fixed rate debt to floating is a fair value hedge. A floating rate item has changing cash flows, so swapping floating rate debt to fixed is a cash flow hedge.
+HEART: Those hedges raise an accounting problem. A derivative's gain or loss might hit the books at a different time from the offsetting change in the thing being hedged, making results look jumpier than the business really is. Hedge accounting fixes the timing. When a hedge qualifies, the derivative's gain or loss is booked in the same period as the change it offsets, so the two show up together.
 
-Now investors, such as asset managers, pension funds, insurers and hedge funds. Four uses stand out. First, to replicate a cash market position cheaply, such as gaining index exposure with futures instead of buying every stock. Second, to hedge, such as buying puts to protect a portfolio. Third, to modify risk and return, such as using swaps to change a bond portfolio's duration, or writing calls on stocks you own to earn premium while giving up some upside. Fourth, to create exposures that are hard to get in cash markets, such as a position on volatility itself, or on a borrower's credit without owning its bonds.
+LEWIS: Hedges are classified by their purpose, into three types. A cash flow hedge steadies future cash flows. Selling forward the foreign currency you expect to receive is a cash flow hedge. So is a swap that turns a floating rate liability into a fixed rate one, because the interest payments become certain.
 
-The contrast is simple. Issuers mainly hedge business risks and care about hedge accounting, while investors use derivatives to add, remove or reshape exposure in pursuit of return.
+HEART: A fair value hedge offsets changes in the value of assets or liabilities. The copper wire maker's inventory hedge is a fair value hedge. So is the swap that turns fixed rate debt into floating rate debt, steadying the debt's value on the balance sheet.
 
-So the rule to carry from this module is this. Fair value hedge gains and losses go to profit or loss. For cash flow and net investment hedges, the effective portion goes to other comprehensive income instead. Basis risk is an imperfect match between hedge and exposure, and liquidity risk is a mismatch in the timing of cash flows.
+LEWIS: And a net investment hedge reduces swings in the reported value of the equity in a foreign subsidiary. Picture a company in the United States that owns a Canadian subsidiary. As the Canadian dollar rises and falls, so does that subsidiary's equity measured in American dollars. Currency forwards or futures can offset those swings.
+
+HEART: Here is the classic trap. Floating rate debt swapped to fixed is a cash flow hedge, because what was uncertain was the payments. Fixed rate debt swapped to floating is a fair value hedge, because what was uncertain was the value. Ask what was moving before the hedge, the payments or the price.
+
+LEWIS: Then investors. They hedge, modify or add to their exposure, with either forward commitments or contingent claims. An investor betting on a stronger Swiss franc can buy francs forward, putting up little or no cash today. A bond investor who wants a longer duration can enter a swap as the fixed rate receiver, paying floating, which is like issuing floating rate debt and spending the money on a fixed rate bond.
+
+HEART: And a stock fund manager bracing for a rough few months can sell stock index futures to cut market exposure without selling a share, then buy them back later. Buying index futures adds exposure. Or the manager can buy index puts, limiting losses in a fall while keeping the gains in a rally.
+
+LEWIS: So issuers mainly hedge the risks of running a business, and they care about steadying reported values and earnings. Investors hedge too, but they also reshape exposure and add it, and adding exposure you did not already have is speculation.
+
+HEART: The takeaway. Derivatives transfer risk, reveal information, cut costs and sharpen prices, but they bring implicit leverage, basis risk, liquidity risk, counterparty risk and systemic risk.
 
 ## Recall check
 
-Q: Which feature is most likely found in a futures contract but not in a typical forward contract: customized delivery terms, daily settlement of gains and losses, or a price fixed at initiation?
+LEWIS Q: A forward contract is signed today and no money changes hands. Why not, and who gains if the underlying finishes above the forward price?
 
-Answer: Daily settlement of gains and losses. Futures are marked to market every day through margin accounts, with a clearinghouse guaranteeing performance. Customized terms belong to forwards, and both contracts fix the price at initiation.
+HEART: Answer. The forward price is set so the contract is worth zero to both sides at the start, and the buyer, who is long, gains. Here is why. A fair forward price gives neither side a bargain on day one, so there is nothing to pay for. If the underlying later finishes above the forward price, the buyer gets the asset for less than its market value, and the seller loses exactly that amount.
 
-Q: You are long a futures contract with an initial margin of 6,000 dollars and a maintenance margin of 4,500 dollars. After a bad day, your balance is 4,000 dollars. How much must you deposit?
+HEART Q: Interest rates jump. Does the buyer of a forward on an interest rate gain or lose, and what about the buyer of a forward on a bond?
 
-Answer: 2,000 dollars. The balance fell below maintenance, so you must restore it to the initial margin, and 6,000 minus 4,000 is 2,000. Depositing only 500 dollars to reach maintenance is the tempting wrong answer.
+LEWIS: Answer. The buyer of the interest rate forward gains, and the buyer of the bond forward loses. Here is why. When the underlying is the rate itself, the long wants it to rise. When the underlying is a bond, the long wants the bond's price to rise, and bond prices fall when rates rise.
 
-Q: You buy a put with an exercise price of 40 dollars for a premium of 2 dollars. At expiration the stock is at 35. What are your payoff and your profit?
+LEWIS Q: What does a central clearinghouse do to counterparty credit risk, and what is the catch when swaps are centrally cleared?
 
-Answer: The payoff is 40 minus 35, or 5 dollars. The profit subtracts the 2 dollar premium, so it is 3 dollars. Your breakeven was 38, the strike minus the premium.
+HEART: Answer. It guarantees the payments, which shrinks counterparty risk, but central clearing concentrates the risk in the central counterparty. Here is why. Through novation, the clearinghouse becomes the buyer to every seller and the seller to every buyer, backed by deposits from both sides. But risk once spread across many dealers now sits in one place, so that institution has to be very strong.
 
-Q: A company pays fixed and receives floating on an interest rate swap. If the market reference rate rises well above the swap's fixed rate, does the company gain or lose on the swap?
+HEART Q: A company chooses an over the counter contract instead of an exchange traded one. What is the main reason?
 
-Answer: It gains. Its floating receipts rise while its fixed payments stay the same, so the net settlement payments flow to it. The fixed rate receiver on the other side loses.
+LEWIS: Answer. Customization. Here is why. An OTC contract can be tailored in size, underlying, settlement date and settlement method, and it stays private. Exchange contracts win on liquidity, transparency and cost, so those cannot be the reason to go OTC.
 
-Q: Which of these is a contingent claim: an interest rate swap, a futures contract, or a credit default swap?
+LEWIS Q: Your futures margin balance drops below the maintenance margin. To what level must you restore it?
 
-Answer: The credit default swap. The protection seller pays only if a credit event occurs, so its payment is contingent, despite the word swap in the name. Interest rate swaps and futures are forward commitments that obligate both sides.
+HEART: Answer. All the way back to the initial margin. Here is why. In futures, the maintenance level is only the trigger, and the initial level is the target, which keeps a full cushion in front of the clearinghouse. A stock margin account requires only a return to the maintenance level, which is the tempting wrong answer.
 
-Q: A company with floating rate debt designates a swap to pay fixed and receive floating as a hedge. Which type of hedge is this most likely, and where does the effective portion of the swap's gains and losses go first?
+HEART Q: A company with a floating rate loan fears rising rates. Which side of an interest rate swap should it take, and what does it give up?
 
-Answer: It is a cash flow hedge, because the swap offsets variability in future interest payments. The effective portion goes to other comprehensive income and is moved to profit or loss when the hedged interest payments affect earnings. A swap that turns fixed rate debt into floating rate debt would be a fair value hedge instead.
+LEWIS: Answer. It should pay fixed and receive floating, and it gives up the benefit of falling rates. Here is why. The floating payments it receives cover the floating interest on its loan, leaving a fixed cost. But if rates fall, it keeps paying the fixed rate while receiving less, because a swap locks in the result both ways.
 
-## Recap
+LEWIS Q: Why is a credit default swap a contingent claim, and whose exposure does the protection seller's position resemble?
 
-Exchange traded contracts are standardized, cleared, transparent and liquid, while OTC contracts are customized and carry counterparty credit risk unless centrally cleared. The long's payoff on a forward is the spot price at expiration minus the forward price. Futures are standardized forwards settled daily, and a balance below maintenance margin must be restored to initial margin.
+HEART: Answer. Because the seller pays only if a credit event occurs, and its exposure resembles owning the reference bond. Here is why. The protection buyer pays fixed amounts on schedule, but the seller's payout depends on a default, bankruptcy or involuntary restructuring actually happening. The seller collects the credit spread and loses if the borrower fails, which is the same credit risk a bondholder carries.
 
-An interest rate swap exchanges fixed for floating on a notional principal that never changes hands, and the fixed rate payer gains when rates rise. A call pays the greater of zero and the underlying price minus the strike, a put pays the greater of zero and the strike minus the underlying price, and the holder's profit subtracts the premium. Forward commitments obligate both sides with symmetric payoffs, while contingent claims, meaning options and credit default swaps, have asymmetric payoffs. The six risks are implicit leverage, lack of transparency, basis risk, liquidity risk, counterparty credit risk and systemic risk. Fair value hedges run through profit or loss, while the effective portion of cash flow and net investment hedges goes to other comprehensive income.
+HEART Q: At expiration, a call finishes above its exercise price, but by less than the premium you paid. Do you exercise it?
+
+LEWIS: Answer. Yes. Here is why. The premium was spent on day one and is gone whatever you do now. Exercising collects the payoff, which shrinks your overall loss, while letting the call expire would throw that payoff away.
+
+LEWIS Q: Which two option positions gain when the underlying rises, and how do their worst cases differ?
+
+HEART: Answer. Buying a call and writing a put, and the call buyer's worst case is far smaller. Here is why. The call buyer can lose only the premium paid. The put writer keeps the premium if prices hold up, but if the underlying collapses toward zero it must buy at the exercise price, losing up to the exercise price minus the premium.
+
+HEART Q: On an option, who faces counterparty credit risk, the buyer or the writer?
+
+LEWIS: Answer. The buyer. Here is why. The writer receives the premium at the start and is never owed anything after that. The buyer is owed the payoff whenever the option finishes in the money, so it depends on the writer being able to pay. With a forward, by contrast, either side may end up owed money.
+
+LEWIS Q: An airline hedges jet fuel with crude oil futures, and when prices fall, margin calls drain its cash. Which two risks are these?
+
+HEART: Answer. Basis risk and liquidity risk. Here is why. Basis risk comes from the hedge's underlying, crude oil, not moving in perfect step with the exposure, jet fuel. Liquidity risk comes from timing. The airline is long the futures, so falling prices mean losses paid in cash every day, while the offsetting benefit, cheaper fuel, arrives only as it buys fuel over the coming months.
+
+HEART Q: A company swaps its fixed rate debt to floating so the debt's value on the balance sheet barely moves with rates. Which hedge type is that, and which type is the reverse trade?
+
+LEWIS: Answer. A fair value hedge, and swapping floating rate debt to fixed is a cash flow hedge. Here is why. Fixed rate debt has fixed payments but a value that moves with rates, so steadying that value is a fair value hedge. Floating rate debt has a steady value but uncertain payments, so locking those payments in is a cash flow hedge.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: A forward is a fixed price deal for later delivery, worth zero to both sides on day one. One side's gain is the other side's loss. Long wins when the underlying rises, short wins when it falls.
+
+HEART: For hedgers: lock in now the trade you must make later. And the rate trap: rates up, the rate forward buyer wins and the bond forward buyer loses.
+
+LEWIS: Exchange traded is off the rack: standardized, cleared, liquid and transparent. Over the counter is tailored and private, with counterparty risk unless centrally cleared.
+
+HEART: Futures settle up every night. Margin is a deposit, not a loan. Maintenance is the warning light, initial is a full tank.
+
+LEWIS: A swap is a bundle of forwards. Pay fixed, and you win when rates rise. A credit default swap is insurance against default, and the protection seller is long credit risk, like a bondholder.
+
+HEART: For options, the buyer has the right and the writer has the obligation. A call is a nonrefundable holding fee that locks in a buying price. A put is insurance on a selling price. The buyer's worst case is the premium, and the call writer's worst case has no ceiling.
+
+LEWIS: Breakeven sits one premium past the exercise price, above it for a call and below it for a put. Want the price up? Buy a call or write a put. Want it down? Buy a put or write a call.
+
+HEART: Forward commitments are forwards, futures and most swaps. Contingent claims are options and credit default swaps.
+
+LEWIS: For the benefits, think TIME: Transfer of risk, Information discovery, Market efficiency and Easier operations.
+
+HEART: For the risks: leverage bites, basis slips, liquidity drains, counterparties fail and systems wobble. For hedge accounting: uncertain payments call for a cash flow hedge, an uncertain value calls for a fair value hedge, and a foreign subsidiary's equity calls for a net investment hedge.
+
+LEWIS: Now, how you would say the big ideas to a senior leader.
+
+HEART: On what a derivative is: a contract that lets us hand a specific risk to someone else, or take one on, without buying or selling the asset itself. The jargon is a derivative, the underlying, hedging and speculation.
+
+LEWIS: On where we trade: exchange contracts are standard and guaranteed by a clearinghouse, while dealer contracts fit exactly but depend on the other side paying, unless they are centrally cleared. The jargon is exchange traded versus over the counter, counterparty credit risk and central counterparties.
+
+HEART: On our rate hedge: paying fixed on a swap protects our net interest margin if rates rise, but we give up the benefit if rates fall, and the swap can demand cash collateral before the benefit shows up. The jargon is a pay fixed interest rate swap, a cash flow hedge and liquidity risk.
+
+LEWIS: On options: buying protection costs a premium up front and caps our loss, while selling protection earns a premium but leaves us holding the big loss. The jargon is long and short calls and puts, the option premium and contingent claims.
+
+HEART: And on the dangers: a small deposit controls a large position, and a hedge that is nearly right still leaves us exposed. The jargon is implicit leverage and basis risk.

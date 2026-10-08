@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Wed, 07 Oct 2026 20:03:16 -0500</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 20:28:34 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -586,11 +586,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Derivatives, Kaplan Modules 66.1 to 68.1. 66.1 Derivatives Markets, 67.1 Forwards and Futures, 67.2 Swaps and Options, 68.1 Uses, Benefits, and Risks of Derivatives</description>
     <itunes:summary>Derivatives, Kaplan Modules 66.1 to 68.1. 66.1 Derivatives Markets, 67.1 Forwards and Futures, 67.2 Swaps and Options, 68.1 Uses, Benefits, and Risks of Derivatives</itunes:summary>
-    <content:encoded><![CDATA[<p>Derivatives, Kaplan Modules 66.1 to 68.1.</p><ul><li>Module 66.1, Derivatives Markets</li><li>Module 67.1, Forwards and Futures</li><li>Module 67.2, Swaps and Options</li><li>Module 68.1, Uses, Benefits, and Risks of Derivatives</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:11 The big picture</li><li>1:27 Module 66.1, Derivatives Markets</li><li>6:58 Module 67.1, Forwards and Futures</li><li>11:38 Module 67.2, Swaps and Options</li><li>19:59 Module 68.1, Uses, Benefits, and Risks of Derivatives</li><li>26:30 Recall check</li><li>29:45 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E34.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E34_v2.mp3" length="9374414" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Derivatives, Kaplan Modules 66.1 to 68.1.</p><ul><li>Module 66.1, Derivatives Markets</li><li>Module 67.1, Forwards and Futures</li><li>Module 67.2, Swaps and Options</li><li>Module 68.1, Uses, Benefits, and Risks of Derivatives</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:34 Module 66.1, Derivatives Markets</li><li>10:20 Module 67.1, Forwards and Futures</li><li>15:39 Module 67.2, Swaps and Options</li><li>26:16 Module 68.1, Uses, Benefits, and Risks of Derivatives</li><li>36:24 Recall check</li><li>43:11 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E34.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E34_v3.mp3" length="14072361" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e34</guid>
     <pubDate>Sat, 03 Oct 2026 12:34:00 -0500</pubDate>
-    <itunes:duration>1875</itunes:duration>
+    <itunes:duration>2814</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E34.txt" type="text/plain"/>
   </item>
