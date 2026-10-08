@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Thu, 08 Oct 2026 00:26:28 -0500</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 00:52:45 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -773,11 +773,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Ethical and Professional Standards, Kaplan Modules 91.3 to 91.5. 91.3 Guidance for Standard II, 91.4 Guidance for Standards III(A) and III(B), 91.5 Guidance for Standards III(C), III(D), and III(E)</description>
     <itunes:summary>Ethical and Professional Standards, Kaplan Modules 91.3 to 91.5. 91.3 Guidance for Standard II, 91.4 Guidance for Standards III(A) and III(B), 91.5 Guidance for Standards III(C), III(D), and III(E)</itunes:summary>
-    <content:encoded><![CDATA[<p>Ethical and Professional Standards, Kaplan Modules 91.3 to 91.5.</p><ul><li>Module 91.3, Guidance for Standard II</li><li>Module 91.4, Guidance for Standards III(A) and III(B)</li><li>Module 91.5, Guidance for Standards III(C), III(D), and III(E)</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:14 The big picture</li><li>1:54 Module 91.3, Guidance for Standard II</li><li>9:58 Module 91.4, Guidance for Standards III(A) and III(B)</li><li>17:25 Module 91.5, Guidance for Standards III(C), III(D), and III(E)</li><li>26:10 Recall check</li><li>29:35 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E45.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E45_v2.mp3" length="9382672" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Ethical and Professional Standards, Kaplan Modules 91.3 to 91.5.</p><ul><li>Module 91.3, Guidance for Standard II</li><li>Module 91.4, Guidance for Standards III(A) and III(B)</li><li>Module 91.5, Guidance for Standards III(C), III(D), and III(E)</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:36 Module 91.3, Guidance for Standard II</li><li>14:37 Module 91.4, Guidance for Standards III(A) and III(B)</li><li>26:24 Module 91.5, Guidance for Standards III(C), III(D), and III(E)</li><li>40:14 Recall check</li><li>47:26 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E45.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E45_v3.mp3" length="15420179" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e45</guid>
     <pubDate>Sat, 03 Oct 2026 12:45:00 -0500</pubDate>
-    <itunes:duration>1876</itunes:duration>
+    <itunes:duration>3084</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E45.txt" type="text/plain"/>
   </item>
