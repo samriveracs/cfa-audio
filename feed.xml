@@ -15,7 +15,7 @@
   <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
   <podcast:locked>yes</podcast:locked>
-  <lastBuildDate>Wed, 07 Oct 2026 21:13:32 -0500</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 21:40:18 -0500</lastBuildDate>
   <item>
     <title>E01 Rates, Returns and the Time Value of Money</title>
     <itunes:title>Rates, Returns and the Time Value of Money</itunes:title>
@@ -637,11 +637,11 @@
     <itunes:episodeType>full</itunes:episodeType>
     <description>Alternative Investments, Kaplan Modules 76.1 to 79.2. 76.1 Alternative Investment Structures, 77.1 Performance Appraisal and Return Calculations, 78.1 Private Capital, 79.1 Real Estate, 79.2 Infrastructure</description>
     <itunes:summary>Alternative Investments, Kaplan Modules 76.1 to 79.2. 76.1 Alternative Investment Structures, 77.1 Performance Appraisal and Return Calculations, 78.1 Private Capital, 79.1 Real Estate, 79.2 Infrastructure</itunes:summary>
-    <content:encoded><![CDATA[<p>Alternative Investments, Kaplan Modules 76.1 to 79.2.</p><ul><li>Module 76.1, Alternative Investment Structures</li><li>Module 77.1, Performance Appraisal and Return Calculations</li><li>Module 78.1, Private Capital</li><li>Module 79.1, Real Estate</li><li>Module 79.2, Infrastructure</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:15 The big picture</li><li>1:44 Module 76.1, Alternative Investment Structures</li><li>8:11 Module 77.1, Performance Appraisal and Return Calculations</li><li>17:05 Module 78.1, Private Capital</li><li>21:53 Module 79.1, Real Estate</li><li>25:45 Module 79.2, Infrastructure</li><li>27:45 Recall check</li><li>31:08 Recap</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E37.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
-    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E37_v2.mp3" length="9834130" type="audio/mpeg"/>
+    <content:encoded><![CDATA[<p>Alternative Investments, Kaplan Modules 76.1 to 79.2.</p><ul><li>Module 76.1, Alternative Investment Structures</li><li>Module 77.1, Performance Appraisal and Return Calculations</li><li>Module 78.1, Private Capital</li><li>Module 79.1, Real Estate</li><li>Module 79.2, Infrastructure</li></ul><p>Chapters</p><ul><li>0:00 Introduction</li><li>0:42 Module 76.1, Alternative Investment Structures</li><li>11:32 Module 77.1, Performance Appraisal and Return Calculations</li><li>20:38 Module 78.1, Private Capital</li><li>29:33 Module 79.1, Real Estate</li><li>35:18 Module 79.2, Infrastructure</li><li>39:34 Recall check</li><li>46:52 Key takeaways</li></ul><p><a href="https://samriveracs.github.io/cfa-audio/transcripts/E37.txt">Transcript</a></p><p>Original review audio keyed to Kaplan Schweser module numbers. Not produced by Kaplan or CFA Institute.</p>]]></content:encoded>
+    <enclosure url="https://samriveracs.github.io/cfa-audio/episodes/E37_v3.mp3" length="15235637" type="audio/mpeg"/>
     <guid isPermaLink="false">cfa-l1-audio-2026-e37</guid>
     <pubDate>Sat, 03 Oct 2026 12:37:00 -0500</pubDate>
-    <itunes:duration>1966</itunes:duration>
+    <itunes:duration>3047</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <podcast:transcript url="https://samriveracs.github.io/cfa-audio/transcripts/E37.txt" type="text/plain"/>
   </item>
