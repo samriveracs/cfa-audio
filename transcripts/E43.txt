@@ -1,207 +1,311 @@
-## The big picture
-
-Ethics carries a weight of 15 to 20 percent on the 2026 Level I exam. That is a large block of points, and most of them come from applying a small set of rules to short stories. This episode lays the foundation for that work. The next four episodes then walk through the seven groups of Standards in order.
-
-There are two modules today. Module 89.1 asks why ethics matters at all. It defines ethics, explains how professions earn trust, shows why investment management needs especially high standards, names what gets in the way of good behavior, separates ethics from law, and gives you a four phase framework for hard decisions.
-
-Module 90.1 moves from why to what. It covers the CFA Institute Code of Ethics, which has six broad principles, and the Standards of Professional Conduct, which turn those principles into specific duties grouped under seven headings. It also covers how CFA Institute enforces them, from the first inquiry to the final sanction.
-
-Here is how the pieces connect. Trust is the real product an investment professional sells. A code of ethics is the public promise behind that trust. The Standards make the promise specific, and the enforcement program gives it teeth. Keep that chain in mind. Trust, promise, rules, enforcement.
-
-One note on currency. The Code and Standards were revised with effect from January 1, 2024. That revision added a new Standard on competence, expanded the Standard on communicating with clients, and renamed and strengthened the conflicts Standard. Everything in this episode reflects the current version.
+LEWIS: Reading 89 covers what ethics means in investing, how professions earn trust, why this industry needs especially high standards, suitability versus fiduciary duty, the forces that push good people off course, the gap between ethics and law, and a four step framework for hard decisions. Reading 90 covers how CFA Institute investigates and disciplines its members and candidates, the six principles of the Code of Ethics, and the seven Standards of Professional Conduct with their twenty three parts.
 
 ## Module 89.1, Ethics and Trust
 
-Start with a definition. Think of ethics as the moral principles and rules of conduct you rely on when you decide how to act. Ethical conduct is behavior that weighs your own interest against the direct and indirect effects of your actions on other people. Notice that ethics does not ask you to ignore your own interest. Earning a fee is fine. The question is whether you pursue your interest in a way that is fair to everyone your action touches.
+HEART: Start with a small, ordinary moment. You and a colleague build a forecasting model together. In a meeting, your boss praises it as your work. Saying nothing helps your next review, and it quietly takes something from your colleague. Nothing illegal has happened, yet most people feel the pull of a question. That question is ethics.
 
-The easy cases are the ones where your gain costs nobody anything. The hard cases, and the ones the exam loves, are where something good for you or your firm imposes a cost on someone who cannot see it coming. Usually that someone is a client.
+LEWIS: Ethics is the line a community draws between conduct it accepts as good and conduct it rejects as bad, a common understanding of right and wrong. Acting ethically means holding to moral principles in a way society would recognize as right. A second way to see it: ethical conduct leaves the people your actions touch better off.
 
-Next, a code of ethics. A code of ethics is a written set of principles that a group adopts to tell its members, and the public, what conduct it expects. It does two jobs. Inside the group, it marks the lowest level of conduct the group will accept. Outside the group, it signals to clients that members have committed to that behavior. Many organizations pair a code with more detailed standards of conduct, because broad principles can be hard to apply to a specific situation.
+HEART: Those people are called stakeholders, anyone affected directly or indirectly by what you do. For an investment professional, that means clients, coworkers, the employer and the profession as a whole. The hard cases are the ones where a choice is good for you and bad for one of them.
 
-Here is the first trap. A code by itself does not guarantee good behavior. It sets the expectation. Adoption, training and enforcement do the rest.
+LEWIS: So here is the definition worth carrying. Ethical conduct balances your own interest against the effect on others. Notice what that does not say. It does not ask you to ignore your own interest. Earning a fee, wanting a promotion and building a career are all fine. The question is whether you pursue them at someone else's unfair expense.
 
-Now, professions. What makes an occupation a profession rather than just a job? A profession rests on specialized knowledge gained through demanding education, a commitment to serve clients and society, and a shared code of ethics. Professions usually add entry requirements, an expectation of ongoing learning, and a body that monitors members and disciplines those who break the rules.
+HEART: Next, a code of ethics. A code of ethics is a group's moral principles put in writing. It tells members and outsiders alike what the group values and what conduct it expects, mostly as broad guidance. Some codes go further and spell out specific rules or standards, a floor of conduct every member has to clear.
 
-Why does this structure build trust? Because the client cannot check the expert's work. A patient cannot evaluate a surgery, and an investor often cannot evaluate a portfolio decision. The profession's promise is that its members will use their superior knowledge for the client, not against the client. The code, the entry standards and the enforcement make that promise believable.
+LEWIS: And a code is part of what makes a group a profession. A profession is a body of people who share specialized knowledge, put it to work for others, and commit to a code of ethics. A professional code is a public promise. It tells outsiders that members will apply their expertise to serve clients honestly, and that raises public confidence that they will.
 
-Why does investment management need especially high standards? Three features of the business make trust unusually important. First, clients hand over control of their savings. That is a large, direct exposure to the professional's conduct.
+HEART: Think of airline pilots or structural engineers. You cannot check their work yourself. You board the plane or walk across the bridge because a professional system stands behind them. Professions tend to share a few features. They require specialized expert knowledge. They have a code and standards of behavior, and a regulatory body that enforces those rules and monitors members. They focus on clients' needs and on service to society, they expect members to put client interests first, and they encourage or require continuing education.
 
-Second, the product is intangible. A portfolio is a set of numbers on a statement, and the client cannot touch it or test it the way you would test drive a car. Third, results are noisy. Markets move for reasons that have nothing to do with skill, so a careless or dishonest manager can hide behind bad luck for a long time.
+LEWIS: Those same features are how a profession earns trust. It demands high levels of expertise and skill. It sets ethical standards. It monitors conduct. It pushes members to keep learning so their competence grows rather than fades. It keeps the focus on clients. And experienced members mentor and inspire newer ones.
 
-When trust breaks, the damage spreads well beyond one client. Investors who feel cheated pull money out of markets or demand costly monitoring. Less capital reaches productive uses, so the cost of capital rises and growth slows. Firms caught in scandals can collapse, and employees who did nothing wrong lose their jobs. A bank or credit union faces the same logic on the funding side, because depositors and lenders supply cheap, stable money only while they trust the institution.
+HEART: The short version for the exam: professions earn trust in three main ways. They demand real expertise, they set ethical standards, and they monitor how members actually behave.
 
-That leads to professionalism in investment management. An investment professional accepts a special duty to clients. Their welfare comes ahead of the professional's own gain and ahead of the employer's interest. A principles based code, like the CFA Institute Code, applies that duty to every member and candidate, whatever the job title and wherever they work.
+LEWIS: Now, why does investment management need especially high ethical standards? Two reasons sit at the heart of it. First, clients hand over their wealth, and the professional takes on the job of both protecting it and growing it. That is a special responsibility.
 
-Now the challenges. If everyone agrees that ethics matters, why do good people still behave badly? Three challenges show up again and again.
+HEART: Second, the product is intangible. Buy a pair of running shoes and you can try them on, run in them, and find out within a week whether they hold up. Investment advice and portfolio management give you nothing to hold. Results swing for reasons that have nothing to do with skill, and fees and conflicts are hard for a client to see. So the client struggles to tell what the service was really worth, and trust ends up doing far more of the work than it does in most businesses.
 
-First, overconfidence. Most people rate themselves as more ethical than average, which cannot be true of everyone. Someone who is sure of their own integrity may skip the step of checking a decision with anyone else, and may be slow to notice when they start to drift.
+LEWIS: When that trust breaks, the damage spreads in rings. The client loses money. The firm and the professional lose business, because potential investors stay away. And then society pays.
 
-Second, situational influences. These are outside pressures that shape behavior far more than we expect. Money and prestige are the obvious ones. Loyalty is a quieter one, the wish to protect your employer, your team or a boss you like. Firm culture matters too. Even a strong compliance culture can backfire if people start asking only whether something is allowed, and stop asking whether it is right.
+HEART: Here is how. The financial industry stands between savers and the businesses that need funding. If savers do not trust their advisers, they entrust less money to the system. Less money available to fund businesses means a higher cost of capital, and that slows investment and growth.
 
-Third, a focus on the short term. Immediate rewards are vivid, like a bonus this quarter or a mandate won this week. The long term costs, to clients, to the firm's reputation and to your own career, feel distant and uncertain, so they get too little weight.
+LEWIS: There is a subtler cost too. An investor who cannot believe what advisers say carries an extra risk on top of the usual investment risks, the risk of being misled. That risk does not even have to be real to do damage. If investors merely suspect it, they put in less money and ask for higher returns before they commit.
 
-Here is a short case. A junior analyst is preparing a pitch book. Her manager, whom she admires, asks her to start the performance record at a later date so that one bad year drops out, and reminds her the pitch is due tomorrow. Loyalty to the manager is a situational influence, and the deadline is short term pressure.
+HEART: And misleading information does not just shrink the pool of capital. It points capital in the wrong direction. Money that should have reached the firms with the best prospects for growth and for doing society good goes instead to whoever told the best story. That is called a misallocation of capital, and it slows the economy and hurts the well being of everyone in it.
 
-Is it a violation? Yes, if the pitch presents the shortened record as the strategy's history without disclosing what was left out. Choosing the start date to hide a bad year misleads prospective clients. You will meet the specific Standards later in this series, mainly Standard one C, Misrepresentation, and Standard three D, Performance Presentation.
+LEWIS: The same logic shows up on a bank or credit union balance sheet. Deposits are cheap, stable funding only while depositors trust the institution. Lose that trust and the funding gets expensive fast.
 
-Next, ethics versus law. They overlap, but they are not the same thing. Picture two questions. Is it legal? Is it ethical? That gives four combinations.
+HEART: That brings us to professionalism in investment management. Clients rely on the professional's expertise, judgment and ethics, often because they know little about securities, about how fees work, or about where bias can creep into a recommendation. So most of the features of a profession apply here.
 
-Most everyday conduct is both legal and ethical. Fraud is both illegal and unethical. The interesting cases are the other two.
+LEWIS: And there are two levels of duty to know. Depending on the role and the rules that apply, an adviser may owe a client a suitability standard or a fiduciary standard.
 
-Legal but unethical. In a jurisdiction that does not ban trading on material nonpublic information, trading on a confidential tip may be lawful. It is still unfair to the people on the other side of the trade. Illegal but ethical. A whistleblower who breaks a confidentiality rule to expose a fraud, or a person engaged in civil disobedience against an unjust law, may act ethically while breaking the law.
+HEART: Suitability is about fit. Do the investment's characteristics match the client's return requirements and risk tolerance? Picture two bond funds, both a reasonable fit for a cautious retiree. One costs more and pays the adviser a bigger commission. Under a pure suitability standard, recommending either one can pass, because both fit.
 
-Why can the law not do the whole job? Three reasons. Laws are usually written in reaction to problems that have already happened, so new practices run ahead of them. Laws can be read narrowly, and some people hunt for the reading that lets them do what they wanted to do anyway. And laws differ across countries, so questionable activity can move to wherever the rules are weakest.
+LEWIS: A fiduciary standard sets the bar higher. The professional has to put all that expertise to work for whatever is truly best for the client. Now choosing the pricier fund because it pays the adviser more is out. The trap is to treat suitable as if it meant best. Suitable means it fits. Fiduciary means the client's interest comes first.
 
-The lesson is that the law is a floor. Ethical conduct often asks for more than the law requires.
+HEART: Now the uncomfortable question. If almost everyone agrees ethics matters, why do capable, decent people still cross the line? There are three challenges to ethical behavior.
 
-Here is a case. An analyst works in a country with no insider trading law. A company director, who is a friend, tells him over dinner that the company will announce a takeover next week. He buys shares the next morning.
+LEWIS: The first is overconfidence in your own ethics. Most of us believe we behave more ethically than the people around us. And we lean too hard on our own good character to keep us straight, as if the situation hardly mattered.
 
-Is this a violation for a CFA Institute member? Yes. The trade may be legal where he lives, but the Standards bar acting on material nonpublic information. When local law and the Standards differ, a member must follow the stricter of the two. That is Standard two A, Material Nonpublic Information, working together with the stricter rule principle in Standard one A, Knowledge of the Law.
+HEART: Picture a manager who thinks, I am an honest person, so whatever I decide here will be honest. That belief feels like a strength, but it is a blind spot. It skips the step of testing the decision against anyone else's view, and it ignores how much the situation is shaping the choice.
 
-Finally, a framework for ethical decisions. A framework slows you down and makes you look at a problem from more than one angle before you act. It has four phases. Identify, consider, decide and act, and reflect.
+LEWIS: Which is the second challenge, situational influences. These are external pressures, and many researchers argue they shape ethical behavior more than personal traits do. Social pressure from others is one. Loyalty is a powerful one, to an employer, a supervisor, the organization, or the coworkers you sit with every day. And the prospect of more money or more prestige is the most obvious.
 
-Identify. Gather the relevant facts, and separate facts from opinions. Name the stakeholders and the duties you owe each of them. Pick out the ethical principles involved and any conflicts of interest.
+HEART: Loyalty is the sneaky one, because it feels like a virtue. On a team that has always accepted a vendor's lavish dinners, the next person to decline feels disloyal.
 
-Consider. Think about the situational influences pushing on you, such as a bonus, a boss or a deadline. Seek guidance, for example from your compliance department, a trusted mentor, or the Code and Standards. Then lay out the alternative actions open to you, not just the obvious one.
+LEWIS: Situational influences also hide inside compliance culture. A firm that runs on strict, rules based compliance can slide into a culture where the only question anyone asks is, am I allowed to do this? The better question, should I do this, judged by principles and the long run, often goes unasked. A rulebook answers can I. Ethics answers should I.
 
-Decide and act. Make the decision. Sometimes the right action is to escalate the issue to a supervisor or to compliance rather than settle it alone.
+HEART: The third challenge is a short term focus. Loyalty and the pull of money push people to weigh near term results and their own interest above long term consequences. The bonus arrives this quarter and feels real. The damage to clients, to the firm's name and to your own career is years away and feels abstract, so it gets too little weight.
 
-Reflect. Afterward, compare what happened with what you expected. If the outcome surprised you, ask why. Perhaps you missed a stakeholder or underestimated a pressure. Reflection makes the next decision better.
+LEWIS: Next, ethics versus law. They overlap, but they are not the same thing. Picture two yes or no questions. Is it legal? Is it ethical? That gives four combinations. Most daily work is both legal and ethical, and fraud is neither. The two interesting boxes are the mixed ones.
 
-Run one case through it. A fund manager learns that a holding has lost much of its value. The head of sales asks her to wait until after a big fundraising week before marking the position down.
+HEART: Legal but unethical. Go back to the forecasting model from the start of this module. No law stops you from quietly accepting sole credit for work you built with a colleague. Most people would still call it wrong, because it takes something your colleague earned.
 
-Identify. The facts are a real loss and a request to delay. The stakeholders include existing investors, new investors and the firm. She owes investors accurate information, and the firm has a conflict, because it wants new money.
+LEWIS: Illegal but ethical. Picture a lab technician at a food company who finds test results showing that a product already on store shelves is contaminated. Suppose that where she works, giving internal test data to outsiders breaks a secrecy law, but she hands the results to the food safety inspector anyway. Many people would call that ethical whistleblowing, even though it is illegal. Civil disobedience, openly breaking a law you believe is unjust, is the other classic act that many people regard as ethical despite being illegal.
 
-Consider. The pressure comes from a senior colleague and from her own bonus. Compliance is the right place to seek guidance. Her alternatives are to delay as asked, or to mark the position on schedule and report the request.
+HEART: So not every unethical act is illegal, and not every illegal act is unethical. And in general, ethical principles set a higher bar than laws and regulations do.
 
-Act. She marks it on time and tells compliance. Reflect. Did the process work, and would she spot this kind of pressure sooner next time?
+LEWIS: Why can the law not carry the whole load? First, laws tend to follow scandals. They are usually written in reaction to bad behavior that has already happened. After the dot com bust, for example, new rules arrived to wall off stock research from investment banking, because some analysts had been talking up companies their own firms wanted banking business from. The rule came after the harm.
 
-The verdict is clear. Delaying the markdown to attract new money would be a violation, because new investors would buy in at a value she knows is too high. Marking on time is not a violation.
+HEART: Second, laws are specific, and specific rules leave gaps. A new law can even open the door to new kinds of unethical behavior that its authors never imagined, as people search for whatever the precise wording does not forbid. Ban one kind of fee, and a differently named fee can appear.
 
-Now the exam traps for this module. The tempting wrong answer is usually that something is legal and therefore ethical, or that a strong compliance program guarantees ethical behavior. Both are false. Also watch the phases of the framework. Listing stakeholders, duties and conflicts belongs in identify. Weighing pressures, seeking guidance and comparing alternatives belong in consider.
+LEWIS: Third, ethical decisions demand more judgment. A legal question asks whether the rule allows something. An ethical question asks you to weigh the effect on many stakeholders, now and later. That is why regulation alone is not enough. The law is the floor, and ethics asks for more.
 
-The rule to carry out of this module is simple. The law is the floor, not the ceiling. Ethical conduct weighs your own interest against the effects on others, and the framework runs identify, consider, decide and act, then reflect.
+HEART: Last in this module, a framework for ethical decision making. The starting point is the firm. When ethics is part of how a firm reaches its decisions, teams get in the habit of laying out other courses of action and looking at near and far consequences through several sets of eyes, and the decisions improve. The firm's first step is a written code of ethics to anchor that process.
+
+LEWIS: Making ethics routine also lets the firm train people in good decisions, give them practice and keep reinforcing the habit, which is how an ethical culture takes root. And senior management support is essential. If leaders treat the framework as paperwork, so will everyone else.
+
+HEART: For you as an individual, a framework brings the real issues to the surface, makes you look at them from more than one side, builds the judgment that hard calls need, and catches ethical fallout before it can surprise you. It has four steps. Identify. Consider. Decide and act. Reflect.
+
+LEWIS: Step one, identify. Identify the relevant facts, both the facts you have and the facts you wish you had. Identify the stakeholders and the duties you owe each of them, which can include your employer, clients, coworkers, yourself, your family and others in the industry. That naturally brings out the conflicts of interest among them. And identify the ethical principles involved, though those often get clearer as you go.
+
+HEART: Step two, consider. Consider the situational influences pressing on you, and your own personal biases. Seek additional guidance, from a mentor, or from colleagues or friends whose judgment has held up in the past, and from the firm's legal and compliance staff. Outside views give you more angles on the problem and help you come up with options you would not have thought of. Then weigh every alternative action, including its short term and long term effects and any ethical side effects nobody intended.
+
+LEWIS: Step three, decide and act.
+
+HEART: Step four, reflect. Afterward, look at the outcome. Was it what you expected? Why or why not? Did the decision have its intended result, and did you give proper weight to the ethical principles, the situational influences, and your duties to clients and other stakeholders?
+
+LEWIS: Now one story, walked through all four steps. Nora is a portfolio manager at a midsize asset manager, advising individual clients. The firm launches a new in house bond fund, and the head of sales announces a competition. The team that moves the most client money into the fund by quarter end wins a trip and a bonus. Two of Nora's longtime clients, a retired couple, hold an outside bond fund that is cheaper and suits them well.
+
+HEART: Identify. The facts she has: the new fund costs more, the competition rewards moving money regardless of fit, and the couple's current fund works for them. The facts she would like: an honest comparison of the two funds' risks and costs, and whether clients will be told about the competition. The stakeholders: the couple and her other clients, to whom she owes loyalty and care, her employer, which deserves her effort but not at clients' expense, her teammates who want the trip, and herself and her family, who would enjoy the bonus. The conflict is plain. The competition pays her to move money whether or not the move helps the client. The principle at stake is putting clients first.
+
+LEWIS: Consider. The situational influences are strong. Her team is counting on her, the head of sales is senior and popular, and the deadline is weeks away, which is short term pressure in its purest form. She also checks her own bias. Her first instinct is, I would never steer a client wrong, so I can just decide case by case. That is the overconfidence trap. So she asks a mentor who has been through sales pushes before, and she asks compliance.
+
+HEART: Then she lays out her alternatives. Move every client who could plausibly hold the new fund. Move only the clients for whom it is genuinely better, and tell them about the competition. Sit the competition out entirely. Or raise the competition's design with compliance. In the short term, the first option wins the trip. In the long term, it puts at risk her clients' trust, the firm's reputation, and her own name if the moves ever come to light, which is exactly the unintended consequence the framework is built to catch.
+
+LEWIS: Decide and act. She reviews each client on the merits. The couple stays where they are. The one client for whom the new fund is clearly a better fit gets the recommendation, along with a plain mention of the competition. And she tells compliance that the competition rewards moving money regardless of fit.
+
+HEART: Reflect. At quarter end, she compares what happened with what she expected. Compliance changed the competition to reward client outcomes rather than raw sales, which she had hoped for. But her teammates were annoyed she had not warned them sooner, which she had not expected. So her lesson is to bring colleagues in early next time. Later episodes tie a story like this to specific Standards on loyalty to clients and on conflicts of interest.
+
+LEWIS: The takeaway. Ethical conduct balances your own interest against the effect on stakeholders, and the law is only the floor. Overconfidence, situational pressure and a short term focus pull good people off course, and the framework answers with four steps: identify, consider, decide and act, then reflect.
 
 ## Module 90.1, Code and Standards
 
-Now the structure. The CFA Institute system has four layers. The Code of Ethics states broad principles. The Standards of Professional Conduct state specific duties. The Standards of Practice Handbook explains how each Standard applies, with guidance and examples. And the Professional Conduct Program enforces all of it.
+HEART: Reading 89 asked why ethics matters. Reading 90 is about the rules CFA Institute actually holds people to, and how it enforces them. And they apply to you already. The Code and Standards bind every member of CFA Institute, charterholders included, and every candidate in the CFA Program.
 
-Every member of CFA Institute, including charterholders, and every candidate in the CFA Program must comply. As a candidate, you are bound already.
+LEWIS: Start with enforcement, which runs through the Professional Conduct Program. Two documents govern it, the CFA Institute Bylaws and the Rules of Procedure for professional conduct proceedings. The whole program rests on two principles: a fair process for the member or candidate, and confidentiality of the proceedings.
 
-Start with enforcement. The CFA Institute Board of Governors holds overall responsibility for the Professional Conduct Program. In practice, the Professional Conduct staff investigate possible violations under written rules of procedure. They share responsibility for enforcement with the Disciplinary Review Committee, a committee of volunteer charterholders whose members sit on the panels that decide contested cases. The procedures rest on two principles, a fair process for the member or candidate, and confidentiality of the proceedings.
+HEART: Who does what? The Board of Governors holds overall responsibility for the program. Enforcement of the Code and Standards rests with the Disciplinary Review Committee, a volunteer committee of charterholders set up by the Board, working together with the Professional Conduct staff. The staff do the hands on work of looking into possible violations, and that investigation is called an inquiry. When a case is contested, members of the committee hear it and decide.
 
-What starts an inquiry? Several things can. First, self disclosure. Members and candidates complete a professional conduct statement, and must disclose matters such as involvement in civil litigation or a criminal investigation, or being the subject of a written complaint.
+LEWIS: What can start an inquiry? Five things. First, self disclosure. Members and candidates fill out an annual Professional Conduct Statement, and on it they must disclose whether they are involved in civil litigation or a criminal investigation, or are the subject of a written complaint.
 
-Second, a written complaint from someone else, such as a client, an employer or a colleague. Third, evidence from public sources, such as a news report or a regulator's announcement. Fourth, a report from an exam proctor about conduct during the exam. Fifth, CFA Institute's own monitoring, which includes analysis of exam scores and materials, and checks of websites and social media for exam content.
+HEART: Second, a written complaint about someone's professional conduct, sent to the Professional Conduct staff by a client, a colleague or anyone else. Third, evidence of misconduct from public sources, such as a news story or a broadcast. Fourth, a report from an exam proctor about a possible violation during the exam. Fifth, CFA Institute's own analysis of exam materials and its monitoring of social media.
 
-Here is the trap. An inquiry does not need a complaint. Staff can open one based on what they learn on their own.
+LEWIS: So here is the trap. An inquiry does not need anyone to complain. A news report, a proctor's note or a post found online is enough.
 
-Once an inquiry is open, staff can ask the member or candidate for a written explanation. They can interview that person, the complaining party and others, and collect documents and records. Then staff reach one of three outcomes. They can close the matter with no disciplinary action. They can issue a cautionary letter, which is a warning, not a sanction. Or they can conclude that a violation occurred and propose a sanction.
+HEART: Once an inquiry is open, the staff can ask the member or candidate for a written explanation. They can also interview that person, interview the complainant or other third parties, and gather documents and records.
 
-The member or candidate then chooses. If they accept the proposed sanction, it is imposed. If they reject it, the matter goes to a hearing panel drawn from the Disciplinary Review Committee. The panel reviews the material and hears from both sides. It decides whether a violation occurred and, if so, what the sanction should be.
+LEWIS: Then the staff reach one of three conclusions. One, no disciplinary sanction is appropriate. Two, issue a cautionary letter, which is a warning rather than a sanction. Three, find that a violation occurred and propose a disciplinary sanction.
 
-What sanctions are available? For members, they run from a private reprimand, through public censure and suspension of membership and of the right to use the CFA designation, up to revocation of membership and of the right to use the designation. A candidate who violates the rules can be suspended from the CFA Program or prohibited from further participation in it.
+HEART: And the person gets a choice. Accept the proposed sanction, and it takes effect. Reject it, and the case is referred to a disciplinary review panel made up of CFA Institute members, which holds a hearing and decides the matter.
 
-Notice what is not on the list. CFA Institute is a professional body, not a regulator or a court. It does not impose fines or send anyone to prison. Its power is over membership, the designation and access to its programs.
+LEWIS: What can a sanction look like? For members, the range runs from a private reprimand, through a public censure, which is a formal rebuke from the profession made public, up to suspending or revoking membership and the right to use the designation. For candidates, it can mean suspension from the CFA Program or being barred from it altogether.
 
-A quick case. A candidate walks out of the exam and posts online which two formulas came up again and again. Nobody complains. CFA Institute's monitoring of social media finds the post, and staff open an inquiry.
+HEART: Notice what is missing. CFA Institute is a professional body, not a court or a government regulator. It does not fine anyone or send anyone to prison. Its power is over membership, the designation and access to its programs.
 
-Is it a violation? Yes. Exam content stays confidential, including which formulas or broad topics were or were not tested. Disclosing it undermines the integrity of the exam, which breaks Standard seven A, Conduct as Participants in CFA Institute Programs. The sanctions available against a candidate include suspension from the program or prohibition from further participation.
+LEWIS: Here is the whole process in one story. Owen, a charterholder, is named in a lawsuit by a former client, and he reports it on his annual statement, as he must. Staff open an inquiry, ask Owen for a written explanation, interview the client and gather his trading records. They conclude he broke the rules and propose suspending his membership. Owen rejects that. So a hearing panel of members reviews the case and makes the decision.
 
-Now the Code of Ethics. It has six components, each describing what members and candidates must do. Here they are in my own words.
+HEART: Now the Code of Ethics. It has six components, and they are principles rather than detailed rules. Think of the Code as the spirit and the Standards as the letter. Here are the six in plain words.
 
-First, bring integrity, competence, diligence and respect to every dealing. Behave ethically toward the public, clients and prospective clients, employers, employees, fellow professionals, and everyone else in the global capital markets.
+LEWIS: One. Be honest, capable, hardworking and respectful, and behave ethically toward everyone your work touches, from clients and prospects to bosses, staff, peers and the wider market. The four words to hold onto are integrity, competence, diligence and respect.
 
-Second, when your personal interests collide with the integrity of the investment profession or with your clients' interests, yours come last. Third, in analysis, recommendations, investment actions and other professional work, take reasonable care and use independent judgment.
+HEART: Two. When your personal interest pulls one way, and the integrity of the investment profession or your clients' interests pull the other, your personal interest loses.
 
-Fourth, conduct yourself professionally and ethically, and push others to do likewise, so that your behavior brings credit to you and to the profession. Fifth, protect the integrity and viability of the global capital markets, because society as a whole gains from them.
+LEWIS: Three. Be careful and think for yourself, whether you are analyzing an investment, recommending one, acting on one, or doing any other professional work. The terms are reasonable care and independent professional judgment.
 
-Sixth, keep maintaining and improving your own professional competence, and strive to help other investment professionals maintain and improve theirs. Those six principles are the base that every Standard rests on.
+HEART: Four. Set a professional, ethical example and nudge others to follow it, so that how you work brings credit to you and to the profession.
 
-A short memory hook for the six runs like this. Integrity toward everyone, profession and clients before self, and careful, independent judgment. Then set an example, protect the markets, and keep learning while helping others learn.
+LEWIS: Five. Help keep the global capital markets sound and trustworthy, because in the end society is the one that benefits. The terms are the integrity and viability of the markets.
 
-Three traps live here. First, the second component names the integrity of the profession and the interests of clients. It does not mention the employer. If a question asks which statement is part of the Code, a choice about putting your employer's interests first is the distractor.
+HEART: Six. Keep building your own professional competence, and try to help other investment professionals build theirs.
 
-Second, listen to the verbs in the sixth component. You must maintain and improve your own competence. For other professionals, you strive to. Third, the fifth component is about markets that serve society as a whole, not about maximizing returns for any one client.
+LEWIS: Three traps hide in those six. First, component two names the integrity of the profession and the interests of clients. It does not mention your employer. An answer choice that says the Code puts your employer's interests above your own is the distractor.
 
-Now the Standards. There are seven groups, each with a Roman numeral, and 23 individual Standards in all. In order, the groups are Professionalism, then Integrity of Capital Markets, then Duties to Clients, then Duties to Employers, then Investment Analysis, Recommendations, and Actions, then Conflicts of Interest, and last, Responsibilities as a CFA Institute Member or CFA Candidate. A simple story holds the order. You as a professional, then the market everyone shares, then your clients, then your employer, then the work you produce, then the conflicts that can bend that work, and finally your relationship with CFA Institute itself.
+HEART: Second, the verbs in component six differ. For your own competence, keeping it up and improving it is required. For other professionals, you only strive to help. Third, component five is about markets that serve society, not about maximizing any one client's return.
 
-Here is one line on each Standard. The next four episodes go deep, so for now you need the number, the title and the core idea.
+LEWIS: Now the Standards of Professional Conduct. There are seven of them, each a group with a Roman numeral, and between them they hold twenty three individual Standards. They turn the Code's principles into specific duties. The current version took effect at the start of twenty twenty four, when one new Standard was added and two were revised, and it is the version you will be tested on.
 
-Standard one, Professionalism, has five parts. Standard one A, Knowledge of the Law. Know and follow the laws, rules and regulations that govern your work, including the Code and Standards. When they conflict, follow the stricter one. Do not knowingly take part in or help a violation, and separate yourself from one you discover.
+HEART: Here is the order, with the purpose of each, and then a one line picture of every part. Later episodes go deep, so for now the goal is the number, the name and the idea.
 
-Standard one B, Independence and Objectivity. Use reasonable care to keep your judgment unbiased and your own. Never give, request or take anything of value that a reasonable person would expect to cloud your judgment or someone else's.
+LEWIS: Standard one, Professionalism. Its purpose is the baseline of being someone clients can trust: know the rules, keep your judgment your own, tell the truth, deal honestly, and be good at the job. It has five parts.
 
-Standard one C, Misrepresentation. Never knowingly give a false or misleading picture of your research, advice, investment actions or other professional work. Standard one D, Misconduct. In professional dealings, never lie, cheat, defraud or deceive, and do nothing that casts a bad light on your professional reputation, integrity or competence.
+HEART: Standard one A, Knowledge of the Law. Know and follow the laws and rules that govern your work, and remember that the Code and Standards count among them. When two sets of rules disagree, follow the stricter one. And if you find a violation going on, do not take part or help, and step away from it, which is called dissociating.
 
-Standard one E, Competence. This is the newest Standard. Bring the knowledge and skill your role demands to the work you do, and keep them current. It turns a principle that was already in the Code into an enforceable duty, and it covers all of your professional work, not just investment decisions.
+LEWIS: Standard one B, Independence and Objectivity. Your opinion has to stay yours. Do not hand out, ask for or take gifts, perks or payments that a reasonable person would expect to bend your judgment, or someone else's.
 
-Standard two, Integrity of Capital Markets, has two parts. Standard two A, Material Nonpublic Information. If you hold information that is material and not yet public, do not act on it or lead anyone else to act on it. Standard two B, Market Manipulation. Never distort prices or fake trading volume to fool other market participants.
+HEART: Standard one C, Misrepresentation. Never knowingly mislead anyone about your work, whether that is your research, your advice or what you did with a client's money.
 
-Standard three, Duties to Clients, has five parts. Standard three A, Loyalty, Prudence, and Care. Be loyal to clients, use reasonable care and prudent judgment, and put their interests ahead of your employer's and your own. Standard three B, Fair Dealing. When you release research, change a recommendation or place trades, give every client fair and objective treatment.
+LEWIS: Standard one D, Misconduct. Do not lie, cheat or defraud in your professional dealings, and avoid behavior that would make people question your character or your ability as a professional.
 
-Standard three C, Suitability. In an advisory relationship, learn the client's circumstances, objectives and constraints, make sure each recommendation fits the client's total portfolio, and update that picture regularly. When you manage to a stated mandate, stay within it. Standard three D, Performance Presentation. When you report investment results, make reasonable efforts to keep them fair, accurate and complete.
+HEART: Standard one E, Competence. Have the knowledge and skill your job requires, and keep it up to date. This is the newest Standard, added in twenty twenty four.
 
-Standard three E, Preservation of Confidentiality. Protect what you know about current, former and prospective clients. The exceptions cover illegal activity by the client, disclosure the law requires, and disclosure the client agrees to.
+LEWIS: Standard two, Integrity of Capital Markets. Its purpose is a fair playing field, where prices reflect real information and nobody rigs the game. Two parts.
 
-Standard four, Duties to Employers, has three parts. Standard four A, Loyalty. Serve your employer's interests at work. Give it the full benefit of your skills, keep its confidential information private, and do it no other harm.
+HEART: Standard two A, Material Nonpublic Information. If you know something that has not been released to the market and would likely move the price, you cannot act on it, and you cannot get anyone else to act on it. Material means a reasonable investor would want to know it before deciding, or it would probably move the price. Nonpublic means it has not reached the market as a whole, so sharing it with a small group of analysts does not make it public.
 
-Standard four B, Additional Compensation Arrangements. Before you take outside pay, gifts or other benefits that compete with your employer's interest, or could reasonably be expected to conflict with it, get written consent from everyone involved. Standard four C, Responsibilities of Supervisors. If people work under your supervision or authority, take reasonable steps to see that they follow the law and the Code and Standards.
+LEWIS: Standard two B, Market Manipulation. Do not distort prices or fake trading activity to fool other investors. Talking up a thinly traded stock with false posts online, then selling into the rise, is the picture.
 
-Standard five, Investment Analysis, Recommendations, and Actions, has three parts. Standard five A, Diligence and Reasonable Basis. Do careful, independent and thorough work, and have a reasonable and adequate basis, backed by research, for each recommendation or action.
+HEART: Standard three, Duties to Clients. Its purpose is simple: the client comes first. Five parts.
 
-Standard five B, Communication with Clients and Prospective Clients. Since the 2024 revision, this starts with explaining the nature of your services and what they cost the client. It also requires you to explain the basic format and general principles of your investment process and any material changes to it, to disclose significant limitations and risks, and to include the factors that matter to your recommendations. And always keep fact separate from opinion. Standard five C, Record Retention. Build and keep the files that back up your research, recommendations, actions and other investment communications with clients.
+LEWIS: Standard three A, Loyalty, Prudence, and Care. Work for your clients' benefit, with the caution a sensible expert would bring, and rank their interests ahead of your employer's and your own. Notice that this Standard does name the employer, and puts it behind the client.
 
-Standard six, Conflicts of Interest, has three parts. Standard six A, Avoid or Disclose Conflicts. This is the renamed Standard, and the new title puts avoidance first. Avoid conflicts where you can. Where you cannot, disclose it fully, fairly, prominently and in plain language if it could reasonably be expected to undermine your independence and objectivity or get in the way of your duties to clients, prospective clients and your employer.
+HEART: Standard three B, Fair Dealing. When you publish research, change a recommendation or take investment action, treat every client fairly and objectively. Fair does not have to mean identical, but no client should be quietly shortchanged.
 
-Standard six B, Priority of Transactions. Clients and your employer trade first. Trades in anything you beneficially own wait their turn. Standard six C, Referral Fees. If you receive or pay anything of value for recommending products or services, tell your employer, clients and prospective clients as appropriate.
+LEWIS: Standard three C, Suitability. When you advise a client, first learn how much investing experience they have, what they need to earn, how much risk they can bear, and what limits their money faces. Refresh that picture regularly, make sure each recommendation suits their situation, and judge it by how it fits the whole portfolio. If instead you run a fund to a stated mandate or style, stay inside that mandate. And do not confuse this Standard with the bare suitability standard from earlier. Standard three A already asks every member and candidate to put clients first, whether or not the law makes them a fiduciary.
 
-Standard seven, Responsibilities as a CFA Institute Member or CFA Candidate, has two parts. Standard seven A, Conduct as Participants in CFA Institute Programs. Do nothing that damages the good name of CFA Institute or the designation, or that weakens the integrity, validity or security of its programs, the exams included. Standard seven B, Reference to CFA Institute, the CFA Designation, and the CFA Program. Never overstate or distort what membership, the charter or being a candidate means or implies.
+HEART: Standard three D, Performance Presentation. When you show investment results, make a genuine effort to keep them fair, accurate and complete. Showing only your best years is the classic failure.
 
-Count them up. Five, two, five, three, three, three and two make 23.
+LEWIS: Standard three E, Preservation of Confidentiality. Keep what you know about clients private, including former clients and prospective ones. There are three exceptions: the information concerns illegal activity by the client, the law requires disclosure, or the client agrees to it.
 
-Now practice matching a story to a Standard, which is exactly the skill the exam tests. Case one. A financial adviser receives 200 dollars from a local accounting firm for every client she sends there, and never mentions it to her clients. That is a violation. The payment could color her recommendation, and clients need to know about it to judge her advice. The Standard is six C, Referral Fees.
+HEART: Standard four, Duties to Employers. Its purpose is to make you a loyal, honest employee without ever trading away the client. Three parts.
 
-Case two. A portfolio manager receives a small allocation of a popular new share issue. It is suitable for many of his clients, but he gives all of it to his three largest accounts because they pay the most in fees. That is a violation. Clients for whom the issue was equally suitable got nothing, which is not fair or objective treatment. The Standard is three B, Fair Dealing.
+LEWIS: Standard four A, Loyalty. At work, act for your employer's benefit. Give it the full value of your skills, keep its secrets, and do not harm it. Quietly copying the client list before you leave for a competitor is the picture.
 
-Case three. A charterholder's website says that charterholders earn higher returns for their clients. That is a violation of Standard seven B, because it claims that superior performance follows from the designation. Compare a colleague who tells a client that earning the charter required passing three exams and a commitment to follow the Code and Standards. No violation. That statement is factual and promises no results.
+HEART: Standard four B, Additional Compensation Arrangements. If outside pay or perks could compete with your employer or pull against its interests, get written permission from everyone involved before you accept. A client who offers you a personal bonus for beating a benchmark is the picture.
 
-Now the exam traps for this module. First, mixing up the Code and the Standards. The Code has six components and states principles. The Standards have seven groups and state specific duties. An answer that lists seven Code components or six groups of Standards is wrong.
+LEWIS: Standard four C, Responsibilities of Supervisors. If anyone works under your supervision or authority, take reasonable steps to make sure they follow the law, the rules, and the Code and Standards.
 
-Second, the enforcement roles. Staff investigate and propose. A hearing panel of the Disciplinary Review Committee decides only when the member or candidate rejects the proposed sanction.
+HEART: Standard five, Investment Analysis, Recommendations, and Actions. Its purpose is the quality of the work itself and how you explain it. Three parts.
 
-Third, triggers. An inquiry can start from self disclosure, a complaint, public sources, a proctor report or CFA Institute's own monitoring. Fourth, a cautionary letter is not a sanction. Fifth, know the current titles. Competence is Standard one E, and Standard six A is now Avoid or Disclose Conflicts.
+LEWIS: Standard five A, Diligence and Reasonable Basis. Do careful, independent and thorough work, and make sure every recommendation or action rests on research solid enough to justify it.
 
-The rule to carry out of this module is this. The Code gives six principles. The Standards give seven groups and 23 specific duties. Staff investigate and propose, and a hearing panel decides only when a proposed sanction is rejected.
+HEART: Standard five B, Communication with Clients and Prospective Clients. Tell clients what services they are getting and what those services cost them, which is the part added in twenty twenty four. Explain the basic shape and principles of your investment process, and tell them promptly when it changes in a way that matters. Point out the significant limitations and risks. Include the factors that drove your recommendation. And always keep fact and opinion apart.
+
+LEWIS: Standard five C, Record Retention. Keep the records that back up your analysis, your recommendations, your actions, and what you told clients about them. If someone asks why you did something, the file should answer.
+
+HEART: Standard six, Conflicts of Interest. Its purpose is to keep conflicts from secretly bending your work. Three parts.
+
+LEWIS: Standard six A, Avoid or Disclose Conflicts. Anything that could fairly be expected to cloud your judgment, or to pull against what you owe clients, prospects or your employer, should be avoided whenever that is reasonably possible. When it cannot be avoided, disclose it in full, up front and in words a client will actually understand. The twenty twenty four revision added avoidance, and it is the preferred route.
+
+HEART: Standard six B, Priority of Transactions. Clients and your employer trade first. Your own trades, in anything where you are the beneficial owner, wait their turn.
+
+LEWIS: Standard six C, Referral Fees. Whenever money or any other benefit changes hands because a product or service was recommended, whether you are the one paid or the one paying, tell the people who need to know: your employer, your clients and your prospects, as the situation calls for.
+
+HEART: Standard seven, Responsibilities as a CFA Institute Member or CFA Candidate. Its purpose is to protect the program and the designation themselves. Two parts.
+
+LEWIS: Standard seven A, Conduct as Participants in CFA Institute Programs. Do nothing that harms the reputation of CFA Institute or the designation, or that undermines the fairness, credibility or security of its exams and programs. Cheating, or sharing exam questions with others, are the obvious pictures.
+
+HEART: Standard seven B, Reference to CFA Institute, the CFA Designation, and the CFA Program. Whenever you mention membership, the charter or your candidacy, describe it accurately and never inflate what it says about you.
+
+LEWIS: Count them up. Five, two, five, three, three, three and two, which makes twenty three.
+
+HEART: Now practice the real exam skill, matching a story to a Standard. Case one. Mira, an analyst, is at a conference dinner when a company's finance director lets slip that a major contract was just lost and the news goes out next week. Mira texts her brother, and he sells his shares the next morning. That is a violation of Standard two A, Material Nonpublic Information. She did not trade herself, but she caused someone else to act on information the market did not have.
+
+LEWIS: Case two. Theo manages client portfolios. He decides to buy a small company's stock across his clients' accounts, and the morning before he places those orders, he buys some for his personal account. That is a violation of Standard six B, Priority of Transactions. His own trade jumped the line ahead of his clients' trades.
+
+HEART: Case three. Grace passed Level one and is registered for Level two. On her online profile, she writes her name followed by CFA Level two, as if it were a title. That is a violation of Standard seven B. There is no partial designation, so presenting it that way overstates what candidacy means. She could instead say she is a Level two candidate in the CFA Program.
+
+LEWIS: Case four. Ruth's longtime client sends her a pair of concert tickets to thank her for a good year. She tells her employer about the gift. No violation. A thank you from a client for work already done does not threaten her independence the way a gift from someone seeking influence would, and she disclosed it.
+
+HEART: Now the exam traps for this module. First, do not mix up the Code and the Standards. The Code has six components and states principles. The Standards have seven groups and state specific duties. An answer that swaps those numbers is wrong.
+
+LEWIS: Second, the enforcement roles. Staff investigate and propose. If the member or candidate rejects the proposed sanction, a hearing panel of members takes the case. Third, an inquiry can start without any complaint. Fourth, a cautionary letter is not a sanction. Fifth, know the current titles. Competence is Standard one E, Standard six A is Avoid or Disclose Conflicts, and Standard five B now includes disclosing costs.
+
+HEART: The takeaway. The Code gives six principles, and the Standards give seven groups with twenty three specific duties. Staff investigate and propose, a hearing panel of members steps in when a proposed sanction is rejected, and the sanctions reach membership, the designation and the program, never a fine.
 
 ## Recall check
 
-Q: In the ethical decision making framework, which phase includes seeking guidance from compliance and weighing alternative actions?
+LEWIS Q: Does acting ethically mean setting your own interests aside completely?
 
-Answer: Consider. Identify is about facts, stakeholders, duties owed, principles and conflicts. Consider is where you weigh situational influences, seek guidance and lay out alternatives before you decide and act.
+HEART: Answer. No, it means balancing your own interest against the effect on others. Here is why. Ethical conduct is judged by its effect on stakeholders, the people your actions touch directly or indirectly. Pursuing a fee or a promotion is fine. What makes a choice unethical is gaining at a stakeholder's unfair expense, like taking credit for a colleague's work.
 
-Q: A manager is so sure of her own integrity that she never runs close calls past compliance. Which challenge to ethical behavior is this most likely to be?
+HEART Q: Why does the intangible nature of investment management make ethics more important than in many other businesses?
 
-Answer: Overconfidence. She overrates her own ethics, so she skips the outside check that would catch a mistake. Situational influences are outside pressures such as money or loyalty, which is not the main issue in this story.
+LEWIS: Answer. Because clients cannot easily judge the quality or value of what they receive, so they have to rely on trust. Here is why. A physical product can be inspected and tested. Investment results are noisy, and fees and conflicts are hard to see, so a client often cannot tell good advice from bad luck or bad faith. When the product cannot be checked, the professional's integrity is most of what the client is buying.
 
-Q: An analyst in a country with no insider trading law trades on a takeover tip from a company director. Is this a violation for a CFA Institute member, and if so, of which Standard?
+LEWIS Q: Two funds both fit a client's risk tolerance and return needs, but one pays the adviser more. Which standard allows recommending either fund, and which standard is stronger?
 
-Answer: The trade may be legal locally, but it violates Standard two A, Material Nonpublic Information. When local law is less strict than the Code and Standards, a member must follow the stricter rule, a duty that comes from Standard one A, Knowledge of the Law.
+HEART: Answer. A suitability standard can allow either, and a fiduciary standard is the stronger one. Here is why. Suitability only asks whether the investment's characteristics match the client's return requirements and risk tolerance, and both funds do. A fiduciary standard requires acting in the client's best interest, so choosing the costlier fund because it pays the adviser more fails that test.
 
-Q: A member rejects the sanction proposed by the Professional Conduct staff. What happens next?
+HEART Q: A manager says, I am an honest person, so I do not need to run this decision past anyone. Which challenge to ethical behavior is that?
 
-Answer: The matter goes to a hearing panel drawn from the Disciplinary Review Committee. The panel reviews the evidence and the submissions from both sides, decides whether a violation occurred, and if so, sets the sanction.
+LEWIS: Answer. Overconfidence in one's own ethics. Here is why. People tend to rate their own ethical behavior above other people's and to give too much credit to their own character. That belief makes them skip outside checks and ignore the situational pressures actually shaping the choice, which is where good people most often go wrong.
 
-Q: Which of these is a component of the Code of Ethics? Place the interests of your employer above your own, place the integrity of the profession and the interests of clients above your own, or never underperform a client's benchmark?
+LEWIS Q: How can a strict, rules based compliance program end up weakening ethical behavior?
 
-Answer: Placing the integrity of the investment profession and the interests of clients above your own personal interests. The Code does not mention the employer in that component, and no part of the Code promises performance.
+HEART: Answer. It can train people to ask only what they are allowed to do, not what they should do. Here is why. When the culture centers on the rulebook, anything the rules do not forbid starts to feel acceptable. The question of what is right, based on principles and long term consequences, drops out. Rules answer can I, while ethics answers should I.
 
-Q: Under the current Standards, which Standard covers competence, and what does it require?
+HEART Q: Can an action be illegal and still be considered ethical?
 
-Answer: Standard one E, Competence, part of the Professionalism group. It requires members and candidates to act with, and maintain, the competence their professional responsibilities demand. It was added in the revision that took effect at the start of 2024.
+LEWIS: Answer. Yes. Here is why. Laws and ethics overlap, but they are not the same. Civil disobedience against a law seen as unjust, or whistleblowing that breaks a secrecy rule to expose wrongdoing, may be illegal yet viewed by many as ethical. The reverse holds too, since plenty of unethical behavior breaks no law.
 
-## Recap
+LEWIS Q: Why is regulation alone not enough to ensure ethical conduct?
 
-Ethics means weighing your own interest against the effects of your actions on others. Investment management needs especially high standards because clients hand over their savings, the product is intangible and results are noisy. The three challenges to ethical behavior are overconfidence, situational influences and a short term focus. The law is a floor, not a ceiling, so conduct can be legal but unethical, or illegal but ethical.
+HEART: Answer. Because laws lag behind misconduct, leave gaps, and call for less judgment than ethics does. Here is why. New laws usually respond to scandals that already happened. Because they are specific, they can open the door to new forms of misconduct their authors did not foresee. And a legal test asks only whether a rule allows something, while an ethical decision weighs the effect on many stakeholders over time.
 
-The decision framework runs identify, consider, decide and act, then reflect. The Code of Ethics has six components, and the Standards have seven groups and 23 individual Standards, including Standard one E, Competence, and Standard six A, Avoid or Disclose Conflicts. In enforcement, staff investigate and may close the case, send a cautionary letter or propose a sanction, and a hearing panel of the Disciplinary Review Committee decides only if the proposed sanction is rejected. Sanctions run from a private reprimand and public censure up to suspension and revocation, and candidates can be suspended or prohibited from the program.
+HEART Q: In the ethical decision making framework, which step includes weighing situational influences, seeking guidance and comparing alternative actions?
+
+LEWIS: Answer. Consider, the second step. Here is why. Identify comes first and gathers the facts, the stakeholders and duties owed, the ethical principles and the conflicts of interest. Consider then looks at the pressures and personal biases at work, brings in outside views from a mentor or compliance, and weighs each alternative's short and long term effects. Only then do you decide and act.
+
+LEWIS Q: What does the reflect step ask?
+
+HEART: Answer. Whether the outcome matched what you expected, and why or why not. Here is why. Reflection checks whether the decision had its intended results and whether you gave proper weight to the ethical principles, the situational influences and your duties to stakeholders. A surprise usually means you missed a stakeholder or underrated a pressure, and spotting that improves the next decision.
+
+HEART Q: Does the Professional Conduct staff need a complaint before it can open an inquiry?
+
+LEWIS: Answer. No. Here is why. A written complaint is only one of five triggers. An inquiry can also start from self disclosure on the annual Professional Conduct Statement, from public sources such as the news, from an exam proctor's report, or from CFA Institute's own analysis of exam materials and monitoring of social media.
+
+LEWIS Q: Staff find a violation and propose a sanction, and the member rejects it. What happens next?
+
+HEART: Answer. The case is referred to a disciplinary review panel of CFA Institute members for a hearing. Here is why. Staff can investigate and propose, but they do not get the final word over the member's objection. That right to a hearing before a panel of peers, who decide the matter, is part of the fair process the program promises to members and candidates.
+
+HEART Q: The Code of Ethics says to place two things above your own personal interests. What are they, and is your employer one of them?
+
+LEWIS: Answer. The integrity of the investment profession, and your clients' interests. No, the employer is not named. Here is why. That part of the Code is about the profession and the people it serves. The employer does appear in Standard three A, Loyalty, Prudence, and Care, but only to say the client comes before the employer. So any answer that says the Code puts your employer first is wrong.
+
+## Key takeaways
+
+HEART: First, a few memory hooks.
+
+LEWIS: For what ethics is: balance, not sacrifice. Weigh your own interest against the effect on every stakeholder.
+
+HEART: For the two levels of duty: suitable means it fits, fiduciary means the client's best interest comes first.
+
+LEWIS: For the three challenges: me, them and now. Overconfidence about me, situational pressure from them, and the pull of now over later. And a rulebook answers can I, while ethics answers should I.
+
+HEART: For law versus ethics: the law is the floor, and it usually arrives after the damage. Not every unethical act is illegal, and not every illegal act is unethical.
+
+LEWIS: For the framework: I Consider Doing Right. Identify, consider, decide and act, reflect. Facts, stakeholders, duties, principles and conflicts belong to identify. Influences, guidance and alternatives belong to consider.
+
+HEART: For what starts an inquiry, five sources: self disclosure, a written complaint, the news, a proctor, and CFA Institute's own eyes on exam materials and social media. Any one of them is enough.
+
+LEWIS: For enforcement: staff investigate and propose. Accept, and it takes effect. Reject, and a panel of members hears the case. A cautionary letter is a warning, not a sanction, and there are no fines.
+
+HEART: For the Code: six principles, the spirit. The Standards: seven groups, the letter. The Code puts the profession and clients above yourself, and the employer is not in that line.
+
+LEWIS: For the order of the seven Standards, tell it as a story: me, the market, my clients, my employer, my work, my conflicts, and the CFA name. That is Professionalism, then Integrity of Capital Markets, then Duties to Clients, then Duties to Employers, then Investment Analysis, Recommendations, and Actions, then Conflicts of Interest, and last, Responsibilities as a CFA Institute Member or CFA Candidate.
+
+HEART: For the counts, read them like a phone number: five two five, three three three, two. Twenty three in all.
+
+LEWIS: And for the twenty twenty four changes: competence arrived, costs get disclosed, and conflicts get avoided where possible. That is Standard one E, Standard five B and Standard six A.
+
+HEART: Now, how you would say the big ideas to a senior leader.
+
+LEWIS: On why ethics pays: when investors suspect they are being misled, they invest less, demand higher returns, and money flows to the wrong businesses. The jargon is stakeholders, the cost of capital and the misallocation of capital.
+
+HEART: On the law: being legal is the minimum. Rules arrive after the damage, so the real question is whether we should, not whether we can. The jargon is ethical versus legal standards and a rules based compliance culture.
+
+LEWIS: On hard calls: before deciding, list everyone affected and every conflict, get outside views, compare the options, then check the result afterward. The jargon is the ethical decision making framework: identify, consider, decide and act, reflect.
+
+HEART: On advice: suitable means the product fits the client. Fiduciary means the client's best interest wins, even when it pays us less. The jargon is the suitability standard versus the fiduciary standard.
+
+LEWIS: And on the CFA rules: six principles set the tone, seven groups of rules spell out the duties, and enforcement can take the designation away. The jargon is the Code of Ethics, the Standards of Professional Conduct and the Professional Conduct Program.
